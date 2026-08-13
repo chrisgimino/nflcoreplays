@@ -1,0 +1,235 @@
+{
+  "title": "NFL Preseason Core Plays",
+  "updated": "2026-08-13T18:19:00+00:00",
+  "sections": [
+    {
+      "position": "QB",
+      "players": [
+        {
+          "rank": 1,
+          "players": "Luke Altmyer",
+          "core": true,
+          "notes": "Will play every snap that Josh Dobbs (signed this week) does not.  2.5 to 3 quarters likely."
+        },
+        {
+          "rank": 2,
+          "players": "Trey Lance",
+          "core": false,
+          "notes": "Expecting roughly a half of playing time, with a noteworthy cast and rushing floor."
+        },
+        {
+          "rank": 3,
+          "players": "Anthony Richardson",
+          "core": false,
+          "notes": "Expecting roughly a half of playing time, with upside to produce rushing TD/yardage."
+        },
+        {
+          "rank": 4,
+          "players": "Tommy DeVito",
+          "core": false,
+          "notes": "Drake Maye will not play, leaving up to half the game available with multiple dangerous receivers."
+        },
+        {
+          "rank": 5,
+          "players": "Graham Mertz",
+          "core": false,
+          "notes": "With Davis Mills being an established vet, it is fair to expect at least half the game with upside for more."
+        },
+        {
+          "rank": 6,
+          "players": "Riley Leonard",
+          "core": false,
+          "notes": "Will play in the 2nd half against deep reserves."
+        },
+        {
+          "rank": 7,
+          "players": "DJ Uiagalelei",
+          "core": false,
+          "notes": "Rushing-upside QB that will play up to 1/2 the game with some upside for more."
+        },
+        {
+          "rank": 8,
+          "players": "Fernando Mendoza",
+          "core": false,
+          "notes": "Unknown playing time, but 4 QBs are available here.  Should he play 2 quarters, could exceed others."
+        }
+      ]
+    },
+    {
+      "position": "RB",
+      "players": [
+        {
+          "rank": 1,
+          "players": "Khalil Herbert / Sincere McCormick",
+          "core": true,
+          "notes": "Thin 49ers RBs with potential to carry substantial volume."
+        },
+        {
+          "rank": 2,
+          "players": "Seth McGowan",
+          "core": false,
+          "notes": "If DJ Giddens does not play, they will have 4 RBs and he would be the top talent/candidate for development."
+        },
+        {
+          "rank": 3,
+          "players": "Lan Larison / Terrell Jennings",
+          "core": false,
+          "notes": "The team conducted joint practice, and it's fair to assume top runners will be limted at best."
+        },
+        {
+          "rank": 4,
+          "players": "Noah Whittington",
+          "core": false,
+          "notes": "I loved Whittington in college, and he fits the mold for someone who can break a long one, very good speed profile."
+        },
+        {
+          "rank": 5,
+          "players": "Nick Singleton",
+          "core": false,
+          "notes": "One of the biggest college names here, TEN starters could play more than we'd like, but Titans should want to get a good look here."
+        },
+        {
+          "rank": 6,
+          "players": "Kaleb Johnson / Eli Heidenreich",
+          "core": false,
+          "notes": "Watch for news. If Heidenreich available, an ok dart. If out, the door is open for additional Kaleb volume."
+        },
+        {
+          "rank": 7,
+          "players": "Saylors / Small / Robichaux / Blackshear",
+          "core": false,
+          "notes": "Potential volume in DET with starters unavailable, but limited clarity on where it lands among them."
+        },
+        {
+          "rank": 8,
+          "players": "MarShawn Lloyd",
+          "core": false,
+          "notes": "Efficiency option with passing game skills and need to be seen on tape."
+        }
+      ]
+    },
+    {
+      "position": "WR",
+      "players": [
+        {
+          "rank": 1,
+          "players": "Ja'Marr Chase",
+          "core": true,
+          "notes": "Chase and the Bengals starters could play upwards of 1Q, Chase can certainly cash in during that time."
+        },
+        {
+          "rank": 2,
+          "players": "Efton Chism III / Kyle Williams",
+          "core": true,
+          "notes": "Chism was Preszn 2025 MVP, Kyle Williams is a former top pick with a lot to prove."
+        },
+        {
+          "rank": 3,
+          "players": "Deion Burks",
+          "core": true,
+          "notes": "IND WRs are banged up with Pierce, Downs and Treadwell dealing with injuries, Burks has gamebreaking speed."
+        },
+        {
+          "rank": 4,
+          "players": "Savion Williams",
+          "core": false,
+          "notes": "GB WR room is crowded, but expect 3-4 of those top guys to depart pretty early."
+        },
+        {
+          "rank": 5,
+          "players": "Colbie Young",
+          "core": false,
+          "notes": "Has received a ton of buzz during camp for the Bengals, quality of targets with CIN backup QBs is better than most."
+        },
+        {
+          "rank": 6,
+          "players": "Malik Benson",
+          "core": false,
+          "notes": "Another WR making a splash during camp, exciting athlete who could get some time with Mendoza and Cousins."
+        },
+        {
+          "rank": 7,
+          "players": "Xavier Weaver",
+          "core": false,
+          "notes": "Weaver saw 5 targets in the HOF game, and profiles as an athlete with big play ability."
+        },
+        {
+          "rank": 8,
+          "players": "Brenen Thompson",
+          "core": false,
+          "notes": "Shifty, slot WR who could benefit from shorter route tree in preseason."
+        }
+      ]
+    },
+    {
+      "position": "TE",
+      "players": [
+        {
+          "rank": 1,
+          "players": "Jackson Meeks",
+          "core": true,
+          "notes": "WR converted to TE, DET TE room is thinning quickly. He has legit shot to play the whole game."
+        },
+        {
+          "rank": 2,
+          "players": "Eli Raridon",
+          "core": true,
+          "notes": "Early draft pick for NE who displayed nice pass-catching ability in college."
+        },
+        {
+          "rank": 3,
+          "players": "Marlin Klein",
+          "core": false,
+          "notes": "Klein is having a strong camp, and also was a strong producer in the passing game."
+        },
+        {
+          "rank": 4,
+          "players": "Tanner Hudson",
+          "core": false,
+          "notes": "One of the best preseason producers amongst TEs maybe ever."
+        }
+      ]
+    },
+    {
+      "position": "DST",
+      "players": [
+        {
+          "rank": 1,
+          "players": "Cincinnati Bengals",
+          "core": false,
+          "notes": "Defenses ranked based on projections in LineupHQ."
+        },
+        {
+          "rank": 2,
+          "players": "Houston Texans",
+          "core": false,
+          "notes": "Defenses ranked based on projections in LineupHQ."
+        },
+        {
+          "rank": 3,
+          "players": "Tennessee Titans",
+          "core": false,
+          "notes": "Defenses ranked based on projections in LineupHQ."
+        },
+        {
+          "rank": 4,
+          "players": "Indianapolis Colts",
+          "core": false,
+          "notes": "Defenses ranked based on projections in LineupHQ."
+        },
+        {
+          "rank": 5,
+          "players": "Green Bay Packers",
+          "core": false,
+          "notes": "Defenses ranked based on projections in LineupHQ."
+        },
+        {
+          "rank": 6,
+          "players": "Las Vegas Raiders",
+          "core": false,
+          "notes": "Defenses ranked based on projections in LineupHQ."
+        }
+      ]
+    }
+  ]
+}
