@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-13T15:42",
+  "updated": "2026-08-13T16:42",
   "sections": [
     {
       "position": "QB",
@@ -52,29 +52,24 @@
           "players": "Fernando Mendoza",
           "core": false,
           "notes": "Unknown playing time, but 4 QBs are available here.  Should he play 2 quarters, could exceed others."
-        }
-      ]
-    },
-    {
-      "position": "RB",
-      "players": [
+        },
         {
           "rank": 1,
-          "players": "Khalil Herbert / Sincere McCormick",
+          "players": "Lan Larison / Jam Miller",
           "core": true,
-          "notes": "Thin 49ers RB room with potential to carry substantial volume."
+          "notes": "UPDATE: Terrell Jenning to IR means Larison and Miler should see high floor on usage."
         },
         {
           "rank": 2,
-          "players": "Seth McGowan",
+          "players": "Khalil Herbert / Sincere McCormick",
           "core": false,
-          "notes": "If DJ Giddens does not play, they will have 4 RBs and he would be the top talent/candidate for development."
+          "notes": "Thin 49ers RB room with potential to carry substantial volume."
         },
         {
           "rank": 3,
-          "players": "Lan Larison / Terrell Jennings",
+          "players": "Seth McGowan",
           "core": false,
-          "notes": "The team conducted joint practice, and it's fair to assume top runners will be limited at best."
+          "notes": "If DJ Giddens does not play, they will have 4 RBs and he would be the top talent/candidate for development."
         },
         {
           "rank": 4,
