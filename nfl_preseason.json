@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-13T16:42",
+  "updated": "2026-08-13T18:15",
   "sections": [
     {
       "position": "QB",
@@ -13,27 +13,27 @@
         },
         {
           "rank": 2,
+          "players": "Graham Mertz",
+          "core": false,
+          "notes": "Aaron Wilson reports Mills will play \"only briefly\", leaving \"the majority of the game\" for Mertz"
+        },
+        {
+          "rank": 3,
           "players": "Trey Lance",
           "core": false,
           "notes": "Expecting roughly a half of playing time, with a noteworthy cast and rushing floor."
         },
         {
-          "rank": 3,
+          "rank": 4,
           "players": "Anthony Richardson",
           "core": false,
           "notes": "Expecting roughly a half of playing time, with upside to produce rushing TD/yardage."
         },
         {
-          "rank": 4,
+          "rank": 5,
           "players": "Tommy DeVito",
           "core": false,
           "notes": "Drake Maye will not play, leaving up to half the game available with multiple dangerous receivers."
-        },
-        {
-          "rank": 5,
-          "players": "Graham Mertz",
-          "core": false,
-          "notes": "With Davis Mills being an established vet, it is fair to expect at least half the game with upside for more."
         },
         {
           "rank": 6,
@@ -67,15 +67,15 @@
         },
         {
           "rank": 3,
-          "players": "Seth McGowan",
-          "core": false,
-          "notes": "If DJ Giddens does not play, they will have 4 RBs and he would be the top talent/candidate for development."
-        },
-        {
-          "rank": 4,
           "players": "Noah Whittington",
           "core": false,
           "notes": "I loved Whittington in college, and he fits the mold for someone who can break a long one; very good speed profile."
+        },
+        {
+          "rank": 4,
+          "players": "Seth McGowan",
+          "core": false,
+          "notes": "If DJ Giddens does not play, they will have 4 RBs and he would be the top talent/candidate for development."
         },
         {
           "rank": 5,
