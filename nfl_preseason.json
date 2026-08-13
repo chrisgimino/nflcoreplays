@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-13T18:19:00+00:00",
+  "updated": "2026-08-13T15:05",
   "sections": [
     {
       "position": "QB",
@@ -45,7 +45,7 @@
           "rank": 7,
           "players": "DJ Uiagalelei",
           "core": false,
-          "notes": "Rushing-upside QB that will play up to 1/2 the game with some upside for more."
+          "notes": "Rushing-upside QB that will play up to half the game with some upside for more."
         },
         {
           "rank": 8,
@@ -74,25 +74,25 @@
           "rank": 3,
           "players": "Lan Larison / Terrell Jennings",
           "core": false,
-          "notes": "The team conducted joint practice, and it's fair to assume top runners will be limted at best."
+          "notes": "The team conducted joint practice, and it's fair to assume top runners will be limited at best."
         },
         {
           "rank": 4,
           "players": "Noah Whittington",
           "core": false,
-          "notes": "I loved Whittington in college, and he fits the mold for someone who can break a long one, very good speed profile."
+          "notes": "I loved Whittington in college, and he fits the mold for someone who can break a long one; very good speed profile."
         },
         {
           "rank": 5,
           "players": "Nick Singleton",
           "core": false,
-          "notes": "One of the biggest college names here, TEN starters could play more than we'd like, but Titans should want to get a good look here."
+          "notes": "One of the biggest college names here. TEN starters could play more than we'd like, but they should want to get a good look here."
         },
         {
           "rank": 6,
           "players": "Kaleb Johnson / Eli Heidenreich",
           "core": false,
-          "notes": "Watch for news. If Heidenreich available, an ok dart. If out, the door is open for additional Kaleb volume."
+          "notes": "Watch for news. If Heidenreich available, an okay dart. If out, the door is open for additional Kaleb volume."
         },
         {
           "rank": 7,
@@ -104,7 +104,7 @@
           "rank": 8,
           "players": "MarShawn Lloyd",
           "core": false,
-          "notes": "Efficiency option with passing game skills and need to be seen on tape."
+          "notes": "Efficiency option with passing-game skills and need to be seen on tape."
         }
       ]
     },
@@ -115,19 +115,19 @@
           "rank": 1,
           "players": "Ja'Marr Chase",
           "core": true,
-          "notes": "Chase and the Bengals starters could play upwards of 1Q, Chase can certainly cash in during that time."
+          "notes": "Chase and the Bengals starters could play upwards of 1 quarter; Chase can certainly cash in during that time."
         },
         {
           "rank": 2,
           "players": "Efton Chism III / Kyle Williams",
           "core": true,
-          "notes": "Chism was Preszn 2025 MVP, Kyle Williams is a former top pick with a lot to prove."
+          "notes": "Chism was Preszn 2025 MVP; Williams is a former top pick with a lot to prove."
         },
         {
           "rank": 3,
           "players": "Deion Burks",
           "core": true,
-          "notes": "IND WRs are banged up with Pierce, Downs and Treadwell dealing with injuries, Burks has gamebreaking speed."
+          "notes": "IND WRs are banged up, with Pierce, Downs, and Treadwell dealing with injuries; Burks has gamebreaking speed."
         },
         {
           "rank": 4,
@@ -139,19 +139,19 @@
           "rank": 5,
           "players": "Colbie Young",
           "core": false,
-          "notes": "Has received a ton of buzz during camp for the Bengals, quality of targets with CIN backup QBs is better than most."
+          "notes": "Has received a ton of buzz during camp for the Bengals; quality of targets with Bengals backup QBs is better than most."
         },
         {
           "rank": 6,
           "players": "Malik Benson",
           "core": false,
-          "notes": "Another WR making a splash during camp, exciting athlete who could get some time with Mendoza and Cousins."
+          "notes": "Another WR making a splash during camp; exciting athlete who could get some time with Mendoza and Cousins."
         },
         {
           "rank": 7,
           "players": "Xavier Weaver",
           "core": false,
-          "notes": "Weaver saw 5 targets in the HOF game, and profiles as an athlete with big play ability."
+          "notes": "Weaver saw 5 targets in the HOF game and profiles as an athlete with big-play ability."
         },
         {
           "rank": 8,
@@ -168,7 +168,7 @@
           "rank": 1,
           "players": "Jackson Meeks",
           "core": true,
-          "notes": "WR converted to TE, DET TE room is thinning quickly. He has legit shot to play the whole game."
+          "notes": "WR converted to TE; Detroit TE room is thinning quickly. He has legit shot to play the whole game."
         },
         {
           "rank": 2,
@@ -180,7 +180,7 @@
           "rank": 3,
           "players": "Marlin Klein",
           "core": false,
-          "notes": "Klein is having a strong camp, and also was a strong producer in the passing game."
+          "notes": "Klein is having a strong camp and also was a strong producer in the passing game."
         },
         {
           "rank": 4,
@@ -195,37 +195,37 @@
       "players": [
         {
           "rank": 1,
-          "players": "Cincinnati Bengals",
+          "players": "CIN",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 2,
-          "players": "Houston Texans",
+          "players": "HOU",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 3,
-          "players": "Tennessee Titans",
+          "players": "TEN",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 4,
-          "players": "Indianapolis Colts",
+          "players": "IND",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 5,
-          "players": "Green Bay Packers",
+          "players": "GB",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 6,
-          "players": "Las Vegas Raiders",
+          "players": "LV",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         }
