@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-13T15:05",
+  "updated": "2026-08-13T15:30",
   "sections": [
     {
       "position": "QB",
@@ -62,7 +62,7 @@
           "rank": 1,
           "players": "Khalil Herbert / Sincere McCormick",
           "core": true,
-          "notes": "Thin 49ers RBs with potential to carry substantial volume."
+          "notes": "Thin 49ers RB room with potential to carry substantial volume."
         },
         {
           "rank": 2,
@@ -195,37 +195,37 @@
       "players": [
         {
           "rank": 1,
-          "players": "CIN",
+          "players": "Cincinnati Bengals",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 2,
-          "players": "HOU",
+          "players": "Houston Texans",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 3,
-          "players": "TEN",
+          "players": "Tennessee Titans",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 4,
-          "players": "IND",
+          "players": "Indianapolis Colts",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 5,
-          "players": "GB",
+          "players": "Green Bay Packers",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         },
         {
           "rank": 6,
-          "players": "LV",
+          "players": "Las Vegas Raiders",
           "core": false,
           "notes": "Defenses ranked based on projections in LineupHQ."
         }
