@@ -195,7 +195,6 @@
       <div class="empty-state">Loading slate&hellip;</div>
     </div>
 
-    <footer>Powered by a Google Sheet &rarr; EC2 &rarr; GitHub pipeline. Updates automatically.</footer>
   </div>
 
 <script>
@@ -275,7 +274,7 @@ fetch(DATA_URL, {cache: "no-store"})
   .catch(err => {
     document.getElementById("updated").textContent = "Update failed";
     document.getElementById("content").innerHTML =
-      `<div class="error-state">Couldn't load slate data (${escapeHtml(err.message)}). Check that data/nfl_preseason.json exists in this repo.</div>`;
+      `<div class="error-state">Couldn't load slate data (${escapeHtml(err.message)}). Check that nfl_preseason.json exists at the repo root.</div>`;
   });
 </script>
 </body>
