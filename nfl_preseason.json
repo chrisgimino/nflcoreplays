@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-13T18:16",
+  "updated": "2026-08-13T18:23",
   "sections": [
     {
       "position": "QB",
@@ -61,21 +61,21 @@
         },
         {
           "rank": 2,
-          "players": "Khalil Herbert / Sincere McCormick",
-          "core": false,
-          "notes": "Thin 49ers RB room with potential to carry substantial volume."
-        },
-        {
-          "rank": 3,
           "players": "Noah Whittington",
           "core": false,
           "notes": "I loved Whittington in college, and he fits the mold for someone who can break a long one; very good speed profile."
         },
         {
-          "rank": 4,
+          "rank": 3,
           "players": "Seth McGowan",
           "core": false,
           "notes": "If DJ Giddens does not play, they will have 4 RBs and he would be the top talent/candidate for development."
+        },
+        {
+          "rank": 4,
+          "players": "Khalil Herbert / Sincere McCormick",
+          "core": false,
+          "notes": "Thin 49ers RB room with potential to carry substantial volume."
         },
         {
           "rank": 5,
@@ -85,21 +85,15 @@
         },
         {
           "rank": 6,
-          "players": "Kaleb Johnson / Eli Heidenreich",
+          "players": "MarShawn Lloyd",
           "core": false,
-          "notes": "Watch for news. If Heidenreich available, an okay dart. If out, the door is open for additional Kaleb volume."
+          "notes": "Efficiency option with passing-game skills and need to be seen on tape."
         },
         {
           "rank": 7,
           "players": "Saylors / Small / Robichaux / Blackshear",
           "core": false,
           "notes": "Potential volume in DET with starters unavailable, but limited clarity on where it lands among them."
-        },
-        {
-          "rank": 8,
-          "players": "MarShawn Lloyd",
-          "core": false,
-          "notes": "Efficiency option with passing-game skills and need to be seen on tape."
         }
       ]
     },
@@ -121,7 +115,7 @@
         {
           "rank": 3,
           "players": "Deion Burks",
-          "core": true,
+          "core": false,
           "notes": "IND WRs are banged up, with Pierce, Downs, and Treadwell dealing with injuries; Burks has gamebreaking speed."
         },
         {
@@ -161,9 +155,9 @@
       "players": [
         {
           "rank": 1,
-          "players": "Jackson Meeks",
+          "players": "Marlin Klein",
           "core": true,
-          "notes": "WR converted to TE; Detroit TE room is thinning quickly. He has legit shot to play the whole game."
+          "notes": "Klein is having a strong camp and also was a strong producer in the passing game."
         },
         {
           "rank": 2,
@@ -173,9 +167,9 @@
         },
         {
           "rank": 3,
-          "players": "Marlin Klein",
+          "players": "Jackson Meeks",
           "core": false,
-          "notes": "Klein is having a strong camp and also was a strong producer in the passing game."
+          "notes": "WR converted to TE; Detroit TE room is thinning quickly. He has legit shot to play the whole game."
         },
         {
           "rank": 4,
