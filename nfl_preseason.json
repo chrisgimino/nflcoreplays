@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T18:39",
+  "updated": "2026-08-14T18:46",
   "sections": [
     {
       "position": "QB",
@@ -155,6 +155,15 @@
       "players": [
         {
           "rank": 1,
+          "players": "Ted Hurst III",
+          "core": true,
+          "notes": "With dings and dents across their starting WR group, live reps will help fast forward his development.",
+          "salary": null,
+          "fpts": 4.8,
+          "opp": "NYJ"
+        },
+        {
+          "rank": 2,
           "players": "Caleb Douglas",
           "core": true,
           "notes": "Sits atop a media depth chart, but don't be fooled.  Reps > protective measures on this team.",
@@ -163,16 +172,16 @@
           "opp": "WAS"
         },
         {
-          "rank": 2,
-          "players": "Ted Hurst III",
-          "core": true,
-          "notes": "With dings and dents across their starting WR group, live reps will help fast forward his development.",
+          "rank": 3,
+          "players": "Eric Rivers Jr.",
+          "core": false,
+          "notes": "Looks like a condensed rotation.  Dennis Houston, Garrett Greene, Dean Patterson also going to play a lot.",
           "salary": null,
-          "fpts": 4.4,
+          "fpts": 3.5,
           "opp": "NYJ"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "players": "Omar Cooper Jr.",
           "core": false,
           "notes": "NYJ strategy is set on 2 TEs, Wilson and Mitchell in season...it's open season for development reps in preseason.",
@@ -181,7 +190,7 @@
           "opp": "TB"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "players": "Pat Bryant",
           "core": false,
           "notes": "Having a standout camp and could be a first-look player early in the game. Red-zone threat.",
@@ -190,7 +199,7 @@
           "opp": "ATL"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "players": "Zachariah Branch",
           "core": false,
           "notes": "Risk of starter treatment, but potential first-read player with starting offense.  Also has snap upside.",
@@ -199,7 +208,7 @@
           "opp": "DEN"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "players": "Dylan Drummond",
           "core": false,
           "notes": "Preseason hero of the past could emerge yet again as this game progresses.",
@@ -208,7 +217,7 @@
           "opp": "DEN"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "players": "Chris Blair",
           "core": false,
           "notes": "Preseason hero of the past could emerge yet again as this game progresses. 52-yard TD in 2025.",
@@ -217,22 +226,13 @@
           "opp": "DEN"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "players": "Antonio Williams",
           "core": false,
           "notes": "Diggs addition takes some pressure off coaches and allows for the risk of more preseason snaps.",
           "salary": null,
           "fpts": 3.2,
           "opp": "MIA"
-        },
-        {
-          "rank": 9,
-          "players": "Eric Rivers Jr.",
-          "core": false,
-          "notes": "Speedy late-game TB option (among a few others) for tournament pivoting.",
-          "salary": null,
-          "fpts": 3.0,
-          "opp": "NYJ"
         }
       ]
     },
