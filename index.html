@@ -18,6 +18,7 @@
     --rb:#3ecf8e;
     --wr:#e85d8e;
     --te:#a86bee;
+    --k:#f2d94e;
     --dst:#ef7a4d;
   }
   *{box-sizing:border-box;}
@@ -28,7 +29,7 @@
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing:antialiased;
   }
-  .wrap{max-width:920px;margin:0 auto;padding:22px 16px 60px;}
+  .wrap{max-width:960px;margin:0 auto;padding:22px 16px 60px;}
 
   header.masthead{
     display:flex;
@@ -38,7 +39,7 @@
     gap:8px 16px;
     border-bottom:2px solid var(--core);
     padding-bottom:14px;
-    margin-bottom:22px;
+    margin-bottom:16px;
   }
   header.masthead .title-block h1{
     font-size:1.5rem;
@@ -68,9 +69,29 @@
   }
   @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
 
+  /* Tabs */
+  .tabs{
+    display:flex;gap:6px;
+    margin-bottom:18px;
+    border-bottom:1px solid var(--line);
+  }
+  .tab-btn{
+    appearance:none;background:none;border:none;
+    color:var(--text-dim);
+    font-size:0.82rem;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;
+    padding:9px 4px 10px;
+    margin-right:18px;
+    cursor:pointer;
+    border-bottom:2px solid transparent;
+    transition:color .15s ease, border-color .15s ease;
+  }
+  .tab-btn.active{color:var(--core);border-bottom-color:var(--core);}
+  .tab-panel{display:none;}
+  .tab-panel.active{display:block;}
+
   .search{
     width:100%;
-    margin-bottom:24px;
+    margin-bottom:18px;
     padding:10px 14px;
     background:var(--panel);
     border:1px solid var(--line);
@@ -109,6 +130,7 @@
   .pos-badge.RB{background:var(--rb);}
   .pos-badge.WR{background:var(--wr);}
   .pos-badge.TE{background:var(--te);}
+  .pos-badge.K{background:var(--k);}
   .pos-badge.DST{background:var(--dst);}
   .pos-count{color:var(--text-dim);font-size:0.75rem;}
   .pos-head hr{flex:1;border:none;border-top:1px solid var(--line);}
@@ -158,19 +180,93 @@
     line-height:1.4;
   }
 
-  footer{
-    text-align:center;color:var(--text-dim);font-size:0.72rem;
-    margin-top:36px;letter-spacing:0.03em;
-  }
-
   .empty-state, .error-state{
     color:var(--text-dim);text-align:center;padding:40px 0;font-size:0.9rem;
   }
+
+  /* Depth chart tab */
+  .team-select{
+    width:100%;
+    max-width:220px;
+    margin-bottom:16px;
+    padding:10px 12px;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:8px;
+    color:var(--text);
+    font-size:0.88rem;
+    font-weight:700;
+    letter-spacing:0.02em;
+    appearance:none;
+    -webkit-appearance:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a93a3' stroke-width='2'><polyline points='6 9 12 15 18 9'/></svg>");
+    background-repeat:no-repeat;
+    background-position:right 12px center;
+    background-size:16px;
+    padding-right:36px;
+    cursor:pointer;
+  }
+  .team-select:focus{outline:none;border-color:var(--core);}
+
+  .depth-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));
+    gap:14px;
+  }
+  .depth-col{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:10px 12px 12px;
+  }
+  .depth-col-head{
+    display:flex;align-items:center;justify-content:space-between;
+    margin-bottom:6px;
+  }
+  .depth-row{
+    display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;
+    padding:4px 0;
+    border-bottom:1px solid rgba(255,255,255,0.04);
+    font-size:0.82rem;
+  }
+  .depth-row:last-child{border-bottom:none;}
+  .depth-row .d-num{
+    color:var(--text-dim);
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    font-size:0.72rem;
+    width:14px;flex-shrink:0;
+  }
+  .depth-row .d-name{flex:1;font-weight:600;}
+  .depth-row .d-note-flag{
+    color:var(--core);
+    font-size:0.68rem;
+    flex-shrink:0;
+  }
+  .depth-row .d-note-text{
+    flex-basis:100%;
+    color:var(--core);
+    font-size:0.74rem;
+    line-height:1.35;
+    padding:2px 0 2px 22px;
+  }
+  .depth-more-btn{
+    appearance:none;background:none;border:none;
+    color:var(--text-dim);
+    font-size:0.72rem;font-weight:700;
+    padding:6px 0 2px;
+    cursor:pointer;
+    text-decoration:underline;
+    text-underline-offset:2px;
+  }
+  .depth-more-btn:hover{color:var(--core);}
+  .depth-row.hidden-row{display:none;}
 
   @media (max-width:520px){
     header.masthead{flex-direction:column;align-items:flex-start;}
     header.masthead .updated{text-align:left;}
     .title-block h1{font-size:1.25rem;}
+    .depth-grid{grid-template-columns:repeat(2, 1fr);}
+    .team-select{max-width:none;}
   }
 </style>
 </head>
@@ -184,21 +280,41 @@
       <div class="updated" id="updated"><span class="dot"></span>loading&hellip;</div>
     </header>
 
-    <input class="search" id="search" type="text" placeholder="Search players, positions, or notes&hellip;">
-
-    <div class="legend">
-      <span class="flag">&#9650; CORE</span>
-      <span>= our top-conviction preseason plays</span>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="core">Core Plays</button>
+      <button class="tab-btn" data-tab="depth">Depth Charts</button>
     </div>
 
-    <div id="content">
-      <div class="empty-state">Loading slate&hellip;</div>
+    <div class="tab-panel active" id="tab-core">
+      <input class="search" id="search" type="text" placeholder="Search players, positions, or notes&hellip;">
+
+      <div class="legend">
+        <span class="flag">&#9650; CORE</span>
+        <span>= our top-conviction preseason plays</span>
+      </div>
+
+      <div id="content">
+        <div class="empty-state">Loading slate&hellip;</div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-depth">
+      <select class="team-select" id="team-select"></select>
+      <div class="legend">
+        <span class="flag" style="color:var(--core);border-color:var(--core);">&#9679;</span>
+        <span>&#9873; = injury or usage note</span>
+      </div>
+      <div id="depth-content">
+        <div class="empty-state">Loading depth charts&hellip;</div>
+      </div>
     </div>
 
   </div>
 
 <script>
 const DATA_URL = "nfl_preseason.json";
+const POS_ORDER = ["QB", "RB", "WR", "TE", "K"];
+const DEFAULT_VISIBLE = 3; // rows shown per position before "+N more"
 
 function fmtTimestamp(iso){
   try{
@@ -215,6 +331,17 @@ function escapeHtml(str){
   }[m]));
 }
 
+/* ---------- Tabs ---------- */
+document.querySelectorAll(".tab-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+  });
+});
+
+/* ---------- Core Plays tab ---------- */
 function renderSection(section){
   const posClass = section.position.toUpperCase();
   const rows = section.players.map(p => `
@@ -255,6 +382,66 @@ function applyFilter(term){
   });
 }
 
+/* ---------- Depth Charts tab ---------- */
+let DEPTH_DATA = {};
+
+function renderTeamPicker(){
+  const select = document.getElementById("team-select");
+  const teams = Object.keys(DEPTH_DATA).sort();
+  select.innerHTML = teams.map(t => `<option value="${t}">${t}</option>`).join("");
+  select.addEventListener("change", () => renderDepthChart(select.value));
+  if (teams.length) renderDepthChart(teams[0]);
+}
+
+function renderDepthChart(team){
+  const positions = DEPTH_DATA[team] || {};
+  const orderedPos = POS_ORDER.filter(p => positions[p] && positions[p].length);
+
+  if (!orderedPos.length){
+    document.getElementById("depth-content").innerHTML =
+      '<div class="empty-state">No depth chart data for this team.</div>';
+    return;
+  }
+
+  const cols = orderedPos.map(pos => {
+    const players = positions[pos];
+    const rows = players.map((p, i) => `
+      <div class="depth-row ${i >= DEFAULT_VISIBLE ? "hidden-row" : ""}">
+        <span class="d-num">${p.depth}</span>
+        <span class="d-name">${escapeHtml(p.name)}</span>
+        ${p.note ? `<span class="d-note-flag">&#9873;</span><span class="d-note-text">${escapeHtml(p.note)}</span>` : ""}
+      </div>
+    `).join("");
+
+    const extra = players.length - DEFAULT_VISIBLE;
+    const moreBtn = extra > 0
+      ? `<button class="depth-more-btn" type="button">+${extra} more</button>`
+      : "";
+
+    return `
+      <div class="depth-col" data-position="${pos}">
+        <div class="depth-col-head">
+          <span class="pos-badge ${pos}">${pos}</span>
+        </div>
+        ${rows}
+        ${moreBtn}
+      </div>
+    `;
+  }).join("");
+
+  document.getElementById("depth-content").innerHTML =
+    `<div class="depth-grid">${cols}</div>`;
+
+  document.querySelectorAll(".depth-more-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const col = btn.closest(".depth-col");
+      col.querySelectorAll(".hidden-row").forEach(r => r.classList.remove("hidden-row"));
+      btn.remove();
+    });
+  });
+}
+
+/* ---------- Load ---------- */
 fetch(DATA_URL, {cache: "no-store"})
   .then(res => {
     if (!res.ok) throw new Error("HTTP " + res.status);
@@ -263,18 +450,28 @@ fetch(DATA_URL, {cache: "no-store"})
   .then(data => {
     document.getElementById("updated").innerHTML =
       `<span class="dot"></span>Updated ${fmtTimestamp(data.updated)}`;
+
     const content = document.getElementById("content");
     if (!data.sections || !data.sections.length){
       content.innerHTML = '<div class="empty-state">No data available.</div>';
-      return;
+    } else {
+      content.innerHTML = data.sections.map(renderSection).join("");
+      document.getElementById("search").addEventListener("input", e => applyFilter(e.target.value));
     }
-    content.innerHTML = data.sections.map(renderSection).join("");
-    document.getElementById("search").addEventListener("input", e => applyFilter(e.target.value));
+
+    DEPTH_DATA = data.depth_charts || {};
+    if (Object.keys(DEPTH_DATA).length){
+      renderTeamPicker();
+    } else {
+      document.getElementById("depth-content").innerHTML =
+        '<div class="empty-state">No depth chart data available.</div>';
+    }
   })
   .catch(err => {
     document.getElementById("updated").textContent = "Update failed";
-    document.getElementById("content").innerHTML =
-      `<div class="error-state">Couldn't load slate data (${escapeHtml(err.message)}). Check that nfl_preseason.json exists at the repo root.</div>`;
+    const msg = `<div class="error-state">Couldn't load slate data (${escapeHtml(err.message)}). Check that nfl_preseason.json exists at the repo root.</div>`;
+    document.getElementById("content").innerHTML = msg;
+    document.getElementById("depth-content").innerHTML = msg;
   });
 </script>
 </body>
