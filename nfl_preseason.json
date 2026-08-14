@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T17:54",
+  "updated": "2026-08-14T18:06",
   "sections": [
     {
       "position": "QB",
@@ -72,21 +72,21 @@
       "players": [
         {
           "rank": 1,
-          "players": "Josh Williams",
+          "players": "Kaytron Allen",
           "core": true,
+          "notes": "Allen IS the most obvious choice for evaluation reps with no BILL and White.",
+          "salary": null,
+          "fpts": 6.3,
+          "opp": "MIA"
+        },
+        {
+          "rank": 2,
+          "players": "Josh Williams",
+          "core": false,
           "notes": "Tampa Bay may only have 3 RBs that take the majority of work, assuming Irving and Gainwell are limited.",
           "salary": null,
           "fpts": 5.9,
           "opp": "NYJ"
-        },
-        {
-          "rank": 2,
-          "players": "Kaytron Allen",
-          "core": false,
-          "notes": "Joint practices should limit work for White, leaving Allen as the most obvious choice for evaluation reps.",
-          "salary": null,
-          "fpts": 5.6,
-          "opp": "MIA"
         },
         {
           "rank": 3,
@@ -234,7 +234,7 @@
           "core": false,
           "notes": "Having a standout camp and could be a first-look player early in the game. Red-zone threat.",
           "salary": null,
-          "fpts": 3.0,
+          "fpts": 3.5,
           "opp": "ATL"
         }
       ]
