@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T18:06",
+  "updated": "2026-08-14T18:11",
   "sections": [
     {
       "position": "QB",
@@ -16,15 +16,6 @@
         },
         {
           "rank": 2,
-          "players": "Sam Ehlinger",
-          "core": false,
-          "notes": "Will split the game with Stidham. Has enough leg to be a dual threat.",
-          "salary": null,
-          "fpts": 8.2,
-          "opp": "ATL"
-        },
-        {
-          "rank": 3,
           "players": "Jarrett Stidham",
           "core": false,
           "notes": "Will start and play with superior talents in 1st half.",
@@ -33,13 +24,22 @@
           "opp": "ATL"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "players": "Cade Klubnik",
           "core": false,
           "notes": "Will get the bulk of QB work for NYJ. 2 other QBs here behind him.",
           "salary": null,
           "fpts": 7.1,
           "opp": "TB"
+        },
+        {
+          "rank": 4,
+          "players": "Sam Ehlinger",
+          "core": false,
+          "notes": "Will split the game with Stidham. Has enough leg to be a dual threat.",
+          "salary": null,
+          "fpts": 8.0,
+          "opp": "ATL"
         },
         {
           "rank": 5,
@@ -74,7 +74,7 @@
           "rank": 1,
           "players": "Kaytron Allen",
           "core": true,
-          "notes": "Allen IS the most obvious choice for evaluation reps with no BILL and White.",
+          "notes": "Allen is the most obvious choice for evaluation reps with no BILL and White.",
           "salary": null,
           "fpts": 6.3,
           "opp": "MIA"
@@ -185,6 +185,15 @@
         },
         {
           "rank": 4,
+          "players": "Pat Bryant",
+          "core": false,
+          "notes": "Having a standout camp and could be a first-look player early in the game. Red-zone threat.",
+          "salary": null,
+          "fpts": 3.5,
+          "opp": "ATL"
+        },
+        {
+          "rank": 5,
           "players": "Zachariah Branch",
           "core": false,
           "notes": "Risk of starter treatment, but potential first-read player with starting offense.  Also has snap upside.",
@@ -193,7 +202,7 @@
           "opp": "DEN"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "players": "Dylan Drummond",
           "core": false,
           "notes": "Preseason hero of the past could emerge yet again as this game progresses.",
@@ -202,7 +211,7 @@
           "opp": "DEN"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "players": "Chris Blair",
           "core": false,
           "notes": "Preseason hero of the past could emerge yet again as this game progresses. 52-yard TD in 2025.",
@@ -211,7 +220,7 @@
           "opp": "DEN"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "players": "Antonio Williams",
           "core": false,
           "notes": "Diggs addition takes some pressure off coaches and allows for the risk of more preseason snaps.",
@@ -220,22 +229,13 @@
           "opp": "MIA"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "players": "Eric Rivers Jr.",
           "core": false,
           "notes": "Speedy late-game TB option (among a few others) for tournament pivoting.",
           "salary": null,
           "fpts": 3.0,
           "opp": "NYJ"
-        },
-        {
-          "rank": 9,
-          "players": "Pat Bryant",
-          "core": false,
-          "notes": "Having a standout camp and could be a first-look player early in the game. Red-zone threat.",
-          "salary": null,
-          "fpts": 3.5,
-          "opp": "ATL"
         }
       ]
     },
@@ -404,7 +404,7 @@
         {
           "depth": 1,
           "name": "Jaylen Waddle",
-          "note": "DNP 8/11"
+          "note": "Will not play"
         },
         {
           "depth": 2,
@@ -983,7 +983,7 @@
         {
           "depth": 3,
           "name": "Connor Bazelak",
-          "note": "Will start if no Browning"
+          "note": "Will start"
         },
         {
           "depth": 4,
@@ -1147,7 +1147,7 @@
         {
           "depth": 1,
           "name": "Rachaad White",
-          "note": ""
+          "note": "Will not play"
         },
         {
           "depth": 2,
