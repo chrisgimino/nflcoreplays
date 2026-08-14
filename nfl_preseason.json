@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T18:11",
+  "updated": "2026-08-14T18:29",
   "sections": [
     {
       "position": "QB",
@@ -74,9 +74,9 @@
           "rank": 1,
           "players": "Kaytron Allen",
           "core": true,
-          "notes": "Allen is the most obvious choice for evaluation reps with no BILL and White.",
+          "notes": "Allen is the most obvious choice for evaluation reps with no BILL, White, McWeapon.",
           "salary": null,
-          "fpts": 6.3,
+          "fpts": 7.5,
           "opp": "MIA"
         },
         {
@@ -108,6 +108,12 @@
         },
         {
           "rank": 5,
+          "players": "Pierre Strong",
+          "core": false,
+          "notes": "With no White, McNichols, and Bill... the other backs in Washington become very viable. Henry Jr. also viable."
+        },
+        {
+          "rank": 6,
           "players": "Kadarius Calloway",
           "core": false,
           "notes": "A pivot away from Williams and Tucker in a thinner backfield.",
@@ -116,7 +122,7 @@
           "opp": "NYJ"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "players": "Nathan Carter",
           "core": false,
           "notes": "ATL also thin if Bijan/Brian Robinson don't take many reps.  Carter, Sermon, and Goodson competing.",
@@ -125,7 +131,7 @@
           "opp": "DEN"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "players": "Braelon Allen",
           "core": false,
           "notes": "NYJ option in a 5-man group that has potential to see the most work.  Plays early with superior offense.",
@@ -134,22 +140,13 @@
           "opp": "TB"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "players": "Tyler Goodson",
           "core": false,
           "notes": "ATL also thin if Bijan/Brian Robinson don't take many reps.  Carter, Sermon, and Goodson competing.",
           "salary": null,
           "fpts": 4.3,
           "opp": "DEN"
-        },
-        {
-          "rank": 9,
-          "players": "Chip Trayanum",
-          "core": false,
-          "notes": "NYJ option in a 5-man group that has potential to see the most work. Plays later with more rep upside.",
-          "salary": null,
-          "fpts": 4.6,
-          "opp": "TB"
         }
       ]
     },
@@ -372,7 +369,7 @@
         {
           "depth": 1,
           "name": "J.K. Dobbins",
-          "note": "Starters to play 15 snaps"
+          "note": "Not expected to play"
         },
         {
           "depth": 2,
@@ -611,7 +608,7 @@
         {
           "depth": 10,
           "name": "Kevin Coleman Jr.",
-          "note": "DNP 8/12"
+          "note": "Not in uniform"
         },
         {
           "depth": 11,
@@ -1167,7 +1164,7 @@
         {
           "depth": 5,
           "name": "Jeremy McNichols",
-          "note": ""
+          "note": "Will not play"
         },
         {
           "depth": 6,
