@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T12:33",
+  "updated": "2026-08-14T12:38",
   "sections": [
     {
       "position": "QB",
@@ -92,7 +92,7 @@
           "rank": 3,
           "players": "Kaytron Allen",
           "core": false,
-          "notes": "Joint practices should limit and work for White, leaving Allen as the most obvious choice for evaluation reps.",
+          "notes": "Joint practices should limit work for White, leaving Allen as the most obvious choice for evaluation reps.",
           "salary": null,
           "fpts": 5.2,
           "opp": "MIA"
