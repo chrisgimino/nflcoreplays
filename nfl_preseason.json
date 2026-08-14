@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T18:29",
+  "updated": "2026-08-14T18:39",
   "sections": [
     {
       "position": "QB",
@@ -186,7 +186,7 @@
           "core": false,
           "notes": "Having a standout camp and could be a first-look player early in the game. Red-zone threat.",
           "salary": null,
-          "fpts": 3.5,
+          "fpts": 3.7,
           "opp": "ATL"
         },
         {
@@ -250,6 +250,15 @@
         },
         {
           "rank": 2,
+          "players": "Justin Joly",
+          "core": false,
+          "notes": "Very obvious choice for reps with 2 TEs now not in uniform.",
+          "salary": null,
+          "fpts": 2.4,
+          "opp": "ATL"
+        },
+        {
+          "rank": 3,
           "players": "Jelani Woods",
           "core": false,
           "notes": "Yeah, we know. Not again.  But the guy has receiver skills and should have plenty of snaps to get there.",
@@ -258,7 +267,7 @@
           "opp": "TB"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "players": "Will Kacmarek",
           "core": false,
           "notes": "Dulcich hasn't been 100%, so they should progress quickly down the depth chart, leaving upside for the 3rd-round rookie.",
@@ -267,22 +276,13 @@
           "opp": "WAS"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "players": "Devin Culp",
           "core": false,
           "notes": "Not exciting, but there really isn't much to work with on the TE depth chart here, and he should play a bunch.",
           "salary": null,
           "fpts": 2.1,
           "opp": "NYJ"
-        },
-        {
-          "rank": 5,
-          "players": "Justin Joly",
-          "core": false,
-          "notes": "Depth chart has a lot of bodies, and Sean Payton rotates players even in preseason.  That said, very obvious choice for reps.",
-          "salary": null,
-          "fpts": 2.0,
-          "opp": "ATL"
         }
       ]
     },
@@ -421,7 +421,7 @@
         {
           "depth": 5,
           "name": "Marvin Mims Jr.",
-          "note": "Limited 8/11"
+          "note": "Not in uniform"
         },
         {
           "depth": 6,
@@ -431,7 +431,7 @@
         {
           "depth": 7,
           "name": "Michael Bandy",
-          "note": "DNP 8/11"
+          "note": "Not in uniform"
         },
         {
           "depth": 8,
@@ -483,7 +483,7 @@
         {
           "depth": 3,
           "name": "Nate Adkins",
-          "note": "DNP 8/10"
+          "note": "Not in uniform"
         },
         {
           "depth": 4,
@@ -498,7 +498,7 @@
         {
           "depth": 6,
           "name": "Caleb Lohner",
-          "note": ""
+          "note": "Not in uniform"
         },
         {
           "depth": 7,
