@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T12:38",
+  "updated": "2026-08-14T12:51",
   "sections": [
     {
       "position": "QB",
@@ -9,7 +9,7 @@
           "rank": 1,
           "players": "Jalon Daniels",
           "core": false,
-          "notes": "Will split the game with Bazelak, mobile QB. (If no Browning)",
+          "notes": "Mobile QB. Will split the game with Bazelak. (If no Browning)",
           "salary": null,
           "fpts": 8.2,
           "opp": "NYJ"
@@ -18,7 +18,7 @@
           "rank": 2,
           "players": "Sam Ehlinger",
           "core": false,
-          "notes": "Will split the game with Stidham. Has enough leg to be dual threat.",
+          "notes": "Will split the game with Stidham. Has enough leg to be a dual threat.",
           "salary": null,
           "fpts": 8.2,
           "opp": "ATL"
@@ -27,7 +27,7 @@
           "rank": 3,
           "players": "Jarrett Stidham",
           "core": false,
-          "notes": "Will start an play with superior talents in 1st half.",
+          "notes": "Will start and play with superior talents in 1st half.",
           "salary": null,
           "fpts": 8.1,
           "opp": "ATL"
@@ -36,22 +36,22 @@
           "rank": 4,
           "players": "Connor Bazelak",
           "core": false,
-          "notes": "Will start and expected to play the first half.",
+          "notes": "Will start and is expected to play the 1st half.",
           "salary": null,
           "fpts": 6.4,
           "opp": "NYJ"
         },
         {
           "rank": 5,
-          "players": "(Left Blank intentionally)",
+          "players": "(left blank intentionally)",
           "core": false,
-          "notes": "No rank 5. Out of respect for Jayden Daniels, the only legal QB #5."
+          "notes": "No rank #5 out of respect for Jayden Daniels - the only legal QB #5."
         },
         {
           "rank": 6,
           "players": "Jack Strand",
           "core": false,
-          "notes": "Will get the bulk of QB work for ATL once Tua and Cooper rush exit.",
+          "notes": "Will get the bulk of QB work for ATL once Tua and Rush exit.",
           "salary": null,
           "fpts": 6.2,
           "opp": "DEN"
@@ -60,7 +60,7 @@
           "rank": 7,
           "players": "Cade Klubnik",
           "core": false,
-          "notes": "Will get the bulk of QB work for ATL once Geno exits.  2 other QBs here behind him.",
+          "notes": "Will get the bulk of QB work for NYJ once Geno exits.  2 other QBs here behind him.",
           "salary": null,
           "fpts": 5.1,
           "opp": "TB"
@@ -74,7 +74,7 @@
           "rank": 1,
           "players": "Josh Williams",
           "core": true,
-          "notes": "Tampa Bay may only have 3 backs that take the majority of work, assuming Bucky Irving and Gainwell are limited.",
+          "notes": "Tampa Bay may only have 3 RBs that take the majority of work, assuming Irving and Gainwell are limited.",
           "salary": null,
           "fpts": 5.9,
           "opp": "NYJ"
@@ -83,7 +83,7 @@
           "rank": 2,
           "players": "Jonah Coleman",
           "core": false,
-          "notes": "Really impressing the staff in camp, and should get a chance to display it under the lights.",
+          "notes": "Really impressing the staff in camp and should get a chance to display it under the lights.",
           "salary": null,
           "fpts": 5.5,
           "opp": "ATL"
@@ -119,7 +119,7 @@
           "rank": 6,
           "players": "Nathan Carter",
           "core": false,
-          "notes": "ATL also thin if Bijan/Brian Robinson don't take many reps.  Carter, Sermon, and Goodson competing",
+          "notes": "ATL also thin if Bijan/Brian Robinson don't take many reps.  Carter, Sermon, and Goodson competing.",
           "salary": null,
           "fpts": 5.0,
           "opp": "DEN"
@@ -128,7 +128,7 @@
           "rank": 7,
           "players": "Braelon Allen",
           "core": false,
-          "notes": "NYJ options in a 5 man group that have potential to see the most work.  Plays early with superior offense.",
+          "notes": "NYJ options in a 5-man group that has potential to see the most work.  Plays early with superior offense.",
           "salary": null,
           "fpts": 4.4,
           "opp": "TB"
@@ -137,7 +137,7 @@
           "rank": 8,
           "players": "Tyler Goodson",
           "core": false,
-          "notes": "ATL also thin if Bijan/Brian Robinson don't take many reps.  Carter, Sermon, and Goodson competing",
+          "notes": "ATL also thin if Bijan/Brian Robinson don't take many reps.  Carter, Sermon, and Goodson competing.",
           "salary": null,
           "fpts": 4.3,
           "opp": "DEN"
@@ -146,7 +146,7 @@
           "rank": 9,
           "players": "Chip Trayanum",
           "core": false,
-          "notes": "NYJ options in a 5 man group that have potential to see the most work. Plays later with more rep upside.",
+          "notes": "NYJ options in a 5-man group that has potential to see the most work. Plays later with more rep upside.",
           "salary": null,
           "fpts": 4.6,
           "opp": "TB"
@@ -178,7 +178,7 @@
           "rank": 3,
           "players": "Omar Cooper Jr.",
           "core": false,
-          "notes": "NYJ strategy is set on 2 TEs, Wilson and Mitchell in season... its open season for development reps in pre.",
+          "notes": "NYJ strategy is set on 2 TEs, Wilson and Mitchell in season...it's open season for development reps in preseason.",
           "salary": null,
           "fpts": 4.1,
           "opp": "TB"
@@ -187,7 +187,7 @@
           "rank": 4,
           "players": "Zachariah Branch",
           "core": false,
-          "notes": "Risk of starter treatment, but potential 1st read player with starting offense.  Also has snap upside.",
+          "notes": "Risk of starter treatment, but potential first-read player with starting offense.  Also has snap upside.",
           "salary": null,
           "fpts": 4.0,
           "opp": "DEN"
@@ -205,7 +205,7 @@
           "rank": 6,
           "players": "Chris Blair",
           "core": false,
-          "notes": "Preseason hero of the past could emerge yet again as this game progresses. 52 yard TD in 2025.",
+          "notes": "Preseason hero of the past could emerge yet again as this game progresses. 52-yard TD in 2025.",
           "salary": null,
           "fpts": 3.3,
           "opp": "DEN"
@@ -223,7 +223,7 @@
           "rank": 8,
           "players": "Eric Rivers Jr.",
           "core": false,
-          "notes": "Speedy late game TB option (among a few others) for tournament pivoting.",
+          "notes": "Speedy late-game TB option (among a few others) for tournament pivoting.",
           "salary": null,
           "fpts": 3.0,
           "opp": "NYJ"
@@ -232,7 +232,7 @@
           "rank": 9,
           "players": "Pat Bryant",
           "core": false,
-          "notes": "Having a standout camp, and could be a first look player early in the game. Red zone threat.",
+          "notes": "Having a standout camp and could be a first-look player early in the game. Red-zone threat.",
           "salary": null,
           "fpts": 3.0,
           "opp": "ATL"
@@ -246,7 +246,7 @@
           "rank": 1,
           "players": "Colson Yankoff",
           "core": false,
-          "notes": "Tough day at TE, but the Commanders chart is the most limited.",
+          "notes": "Tough slate at TE, but the Commanders' depth chart is the most limited.",
           "salary": null,
           "fpts": 2.4,
           "opp": "MIA"
@@ -264,7 +264,7 @@
           "rank": 3,
           "players": "Will Kacmarek",
           "core": false,
-          "notes": "Dulcich hasn't been 100%, and sp they should progress quickly down the chart leaving upside for the 3rd round rookie.",
+          "notes": "Dulcich hasn't been 100%, so they should progress quickly down the depth chart, leaving upside for the 3rd-round rookie.",
           "salary": null,
           "fpts": 2.0,
           "opp": "WAS"
@@ -273,7 +273,7 @@
           "rank": 4,
           "players": "Devin Culp",
           "core": false,
-          "notes": "Not exciting, but there really isn't much to work with on the TE chart here and he should play a bunch.",
+          "notes": "Not exciting, but there really isn't much to work with on the TE depth chart here, and he should play a bunch.",
           "salary": null,
           "fpts": 2.1,
           "opp": "NYJ"
@@ -282,7 +282,7 @@
           "rank": 5,
           "players": "Justin Joly",
           "core": false,
-          "notes": "Chart has a lot of bodies, and Payton rotates players even in pre.  That said, very obviously choice for rep upside gambles.",
+          "notes": "Depth chart has a lot of bodies, and Sean Payton rotates players even in preseason.  That said, very obvious choice for reps.",
           "salary": null,
           "fpts": 2.0,
           "opp": "ATL"
@@ -296,7 +296,7 @@
           "rank": 1,
           "players": "Denver Broncos",
           "core": false,
-          "notes": "Based on NFL DFS projections",
+          "notes": "Based on our projections.",
           "salary": null,
           "fpts": 9.4,
           "opp": "ATL"
@@ -305,7 +305,7 @@
           "rank": 2,
           "players": "Tampa Bay Buccaneers",
           "core": false,
-          "notes": "Based on NFL DFS projections",
+          "notes": "Based on our projections.",
           "salary": null,
           "fpts": 8.7,
           "opp": "NYJ"
@@ -314,7 +314,7 @@
           "rank": 3,
           "players": "Washington Commanders",
           "core": false,
-          "notes": "Based on NFL DFS projections",
+          "notes": "Based on our projections.",
           "salary": null,
           "fpts": 8.6,
           "opp": "MIA"
@@ -323,7 +323,7 @@
           "rank": 4,
           "players": "New York Jets",
           "core": false,
-          "notes": "Based on NFL DFS projections",
+          "notes": "Based on our projections.",
           "salary": null,
           "fpts": 8.4,
           "opp": "TB"
@@ -332,7 +332,7 @@
           "rank": 5,
           "players": "Miami Dolphins",
           "core": false,
-          "notes": "Based on NFL DFS projections",
+          "notes": "Based on our projections.",
           "salary": null,
           "fpts": 8.4,
           "opp": "WAS"
@@ -341,7 +341,7 @@
           "rank": 6,
           "players": "Atlanta Falcons",
           "core": false,
-          "notes": "Based on NFL DFS projections",
+          "notes": "Based on our projections.",
           "salary": null,
           "fpts": 7.8,
           "opp": "DEN"
