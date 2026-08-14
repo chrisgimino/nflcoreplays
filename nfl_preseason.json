@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T12:05",
+  "updated": "2026-08-14T12:09",
   "sections": [
     {
       "position": "QB",
@@ -244,5 +244,5053 @@
       ]
     }
   ],
-  "depth_charts": {}
+  "depth_charts": {
+    "BAL": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Lamar Jackson",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tyler Huntley",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Joe Fagnano",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Austin Reed",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Derrick Henry",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Justice Hill",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Rasheen Ali",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Adam Randall",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Dontae McMillan",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Elijah Tau-Tolliver",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Zay Flowers",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Rashod Bateman",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Ja'Kobi Lane",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Devontez Walker",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Elijah Sarratt",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "LaJohntay Wester",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Dayton Wade",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Cornelius Johnson",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Xavier Guillory",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Cortez Braham Jr.",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Octavian Smith Jr.",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Chris Moore",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Mark Andrews",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Durham Smythe",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Matt Hibner",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Josh Cuevas",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Lucas Scott",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Tyler Pezza",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Tyler Loop",
+          "note": ""
+        }
+      ]
+    },
+    "BUF": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Josh Allen",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Kyle Allen",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Shane Buechele",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "James Cook III",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Ray Davis",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Ty Johnson",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Frank Gore Jr.",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Ian Wheeler",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "DJ Moore",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Khalil Shakir",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Joshua Palmer",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Keon Coleman",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tyrell Shavers",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Skyler Bell",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Trent Sherfield",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Mecole Hardman Jr.",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Dante Pettis",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Ja'Mori Maclin",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Quentin Skinner",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "Mac Dalena",
+          "note": ""
+        },
+        {
+          "depth": 14,
+          "name": "Max Tomczak",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Dalton Kincaid",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Dawson Knox",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jackson Hawes",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Keleki Latu",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Shane Zylstra",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Tyler Bass",
+          "note": ""
+        }
+      ]
+    },
+    "CIN": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Joe Burrow",
+          "note": "Expecting 1q"
+        },
+        {
+          "depth": 2,
+          "name": "Joe Flacco",
+          "note": "Expecting 1q"
+        },
+        {
+          "depth": 3,
+          "name": "Josh Johnson",
+          "note": "Expecting 1q"
+        },
+        {
+          "depth": 4,
+          "name": "Sean Clifford",
+          "note": "Expecting 1q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Chase Brown",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Samaje Perine",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Tahj Brooks",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Gary Brightwell",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Kendall Milton",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jamal Haynes",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Kentrel Bullock",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Ja'Marr Chase",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tee Higgins",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Andrei Iosivas",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Colbie Young",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Charlie Jones",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Mitch Tinsley",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Ke'Shawn Williams",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Jordan Moore",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Kendric Pryor",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Xavier Johnson",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Dohnte Meyers",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Noah Thomas",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Mike Gesicki",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Drew Sample",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Erick All Jr.",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Tanner Hudson",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Cam Grandy",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jack Endries",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Josh Kattus",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Evan McPherson",
+          "note": ""
+        }
+      ]
+    },
+    "CLE": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Deshaun Watson",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Shedeur Sanders",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Dillon Gabriel",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Taylen Green",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Quinshon Judkins",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Dylan Sampson",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Raheim Sanders",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Ahmani Marshall",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Davon Booth",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "KC Concepcion",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Denzel Boston",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jerry Jeudy",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Isaiah Bond",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Cedric Tillman",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Tylan Wallace",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Malachi Corley",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Gage Larvadain",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Luke Floriea",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Kole Wilson",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Harold Fannin Jr.",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Blake Whiteheart",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jack Stoll",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Joe Royer",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Brenden Bates",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Carsen Ryan",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Dae'Quan Wright",
+          "note": "Claimed 8/12"
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Andre Szmyt",
+          "note": ""
+        }
+      ]
+    },
+    "DEN": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Bo Nix",
+          "note": "Will Not Play"
+        },
+        {
+          "depth": 2,
+          "name": "Jarrett Stidham",
+          "note": "Expecting 1h"
+        },
+        {
+          "depth": 3,
+          "name": "Sam Ehlinger",
+          "note": "Expecting 1h"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "J.K. Dobbins",
+          "note": "Starters to play 15 snaps"
+        },
+        {
+          "depth": 2,
+          "name": "RJ Harvey",
+          "note": "Starters to play 15 snaps"
+        },
+        {
+          "depth": 3,
+          "name": "Jonah Coleman",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jaleel McLaughlin",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tyler Badie",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Cody Schrader",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Jaylen Waddle",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 2,
+          "name": "Courtland Sutton",
+          "note": "Starters to play 15 snaps"
+        },
+        {
+          "depth": 3,
+          "name": "Pat Bryant",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Troy Franklin",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Marvin Mims Jr.",
+          "note": "Limited 8/11"
+        },
+        {
+          "depth": 6,
+          "name": "Lil'Jordan Humphrey",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Michael Bandy",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 8,
+          "name": "Hakeem Butler",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Dane Key",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Kolbe Katsis",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Joseph Manjack",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Cameron Ross",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "Kyrese Rowan",
+          "note": ""
+        },
+        {
+          "depth": 14,
+          "name": "Kyre Duplessis",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Evan Engram",
+          "note": "Starters to play 15 snaps"
+        },
+        {
+          "depth": 2,
+          "name": "Adam Trautman",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Nate Adkins",
+          "note": "DNP 8/10"
+        },
+        {
+          "depth": 4,
+          "name": "Lucas Krull",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Justin Joly",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Caleb Lohner",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Dallen Bentley",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Wil Lutz",
+          "note": ""
+        }
+      ]
+    },
+    "HOU": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "C.J. Stroud",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Davis Mills",
+          "note": "Expecting .75 to 1.5q"
+        },
+        {
+          "depth": 3,
+          "name": "Graham Mertz",
+          "note": "Expecting 2.5 to 3q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "David Montgomery",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Woody Marks",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jawhar Jordan",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Noah Whittington",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Owen Wright",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Joshua Pitsenberger",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Nico Collins",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jayden Higgins",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Tank Dell",
+          "note": "Out"
+        },
+        {
+          "depth": 4,
+          "name": "Jaylin Noel",
+          "note": "Off NFI 8/7, doing ind. drills"
+        },
+        {
+          "depth": 5,
+          "name": "Xavier Hutchinson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Lewis Bond",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Justin Watson",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Jared Wayne",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Josh Kelly",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Treyvhon Saunders",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Daniel Sobkowicz",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Jha'Quan Jackson",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "Juwann Winfree",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Dalton Schultz",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Foster Moreau",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Marlin Klein",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Cade Stover",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Brevin Jordan",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Layne Pryor",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Chris Freeman",
+          "note": ""
+        }
+      ]
+    },
+    "IND": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Daniel Jones",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Anthony Richardson",
+          "note": "Expecting 1.75 to 2q"
+        },
+        {
+          "depth": 3,
+          "name": "Riley Leonard",
+          "note": "Expecting 1.75 to 2q"
+        },
+        {
+          "depth": 4,
+          "name": "Easton Stick",
+          "note": "Expecting .5q or less"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Jonathan Taylor",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "DJ Giddens",
+          "note": "DNP 8/11 (hamstring)"
+        },
+        {
+          "depth": 3,
+          "name": "Seth McGowan",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Ulysses Bentley IV",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Anderson Castle",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Roydell Williams",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Alec Pierce",
+          "note": "Out"
+        },
+        {
+          "depth": 2,
+          "name": "Josh Downs",
+          "note": "Returned 8/11 (hamstring)"
+        },
+        {
+          "depth": 3,
+          "name": "Ashton Dulin",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Nick Westbrook-Ikhine",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Laquon Treadwell",
+          "note": "Returned 8/11 (hamstring)"
+        },
+        {
+          "depth": 6,
+          "name": "Deion Burks",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Anthony Gould",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Eli Pancol",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Coleman Owen",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Sahmir Hagans",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "E.J. Horton Jr.",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Raylen Sharpe",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "D.J. Montgomery",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Tyler Warren",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Mo Alie-Cox",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Drew Ogletree",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Will Mallory",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Carson Towt",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Pharaoh Brown",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Blake Grupe",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Spencer Shrader",
+          "note": ""
+        }
+      ]
+    },
+    "JAX": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Trevor Lawrence",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Nick Mullens",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Carter Bradley",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Joey Aguilar",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Bhayshul Tuten",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Chris Rodriguez Jr.",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "LeQuint Allen Jr.",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "DeeJay Dallas",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "J'Mari Taylor",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Ameer Abdullah",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Parker Washington",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Brian Thomas Jr.",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jakobi Meyers",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Travis Hunter",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tim Jones",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Austin Trammell",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Josh Cameron",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Chandler Brayboy",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Trebor Pena",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Brady Boyd",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Michael Wortham",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Brenton Strange",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Quintin Morris",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Patrick Herbert",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Hunter Long",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tanner Koziol",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Nate Boerkircher",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Ethan Conner",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Cam Little",
+          "note": ""
+        }
+      ]
+    },
+    "KC": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Patrick Mahomes",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Justin Fields",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Garrett Nussmeier",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Chris Oladokun",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Kenneth Walker III",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Brashard Smith",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Emmett Johnson",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Emari Demercado",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jaydn Ott",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "EJ Smith",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Rashee Rice",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Xavier Worthy",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Tyquan Thornton",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jalen Royals",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Cyrus Allen",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jimmy Holiday",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Andrew Armstrong",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Nikko Remigio",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Jason Brownlee",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Jeff Caldwell",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Jacob De Jesus",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Omari Evans",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "Xavier Loyd",
+          "note": ""
+        },
+        {
+          "depth": 14,
+          "name": "Jeff Weimer",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Travis Kelce",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Noah Gray",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jared Wiley",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jake Briningstool",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tre Watson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Mason Pline",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Harrison Butker",
+          "note": ""
+        }
+      ]
+    },
+    "LAC": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Justin Herbert",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Trey Lance",
+          "note": "Expecting 1.75 to 2.25q"
+        },
+        {
+          "depth": 3,
+          "name": "DJ Uiagalelei",
+          "note": "Expecting 1.75 to 2.25q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Omarion Hampton",
+          "note": "15 veteran/starters will not play."
+        },
+        {
+          "depth": 2,
+          "name": "Keaton Mitchell",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Kimani Vidal",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jaret Patterson",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Amar Johnson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Gregory Desrosiers",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Ladd McConkey",
+          "note": "15 veteran/starters will not play."
+        },
+        {
+          "depth": 2,
+          "name": "Quentin Johnston",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 3,
+          "name": "Tre' Harris",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "KeAndre Lambert-Smith",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Brenen Thompson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Derius Davis",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Dalevon Campbell",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "JaQuae Jackson",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Devonte Ross",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Luke Grimm",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Sincere Brown",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Oronde Gadsden II",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "David Njoku",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Charlie Kolar",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Evan Svoboda",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jerand Bradley",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Johnny Pascuzzi",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Cameron Dicker",
+          "note": ""
+        }
+      ]
+    },
+    "LV": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Kirk Cousins",
+          "note": "Expecting 1 to 2 series"
+        },
+        {
+          "depth": 2,
+          "name": "Fernando Mendoza",
+          "note": "Expecting 3 to 4 series"
+        },
+        {
+          "depth": 3,
+          "name": "Aidan O'Connell",
+          "note": "Expecting 2 to 4 series"
+        },
+        {
+          "depth": 4,
+          "name": "Jacob Clark",
+          "note": "Expecting late run at best"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Ashton Jeanty",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Mike Washington Jr.",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Dylan Laube",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Connor Heyward",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Roman Hemby",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Dare Ogunbowale",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Tre Tucker",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jalen Nailor",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jack Bech",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Dont'e Thornton Jr.",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 5,
+          "name": "Malik Benson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Dareke Young",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Phillip Dorsett II",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Shedrick Jackson",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "E.J. Williams Jr.",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Deven Thompkins",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Brandon Johnson",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Chase Roberts",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Brock Bowers",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Michael Mayer",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Ian Thomas",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Carter Runyon",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Albert Okwuegbunam Jr.",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Patrick Gurd",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Chris Myarick",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Kansei Matsuzawa",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Matt Gay",
+          "note": ""
+        }
+      ]
+    },
+    "MIA": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Malik Willis",
+          "note": "Will play (amount unknown)"
+        },
+        {
+          "depth": 2,
+          "name": "Quinn Ewers",
+          "note": "Expecting 1.25 to 2q"
+        },
+        {
+          "depth": 3,
+          "name": "Cam Miller",
+          "note": "Expecting 1.25 to 2q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "De'Von Achane",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Ollie Gordon II",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jaylen Wright",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Carlos Washington Jr.",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Donovan Edwards",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Malik Washington",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Caleb Douglas",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jalen Tolbert",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Tutu Atwell",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Chris Bell",
+          "note": "Out"
+        },
+        {
+          "depth": 6,
+          "name": "Tahj Washington",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Theo Wease Jr.",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Terrace Marshall Jr.",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Jalen Reagor",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Kevin Coleman Jr.",
+          "note": "DNP 8/12"
+        },
+        {
+          "depth": 11,
+          "name": "Donaven McCulley",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "AJ Henning",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Greg Dulcich",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Ben Sims",
+          "note": "DNP 8/12"
+        },
+        {
+          "depth": 3,
+          "name": "Will Kacmarek",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Cole Turner",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Seydou Traore",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jeremiah Franklin",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Riley Patterson",
+          "note": ""
+        }
+      ]
+    },
+    "NE": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Drake Maye",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Tommy DeVito",
+          "note": "Expecting 1.75 to 2.25q"
+        },
+        {
+          "depth": 3,
+          "name": "Behren Morton",
+          "note": "Expecting 1.75 to 2.25q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Rhamondre Stevenson",
+          "note": "Joint Practice (not expecting much)"
+        },
+        {
+          "depth": 2,
+          "name": "TreVeyon Henderson",
+          "note": "Joint Practice (not expecting much)"
+        },
+        {
+          "depth": 3,
+          "name": "Lan Larison",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jam Miller",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jamychal Hasty",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Hassan Haskins",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Terrell Jennings",
+          "note": "IR"
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "A.J. Brown",
+          "note": "Joint Practice (not expecting)"
+        },
+        {
+          "depth": 2,
+          "name": "Romeo Doubs",
+          "note": "Joint Practice (not expecting)"
+        },
+        {
+          "depth": 3,
+          "name": "Kayshon Boutte",
+          "note": "Joint Practice (not expecting)"
+        },
+        {
+          "depth": 4,
+          "name": "DeMario Douglas",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Mack Hollins",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Efton Chism III",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Kyle Williams",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Nick DeGennaro",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Cameron Dorner",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Tejhaun Palmer",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Kyle Dixon",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Kobe Prentice",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Hunter Henry",
+          "note": "Joint Practice (not expecting)"
+        },
+        {
+          "depth": 2,
+          "name": "Eli Raridon",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "CJ Dippre",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jack Westover",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tanner Arkin",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Mitch Van Vooren",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Andy Borregales",
+          "note": ""
+        }
+      ]
+    },
+    "NYJ": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Geno Smith",
+          "note": "Trying to spread 25-30 reps throughout all three preseason games."
+        },
+        {
+          "depth": 2,
+          "name": "Cade Klubnik",
+          "note": "Expecting 1.5 to 2q"
+        },
+        {
+          "depth": 3,
+          "name": "Bailey Zappe",
+          "note": "Expecting .75 to 1.25q"
+        },
+        {
+          "depth": 4,
+          "name": "Brady Cook",
+          "note": "Expecting .5 to 1q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Breece Hall",
+          "note": "Trying to spread 25-30 reps throughout all three preseason games."
+        },
+        {
+          "depth": 2,
+          "name": "Braelon Allen",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Isaiah Davis",
+          "note": "OUT (knee)"
+        },
+        {
+          "depth": 4,
+          "name": "Kene Nwangwu",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Chip Trayanum",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Sam Scott",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Garrett Wilson",
+          "note": "Trying to spread 25-30 reps throughout all three preseason games."
+        },
+        {
+          "depth": 2,
+          "name": "Adonai Mitchell",
+          "note": "Trying to spread 25-30 reps throughout all three preseason games."
+        },
+        {
+          "depth": 3,
+          "name": "Omar Cooper Jr.",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Isaiah Williams",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tim Patrick",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Arian Smith",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Caullin Lacy",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Malik McClain",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Jamaal Pritchett",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Quincy Skinner Jr.",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "DT Sheffield",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Cam Camper",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Mason Taylor",
+          "note": "Trying to spread 25-30 reps throughout all three preseason games."
+        },
+        {
+          "depth": 2,
+          "name": "Kenyon Sadiq",
+          "note": "OUT (Hernia)"
+        },
+        {
+          "depth": 3,
+          "name": "Jeremy Ruckert",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jelani Woods",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Connor Hulstein",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Chase Curtis",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Jason Sanders",
+          "note": ""
+        }
+      ]
+    },
+    "PIT": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Aaron Rodgers",
+          "note": "Expecting Zero per pregram report"
+        },
+        {
+          "depth": 2,
+          "name": "Mason Rudolph",
+          "note": "Expecting 1 to 1.5q"
+        },
+        {
+          "depth": 3,
+          "name": "Will Howard",
+          "note": "Expecting 1 to 1.5q"
+        },
+        {
+          "depth": 4,
+          "name": "Drew Allar",
+          "note": "Expecting 1 to 1.5q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Jaylen Warren",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Rico Dowdle",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Kaleb Johnson",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Eli Heidenreich",
+          "note": "Limited 8/10 (hamstring)"
+        },
+        {
+          "depth": 5,
+          "name": "Travis Homer",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Lew Nichols",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "DK Metcalf",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Michael Pittman Jr.",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 3,
+          "name": "Germie Bernard",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Roman Wilson",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Ben Skowronek",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Kaden Wetjen",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Levi Wentz",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Max Hurleman",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Brandon Smith",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Cornell Powell",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Joaquin Davis",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Jakobie Keeney-James",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "Isaiah Winstead",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Pat Freiermuth",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Darnell Washington",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Robert Tonyan",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jaheim Bell",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Lake McRee",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Lance Mason",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Chris Boswell",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Laith Marjan",
+          "note": ""
+        }
+      ]
+    },
+    "TEN": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Cam Ward",
+          "note": "Expecting .5 to 1q"
+        },
+        {
+          "depth": 2,
+          "name": "Mitchell Trubisky",
+          "note": "DNP 8/11, .5 to 1q"
+        },
+        {
+          "depth": 3,
+          "name": "Will Levis",
+          "note": "Expecting 1 to 1.5q"
+        },
+        {
+          "depth": 4,
+          "name": "Hendon Hooker",
+          "note": "Expecting 1 to 1.5q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Tony Pollard",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tyjae Spears",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Nick Singleton",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Julius Chestnut",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Kalel Mullings",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Michael Carter",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Carnell Tate",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Wan'Dale Robinson",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Calvin Ridley",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Elic Ayomanor",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Chimere Dike",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Bryce Oliver",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Xavier Restrepo",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "K.J. Osborn",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Tyren Montgomery",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Lance McCutcheon",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Hank Beatty",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Courtney Jackson",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Gunnar Helm",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Daniel Bellinger",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Kylen Granson",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jaren Kanak",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "David Martin-Robinson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Joel Wilson",
+          "note": ""
+        }
+      ]
+    },
+    "ARI": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Jacoby Brissett",
+          "note": "Starters expected to play 1-2 drives max"
+        },
+        {
+          "depth": 2,
+          "name": "Gardner Minshew",
+          "note": "Expecting 1 to 1.5q"
+        },
+        {
+          "depth": 3,
+          "name": "Carson Beck",
+          "note": "Expecting 1.25 to 2q"
+        },
+        {
+          "depth": 4,
+          "name": "Kedon Slovis",
+          "note": "Expecting 1 to 1.5q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Tyler Allgeier",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jeremiyah Love",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "James Conner",
+          "note": "Not Cleared"
+        },
+        {
+          "depth": 4,
+          "name": "Trey Benson",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 5,
+          "name": "Zonovan Knight",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Corey Kiner",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Evan Hull",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Marvin Harrison Jr.",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Michael Wilson",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Kendrick Bourne",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Xavier Weaver",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Devin Duvernay",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Simi Fehoko",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Reggie Virgil",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Jalen Brooks",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Harrison Wallace III",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Bryson Green",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Ihmir Smith-Marsette",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Trey McBride",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tip Reiman",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Elijah Higgins",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Rivaldo Fairweather",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Teagan Quitoriano",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jameson Geers",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Shawn Bowman",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Chad Ryland",
+          "note": ""
+        }
+      ]
+    },
+    "ATL": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Tua Tagovailoa",
+          "note": "Starters to play no more than 10 plays"
+        },
+        {
+          "depth": 2,
+          "name": "Michael Penix Jr.",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 3,
+          "name": "Cooper Rush",
+          "note": "Will come in after Tua"
+        },
+        {
+          "depth": 4,
+          "name": "Jack Strand",
+          "note": "Expecting 1.5 to 2 quarters"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Bijan Robinson",
+          "note": "Starters to play no more than 10 plays"
+        },
+        {
+          "depth": 2,
+          "name": "Brian Robinson Jr.",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Trey Sermon",
+          "note": "Signed 8/11"
+        },
+        {
+          "depth": 4,
+          "name": "Nathan Carter",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tyler Goodson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Cash Jones",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Drake London",
+          "note": "Limited 8/11, max 10 plays"
+        },
+        {
+          "depth": 2,
+          "name": "Zachariah Branch",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Olamide Zaccheaus",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jahan Dotson",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Dylan Drummond",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Chris Blair",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Kristian Wilkerson",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Antwane Wells Jr.",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Vinny Anthony II",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Keelan Marion",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Kyle Pitts",
+          "note": "Starters to play no more than 10 plays"
+        },
+        {
+          "depth": 2,
+          "name": "Austin Hooper",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Charlie Woerner",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Joshua Simon",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jack Velling",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Nick Muse",
+          "note": "Signed 8/11"
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Nick Folk",
+          "note": ""
+        }
+      ]
+    },
+    "CAR": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Bryce Young",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Kenny Pickett",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Haynes King",
+          "note": "Rushing QB"
+        },
+        {
+          "depth": 4,
+          "name": "Kyle Trask",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Chuba Hubbard",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jonathon Brooks",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Trevor Etienne",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "AJ Dillon",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Anthony Tyus III",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Miles Davis",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Tetairoa McMillan",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jalen Coker",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Xavier Legette",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jimmy Horn Jr.",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "John Metchie III",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Brycen Tremayne",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "David Moore",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Ja'Seem Reed",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Casey Washington",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Elijah Cooks",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Roc Taylor",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Tommy Tremble",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Ja'Tavion Sanders",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Mitchell Evans",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Feleipe Franks",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "James Mitchell",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Caden Prieskorn",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 2,
+          "name": "Ryan Fitzgerald",
+          "note": ""
+        }
+      ]
+    },
+    "CHI": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Caleb Williams",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tyson Bagent",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Case Keenum",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Miller Moss",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "D'Andre Swift",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Kyle Monangai",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Roschon Johnson",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Brittain Brown",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Salvon Ahmed",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Coleman Bennett",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Rome Odunze",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Luther Burden III",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Kalif Raymond",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Zavion Thomas",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jahdae Walker",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Scotty Miller",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Maurice Alexander",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Kaden Davis",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Ray-Ray McCloud",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "JP Richardson",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Omari Kelly",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Colston Loveland",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Cole Kmet",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Sam Roush",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Nikola Kalinic",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Stephen Carlson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Qadir Ismail",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Hayden Large",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Cairo Santos",
+          "note": ""
+        }
+      ]
+    },
+    "DAL": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Dak Prescott",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Joe Milton",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Sam Howell",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Javonte Williams",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jaydon Blue",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Malik Davis",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Phil Mafah",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Hunter Luepke",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Israel Abanikanda",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Jashaun Corbin",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "CeeDee Lamb",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "George Pickens",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Ryan Flournoy",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "KaVontae Turpin",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Marquez Valdes-Scantling",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jonathan Mingo",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Tyler Johnson",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Anthony Smith",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Traeshon Holden",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Denzel Mims",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Jordan Hudson",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Camden Brown",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "Jaden Smith",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Jake Ferguson",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Brevyn Spann-Ford",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Luke Schoonmaker",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Michael Trigg",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Zack Kuntz",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "DJ Rogers",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Brandon Aubrey",
+          "note": ""
+        }
+      ]
+    },
+    "DET": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Jared Goff",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Joshua Dobbs",
+          "note": "Expecting .5 to 1q"
+        },
+        {
+          "depth": 3,
+          "name": "Luke Altmyer",
+          "note": "Expecting 2.5 to 3q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Jahmyr Gibbs",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Isiah Pacheco",
+          "note": "Will not play"
+        },
+        {
+          "depth": 3,
+          "name": "Sione Vaki",
+          "note": "DNP (Eye/Nose)"
+        },
+        {
+          "depth": 4,
+          "name": "Jacob Saylors",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Kye Robichaux",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jabari Small",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Raheem Blackshear",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Amon-Ra St. Brown",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Jameson Williams",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 3,
+          "name": "Isaac TeSlaa",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Greg Dortch",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Dominic Lovett",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Tom Kennedy",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Malik Cunningham",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Tay Martin",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Lucky Jackson",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Tarik Black",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Cedrick Wilson Jr.",
+          "note": "DNP 8/9"
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Sam LaPorta",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Brock Wright",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Tyler Conklin",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jackson Meeks",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Zach Horton",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Thomas Gordon",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Jake Bates",
+          "note": ""
+        }
+      ]
+    },
+    "GB": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Jordan Love",
+          "note": "Expecting .5 to 1q"
+        },
+        {
+          "depth": 2,
+          "name": "Tyrod Taylor",
+          "note": "Expecting .5 to 1q"
+        },
+        {
+          "depth": 3,
+          "name": "Kyle McCord",
+          "note": "Expecting 1 to 1.5q"
+        },
+        {
+          "depth": 4,
+          "name": "Kyron Drones",
+          "note": "Expecting 1 to 1.5q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Josh Jacobs",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 2,
+          "name": "Chris Brooks",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "MarShawn Lloyd",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Pierre Strong Jr.",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Damien Martinez",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jaden Nixon",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Christian Watson",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jayden Reed",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 3,
+          "name": "Matthew Golden",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 4,
+          "name": "Savion Williams",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Skyy Moore",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Bo Melton",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Will Sheppard",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Isaiah Neyor",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "J. Michael Sturdivant",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Kaden Prather",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Chris Hilton Jr.",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Kisean Johnson",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Tucker Kraft",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Luke Musgrave",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Josh Whyle",
+          "note": "Returned 8/11"
+        },
+        {
+          "depth": 4,
+          "name": "Drake Dabney",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Messiah Swinson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Thomas Yassmin",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "McCallan Castles",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Trey Smack",
+          "note": ""
+        }
+      ]
+    },
+    "LAR": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Matthew Stafford",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Stetson Bennett",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Ty Simpson",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Matthew Caldwell",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Kyren Williams",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Blake Corum",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jarquez Hunter",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Ronnie Rivers",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jordan Waters",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Dean Connors",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Puka Nacua",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Davante Adams",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jordan Whittington",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Konata Mumpfield",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Xavier Smith",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Tyler Scott",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Brennan Presley",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Tru Edwards",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "CJ Daniels",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Mario Williams",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Colby Parkinson",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tyler Higbee",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Terrance Ferguson",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Davis Allen",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Max Klare",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Rohan Jones",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Mark Redman",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Dan Villari",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Harrison Mevis",
+          "note": ""
+        }
+      ]
+    },
+    "MIN": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Kyler Murray",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "J.J. McCarthy",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Carson Wentz",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Max Brosmer",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Jordan Mason",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Aaron Jones Sr.",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Demond Claiborne",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Zavier Scott",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jermar Jefferson",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Justin Jefferson",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jordan Addison",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jauan Jennings",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Tai Felton",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jeshaun Jones",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Myles Price",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Dontae Fleming",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Marcus Sanders Jr.",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Michael Briscoe",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Dillon Bell",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Terrill Davis",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Trayvon Rudolph",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "TJ Hockenson",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Josh Oliver",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Ben Yurosek",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Gavin Bartholomew",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Bryson Nesbit",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Marshall Lang",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Will Reichard",
+          "note": ""
+        }
+      ]
+    },
+    "NO": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Tyler Shough",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Spencer Rattler",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Zach Wilson",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Hunter Dekkers",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Travis Etienne Jr.",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Alvin Kamara",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Devin Neal",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Kendre Miller",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Audric Estime",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Ty Chandler",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "CJ Donaldson",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Chris Olave",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jordyn Tyson",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Devaughn Vele",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Mason Tipton",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Bub Means",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Kevin Austin Jr.",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Trey Palmer",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Bryce Lance",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Barion Brown",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Ronnie Bell",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Jalen Moreno-Cropper",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Brock Rechsteiner",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Juwan Johnson",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Noah Fant",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Oscar Delp",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Moliki Matavao",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Treyton Welch",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Zaire Mitchell-Paden",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Cody Hardy",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Charlie Smyth",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tanner Brown",
+          "note": ""
+        }
+      ]
+    },
+    "NYG": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Jaxson Dart",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jameis Winston",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Brandon Allen",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Cam Skattebo",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tyrone Tracy Jr.",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Devin Singletary",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Eric Gray",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Dante Miller",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Damon Bankston",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Malik Nabers",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Darius Slayton",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Darnell Mooney",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Calvin Austin III",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Odell Beckham Jr.",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Malachi Fields",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "JuJu Smith-Schuster",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Dalen Cambre",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Jalin Hyatt",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Isaiah Hodgins",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Braxton Berrios",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Ryan Miller",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "Xavier Gipson",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Isaiah Likely",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Theo Johnson",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Chris Manhertz",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Thomas Fidone II",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tanner Conner",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Ben Sauls",
+          "note": ""
+        }
+      ]
+    },
+    "PHI": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Jalen Hurts",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Andy Dalton",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Tanner McKee",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Cole Payton",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Saquon Barkley",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Tank Bigsby",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Will Shipley",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Dameon Pierce",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Ja\u2019Quinden Jackson",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Carson Steele",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "DeVonta Smith",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Dontayvion Wicks",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Makai Lemon",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Hollywood Brown",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Johnny Wilson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Darius Cooper",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Britain Covey",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Erik Ezukanma",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Samori Toure",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Elijah Moore",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Danny Gray",
+          "note": ""
+        },
+        {
+          "depth": 13,
+          "name": "Quez Watkins",
+          "note": ""
+        },
+        {
+          "depth": 14,
+          "name": "Brandon Hayes",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Dallas Goedert",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Eli Stowers",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Grant Calcaterra",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Johnny Mundt",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Cameron Latu",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "EJ Jenkins",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Stone Smartt",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Jake Elliott",
+          "note": ""
+        }
+      ]
+    },
+    "SEA": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Sam Darnold",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Drew Lock",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Jalen Milroe",
+          "note": ""
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Zach Charbonnet",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Jadarian Price",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "George Holani",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Emanuel Wilson",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jacardia Wright",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Velus Jones Jr.",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Justin Jones",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "TJ Harden",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Jaxon Smith-Njigba",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Rashid Shaheed",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Cooper Kupp",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Tory Horton",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jake Bobo",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Cody White",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Ricky White III",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Irvin Charles",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Montorie Foster Jr.",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Emmanuel Henderson Jr.",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Rashad Rochelle",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "AJ Barner",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Elijah Arroyo",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Eric Saubert",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Nick Kallerup",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Nick Vannett",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Jason Myers",
+          "note": ""
+        }
+      ]
+    },
+    "SF": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Brock Purdy",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Mac Jones",
+          "note": "Expecting .5 to 1q"
+        },
+        {
+          "depth": 3,
+          "name": "Adrian Martinez",
+          "note": "Expecting 1.5 to 2q"
+        },
+        {
+          "depth": 4,
+          "name": "Kurtis Rourke",
+          "note": "Expecting 1.5 to 2q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Christian McCaffrey",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Jordan James",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 3,
+          "name": "Kaelon Black",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 4,
+          "name": "Patrick Taylor Jr.",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Isaac Guerendo",
+          "note": "PUP"
+        },
+        {
+          "depth": 6,
+          "name": "Sincere McCormick",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Khalil Herbert",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Zamir White",
+          "note": "Late signing"
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Mike Evans",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Deebo Samuel",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 3,
+          "name": "Christian Kirk",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 4,
+          "name": "De'Zhaun Stribling",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Demarcus Robinson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jacob Cowing",
+          "note": "DNP 8/11"
+        },
+        {
+          "depth": 7,
+          "name": "Malik Turner",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Jordan Watkins",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Trenton Irwin",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Wesley Grimes",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Will Pauling",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Khadarel Hodge",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "George Kittle",
+          "note": "Out"
+        },
+        {
+          "depth": 2,
+          "name": "Jake Tonges",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Luke Farrell",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Brayden Willis",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Hayden Rucci",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Josiah Deguara",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Eddy Pineiro",
+          "note": ""
+        }
+      ]
+    },
+    "TB": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Baker Mayfield",
+          "note": "Will not play"
+        },
+        {
+          "depth": 2,
+          "name": "Jake Browning",
+          "note": "DNP 8/12 - Could miss"
+        },
+        {
+          "depth": 3,
+          "name": "Connor Bazelak",
+          "note": "Will start if no Browning"
+        },
+        {
+          "depth": 4,
+          "name": "Jalon Daniels",
+          "note": "Will follow Bazaelak"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Bucky Irving",
+          "note": "Not expecting many starters"
+        },
+        {
+          "depth": 2,
+          "name": "Kenny Gainwell",
+          "note": "Not expecting many starters"
+        },
+        {
+          "depth": 3,
+          "name": "Sean Tucker",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Josh Williams",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Kadarius Calloway",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Emeka Egbuka",
+          "note": "Left Early 8/12 (Toe)"
+        },
+        {
+          "depth": 2,
+          "name": "Chris Godwin Jr.",
+          "note": "Not expecting starters"
+        },
+        {
+          "depth": 3,
+          "name": "Jalen McMillan",
+          "note": "Not expecting starters"
+        },
+        {
+          "depth": 4,
+          "name": "Tez Johnson",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Kameron Johnson",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Ted Hurst III",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "David Sills V",
+          "note": "DNP 8/12"
+        },
+        {
+          "depth": 8,
+          "name": "Dennis Houston",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "Dean Patterson IV",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Eric Rivers Jr.",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Garrett Greene",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Cade Otton",
+          "note": "Not expecting starters"
+        },
+        {
+          "depth": 2,
+          "name": "Payne Durham",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Ko Kieft",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Devin Culp",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Bauer Sharp",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Kenny Fletcher Jr.",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "B.T. Potter",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Chase McLaughlin",
+          "note": ""
+        }
+      ]
+    },
+    "WAS": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Jayden Daniels",
+          "note": "Likely out or highly limited"
+        },
+        {
+          "depth": 2,
+          "name": "Marcus Mariota",
+          "note": "Expecting 1 to 1.5q"
+        },
+        {
+          "depth": 3,
+          "name": "Sam Hartman",
+          "note": "Expecting 1 to 1.5q"
+        },
+        {
+          "depth": 4,
+          "name": "Athan Kaliakmanis",
+          "note": "Expecting 1 to 1.5q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Rachaad White",
+          "note": "Likely out or highly limited"
+        },
+        {
+          "depth": 2,
+          "name": "Jacory Croskey-Merritt",
+          "note": ""
+        },
+        {
+          "depth": 3,
+          "name": "Kaytron Allen",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Jerome Ford",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Jeremy McNichols",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Robert Henry Jr.",
+          "note": ""
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Terry McLaurin",
+          "note": "Likely out or highly limited"
+        },
+        {
+          "depth": 2,
+          "name": "Stefon Diggs",
+          "note": "Likely out or highly limited"
+        },
+        {
+          "depth": 3,
+          "name": "Antonio Williams",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Treylon Burks",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Luke McCaffrey",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Jaylin Lane",
+          "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Van Jefferson",
+          "note": ""
+        },
+        {
+          "depth": 8,
+          "name": "Dyami Brown",
+          "note": ""
+        },
+        {
+          "depth": 9,
+          "name": "River Cracraft",
+          "note": ""
+        },
+        {
+          "depth": 10,
+          "name": "Nick Nash",
+          "note": ""
+        },
+        {
+          "depth": 11,
+          "name": "Jacoby Jones",
+          "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "Jaden Bradley",
+          "note": ""
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Chig Okonkwo",
+          "note": "Likely out or highly limited"
+        },
+        {
+          "depth": 2,
+          "name": "John Bates",
+          "note": "DNP 8/12"
+        },
+        {
+          "depth": 3,
+          "name": "Ben Sinnott",
+          "note": ""
+        },
+        {
+          "depth": 4,
+          "name": "Colson Yankoff",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Lawrence Cager",
+          "note": ""
+        },
+        {
+          "depth": 6,
+          "name": "Quentin Moore",
+          "note": ""
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Drew Stevens",
+          "note": ""
+        }
+      ]
+    }
+  }
 }
