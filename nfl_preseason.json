@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T12:32",
+  "updated": "2026-08-14T12:33",
   "sections": [
     {
       "position": "QB",
@@ -296,37 +296,55 @@
           "rank": 1,
           "players": "Denver Broncos",
           "core": false,
-          "notes": "Based on NFL DFS projections"
+          "notes": "Based on NFL DFS projections",
+          "salary": null,
+          "fpts": 9.4,
+          "opp": "ATL"
         },
         {
           "rank": 2,
           "players": "Tampa Bay Buccaneers",
           "core": false,
-          "notes": "Based on NFL DFS projections"
+          "notes": "Based on NFL DFS projections",
+          "salary": null,
+          "fpts": 8.7,
+          "opp": "NYJ"
         },
         {
           "rank": 3,
           "players": "Washington Commanders",
           "core": false,
-          "notes": "Based on NFL DFS projections"
+          "notes": "Based on NFL DFS projections",
+          "salary": null,
+          "fpts": 8.6,
+          "opp": "MIA"
         },
         {
           "rank": 4,
           "players": "New York Jets",
           "core": false,
-          "notes": "Based on NFL DFS projections"
+          "notes": "Based on NFL DFS projections",
+          "salary": null,
+          "fpts": 8.4,
+          "opp": "TB"
         },
         {
           "rank": 5,
           "players": "Miami Dolphins",
           "core": false,
-          "notes": "Based on NFL DFS projections"
+          "notes": "Based on NFL DFS projections",
+          "salary": null,
+          "fpts": 8.4,
+          "opp": "WAS"
         },
         {
           "rank": 6,
           "players": "Atlanta Falcons",
           "core": false,
-          "notes": "Based on NFL DFS projections"
+          "notes": "Based on NFL DFS projections",
+          "salary": null,
+          "fpts": 7.8,
+          "opp": "DEN"
         }
       ]
     }
