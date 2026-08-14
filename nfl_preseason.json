@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-13T18:23",
+  "updated": "2026-08-14T07:45",
   "sections": [
     {
       "position": "QB",
@@ -52,7 +52,12 @@
           "players": "Fernando Mendoza",
           "core": false,
           "notes": "Unknown playing time, but 4 QBs are available here.  Should he play 2 quarters, could exceed others."
-        },
+        }
+      ]
+    },
+    {
+      "position": "RB",
+      "players": [
         {
           "rank": 1,
           "players": "Lan Larison / Jam Miller",
