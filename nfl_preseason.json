@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T12:51",
+  "updated": "2026-08-14T17:54",
   "sections": [
     {
       "position": "QB",
@@ -34,12 +34,12 @@
         },
         {
           "rank": 4,
-          "players": "Connor Bazelak",
+          "players": "Cade Klubnik",
           "core": false,
-          "notes": "Will start and is expected to play the 1st half.",
+          "notes": "Will get the bulk of QB work for NYJ. 2 other QBs here behind him.",
           "salary": null,
-          "fpts": 6.4,
-          "opp": "NYJ"
+          "fpts": 7.1,
+          "opp": "TB"
         },
         {
           "rank": 5,
@@ -49,21 +49,21 @@
         },
         {
           "rank": 6,
+          "players": "Connor Bazelak",
+          "core": false,
+          "notes": "Will start and is expected to play the 1st half.",
+          "salary": null,
+          "fpts": 6.4,
+          "opp": "NYJ"
+        },
+        {
+          "rank": 7,
           "players": "Jack Strand",
           "core": false,
           "notes": "Will get the bulk of QB work for ATL once Tua and Rush exit.",
           "salary": null,
           "fpts": 6.2,
           "opp": "DEN"
-        },
-        {
-          "rank": 7,
-          "players": "Cade Klubnik",
-          "core": false,
-          "notes": "Will get the bulk of QB work for NYJ once Geno exits.  2 other QBs here behind him.",
-          "salary": null,
-          "fpts": 5.1,
-          "opp": "TB"
         }
       ]
     },
@@ -81,21 +81,21 @@
         },
         {
           "rank": 2,
+          "players": "Kaytron Allen",
+          "core": false,
+          "notes": "Joint practices should limit work for White, leaving Allen as the most obvious choice for evaluation reps.",
+          "salary": null,
+          "fpts": 5.6,
+          "opp": "MIA"
+        },
+        {
+          "rank": 3,
           "players": "Jonah Coleman",
           "core": false,
           "notes": "Really impressing the staff in camp and should get a chance to display it under the lights.",
           "salary": null,
           "fpts": 5.5,
           "opp": "ATL"
-        },
-        {
-          "rank": 3,
-          "players": "Kaytron Allen",
-          "core": false,
-          "notes": "Joint practices should limit work for White, leaving Allen as the most obvious choice for evaluation reps.",
-          "salary": null,
-          "fpts": 5.2,
-          "opp": "MIA"
         },
         {
           "rank": 4,
@@ -128,7 +128,7 @@
           "rank": 7,
           "players": "Braelon Allen",
           "core": false,
-          "notes": "NYJ options in a 5-man group that has potential to see the most work.  Plays early with superior offense.",
+          "notes": "NYJ option in a 5-man group that has potential to see the most work.  Plays early with superior offense.",
           "salary": null,
           "fpts": 4.4,
           "opp": "TB"
@@ -146,7 +146,7 @@
           "rank": 9,
           "players": "Chip Trayanum",
           "core": false,
-          "notes": "NYJ options in a 5-man group that has potential to see the most work. Plays later with more rep upside.",
+          "notes": "NYJ option in a 5-man group that has potential to see the most work. Plays later with more rep upside.",
           "salary": null,
           "fpts": 4.6,
           "opp": "TB"
@@ -307,7 +307,7 @@
           "core": false,
           "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 8.7,
+          "fpts": 8.9,
           "opp": "NYJ"
         },
         {
@@ -669,12 +669,12 @@
         {
           "depth": 1,
           "name": "Geno Smith",
-          "note": "Trying to spread 25-30 reps throughout all three preseason games."
+          "note": "Will not play"
         },
         {
           "depth": 2,
           "name": "Cade Klubnik",
-          "note": "Expecting 1.5 to 2q"
+          "note": "Expecting 2 to 2.5q"
         },
         {
           "depth": 3,
@@ -1125,7 +1125,7 @@
         {
           "depth": 1,
           "name": "Jayden Daniels",
-          "note": "Likely out or highly limited"
+          "note": "Will not play"
         },
         {
           "depth": 2,
@@ -1147,12 +1147,12 @@
         {
           "depth": 1,
           "name": "Rachaad White",
-          "note": "Likely out or highly limited"
+          "note": ""
         },
         {
           "depth": 2,
           "name": "Jacory Croskey-Merritt",
-          "note": ""
+          "note": "Will not play"
         },
         {
           "depth": 3,
@@ -1179,12 +1179,12 @@
         {
           "depth": 1,
           "name": "Terry McLaurin",
-          "note": "Likely out or highly limited"
+          "note": "Will not play"
         },
         {
           "depth": 2,
           "name": "Stefon Diggs",
-          "note": "Likely out or highly limited"
+          "note": "Will not play"
         },
         {
           "depth": 3,
@@ -1241,12 +1241,12 @@
         {
           "depth": 1,
           "name": "Chig Okonkwo",
-          "note": "Likely out or highly limited"
+          "note": "Will not play"
         },
         {
           "depth": 2,
           "name": "John Bates",
-          "note": "DNP 8/12"
+          "note": "Will not play"
         },
         {
           "depth": 3,
