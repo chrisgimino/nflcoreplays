@@ -110,18 +110,6 @@
     border-color:var(--core);
     color:var(--core);
   }
-    width:100%;
-    margin-bottom:18px;
-    padding:10px 14px;
-    background:var(--panel);
-    border:1px solid var(--line);
-    border-radius:8px;
-    color:var(--text);
-    font-size:0.9rem;
-  }
-  .search::placeholder{color:var(--text-dim);}
-  .search:focus{outline:none;border-color:var(--core);}
-
   .legend{
     display:flex;gap:14px;flex-wrap:wrap;
     font-size:0.72rem;color:var(--text-dim);
@@ -319,7 +307,6 @@
 
     <div class="tab-panel active" id="tab-core">
       <div class="pos-toggles" id="pos-toggles"></div>
-      <input class="search" id="search" type="text" placeholder="Search players, positions, or notes&hellip;">
 
       <div class="legend">
         <span class="flag">&#9650; CORE</span>
@@ -411,22 +398,10 @@ function renderSection(section){
   `;
 }
 
-function applyFilter(term){
-  term = term.trim().toLowerCase();
+function applyFilter(){
   document.querySelectorAll("section.pos-block").forEach(sec => {
     const posMatchesToggle = ACTIVE_POS === "ALL" || sec.dataset.position === ACTIVE_POS;
-    if (!posMatchesToggle){
-      sec.style.display = "none";
-      return;
-    }
-    let visibleCount = 0;
-    sec.querySelectorAll(".card").forEach(card => {
-      const text = card.textContent.toLowerCase();
-      const match = !term || text.includes(term);
-      card.style.display = match ? "" : "none";
-      if (match) visibleCount++;
-    });
-    sec.style.display = visibleCount ? "" : "none";
+    sec.style.display = posMatchesToggle ? "" : "none";
   });
 }
 
@@ -443,7 +418,7 @@ function renderPosToggles(sections){
     btn.addEventListener("click", () => {
       ACTIVE_POS = btn.dataset.pos;
       toggles.querySelectorAll(".pos-toggle-btn").forEach(b => b.classList.toggle("active", b === btn));
-      applyFilter(document.getElementById("search").value);
+      applyFilter();
     });
   });
 }
@@ -523,7 +498,6 @@ fetch(DATA_URL, {cache: "no-store"})
     } else {
       content.innerHTML = data.sections.map(renderSection).join("");
       renderPosToggles(data.sections);
-      document.getElementById("search").addEventListener("input", e => applyFilter(e.target.value));
     }
 
     DEPTH_DATA = data.depth_charts || {};
