@@ -12,8 +12,8 @@
     --line:#232833;
     --text:#e7eaf0;
     --text-dim:#8a93a3;
-    --core:#e8a33d;
-    --core-dim:#4a3a1e;
+    --core:#2f8fef;
+    --core-dim:#132d4a;
     --qb:#5b8def;
     --rb:#3ecf8e;
     --wr:#e85d8e;
@@ -89,7 +89,27 @@
   .tab-panel{display:none;}
   .tab-panel.active{display:block;}
 
-  .search{
+  .pos-toggles{
+    display:flex;gap:8px;flex-wrap:wrap;
+    margin-bottom:16px;
+  }
+  .pos-toggle-btn{
+    appearance:none;
+    background:var(--panel);
+    border:1px solid var(--line);
+    color:var(--text-dim);
+    font-weight:800;font-size:0.78rem;letter-spacing:0.04em;
+    padding:7px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:border-color .12s ease, color .12s ease, background .12s ease;
+  }
+  .pos-toggle-btn:hover{border-color:var(--text-dim);}
+  .pos-toggle-btn.active{
+    background:var(--core-dim);
+    border-color:var(--core);
+    color:var(--core);
+  }
     width:100%;
     margin-bottom:18px;
     padding:10px 14px;
@@ -173,6 +193,18 @@
     text-transform:uppercase;
   }
   .core-flag::before{content:"\25B2";font-size:0.6rem;}
+  .proj-line{
+    grid-column:2;
+    display:flex;gap:10px;flex-wrap:wrap;
+    font-size:0.72rem;font-weight:700;
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+  }
+  .proj-line.proj-QB{color:var(--qb);}
+  .proj-line.proj-RB{color:var(--rb);}
+  .proj-line.proj-WR{color:var(--wr);}
+  .proj-line.proj-TE{color:var(--te);}
+  .proj-line.proj-K{color:var(--k);}
+  .proj-line.proj-DST{color:var(--dst);}
   .note{
     grid-column:2;
     color:var(--text-dim);
@@ -286,6 +318,7 @@
     </div>
 
     <div class="tab-panel active" id="tab-core">
+      <div class="pos-toggles" id="pos-toggles"></div>
       <input class="search" id="search" type="text" placeholder="Search players, positions, or notes&hellip;">
 
       <div class="legend">
@@ -344,7 +377,16 @@ document.querySelectorAll(".tab-btn").forEach(btn => {
 /* ---------- Core Plays tab ---------- */
 function renderSection(section){
   const posClass = section.position.toUpperCase();
-  const rows = section.players.map(p => `
+  const rows = section.players.map(p => {
+    const projBits = [];
+    if (p.salary != null) projBits.push(`$${p.salary.toLocaleString()}`);
+    if (p.fpts != null) projBits.push(`${p.fpts} FPTS`);
+    if (p.opp) projBits.push(`vs ${escapeHtml(p.opp)}`);
+    const projLine = projBits.length
+      ? `<div class="proj-line proj-${posClass}">${projBits.join(" &middot; ")}</div>`
+      : "";
+
+    return `
     <div class="card ${p.core ? "is-core" : ""}">
       <div class="rank">${p.rank}</div>
       <div class="row-name">
@@ -352,8 +394,10 @@ function renderSection(section){
         ${p.core ? '<span class="core-flag">Core</span>' : ""}
       </div>
       <div class="note">${escapeHtml(p.notes)}</div>
+      ${projLine}
     </div>
-  `).join("");
+  `;
+  }).join("");
 
   return `
     <section class="pos-block" data-position="${posClass}">
@@ -370,15 +414,37 @@ function renderSection(section){
 function applyFilter(term){
   term = term.trim().toLowerCase();
   document.querySelectorAll("section.pos-block").forEach(sec => {
+    const posMatchesToggle = ACTIVE_POS === "ALL" || sec.dataset.position === ACTIVE_POS;
+    if (!posMatchesToggle){
+      sec.style.display = "none";
+      return;
+    }
     let visibleCount = 0;
     sec.querySelectorAll(".card").forEach(card => {
       const text = card.textContent.toLowerCase();
-      const posMatch = sec.dataset.position.toLowerCase().includes(term);
-      const match = !term || text.includes(term) || posMatch;
+      const match = !term || text.includes(term);
       card.style.display = match ? "" : "none";
       if (match) visibleCount++;
     });
     sec.style.display = visibleCount ? "" : "none";
+  });
+}
+
+let ACTIVE_POS = "ALL";
+
+function renderPosToggles(sections){
+  const toggles = document.getElementById("pos-toggles");
+  const positions = sections.map(s => s.position.toUpperCase());
+  const buttons = ["ALL", ...positions];
+  toggles.innerHTML = buttons.map(p =>
+    `<button class="pos-toggle-btn ${p === ACTIVE_POS ? "active" : ""}" data-pos="${p}">${p === "ALL" ? "All" : p}</button>`
+  ).join("");
+  toggles.querySelectorAll(".pos-toggle-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      ACTIVE_POS = btn.dataset.pos;
+      toggles.querySelectorAll(".pos-toggle-btn").forEach(b => b.classList.toggle("active", b === btn));
+      applyFilter(document.getElementById("search").value);
+    });
   });
 }
 
@@ -456,6 +522,7 @@ fetch(DATA_URL, {cache: "no-store"})
       content.innerHTML = '<div class="empty-state">No data available.</div>';
     } else {
       content.innerHTML = data.sections.map(renderSection).join("");
+      renderPosToggles(data.sections);
       document.getElementById("search").addEventListener("input", e => applyFilter(e.target.value));
     }
 
