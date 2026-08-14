@@ -1,57 +1,51 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-14T07:51",
+  "updated": "2026-08-14T11:57",
   "sections": [
     {
       "position": "QB",
       "players": [
         {
           "rank": 1,
-          "players": "Coming Soon",
-          "core": true,
-          "notes": "Coming Soon"
+          "players": "Jalon Daniels",
+          "core": false,
+          "notes": "Will split the game with Bazelak, mobile QB. (If no Browning)"
         },
         {
           "rank": 2,
-          "players": "",
+          "players": "Sam Ehlinger",
           "core": false,
-          "notes": ""
+          "notes": "Will split the game with Stidham. Has enough leg to be dual threat."
         },
         {
           "rank": 3,
-          "players": "",
+          "players": "Jarrett Stidham",
           "core": false,
-          "notes": ""
+          "notes": "Will start an play with superior talents in 1st half."
         },
         {
           "rank": 4,
-          "players": "",
+          "players": "Connor Bazelak",
           "core": false,
-          "notes": ""
+          "notes": "Will start and expected to play the first half."
         },
         {
           "rank": 5,
-          "players": "",
+          "players": "(Left Blank intentionally)",
           "core": false,
-          "notes": ""
+          "notes": "No rank 5. Out of respect for Jayden Daniels, the only legal QB #5."
         },
         {
           "rank": 6,
-          "players": "",
+          "players": "Jack Strand",
           "core": false,
-          "notes": ""
+          "notes": "Will get the bulk of QB work for ATL once Tua and Cooper rush exit."
         },
         {
           "rank": 7,
-          "players": "",
+          "players": "Cade Klubnik",
           "core": false,
-          "notes": ""
-        },
-        {
-          "rank": 8,
-          "players": "",
-          "core": false,
-          "notes": ""
+          "notes": "Will get the bulk of QB work for ATL once Geno exits.  2 other QBs here behind him."
         }
       ]
     },
@@ -60,45 +54,57 @@
       "players": [
         {
           "rank": 1,
-          "players": "Coming Soon",
+          "players": "Josh Williams",
           "core": true,
-          "notes": "Coming Soon"
+          "notes": "Tampa Bay may only have 3 backs that take the majority of work, assuming Bucky Irving and Gainwell are limited."
         },
         {
           "rank": 2,
-          "players": "",
+          "players": "Jonah Coleman",
           "core": false,
-          "notes": ""
+          "notes": "Really impressing the staff in camp, and should get a chance to display it under the lights."
         },
         {
           "rank": 3,
-          "players": "",
+          "players": "Kaytron Allen",
           "core": false,
-          "notes": ""
+          "notes": "Joint practices should limit and work for White, leaving Allen as the most obvious choice for evaluation reps."
         },
         {
           "rank": 4,
-          "players": "",
+          "players": "Sean Tucker",
           "core": false,
-          "notes": ""
+          "notes": "May be too important for HUGE volume, but could produce on efficiency even if volume escapes him."
         },
         {
           "rank": 5,
-          "players": "",
+          "players": "Kadarius Calloway",
           "core": false,
-          "notes": ""
+          "notes": "A pivot away from Williams and Tucker in a thinner backfield."
         },
         {
           "rank": 6,
-          "players": "",
+          "players": "Nathan Carter",
           "core": false,
-          "notes": ""
+          "notes": "ATL also thin if Bijan/Brian Robinson don't take many reps.  Carter, Sermon, and Goodson competing"
         },
         {
           "rank": 7,
-          "players": "",
+          "players": "Braelon Allen",
           "core": false,
-          "notes": ""
+          "notes": "NYJ options in a 5 man group that have potential to see the most work.  Plays early with superior offense."
+        },
+        {
+          "rank": 8,
+          "players": "Tyler Goodson",
+          "core": false,
+          "notes": "ATL also thin if Bijan/Brian Robinson don't take many reps.  Carter, Sermon, and Goodson competing"
+        },
+        {
+          "rank": 9,
+          "players": "Chip Trayanum",
+          "core": false,
+          "notes": "NYJ options in a 5 man group that have potential to see the most work. Plays later with more rep upside."
         }
       ]
     },
@@ -107,51 +113,57 @@
       "players": [
         {
           "rank": 1,
-          "players": "Coming Soon",
+          "players": "Caleb Douglas",
           "core": true,
-          "notes": "Coming Soon"
+          "notes": "Sits atop a media depth chart, but don't be fooled.  Reps > protective measures on this team."
         },
         {
           "rank": 2,
-          "players": "",
-          "core": false,
-          "notes": ""
+          "players": "Ted Hurst III",
+          "core": true,
+          "notes": "With dings and dents across their starting WR group, live reps will help fast forward his development."
         },
         {
           "rank": 3,
-          "players": "",
+          "players": "Omar Cooper Jr.",
           "core": false,
-          "notes": ""
+          "notes": "NYJ strategy is set on 2 TEs, Wilson and Mitchell in season... its open season for development reps in pre."
         },
         {
           "rank": 4,
-          "players": "",
+          "players": "Zachariah Branch",
           "core": false,
-          "notes": ""
+          "notes": "Risk of starter treatment, but potential 1st read player with starting offense.  Also has snap upside."
         },
         {
           "rank": 5,
-          "players": "",
+          "players": "Dylan Drummond",
           "core": false,
-          "notes": ""
+          "notes": "Preseason hero of the past could emerge yet again as this game progresses."
         },
         {
           "rank": 6,
-          "players": "",
+          "players": "Chris Blair",
           "core": false,
-          "notes": ""
+          "notes": "Preseason hero of the past could emerge yet again as this game progresses. 52 yard TD in 2025."
         },
         {
           "rank": 7,
-          "players": "",
+          "players": "Antonio Williams",
           "core": false,
-          "notes": ""
+          "notes": "Diggs addition takes some pressure off coaches and allows for the risk of more preseason snaps."
         },
         {
           "rank": 8,
-          "players": "",
+          "players": "Eric Rivers Jr.",
           "core": false,
-          "notes": ""
+          "notes": "Speedy late game TB option (among a few others) for tournament pivoting."
+        },
+        {
+          "rank": 9,
+          "players": "Pat Bryant",
+          "core": false,
+          "notes": "Having a standout camp, and could be a first look player early in the game. Red zone threat."
         }
       ]
     },
@@ -160,27 +172,33 @@
       "players": [
         {
           "rank": 1,
-          "players": "Coming Soon",
-          "core": true,
-          "notes": "Coming Soon"
+          "players": "Colson Yankoff",
+          "core": false,
+          "notes": "Tough day at TE, but the Commanders chart is the most limited."
         },
         {
           "rank": 2,
-          "players": "",
+          "players": "Jelani Woods",
           "core": false,
-          "notes": ""
+          "notes": "Yeah, we know. Not again.  But the guy has receiver skills and should have plenty of snaps to get there."
         },
         {
           "rank": 3,
-          "players": "",
+          "players": "Will Kacmarek",
           "core": false,
-          "notes": ""
+          "notes": "Dulcich hasn't been 100%, and sp they should progress quickly down the chart leaving upside for the 3rd round rookie."
         },
         {
           "rank": 4,
-          "players": "",
+          "players": "Devin Culp",
           "core": false,
-          "notes": ""
+          "notes": "Not exciting, but there really isn't much to work with on the TE chart here and he should play a bunch."
+        },
+        {
+          "rank": 5,
+          "players": "Justin Joly",
+          "core": false,
+          "notes": "Chart has a lot of bodies, and Payton rotates players even in pre.  That said, very obviously choice for rep upside gambles."
         }
       ]
     },
@@ -189,41 +207,42 @@
       "players": [
         {
           "rank": 1,
-          "players": "Coming Soon",
-          "core": true,
-          "notes": "Coming Soon"
+          "players": "Denver Broncos",
+          "core": false,
+          "notes": "Based on NFL DFS projections"
         },
         {
           "rank": 2,
-          "players": "",
+          "players": "Tampa Bay Buccaneers",
           "core": false,
-          "notes": ""
+          "notes": "Based on NFL DFS projections"
         },
         {
           "rank": 3,
-          "players": "",
+          "players": "Washington Commanders",
           "core": false,
-          "notes": ""
+          "notes": "Based on NFL DFS projections"
         },
         {
           "rank": 4,
-          "players": "",
+          "players": "New York Jets",
           "core": false,
-          "notes": ""
+          "notes": "Based on NFL DFS projections"
         },
         {
           "rank": 5,
-          "players": "",
+          "players": "Miami Dolphins",
           "core": false,
-          "notes": ""
+          "notes": "Based on NFL DFS projections"
         },
         {
           "rank": 6,
-          "players": "",
+          "players": "Atlanta Falcons",
           "core": false,
-          "notes": ""
+          "notes": "Based on NFL DFS projections"
         }
       ]
     }
-  ]
+  ],
+  "depth_charts": {}
 }
