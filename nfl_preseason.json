@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-15T11:32",
+  "updated": "2026-08-15T12:48",
   "sections": [
     {
       "position": "QB",
@@ -27,7 +27,7 @@
           "rank": 3,
           "players": "Ty Simpson",
           "core": false,
-          "notes": "1st round pick. Has playing time upside in a game that will fetaure deep reserves.",
+          "notes": "1st-round pick. Has playing time upside in a game that will fetaure deep reserves.",
           "salary": null,
           "fpts": 7.9,
           "opp": "KC"
@@ -95,7 +95,7 @@
           "rank": 4,
           "players": "J'Mari Taylor",
           "core": false,
-          "notes": "JAX figures to take it easy on anyone who matters, and if that include LeQuint Allen Jr. (like in 2025) he could get 10+ touches.",
+          "notes": "JAX figures to take it easy on anyone who matters, and if that includes LeQuint Allen Jr. (like in 2025), he could get 10+ touches.",
           "salary": null,
           "fpts": 7.2,
           "opp": "NO"
@@ -140,7 +140,7 @@
           "rank": 9,
           "players": "Ty Chandler",
           "core": false,
-          "notes": "Only 3 backs here so he could easily outplay/touch Estime.",
+          "notes": "Only 3 backs here, so he could easily outplay/touch Estime.",
           "salary": null,
           "fpts": 5.7,
           "opp": "JAX"
@@ -181,7 +181,7 @@
           "rank": 4,
           "players": "Ja'Kobi Lane",
           "core": false,
-          "notes": "Stand out camp, and usually the first game coaches will let even roster worthy youth have chances to make plays in live action.",
+          "notes": "Standout camp, and usually the first game coaches will let even roster-worthy youth have chances to make plays in live action.",
           "salary": null,
           "fpts": 3.8,
           "opp": "PHI"
@@ -190,7 +190,7 @@
           "rank": 5,
           "players": "Barion Brown",
           "core": false,
-          "notes": "Expecting the duo of Lance and Barion Brown to be afforded significant developmental snaps.",
+          "notes": "Expecting the duo of Bryce Lance and Brown to be afforded significant developmental snaps.",
           "salary": null,
           "fpts": 3.7,
           "opp": "JAX"
@@ -217,7 +217,7 @@
           "rank": 8,
           "players": "Cyrus Allen",
           "core": false,
-          "notes": "Back from minor injury, and drawing praise from Andy/Patrick.  KC is historically spread out, so be wary. Has upside.",
+          "notes": "Back from minor injury and drawing praise from Andy/Patrick.  KC is historically spread out, so be wary. Has upside.",
           "salary": null,
           "fpts": 3.8,
           "opp": "LAR"
@@ -226,7 +226,7 @@
           "rank": 9,
           "players": "Camden Brown",
           "core": false,
-          "notes": "Has played with 1st unit some lately, and is one of very few WRs to consider on DAL on a long list of available bodies.",
+          "notes": "Has played with the 1st unit some lately and is one of very few WRs to consider on DAL on a long list of available bodies.",
           "salary": null,
           "fpts": 3.4,
           "opp": "SEA"
@@ -258,7 +258,7 @@
           "rank": 3,
           "players": "Matt Hibner",
           "core": false,
-          "notes": "They need reps on their young TEs as Andrews is aging and they need development.",
+          "notes": "They need reps on their young TEs, as Andrews is aging and they need development.",
           "salary": null,
           "fpts": 3.4,
           "opp": "PHI"
@@ -267,7 +267,7 @@
           "rank": 4,
           "players": "Eli Stowers",
           "core": false,
-          "notes": "Off the charts atheltic for the position and clearly here to catch passes and chew bubble gum.  He's out of the gum.",
+          "notes": "Off the charts athelticism for the position and clearly here to catch passes and chew bubble gum.  He's out of the gum.",
           "salary": null,
           "fpts": 3.3,
           "opp": "BAL"
@@ -276,7 +276,7 @@
           "rank": 5,
           "players": "Oscar Delp",
           "core": false,
-          "notes": "3rd round rookie closest comparable to Terrance Ferguson on PlayerProfiler... starters and vets rest here so there is opportunity.",
+          "notes": "3rd-round rookie closest comparable to Terrance Ferguson on PlayerProfiler... starters and vets rest here, so there is opportunity.",
           "salary": null,
           "fpts": 2.8,
           "opp": "JAX"
@@ -285,7 +285,7 @@
           "rank": 6,
           "players": "Dan Villari",
           "core": false,
-          "notes": "Rams have a short rotation and you almost can't cross anyone playing a lot off the list.",
+          "notes": "Rams have a short rotation, and you almost can't cross anyone playing a lot off the list.",
           "salary": null,
           "fpts": 2.7,
           "opp": "KC"
@@ -919,6 +919,11 @@
           "depth": 11,
           "name": "Michael Wortham",
           "note": ""
+        },
+        {
+          "depth": 12,
+          "name": "CJ Williams",
+          "note": ""
         }
       ],
       "TE": [
@@ -1275,6 +1280,11 @@
           "depth": 6,
           "name": "Caden Prieskorn",
           "note": ""
+        },
+        {
+          "depth": 7,
+          "name": "Darren Waller",
+          "note": "Signed 8/13"
         }
       ],
       "K": [
@@ -2287,7 +2297,7 @@
           "note": "Signed 8/10"
         },
         {
-          "depth": 7,
+          "depth": 6,
           "name": "Carson Steele",
           "note": ""
         }
