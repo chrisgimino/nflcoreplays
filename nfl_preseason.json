@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-15T12:48",
+  "updated": "2026-08-15T13:17",
   "sections": [
     {
       "position": "QB",
@@ -66,21 +66,21 @@
       "players": [
         {
           "rank": 1,
-          "players": "Jordan Waters",
-          "core": true,
-          "notes": "Rams doing the annual consolidation of reps on deep reserves.  Talented player in college.",
-          "salary": null,
-          "fpts": 7.3,
-          "opp": "KC"
-        },
-        {
-          "rank": 2,
           "players": "Adam Randall",
           "core": true,
           "notes": "Great spot on a condensed depth chart to see him get significant touches. Strong athlete.",
           "salary": null,
           "fpts": 7.2,
           "opp": "PHI"
+        },
+        {
+          "rank": 2,
+          "players": "Jordan Waters",
+          "core": false,
+          "notes": "Rams doing the annual consolidation of reps on deep reserves.  Talented player in college.",
+          "salary": null,
+          "fpts": 7.2,
+          "opp": "KC"
         },
         {
           "rank": 3,
@@ -97,7 +97,7 @@
           "core": false,
           "notes": "JAX figures to take it easy on anyone who matters, and if that includes LeQuint Allen Jr. (like in 2025), he could get 10+ touches.",
           "salary": null,
-          "fpts": 7.2,
+          "fpts": 6.9,
           "opp": "NO"
         },
         {
@@ -115,7 +115,7 @@
           "core": false,
           "notes": "PHI is banged up/resting starters.  A limited load - if any - for Bigsby/Shipley means Steele pretty much has to carry the load.",
           "salary": null,
-          "fpts": 7.1,
+          "fpts": 6.4,
           "opp": "BAL"
         },
         {
@@ -152,11 +152,11 @@
       "players": [
         {
           "rank": 1,
-          "players": "Tyler Scott",
+          "players": "CJ Daniels",
           "core": true,
           "notes": "We're guessing a little with who gets the absolute most burn on LAR, so pick your poison. All 6 WRs should play a LOT.",
           "salary": null,
-          "fpts": 4.2,
+          "fpts": 4.7,
           "opp": "KC"
         },
         {
@@ -170,15 +170,6 @@
         },
         {
           "rank": 3,
-          "players": "CJ Daniels",
-          "core": true,
-          "notes": "We're guessing a little with who gets the absolute most burn on LAR, so pick your poison. All 6 WRs should play a LOT.",
-          "salary": null,
-          "fpts": 3.9,
-          "opp": "KC"
-        },
-        {
-          "rank": 4,
           "players": "Ja'Kobi Lane",
           "core": false,
           "notes": "Standout camp, and usually the first game coaches will let even roster-worthy youth have chances to make plays in live action.",
@@ -187,7 +178,7 @@
           "opp": "PHI"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "players": "Barion Brown",
           "core": false,
           "notes": "Expecting the duo of Bryce Lance and Brown to be afforded significant developmental snaps.",
@@ -196,21 +187,30 @@
           "opp": "JAX"
         },
         {
+          "rank": 5,
+          "players": "Darius Cooper",
+          "core": false,
+          "notes": "Best option in Philadelphia for \"prove it\" / developmental reps.",
+          "salary": null,
+          "fpts": 3.7,
+          "opp": "BAL"
+        },
+        {
           "rank": 6,
-          "players": "Brennan Presley",
+          "players": "Tru Edwards",
           "core": false,
           "notes": "We're guessing a little with who gets the absolute most burn on LAR, so pick your poison. All 6 WRs should play a LOT.",
           "salary": null,
-          "fpts": 3.6,
+          "fpts": 3.8,
           "opp": "KC"
         },
         {
           "rank": 7,
-          "players": "Mario Williams",
+          "players": "Tyler Scott",
           "core": false,
           "notes": "We're guessing a little with who gets the absolute most burn on LAR, so pick your poison. All 6 WRs should play a LOT.",
           "salary": null,
-          "fpts": 3.4,
+          "fpts": 3.7,
           "opp": "KC"
         },
         {
@@ -224,12 +224,12 @@
         },
         {
           "rank": 9,
-          "players": "Camden Brown",
+          "players": "Cody White",
           "core": false,
-          "notes": "Has played with the 1st unit some lately and is one of very few WRs to consider on DAL on a long list of available bodies.",
+          "notes": "Seattlle won't play key players, leaving the middle of the depth chart wide open for 1H reps with both QBs.",
           "salary": null,
-          "fpts": 3.4,
-          "opp": "SEA"
+          "fpts": 3.5,
+          "opp": "DAL"
         }
       ]
     },
@@ -242,7 +242,7 @@
           "core": true,
           "notes": "Great option in a condensed rotation on a team that plays 2 and 3 TE formations.",
           "salary": null,
-          "fpts": 3.9,
+          "fpts": 3.8,
           "opp": "KC"
         },
         {
@@ -289,6 +289,15 @@
           "salary": null,
           "fpts": 2.7,
           "opp": "KC"
+        },
+        {
+          "rank": 7,
+          "players": "Josh Cuevas",
+          "core": false,
+          "notes": "They need reps on their young TEs, as Andrews is aging and they need development.",
+          "salary": null,
+          "fpts": 2.7,
+          "opp": "PHI"
         }
       ]
     },
@@ -346,7 +355,7 @@
           "core": false,
           "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 8.2,
+          "fpts": 8.1,
           "opp": "PHI"
         }
       ]
