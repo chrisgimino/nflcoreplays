@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-15T11:24",
+  "updated": "2026-08-15T11:32",
   "sections": [
     {
       "position": "QB",
@@ -18,7 +18,7 @@
           "rank": 2,
           "players": "Carter Bradley",
           "core": false,
-          "notes": "Has playing time upside in a game that will fetaure deep reseves.",
+          "notes": "Has playing time upside in a game that will fetaure deep reserves.",
           "salary": null,
           "fpts": 8.9,
           "opp": "NO"
@@ -27,7 +27,7 @@
           "rank": 3,
           "players": "Ty Simpson",
           "core": false,
-          "notes": "Has playing time upside in a game that will fetaure deep reseves.",
+          "notes": "1st round pick. Has playing time upside in a game that will fetaure deep reserves.",
           "salary": null,
           "fpts": 7.9,
           "opp": "KC"
@@ -68,7 +68,7 @@
           "rank": 1,
           "players": "Jordan Waters",
           "core": true,
-          "notes": "Rams up to their annual consolidation of reps on deep reserves.  Talented player in college.",
+          "notes": "Rams doing the annual consolidation of reps on deep reserves.  Talented player in college.",
           "salary": null,
           "fpts": 7.3,
           "opp": "KC"
@@ -84,39 +84,39 @@
         },
         {
           "rank": 3,
+          "players": "Audric Estime",
+          "core": false,
+          "notes": "2 backs will carry the bulk for NO, and he's the most in need of evalution.",
+          "salary": null,
+          "fpts": 7.2,
+          "opp": "JAX"
+        },
+        {
+          "rank": 4,
           "players": "J'Mari Taylor",
-          "core": true,
+          "core": false,
           "notes": "JAX figures to take it easy on anyone who matters, and if that include LeQuint Allen Jr. (like in 2025) he could get 10+ touches.",
           "salary": null,
           "fpts": 7.2,
           "opp": "NO"
         },
         {
-          "rank": 4,
-          "players": "Audric Estime",
-          "core": true,
-          "notes": "3 backs will carry the bulk for NO, and he's the most in need of evalution.",
-          "salary": null,
-          "fpts": 7.2,
-          "opp": "JAX"
-        },
-        {
           "rank": 5,
-          "players": "Carson Steele",
-          "core": false,
-          "notes": "PHI is banged up/resting starters.  A limited load - if any - for Bigsby/Shipley means Steele pretty much has to carry the load.",
-          "salary": null,
-          "fpts": 7.1,
-          "opp": "BAL"
-        },
-        {
-          "rank": 6,
           "players": "Jaydon Blue",
           "core": false,
           "notes": "Schotty says both he and Mafah will play a lot, but they do have a lot of healthy bodies here and no context on how much \"a lot\" is.",
           "salary": null,
           "fpts": 6.5,
           "opp": "SEA"
+        },
+        {
+          "rank": 6,
+          "players": "Carson Steele",
+          "core": false,
+          "notes": "PHI is banged up/resting starters.  A limited load - if any - for Bigsby/Shipley means Steele pretty much has to carry the load.",
+          "salary": null,
+          "fpts": 7.1,
+          "opp": "BAL"
         },
         {
           "rank": 7,
