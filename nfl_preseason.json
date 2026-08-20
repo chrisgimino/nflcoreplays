@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-20T10:18",
+  "updated": "2026-08-20T14:46",
   "sections": [
     {
       "position": "QB",
@@ -9,7 +9,7 @@
           "rank": 1,
           "players": "Trey Lance",
           "core": true,
-          "notes": "Dual threat QB who has long track record of preseason success.",
+          "notes": "Dual-threat QB who has long track record of preseason success.",
           "salary": null,
           "fpts": 7.6,
           "opp": "SF"
@@ -18,7 +18,7 @@
           "rank": 2,
           "players": "Fernando Mendoza",
           "core": false,
-          "notes": "Number 1 overall pick, expected to see \"a good amount of playing time\" in this game.",
+          "notes": "No. 1 overall pick, expected to see \"a good amount of playing time\" in this game.",
           "salary": null,
           "fpts": 7.3,
           "opp": "HOU"
@@ -27,28 +27,28 @@
           "rank": 3,
           "players": "Davis Mills",
           "core": false,
-          "notes": "Graham Mertz on IR and CJ Stroud resting, Davis Mills and Bretty Rypien should split time, Mills played 66% of the snaps last week",
+          "notes": "Graham Mertz on IR and CJ Stroud resting. Mills and Rypien should split time, Mills played 66% of the snaps last week.",
           "salary": null,
           "fpts": 6.2,
           "opp": "LV"
         },
         {
           "rank": 4,
-          "players": "DJ Uiagalelei",
-          "core": false,
-          "notes": "Surprsingly didn't add anything on the ground last week, but was 6/9 for 120 yards and a TD.",
-          "salary": null,
-          "fpts": 4.8,
-          "opp": "SF"
-        },
-        {
-          "rank": 5,
           "players": "Adrian Martinez",
           "core": false,
           "notes": "49ers will play some of their starters, so Purdy and Mac Jones should get playing time but could be limited.",
           "salary": null,
-          "fpts": 5.0,
+          "fpts": 7.6,
           "opp": "LAC"
+        },
+        {
+          "rank": 5,
+          "players": "DJ Uiagalelei",
+          "core": false,
+          "notes": "Surprsingly, didn't add anything on the ground last week but was 6/9 for 120 yards and a TD.",
+          "salary": null,
+          "fpts": 4.8,
+          "opp": "SF"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "rank": 3,
           "players": "Sincere McCormick",
           "core": false,
-          "notes": "Led SF RBs with 11 touches last week, but wasn't very good during them.",
+          "notes": "Led SF RBs with 11 touches last week but wasn't very good during them.",
           "salary": null,
           "fpts": 6.0,
           "opp": "LAC"
@@ -86,7 +86,7 @@
           "rank": 4,
           "players": "Mike Washington Jr.",
           "core": false,
-          "notes": "Looked good in W1, broke off a 53 yard run and had 63 yards on 6 carries.",
+          "notes": "Looked good in W1, broke off a 53-yard run and had 63 yards on 6 carries.",
           "salary": null,
           "fpts": 5.2,
           "opp": "HOU"
@@ -106,14 +106,14 @@
           "core": false,
           "notes": "Could see more time after getting acclimated post-signing here in SF.",
           "salary": null,
-          "fpts": 4.4,
+          "fpts": 4.5,
           "opp": "LAC"
         },
         {
           "rank": 7,
           "players": "Kaelon Black",
           "core": false,
-          "notes": "This one is interesting, Black is returning from an injury and is likely the RB2 behind CMC, but SF RBs are pretty thin right now.",
+          "notes": "This one is interesting. Black is returning from an injury and is likely the RB2 behind CMC, but SF RBs are pretty thin right now.",
           "salary": null,
           "fpts": 3.0,
           "opp": "LAC"
@@ -127,7 +127,7 @@
           "rank": 1,
           "players": "Jared Wayne",
           "core": false,
-          "notes": "Caught 3 of 5 targets last week and found the end zone, continues to get strong camp reports.",
+          "notes": "Caught 3 of 5 targets last week and found the end zone. Continues to get strong camp reports.",
           "salary": null,
           "fpts": 3.7,
           "opp": "LV"
@@ -136,16 +136,16 @@
           "rank": 2,
           "players": "KeAndre Lambert-Smith",
           "core": false,
-          "notes": "4 catches for 58 yards on 6 targets last week, should be in line for big playing time again.",
+          "notes": "4 catches for 58 yards on 6 targets last week. Should be in line for big playing time again.",
           "salary": null,
           "fpts": 3.8,
           "opp": "SF"
         },
         {
           "rank": 3,
-          "players": "DeZhaun Stribling",
+          "players": "De'Zhaun Stribling",
           "core": false,
-          "notes": "Went off in W1 got 6 catches and 72 yards on 7 targets.",
+          "notes": "Went off in W1: 6 catches and 72 yards on 7 targets.",
           "salary": null,
           "fpts": 3.7,
           "opp": "LAC"
@@ -154,22 +154,25 @@
           "rank": 4,
           "players": "Jordan Watkins",
           "core": false,
-          "notes": "Watkins had a whopping 10 targets last week, playing time might be down a bit with starters playing, but he should be right back in there after they depart.",
+          "notes": "Watkins had a whopping 10 targets last week. Playing time might be down a bit with starters playing, but he should be right back in there after they depart.",
           "salary": null,
-          "fpts": 4.0,
+          "fpts": 3.5,
           "opp": "LAC"
         },
         {
           "rank": 5,
-          "players": "Brennen Thompson",
+          "players": "Brenen Thompson",
           "core": false,
-          "notes": "Production wasn't there last week, but also had 6 targets. Could be in line for a bounceback."
+          "notes": "Production wasn't there last week, but also had 6 targets. Could be in line for a bounceback.",
+          "salary": null,
+          "fpts": 3.6,
+          "opp": "SF"
         },
         {
           "rank": 6,
           "players": "Lewis Bond",
           "core": false,
-          "notes": "Likely the most draft capital out of HOU WRs that they would like to get a look at, had 4 targets last week.",
+          "notes": "Likely the most draft capital out of HOU WRs that they would like to get a look at. He had 4 targets last week.",
           "salary": null,
           "fpts": 3.3,
           "opp": "LV"
@@ -178,7 +181,7 @@
           "rank": 7,
           "players": "Justin Watson",
           "core": false,
-          "notes": "HOU WR room is extremely thin, and could get even thinner if they treat Xavier Hutchinson as a starter and rest him.",
+          "notes": "HOU WR room is extremely thin and could get even thinner if they treat Hutchinson as a starter and rest him.",
           "salary": null,
           "fpts": 3.3,
           "opp": "LV"
@@ -201,19 +204,22 @@
           "rank": 2,
           "players": "Albert Okwuegbunam",
           "core": false,
-          "notes": "Only had 2 targets, but historically solid pass catcher and played 40% of snaps in W1."
+          "notes": "Only had 2 targets but historically solid pass catcher and played 40% of snaps in W1."
         },
         {
           "rank": 3,
-          "players": "Oronde Gadsden",
+          "players": "Oronde Gadsden II",
           "core": false,
-          "notes": "His role may not yet be protected and could be given reps still. Easily the best backup pass catching TE on the slate if so."
+          "notes": "His role may not yet be protected and could be given reps still. Easily the best backup pass-catching TE on the slate if so.",
+          "salary": null,
+          "fpts": 2.0,
+          "opp": "SF"
         },
         {
           "rank": 4,
           "players": "Brock Bowers",
           "core": false,
-          "notes": "Starters could play here, and time would likely be volatile, but Bowers could be top TE in just a couple drives.",
+          "notes": "Starters could play here and time would likely be volatile, but Bowers could be top TE in just a couple drives.",
           "salary": null,
           "fpts": 2.0,
           "opp": "HOU"
@@ -247,7 +253,7 @@
           "core": false,
           "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 7.8,
+          "fpts": 7.7,
           "opp": "SF"
         },
         {
@@ -763,7 +769,7 @@
         {
           "depth": 4,
           "name": "Kurtis Rourke",
-          "note": "34% snaps week 1"
+          "note": "DNP 8/18 (Ribs)"
         }
       ],
       "RB": [
