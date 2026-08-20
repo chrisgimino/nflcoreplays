@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-20T09:13",
+  "updated": "2026-08-20T10:18",
   "sections": [
     {
       "position": "QB",
@@ -192,7 +192,7 @@
           "rank": 1,
           "players": "Cade Stover",
           "core": false,
-          "notes": "Stover seems to be fighting for the TE3 role at best for HOU, so he could see more playing time in this one while he's on the bubble.",
+          "notes": "Stover seems to be fighting for the TE3 role at best for HOU, so he could see more playing time in this one.",
           "salary": null,
           "fpts": 2.1,
           "opp": "LV"
@@ -207,7 +207,7 @@
           "rank": 3,
           "players": "Oronde Gadsden",
           "core": false,
-          "notes": "Looks like he is TE3 here, and therefore in preseason playing time territory, easily the best backup pass catching TE on the slate."
+          "notes": "His role may not yet be protected and could be given reps still. Easily the best backup pass catching TE on the slate if so."
         },
         {
           "rank": 4,
