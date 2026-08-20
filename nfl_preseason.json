@@ -1,63 +1,54 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-15T13:17",
+  "updated": "2026-08-20T09:03",
   "sections": [
     {
       "position": "QB",
       "players": [
         {
           "rank": 1,
-          "players": "Jalen Milroe",
+          "players": "Trey Lance",
           "core": true,
-          "notes": "Mobile QB. Will split the game with Lock on a rotating basis.",
+          "notes": "Dual threat QB who has long track record of preseason success.",
           "salary": null,
-          "fpts": 9.7,
-          "opp": "DAL"
+          "fpts": 7.6,
+          "opp": "SF"
         },
         {
           "rank": 2,
-          "players": "Carter Bradley",
+          "players": "Fernando Mendoza",
           "core": false,
-          "notes": "Has playing time upside in a game that will fetaure deep reserves.",
+          "notes": "Number 1 overall pick, expected to see \"a good amount of playing time\" in this game.",
           "salary": null,
-          "fpts": 8.9,
-          "opp": "NO"
+          "fpts": 7.3,
+          "opp": "HOU"
         },
         {
           "rank": 3,
-          "players": "Ty Simpson",
+          "players": "Davis Mills",
           "core": false,
-          "notes": "1st-round pick. Has playing time upside in a game that will fetaure deep reserves.",
+          "notes": "Graham Mertz on IR and CJ Stroud resting, Davis Mills and Bretty Rypien should split time, Mills played 66% of the snaps last week",
           "salary": null,
-          "fpts": 7.9,
-          "opp": "KC"
+          "fpts": 6.2,
+          "opp": "LV"
         },
         {
           "rank": 4,
-          "players": "Joe Milton III",
+          "players": "DJ Uiagalelei",
           "core": false,
-          "notes": "Should play a half, with multiple explosive ways to succeed.",
+          "notes": "Surprsingly didn't add anything on the ground last week, but was 6/9 for 120 yards and a TD.",
           "salary": null,
-          "fpts": 7.8,
-          "opp": "SEA"
+          "fpts": 4.8,
+          "opp": "SF"
         },
         {
           "rank": 5,
-          "players": "Drew Lock",
+          "players": "Adrian Martinez",
           "core": false,
-          "notes": "Will split the game with Milroe on a rotating basis.",
+          "notes": "49ers will play some of their starters, so Purdy and Mac Jones should get playing time but could be limited.",
           "salary": null,
-          "fpts": 6.9,
-          "opp": "DAL"
-        },
-        {
-          "rank": 6,
-          "players": "Sam Howell",
-          "core": false,
-          "notes": "Will split the game with Milton on a rotating basis.",
-          "salary": null,
-          "fpts": 6.9,
-          "opp": "SEA"
+          "fpts": 5.0,
+          "opp": "LAC"
         }
       ]
     },
@@ -66,84 +57,66 @@
       "players": [
         {
           "rank": 1,
-          "players": "Adam Randall",
+          "players": "Noah Whittington",
           "core": true,
-          "notes": "Great spot on a condensed depth chart to see him get significant touches. Strong athlete.",
+          "notes": "HOU RBs are decimated, Whittington had 13 carries last week and lost RB Pitsenberger who had 9.",
           "salary": null,
-          "fpts": 7.2,
-          "opp": "PHI"
+          "fpts": 8.0,
+          "opp": "LV"
         },
         {
           "rank": 2,
-          "players": "Jordan Waters",
+          "players": "Owen Wright",
           "core": false,
-          "notes": "Rams doing the annual consolidation of reps on deep reserves.  Talented player in college.",
+          "notes": "Didn't get much work last week for HOU after being a late signing, but now likely has no choice. Should split time with Whittington.",
           "salary": null,
-          "fpts": 7.2,
-          "opp": "KC"
+          "fpts": 6.6,
+          "opp": "LV"
         },
         {
           "rank": 3,
-          "players": "Audric Estime",
+          "players": "Sincere McCormick",
           "core": false,
-          "notes": "2 backs will carry the bulk for NO, and he's the most in need of evalution.",
+          "notes": "Led SF RBs with 11 touches last week, but wasn't very good during them.",
           "salary": null,
-          "fpts": 7.2,
-          "opp": "JAX"
+          "fpts": 6.0,
+          "opp": "LAC"
         },
         {
           "rank": 4,
-          "players": "J'Mari Taylor",
+          "players": "Mike Washington Jr.",
           "core": false,
-          "notes": "JAX figures to take it easy on anyone who matters, and if that includes LeQuint Allen Jr. (like in 2025), he could get 10+ touches.",
+          "notes": "Looked good in W1, broke off a 53 yard run and had 63 yards on 6 carries.",
           "salary": null,
-          "fpts": 6.9,
-          "opp": "NO"
+          "fpts": 5.2,
+          "opp": "HOU"
         },
         {
           "rank": 5,
-          "players": "Jaydon Blue",
+          "players": "Amar Johnson",
           "core": false,
-          "notes": "Schotty says both he and Mafah will play a lot, but they do have a lot of healthy bodies here and no context on how much \"a lot\" is.",
+          "notes": "Had just 17 rushing yards on 6 carries last week... but 2 of them happened to be for TDs.",
           "salary": null,
-          "fpts": 6.5,
-          "opp": "SEA"
+          "fpts": 5.2,
+          "opp": "SF"
         },
         {
           "rank": 6,
-          "players": "Carson Steele",
+          "players": "Zamir White",
           "core": false,
-          "notes": "PHI is banged up/resting starters.  A limited load - if any - for Bigsby/Shipley means Steele pretty much has to carry the load.",
+          "notes": "Could see more time after getting acclimated post-signing here in SF.",
           "salary": null,
-          "fpts": 6.4,
-          "opp": "BAL"
+          "fpts": 4.4,
+          "opp": "LAC"
         },
         {
           "rank": 7,
-          "players": "Will Shipley",
+          "players": "Kaelon Black",
           "core": false,
-          "notes": "Volatile, as he could wind up taking more touches than projected and be very valuable.  No announced plan from PHI.",
+          "notes": "This one is interesting, Black is returning from an injury and is likely the RB2 behind CMC, but SF RBs are pretty thin right now.",
           "salary": null,
-          "fpts": 5.8,
-          "opp": "BAL"
-        },
-        {
-          "rank": 8,
-          "players": "Phil Mafah",
-          "core": false,
-          "notes": "Schotty says both he and Blue will play a lot, but they do have a lot of healthy bodies here and no context on how much \"a lot\" is.",
-          "salary": null,
-          "fpts": 5.8,
-          "opp": "SEA"
-        },
-        {
-          "rank": 9,
-          "players": "Ty Chandler",
-          "core": false,
-          "notes": "Only 3 backs here, so he could easily outplay/touch Estime.",
-          "salary": null,
-          "fpts": 5.7,
-          "opp": "JAX"
+          "fpts": 3.0,
+          "opp": "LAC"
         }
       ]
     },
@@ -152,84 +125,63 @@
       "players": [
         {
           "rank": 1,
-          "players": "CJ Daniels",
-          "core": true,
-          "notes": "We're guessing a little with who gets the absolute most burn on LAR, so pick your poison. All 6 WRs should play a LOT.",
+          "players": "Jared Wayne",
+          "core": false,
+          "notes": "Caught 3 of 5 targets last week and found the end zone, continues to get strong camp reports.",
           "salary": null,
-          "fpts": 4.7,
-          "opp": "KC"
+          "fpts": 3.7,
+          "opp": "LV"
         },
         {
           "rank": 2,
-          "players": "Bryce Lance",
-          "core": true,
-          "notes": "Expecting the duo of Lance and Barion Brown to be afforded significant developmental snaps.",
+          "players": "KeAndre Lambert-Smith",
+          "core": false,
+          "notes": "4 catches for 58 yards on 6 targets last week, should be in line for big playing time again.",
           "salary": null,
-          "fpts": 4.1,
-          "opp": "JAX"
+          "fpts": 3.8,
+          "opp": "SF"
         },
         {
           "rank": 3,
-          "players": "Ja'Kobi Lane",
+          "players": "DeZhaun Stribling",
           "core": false,
-          "notes": "Standout camp, and usually the first game coaches will let even roster-worthy youth have chances to make plays in live action.",
+          "notes": "Went off in W1 got 6 catches and 72 yards on 7 targets.",
           "salary": null,
-          "fpts": 3.8,
-          "opp": "PHI"
+          "fpts": 3.7,
+          "opp": "LAC"
         },
         {
           "rank": 4,
-          "players": "Barion Brown",
+          "players": "Jordan Watkins",
           "core": false,
-          "notes": "Expecting the duo of Bryce Lance and Brown to be afforded significant developmental snaps.",
+          "notes": "Watkins had a whopping 10 targets last week, playing time might be down a bit with starters playing, but he should be right back in there after they depart.",
           "salary": null,
-          "fpts": 3.7,
-          "opp": "JAX"
+          "fpts": 4.0,
+          "opp": "LAC"
         },
         {
           "rank": 5,
-          "players": "Darius Cooper",
+          "players": "Brennen Thompson",
           "core": false,
-          "notes": "Best option in Philadelphia for \"prove it\" / developmental reps.",
-          "salary": null,
-          "fpts": 3.7,
-          "opp": "BAL"
+          "notes": "Production wasn't there last week, but also had 6 targets. Could be in line for a bounceback."
         },
         {
           "rank": 6,
-          "players": "Tru Edwards",
+          "players": "Lewis Bond",
           "core": false,
-          "notes": "We're guessing a little with who gets the absolute most burn on LAR, so pick your poison. All 6 WRs should play a LOT.",
+          "notes": "Likely the most draft capital out of HOU WRs that they would like to get a look at, had 4 targets last week.",
           "salary": null,
-          "fpts": 3.8,
-          "opp": "KC"
+          "fpts": 3.3,
+          "opp": "LV"
         },
         {
           "rank": 7,
-          "players": "Tyler Scott",
+          "players": "Justin Watson",
           "core": false,
-          "notes": "We're guessing a little with who gets the absolute most burn on LAR, so pick your poison. All 6 WRs should play a LOT.",
+          "notes": "HOU WR room is extremely thin, and could get even thinner if they treat Xavier Hutchinson as a starter and rest him.",
           "salary": null,
-          "fpts": 3.7,
-          "opp": "KC"
-        },
-        {
-          "rank": 8,
-          "players": "Cyrus Allen",
-          "core": false,
-          "notes": "Back from minor injury and drawing praise from Andy/Patrick.  KC is historically spread out, so be wary. Has upside.",
-          "salary": null,
-          "fpts": 3.8,
-          "opp": "LAR"
-        },
-        {
-          "rank": 9,
-          "players": "Cody White",
-          "core": false,
-          "notes": "Seattlle won't play key players, leaving the middle of the depth chart wide open for 1H reps with both QBs.",
-          "salary": null,
-          "fpts": 3.5,
-          "opp": "DAL"
+          "fpts": 3.3,
+          "opp": "LV"
         }
       ]
     },
@@ -238,66 +190,42 @@
       "players": [
         {
           "rank": 1,
-          "players": "Max Klare",
-          "core": true,
-          "notes": "Great option in a condensed rotation on a team that plays 2 and 3 TE formations.",
+          "players": "Cade Stover",
+          "core": false,
+          "notes": "Stover seems to be fighting for the TE3 role at best for HOU, so he could see more playing time in this one while he's on the bubble.",
           "salary": null,
-          "fpts": 3.8,
-          "opp": "KC"
+          "fpts": 2.1,
+          "opp": "LV"
         },
         {
           "rank": 2,
-          "players": "Elijah Arroyo",
+          "players": "Albert Okwuegbunam",
           "core": false,
-          "notes": "Developing year 2 pass catcher who should play a lot in 1H to help evaluate Lock/Milroe competition.",
-          "salary": null,
-          "fpts": 3.8,
-          "opp": "DAL"
+          "notes": "Only had 2 targets, but historically solid pass catcher and played 40% of snaps in W1."
         },
         {
           "rank": 3,
-          "players": "Matt Hibner",
+          "players": "Oronde Gadsden",
           "core": false,
-          "notes": "They need reps on their young TEs, as Andrews is aging and they need development.",
-          "salary": null,
-          "fpts": 3.4,
-          "opp": "PHI"
+          "notes": "Looks like he is TE3 here, and therefore in preseason playing time territory, easily the best backup pass catching TE on the slate."
         },
         {
           "rank": 4,
-          "players": "Eli Stowers",
+          "players": "Brock Bowers",
           "core": false,
-          "notes": "Off the charts athelticism for the position and clearly here to catch passes and chew bubble gum.  He's out of the gum.",
+          "notes": "Starters could play here, and time would likely be volatile, but Bowers could be top TE in just a couple drives.",
           "salary": null,
-          "fpts": 3.3,
-          "opp": "BAL"
+          "fpts": 2.0,
+          "opp": "HOU"
         },
         {
           "rank": 5,
-          "players": "Oscar Delp",
+          "players": "Marlin Klein",
           "core": false,
-          "notes": "3rd-round rookie closest comparable to Terrance Ferguson on PlayerProfiler... starters and vets rest here, so there is opportunity.",
+          "notes": "He could have this TE2 job locked now, which could lead him to getting rested, but if they want another look he is a great play.",
           "salary": null,
-          "fpts": 2.8,
-          "opp": "JAX"
-        },
-        {
-          "rank": 6,
-          "players": "Dan Villari",
-          "core": false,
-          "notes": "Rams have a short rotation, and you almost can't cross anyone playing a lot off the list.",
-          "salary": null,
-          "fpts": 2.7,
-          "opp": "KC"
-        },
-        {
-          "rank": 7,
-          "players": "Josh Cuevas",
-          "core": false,
-          "notes": "They need reps on their young TEs, as Andrews is aging and they need development.",
-          "salary": null,
-          "fpts": 2.7,
-          "opp": "PHI"
+          "fpts": 1.9,
+          "opp": "LV"
         }
       ]
     },
@@ -306,2271 +234,673 @@
       "players": [
         {
           "rank": 1,
-          "players": "Kansas City Chiefs",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 9.1,
-          "opp": "LAR"
-        },
-        {
-          "rank": 2,
-          "players": "Philadelphia Eagles",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 9.0,
-          "opp": "BAL"
-        },
-        {
-          "rank": 3,
-          "players": "Seattle Seahawks",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 8.9,
-          "opp": "DAL"
-        },
-        {
-          "rank": 4,
-          "players": "Jacksonville Jaguars",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 8.3,
-          "opp": "NO"
-        },
-        {
-          "rank": 5,
-          "players": "Los Angeles Rams",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 8.2,
-          "opp": "KC"
-        },
-        {
-          "rank": 6,
-          "players": "Baltimore Ravens",
+          "players": "Raiders",
           "core": false,
           "notes": "Based on our projections.",
           "salary": null,
           "fpts": 8.1,
-          "opp": "PHI"
+          "opp": "HOU"
+        },
+        {
+          "rank": 2,
+          "players": "Chargers",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 7.8,
+          "opp": "SF"
+        },
+        {
+          "rank": 3,
+          "players": "Texans",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 8.9,
+          "opp": "LV"
+        },
+        {
+          "rank": 4,
+          "players": "49ers",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 8.6,
+          "opp": "LAC"
         }
       ]
     }
   ],
   "depth_charts": {
-    "BAL": {
+    "HOU": {
       "QB": [
         {
           "depth": 1,
-          "name": "Lamar Jackson",
-          "note": "Will not play"
+          "name": "C.J. Stroud",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Tyler Huntley",
-          "note": "Expecting 1 to 1.5q"
+          "name": "Davis Mills",
+          "note": "68% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Joe Fagnano",
-          "note": "Expecting 1.5 to 2q"
-        },
-        {
-          "depth": 4,
-          "name": "Austin Reed",
-          "note": "Expecting .5 to 1q"
+          "name": "Graham Mertz",
+          "note": "IR"
         }
       ],
       "RB": [
         {
           "depth": 1,
-          "name": "Derrick Henry",
-          "note": "Unlikely to play"
+          "name": "David Montgomery",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Justice Hill",
-          "note": "Unlikely to play"
+          "name": "Woody Marks",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Rasheen Ali",
-          "note": "DNP, Watch Status"
+          "name": "Jawhar Jordan",
+          "note": "DNP 8/18"
         },
         {
           "depth": 4,
-          "name": "Adam Randall",
-          "note": ""
+          "name": "Noah Whittington",
+          "note": "51% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "Elijah Tau-Tolliver",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Dontae McMillan",
-          "note": ""
+          "name": "Owen Wright",
+          "note": "11% snaps week 1"
         }
       ],
       "WR": [
         {
           "depth": 1,
-          "name": "Zay Flowers",
-          "note": "Unlikely to play"
+          "name": "Nico Collins",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Rashod Bateman",
-          "note": "Returned 8/13, Unlikely to play"
+          "name": "Jayden Higgins",
+          "note": "Torn ACL 8/18"
         },
         {
           "depth": 3,
-          "name": "Ja'Kobi Lane",
-          "note": ""
+          "name": "Tank Dell",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Devontez Walker",
-          "note": ""
+          "name": "Jaylin Noel",
+          "note": "Returned to practice 8/18, but still unlikely to play"
         },
         {
           "depth": 5,
-          "name": "Elijah Sarratt",
-          "note": ""
+          "name": "Xavier Hutchinson",
+          "note": "23% snaps week 1"
         },
         {
           "depth": 6,
-          "name": "LaJohntay Wester",
-          "note": ""
+          "name": "Lewis Bond",
+          "note": "38% snaps week 1"
         },
         {
           "depth": 7,
-          "name": "Dayton Wade",
-          "note": ""
+          "name": "Justin Watson",
+          "note": "51% snaps week 1"
         },
         {
           "depth": 8,
-          "name": "Cornelius Johnson",
-          "note": ""
+          "name": "Jared Wayne",
+          "note": "47% snaps week 1"
         },
         {
           "depth": 9,
-          "name": "Xavier Guillory",
-          "note": ""
+          "name": "Josh Kelly",
+          "note": "25% snaps week 1"
         },
         {
           "depth": 10,
-          "name": "Cortez Braham Jr.",
-          "note": ""
+          "name": "Treyvhon Saunders",
+          "note": "32% snaps week 1"
         },
         {
           "depth": 11,
-          "name": "Octavian Smith Jr.",
-          "note": ""
+          "name": "Daniel Sobkowicz",
+          "note": "15% snaps week 1"
         },
         {
           "depth": 12,
-          "name": "Chris Moore",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Mark Andrews",
-          "note": "Unlikely to play"
-        },
-        {
-          "depth": 2,
-          "name": "Durham Smythe",
-          "note": "Joint practice, could rest"
-        },
-        {
-          "depth": 3,
-          "name": "Matt Hibner",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Josh Cuevas",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Lucas Scott",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Ty Pezza",
-          "note": ""
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Tyler Loop",
-          "note": ""
-        }
-      ]
-    },
-    "BUF": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Josh Allen",
-          "note": "Expecting .5 to 1.25q"
-        },
-        {
-          "depth": 2,
-          "name": "Kyle Allen",
-          "note": "Expecting 1 to 1.75q"
-        },
-        {
-          "depth": 3,
-          "name": "Shane Buechele",
-          "note": "Expecting 1 to 1.75q"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "James Cook III",
-          "note": ""
-        },
-        {
-          "depth": 2,
-          "name": "Ray Davis",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Ty Johnson",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 4,
-          "name": "Frank Gore Jr.",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Ian Wheeler",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "DJ Moore",
-          "note": ""
-        },
-        {
-          "depth": 2,
-          "name": "Khalil Shakir",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Joshua Palmer",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Keon Coleman",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Tyrell Shavers",
-          "note": "Out"
-        },
-        {
-          "depth": 6,
-          "name": "Skyler Bell",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 7,
-          "name": "Trent Sherfield Sr.",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Mecole Hardman Jr.",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "Dante Pettis",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "Ja'Mori Maclin",
-          "note": ""
-        },
-        {
-          "depth": 11,
-          "name": "Quentin Skinner",
-          "note": ""
-        },
-        {
-          "depth": 12,
-          "name": "Stephen Gosnell",
-          "note": ""
+          "name": "Jha'Quan Jackson",
+          "note": "19% snaps week 1"
         },
         {
           "depth": 13,
-          "name": "Mac Dalena",
-          "note": ""
-        },
-        {
-          "depth": 14,
-          "name": "Max Tomczak",
-          "note": ""
+          "name": "Juwann Winfree",
+          "note": "11% snaps week 1"
         }
       ],
       "TE": [
         {
           "depth": 1,
-          "name": "Dalton Kincaid",
-          "note": ""
+          "name": "Dalton Schultz",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Dawson Knox",
-          "note": ""
+          "name": "Foster Moreau",
+          "note": "40% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Jackson Hawes",
-          "note": ""
+          "name": "Marlin Klein",
+          "note": "23% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Keleki Latu",
-          "note": ""
+          "name": "Cade Stover",
+          "note": "49% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "Shane Zylstra",
-          "note": ""
+          "name": "Brevin Jordan",
+          "note": "DNP 8/18"
+        },
+        {
+          "depth": 6,
+          "name": "Layne Pryor",
+          "note": "28% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "Louis Hansen",
+          "note": "% snaps week 1"
         }
       ],
       "K": [
         {
           "depth": 1,
-          "name": "Tyler Bass",
+          "name": "Ka'imi Fairbairn",
           "note": ""
         }
       ]
     },
-    "CLE": {
+    "LAC": {
       "QB": [
         {
           "depth": 1,
-          "name": "Deshaun Watson",
-          "note": "Will start. Expecting 2q."
+          "name": "Justin Herbert",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Shedeur Sanders",
-          "note": "Will play 1q (3rd)"
+          "name": "Trey Lance",
+          "note": "66% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Dillon Gabriel",
-          "note": "Expecting .5 to 1q"
-        },
-        {
-          "depth": 4,
-          "name": "Taylen Green",
-          "note": "Expecting .5 to 1q"
+          "name": "DJ Uiagalelei",
+          "note": "34% snaps week 1"
         }
       ],
       "RB": [
         {
           "depth": 1,
-          "name": "Quinshon Judkins",
-          "note": "Expecting 1-2 series max"
+          "name": "Omarion Hampton",
+          "note": "Could play \"one series\" with Justin Herbert"
         },
         {
           "depth": 2,
-          "name": "Dylan Sampson",
-          "note": ""
+          "name": "Keaton Mitchell",
+          "note": "Herbert and other starters expected to play, could be as little as one series\"\""
         },
         {
           "depth": 3,
-          "name": "Raheim Sanders",
-          "note": ""
+          "name": "Kimani Vidal",
+          "note": "21% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Ahmani Marshall",
-          "note": ""
+          "name": "Jaret Patterson",
+          "note": "28% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "Davon Booth",
-          "note": ""
+          "name": "Amar Johnson",
+          "note": "31% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Gregory Desrosiers",
+          "note": "19% snaps week 1"
         }
       ],
       "WR": [
         {
           "depth": 1,
-          "name": "KC Concepcion",
-          "note": ""
+          "name": "Ladd McConkey",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Denzel Boston",
-          "note": ""
+          "name": "Quentin Johnston",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Jerry Jeudy",
-          "note": "Expecting 1-2 series max"
+          "name": "Tre' Harris",
+          "note": "DNP 8/18"
         },
         {
           "depth": 4,
-          "name": "Isaiah Bond",
-          "note": ""
+          "name": "KeAndre Lambert-Smith",
+          "note": "49% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "Cedric Tillman",
-          "note": "DNP 8/12"
+          "name": "Brenen Thompson",
+          "note": "48% snaps week 1"
         },
         {
           "depth": 6,
-          "name": "Tylan Wallace",
-          "note": ""
+          "name": "Derius Davis",
+          "note": "25% snaps week 1"
         },
         {
           "depth": 7,
-          "name": "Malachi Corley",
-          "note": ""
+          "name": "Dalevon Campbell",
+          "note": "45% snaps week 1"
         },
         {
           "depth": 8,
-          "name": "Gage Larvadain",
-          "note": ""
+          "name": "JaQuae Jackson",
+          "note": "42% snaps week 1"
         },
         {
           "depth": 9,
-          "name": "Luke Floriea",
-          "note": ""
+          "name": "Devonte Ross",
+          "note": "31% snaps week 1"
         },
         {
           "depth": 10,
-          "name": "Kole Wilson",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Harold Fannin Jr.",
-          "note": "Expecting 1-2 series max"
-        },
-        {
-          "depth": 2,
-          "name": "Blake Whiteheart",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Jack Stoll",
-          "note": "DNP 8/12"
-        },
-        {
-          "depth": 4,
-          "name": "Joe Royer",
-          "note": "DNP 8/12"
-        },
-        {
-          "depth": 5,
-          "name": "Brenden Bates",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Carsen Ryan",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Dae'Quan Wright",
-          "note": "Claimed 8/12"
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Andre Szmyt",
-          "note": ""
-        }
-      ]
-    },
-    "JAX": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Trevor Lawrence",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Nick Mullens",
-          "note": "Will not play"
-        },
-        {
-          "depth": 3,
-          "name": "Carter Bradley",
-          "note": "Expecting 2 to 2.5q"
-        },
-        {
-          "depth": 4,
-          "name": "Joey Aguilar",
-          "note": "Expecting 1.5 to 2 quarters"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Bhayshul Tuten",
-          "note": "Unlikely to play"
-        },
-        {
-          "depth": 2,
-          "name": "Chris Rodriguez Jr.",
-          "note": "Unlikely to play"
-        },
-        {
-          "depth": 3,
-          "name": "LeQuint Allen Jr.",
-          "note": "Risk of being rested"
-        },
-        {
-          "depth": 4,
-          "name": "DeeJay Dallas",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "J'Mari Taylor",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Ameer Abdullah",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Parker Washington",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Brian Thomas Jr.",
-          "note": "Will not play"
-        },
-        {
-          "depth": 3,
-          "name": "Jakobi Meyers",
-          "note": "Will not play"
-        },
-        {
-          "depth": 4,
-          "name": "Travis Hunter",
-          "note": "Will not play"
-        },
-        {
-          "depth": 5,
-          "name": "Tim Jones",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Austin Trammell",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Josh Cameron",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Chandler Brayboy",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "Trebor Pena",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "Brady Boyd",
-          "note": ""
+          "name": "Luke Grimm",
+          "note": "DNP 8/18"
         },
         {
           "depth": 11,
-          "name": "Michael Wortham",
-          "note": ""
-        },
-        {
-          "depth": 12,
-          "name": "CJ Williams",
-          "note": ""
+          "name": "Sincere Brown",
+          "note": "0% snaps week 1"
         }
       ],
       "TE": [
         {
           "depth": 1,
-          "name": "Brenton Strange",
-          "note": "DNP 8/11, Will not play"
+          "name": "Oronde Gadsden II",
+          "note": "30% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Quintin Morris",
-          "note": "Returned 8/13, Risk of not playing"
+          "name": "David Njoku",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Patrick Herbert",
-          "note": ""
+          "name": "Charlie Kolar",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Hunter Long",
-          "note": ""
+          "name": "Evan Svoboda",
+          "note": "51% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "Tanner Koziol",
-          "note": ""
+          "name": "Jerand Bradley",
+          "note": "6% snaps week 1"
         },
         {
           "depth": 6,
-          "name": "Nate Boerkircher",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Ethan Conner",
-          "note": ""
+          "name": "Johnny Pascuzzi",
+          "note": "33% snaps week 1"
         }
       ],
       "K": [
         {
           "depth": 1,
-          "name": "Cam Little",
+          "name": "Cameron Dicker",
           "note": ""
         }
       ]
     },
-    "KC": {
+    "LV": {
       "QB": [
         {
           "depth": 1,
-          "name": "Patrick Mahomes",
-          "note": "Will. not play"
+          "name": "Kirk Cousins",
+          "note": "17% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Justin Fields",
-          "note": "Expecting 1.25 to 1.75q"
+          "name": "Fernando Mendoza",
+          "note": "53% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Garrett Nussmeier",
-          "note": "Expecting 1.25 to 1.75q"
+          "name": "Aidan O'Connell",
+          "note": "29% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Chris Oladokun",
-          "note": "Expecting 1.25 to 1.75q"
+          "name": "Jacob Clark",
+          "note": "0% snaps week 1"
         }
       ],
       "RB": [
         {
           "depth": 1,
-          "name": "Kenneth Walker III",
-          "note": ""
+          "name": "Ashton Jeanty",
+          "note": "12% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Brashard Smith",
-          "note": ""
+          "name": "Mike Washington Jr.",
+          "note": "36% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Emmett Johnson",
-          "note": ""
+          "name": "Dylan Laube",
+          "note": "22% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Emari Demercado",
-          "note": ""
+          "name": "Connor Heyward",
+          "note": "22% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "Jaydn Ott",
-          "note": ""
+          "name": "Roman Hemby",
+          "note": "12% snaps week 1"
         },
         {
           "depth": 6,
-          "name": "EJ Smith",
-          "note": ""
+          "name": "Dare Ogunbowale",
+          "note": "17% snaps week 1"
         }
       ],
       "WR": [
         {
           "depth": 1,
-          "name": "Rashee Rice",
-          "note": ""
+          "name": "Tre Tucker",
+          "note": "16% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Xavier Worthy",
-          "note": "In non-contact jersey (shoulder)"
+          "name": "Jalen Nailor",
+          "note": "14% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Tyquan Thornton",
-          "note": ""
+          "name": "Jack Bech",
+          "note": "38% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Jalen Royals",
-          "note": ""
+          "name": "Dont'e Thornton Jr.",
+          "note": "DNP 8/18"
         },
         {
           "depth": 5,
-          "name": "Cyrus Allen",
-          "note": "Returned 8/10 (shin)"
+          "name": "Malik Benson",
+          "note": "34% snaps week 1"
         },
         {
           "depth": 6,
-          "name": "Jimmy Holiday",
-          "note": "DNP 8/13"
+          "name": "Dareke Young",
+          "note": "21% snaps week 1"
         },
         {
           "depth": 7,
-          "name": "Andrew Armstrong",
-          "note": ""
+          "name": "Phillip Dorsett II",
+          "note": "26% snaps week 1"
         },
         {
           "depth": 8,
-          "name": "Nikko Remigio",
-          "note": ""
+          "name": "Shedrick Jackson",
+          "note": "16% snaps week 1"
         },
         {
           "depth": 9,
-          "name": "Jason Brownlee",
-          "note": ""
+          "name": "E.J. Williams Jr.",
+          "note": "12% snaps week 1"
         },
         {
           "depth": 10,
-          "name": "Jeff Caldwell",
-          "note": ""
+          "name": "Deven Thompkins",
+          "note": "28% snaps week 1"
         },
         {
           "depth": 11,
-          "name": "Jacob De Jesus",
-          "note": ""
+          "name": "Brandon Johnson",
+          "note": "22% snaps week 1"
         },
         {
           "depth": 12,
-          "name": "Omari Evans",
-          "note": ""
+          "name": "Noah Brown",
+          "note": "Signed This Week"
         },
         {
           "depth": 13,
-          "name": "Xavier Loyd",
-          "note": ""
-        },
-        {
-          "depth": 14,
-          "name": "Jeff Weimer",
-          "note": ""
+          "name": "Chase Roberts",
+          "note": "24% snaps week 1"
         }
       ],
       "TE": [
         {
           "depth": 1,
-          "name": "Travis Kelce",
-          "note": ""
+          "name": "Brock Bowers",
+          "note": "2% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Noah Gray",
-          "note": ""
+          "name": "Michael Mayer",
+          "note": "17% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Jared Wiley",
-          "note": "Left early 8/12 (Hamstring), Ret. 8/13"
+          "name": "Ian Thomas",
+          "note": "57% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Jake Briningstool",
-          "note": ""
+          "name": "Carter Runyon",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "Tre Watson",
-          "note": ""
+          "name": "Albert Okwuegbunam Jr.",
+          "note": "40% snaps week 1"
         },
         {
           "depth": 6,
-          "name": "Mason Pline",
-          "note": ""
+          "name": "Chris Myarick",
+          "note": "10% snaps week 1"
         }
       ],
       "K": [
         {
           "depth": 1,
-          "name": "Harrison Butker",
+          "name": "Kansei Matsuzawa",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Matt Gay",
           "note": ""
         }
       ]
     },
-    "CAR": {
+    "SF": {
       "QB": [
         {
           "depth": 1,
-          "name": "Bryce Young",
-          "note": "Expecting .75 to 1.5q"
+          "name": "Brock Purdy",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Kenny Pickett",
-          "note": "Expecting 1.25 to 1.75q"
+          "name": "Mac Jones",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Haynes King",
-          "note": "DNP 8/13"
+          "name": "Adrian Martinez",
+          "note": "66% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Kyle Trask",
-          "note": "Expecting 1.25 to 1.75q"
+          "name": "Kurtis Rourke",
+          "note": "34% snaps week 1"
         }
       ],
       "RB": [
         {
           "depth": 1,
-          "name": "Chuba Hubbard",
-          "note": "OUT"
+          "name": "Christian McCaffrey",
+          "note": "DNP for the last week"
         },
         {
           "depth": 2,
-          "name": "Jonathon Brooks",
-          "note": "Will start"
+          "name": "Jordan James",
+          "note": "DNP 8/18"
         },
         {
           "depth": 3,
-          "name": "Trevor Etienne",
-          "note": "Will rotate with Brooks"
+          "name": "Kaelon Black",
+          "note": "DNP W1, but could be in line to play with starters"
         },
         {
           "depth": 4,
-          "name": "AJ Dillon",
-          "note": ""
+          "name": "Zamir White",
+          "note": "8% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "Anthony Tyus III",
-          "note": ""
+          "name": "Patrick Taylor Jr.",
+          "note": "29% snaps week 1"
         },
         {
           "depth": 6,
-          "name": "Miles Davis",
-          "note": ""
+          "name": "Sincere McCormick",
+          "note": "32% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "Isaac Guerendo",
+          "note": "0% snaps week 1"
         }
       ],
       "WR": [
         {
           "depth": 1,
-          "name": "Tetairoa McMillan",
-          "note": ""
+          "name": "Mike Evans",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Jalen Coker",
-          "note": ""
+          "name": "Deebo Samuel",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Xavier Legette",
-          "note": ""
+          "name": "Christian Kirk",
+          "note": "DNP 8/18"
         },
         {
           "depth": 4,
-          "name": "Jimmy Horn Jr.",
-          "note": "Led team in routes HOF game"
+          "name": "De'Zhaun Stribling",
+          "note": "29% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "John Metchie III",
-          "note": "2nd in routes HOF game"
+          "name": "Demarcus Robinson",
+          "note": "Returned to practice 8/18"
         },
         {
           "depth": 6,
-          "name": "Brycen Tremayne",
-          "note": ""
+          "name": "Jacob Cowing",
+          "note": "Practicing as of 8/16"
         },
         {
           "depth": 7,
-          "name": "David Moore",
-          "note": ""
+          "name": "Malik Turner",
+          "note": "45% snaps week 1"
         },
         {
           "depth": 8,
-          "name": "Ja'Seem Reed",
-          "note": ""
+          "name": "Jordan Watkins",
+          "note": "75% snaps week 1"
         },
         {
           "depth": 9,
-          "name": "Casey Washington",
-          "note": ""
+          "name": "Trenton Irwin",
+          "note": "44% snaps week 1"
+        },
+        {
+          "depth": 10,
+          "name": "Wesley Grimes",
+          "note": "17% snaps week 1"
         },
         {
           "depth": 11,
-          "name": "Elijah Cooks",
-          "note": ""
+          "name": "Will Pauling",
+          "note": "17% snaps week 1"
         },
         {
           "depth": 12,
-          "name": "Roc Taylor",
-          "note": ""
+          "name": "Khadarel Hodge",
+          "note": "38% snaps week 1"
         }
       ],
       "TE": [
         {
           "depth": 1,
-          "name": "Tommy Tremble",
-          "note": ""
+          "name": "George Kittle",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 2,
-          "name": "Ja'Tavion Sanders",
-          "note": ""
+          "name": "Jake Tonges",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 3,
-          "name": "Mitchell Evans",
-          "note": ""
+          "name": "Luke Farrell",
+          "note": "0% snaps week 1"
         },
         {
           "depth": 4,
-          "name": "Feleipe Franks",
-          "note": ""
+          "name": "Brayden Willis",
+          "note": "44% snaps week 1"
         },
         {
           "depth": 5,
-          "name": "James Mitchell",
-          "note": ""
+          "name": "Hayden Rucci",
+          "note": "48% snaps week 1"
         },
         {
           "depth": 6,
-          "name": "Caden Prieskorn",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Darren Waller",
-          "note": "Signed 8/13"
-        }
-      ],
-      "K": [
-        {
-          "depth": 2,
-          "name": "Ryan Fitzgerald",
-          "note": ""
-        }
-      ]
-    },
-    "CHI": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Caleb Williams",
-          "note": "Won't Play in Preseason"
-        },
-        {
-          "depth": 2,
-          "name": "Tyson Bagent",
-          "note": "Will Start, Probably play a half\"\""
-        },
-        {
-          "depth": 3,
-          "name": "Case Keenum",
-          "note": "Expecting .75 to 1.5q"
-        },
-        {
-          "depth": 4,
-          "name": "Miller Moss",
-          "note": "Expecting .75 to 1.5q"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "D'Andre Swift",
-          "note": "A number of starters will sit"
-        },
-        {
-          "depth": 2,
-          "name": "Kyle Monangai",
-          "note": "A number of starters will sit"
-        },
-        {
-          "depth": 3,
-          "name": "Roschon Johnson",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Brittain Brown",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Salvon Ahmed",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Coleman Bennett",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Rome Odunze",
-          "note": "A number of starters will sit"
-        },
-        {
-          "depth": 2,
-          "name": "Luther Burden III",
-          "note": "DNP 8/13, OUT"
-        },
-        {
-          "depth": 3,
-          "name": "Kalif Raymond",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Zavion Thomas",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 5,
-          "name": "Jahdae Walker",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Scotty Miller",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Maurice Alexander",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Kaden Davis",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "Ray-Ray McCloud III",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "JP Richardson",
-          "note": ""
-        },
-        {
-          "depth": 11,
-          "name": "Omari Kelly",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Colston Loveland",
-          "note": "A number of starters will sit"
-        },
-        {
-          "depth": 2,
-          "name": "Cole Kmet",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Sam Roush",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Nikola Kalinic",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Stephen Carlson",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Qadir Ismail",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Hayden Large",
-          "note": ""
+          "name": "Josiah Deguara",
+          "note": "43% snaps week 1"
         }
       ],
       "K": [
         {
           "depth": 1,
-          "name": "Cairo Santos",
-          "note": ""
-        }
-      ]
-    },
-    "DAL": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Dak Prescott",
-          "note": "Not expecting Dak, No Announcement"
-        },
-        {
-          "depth": 2,
-          "name": "Joe Milton III",
-          "note": "Expecting 2 quarters"
-        },
-        {
-          "depth": 3,
-          "name": "Sam Howell",
-          "note": "Expecting 2 quarters"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Javonte Williams",
-          "note": "Not expecting him to play"
-        },
-        {
-          "depth": 2,
-          "name": "Jaydon Blue",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Malik Davis",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Phil Mafah",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Hunter Luepke",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Israel Abanikanda",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Jashaun Corbin",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "CeeDee Lamb",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 2,
-          "name": "George Pickens",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 3,
-          "name": "Ryan Flournoy",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 4,
-          "name": "KaVontae Turpin",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Marquez Valdes-Scantling",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 6,
-          "name": "Jonathan Mingo",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Tyler Johnson",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Camden Brown",
-          "note": "Played with 1st unit some."
-        },
-        {
-          "depth": 9,
-          "name": "Anthony Smith",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "Traeshon Holden",
-          "note": ""
-        },
-        {
-          "depth": 11,
-          "name": "Denzel Mims",
-          "note": ""
-        },
-        {
-          "depth": 12,
-          "name": "Jordan Hudson",
-          "note": ""
-        },
-        {
-          "depth": 13,
-          "name": "Jaden Smith",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Jake Ferguson",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 2,
-          "name": "Brevyn Spann-Ford",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Luke Schoonmaker",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Michael Trigg",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Zack Kuntz",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "DJ Rogers",
-          "note": ""
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Brandon Aubrey",
-          "note": ""
-        }
-      ]
-    },
-    "LAR": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Matthew Stafford",
-          "note": "Will. not play"
-        },
-        {
-          "depth": 2,
-          "name": "Stetson Bennett",
-          "note": "Will Start"
-        },
-        {
-          "depth": 3,
-          "name": "Ty Simpson",
-          "note": "Will Play"
-        },
-        {
-          "depth": 4,
-          "name": "Matthew Caldwell",
-          "note": "Expecting zero work."
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Kyren Williams",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Blake Corum",
-          "note": "Will not play"
-        },
-        {
-          "depth": 3,
-          "name": "Jarquez Hunter",
-          "note": "Risk of being rested"
-        },
-        {
-          "depth": 4,
-          "name": "Ronnie Rivers",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Jordan Waters",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Dean Connors",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Puka Nacua",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Davante Adams",
-          "note": "Will not play"
-        },
-        {
-          "depth": 3,
-          "name": "Jordan Whittington",
-          "note": "Will not play"
-        },
-        {
-          "depth": 4,
-          "name": "Konata Mumpfield",
-          "note": "Will not play"
-        },
-        {
-          "depth": 5,
-          "name": "Xavier Smith",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Tyler Scott",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Brennan Presley",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Tru Edwards",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "CJ Daniels",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "Mario Williams",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Colby Parkinson",
-          "note": "Not expected to play"
-        },
-        {
-          "depth": 2,
-          "name": "Tyler Higbee",
-          "note": "Not expected to play"
-        },
-        {
-          "depth": 3,
-          "name": "Terrance Ferguson",
-          "note": "Not expected to play"
-        },
-        {
-          "depth": 4,
-          "name": "Davis Allen",
-          "note": "Not expected to play"
-        },
-        {
-          "depth": 5,
-          "name": "Max Klare",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Rohan Jones",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Mark Redman",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Dan Villari",
-          "note": ""
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Harrison Mevis",
-          "note": ""
-        }
-      ]
-    },
-    "MIN": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Kyler Murray",
-          "note": "Expecting .75 to 1q"
-        },
-        {
-          "depth": 2,
-          "name": "J.J. McCarthy",
-          "note": "Expecting 1 to 1.25q"
-        },
-        {
-          "depth": 3,
-          "name": "Carson Wentz",
-          "note": "Expecting 1 to 1.25q"
-        },
-        {
-          "depth": 4,
-          "name": "Max Brosmer",
-          "note": "Expecting .75 to 1q"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Jordan Mason",
-          "note": ""
-        },
-        {
-          "depth": 2,
-          "name": "Aaron Jones Sr.",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Demond Claiborne",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Zavier Scott",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Jermar Jefferson",
-          "note": "Signed 8/12"
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Justin Jefferson",
-          "note": "DNP 8/13, Not expecting"
-        },
-        {
-          "depth": 2,
-          "name": "Jordan Addison",
-          "note": "Returned 8/10"
-        },
-        {
-          "depth": 3,
-          "name": "Jauan Jennings",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Tai Felton",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Jeshaun Jones",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Myles Price",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Dontae Fleming",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Dillon Bell",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "Marcus Sanders Jr.",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "Michael Briscoe",
-          "note": ""
-        },
-        {
-          "depth": 11,
-          "name": "Terrill Davis",
-          "note": ""
-        },
-        {
-          "depth": 12,
-          "name": "Trayvon Rudolph",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "T.J. Hockenson",
-          "note": ""
-        },
-        {
-          "depth": 2,
-          "name": "Josh Oliver",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Ben Yurosek",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Gavin Bartholomew",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Bryson Nesbit",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Marshall Lang",
-          "note": ""
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Will Reichard",
-          "note": ""
-        }
-      ]
-    },
-    "NO": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Tyler Shough",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Spencer Rattler",
-          "note": "Expecting 1 to 1.5q"
-        },
-        {
-          "depth": 3,
-          "name": "Zach Wilson",
-          "note": "Expecting 1 to 1.5q"
-        },
-        {
-          "depth": 4,
-          "name": "Hunter Dekkers",
-          "note": "Expecting 1 to 1.5q"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Travis Etienne Jr.",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 2,
-          "name": "Alvin Kamara",
-          "note": "Not expecting starters/vets"
-        },
-        {
-          "depth": 3,
-          "name": "Devin Neal",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 4,
-          "name": "Kendre Miller",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 5,
-          "name": "Audric Estime",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Ty Chandler",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "CJ Donaldson",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Chris Olave",
-          "note": "Not expecting starters / vets"
-        },
-        {
-          "depth": 2,
-          "name": "Jordyn Tyson",
-          "note": "Left 8/13 (hamstring)"
-        },
-        {
-          "depth": 3,
-          "name": "Devaughn Vele",
-          "note": "Not expected to play"
-        },
-        {
-          "depth": 4,
-          "name": "Mason Tipton",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 5,
-          "name": "Bub Means",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Kevin Austin Jr.",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Trey Palmer",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Bryce Lance",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "Barion Brown",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "Ronnie Bell",
-          "note": ""
-        },
-        {
-          "depth": 11,
-          "name": "Jalen Moreno-Cropper",
-          "note": ""
-        },
-        {
-          "depth": 12,
-          "name": "Brock Rechsteiner",
-          "note": "Available, Will sit in the Steiner recliner 6 gm starting August 30."
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Juwan Johnson",
-          "note": "Not expecting starters / vets"
-        },
-        {
-          "depth": 2,
-          "name": "Noah Fant",
-          "note": "Not expecting starters / vets"
-        },
-        {
-          "depth": 3,
-          "name": "Oscar Delp",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Moliki Matavao",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Treyton Welch",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Zaire Mitchell-Paden",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Cody Hardy",
-          "note": ""
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Charlie Smyth",
-          "note": ""
-        },
-        {
-          "depth": 2,
-          "name": "Tanner Brown",
-          "note": ""
-        }
-      ]
-    },
-    "NYG": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Jaxson Dart",
-          "note": "No announced plan. Projecting 2 series."
-        },
-        {
-          "depth": 2,
-          "name": "Jameis Winston",
-          "note": "No announced plan. Projecting 1.5 quarters"
-        },
-        {
-          "depth": 3,
-          "name": "Brandon Allen",
-          "note": "No announced plan. Projecting 1.5 quarters"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Cam Skattebo",
-          "note": "Returned to drills 8/13, could play"
-        },
-        {
-          "depth": 2,
-          "name": "Tyrone Tracy Jr.",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Devin Singletary",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Eric Gray",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Dante Miller",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Damon Bankston",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Malik Nabers",
-          "note": "Unlikely to play"
-        },
-        {
-          "depth": 2,
-          "name": "Darius Slayton",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Darnell Mooney",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Calvin Austin III",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Odell Beckham Jr.",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "Malachi Fields",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "JuJu Smith-Schuster",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 8,
-          "name": "Dalen Cambre",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "Jalin Hyatt",
-          "note": "Out"
-        },
-        {
-          "depth": 10,
-          "name": "Isaiah Hodgins",
-          "note": ""
-        },
-        {
-          "depth": 11,
-          "name": "Braxton Berrios",
-          "note": ""
-        },
-        {
-          "depth": 12,
-          "name": "Ryan Miller",
-          "note": ""
-        },
-        {
-          "depth": 13,
-          "name": "Xavier Gipson",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Isaiah Likely",
-          "note": ""
-        },
-        {
-          "depth": 2,
-          "name": "Theo Johnson",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Chris Manhertz",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Thomas Fidone II",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Tanner Conner",
-          "note": ""
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Ben Sauls",
-          "note": ""
-        }
-      ]
-    },
-    "PHI": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Jalen Hurts",
-          "note": "Not expecting him to play, not announced."
-        },
-        {
-          "depth": 2,
-          "name": "Andy Dalton",
-          "note": "Expecting 1 to 1.5q"
-        },
-        {
-          "depth": 3,
-          "name": "Tanner McKee",
-          "note": "Expecting 1.5 to 2q"
-        },
-        {
-          "depth": 4,
-          "name": "Cole Payton",
-          "note": "Expecting .75 to 1.5q"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Saquon Barkley",
-          "note": "Not expecting him to play."
-        },
-        {
-          "depth": 2,
-          "name": "Tank Bigsby",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Will Shipley",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Dameon Pierce",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 5,
-          "name": "Ja'Quinden Jackson",
-          "note": "Signed 8/10"
-        },
-        {
-          "depth": 6,
-          "name": "Carson Steele",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "DeVonta Smith",
-          "note": "Not expecting him to play."
-        },
-        {
-          "depth": 2,
-          "name": "Dontayvion Wicks",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Makai Lemon",
-          "note": "DNP 8/13 (Hamstring)"
-        },
-        {
-          "depth": 4,
-          "name": "Hollywood Brown",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Johnny Wilson",
-          "note": "Returned 8/13 (Knee)"
-        },
-        {
-          "depth": 6,
-          "name": "Darius Cooper",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Britain Covey",
-          "note": "Limited 8/12 (Hamstring)"
-        },
-        {
-          "depth": 8,
-          "name": "Elijah Moore",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "Samori Toure",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "Erik Ezukanma",
-          "note": ""
-        },
-        {
-          "depth": 11,
-          "name": "Danny Gray",
-          "note": "Limited 8/13 (Concussion)"
-        },
-        {
-          "depth": 12,
-          "name": "Quez Watkins",
-          "note": ""
-        },
-        {
-          "depth": 13,
-          "name": "Brandon Hayes",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Dallas Goedert",
-          "note": "Not expecting him to play."
-        },
-        {
-          "depth": 2,
-          "name": "Eli Stowers",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Grant Calcaterra",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Johnny Mundt",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Cameron Latu",
-          "note": ""
-        },
-        {
-          "depth": 6,
-          "name": "E.J. Jenkins",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Stone Smartt",
-          "note": ""
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Jake Elliott",
-          "note": ""
-        }
-      ]
-    },
-    "SEA": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Sam Darnold",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Drew Lock",
-          "note": "Will rotate with Milroe"
-        },
-        {
-          "depth": 3,
-          "name": "Jalen Milroe",
-          "note": "Will rotate with Lock"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Zach Charbonnet",
-          "note": "Out"
-        },
-        {
-          "depth": 2,
-          "name": "Jadarian Price",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 3,
-          "name": "George Holani",
-          "note": "Should get some work"
-        },
-        {
-          "depth": 4,
-          "name": "Emanuel Wilson",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 5,
-          "name": "Jacardia Wright",
-          "note": "DNP 8/13"
-        },
-        {
-          "depth": 6,
-          "name": "TJ Harden",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Velus Jones Jr.",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Justin Jones",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Jaxon Smith-Njigba",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Rashid Shaheed",
-          "note": "Will not play"
-        },
-        {
-          "depth": 3,
-          "name": "Cooper Kupp",
-          "note": "Will not play"
-        },
-        {
-          "depth": 4,
-          "name": "Tory Horton",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Jake Bobo",
-          "note": "Returned 8/11"
-        },
-        {
-          "depth": 6,
-          "name": "Cody White",
-          "note": ""
-        },
-        {
-          "depth": 7,
-          "name": "Ricky White III",
-          "note": ""
-        },
-        {
-          "depth": 8,
-          "name": "Irvin Charles",
-          "note": ""
-        },
-        {
-          "depth": 9,
-          "name": "Montorie Foster Jr.",
-          "note": ""
-        },
-        {
-          "depth": 10,
-          "name": "Emmanuel Henderson Jr.",
-          "note": ""
-        },
-        {
-          "depth": 11,
-          "name": "Rashad Rochelle",
-          "note": ""
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "AJ Barner",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Elijah Arroyo",
-          "note": ""
-        },
-        {
-          "depth": 3,
-          "name": "Eric Saubert",
-          "note": ""
-        },
-        {
-          "depth": 4,
-          "name": "Nick Kallerup",
-          "note": ""
-        },
-        {
-          "depth": 5,
-          "name": "Nick Vannett",
-          "note": ""
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Jason Myers",
+          "name": "Eddy Pineiro",
           "note": ""
         }
       ]
