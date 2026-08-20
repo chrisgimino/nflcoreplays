@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-20T14:46",
+  "updated": "2026-08-20T14:51",
   "sections": [
     {
       "position": "QB",
@@ -59,7 +59,7 @@
           "rank": 1,
           "players": "Noah Whittington",
           "core": true,
-          "notes": "HOU RBs are decimated, Whittington had 13 carries last week and lost RB Pitsenberger who had 9.",
+          "notes": "HOU RBs are decimated. Whittington had 13 carries last week and lost RB Pitsenberger who had 9.",
           "salary": null,
           "fpts": 8.0,
           "opp": "LV"
@@ -86,7 +86,7 @@
           "rank": 4,
           "players": "Mike Washington Jr.",
           "core": false,
-          "notes": "Looked good in W1, broke off a 53-yard run and had 63 yards on 6 carries.",
+          "notes": "Looked good in W1. Broke off a 53-yard run and had 63 yards on 6 carries.",
           "salary": null,
           "fpts": 5.2,
           "opp": "HOU"
@@ -113,7 +113,7 @@
           "rank": 7,
           "players": "Kaelon Black",
           "core": false,
-          "notes": "This one is interesting. Black is returning from an injury and is likely the RB2 behind CMC, but SF RBs are pretty thin right now.",
+          "notes": "This one is interesting. Black is returning from an injury and is likely the RB2 behind CMC, but the SF RBs are pretty thin right now.",
           "salary": null,
           "fpts": 3.0,
           "opp": "LAC"
@@ -127,7 +127,7 @@
           "rank": 1,
           "players": "Jared Wayne",
           "core": false,
-          "notes": "Caught 3 of 5 targets last week and found the end zone. Continues to get strong camp reports.",
+          "notes": "Caught 3 of his 5 targets last week and found the end zone. Continues to get strong camp reports.",
           "salary": null,
           "fpts": 3.7,
           "opp": "LV"
@@ -163,7 +163,7 @@
           "rank": 5,
           "players": "Brenen Thompson",
           "core": false,
-          "notes": "Production wasn't there last week, but also had 6 targets. Could be in line for a bounceback.",
+          "notes": "Production wasn't there last week, but he also had 6 targets. Could be a bounce-back spot.",
           "salary": null,
           "fpts": 3.6,
           "opp": "SF"
