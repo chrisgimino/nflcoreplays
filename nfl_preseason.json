@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-21T18:39",
+  "updated": "2026-08-21T18:57",
   "sections": [
     {
       "position": "QB",
@@ -25,6 +25,15 @@
         },
         {
           "rank": 3,
+          "players": "Carter Bradley",
+          "core": false,
+          "notes": "Starters could be resting, opening up the door for a big run tonight.",
+          "salary": null,
+          "fpts": 6.6,
+          "opp": "CAR"
+        },
+        {
+          "rank": 4,
           "players": "Sam Ehlinger",
           "core": false,
           "notes": "Volatile range of playing time, but if he approaches a half would have potential to produce.",
@@ -33,7 +42,7 @@
           "opp": "GB"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "players": "Kenny Pickett",
           "core": false,
           "notes": "Kyle Trask is just a camp body for the most part, and it makes more sense for CAR to allot playing time in his direction.",
@@ -42,16 +51,16 @@
           "opp": "JAX"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "players": "Will Howard",
           "core": false,
           "notes": "Will start and is a sensible pivot from what should be a higher-owned Allar thanks to his Week 1 production.",
           "salary": null,
-          "fpts": 5.8,
+          "fpts": 5.7,
           "opp": "NYJ"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "players": "Jarrett Stidham",
           "core": false,
           "notes": "Could be efficient if given more than 2-3 drives. Better weaponry than many other QBs on the slate.",
@@ -60,7 +69,7 @@
           "opp": "GB"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "players": "Cade Klubnik",
           "core": false,
           "notes": "There are four QBs here, but this is spot where they could reach for 30-50% snaps for him if they wanted to. He needs work.",
@@ -79,7 +88,7 @@
           "core": true,
           "notes": "22 carries Week 1. Regardless of starters availability, he'll have to carry the load again.",
           "salary": null,
-          "fpts": 7.5,
+          "fpts": 8.8,
           "opp": "CAR"
         },
         {
@@ -88,7 +97,7 @@
           "core": true,
           "notes": "Versatile \"4-down player\" competing for a job. Directly named as someone McCarthy \"would like to see get more opportunities.\"",
           "salary": null,
-          "fpts": 6.8,
+          "fpts": 6.3,
           "opp": "NYJ"
         },
         {
@@ -115,7 +124,7 @@
           "core": false,
           "notes": "Next-best option in JAX to see any volume.",
           "salary": null,
-          "fpts": 5.0,
+          "fpts": 5.1,
           "opp": "CAR"
         },
         {
@@ -124,7 +133,7 @@
           "core": false,
           "notes": "Playing as RB3 in camp now but could still be required to prove it with consistency on the field.",
           "salary": null,
-          "fpts": 4.7,
+          "fpts": 4.3,
           "opp": "NYJ"
         },
         {
@@ -170,6 +179,15 @@
         },
         {
           "rank": 4,
+          "players": "CJ Williams",
+          "core": false,
+          "notes": "Saw 44% snaps in Week 1, and the Jags could opt to rest starters again (undetermined).  Upside exists.",
+          "salary": null,
+          "fpts": 4.0,
+          "opp": "CAR"
+        },
+        {
+          "rank": 5,
           "players": "Savion Williams",
           "core": false,
           "notes": "Should continue to see developmental work early in the game. Packers are preparing him for his regular-season role.",
@@ -178,7 +196,7 @@
           "opp": "DEN"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "players": "J. Michael Sturdivant",
           "core": false,
           "notes": "Athletic player who saw 40%+ snaps in Week 1.  A nice tournament option paired with McCord.",
@@ -187,7 +205,7 @@
           "opp": "DEN"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "players": "Omar Cooper Jr.",
           "core": false,
           "notes": "Has a lot to prove under the lights as a player who had yielded ground to Adonai Mitchell and Isaiah Williams in the Jets pecking order.",
@@ -196,22 +214,13 @@
           "opp": "PIT"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "players": "John Metchie III",
           "core": false,
           "notes": "While he is gaining favor at camp, he remains buried deep on their depth chart.  He will need reps to prove his worth.",
           "salary": null,
           "fpts": 3.5,
           "opp": "JAX"
-        },
-        {
-          "rank": 8,
-          "players": "CJ Williams",
-          "core": false,
-          "notes": "Saw 44% snaps in Week 1, and the Jags could opt to rest starters again (undetermined).  Upside exists.",
-          "salary": null,
-          "fpts": 3.3,
-          "opp": "CAR"
         }
       ]
     },
@@ -220,6 +229,15 @@
       "players": [
         {
           "rank": 1,
+          "players": "Nate Boerkircher",
+          "core": false,
+          "notes": "Jags could be quick to get past the starters tonight, and start looking more closely at their depth.",
+          "salary": null,
+          "fpts": 2.8,
+          "opp": "CAR"
+        },
+        {
+          "rank": 2,
           "players": "Justin Joly",
           "core": false,
           "notes": "Headlines a hideous TE slate as a developmental player on a strong team.",
@@ -228,22 +246,13 @@
           "opp": "GB"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "players": "Robert Tonyan",
           "core": false,
           "notes": "Historically strong as a receiving threat, relative to the preseason environment.",
           "salary": null,
           "fpts": 2.2,
           "opp": "NYJ"
-        },
-        {
-          "rank": 3,
-          "players": "Nate Boerkircher",
-          "core": false,
-          "notes": "Jags could be quick to get past the starters tonight, and start looking more closely at their depth.",
-          "salary": null,
-          "fpts": 2.1,
-          "opp": "CAR"
         },
         {
           "rank": 4,
@@ -310,7 +319,7 @@
           "core": false,
           "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 8.0,
+          "fpts": 8.1,
           "opp": "JAX"
         },
         {
@@ -566,12 +575,12 @@
         {
           "depth": 2,
           "name": "Brian Thomas Jr.",
-          "note": "0% snaps week 1"
+          "note": "will not play"
         },
         {
           "depth": 3,
           "name": "Jakobi Meyers",
-          "note": "0% snaps week 1"
+          "note": "will not play"
         },
         {
           "depth": 4,
