@@ -1,54 +1,63 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-20T14:51",
+  "updated": "2026-08-20T20:22",
   "sections": [
     {
       "position": "QB",
       "players": [
         {
           "rank": 1,
-          "players": "Trey Lance",
+          "players": "Drew Allar",
           "core": true,
-          "notes": "Dual-threat QB who has long track record of preseason success.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 7.6,
-          "opp": "SF"
+          "fpts": 7.4,
+          "opp": "NYJ"
         },
         {
           "rank": 2,
-          "players": "Fernando Mendoza",
+          "players": "Kyle McCord",
           "core": false,
-          "notes": "No. 1 overall pick, expected to see \"a good amount of playing time\" in this game.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 7.3,
-          "opp": "HOU"
+          "fpts": 6.5,
+          "opp": "DEN"
         },
         {
           "rank": 3,
-          "players": "Davis Mills",
+          "players": "Kenny Pickett",
           "core": false,
-          "notes": "Graham Mertz on IR and CJ Stroud resting. Mills and Rypien should split time, Mills played 66% of the snaps last week.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 6.2,
-          "opp": "LV"
+          "fpts": 6.3,
+          "opp": "JAX"
         },
         {
           "rank": 4,
-          "players": "Adrian Martinez",
+          "players": "Sam Ehlinger",
           "core": false,
-          "notes": "49ers will play some of their starters, so Purdy and Mac Jones should get playing time but could be limited.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 7.6,
-          "opp": "LAC"
+          "fpts": 6.1,
+          "opp": "GB"
         },
         {
           "rank": 5,
-          "players": "DJ Uiagalelei",
+          "players": "Jarrett Stidham",
           "core": false,
-          "notes": "Surprsingly, didn't add anything on the ground last week but was 6/9 for 120 yards and a TD.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 4.8,
-          "opp": "SF"
+          "fpts": 5.8,
+          "opp": "GB"
+        },
+        {
+          "rank": 6,
+          "players": "Will Howard",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 5.8,
+          "opp": "NYJ"
         }
       ]
     },
@@ -57,66 +66,84 @@
       "players": [
         {
           "rank": 1,
-          "players": "Noah Whittington",
+          "players": "J'Mari Taylor",
           "core": true,
-          "notes": "HOU RBs are decimated. Whittington had 13 carries last week and lost RB Pitsenberger who had 9.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 8.0,
-          "opp": "LV"
+          "fpts": 7.5,
+          "opp": "CAR"
         },
         {
           "rank": 2,
-          "players": "Owen Wright",
-          "core": false,
-          "notes": "Didn't get much work last week for HOU after being a late signing, but now likely has no choice. Should split time with Whittington.",
+          "players": "Eli Heidenreich",
+          "core": true,
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 6.6,
-          "opp": "LV"
+          "fpts": 7.2,
+          "opp": "NYJ"
         },
         {
           "rank": 3,
-          "players": "Sincere McCormick",
+          "players": "Chip Trayanum",
           "core": false,
-          "notes": "Led SF RBs with 11 touches last week but wasn't very good during them.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 6.0,
-          "opp": "LAC"
+          "fpts": 6.2,
+          "opp": "PIT"
         },
         {
           "rank": 4,
-          "players": "Mike Washington Jr.",
+          "players": "MarShawn Lloyd",
           "core": false,
-          "notes": "Looked good in W1. Broke off a 53-yard run and had 63 yards on 6 carries.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 5.2,
-          "opp": "HOU"
+          "fpts": 5.9,
+          "opp": "DEN"
         },
         {
           "rank": 5,
-          "players": "Amar Johnson",
+          "players": "DeeJay Dallas",
           "core": false,
-          "notes": "Had just 17 rushing yards on 6 carries last week... but 2 of them happened to be for TDs.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 5.2,
-          "opp": "SF"
+          "fpts": 5.0,
+          "opp": "CAR"
         },
         {
           "rank": 6,
-          "players": "Zamir White",
+          "players": "Lew Nichols",
           "core": false,
-          "notes": "Could see more time after getting acclimated post-signing here in SF.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 4.5,
-          "opp": "LAC"
+          "fpts": 4.7,
+          "opp": "NYJ"
         },
         {
           "rank": 7,
-          "players": "Kaelon Black",
+          "players": "Trevor Etienne",
           "core": false,
-          "notes": "This one is interesting. Black is returning from an injury and is likely the RB2 behind CMC, but the SF RBs are pretty thin right now.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 3.0,
-          "opp": "LAC"
+          "fpts": 4.5,
+          "opp": "JAX"
+        },
+        {
+          "rank": 8,
+          "players": "Kene Nwangwu",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 4.4,
+          "opp": "PIT"
+        },
+        {
+          "rank": 9,
+          "players": "AJ Dillon",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 4.4,
+          "opp": "JAX"
         }
       ]
     },
@@ -125,66 +152,84 @@
       "players": [
         {
           "rank": 1,
-          "players": "Jared Wayne",
-          "core": false,
-          "notes": "Caught 3 of his 5 targets last week and found the end zone. Continues to get strong camp reports.",
+          "players": "Max Hurleman",
+          "core": true,
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 3.7,
-          "opp": "LV"
+          "fpts": 4.0,
+          "opp": "NYJ"
         },
         {
           "rank": 2,
-          "players": "KeAndre Lambert-Smith",
+          "players": "Isaiah Neyor",
           "core": false,
-          "notes": "4 catches for 58 yards on 6 targets last week. Should be in line for big playing time again.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 3.8,
-          "opp": "SF"
+          "fpts": 4.0,
+          "opp": "DEN"
         },
         {
           "rank": 3,
-          "players": "De'Zhaun Stribling",
+          "players": "Omar Cooper Jr.",
           "core": false,
-          "notes": "Went off in W1: 6 catches and 72 yards on 7 targets.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 3.7,
-          "opp": "LAC"
+          "fpts": 3.5,
+          "opp": "PIT"
         },
         {
           "rank": 4,
-          "players": "Jordan Watkins",
+          "players": "Josh Cameron",
           "core": false,
-          "notes": "Watkins had a whopping 10 targets last week. Playing time might be down a bit with starters playing, but he should be right back in there after they depart.",
+          "notes": "Based on our projections.",
           "salary": null,
           "fpts": 3.5,
-          "opp": "LAC"
+          "opp": "CAR"
         },
         {
           "rank": 5,
-          "players": "Brenen Thompson",
+          "players": "Savion Williams",
           "core": false,
-          "notes": "Production wasn't there last week, but he also had 6 targets. Could be a bounce-back spot.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 3.6,
-          "opp": "SF"
+          "fpts": 3.5,
+          "opp": "DEN"
         },
         {
           "rank": 6,
-          "players": "Lewis Bond",
+          "players": "J. Michael Sturdivant",
           "core": false,
-          "notes": "Likely the most draft capital out of HOU WRs that they would like to get a look at. He had 4 targets last week.",
+          "notes": "Based on our projections.",
           "salary": null,
           "fpts": 3.3,
-          "opp": "LV"
+          "opp": "DEN"
         },
         {
           "rank": 7,
-          "players": "Justin Watson",
+          "players": "Jamaal Pritchett",
           "core": false,
-          "notes": "HOU WR room is extremely thin and could get even thinner if they treat Hutchinson as a starter and rest him.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 3.3,
-          "opp": "LV"
+          "fpts": 3.2,
+          "opp": "PIT"
+        },
+        {
+          "rank": 8,
+          "players": "Germie Bernard",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 3.1,
+          "opp": "NYJ"
+        },
+        {
+          "rank": 9,
+          "players": "John Metchie III",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 3.1,
+          "opp": "JAX"
         }
       ]
     },
@@ -193,45 +238,48 @@
       "players": [
         {
           "rank": 1,
-          "players": "Cade Stover",
+          "players": "Jelani Woods",
           "core": false,
-          "notes": "Stover seems to be fighting for the TE3 role at best for HOU, so he could see more playing time in this one.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 2.1,
-          "opp": "LV"
+          "fpts": 2.3,
+          "opp": "PIT"
         },
         {
           "rank": 2,
-          "players": "Albert Okwuegbunam",
+          "players": "Feleipe Franks",
           "core": false,
-          "notes": "Only had 2 targets but historically solid pass catcher and played 40% of snaps in W1."
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 1.9,
+          "opp": "JAX"
         },
         {
           "rank": 3,
-          "players": "Oronde Gadsden II",
+          "players": "Justin Joly",
           "core": false,
-          "notes": "His role may not yet be protected and could be given reps still. Easily the best backup pass-catching TE on the slate if so.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 2.0,
-          "opp": "SF"
+          "fpts": 1.9,
+          "opp": "GB"
         },
         {
           "rank": 4,
-          "players": "Brock Bowers",
+          "players": "Patrick Herbert",
           "core": false,
-          "notes": "Starters could play here and time would likely be volatile, but Bowers could be top TE in just a couple drives.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 2.0,
-          "opp": "HOU"
+          "fpts": 1.6,
+          "opp": "CAR"
         },
         {
           "rank": 5,
-          "players": "Marlin Klein",
+          "players": "Mason Taylor",
           "core": false,
-          "notes": "He could have this TE2 job locked now, which could lead him to getting rested, but if they want another look he is a great play.",
+          "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 1.9,
-          "opp": "LV"
+          "fpts": 1.7,
+          "opp": "PIT"
         }
       ]
     },
@@ -240,39 +288,57 @@
       "players": [
         {
           "rank": 1,
-          "players": "Raiders",
+          "players": "New York Jets",
           "core": false,
           "notes": "Based on our projections.",
           "salary": null,
-          "fpts": 8.1,
-          "opp": "HOU"
+          "fpts": 9.0,
+          "opp": "PIT"
         },
         {
           "rank": 2,
-          "players": "Chargers",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 7.7,
-          "opp": "SF"
-        },
-        {
-          "rank": 3,
-          "players": "Texans",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 8.9,
-          "opp": "LV"
-        },
-        {
-          "rank": 4,
-          "players": "49ers",
+          "players": "Denver Broncos",
           "core": false,
           "notes": "Based on our projections.",
           "salary": null,
           "fpts": 8.6,
-          "opp": "LAC"
+          "opp": "GB"
+        },
+        {
+          "rank": 3,
+          "players": "Jacksonville Jaguars",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 8.4,
+          "opp": "CAR"
+        },
+        {
+          "rank": 4,
+          "players": "Carolina Panthers",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 8.0,
+          "opp": "JAX"
+        },
+        {
+          "rank": 5,
+          "players": "Pittsburgh Steelers",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 8.0,
+          "opp": "NYJ"
+        },
+        {
+          "rank": 6,
+          "players": "Green Bay Packers",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 7.0,
+          "opp": "DEN"
         }
       ]
     }
@@ -294,6 +360,11 @@
           "depth": 3,
           "name": "Graham Mertz",
           "note": "IR"
+        },
+        {
+          "depth": 4,
+          "name": "Brett Rypien",
+          "note": "Signed this week"
         }
       ],
       "RB": [
@@ -440,7 +511,7 @@
         {
           "depth": 1,
           "name": "Justin Herbert",
-          "note": "0% snaps week 1"
+          "note": "Expected to play"
         },
         {
           "depth": 2,
@@ -587,12 +658,12 @@
         {
           "depth": 1,
           "name": "Kirk Cousins",
-          "note": "17% snaps week 1"
+          "note": "Not Starting"
         },
         {
           "depth": 2,
           "name": "Fernando Mendoza",
-          "note": "53% snaps week 1"
+          "note": "Will Start, Could Play 2Q."
         },
         {
           "depth": 3,
@@ -754,7 +825,7 @@
         {
           "depth": 1,
           "name": "Brock Purdy",
-          "note": "0% snaps week 1"
+          "note": "Expected to play"
         },
         {
           "depth": 2,
@@ -792,11 +863,6 @@
           "depth": 4,
           "name": "Zamir White",
           "note": "8% snaps week 1"
-        },
-        {
-          "depth": 5,
-          "name": "Patrick Taylor Jr.",
-          "note": "29% snaps week 1"
         },
         {
           "depth": 6,
