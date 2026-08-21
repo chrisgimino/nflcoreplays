@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-21T13:22",
+  "updated": "2026-08-21T15:21",
   "sections": [
     {
       "position": "QB",
@@ -8,8 +8,8 @@
         {
           "rank": 1,
           "players": "Drew Allar",
-          "core": true,
-          "notes": "Based on our projections.",
+          "core": false,
+          "notes": "Could play a half. Demonstrated efficiency in his Week 1 preseason showing.",
           "salary": null,
           "fpts": 7.4,
           "opp": "NYJ"
@@ -18,46 +18,46 @@
           "rank": 2,
           "players": "Kyle McCord",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Could play a half if Love and Tyrod split H1.",
           "salary": null,
           "fpts": 6.5,
           "opp": "DEN"
         },
         {
           "rank": 3,
-          "players": "Kenny Pickett",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 6.3,
-          "opp": "JAX"
-        },
-        {
-          "rank": 4,
           "players": "Sam Ehlinger",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Volatile range of playing time, but if he approaches a half would have potential to produce.",
           "salary": null,
           "fpts": 6.1,
           "opp": "GB"
         },
         {
-          "rank": 5,
-          "players": "Jarrett Stidham",
+          "rank": 4,
+          "players": "Kenny Pickett",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Kyle Trask is just a camp body for the most part, and it makes more sense for CAR to allot playing time in his direction.",
           "salary": null,
-          "fpts": 5.8,
-          "opp": "GB"
+          "fpts": 6.3,
+          "opp": "JAX"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "players": "Will Howard",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Will start and is a sensible pivot from what should be a higher-owned Allar thanks to his Week 1 production.",
           "salary": null,
           "fpts": 5.8,
           "opp": "NYJ"
+        },
+        {
+          "rank": 6,
+          "players": "Jarrett Stidham",
+          "core": false,
+          "notes": "Could be efficient if given more than 2-3 drives. Better weaponry than many other QBs on the slate.",
+          "salary": null,
+          "fpts": 5.8,
+          "opp": "GB"
         }
       ]
     },
@@ -68,7 +68,7 @@
           "rank": 1,
           "players": "J'Mari Taylor",
           "core": true,
-          "notes": "Based on our projections.",
+          "notes": "22 carries Week 1. Regardless of starters availability, he'll have to carry the load again.",
           "salary": null,
           "fpts": 7.5,
           "opp": "CAR"
@@ -77,7 +77,7 @@
           "rank": 2,
           "players": "Eli Heidenreich",
           "core": true,
-          "notes": "Based on our projections.",
+          "notes": "Versatile \"4-down player\" competing for a job. Directly named as someone McCarthy \"would like to see get more opportunities.\"",
           "salary": null,
           "fpts": 7.2,
           "opp": "NYJ"
@@ -86,7 +86,7 @@
           "rank": 3,
           "players": "Chip Trayanum",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Only 4 available backs, and one (Allen) could be protected from high reps.  Leaves him as most likely to see volume.",
           "salary": null,
           "fpts": 6.2,
           "opp": "PIT"
@@ -95,7 +95,7 @@
           "rank": 4,
           "players": "MarShawn Lloyd",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "\"I\u2019d like to get MarShawn Lloyd more touches in the next preseason game, just to make sure he can handle the load. Just continue to build him up.\"",
           "salary": null,
           "fpts": 5.9,
           "opp": "DEN"
@@ -104,7 +104,7 @@
           "rank": 5,
           "players": "DeeJay Dallas",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Next-best option in JAX to see any volume.",
           "salary": null,
           "fpts": 5.0,
           "opp": "CAR"
@@ -113,10 +113,19 @@
           "rank": 6,
           "players": "Lew Nichols",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Playing as RB3 in camp now but could still be required to prove it with consistency on the field.",
           "salary": null,
           "fpts": 4.7,
           "opp": "NYJ"
+        },
+        {
+          "rank": 7,
+          "players": "Trevor Etienne",
+          "core": false,
+          "notes": "Rotational multi-purpose back fighting with A.J. Dillon for job security.",
+          "salary": null,
+          "fpts": 4.5,
+          "opp": "JAX"
         }
       ]
     },
@@ -126,8 +135,8 @@
         {
           "rank": 1,
           "players": "Max Hurleman",
-          "core": true,
-          "notes": "Based on our projections.",
+          "core": false,
+          "notes": "Called out as a player taking advantage of his opportunity, could see substantial playing time once again.",
           "salary": null,
           "fpts": 4.0,
           "opp": "NYJ"
@@ -136,46 +145,64 @@
           "rank": 2,
           "players": "Isaiah Neyor",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Played 60%+ snaps in Week 1 and achieved 4/4 for 34 yards.  Similar run is highly attractive on a 3-game slate.",
           "salary": null,
           "fpts": 4.0,
           "opp": "DEN"
         },
         {
           "rank": 3,
+          "players": "Germie Bernard",
+          "core": false,
+          "notes": "Will no doubt have high ownership, he but is among the safest bets for action early in this game.",
+          "salary": null,
+          "fpts": 3.1,
+          "opp": "NYJ"
+        },
+        {
+          "rank": 4,
+          "players": "Savion Williams",
+          "core": false,
+          "notes": "Should continue to see developmental work early in the game. Packers are preparing him for his regular-season role.",
+          "salary": null,
+          "fpts": 3.5,
+          "opp": "DEN"
+        },
+        {
+          "rank": 5,
+          "players": "J. Michael Sturdivant",
+          "core": false,
+          "notes": "Athletic player who saw 40%+ snaps in Week 1.  A nice tournament option paired with McCord.",
+          "salary": null,
+          "fpts": 3.3,
+          "opp": "DEN"
+        },
+        {
+          "rank": 6,
           "players": "Omar Cooper Jr.",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Has a lot to prove under the lights as a player who had yielded ground to Adonai Mitchell and Isaiah Williams in the Jets pecking order.",
           "salary": null,
           "fpts": 3.5,
           "opp": "PIT"
         },
         {
-          "rank": 4,
-          "players": "Josh Cameron",
+          "rank": 7,
+          "players": "CJ Williams",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Saw 44% snaps in Week 1, and the Jags could opt to rest starters again (undetermined).  Upside exists.",
           "salary": null,
-          "fpts": 3.5,
+          "fpts": 2.9,
           "opp": "CAR"
         },
         {
-          "rank": 5,
-          "players": "Savion Williams",
+          "rank": 8,
+          "players": "John Metchie III",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "While he is gaining favor at camp, he remains buried deep on their depth chart.  He will need reps to prove his worth.",
           "salary": null,
-          "fpts": 3.5,
-          "opp": "DEN"
-        },
-        {
-          "rank": 6,
-          "players": "J. Michael Sturdivant",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 3.3,
-          "opp": "DEN"
+          "fpts": 3.1,
+          "opp": "JAX"
         }
       ]
     },
@@ -184,54 +211,57 @@
       "players": [
         {
           "rank": 1,
-          "players": "Jelani Woods",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 2.3,
-          "opp": "PIT"
-        },
-        {
-          "rank": 2,
-          "players": "Feleipe Franks",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 1.9,
-          "opp": "JAX"
-        },
-        {
-          "rank": 3,
           "players": "Justin Joly",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Headlines a hideous TE slate as a developmental player on a strong team.",
           "salary": null,
           "fpts": 1.9,
           "opp": "GB"
         },
         {
-          "rank": 4,
-          "players": "Patrick Herbert",
+          "rank": 2,
+          "players": "Robert Tonyan",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Historically strong as a receiving threat, relative to the preseason environment.",
+          "salary": null,
+          "fpts": 1.9,
+          "opp": "NYJ"
+        },
+        {
+          "rank": 3,
+          "players": "Nate Boerkircher",
+          "core": false,
+          "notes": "Jags could be quick to get past the starters tonight, and start looking more closely at their depth.",
           "salary": null,
           "fpts": 1.6,
           "opp": "CAR"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "players": "Mason Taylor",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "Jets will run a few series with the starters, and on this slate he could be the best dressed pig at the ball.",
           "salary": null,
           "fpts": 1.7,
           "opp": "PIT"
         },
         {
-          "rank": 6,
-          "players": "",
+          "rank": 5,
+          "players": "Jelani Woods",
           "core": false,
-          "notes": "Based on our projections."
+          "notes": "Limited efficiency on 32% snaps last week, but that much playing time is highly valuable on a slate like tonight.",
+          "salary": null,
+          "fpts": 2.3,
+          "opp": "PIT"
+        },
+        {
+          "rank": 6,
+          "players": "Feleipe Franks",
+          "core": false,
+          "notes": "Drawing praise in camp. Demonstrating offensive value could solidify his roster position (which is more as a special teamer).",
+          "salary": null,
+          "fpts": 1.9,
+          "opp": "JAX"
         }
       ]
     },
