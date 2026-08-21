@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-20T20:46",
+  "updated": "2026-08-21T13:22",
   "sections": [
     {
       "position": "QB",
@@ -117,33 +117,6 @@
           "salary": null,
           "fpts": 4.7,
           "opp": "NYJ"
-        },
-        {
-          "rank": 7,
-          "players": "Trevor Etienne",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 4.5,
-          "opp": "JAX"
-        },
-        {
-          "rank": 8,
-          "players": "Kene Nwangwu",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 4.4,
-          "opp": "PIT"
-        },
-        {
-          "rank": 9,
-          "players": "AJ Dillon",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 4.4,
-          "opp": "JAX"
         }
       ]
     },
@@ -203,33 +176,6 @@
           "salary": null,
           "fpts": 3.3,
           "opp": "DEN"
-        },
-        {
-          "rank": 7,
-          "players": "Jamaal Pritchett",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 3.2,
-          "opp": "PIT"
-        },
-        {
-          "rank": 8,
-          "players": "Germie Bernard",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 3.1,
-          "opp": "NYJ"
-        },
-        {
-          "rank": 9,
-          "players": "John Metchie III",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 3.1,
-          "opp": "JAX"
         }
       ]
     },
@@ -280,6 +226,12 @@
           "salary": null,
           "fpts": 1.7,
           "opp": "PIT"
+        },
+        {
+          "rank": 6,
+          "players": "",
+          "core": false,
+          "notes": "Based on our projections."
         }
       ]
     },
@@ -288,21 +240,21 @@
       "players": [
         {
           "rank": 1,
-          "players": "New York Jets",
-          "core": false,
-          "notes": "Based on our projections.",
-          "salary": null,
-          "fpts": 9.0,
-          "opp": "PIT"
-        },
-        {
-          "rank": 2,
           "players": "Denver Broncos",
           "core": false,
           "notes": "Based on our projections.",
           "salary": null,
           "fpts": 8.6,
           "opp": "GB"
+        },
+        {
+          "rank": 2,
+          "players": "New York Jets",
+          "core": false,
+          "notes": "Based on our projections.",
+          "salary": null,
+          "fpts": 9.0,
+          "opp": "PIT"
         },
         {
           "rank": 3,
@@ -344,1610 +296,967 @@
     }
   ],
   "depth_charts": {
-    "today": {
-      "date": "2026-08-20",
-      "teams": {
-        "HOU": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "C.J. Stroud",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Davis Mills",
-              "note": "68% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Graham Mertz",
-              "note": "IR"
-            },
-            {
-              "depth": 4,
-              "name": "Brett Rypien",
-              "note": "Signed this week"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "David Montgomery",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Woody Marks",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Jawhar Jordan",
-              "note": "DNP 8/18"
-            },
-            {
-              "depth": 4,
-              "name": "Noah Whittington",
-              "note": "51% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Owen Wright",
-              "note": "11% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Nico Collins",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Jayden Higgins",
-              "note": "Torn ACL 8/18"
-            },
-            {
-              "depth": 3,
-              "name": "Tank Dell",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Jaylin Noel",
-              "note": "Returned to practice 8/18, but still unlikely to play"
-            },
-            {
-              "depth": 5,
-              "name": "Xavier Hutchinson",
-              "note": "23% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Lewis Bond",
-              "note": "38% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Justin Watson",
-              "note": "51% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "Jared Wayne",
-              "note": "47% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "Josh Kelly",
-              "note": "25% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Treyvhon Saunders",
-              "note": "32% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "Daniel Sobkowicz",
-              "note": "15% snaps week 1"
-            },
-            {
-              "depth": 12,
-              "name": "Jha'Quan Jackson",
-              "note": "19% snaps week 1"
-            },
-            {
-              "depth": 13,
-              "name": "Juwann Winfree",
-              "note": "11% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Dalton Schultz",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Foster Moreau",
-              "note": "40% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Marlin Klein",
-              "note": "23% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Cade Stover",
-              "note": "49% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Brevin Jordan",
-              "note": "DNP 8/18"
-            },
-            {
-              "depth": 6,
-              "name": "Layne Pryor",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Louis Hansen",
-              "note": "% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Ka'imi Fairbairn",
-              "note": ""
-            }
-          ]
+    "DEN": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Bo Nix",
+          "note": "Expecting 2-3 drives"
         },
-        "LAC": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Justin Herbert",
-              "note": "Expected to play"
-            },
-            {
-              "depth": 2,
-              "name": "Trey Lance",
-              "note": "66% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "DJ Uiagalelei",
-              "note": "34% snaps week 1"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "Omarion Hampton",
-              "note": "Could play \"one series\" with Justin Herbert"
-            },
-            {
-              "depth": 2,
-              "name": "Keaton Mitchell",
-              "note": "Herbert and other starters expected to play, could be as little as one series\"\""
-            },
-            {
-              "depth": 3,
-              "name": "Kimani Vidal",
-              "note": "21% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Jaret Patterson",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Amar Johnson",
-              "note": "31% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Gregory Desrosiers",
-              "note": "19% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Ladd McConkey",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Quentin Johnston",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Tre' Harris",
-              "note": "DNP 8/18"
-            },
-            {
-              "depth": 4,
-              "name": "KeAndre Lambert-Smith",
-              "note": "49% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Brenen Thompson",
-              "note": "48% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Derius Davis",
-              "note": "25% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Dalevon Campbell",
-              "note": "45% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "JaQuae Jackson",
-              "note": "42% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "Devonte Ross",
-              "note": "31% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Luke Grimm",
-              "note": "DNP 8/18"
-            },
-            {
-              "depth": 11,
-              "name": "Sincere Brown",
-              "note": "0% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Oronde Gadsden II",
-              "note": "30% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "David Njoku",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Charlie Kolar",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Evan Svoboda",
-              "note": "51% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Jerand Bradley",
-              "note": "6% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Johnny Pascuzzi",
-              "note": "33% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Cameron Dicker",
-              "note": ""
-            }
-          ]
+        {
+          "depth": 2,
+          "name": "Jarrett Stidham",
+          "note": "50% snaps week 1"
         },
-        "LV": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Kirk Cousins",
-              "note": "Not Starting"
-            },
-            {
-              "depth": 2,
-              "name": "Fernando Mendoza",
-              "note": "Will Start, Could Play 2Q."
-            },
-            {
-              "depth": 3,
-              "name": "Aidan O'Connell",
-              "note": "29% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Jacob Clark",
-              "note": "0% snaps week 1"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "Ashton Jeanty",
-              "note": "12% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Mike Washington Jr.",
-              "note": "36% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Dylan Laube",
-              "note": "22% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Connor Heyward",
-              "note": "22% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Roman Hemby",
-              "note": "12% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Dare Ogunbowale",
-              "note": "17% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Tre Tucker",
-              "note": "16% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Jalen Nailor",
-              "note": "14% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Jack Bech",
-              "note": "38% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Dont'e Thornton Jr.",
-              "note": "DNP 8/18"
-            },
-            {
-              "depth": 5,
-              "name": "Malik Benson",
-              "note": "34% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Dareke Young",
-              "note": "21% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Phillip Dorsett II",
-              "note": "26% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "Shedrick Jackson",
-              "note": "16% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "E.J. Williams Jr.",
-              "note": "12% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Deven Thompkins",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "Brandon Johnson",
-              "note": "22% snaps week 1"
-            },
-            {
-              "depth": 12,
-              "name": "Noah Brown",
-              "note": "Signed This Week"
-            },
-            {
-              "depth": 13,
-              "name": "Chase Roberts",
-              "note": "24% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Brock Bowers",
-              "note": "2% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Michael Mayer",
-              "note": "17% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Ian Thomas",
-              "note": "57% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Carter Runyon",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Albert Okwuegbunam Jr.",
-              "note": "40% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Chris Myarick",
-              "note": "10% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Kansei Matsuzawa",
-              "note": ""
-            },
-            {
-              "depth": 2,
-              "name": "Matt Gay",
-              "note": ""
-            }
-          ]
-        },
-        "SF": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Brock Purdy",
-              "note": "Expected to play"
-            },
-            {
-              "depth": 2,
-              "name": "Mac Jones",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Adrian Martinez",
-              "note": "66% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Kurtis Rourke",
-              "note": "DNP 8/18 (Ribs)"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "Christian McCaffrey",
-              "note": "DNP for the last week"
-            },
-            {
-              "depth": 2,
-              "name": "Jordan James",
-              "note": "DNP 8/18"
-            },
-            {
-              "depth": 3,
-              "name": "Kaelon Black",
-              "note": "DNP W1, but could be in line to play with starters"
-            },
-            {
-              "depth": 4,
-              "name": "Zamir White",
-              "note": "8% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Sincere McCormick",
-              "note": "32% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Isaac Guerendo",
-              "note": "0% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Mike Evans",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Deebo Samuel",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Christian Kirk",
-              "note": "DNP 8/18"
-            },
-            {
-              "depth": 4,
-              "name": "De'Zhaun Stribling",
-              "note": "29% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Demarcus Robinson",
-              "note": "Returned to practice 8/18"
-            },
-            {
-              "depth": 6,
-              "name": "Jacob Cowing",
-              "note": "Practicing as of 8/16"
-            },
-            {
-              "depth": 7,
-              "name": "Malik Turner",
-              "note": "45% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "Jordan Watkins",
-              "note": "75% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "Trenton Irwin",
-              "note": "44% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Wesley Grimes",
-              "note": "17% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "Will Pauling",
-              "note": "17% snaps week 1"
-            },
-            {
-              "depth": 12,
-              "name": "Khadarel Hodge",
-              "note": "38% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "George Kittle",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Jake Tonges",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Luke Farrell",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Brayden Willis",
-              "note": "44% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Hayden Rucci",
-              "note": "48% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Josiah Deguara",
-              "note": "43% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Eddy Pineiro",
-              "note": ""
-            }
-          ]
+        {
+          "depth": 3,
+          "name": "Sam Ehlinger",
+          "note": "50% snaps week 1"
         }
-      }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "J.K. Dobbins",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "RJ Harvey",
+          "note": "15% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Jonah Coleman",
+          "note": "19% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Jaleel McLaughlin",
+          "note": "16% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Tyler Badie",
+          "note": "16% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Cody Schrader",
+          "note": "35% snaps week 1"
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Jaylen Waddle",
+          "note": "Not expecting (managed return)"
+        },
+        {
+          "depth": 2,
+          "name": "Courtland Sutton",
+          "note": "17% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Pat Bryant",
+          "note": "8% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Troy Franklin",
+          "note": "23% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Marvin Mims Jr.",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Lil'Jordan Humphrey",
+          "note": "19% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "Michael Bandy",
+          "note": "DNP 8/19"
+        },
+        {
+          "depth": 8,
+          "name": "Hakeem Butler",
+          "note": "31% snaps week 1"
+        },
+        {
+          "depth": 9,
+          "name": "Dane Key",
+          "note": "33% snaps week 1"
+        },
+        {
+          "depth": 10,
+          "name": "Kolbe Katsis",
+          "note": "24% snaps week 1"
+        },
+        {
+          "depth": 11,
+          "name": "Joseph Manjack",
+          "note": "43% snaps week 1"
+        },
+        {
+          "depth": 12,
+          "name": "Cameron Ross",
+          "note": "28% snaps week 1"
+        },
+        {
+          "depth": 13,
+          "name": "Kyrese Rowan",
+          "note": "8% snaps week 1"
+        },
+        {
+          "depth": 14,
+          "name": "Kyre Duplessis",
+          "note": "4% snaps week 1"
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Evan Engram",
+          "note": "20% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Adam Trautman",
+          "note": "17% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Nate Adkins",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Lucas Krull",
+          "note": "31% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Justin Joly",
+          "note": "31% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Caleb Lohner",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "Dallen Bentley",
+          "note": "32% snaps week 1"
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Wil Lutz",
+          "note": ""
+        }
+      ]
     },
-    "tomorrow": {
-      "date": "2026-08-21",
-      "teams": {
-        "DEN": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Bo Nix",
-              "note": "Expecting 2-3 drives"
-            },
-            {
-              "depth": 2,
-              "name": "Jarrett Stidham",
-              "note": "50% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Sam Ehlinger",
-              "note": "50% snaps week 1"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "J.K. Dobbins",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "RJ Harvey",
-              "note": "15% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Jonah Coleman",
-              "note": "19% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Jaleel McLaughlin",
-              "note": "16% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Tyler Badie",
-              "note": "16% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Cody Schrader",
-              "note": "35% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Jaylen Waddle",
-              "note": "Not expecting (managed return)"
-            },
-            {
-              "depth": 2,
-              "name": "Courtland Sutton",
-              "note": "17% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Pat Bryant",
-              "note": "8% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Troy Franklin",
-              "note": "23% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Marvin Mims Jr.",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Lil'Jordan Humphrey",
-              "note": "19% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Michael Bandy",
-              "note": "DNP 8/19"
-            },
-            {
-              "depth": 8,
-              "name": "Hakeem Butler",
-              "note": "31% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "Dane Key",
-              "note": "33% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Kolbe Katsis",
-              "note": "24% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "Joseph Manjack",
-              "note": "43% snaps week 1"
-            },
-            {
-              "depth": 12,
-              "name": "Cameron Ross",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 13,
-              "name": "Kyrese Rowan",
-              "note": "8% snaps week 1"
-            },
-            {
-              "depth": 14,
-              "name": "Kyre Duplessis",
-              "note": "4% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Evan Engram",
-              "note": "20% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Adam Trautman",
-              "note": "17% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Nate Adkins",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Lucas Krull",
-              "note": "31% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Justin Joly",
-              "note": "31% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Caleb Lohner",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Dallen Bentley",
-              "note": "32% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Wil Lutz",
-              "note": ""
-            }
-          ]
+    "JAX": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Trevor Lawrence",
+          "note": "Could play 2 drives (uncertain)"
         },
-        "JAX": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Trevor Lawrence",
-              "note": "Could play 2 drives (uncertain)"
-            },
-            {
-              "depth": 2,
-              "name": "Nick Mullens",
-              "note": "25% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Carter Bradley",
-              "note": "63% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Joey Aguilar",
-              "note": "12% snaps week 1"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "Bhayshul Tuten",
-              "note": "Could be limited or sit (bubble wrap)"
-            },
-            {
-              "depth": 2,
-              "name": "Chris Rodriguez Jr.",
-              "note": "Could be limited or sit (bubble wrap)"
-            },
-            {
-              "depth": 3,
-              "name": "LeQuint Allen Jr.",
-              "note": "Out for the remainder of preseason."
-            },
-            {
-              "depth": 4,
-              "name": "DeeJay Dallas",
-              "note": "35% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "J'Mari Taylor",
-              "note": "65% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Ameer Abdullah",
-              "note": "0% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Parker Washington",
-              "note": "DNP 8/19"
-            },
-            {
-              "depth": 2,
-              "name": "Brian Thomas Jr.",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Jakobi Meyers",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Travis Hunter",
-              "note": ""
-            },
-            {
-              "depth": 5,
-              "name": "Tim Jones",
-              "note": "10% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Austin Trammell",
-              "note": "31% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Josh Cameron",
-              "note": "38% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "Chandler Brayboy",
-              "note": "22% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "Trebor Pena",
-              "note": "47% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Brady Boyd",
-              "note": "37% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "Michael Wortham",
-              "note": "29% snaps week 1"
-            },
-            {
-              "depth": 12,
-              "name": "CJ Williams",
-              "note": "44% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Brenton Strange",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Quintin Morris",
-              "note": "19% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Patrick Herbert",
-              "note": "35% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Hunter Long",
-              "note": "24% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Tanner Koziol",
-              "note": "22% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Nate Boerkircher",
-              "note": "24% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Cam Little",
-              "note": ""
-            }
-          ]
+        {
+          "depth": 2,
+          "name": "Nick Mullens",
+          "note": "25% snaps week 1"
         },
-        "NYJ": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Geno Smith",
-              "note": "Will play (unstated amount)"
-            },
-            {
-              "depth": 2,
-              "name": "Cade Klubnik",
-              "note": "25% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Bailey Zappe",
-              "note": "33% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Brady Cook",
-              "note": "42% snaps week 1"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "Breece Hall",
-              "note": "DNP 8/19"
-            },
-            {
-              "depth": 2,
-              "name": "Braelon Allen",
-              "note": "13% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Isaiah Davis",
-              "note": "DNP 8/19"
-            },
-            {
-              "depth": 4,
-              "name": "Kene Nwangwu",
-              "note": "20% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Chip Trayanum",
-              "note": "30% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Sam Scott",
-              "note": "20% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Garrett Wilson",
-              "note": "18% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Adonai Mitchell",
-              "note": "18% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Omar Cooper Jr.",
-              "note": "35% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Isaiah Williams",
-              "note": "12% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Tim Patrick",
-              "note": "15% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Arian Smith",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Caullin Lacy",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "Malik McClain",
-              "note": "33% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "Jamaal Pritchett",
-              "note": "35% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Quincy Skinner Jr.",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "DT Sheffield",
-              "note": "13% snaps week 1"
-            },
-            {
-              "depth": 12,
-              "name": "Cam Camper",
-              "note": "30% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Mason Taylor",
-              "note": "13% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Kenyon Sadiq",
-              "note": "Not expected to play"
-            },
-            {
-              "depth": 3,
-              "name": "Jeremy Ruckert",
-              "note": "23% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Jelani Woods",
-              "note": "32% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Connor Hulstein",
-              "note": "7% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Chase Curtis",
-              "note": "33% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Jason Sanders",
-              "note": ""
-            }
-          ]
+        {
+          "depth": 3,
+          "name": "Carter Bradley",
+          "note": "63% snaps week 1"
         },
-        "PIT": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Aaron Rodgers",
-              "note": "Will Not Play"
-            },
-            {
-              "depth": 2,
-              "name": "Mason Rudolph",
-              "note": "Will Not Play"
-            },
-            {
-              "depth": 3,
-              "name": "Will Howard",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Drew Allar",
-              "note": "44% snaps week 1"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "Jaylen Warren",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Rico Dowdle",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Lew Nichols",
-              "note": "Worked as RB3 this week"
-            },
-            {
-              "depth": 4,
-              "name": "Travis Homer",
-              "note": "22% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Eli Heidenreich",
-              "note": "37% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Kaleb Johnson",
-              "note": "7% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "DK Metcalf",
-              "note": "Not expected to play"
-            },
-            {
-              "depth": 2,
-              "name": "Michael Pittman Jr.",
-              "note": "Not expected to play"
-            },
-            {
-              "depth": 3,
-              "name": "Germie Bernard",
-              "note": "41% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Roman Wilson",
-              "note": "40% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Ben Skowronek",
-              "note": "15% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Kaden Wetjen",
-              "note": "26% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Levi Wentz",
-              "note": "32% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "Max Hurleman",
-              "note": "47% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "Brandon Smith",
-              "note": "24% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Cornell Powell",
-              "note": "0% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "Joaquin Davis",
-              "note": "19% snaps week 1"
-            },
-            {
-              "depth": 12,
-              "name": "Jakobie Keeney-James",
-              "note": "21% snaps week 1"
-            },
-            {
-              "depth": 13,
-              "name": "Isaiah Winstead",
-              "note": "0% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Pat Freiermuth",
-              "note": "13% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Darnell Washington",
-              "note": "21% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Robert Tonyan",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Jaheim Bell",
-              "note": "25% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Lake McRee",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Lance Mason",
-              "note": "1% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Chris Boswell",
-              "note": ""
-            },
-            {
-              "depth": 2,
-              "name": "Laith Marjan",
-              "note": ""
-            }
-          ]
-        },
-        "CAR": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Bryce Young",
-              "note": "16% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Kenny Pickett",
-              "note": "55% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Haynes King",
-              "note": "Not Expected to Play"
-            },
-            {
-              "depth": 4,
-              "name": "Kyle Trask",
-              "note": "29% snaps week 1"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "Chuba Hubbard",
-              "note": "Unlikely to play (hamstring)"
-            },
-            {
-              "depth": 2,
-              "name": "Jonathon Brooks",
-              "note": "13% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Trevor Etienne",
-              "note": "31% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "AJ Dillon",
-              "note": "19% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Anthony Tyus III",
-              "note": "19% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Miles Davis",
-              "note": "19% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Tetairoa McMillan",
-              "note": "16% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Jalen Coker",
-              "note": "16% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Xavier Legette",
-              "note": "Hopeful to play (left early 8/19)"
-            },
-            {
-              "depth": 4,
-              "name": "Jimmy Horn Jr.",
-              "note": "37% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "John Metchie III",
-              "note": "40% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Brycen Tremayne",
-              "note": "42% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "David Moore",
-              "note": "19% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "Ja'Seem Reed",
-              "note": "DNP 8/19 (calf)"
-            },
-            {
-              "depth": 9,
-              "name": "Casey Washington",
-              "note": "13% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Elijah Cooks",
-              "note": "27% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "Roc Taylor",
-              "note": "18% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Tommy Tremble",
-              "note": "8% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Ja'Tavion Sanders",
-              "note": "23% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Mitchell Evans",
-              "note": "8% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Feleipe Franks",
-              "note": "26% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "James Mitchell",
-              "note": "21% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Caden Prieskorn",
-              "note": "29% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "Darren Waller",
-              "note": "Side work only"
-            }
-          ],
-          "K": [
-            {
-              "depth": 2,
-              "name": "Ryan Fitzgerald",
-              "note": ""
-            }
-          ]
-        },
-        "GB": {
-          "QB": [
-            {
-              "depth": 1,
-              "name": "Jordan Love",
-              "note": "Expecting 2-3 drives"
-            },
-            {
-              "depth": 2,
-              "name": "Tyrod Taylor",
-              "note": "Will follow Love"
-            },
-            {
-              "depth": 3,
-              "name": "Kyle McCord",
-              "note": "Could play up to 2Q"
-            }
-          ],
-          "RB": [
-            {
-              "depth": 1,
-              "name": "Josh Jacobs",
-              "note": "Returned to practice."
-            },
-            {
-              "depth": 2,
-              "name": "MarShawn Lloyd",
-              "note": "20% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Chris Brooks",
-              "note": "Returned to practice."
-            },
-            {
-              "depth": 4,
-              "name": "Pierre Strong Jr.",
-              "note": "28% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Damien Martinez",
-              "note": "23% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Jaden Nixon",
-              "note": "28% snaps week 1"
-            }
-          ],
-          "WR": [
-            {
-              "depth": 1,
-              "name": "Christian Watson",
-              "note": "13% snaps week 1"
-            },
-            {
-              "depth": 2,
-              "name": "Jayden Reed",
-              "note": "12% snaps week 1"
-            },
-            {
-              "depth": 3,
-              "name": "Matthew Golden",
-              "note": "15% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Savion Williams",
-              "note": "38% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Skyy Moore",
-              "note": "20% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Bo Melton",
-              "note": "Returned to practice 8/19"
-            },
-            {
-              "depth": 7,
-              "name": "Will Sheppard",
-              "note": "27% snaps week 1"
-            },
-            {
-              "depth": 8,
-              "name": "Isaiah Neyor",
-              "note": "62% snaps week 1"
-            },
-            {
-              "depth": 9,
-              "name": "J. Michael Sturdivant",
-              "note": "43% snaps week 1"
-            },
-            {
-              "depth": 10,
-              "name": "Kaden Prather",
-              "note": "3% snaps week 1"
-            },
-            {
-              "depth": 11,
-              "name": "Chris Hilton Jr.",
-              "note": "3% snaps week 1"
-            },
-            {
-              "depth": 12,
-              "name": "Kisean Johnson",
-              "note": "12% snaps week 1"
-            }
-          ],
-          "TE": [
-            {
-              "depth": 1,
-              "name": "Tucker Kraft",
-              "note": "Not expected to play"
-            },
-            {
-              "depth": 2,
-              "name": "Luke Musgrave",
-              "note": "PUP"
-            },
-            {
-              "depth": 3,
-              "name": "Josh Whyle",
-              "note": "13% snaps week 1"
-            },
-            {
-              "depth": 4,
-              "name": "Drake Dabney",
-              "note": "60% snaps week 1"
-            },
-            {
-              "depth": 5,
-              "name": "Messiah Swinson",
-              "note": "40% snaps week 1"
-            },
-            {
-              "depth": 6,
-              "name": "Thomas Yassmin",
-              "note": "10% snaps week 1"
-            },
-            {
-              "depth": 7,
-              "name": "McCallan Castles",
-              "note": "10% snaps week 1"
-            }
-          ],
-          "K": [
-            {
-              "depth": 1,
-              "name": "Trey Smack",
-              "note": ""
-            }
-          ]
+        {
+          "depth": 4,
+          "name": "Joey Aguilar",
+          "note": "12% snaps week 1"
         }
-      }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Bhayshul Tuten",
+          "note": "Could be limited or sit (bubble wrap)"
+        },
+        {
+          "depth": 2,
+          "name": "Chris Rodriguez Jr.",
+          "note": "Could be limited or sit (bubble wrap)"
+        },
+        {
+          "depth": 3,
+          "name": "LeQuint Allen Jr.",
+          "note": "Out for the remainder of preseason."
+        },
+        {
+          "depth": 4,
+          "name": "DeeJay Dallas",
+          "note": "35% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "J'Mari Taylor",
+          "note": "65% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Ameer Abdullah",
+          "note": "0% snaps week 1"
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Parker Washington",
+          "note": "DNP 8/19"
+        },
+        {
+          "depth": 2,
+          "name": "Brian Thomas Jr.",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Jakobi Meyers",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Travis Hunter",
+          "note": ""
+        },
+        {
+          "depth": 5,
+          "name": "Tim Jones",
+          "note": "10% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Austin Trammell",
+          "note": "31% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "Josh Cameron",
+          "note": "38% snaps week 1"
+        },
+        {
+          "depth": 8,
+          "name": "Chandler Brayboy",
+          "note": "22% snaps week 1"
+        },
+        {
+          "depth": 9,
+          "name": "Trebor Pena",
+          "note": "47% snaps week 1"
+        },
+        {
+          "depth": 10,
+          "name": "Brady Boyd",
+          "note": "37% snaps week 1"
+        },
+        {
+          "depth": 11,
+          "name": "Michael Wortham",
+          "note": "29% snaps week 1"
+        },
+        {
+          "depth": 12,
+          "name": "CJ Williams",
+          "note": "44% snaps week 1"
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Brenton Strange",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Quintin Morris",
+          "note": "19% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Patrick Herbert",
+          "note": "35% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Hunter Long",
+          "note": "24% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Tanner Koziol",
+          "note": "22% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Nate Boerkircher",
+          "note": "24% snaps week 1"
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Cam Little",
+          "note": ""
+        }
+      ]
+    },
+    "NYJ": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Geno Smith",
+          "note": "Will play (unstated amount)"
+        },
+        {
+          "depth": 2,
+          "name": "Cade Klubnik",
+          "note": "25% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Bailey Zappe",
+          "note": "33% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Brady Cook",
+          "note": "42% snaps week 1"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Breece Hall",
+          "note": "DNP 8/19"
+        },
+        {
+          "depth": 2,
+          "name": "Braelon Allen",
+          "note": "13% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Isaiah Davis",
+          "note": "DNP 8/19"
+        },
+        {
+          "depth": 4,
+          "name": "Kene Nwangwu",
+          "note": "20% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Chip Trayanum",
+          "note": "30% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Sam Scott",
+          "note": "20% snaps week 1"
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Garrett Wilson",
+          "note": "18% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Adonai Mitchell",
+          "note": "18% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Omar Cooper Jr.",
+          "note": "35% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Isaiah Williams",
+          "note": "12% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Tim Patrick",
+          "note": "15% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Arian Smith",
+          "note": "28% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "Caullin Lacy",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 8,
+          "name": "Malik McClain",
+          "note": "33% snaps week 1"
+        },
+        {
+          "depth": 9,
+          "name": "Jamaal Pritchett",
+          "note": "35% snaps week 1"
+        },
+        {
+          "depth": 10,
+          "name": "Quincy Skinner Jr.",
+          "note": "28% snaps week 1"
+        },
+        {
+          "depth": 11,
+          "name": "DT Sheffield",
+          "note": "13% snaps week 1"
+        },
+        {
+          "depth": 12,
+          "name": "Cam Camper",
+          "note": "30% snaps week 1"
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Mason Taylor",
+          "note": "13% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Kenyon Sadiq",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 3,
+          "name": "Jeremy Ruckert",
+          "note": "23% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Jelani Woods",
+          "note": "32% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Connor Hulstein",
+          "note": "7% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Chase Curtis",
+          "note": "33% snaps week 1"
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Jason Sanders",
+          "note": ""
+        }
+      ]
+    },
+    "PIT": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Aaron Rodgers",
+          "note": "Will Not Play"
+        },
+        {
+          "depth": 2,
+          "name": "Mason Rudolph",
+          "note": "Will Not Play"
+        },
+        {
+          "depth": 3,
+          "name": "Will Howard",
+          "note": "28% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Drew Allar",
+          "note": "44% snaps week 1"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Jaylen Warren",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Rico Dowdle",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Lew Nichols",
+          "note": "Worked as RB3 this week"
+        },
+        {
+          "depth": 4,
+          "name": "Travis Homer",
+          "note": "22% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Eli Heidenreich",
+          "note": "37% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Kaleb Johnson",
+          "note": "7% snaps week 1"
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "DK Metcalf",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Michael Pittman Jr.",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 3,
+          "name": "Germie Bernard",
+          "note": "41% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Roman Wilson",
+          "note": "40% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Ben Skowronek",
+          "note": "15% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Kaden Wetjen",
+          "note": "26% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "Levi Wentz",
+          "note": "32% snaps week 1"
+        },
+        {
+          "depth": 8,
+          "name": "Max Hurleman",
+          "note": "47% snaps week 1"
+        },
+        {
+          "depth": 9,
+          "name": "Brandon Smith",
+          "note": "24% snaps week 1"
+        },
+        {
+          "depth": 10,
+          "name": "Cornell Powell",
+          "note": "0% snaps week 1"
+        },
+        {
+          "depth": 11,
+          "name": "Joaquin Davis",
+          "note": "19% snaps week 1"
+        },
+        {
+          "depth": 12,
+          "name": "Jakobie Keeney-James",
+          "note": "21% snaps week 1"
+        },
+        {
+          "depth": 13,
+          "name": "Isaiah Winstead",
+          "note": "0% snaps week 1"
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Pat Freiermuth",
+          "note": "13% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Darnell Washington",
+          "note": "21% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Robert Tonyan",
+          "note": "28% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Jaheim Bell",
+          "note": "25% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Lake McRee",
+          "note": "28% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Lance Mason",
+          "note": "1% snaps week 1"
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Chris Boswell",
+          "note": ""
+        },
+        {
+          "depth": 2,
+          "name": "Laith Marjan",
+          "note": ""
+        }
+      ]
+    },
+    "CAR": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Bryce Young",
+          "note": "16% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Kenny Pickett",
+          "note": "55% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Haynes King",
+          "note": "Not Expected to Play"
+        },
+        {
+          "depth": 4,
+          "name": "Kyle Trask",
+          "note": "29% snaps week 1"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Chuba Hubbard",
+          "note": "Unlikely to play (hamstring)"
+        },
+        {
+          "depth": 2,
+          "name": "Jonathon Brooks",
+          "note": "13% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Trevor Etienne",
+          "note": "31% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "AJ Dillon",
+          "note": "19% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Anthony Tyus III",
+          "note": "19% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Miles Davis",
+          "note": "19% snaps week 1"
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Tetairoa McMillan",
+          "note": "16% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Jalen Coker",
+          "note": "16% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Xavier Legette",
+          "note": "Hopeful to play (left early 8/19)"
+        },
+        {
+          "depth": 4,
+          "name": "Jimmy Horn Jr.",
+          "note": "37% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "John Metchie III",
+          "note": "40% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Brycen Tremayne",
+          "note": "42% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "David Moore",
+          "note": "19% snaps week 1"
+        },
+        {
+          "depth": 8,
+          "name": "Ja'Seem Reed",
+          "note": "DNP 8/19 (calf)"
+        },
+        {
+          "depth": 9,
+          "name": "Casey Washington",
+          "note": "13% snaps week 1"
+        },
+        {
+          "depth": 10,
+          "name": "Elijah Cooks",
+          "note": "27% snaps week 1"
+        },
+        {
+          "depth": 11,
+          "name": "Roc Taylor",
+          "note": "18% snaps week 1"
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Tommy Tremble",
+          "note": "8% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Ja'Tavion Sanders",
+          "note": "23% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Mitchell Evans",
+          "note": "8% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Feleipe Franks",
+          "note": "26% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "James Mitchell",
+          "note": "21% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Caden Prieskorn",
+          "note": "29% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "Darren Waller",
+          "note": "Side work only"
+        }
+      ],
+      "K": [
+        {
+          "depth": 2,
+          "name": "Ryan Fitzgerald",
+          "note": ""
+        }
+      ]
+    },
+    "GB": {
+      "QB": [
+        {
+          "depth": 1,
+          "name": "Jordan Love",
+          "note": "Expecting 2-3 drives"
+        },
+        {
+          "depth": 2,
+          "name": "Tyrod Taylor",
+          "note": "Will follow Love"
+        },
+        {
+          "depth": 3,
+          "name": "Kyle McCord",
+          "note": "Could play up to 2Q"
+        }
+      ],
+      "RB": [
+        {
+          "depth": 1,
+          "name": "Josh Jacobs",
+          "note": "Returned to practice."
+        },
+        {
+          "depth": 2,
+          "name": "MarShawn Lloyd",
+          "note": "20% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Chris Brooks",
+          "note": "Returned to practice."
+        },
+        {
+          "depth": 4,
+          "name": "Pierre Strong Jr.",
+          "note": "28% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Damien Martinez",
+          "note": "23% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Jaden Nixon",
+          "note": "28% snaps week 1"
+        }
+      ],
+      "WR": [
+        {
+          "depth": 1,
+          "name": "Christian Watson",
+          "note": "13% snaps week 1"
+        },
+        {
+          "depth": 2,
+          "name": "Jayden Reed",
+          "note": "12% snaps week 1"
+        },
+        {
+          "depth": 3,
+          "name": "Matthew Golden",
+          "note": "15% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Savion Williams",
+          "note": "38% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Skyy Moore",
+          "note": "20% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Bo Melton",
+          "note": "Returned to practice 8/19"
+        },
+        {
+          "depth": 7,
+          "name": "Will Sheppard",
+          "note": "27% snaps week 1"
+        },
+        {
+          "depth": 8,
+          "name": "Isaiah Neyor",
+          "note": "62% snaps week 1"
+        },
+        {
+          "depth": 9,
+          "name": "J. Michael Sturdivant",
+          "note": "43% snaps week 1"
+        },
+        {
+          "depth": 10,
+          "name": "Kaden Prather",
+          "note": "3% snaps week 1"
+        },
+        {
+          "depth": 11,
+          "name": "Chris Hilton Jr.",
+          "note": "3% snaps week 1"
+        },
+        {
+          "depth": 12,
+          "name": "Kisean Johnson",
+          "note": "12% snaps week 1"
+        }
+      ],
+      "TE": [
+        {
+          "depth": 1,
+          "name": "Tucker Kraft",
+          "note": "Not expected to play"
+        },
+        {
+          "depth": 2,
+          "name": "Luke Musgrave",
+          "note": "PUP"
+        },
+        {
+          "depth": 3,
+          "name": "Josh Whyle",
+          "note": "13% snaps week 1"
+        },
+        {
+          "depth": 4,
+          "name": "Drake Dabney",
+          "note": "60% snaps week 1"
+        },
+        {
+          "depth": 5,
+          "name": "Messiah Swinson",
+          "note": "40% snaps week 1"
+        },
+        {
+          "depth": 6,
+          "name": "Thomas Yassmin",
+          "note": "10% snaps week 1"
+        },
+        {
+          "depth": 7,
+          "name": "McCallan Castles",
+          "note": "10% snaps week 1"
+        }
+      ],
+      "K": [
+        {
+          "depth": 1,
+          "name": "Trey Smack",
+          "note": ""
+        }
+      ]
     }
   }
 }
