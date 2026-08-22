@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-22T12:35",
+  "updated": "2026-08-22T18:50",
   "sections": [
     {
       "position": "QB",
@@ -64,12 +64,12 @@
         },
         {
           "rank": 4,
-          "players": "Case Keenum",
+          "players": "Josh Johnson",
           "core": false,
-          "notes": "LATE - Some playing time upside here, as we will not see Chicago's top 2 QBs in this game.",
+          "notes": "LATE - No flacco means he has a chance to play a half.",
           "salary": null,
-          "fpts": 7.1,
-          "opp": "CIN"
+          "fpts": 7.2,
+          "opp": "CHI"
         }
       ]
     },
@@ -91,7 +91,7 @@
           "core": false,
           "notes": "EARLY - The Rams consistently consolidate preseason workload. Conisder Jarquez Hunter as well.",
           "salary": null,
-          "fpts": 7.5,
+          "fpts": 7.9,
           "opp": "NO"
         },
         {
@@ -127,7 +127,7 @@
           "core": true,
           "notes": "LATE - Eagles are fairly thin at RB, and he's the best choice for meaningful reps among actives.",
           "salary": null,
-          "fpts": 6.7,
+          "fpts": 8.6,
           "opp": "NE"
         },
         {
@@ -150,12 +150,12 @@
         },
         {
           "rank": 4,
-          "players": "Brittain Brown",
+          "players": "Ja'Quinden Jackson",
           "core": false,
-          "notes": "LATE - The trio of backs - Brown, Johnson, and Ahmed - are all equally viable, with Ahmed being most explosive.",
+          "notes": "LATE - Eagles are thin so he could be a beneficiary.",
           "salary": null,
-          "fpts": 6.3,
-          "opp": "CIN"
+          "fpts": 5.8,
+          "opp": "NE"
         }
       ]
     },
@@ -193,7 +193,7 @@
           "rank": 4,
           "players": "Denzel Boston",
           "core": false,
-          "notes": "EARLY - Should play a lot with Sanders for evaluation purposes while starters rest.",
+          "notes": "EARLY - Should play a lot with Sanders for evaluation purposes while starters rest. Also consider Isaiah Bond.",
           "salary": null,
           "fpts": 4.5,
           "opp": "BUF"
@@ -213,7 +213,7 @@
           "core": true,
           "notes": "LATE- Eagles are clearly giving him the chance to earn a place on the team, and that means live reps in game.",
           "salary": null,
-          "fpts": 4.5,
+          "fpts": 4.8,
           "opp": "NE"
         },
         {
@@ -222,7 +222,7 @@
           "core": false,
           "notes": "LATE- Blew up last week, and the Bears are resting starters again.",
           "salary": null,
-          "fpts": 4.5,
+          "fpts": 4.0,
           "opp": "CIN"
         },
         {
@@ -272,7 +272,7 @@
           "core": false,
           "notes": "EARLY - 45% of snaps last week and has a viable receiving skill set.",
           "salary": null,
-          "fpts": 2.8,
+          "fpts": 2.9,
           "opp": "LAR"
         },
         {
@@ -286,21 +286,21 @@
         },
         {
           "rank": 2,
-          "players": "Eli Raridon",
-          "core": false,
-          "notes": "LATE - 53% of snaps Week 1 clearly shows they want to see how fast he can develop and help this team.",
-          "salary": null,
-          "fpts": 3.4,
-          "opp": "PHI"
-        },
-        {
-          "rank": 3,
           "players": "Bauer Sharp",
           "core": false,
           "notes": "LATE - A standout while Cade Otton has been out, expect him to be given a heavy snap share this week.",
           "salary": null,
           "fpts": 3.3,
           "opp": "KC"
+        },
+        {
+          "rank": 3,
+          "players": "Jake Briningstool",
+          "core": false,
+          "notes": "LATE - KC option at a thin spot.",
+          "salary": null,
+          "fpts": 2.8,
+          "opp": "TB"
         }
       ]
     },
@@ -358,7 +358,7 @@
           "core": false,
           "notes": "LATE - Based on our projections.",
           "salary": null,
-          "fpts": 8.4,
+          "fpts": 8.6,
           "opp": "CIN"
         }
       ]
@@ -689,7 +689,7 @@
         {
           "depth": 2,
           "name": "Joe Flacco",
-          "note": "Expecting .5 to 1.25q"
+          "note": "Will not play"
         },
         {
           "depth": 3,
@@ -699,7 +699,7 @@
         {
           "depth": 4,
           "name": "Sean Clifford",
-          "note": "Expecting .5 to 1.25q"
+          "note": "Expecting 1.5 to 2.5q"
         }
       ],
       "RB": [
@@ -1935,7 +1935,7 @@
         {
           "depth": 1,
           "name": "Caleb Williams",
-          "note": "Not expected to play"
+          "note": "Reportedly may play some"
         },
         {
           "depth": 2,
@@ -1984,7 +1984,7 @@
         {
           "depth": 1,
           "name": "Rome Odunze",
-          "note": "Not expecting starters"
+          "note": "May play some per Biggs"
         },
         {
           "depth": 2,
@@ -1994,12 +1994,12 @@
         {
           "depth": 3,
           "name": "Kalif Raymond",
-          "note": "Not expecting starters"
+          "note": "May play some per Biggs"
         },
         {
           "depth": 4,
           "name": "Zavion Thomas",
-          "note": "Not expecting key players"
+          "note": "Will not play"
         },
         {
           "depth": 5,
