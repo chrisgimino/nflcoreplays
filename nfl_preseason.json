@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-22T12:25",
+  "updated": "2026-08-22T12:34",
   "sections": [
     {
       "position": "QB",
@@ -89,7 +89,7 @@
           "rank": 2,
           "players": "Dean Connors",
           "core": false,
-          "notes": "EARLY - The Rams consistently consolidate preseason workload, and you can bet Connors will be busy today.",
+          "notes": "EARLY - The Rams consistently consolidate preseason workload. Conisder Jarquez Hunter as well.",
           "salary": null,
           "fpts": 7.5,
           "opp": "NO"
@@ -114,12 +114,12 @@
         },
         {
           "rank": 5,
-          "players": "Jarquez Hunter",
+          "players": "Raheim Sanders",
           "core": false,
-          "notes": "EARLY - Played almost 40% of snaps last week, and anything close to that gives him a chance to break the slate.",
+          "notes": "EARLY - The Browns are resting many players and both he and Ahmani Marshall now look poised for big volume.",
           "salary": null,
-          "fpts": 6.5,
-          "opp": "NO"
+          "fpts": 7.0,
+          "opp": "BUF"
         },
         {
           "rank": 1,
@@ -195,7 +195,7 @@
           "core": false,
           "notes": "EARLY - Should play a lot with Sanders for evaluation purposes while starters rest.",
           "salary": null,
-          "fpts": 4.1,
+          "fpts": 4.5,
           "opp": "BUF"
         },
         {
@@ -878,7 +878,7 @@
         {
           "depth": 2,
           "name": "Dylan Sampson",
-          "note": "23% snaps week 1"
+          "note": "Will not play"
         },
         {
           "depth": 3,
@@ -900,7 +900,7 @@
         {
           "depth": 1,
           "name": "KC Concepcion",
-          "note": "38% snaps week 1"
+          "note": "Will not play"
         },
         {
           "depth": 2,
@@ -910,7 +910,7 @@
         {
           "depth": 3,
           "name": "Jerry Jeudy",
-          "note": "14% snaps week 1"
+          "note": "Will not play"
         },
         {
           "depth": 4,
@@ -920,7 +920,7 @@
         {
           "depth": 5,
           "name": "Cedric Tillman",
-          "note": "0% snaps week 1"
+          "note": "Will not play"
         },
         {
           "depth": 6,
