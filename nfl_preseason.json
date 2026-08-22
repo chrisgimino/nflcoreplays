@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-22T12:00",
+  "updated": "2026-08-22T12:07",
   "sections": [
     {
       "position": "QB",
@@ -191,12 +191,9 @@
         },
         {
           "rank": 4,
-          "players": "KC Concepcion",
+          "players": "Denzell Boston",
           "core": false,
-          "notes": "EARLY - Also consider Denzell Boston.  Should play a lot with Sanders for evaluation purposes.",
-          "salary": null,
-          "fpts": 4.0,
-          "opp": "BUF"
+          "notes": "EARLY - Should play a lot with Sanders for evaluation purposes while starters rest."
         },
         {
           "rank": 5,
