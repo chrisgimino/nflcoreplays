@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-22T11:59",
+  "updated": "2026-08-22T12:00",
   "sections": [
     {
       "position": "QB",
@@ -8,7 +8,7 @@
         {
           "rank": 1,
           "players": "Ty Simpson",
-          "core": false,
+          "core": true,
           "notes": "EARLY - Looked good and has playing time upside beyond others.",
           "salary": null,
           "fpts": 9.0,
@@ -41,7 +41,7 @@
         {
           "rank": 1,
           "players": "Joe Milton III",
-          "core": false,
+          "core": true,
           "notes": "LATE - Splitting with Sam Howell again.  Has the best fantasy profile of available options.",
           "salary": null,
           "fpts": 8.8,
@@ -79,7 +79,7 @@
         {
           "rank": 1,
           "players": "Demond Claiborne",
-          "core": false,
+          "core": true,
           "notes": "EARLY - Rookie runner looking to earn his place in a spot where volume could be plentiful.",
           "salary": null,
           "fpts": 7.9,
@@ -124,7 +124,7 @@
         {
           "rank": 1,
           "players": "Will Shipley",
-          "core": false,
+          "core": true,
           "notes": "LATE- Eagles are fairly thin at RB, and he's the best choice for meaningful reps among actives.",
           "salary": null,
           "fpts": 6.7,
@@ -165,7 +165,7 @@
         {
           "rank": 1,
           "players": "Xavier Smith",
-          "core": false,
+          "core": true,
           "notes": "EARLY - Also consider Daniels, Scott as similarly strong Rams options.",
           "salary": null,
           "fpts": 4.5,
@@ -210,7 +210,7 @@
         {
           "rank": 1,
           "players": "Darius Cooper",
-          "core": false,
+          "core": true,
           "notes": "LATE- Eagles are clearly giving him the chance to earn a place on the team, and that means live reps in game.",
           "salary": null,
           "fpts": 4.5,
@@ -251,7 +251,7 @@
         {
           "rank": 1,
           "players": "Matt Hibner",
-          "core": false,
+          "core": true,
           "notes": "EARLY - Rookie TE that must get reps to prepare for the season.",
           "salary": null,
           "fpts": 4.0,
@@ -278,7 +278,7 @@
         {
           "rank": 1,
           "players": "Eli Stowers",
-          "core": false,
+          "core": true,
           "notes": "LATE- Eagles draft pick that hasn't shown enough yet in camp.  Games could really help him earn a role.",
           "salary": null,
           "fpts": 3.5,
