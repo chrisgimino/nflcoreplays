@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-22T12:07",
+  "updated": "2026-08-22T12:25",
   "sections": [
     {
       "position": "QB",
@@ -35,7 +35,7 @@
           "core": false,
           "notes": "EARLY -  Will start and is expected to play a half.",
           "salary": null,
-          "fpts": 6.8,
+          "fpts": 7.2,
           "opp": "BUF"
         },
         {
@@ -57,7 +57,7 @@
           "rank": 3,
           "players": "Tommy DeVito",
           "core": false,
-          "notes": "LATE - Expecting him to split the game, and play with New England's most favorable available weaponry.",
+          "notes": "LATE - Expecting him to split the game and play with New England's most favorable available weaponry.",
           "salary": null,
           "fpts": 7.5,
           "opp": "PHI"
@@ -66,7 +66,7 @@
           "rank": 4,
           "players": "Case Keenum",
           "core": false,
-          "notes": "LATE - Some playing time upside here, as we will not see CHI top 2 QBs in this game.",
+          "notes": "LATE - Some playing time upside here, as we will not see Chicago's top 2 QBs in this game.",
           "salary": null,
           "fpts": 7.1,
           "opp": "CIN"
@@ -89,16 +89,16 @@
           "rank": 2,
           "players": "Dean Connors",
           "core": false,
-          "notes": "EARLY - The Rams consistently consolidate preseason workload, and you can bet Conners will be busy today.",
+          "notes": "EARLY - The Rams consistently consolidate preseason workload, and you can bet Connors will be busy today.",
           "salary": null,
-          "fpts": 7.1,
+          "fpts": 7.5,
           "opp": "NO"
         },
         {
           "rank": 3,
           "players": "Frank Gore Jr.",
           "core": false,
-          "notes": "EARLY - Top options on this squad will rest, and his ability to carry the load is literally in his DNA.",
+          "notes": "EARLY - Top options on this squad will rest, and his ability to carry the load is in his DNA.",
           "salary": null,
           "fpts": 7.4,
           "opp": "CLE"
@@ -107,7 +107,7 @@
           "rank": 4,
           "players": "Adam Randall",
           "core": false,
-          "notes": "EARLY - Got loaded up with opportunity last week and very little reason to believe that won't repeat.",
+          "notes": "EARLY - Got loaded up with opportunity last week and there is very little reason to believe that won't repeat.",
           "salary": null,
           "fpts": 7.2,
           "opp": "MIN"
@@ -116,16 +116,16 @@
           "rank": 5,
           "players": "Jarquez Hunter",
           "core": false,
-          "notes": "EARLY - Played almost 40% of snaps last week and anything close to that gives him a chance to break the slate.",
+          "notes": "EARLY - Played almost 40% of snaps last week, and anything close to that gives him a chance to break the slate.",
           "salary": null,
-          "fpts": 7.2,
+          "fpts": 6.5,
           "opp": "NO"
         },
         {
           "rank": 1,
           "players": "Will Shipley",
           "core": true,
-          "notes": "LATE- Eagles are fairly thin at RB, and he's the best choice for meaningful reps among actives.",
+          "notes": "LATE - Eagles are fairly thin at RB, and he's the best choice for meaningful reps among actives.",
           "salary": null,
           "fpts": 6.7,
           "opp": "NE"
@@ -134,7 +134,7 @@
           "rank": 2,
           "players": "Emmett Johnson",
           "core": false,
-          "notes": "LATE- Played a ton of snaps last week, and not much reason to suspect they won't continue to season him.",
+          "notes": "LATE - Played a ton of snaps last week, and there is not much reason to suspect they won't continue to season him.",
           "salary": null,
           "fpts": 6.5,
           "opp": "TB"
@@ -143,7 +143,7 @@
           "rank": 3,
           "players": "Corey Kiner",
           "core": false,
-          "notes": "LATE- Most active Cardinals reserve back among a banged up backfield.",
+          "notes": "LATE - Most active Cardinals reserve back among a banged-up backfield.",
           "salary": null,
           "fpts": 6.5,
           "opp": "DAL"
@@ -152,7 +152,7 @@
           "rank": 4,
           "players": "Brittain Brown",
           "core": false,
-          "notes": "LATE- The trio of backs - Brown, Johnson, and Ahmed - are all equally viable with Ahmed being most explosive.",
+          "notes": "LATE - The trio of backs - Brown, Johnson, and Ahmed - are all equally viable, with Ahmed being most explosive.",
           "salary": null,
           "fpts": 6.3,
           "opp": "CIN"
@@ -166,7 +166,7 @@
           "rank": 1,
           "players": "Xavier Smith",
           "core": true,
-          "notes": "EARLY - Also consider Daniels, Scott as similarly strong Rams options.",
+          "notes": "EARLY - Also consider Daniels and Scott as similarly strong Rams options.",
           "salary": null,
           "fpts": 4.5,
           "opp": "NO"
@@ -175,7 +175,7 @@
           "rank": 2,
           "players": "Elijah Sarratt",
           "core": false,
-          "notes": "EARLY - They need to develop their young WRs and he's a top choice for it this slate.",
+          "notes": "EARLY - They need to develop their young WRs, and he's a top choice for it this slate.",
           "salary": null,
           "fpts": 4.1,
           "opp": "MIN"
@@ -186,20 +186,23 @@
           "core": false,
           "notes": "EARLY - While he may be on track for a key role, preseason games are often a proving ground.",
           "salary": null,
-          "fpts": 4.1,
+          "fpts": 4.3,
           "opp": "NYG"
         },
         {
           "rank": 4,
-          "players": "Denzell Boston",
+          "players": "Denzel Boston",
           "core": false,
-          "notes": "EARLY - Should play a lot with Sanders for evaluation purposes while starters rest."
+          "notes": "EARLY - Should play a lot with Sanders for evaluation purposes while starters rest.",
+          "salary": null,
+          "fpts": 4.1,
+          "opp": "BUF"
         },
         {
           "rank": 5,
           "players": "Malachi Fields",
           "core": false,
-          "notes": "EARLY - Led the team in routes, snaps at WR last week.  Scored and amazing TD.  Due for more work.",
+          "notes": "EARLY - Led the team in routes and snaps at WR last week.  Scored an amazing TD.  Due for more work.",
           "salary": null,
           "fpts": 4.4,
           "opp": "MIA"
@@ -217,7 +220,7 @@
           "rank": 2,
           "players": "Kaden Davis",
           "core": false,
-          "notes": "LATE- Blew up last week and the Bears are resting starters again.",
+          "notes": "LATE- Blew up last week, and the Bears are resting starters again.",
           "salary": null,
           "fpts": 4.5,
           "opp": "CIN"
@@ -235,7 +238,7 @@
           "rank": 4,
           "players": "Dohnte Meyers",
           "core": false,
-          "notes": "LATE- Also consider Reggie Virgil of Arizona on late.  He's a high potential Bengals option while the starters sit.",
+          "notes": "LATE- Also consider Reggie Virgil of Arizona on late.  He's a high-potential Bengals option while the starters sit.",
           "salary": null,
           "fpts": 4.2,
           "opp": "CHI"
@@ -249,7 +252,7 @@
           "rank": 1,
           "players": "Matt Hibner",
           "core": true,
-          "notes": "EARLY - Rookie TE that must get reps to prepare for the season.",
+          "notes": "EARLY - Rookie TE who must get reps to prepare for the season.",
           "salary": null,
           "fpts": 4.0,
           "opp": "MIN"
@@ -258,7 +261,7 @@
           "rank": 2,
           "players": "Max Klare",
           "core": false,
-          "notes": "EARLY - 67% snaps week 1, almost played too well to the point of concern (McVay protects players of value)",
+          "notes": "EARLY - 67% snaps Week 1, almost played too well to the point of concern (McVay protects players of value).",
           "salary": null,
           "fpts": 3.4,
           "opp": "NO"
@@ -267,7 +270,7 @@
           "rank": 3,
           "players": "Oscar Delp",
           "core": false,
-          "notes": "EARLY - 45% of snaps last week and a viable receiving skill set.",
+          "notes": "EARLY - 45% of snaps last week and has a viable receiving skill set.",
           "salary": null,
           "fpts": 2.8,
           "opp": "LAR"
@@ -276,7 +279,7 @@
           "rank": 1,
           "players": "Eli Stowers",
           "core": true,
-          "notes": "LATE- Eagles draft pick that hasn't shown enough yet in camp.  Games could really help him earn a role.",
+          "notes": "LATE - Eagles draft pick that hasn't shown enough yet in camp.  Games could really help him earn a role.",
           "salary": null,
           "fpts": 3.5,
           "opp": "NE"
@@ -285,7 +288,7 @@
           "rank": 2,
           "players": "Eli Raridon",
           "core": false,
-          "notes": "LATE- 53% of snaps week 1 clearly shows they want to see how fast he can develop and help this team.",
+          "notes": "LATE - 53% of snaps Week 1 clearly shows they want to see how fast he can develop and help this team.",
           "salary": null,
           "fpts": 3.4,
           "opp": "PHI"
@@ -294,7 +297,7 @@
           "rank": 3,
           "players": "Bauer Sharp",
           "core": false,
-          "notes": "LATE- A standout while Cade Otton has been out, expect him to be given a heavy snap share this week.",
+          "notes": "LATE - A standout while Cade Otton has been out, expect him to be given a heavy snap share this week.",
           "salary": null,
           "fpts": 3.3,
           "opp": "KC"
@@ -308,7 +311,7 @@
           "rank": 1,
           "players": "New York Giants",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "EARLY - Based on our projections.",
           "salary": null,
           "fpts": 9.3,
           "opp": "MIA"
@@ -317,7 +320,7 @@
           "rank": 2,
           "players": "Indianapolis Colts",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "EARLY - Based on our projections.",
           "salary": null,
           "fpts": 9.3,
           "opp": "ATL"
@@ -326,7 +329,7 @@
           "rank": 3,
           "players": "Minnesota Vikings",
           "core": false,
-          "notes": "Based on our projections.",
+          "notes": "EARLY - Based on our projections.",
           "salary": null,
           "fpts": 9.2,
           "opp": "BAL"
