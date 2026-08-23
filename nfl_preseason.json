@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-23T17:44",
+  "updated": "2026-08-23T17:50",
   "sections": [
     {
       "position": "TIER 1",
@@ -20,7 +20,7 @@
           "core": true,
           "notes": "Should play signficiant snaps in the first half, which could include 20+ snaps.",
           "salary": null,
-          "fpts": 8.1,
+          "fpts": 8.2,
           "opp": "SEA"
         },
         {
@@ -47,7 +47,7 @@
           "core": false,
           "notes": "Rotated reps with MIlroe in Week 1.",
           "salary": null,
-          "fpts": 7.3,
+          "fpts": 7.1,
           "opp": "TEN"
         }
       ]
@@ -79,7 +79,7 @@
           "core": false,
           "notes": "Starters expected to play a substantial amount in H1.",
           "salary": null,
-          "fpts": 5.7,
+          "fpts": 5.2,
           "opp": "SEA"
         },
         {
@@ -88,7 +88,7 @@
           "core": false,
           "notes": "Starters expected to play a substantial amount in H1.",
           "salary": null,
-          "fpts": 4.8,
+          "fpts": 4.3,
           "opp": "SEA"
         },
         {
@@ -97,7 +97,7 @@
           "core": false,
           "notes": "Starters expected to play a substantial amount in H1.",
           "salary": null,
-          "fpts": 4.4,
+          "fpts": 4.5,
           "opp": "SEA"
         }
       ]
@@ -116,21 +116,21 @@
         },
         {
           "rank": 2,
-          "players": "George Holani",
-          "core": false,
-          "notes": "Downgrade if Price plays, but if no Price, he's a stronger option.",
-          "salary": null,
-          "fpts": 5.5,
-          "opp": "TEN"
-        },
-        {
-          "rank": 3,
           "players": "Wan'Dale Robinson",
           "core": false,
           "notes": "Starters expected to play a substantial amount in H1.",
           "salary": null,
-          "fpts": 3.6,
+          "fpts": 3.7,
           "opp": "SEA"
+        },
+        {
+          "rank": 3,
+          "players": "George Holani",
+          "core": false,
+          "notes": "Downgrade if Price plays, but if no Price, he's a stronger option.",
+          "salary": null,
+          "fpts": 5.1,
+          "opp": "TEN"
         },
         {
           "rank": 4,
@@ -179,7 +179,7 @@
           "core": false,
           "notes": "Downgrade if Price plays, but if no Price, he's a deeper option for late-game variance.",
           "salary": null,
-          "fpts": 4.0,
+          "fpts": 4.8,
           "opp": "TEN"
         },
         {
@@ -188,7 +188,7 @@
           "core": false,
           "notes": "Leverage option if the starting backs play a smaller subset of 1H snaps.",
           "salary": null,
-          "fpts": 3.6,
+          "fpts": 3.5,
           "opp": "SEA"
         },
         {
@@ -197,7 +197,7 @@
           "core": false,
           "notes": "Leverage option if the starting backs play a smaller subset of 1H snaps.",
           "salary": null,
-          "fpts": 3.7,
+          "fpts": 3.6,
           "opp": "SEA"
         }
       ]
