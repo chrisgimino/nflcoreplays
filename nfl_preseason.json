@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-23T09:53",
+  "updated": "2026-08-23T10:30",
   "sections": [
     {
       "position": "TIER 1",
@@ -9,7 +9,7 @@
           "rank": 1,
           "players": "Titans",
           "core": true,
-          "notes": "DST always legitimate in preseason showdown, most often as a flex.",
+          "notes": "DST is always legitimate in preseason Showdown, most often as a flex.",
           "salary": null,
           "fpts": 8.9,
           "opp": "SEA"
@@ -27,7 +27,7 @@
           "rank": 3,
           "players": "Seahawks",
           "core": false,
-          "notes": "DST always legitimate in preseason showdown, most often as a flex.",
+          "notes": "DST is always legitimate in preseason Showdown, most often as a flex.",
           "salary": null,
           "fpts": 7.7,
           "opp": "TEN"
@@ -59,7 +59,7 @@
           "rank": 1,
           "players": "Joey Slye",
           "core": false,
-          "notes": "Stable options for preseason showdowns.",
+          "notes": "Stable option for preseason Showdown.",
           "salary": null,
           "fpts": 7.2,
           "opp": "SEA"
@@ -68,7 +68,7 @@
           "rank": 2,
           "players": "Jason Myers",
           "core": false,
-          "notes": "Stable options for preseason showdowns.",
+          "notes": "Stable option for preseason Showdown.",
           "salary": null,
           "fpts": 6.7,
           "opp": "TEN"
@@ -109,7 +109,7 @@
           "rank": 1,
           "players": "Montorie Foster Jr.",
           "core": false,
-          "notes": "High upside.  Seattle expected to be Thin in the WR corps with no Bobo.",
+          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
           "salary": null,
           "fpts": 4.8,
           "opp": "TEN"
@@ -118,7 +118,7 @@
           "rank": 2,
           "players": "George Holani",
           "core": false,
-          "notes": "Downgrade if Price plays, but if no Price he's a stronger option.",
+          "notes": "Downgrade if Price plays, but if no Price, he's a stronger option.",
           "salary": null,
           "fpts": 5.5,
           "opp": "TEN"
@@ -136,7 +136,7 @@
           "rank": 4,
           "players": "Velus Jones Jr.",
           "core": false,
-          "notes": "Downgrade if Price plays, but if no Price he's a stronger option.",
+          "notes": "Downgrade if Price plays, but if no Price, he's a stronger option.",
           "salary": null,
           "fpts": 4.4,
           "opp": "TEN"
@@ -145,7 +145,7 @@
           "rank": 5,
           "players": "Jadarian Price",
           "core": false,
-          "notes": "\"Ramping up\" = need to watch news if he's even going to play.  Obviously interesting if so.",
+          "notes": "\"Ramping up\" = need-to-watch news if he's even going to play.  Obviously interesting if so.",
           "salary": null,
           "fpts": 2.5,
           "opp": "TEN"
@@ -159,7 +159,7 @@
           "rank": 1,
           "players": "Ricky White III",
           "core": false,
-          "notes": "High upside.  Seattle expected to be Thin in the WR corps with no Bobo.",
+          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
           "salary": null,
           "fpts": 4.2,
           "opp": "TEN"
@@ -168,7 +168,7 @@
           "rank": 2,
           "players": "Cody White",
           "core": false,
-          "notes": "High upside.  Seattle expected to be Thin in the WR corps with no Bobo.",
+          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
           "salary": null,
           "fpts": 3.8,
           "opp": "TEN"
@@ -177,7 +177,7 @@
           "rank": 3,
           "players": "Xavier Restrepo",
           "core": false,
-          "notes": "Competition for roster / practice squad is on for him, Osborne, and Bryce Oliver.",
+          "notes": "Competition for roster / practice squad is on for him, K.J. Osborne, and Bryce Oliver.",
           "salary": null,
           "fpts": 2.9,
           "opp": "SEA"
@@ -186,16 +186,19 @@
           "rank": 4,
           "players": "Jacardia Wright",
           "core": false,
-          "notes": "Downgrade if Price plays, but if no Price he's a deeper option for late game variance.",
+          "notes": "Downgrade if Price plays, but if no Price, he's a deeper option for late-game variance.",
           "salary": null,
           "fpts": 4.0,
           "opp": "TEN"
         },
         {
           "rank": 5,
-          "players": "Julius Chetsnut",
+          "players": "Julius Chestnut",
           "core": false,
-          "notes": "Leverage option if the starting backs play a smaller subset of 1H snaps."
+          "notes": "Leverage option if the starting backs play a smaller subset of 1H snaps.",
+          "salary": null,
+          "fpts": 3.6,
+          "opp": "SEA"
         },
         {
           "rank": 6,
@@ -231,7 +234,7 @@
         },
         {
           "rank": 3,
-          "players": "WIll Levis",
+          "players": "Will Levis",
           "core": false,
           "notes": "Could own the second half, but playing time is uncertain.",
           "salary": null,
