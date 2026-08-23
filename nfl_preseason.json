@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-23T10:30",
+  "updated": "2026-08-23T17:44",
   "sections": [
     {
       "position": "TIER 1",
@@ -139,15 +139,6 @@
           "notes": "Downgrade if Price plays, but if no Price, he's a stronger option.",
           "salary": null,
           "fpts": 4.4,
-          "opp": "TEN"
-        },
-        {
-          "rank": 5,
-          "players": "Jadarian Price",
-          "core": false,
-          "notes": "\"Ramping up\" = need-to-watch news if he's even going to play.  Obviously interesting if so.",
-          "salary": null,
-          "fpts": 2.5,
           "opp": "TEN"
         }
       ]
@@ -445,7 +436,7 @@
         {
           "depth": 2,
           "name": "Jadarian Price",
-          "note": "Ramping back - status tbd"
+          "note": "WIll not play"
         },
         {
           "depth": 3,
