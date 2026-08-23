@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-23T17:50",
+  "updated": "2026-08-23T19:13",
   "sections": [
     {
       "position": "TIER 1",
@@ -16,12 +16,12 @@
         },
         {
           "rank": 2,
-          "players": "Cam Ward",
+          "players": "Jalen Milroe",
           "core": true,
-          "notes": "Should play signficiant snaps in the first half, which could include 20+ snaps.",
+          "notes": "Will play the second half against a weaker group of defenders.",
           "salary": null,
-          "fpts": 8.2,
-          "opp": "SEA"
+          "fpts": 8.6,
+          "opp": "TEN"
         },
         {
           "rank": 3,
@@ -34,20 +34,20 @@
         },
         {
           "rank": 4,
-          "players": "Jalen Milroe",
+          "players": "Cam Ward",
           "core": false,
-          "notes": "Rotated reps with Lock in Week 1.",
+          "notes": "Should play signficiant snaps in the first half, which could include 20+ snaps.",
           "salary": null,
-          "fpts": 7.9,
-          "opp": "TEN"
+          "fpts": 8.2,
+          "opp": "SEA"
         },
         {
           "rank": 5,
           "players": "Drew Lock",
           "core": false,
-          "notes": "Rotated reps with MIlroe in Week 1.",
+          "notes": "Will start and play 1st half, potentially against TEN starters.",
           "salary": null,
-          "fpts": 7.1,
+          "fpts": 6.6,
           "opp": "TEN"
         }
       ]
@@ -93,6 +93,15 @@
         },
         {
           "rank": 5,
+          "players": "Jacardia Wright",
+          "core": false,
+          "notes": "Downgrade if Holani plays, but looks to be in line for volume if beat writer Bell is correct (says don't expect Holani)",
+          "salary": null,
+          "fpts": 6.3,
+          "opp": "TEN"
+        },
+        {
+          "rank": 6,
           "players": "Carnell Tate",
           "core": false,
           "notes": "Starters expected to play a substantial amount in H1.",
@@ -125,20 +134,29 @@
         },
         {
           "rank": 3,
-          "players": "George Holani",
-          "core": false,
-          "notes": "Downgrade if Price plays, but if no Price, he's a stronger option.",
-          "salary": null,
-          "fpts": 5.1,
-          "opp": "TEN"
-        },
-        {
-          "rank": 4,
           "players": "Velus Jones Jr.",
           "core": false,
           "notes": "Downgrade if Price plays, but if no Price, he's a stronger option.",
           "salary": null,
-          "fpts": 4.4,
+          "fpts": 5.7,
+          "opp": "TEN"
+        },
+        {
+          "rank": 4,
+          "players": "Ricky White III",
+          "core": false,
+          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
+          "salary": null,
+          "fpts": 4.2,
+          "opp": "TEN"
+        },
+        {
+          "rank": 5,
+          "players": "Cody White",
+          "core": false,
+          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
+          "salary": null,
+          "fpts": 3.8,
           "opp": "TEN"
         }
       ]
@@ -148,24 +166,6 @@
       "players": [
         {
           "rank": 1,
-          "players": "Ricky White III",
-          "core": false,
-          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
-          "salary": null,
-          "fpts": 4.2,
-          "opp": "TEN"
-        },
-        {
-          "rank": 2,
-          "players": "Cody White",
-          "core": false,
-          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
-          "salary": null,
-          "fpts": 3.8,
-          "opp": "TEN"
-        },
-        {
-          "rank": 3,
           "players": "Xavier Restrepo",
           "core": false,
           "notes": "Competition for roster / practice squad is on for him, K.J. Osborne, and Bryce Oliver.",
@@ -174,16 +174,7 @@
           "opp": "SEA"
         },
         {
-          "rank": 4,
-          "players": "Jacardia Wright",
-          "core": false,
-          "notes": "Downgrade if Price plays, but if no Price, he's a deeper option for late-game variance.",
-          "salary": null,
-          "fpts": 4.8,
-          "opp": "TEN"
-        },
-        {
-          "rank": 5,
+          "rank": 2,
           "players": "Julius Chestnut",
           "core": false,
           "notes": "Leverage option if the starting backs play a smaller subset of 1H snaps.",
@@ -192,13 +183,22 @@
           "opp": "SEA"
         },
         {
-          "rank": 6,
+          "rank": 3,
           "players": "Michael Carter",
           "core": false,
           "notes": "Leverage option if the starting backs play a smaller subset of 1H snaps.",
           "salary": null,
           "fpts": 3.6,
           "opp": "SEA"
+        },
+        {
+          "rank": 4,
+          "players": "Anthony Hankerson",
+          "core": false,
+          "notes": "Lowest rung of a think SEA RB depth chart.",
+          "salary": null,
+          "fpts": 4.2,
+          "opp": "TEN"
         }
       ]
     },
@@ -207,15 +207,6 @@
       "players": [
         {
           "rank": 1,
-          "players": "Elijah Arroyo",
-          "core": false,
-          "notes": "With the WR room thin, Arroyo has potential to shine early.",
-          "salary": null,
-          "fpts": 3.7,
-          "opp": "TEN"
-        },
-        {
-          "rank": 2,
           "players": "Mitchell Trubisky",
           "core": false,
           "notes": "Has been hurt but returned.  Playing him is a gamble on a shorter leash on starters.",
@@ -224,7 +215,7 @@
           "opp": "SEA"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "players": "Will Levis",
           "core": false,
           "notes": "Could own the second half, but playing time is uncertain.",
@@ -233,7 +224,7 @@
           "opp": "SEA"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "players": "Gunnar Helm",
           "core": false,
           "notes": "TD upside gamble. Has the skills in that area to create a meaningful spike.",
@@ -242,7 +233,7 @@
           "opp": "SEA"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "players": "Elic Ayomanor",
           "core": false,
           "notes": "Headlines Dart Throws. OTHERS - Calvin Ridley, Bryce Oliver, Chimere Dike, Emmanuel Henderson Jr.",
@@ -419,12 +410,12 @@
         {
           "depth": 2,
           "name": "Drew Lock",
-          "note": "46% snaps week 1"
+          "note": "Will play first half"
         },
         {
           "depth": 3,
           "name": "Jalen Milroe",
-          "note": "54% snaps week 1"
+          "note": "Will play second half."
         }
       ],
       "RB": [
@@ -441,7 +432,7 @@
         {
           "depth": 3,
           "name": "George Holani",
-          "note": "48% snaps week 1"
+          "note": "Bell: \"Don't expect to see Holani\""
         },
         {
           "depth": 4,
