@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-27T17:10",
+  "updated": "2026-08-27T18:44",
   "sections": [
     {
       "position": "QB",
@@ -11,7 +11,7 @@
           "core": true,
           "notes": "66% of snaps last week, and Rourke's broken ribs leave only him and Jones. Closes the game; SF playing zero starters.",
           "salary": null,
-          "fpts": 9.2,
+          "fpts": 10.5,
           "opp": "LV"
         },
         {
@@ -20,7 +20,7 @@
           "core": false,
           "notes": "Herbert not expected to play much, then Lance/DJU split a live QB2 battle. Has 64 rushing yards in 2 games this preseason.",
           "salary": null,
-          "fpts": 8.3,
+          "fpts": 7.9,
           "opp": "LAR"
         },
         {
@@ -29,7 +29,7 @@
           "core": false,
           "notes": "Only QB McVay has confirmed. 29-of-37, 263 yards, 2 TDs this preseason. Played 64% of snaps in Week 1.",
           "salary": null,
-          "fpts": 8.1,
+          "fpts": 8.5,
           "opp": "LAC"
         },
         {
@@ -56,7 +56,7 @@
           "core": false,
           "notes": "Threw for 151 yards and a TD with 44 rushing yards last week.",
           "salary": null,
-          "fpts": 7.6,
+          "fpts": 6.7,
           "opp": "CLE"
         }
       ]
@@ -85,7 +85,7 @@
           "core": false,
           "notes": "CLE RB room is thin with injuries and starters sitting. Sanders had 12 carries last week and could see that again.",
           "salary": null,
-          "fpts": 8.3,
+          "fpts": 7.6,
           "opp": "NE"
         },
         {
@@ -112,7 +112,7 @@
           "core": false,
           "notes": "Has played 30% of snaps or more in both preseason games; thin RB depth chart for CLE.",
           "salary": null,
-          "fpts": 6.1,
+          "fpts": 6.5,
           "opp": "NE"
         },
         {
@@ -121,7 +121,7 @@
           "core": false,
           "notes": "SF room is extremely thin.  Risk is earned protection if needed as RB2/3 in reg season.  McCormick also in play.",
           "salary": null,
-          "fpts": 6.4,
+          "fpts": 6.0,
           "opp": "LV"
         },
         {
@@ -130,7 +130,7 @@
           "core": false,
           "notes": "Injuries and starters sitting open up some nice playing time for Miller, especially if Larison is out.",
           "salary": null,
-          "fpts": 6.0,
+          "fpts": 5.6,
           "opp": "CLE"
         },
         {
@@ -139,7 +139,7 @@
           "core": false,
           "notes": "Injuries and starters sitting open up some nice playing time for Haskins, especially if Larison is out.",
           "salary": null,
-          "fpts": 6.0,
+          "fpts": 6.3,
           "opp": "CLE"
         }
       ]
@@ -153,7 +153,7 @@
           "core": false,
           "notes": "Has played 67% and 49% of snaps; whopping 13 targets last week.",
           "salary": null,
-          "fpts": 4.5,
+          "fpts": 5.2,
           "opp": "LAC"
         },
         {
@@ -162,7 +162,7 @@
           "core": false,
           "notes": "75% & 71% of snaps; highest WR snap share on the slate, in a room where we have injuries and starters resting.",
           "salary": null,
-          "fpts": 4.5,
+          "fpts": 4.9,
           "opp": "LV"
         },
         {
@@ -171,7 +171,7 @@
           "core": false,
           "notes": "Played 76% of snaps last week; LAR WR room is quite thin due to several guys resting.",
           "salary": null,
-          "fpts": 4.2,
+          "fpts": 4.8,
           "opp": "LAC"
         },
         {
@@ -180,17 +180,17 @@
           "core": false,
           "notes": "Seeing huge snap totals and would be most likely to see deep run amongst NE WR options tonight.",
           "salary": null,
-          "fpts": 3.5,
+          "fpts": 4.6,
           "opp": "PHI"
         },
         {
           "rank": 5,
-          "players": "Tyler Scott",
+          "players": "Gage Larvadain",
           "core": false,
-          "notes": "Played 85% of snaps in Week 1 and 46% in Week 2; should be on the field a bunch again.",
+          "notes": "CLE is quite think at the WR position and he has already been playing 50% of the snaps.",
           "salary": null,
-          "fpts": 4.4,
-          "opp": "LAC"
+          "fpts": 4.5,
+          "opp": "NE"
         },
         {
           "rank": 6,
@@ -216,7 +216,7 @@
           "core": false,
           "notes": "Vrabel somewhat worried about team health FYI. Has played 46% of snaps this preseason; starters likely resting again.",
           "salary": null,
-          "fpts": 4.5,
+          "fpts": 4.2,
           "opp": "CLE"
         },
         {
@@ -225,7 +225,7 @@
           "core": false,
           "notes": "Vrabel somewhat worried about team health FYI. 36% & 40% of snaps and has scored a TD in both preseason games.",
           "salary": null,
-          "fpts": 4.7,
+          "fpts": 4.5,
           "opp": "CLE"
         }
       ]
@@ -239,7 +239,7 @@
           "core": false,
           "notes": "Not very efficient but does have 12 catches this preseason.",
           "salary": null,
-          "fpts": 3.3,
+          "fpts": 4.0,
           "opp": "LAC"
         },
         {
@@ -257,7 +257,7 @@
           "core": false,
           "notes": "Maybe the most-talented pass-catching TE on the slate. Played 40% of snaps last week. Kolar and Njoku getting rest over him.",
           "salary": null,
-          "fpts": 2.3,
+          "fpts": 2.8,
           "opp": "LAR"
         },
         {
@@ -307,7 +307,7 @@
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
-          "fpts": 9.2,
+          "fpts": 9.1,
           "opp": "LAR"
         },
         {
@@ -343,7 +343,7 @@
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
-          "fpts": 8.1,
+          "fpts": 8.2,
           "opp": "NE"
         }
       ]
@@ -565,41 +565,36 @@
         },
         {
           "depth": 4,
-          "name": "Cedric Tillman",
-          "note": "Will not play"
-        },
-        {
-          "depth": 5,
           "name": "Isaiah Bond",
           "note": "32% & 38% snaps week 1 / 2"
         },
         {
-          "depth": 6,
+          "depth": 5,
           "name": "Tylan Wallace",
           "note": "20% & 18% snaps week 1 / 2"
         },
         {
-          "depth": 7,
+          "depth": 6,
           "name": "Malachi Corley",
           "note": "38% & 45% snaps week 1 / 2"
         },
         {
-          "depth": 8,
+          "depth": 7,
           "name": "Gage Larvadain",
           "note": "36% & 51% snaps week 1 / 2"
         },
         {
-          "depth": 9,
+          "depth": 8,
           "name": "Luke Floriea",
           "note": "26% & 44% snaps week 1 / 2"
         },
         {
-          "depth": 10,
+          "depth": 9,
           "name": "Kole Wilson",
           "note": "24% & 33% snaps week 1 / 2"
         },
         {
-          "depth": 11,
+          "depth": 10,
           "name": "Ben Patterson",
           "note": "% & % snaps week 1 / 2"
         }
@@ -1357,6 +1352,11 @@
           "depth": 10,
           "name": "Alex Bachman",
           "note": "0% & 54% snaps week 1 / 2"
+        },
+        {
+          "depth": 11,
+          "name": "Tutu Atwell",
+          "note": "Traded to LAR 8/27"
         }
       ],
       "TE": [
