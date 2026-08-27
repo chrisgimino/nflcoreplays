@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-27T14:06",
+  "updated": "2026-08-27T14:11",
   "sections": [
     {
       "position": "QB",
@@ -154,7 +154,7 @@
           "rank": 1,
           "players": "Kyle Williams",
           "core": false,
-          "notes": "36% & 40% snaps, has scored a TD in both preseason games.",
+          "notes": "36% & 40% of snaps and has scored a TD in both preseason games.",
           "salary": null,
           "fpts": 4.7,
           "opp": "CLE"
@@ -163,7 +163,7 @@
           "rank": 2,
           "players": "Jordan Watkins",
           "core": false,
-          "notes": "75% & 71%, highest WR snap share on the slate, in a room where we have injuries and starters resting.",
+          "notes": "75% & 71% of snaps; highest WR snap share on the slate, in a room where we have injuries and starters resting.",
           "salary": null,
           "fpts": 4.5,
           "opp": "LV"
@@ -172,7 +172,7 @@
           "rank": 3,
           "players": "CJ Daniels",
           "core": false,
-          "notes": "Has played 67% and 49% of snaps, whopping 13 targets last week.",
+          "notes": "Has played 67% and 49% of snaps; whopping 13 targets last week.",
           "salary": null,
           "fpts": 4.5,
           "opp": "LAC"
@@ -181,7 +181,7 @@
           "rank": 4,
           "players": "Efton Chism III",
           "core": false,
-          "notes": "Has played 46% of snaps so far this preseason, starters likely resting again.",
+          "notes": "Has played 46% of snaps this preseason; starters likely resting again.",
           "salary": null,
           "fpts": 4.5,
           "opp": "CLE"
@@ -190,7 +190,7 @@
           "rank": 5,
           "players": "Tyler Scott",
           "core": false,
-          "notes": "Played 85% of snaps in W1 and 46% in W2, should be on the field a bunch again.",
+          "notes": "Played 85% of snaps in Week 1 and 46% in Week 2; should be on the field a bunch again.",
           "salary": null,
           "fpts": 4.4,
           "opp": "LAC"
@@ -199,7 +199,7 @@
           "rank": 6,
           "players": "Brennan Presley",
           "core": false,
-          "notes": "Played 76% of snaps last week, LAR WR room is quite thin with several guys resting.",
+          "notes": "Played 76% of snaps last week; LAR WR room is quite thin due to several guys resting.",
           "salary": null,
           "fpts": 4.2,
           "opp": "LAC"
@@ -217,7 +217,7 @@
           "rank": 8,
           "players": "Gage Larvadain",
           "core": false,
-          "notes": "Played 51% of snaps, CLE WR room is thinner than it was in W1/2 with players resting.",
+          "notes": "Played 51% of snaps; CLE WR room is thinner than it was in Week 1 and Week 2 due to players resting.",
           "salary": null,
           "fpts": 3.9,
           "opp": "NE"
@@ -226,7 +226,7 @@
           "rank": 9,
           "players": "Stephen Gosnell",
           "core": false,
-          "notes": "36% and 56% of snaps in the first two preseason games so far.",
+          "notes": "36% and 56% of snaps in the 2 preseason games.",
           "salary": null,
           "fpts": 3.9,
           "opp": "PIT"
@@ -240,7 +240,7 @@
           "rank": 1,
           "players": "Max Klare",
           "core": false,
-          "notes": "Not very efficient, but does have 12 catches this preseason.",
+          "notes": "Not very efficient but does have 12 catches this preseason.",
           "salary": null,
           "fpts": 3.3,
           "opp": "LAC"
@@ -249,7 +249,7 @@
           "rank": 2,
           "players": "Brayden Willis",
           "core": false,
-          "notes": "TE room for the Niners is very consolidated, and could get even thinner if Jake Tonges gets starter rest treatment.",
+          "notes": "TE room for the Niners is very consolidated and could get even thinner if Jake Tonges gets starter rest treatment.",
           "salary": null,
           "fpts": 3.0,
           "opp": "LV"
@@ -258,7 +258,7 @@
           "rank": 3,
           "players": "Keleki Latu",
           "core": false,
-          "notes": "46% of snaps so far this preseason, BUF could play just 2-3 TEs here.",
+          "notes": "46% of snaps this preseason; BUF could play just 2-3 TEs here.",
           "salary": null,
           "fpts": 2.6,
           "opp": "PIT"
@@ -267,7 +267,7 @@
           "rank": 4,
           "players": "Shane Zylstra",
           "core": false,
-          "notes": "49% of snaps last week, BUF could play just 2-3 TEs here.",
+          "notes": "49% of snaps last week; BUF could play just 2-3 TEs here.",
           "salary": null,
           "fpts": 2.6,
           "opp": "PIT"
@@ -276,7 +276,7 @@
           "rank": 5,
           "players": "Eli Raridon",
           "core": false,
-          "notes": "Played 53% of snaps in W1, was scratched W2 but sounds like he could be good to go here. Monitor news.",
+          "notes": "Played 53% of snaps in Week 1. Was scratched Week 2 but sounds like he could be good to go here. Monitor news.",
           "salary": null,
           "fpts": 2.4,
           "opp": "CLE"
@@ -285,7 +285,7 @@
           "rank": 6,
           "players": "Oronde Gadsden II",
           "core": false,
-          "notes": "Maybe the most talented pass-catching TE on the slate, played 40% of snaps last week. Kolar and Njoku getting rest over him.",
+          "notes": "Maybe the most-talented pass-catching TE on the slate. Played 40% of snaps last week. Kolar and Njoku getting rest over him.",
           "salary": null,
           "fpts": 2.3,
           "opp": "LAR"
