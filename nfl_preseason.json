@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-27T18:44",
+  "updated": "2026-08-27T18:47",
   "sections": [
     {
       "position": "QB",
@@ -169,7 +169,7 @@
           "rank": 3,
           "players": "Brennan Presley",
           "core": false,
-          "notes": "Played 76% of snaps last week; LAR WR room is quite thin due to several guys resting.",
+          "notes": "Played 76% of snaps last week; LAR WR room is quite thin due to several guys resting. Also consider Tyler Scott comparable.",
           "salary": null,
           "fpts": 4.8,
           "opp": "LAC"
