@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-26T20:18",
+  "updated": "2026-08-26T20:42",
   "sections": [
     {
       "position": "QB",
@@ -16,15 +16,24 @@
         },
         {
           "rank": 2,
-          "players": "Kyle Allen",
+          "players": "Trey Lance",
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
-          "fpts": 7.4,
-          "opp": "PIT"
+          "fpts": 8.3,
+          "opp": "LAR"
         },
         {
           "rank": 3,
+          "players": "Ty Simpson",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 8.1,
+          "opp": "LAC"
+        },
+        {
+          "rank": 4,
           "players": "Tommy DeVito",
           "core": false,
           "notes": "Based on Projections",
@@ -33,31 +42,22 @@
           "opp": "CLE"
         },
         {
-          "rank": 4,
+          "rank": 5,
+          "players": "Kyle Allen",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 7.4,
+          "opp": "PIT"
+        },
+        {
+          "rank": 6,
           "players": "Dillon Gabriel",
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
           "fpts": 7.4,
           "opp": "NE"
-        },
-        {
-          "rank": 5,
-          "players": "Drew Allar",
-          "core": false,
-          "notes": "Based on Projections",
-          "salary": null,
-          "fpts": 7.2,
-          "opp": "BUF"
-        },
-        {
-          "rank": 6,
-          "players": "Shane Buechele",
-          "core": false,
-          "notes": "Based on Projections",
-          "salary": null,
-          "fpts": 6.3,
-          "opp": "PIT"
         }
       ]
     },
@@ -93,6 +93,15 @@
         },
         {
           "rank": 4,
+          "players": "Jarquez Hunter",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 6.9,
+          "opp": "LAC"
+        },
+        {
+          "rank": 5,
           "players": "Kaelon Black",
           "core": false,
           "notes": "Based on Projections",
@@ -101,7 +110,7 @@
           "opp": "LV"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "players": "Ahmani Marshall",
           "core": false,
           "notes": "Based on Projections",
@@ -110,7 +119,7 @@
           "opp": "NE"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "players": "Jam Miller",
           "core": false,
           "notes": "Based on Projections",
@@ -119,22 +128,13 @@
           "opp": "CLE"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "players": "Roman Hemby",
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
           "fpts": 6.0,
           "opp": "SF"
-        },
-        {
-          "rank": 8,
-          "players": "Hassan Haskins",
-          "core": false,
-          "notes": "Based on Projections",
-          "salary": null,
-          "fpts": 6.0,
-          "opp": "CLE"
         },
         {
           "rank": 9,
@@ -179,6 +179,33 @@
         },
         {
           "rank": 4,
+          "players": "CJ Daniels",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 4.3,
+          "opp": "LAC"
+        },
+        {
+          "rank": 5,
+          "players": "Xavier Smith",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 4.3,
+          "opp": "LAC"
+        },
+        {
+          "rank": 6,
+          "players": "Tyler Scott",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 4.2,
+          "opp": "LAC"
+        },
+        {
+          "rank": 7,
           "players": "Ja'Mori Maclin",
           "core": false,
           "notes": "Based on Projections",
@@ -187,7 +214,7 @@
           "opp": "PIT"
         },
         {
-          "rank": 5,
+          "rank": 8,
           "players": "Gage Larvadain",
           "core": false,
           "notes": "Based on Projections",
@@ -196,40 +223,13 @@
           "opp": "NE"
         },
         {
-          "rank": 6,
+          "rank": 9,
           "players": "Stephen Gosnell",
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
           "fpts": 3.9,
           "opp": "PIT"
-        },
-        {
-          "rank": 7,
-          "players": "Kaden Wetjen",
-          "core": false,
-          "notes": "Based on Projections",
-          "salary": null,
-          "fpts": 3.8,
-          "opp": "BUF"
-        },
-        {
-          "rank": 8,
-          "players": "Max Hurleman",
-          "core": false,
-          "notes": "Based on Projections",
-          "salary": null,
-          "fpts": 3.8,
-          "opp": "BUF"
-        },
-        {
-          "rank": 9,
-          "players": "Luke Floriea",
-          "core": false,
-          "notes": "Based on Projections",
-          "salary": null,
-          "fpts": 3.7,
-          "opp": "NE"
         }
       ]
     },
@@ -238,6 +238,15 @@
       "players": [
         {
           "rank": 1,
+          "players": "Max Klare",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 3.3,
+          "opp": "LAC"
+        },
+        {
+          "rank": 2,
           "players": "Brayden Willis",
           "core": false,
           "notes": "Based on Projections",
@@ -246,7 +255,7 @@
           "opp": "LV"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "players": "Keleki Latu",
           "core": false,
           "notes": "Based on Projections",
@@ -255,7 +264,7 @@
           "opp": "PIT"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "players": "Shane Zylstra",
           "core": false,
           "notes": "Based on Projections",
@@ -264,13 +273,22 @@
           "opp": "PIT"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "players": "Eli Raridon",
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
           "fpts": 2.4,
           "opp": "CLE"
+        },
+        {
+          "rank": 6,
+          "players": "Oronde Gadsden II",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 2.3,
+          "opp": "LAR"
         }
       ]
     },
