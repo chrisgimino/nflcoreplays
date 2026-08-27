@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-27T14:11",
+  "updated": "2026-08-27T17:03",
   "sections": [
     {
       "position": "QB",
@@ -66,6 +66,21 @@
       "players": [
         {
           "rank": 1,
+          "players": "Jordan Waters",
+          "core": true,
+          "notes": "They traded Jarquez Hunter, and so obviously he and Dean Conners will be busy.",
+          "salary": null,
+          "fpts": 9.8,
+          "opp": "LAC"
+        },
+        {
+          "rank": 2,
+          "players": "Dean Conners",
+          "core": false,
+          "notes": "One or both of Jordan Waters and Dean Conners will be seeing a lot of work tonight."
+        },
+        {
+          "rank": 3,
           "players": "Raheim Sanders",
           "core": false,
           "notes": "CLE RB room is thin with injuries and starters sitting. Sanders had 12 carries last week and could see that again.",
@@ -74,7 +89,7 @@
           "opp": "NE"
         },
         {
-          "rank": 2,
+          "rank": 4,
           "players": "Ian Wheeler",
           "core": false,
           "notes": "14 carries and 2 catches last week; has shown explosive ability.",
@@ -83,7 +98,7 @@
           "opp": "PIT"
         },
         {
-          "rank": 3,
+          "rank": 5,
           "players": "Frank Gore Jr.",
           "core": false,
           "notes": "Should split time with Wheeler for the majority of the game (if not the whole game). Scored in Week 1.",
@@ -92,16 +107,7 @@
           "opp": "PIT"
         },
         {
-          "rank": 4,
-          "players": "Jarquez Hunter",
-          "core": false,
-          "notes": "103 yards + TD on 21 preseason carries and played 51% of snaps last week.",
-          "salary": null,
-          "fpts": 6.9,
-          "opp": "LAC"
-        },
-        {
-          "rank": 5,
+          "rank": 6,
           "players": "Kaelon Black",
           "core": false,
           "notes": "SF room is extremely thin, and Zamir White trade indicated confidence in preseason playing time for Black.",
@@ -110,7 +116,7 @@
           "opp": "LV"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "players": "Ahmani Marshall",
           "core": false,
           "notes": "Has played 30% of snaps or more in both preseason games; thin RB depth chart for CLE.",
@@ -119,22 +125,13 @@
           "opp": "NE"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "players": "Jam Miller",
           "core": false,
           "notes": "Injuries and starters sitting open up some nice playing time for Miller, especially if Larison is out.",
           "salary": null,
           "fpts": 6.0,
           "opp": "CLE"
-        },
-        {
-          "rank": 8,
-          "players": "Roman Hemby",
-          "core": false,
-          "notes": "Mike Washington could get starter/protection treatment with Jeanty hurt, giving more opportunity to Hemby.",
-          "salary": null,
-          "fpts": 6.0,
-          "opp": "SF"
         },
         {
           "rank": 9,
@@ -310,7 +307,7 @@
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
-          "fpts": 9.1,
+          "fpts": 9.2,
           "opp": "LAR"
         },
         {
@@ -374,28 +371,28 @@
       "RB": [
         {
           "depth": 1,
-          "name": "James Cook III",
-          "note": "16% & 0% snaps week 1 / 2"
+          "name": "Ian Wheeler",
+          "note": "22% & 41% snaps week 1 / 2"
         },
         {
           "depth": 2,
-          "name": "Ray Davis",
-          "note": "31% & 24% snaps week 1 / 2"
-        },
-        {
-          "depth": 3,
-          "name": "Ty Johnson",
-          "note": "Will not play"
-        },
-        {
-          "depth": 4,
           "name": "Frank Gore Jr.",
           "note": "30% & 36% snaps week 1 / 2"
         },
         {
+          "depth": 3,
+          "name": "Ray Davis",
+          "note": "31% & 24% snaps week 1 / 2"
+        },
+        {
+          "depth": 4,
+          "name": "James Cook III",
+          "note": "16% & 0% snaps week 1 / 2"
+        },
+        {
           "depth": 5,
-          "name": "Ian Wheeler",
-          "note": "22% & 41% snaps week 1 / 2"
+          "name": "Ty Johnson",
+          "note": "Will not play"
         }
       ],
       "WR": [
@@ -460,7 +457,7 @@
           "note": "36% & 56% snaps week 1 / 2"
         },
         {
-          "depth": 14,
+          "depth": 13,
           "name": "Max Tomczak",
           "note": "10% & 29% snaps week 1 / 2"
         }
@@ -526,28 +523,28 @@
       "RB": [
         {
           "depth": 1,
-          "name": "Quinshon Judkins",
-          "note": "Will not play"
-        },
-        {
-          "depth": 2,
-          "name": "Dylan Sampson",
-          "note": "Unlikely to play"
-        },
-        {
-          "depth": 3,
           "name": "Raheim Sanders",
           "note": "21% & 44% snaps week 1 / 2"
         },
         {
-          "depth": 4,
+          "depth": 2,
           "name": "Ahmani Marshall",
           "note": "29% & 35% snaps week 1 / 2"
         },
         {
-          "depth": 5,
+          "depth": 3,
           "name": "Davon Booth",
           "note": "15% & 22% snaps week 1 / 2"
+        },
+        {
+          "depth": 4,
+          "name": "Quinshon Judkins",
+          "note": "Will not play"
+        },
+        {
+          "depth": 5,
+          "name": "Dylan Sampson",
+          "note": "Unlikely to play"
         }
       ],
       "WR": [
@@ -629,12 +626,12 @@
           "note": "45% & 71% snaps week 1 / 2"
         },
         {
-          "depth": 6,
+          "depth": 5,
           "name": "Jermaine Terry",
           "note": "% & % snaps week 1 / 2"
         },
         {
-          "depth": 8,
+          "depth": 6,
           "name": "Drew Biber",
           "note": "% & % snaps week 1 / 2"
         }
@@ -668,33 +665,33 @@
       "RB": [
         {
           "depth": 1,
-          "name": "Omarion Hampton",
-          "note": "0% & 5% snaps week 1 / 2"
-        },
-        {
-          "depth": 2,
-          "name": "Keaton Mitchell",
-          "note": "DNP All Week"
-        },
-        {
-          "depth": 3,
-          "name": "Kimani Vidal",
-          "note": "21% & 32% snaps week 1 / 2"
-        },
-        {
-          "depth": 4,
           "name": "Jaret Patterson",
           "note": "28% & 14% snaps week 1 / 2"
         },
         {
-          "depth": 5,
+          "depth": 2,
           "name": "Amar Johnson",
           "note": "31% & 17% snaps week 1 / 2"
         },
         {
-          "depth": 6,
+          "depth": 3,
           "name": "Gregory Desrosiers",
           "note": "19% & 15% snaps week 1 / 2"
+        },
+        {
+          "depth": 4,
+          "name": "Kimani Vidal",
+          "note": "21% & 32% snaps week 1 / 2"
+        },
+        {
+          "depth": 5,
+          "name": "Omarion Hampton",
+          "note": "0% & 5% snaps week 1 / 2"
+        },
+        {
+          "depth": 6,
+          "name": "Keaton Mitchell",
+          "note": "DNP All Week"
         }
       ],
       "WR": [
@@ -730,26 +727,31 @@
         },
         {
           "depth": 7,
+          "name": "Dalevon Campbell",
+          "note": "45% & 27% snaps week 1 / 2"
+        },
+        {
+          "depth": 8,
           "name": "Gary Jennings",
           "note": "% & % snaps week 1 / 2"
         },
         {
-          "depth": 8,
+          "depth": 9,
           "name": "JaQuae Jackson",
           "note": "42% & 42% snaps week 1 / 2"
         },
         {
-          "depth": 9,
+          "depth": 10,
           "name": "Devonte Ross",
           "note": "31% & 69% snaps week 1 / 2"
         },
         {
-          "depth": 10,
+          "depth": 11,
           "name": "Sincere Brown",
           "note": "0% & 7% snaps week 1 / 2"
         },
         {
-          "depth": 11,
+          "depth": 12,
           "name": "Liam Clifford",
           "note": "% & % snaps week 1 / 2"
         }
@@ -820,33 +822,33 @@
       "RB": [
         {
           "depth": 1,
-          "name": "Ashton Jeanty",
-          "note": "Will not play (Rug pulling best ballers)"
-        },
-        {
-          "depth": 2,
-          "name": "Mike Washington Jr.",
-          "note": "36% & 32% snaps week 1 / 2"
-        },
-        {
-          "depth": 3,
-          "name": "Dylan Laube",
-          "note": "22% & 28% snaps week 1 / 2"
-        },
-        {
-          "depth": 4,
-          "name": "Connor Heyward",
-          "note": "22% & 22% snaps week 1 / 2"
-        },
-        {
-          "depth": 5,
           "name": "Roman Hemby",
           "note": "12% & 17% snaps week 1 / 2"
         },
         {
-          "depth": 6,
+          "depth": 2,
+          "name": "Dylan Laube",
+          "note": "22% & 28% snaps week 1 / 2"
+        },
+        {
+          "depth": 3,
           "name": "Dare Ogunbowale",
           "note": "17% & 23% snaps week 1 / 2"
+        },
+        {
+          "depth": 4,
+          "name": "Mike Washington Jr.",
+          "note": "36% & 32% snaps week 1 / 2"
+        },
+        {
+          "depth": 5,
+          "name": "Connor Heyward",
+          "note": "22% & 22% snaps week 1 / 2"
+        },
+        {
+          "depth": 6,
+          "name": "Ashton Jeanty",
+          "note": "Will not play (Rug pulling best ballers)"
         }
       ],
       "WR": [
@@ -906,7 +908,7 @@
           "note": "22% & 32% snaps week 1 / 2"
         },
         {
-          "depth": 13,
+          "depth": 12,
           "name": "Chase Roberts",
           "note": "24% & 12% snaps week 1 / 2"
         }
@@ -977,18 +979,18 @@
       "RB": [
         {
           "depth": 1,
-          "name": "Rhamondre Stevenson",
-          "note": "0% & 0% snaps week 1 / 2"
+          "name": "Jam Miller",
+          "note": "30% & 21% snaps week 1 / 2"
         },
         {
           "depth": 2,
-          "name": "TreVeyon Henderson",
-          "note": "DNP 8/24"
+          "name": "Hassan Haskins",
+          "note": "7% & 10% snaps week 1 / 2"
         },
         {
           "depth": 3,
-          "name": "Hassan Haskins",
-          "note": "7% & 10% snaps week 1 / 2"
+          "name": "JaMycal Hasty",
+          "note": "% & % snaps week 1 / 2"
         },
         {
           "depth": 4,
@@ -997,13 +999,13 @@
         },
         {
           "depth": 5,
-          "name": "Jam Miller",
-          "note": "30% & 21% snaps week 1 / 2"
+          "name": "Rhamondre Stevenson",
+          "note": "0% & 0% snaps week 1 / 2"
         },
         {
           "depth": 6,
-          "name": "JaMycal Hasty",
-          "note": "% & % snaps week 1 / 2"
+          "name": "TreVeyon Henderson",
+          "note": "DNP 8/24"
         }
       ],
       "WR": [
@@ -1018,42 +1020,42 @@
           "note": "0% & 0% snaps week 1 / 2"
         },
         {
-          "depth": 4,
+          "depth": 3,
           "name": "DeMario Douglas",
           "note": "0% & 0% snaps week 1 / 2"
         },
         {
-          "depth": 5,
+          "depth": 4,
           "name": "Mack Hollins",
           "note": "18% & 0% snaps week 1 / 2"
         },
         {
-          "depth": 6,
+          "depth": 5,
           "name": "Efton Chism III",
           "note": "44% & 47% snaps week 1 / 2"
         },
         {
-          "depth": 7,
+          "depth": 6,
           "name": "Kyle Williams",
           "note": "36% & 40% snaps week 1 / 2"
         },
         {
-          "depth": 8,
+          "depth": 7,
           "name": "Nick DeGennaro",
           "note": "63% & 49% snaps week 1 / 2"
         },
         {
-          "depth": 9,
+          "depth": 8,
           "name": "Cameron Dorner",
           "note": "32% & 34% snaps week 1 / 2"
         },
         {
-          "depth": 10,
+          "depth": 9,
           "name": "Tejhaun Palmer",
           "note": "26% & 34% snaps week 1 / 2"
         },
         {
-          "depth": 11,
+          "depth": 10,
           "name": "Kyle Dixon",
           "note": "0% & 42% snaps week 1 / 2"
         }
@@ -1119,13 +1121,13 @@
       "RB": [
         {
           "depth": 1,
-          "name": "Jaylen Warren",
-          "note": "Unlikely to play"
+          "name": "Eli Heidenreich",
+          "note": "37% & 23% snaps week 1 / 2"
         },
         {
           "depth": 2,
-          "name": "Rico Dowdle",
-          "note": "Unlikely to play"
+          "name": "Kaleb Johnson",
+          "note": "7% & 35% snaps week 1 / 2"
         },
         {
           "depth": 3,
@@ -1139,13 +1141,18 @@
         },
         {
           "depth": 5,
-          "name": "Eli Heidenreich",
-          "note": "37% & 23% snaps week 1 / 2"
+          "name": "Alex Tecza",
+          "note": "% & % snaps week 1 / 2"
         },
         {
           "depth": 6,
-          "name": "Kaleb Johnson",
-          "note": "7% & 35% snaps week 1 / 2"
+          "name": "Jaylen Warren",
+          "note": "Unlikely to play"
+        },
+        {
+          "depth": 7,
+          "name": "Rico Dowdle",
+          "note": "Unlikely to play"
         }
       ],
       "WR": [
@@ -1200,12 +1207,12 @@
           "note": "0% & 17% snaps week 1 / 2"
         },
         {
-          "depth": 12,
+          "depth": 11,
           "name": "Jakobie Keeney-James",
           "note": "21% & 26% snaps week 1 / 2"
         },
         {
-          "depth": 13,
+          "depth": 12,
           "name": "Isaiah Winstead",
           "note": "0% & 22% snaps week 1 / 2"
         }
@@ -1276,33 +1283,28 @@
       "RB": [
         {
           "depth": 1,
-          "name": "Kyren Williams",
-          "note": "0% & 0% snaps week 1 / 2"
-        },
-        {
-          "depth": 2,
-          "name": "Blake Corum",
-          "note": "0% & 0% snaps week 1 / 2"
-        },
-        {
-          "depth": 3,
-          "name": "Jarquez Hunter",
-          "note": "39% & 51% snaps week 1 / 2"
-        },
-        {
-          "depth": 4,
-          "name": "Ronnie Rivers",
-          "note": "0% & 0% snaps week 1 / 2"
-        },
-        {
-          "depth": 5,
           "name": "Jordan Waters",
           "note": "20% & 41% snaps week 1 / 2"
         },
         {
-          "depth": 6,
+          "depth": 2,
           "name": "Dean Connors",
           "note": "41% & 8% snaps week 1 / 2"
+        },
+        {
+          "depth": 3,
+          "name": "Kyren Williams",
+          "note": "0% & 0% snaps week 1 / 2"
+        },
+        {
+          "depth": 4,
+          "name": "Blake Corum",
+          "note": "0% & 0% snaps week 1 / 2"
+        },
+        {
+          "depth": 5,
+          "name": "Ronnie Rivers",
+          "note": "0% & 0% snaps week 1 / 2"
         }
       ],
       "WR": [
@@ -1433,28 +1435,33 @@
       "RB": [
         {
           "depth": 1,
-          "name": "Christian McCaffrey",
-          "note": "Not expecting starters and key players"
-        },
-        {
-          "depth": 2,
-          "name": "Jordan James",
-          "note": "0% & 0% snaps week 1 / 2"
-        },
-        {
-          "depth": 3,
           "name": "Kaelon Black",
           "note": "0% & 21% snaps week 1 / 2"
         },
         {
-          "depth": 6,
+          "depth": 2,
           "name": "Sincere McCormick",
           "note": "32% & 27% snaps week 1 / 2"
         },
         {
-          "depth": 7,
+          "depth": 4,
+          "name": "Christian McCaffrey",
+          "note": "Not expecting starters and key players"
+        },
+        {
+          "depth": 5,
+          "name": "Jordan James",
+          "note": "0% & 0% snaps week 1 / 2"
+        },
+        {
+          "depth": 6,
           "name": "Isaac Guerendo",
           "note": "0% & 0% snaps week 1 / 2"
+        },
+        {
+          "depth": 11,
+          "name": "Khalil Herbert",
+          "note": "31% & 20% snaps week 1 / 2"
         }
       ],
       "WR": [
