@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-27T17:03",
+  "updated": "2026-08-27T17:10",
   "sections": [
     {
       "position": "QB",
@@ -34,12 +34,12 @@
         },
         {
           "rank": 4,
-          "players": "Tommy DeVito",
+          "players": "Dillon Gabriel",
           "core": false,
-          "notes": "Threw for 151 yards and a TD with 44 rushing yards last week.",
+          "notes": "Officially starting. Browns only have 2 QBs set to play with Shedeur and Watson sitting.",
           "salary": null,
-          "fpts": 7.6,
-          "opp": "CLE"
+          "fpts": 7.4,
+          "opp": "NE"
         },
         {
           "rank": 5,
@@ -52,12 +52,12 @@
         },
         {
           "rank": 6,
-          "players": "Dillon Gabriel",
+          "players": "Tommy DeVito",
           "core": false,
-          "notes": "Officially starting. Browns only have 2 QBs set to play with Shedeur and Watson sitting.",
+          "notes": "Threw for 151 yards and a TD with 44 rushing yards last week.",
           "salary": null,
-          "fpts": 7.4,
-          "opp": "NE"
+          "fpts": 7.6,
+          "opp": "CLE"
         }
       ]
     },
@@ -108,21 +108,21 @@
         },
         {
           "rank": 6,
-          "players": "Kaelon Black",
-          "core": false,
-          "notes": "SF room is extremely thin, and Zamir White trade indicated confidence in preseason playing time for Black.",
-          "salary": null,
-          "fpts": 6.4,
-          "opp": "LV"
-        },
-        {
-          "rank": 7,
           "players": "Ahmani Marshall",
           "core": false,
           "notes": "Has played 30% of snaps or more in both preseason games; thin RB depth chart for CLE.",
           "salary": null,
           "fpts": 6.1,
           "opp": "NE"
+        },
+        {
+          "rank": 7,
+          "players": "Kaelon Black",
+          "core": false,
+          "notes": "SF room is extremely thin.  Risk is earned protection if needed as RB2/3 in reg season.  McCormick also in play.",
+          "salary": null,
+          "fpts": 6.4,
+          "opp": "LV"
         },
         {
           "rank": 8,
@@ -141,20 +141,15 @@
           "salary": null,
           "fpts": 6.0,
           "opp": "CLE"
-        }
-      ]
-    },
-    {
-      "position": "WR",
-      "players": [
+        },
         {
           "rank": 1,
-          "players": "Kyle Williams",
+          "players": "CJ Daniels",
           "core": false,
-          "notes": "36% & 40% of snaps and has scored a TD in both preseason games.",
+          "notes": "Has played 67% and 49% of snaps; whopping 13 targets last week.",
           "salary": null,
-          "fpts": 4.7,
-          "opp": "CLE"
+          "fpts": 4.5,
+          "opp": "LAC"
         },
         {
           "rank": 2,
@@ -167,21 +162,21 @@
         },
         {
           "rank": 3,
-          "players": "CJ Daniels",
+          "players": "Brennan Presley",
           "core": false,
-          "notes": "Has played 67% and 49% of snaps; whopping 13 targets last week.",
+          "notes": "Played 76% of snaps last week; LAR WR room is quite thin due to several guys resting.",
           "salary": null,
-          "fpts": 4.5,
+          "fpts": 4.2,
           "opp": "LAC"
         },
         {
           "rank": 4,
-          "players": "Efton Chism III",
+          "players": "Nick DeGennaro",
           "core": false,
-          "notes": "Has played 46% of snaps this preseason; starters likely resting again.",
+          "notes": "Seeing huge snap totals and would be most likely to see deep run amongst NE WR options tonight.",
           "salary": null,
-          "fpts": 4.5,
-          "opp": "CLE"
+          "fpts": 3.5,
+          "opp": "PHI"
         },
         {
           "rank": 5,
@@ -194,15 +189,6 @@
         },
         {
           "rank": 6,
-          "players": "Brennan Presley",
-          "core": false,
-          "notes": "Played 76% of snaps last week; LAR WR room is quite thin due to several guys resting.",
-          "salary": null,
-          "fpts": 4.2,
-          "opp": "LAC"
-        },
-        {
-          "rank": 7,
           "players": "Ja'Mori Maclin",
           "core": false,
           "notes": "108 yards and a TD last week and should be in line for nice playing time again due to players hurt and/or resting.",
@@ -211,22 +197,31 @@
           "opp": "PIT"
         },
         {
-          "rank": 8,
-          "players": "Gage Larvadain",
-          "core": false,
-          "notes": "Played 51% of snaps; CLE WR room is thinner than it was in Week 1 and Week 2 due to players resting.",
-          "salary": null,
-          "fpts": 3.9,
-          "opp": "NE"
-        },
-        {
-          "rank": 9,
+          "rank": 7,
           "players": "Stephen Gosnell",
           "core": false,
           "notes": "36% and 56% of snaps in the 2 preseason games.",
           "salary": null,
           "fpts": 3.9,
           "opp": "PIT"
+        },
+        {
+          "rank": 8,
+          "players": "Efton Chism III",
+          "core": false,
+          "notes": "Vrabel somewhat worried about team health FYI. Has played 46% of snaps this preseason; starters likely resting again.",
+          "salary": null,
+          "fpts": 4.5,
+          "opp": "CLE"
+        },
+        {
+          "rank": 9,
+          "players": "Kyle Williams",
+          "core": false,
+          "notes": "Vrabel somewhat worried about team health FYI. 36% & 40% of snaps and has scored a TD in both preseason games.",
+          "salary": null,
+          "fpts": 4.7,
+          "opp": "CLE"
         }
       ]
     },
@@ -253,6 +248,15 @@
         },
         {
           "rank": 3,
+          "players": "Oronde Gadsden II",
+          "core": false,
+          "notes": "Maybe the most-talented pass-catching TE on the slate. Played 40% of snaps last week. Kolar and Njoku getting rest over him.",
+          "salary": null,
+          "fpts": 2.3,
+          "opp": "LAR"
+        },
+        {
+          "rank": 4,
           "players": "Keleki Latu",
           "core": false,
           "notes": "46% of snaps this preseason; BUF could play just 2-3 TEs here.",
@@ -261,7 +265,7 @@
           "opp": "PIT"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "players": "Shane Zylstra",
           "core": false,
           "notes": "49% of snaps last week; BUF could play just 2-3 TEs here.",
@@ -270,22 +274,13 @@
           "opp": "PIT"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "players": "Eli Raridon",
           "core": false,
           "notes": "Played 53% of snaps in Week 1. Was scratched Week 2 but sounds like he could be good to go here. Monitor news.",
           "salary": null,
           "fpts": 2.4,
           "opp": "CLE"
-        },
-        {
-          "rank": 6,
-          "players": "Oronde Gadsden II",
-          "core": false,
-          "notes": "Maybe the most-talented pass-catching TE on the slate. Played 40% of snaps last week. Kolar and Njoku getting rest over him.",
-          "salary": null,
-          "fpts": 2.3,
-          "opp": "LAR"
         }
       ]
     },
