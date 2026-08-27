@@ -1,551 +1,335 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-23T19:37",
+  "updated": "2026-08-26T20:08",
   "sections": [
     {
-      "position": "TIER 1",
+      "position": "QB",
       "players": [
         {
           "rank": 1,
-          "players": "Titans",
+          "players": "Adrian Martinez",
           "core": true,
-          "notes": "DST is always legitimate in preseason Showdown, most often as a flex.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 8.9,
-          "opp": "SEA"
+          "fpts": 6.9,
+          "opp": "TEN"
         },
         {
           "rank": 2,
-          "players": "Jalen Milroe",
-          "core": true,
-          "notes": "Will play the second half against a weaker group of defenders.",
+          "players": "Kyle Allen",
+          "core": false,
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 8.6,
-          "opp": "TEN"
+          "fpts": 7.1,
+          "opp": "CLE"
         },
         {
           "rank": 3,
-          "players": "Seahawks",
+          "players": "Tommy DeVito",
           "core": false,
-          "notes": "DST is always legitimate in preseason Showdown, most often as a flex.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 7.7,
-          "opp": "TEN"
+          "fpts": 7.5,
+          "opp": "PHI"
         },
         {
           "rank": 4,
-          "players": "Cam Ward",
+          "players": "Dillon Gabriel",
           "core": false,
-          "notes": "Should play signficiant snaps in the first half, which could include 20+ snaps.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 8.2,
-          "opp": "SEA"
+          "fpts": 3.1,
+          "opp": "BUF"
         },
         {
           "rank": 5,
-          "players": "Drew Lock",
+          "players": "Drew Allar",
           "core": false,
-          "notes": "Will start and play 1st half, potentially against TEN starters.",
-          "salary": null,
-          "fpts": 6.6,
-          "opp": "TEN"
-        }
-      ]
-    },
-    {
-      "position": "TIER 2",
-      "players": [
-        {
-          "rank": 1,
-          "players": "Joey Slye",
-          "core": false,
-          "notes": "Stable option for preseason Showdown.",
+          "notes": "Based on Projections",
           "salary": null,
           "fpts": 7.2,
-          "opp": "SEA"
-        },
-        {
-          "rank": 2,
-          "players": "Jason Myers",
-          "core": false,
-          "notes": "Stable option for preseason Showdown.",
-          "salary": null,
-          "fpts": 6.7,
-          "opp": "TEN"
-        },
-        {
-          "rank": 3,
-          "players": "Tony Pollard",
-          "core": false,
-          "notes": "Starters expected to play a substantial amount in H1.",
-          "salary": null,
-          "fpts": 5.2,
-          "opp": "SEA"
-        },
-        {
-          "rank": 4,
-          "players": "Tyjae Spears",
-          "core": false,
-          "notes": "Starters expected to play a substantial amount in H1.",
-          "salary": null,
-          "fpts": 4.3,
-          "opp": "SEA"
-        },
-        {
-          "rank": 5,
-          "players": "Jacardia Wright",
-          "core": false,
-          "notes": "Downgrade if Holani plays, but looks to be in line for volume if beat writer Bell is correct (says don't expect much Holani)",
-          "salary": null,
-          "fpts": 6.3,
-          "opp": "TEN"
+          "opp": "ATL"
         },
         {
           "rank": 6,
-          "players": "Carnell Tate",
+          "players": "Shane Buechele",
           "core": false,
-          "notes": "Starters expected to play a substantial amount in H1.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 4.5,
-          "opp": "SEA"
+          "fpts": 6.1,
+          "opp": "CLE"
         }
       ]
     },
     {
-      "position": "TIER 3",
+      "position": "RB",
       "players": [
         {
           "rank": 1,
-          "players": "Montorie Foster Jr.",
+          "players": "Raheim Sanders",
           "core": false,
-          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 4.8,
-          "opp": "TEN"
+          "fpts": 7.0,
+          "opp": "BUF"
         },
         {
           "rank": 2,
-          "players": "Wan'Dale Robinson",
+          "players": "Ian Wheeler",
           "core": false,
-          "notes": "Starters expected to play a substantial amount in H1.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 3.7,
-          "opp": "SEA"
+          "fpts": 6.3,
+          "opp": "CLE"
         },
         {
           "rank": 3,
-          "players": "Velus Jones Jr.",
+          "players": "Frank Gore Jr.",
           "core": false,
-          "notes": "Downgrade if Price plays, but if no Price, he's a stronger option.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 5.7,
-          "opp": "TEN"
+          "fpts": 7.4,
+          "opp": "CLE"
         },
         {
           "rank": 4,
-          "players": "Ricky White III",
+          "players": "Kaelon Black",
           "core": false,
-          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
-          "salary": null,
-          "fpts": 4.2,
-          "opp": "TEN"
+          "notes": "Based on Projections"
         },
         {
           "rank": 5,
-          "players": "Cody White",
+          "players": "Ahmani Marshall",
           "core": false,
-          "notes": "High upside.  Seattle expected to be thin in the WR corps with no Bobo.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 3.8,
-          "opp": "TEN"
-        }
-      ]
-    },
-    {
-      "position": "TIER 4",
-      "players": [
-        {
-          "rank": 1,
-          "players": "Xavier Restrepo",
-          "core": false,
-          "notes": "Competition for roster / practice squad is on for him, K.J. Osborne, and Bryce Oliver.",
-          "salary": null,
-          "fpts": 2.9,
-          "opp": "SEA"
+          "fpts": 6.9,
+          "opp": "BUF"
         },
         {
-          "rank": 2,
-          "players": "Julius Chestnut",
+          "rank": 6,
+          "players": "Jam Miller",
           "core": false,
-          "notes": "Leverage option if the starting backs play a smaller subset of 1H snaps.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 3.5,
-          "opp": "SEA"
+          "fpts": 5.5,
+          "opp": "PHI"
         },
         {
-          "rank": 3,
-          "players": "Michael Carter",
+          "rank": 7,
+          "players": "Roman Hemby",
           "core": false,
-          "notes": "Leverage option if the starting backs play a smaller subset of 1H snaps.",
+          "notes": "Based on Projections",
           "salary": null,
           "fpts": 3.6,
-          "opp": "SEA"
+          "opp": "MIA"
         },
         {
-          "rank": 4,
-          "players": "Anthony Hankerson",
+          "rank": 8,
+          "players": "Hassan Haskins",
           "core": false,
-          "notes": "Lowest rung of a think SEA RB depth chart.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 4.2,
-          "opp": "TEN"
+          "fpts": 5.4,
+          "opp": "PHI"
+        },
+        {
+          "rank": 9,
+          "players": "Eli Heidenreich",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 6.3,
+          "opp": "ATL"
         }
       ]
     },
     {
-      "position": "TIER 5",
+      "position": "WR",
       "players": [
         {
           "rank": 1,
-          "players": "Mitchell Trubisky",
+          "players": "Kyle Williams",
           "core": false,
-          "notes": "Has been hurt but returned.  Playing him is a gamble on a shorter leash on starters.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 2.9,
-          "opp": "SEA"
+          "fpts": 4.5,
+          "opp": "PHI"
         },
         {
           "rank": 2,
-          "players": "Will Levis",
+          "players": "Jordan Watkins",
           "core": false,
-          "notes": "Could own the second half, but playing time is uncertain.",
-          "salary": null,
-          "fpts": 2.7,
-          "opp": "SEA"
+          "notes": "Based on Projections"
         },
         {
           "rank": 3,
-          "players": "Gunnar Helm",
+          "players": "Efton Chism III",
           "core": false,
-          "notes": "TD upside gamble. Has the skills in that area to create a meaningful spike.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 2.6,
-          "opp": "SEA"
+          "fpts": 4.3,
+          "opp": "PHI"
         },
         {
           "rank": 4,
-          "players": "Elic Ayomanor",
+          "players": "Ja'Mori Maclin",
           "core": false,
-          "notes": "Headlines Dart Throws. OTHERS - Calvin Ridley, Bryce Oliver, Chimere Dike, Emmanuel Henderson Jr.",
+          "notes": "Based on Projections",
           "salary": null,
-          "fpts": 2.2,
-          "opp": "SEA"
+          "fpts": 2.4,
+          "opp": "CLE"
+        },
+        {
+          "rank": 5,
+          "players": "Gage Larvadain",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 3.3,
+          "opp": "BUF"
+        },
+        {
+          "rank": 6,
+          "players": "Stephen Gosnell",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 3.2,
+          "opp": "CLE"
+        },
+        {
+          "rank": 7,
+          "players": "Kaden Wetjen",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 2.4,
+          "opp": "ATL"
+        },
+        {
+          "rank": 8,
+          "players": "Max Hurleman",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 4.4,
+          "opp": "ATL"
+        },
+        {
+          "rank": 9,
+          "players": "Luke Floriea",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 2.5,
+          "opp": "BUF"
+        }
+      ]
+    },
+    {
+      "position": "TE",
+      "players": [
+        {
+          "rank": 1,
+          "players": "Brayden Willis",
+          "core": false,
+          "notes": "Based on Projections"
+        },
+        {
+          "rank": 2,
+          "players": "Keleki Latu",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 2.7,
+          "opp": "CLE"
+        },
+        {
+          "rank": 3,
+          "players": "Shane Zylstra",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 2.0,
+          "opp": "CLE"
+        },
+        {
+          "rank": 4,
+          "players": "Eli Raridon",
+          "core": false,
+          "notes": "Based on Projections"
+        }
+      ]
+    },
+    {
+      "position": "DST",
+      "players": [
+        {
+          "rank": 1,
+          "players": "New England Patriots",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 8.0,
+          "opp": "PHI"
+        },
+        {
+          "rank": 2,
+          "players": "Los Angeles Chargers",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 7.7,
+          "opp": "ARI"
+        },
+        {
+          "rank": 3,
+          "players": "Buffalo Bills",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 7.8,
+          "opp": "CLE"
+        },
+        {
+          "rank": 4,
+          "players": "Pittsburgh Steelers",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 8.0,
+          "opp": "ATL"
+        },
+        {
+          "rank": 5,
+          "players": "Las Vegas Raiders",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 8.2,
+          "opp": ""
+        },
+        {
+          "rank": 6,
+          "players": "Cleveland Browns",
+          "core": false,
+          "notes": "Based on Projections",
+          "salary": null,
+          "fpts": 9.2,
+          "opp": "BUF"
         }
       ]
     }
   ],
   "depth_charts": {
-    "TEN": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Cam Ward",
-          "note": "Expecting 1.5 to 2q"
-        },
-        {
-          "depth": 2,
-          "name": "Mitchell Trubisky",
-          "note": "Expecting .5 to 1q"
-        },
-        {
-          "depth": 3,
-          "name": "Will Levis",
-          "note": "Expecting .5 to 1q"
-        },
-        {
-          "depth": 4,
-          "name": "Hendon Hooker",
-          "note": "Expecting 0 to 1q"
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Tony Pollard",
-          "note": "Starters expected to play in H1"
-        },
-        {
-          "depth": 2,
-          "name": "Tyjae Spears",
-          "note": "Starters expected to play in H1"
-        },
-        {
-          "depth": 3,
-          "name": "Nick Singleton",
-          "note": "DNP 8/21"
-        },
-        {
-          "depth": 4,
-          "name": "Julius Chestnut",
-          "note": "15% snaps week 1"
-        },
-        {
-          "depth": 5,
-          "name": "Kalel Mullings",
-          "note": "DNP 8/21"
-        },
-        {
-          "depth": 6,
-          "name": "Michael Carter",
-          "note": "21% snaps week 1"
-        },
-        {
-          "depth": 7,
-          "name": "D'Ernest Johnson",
-          "note": "Signed this week"
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Carnell Tate",
-          "note": "Starters expected to play in H1"
-        },
-        {
-          "depth": 2,
-          "name": "Wan'Dale Robinson",
-          "note": "Starters expected to play in H1"
-        },
-        {
-          "depth": 3,
-          "name": "Calvin Ridley",
-          "note": "11% snaps week 1"
-        },
-        {
-          "depth": 4,
-          "name": "Elic Ayomanor",
-          "note": "48% snaps week 1"
-        },
-        {
-          "depth": 5,
-          "name": "Chimere Dike",
-          "note": "30% snaps week 1"
-        },
-        {
-          "depth": 6,
-          "name": "Bryce Oliver",
-          "note": "20% snaps week 1"
-        },
-        {
-          "depth": 7,
-          "name": "Xavier Restrepo",
-          "note": "28% snaps week 1"
-        },
-        {
-          "depth": 8,
-          "name": "Mason Kinsey",
-          "note": "DNP 8/21"
-        },
-        {
-          "depth": 9,
-          "name": "K.J. Osborn",
-          "note": "20% snaps week 1"
-        },
-        {
-          "depth": 10,
-          "name": "Tyren Montgomery",
-          "note": "10% snaps week 1"
-        },
-        {
-          "depth": 11,
-          "name": "Lance McCutcheon",
-          "note": "13% snaps week 1"
-        },
-        {
-          "depth": 12,
-          "name": "Hank Beatty",
-          "note": "15% snaps week 1"
-        },
-        {
-          "depth": 13,
-          "name": "Courtney Jackson",
-          "note": "7% snaps week 1"
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "Gunnar Helm",
-          "note": "Starters expected to play in H1"
-        },
-        {
-          "depth": 2,
-          "name": "Daniel Bellinger",
-          "note": "21% snaps week 1"
-        },
-        {
-          "depth": 3,
-          "name": "Kylen Granson",
-          "note": "31% snaps week 1"
-        },
-        {
-          "depth": 4,
-          "name": "David Martin-Robinson",
-          "note": "33% snaps week 1"
-        },
-        {
-          "depth": 5,
-          "name": "Joel Wilson",
-          "note": "23% snaps week 1"
-        }
-      ]
+    "today": {
+      "date": "2026-08-26",
+      "teams": {}
     },
-    "SEA": {
-      "QB": [
-        {
-          "depth": 1,
-          "name": "Sam Darnold",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 2,
-          "name": "Drew Lock",
-          "note": "Will play first half"
-        },
-        {
-          "depth": 3,
-          "name": "Jalen Milroe",
-          "note": "Will play second half."
-        }
-      ],
-      "RB": [
-        {
-          "depth": 1,
-          "name": "Zach Charbonnet",
-          "note": "Out"
-        },
-        {
-          "depth": 2,
-          "name": "Jadarian Price",
-          "note": "WIll not play"
-        },
-        {
-          "depth": 3,
-          "name": "George Holani",
-          "note": "Bell: \"Don't expect to see Holani\""
-        },
-        {
-          "depth": 4,
-          "name": "Emanuel Wilson",
-          "note": "0% snaps week 1"
-        },
-        {
-          "depth": 5,
-          "name": "Jacardia Wright",
-          "note": "0% snaps week 1"
-        },
-        {
-          "depth": 6,
-          "name": "Velus Jones Jr.",
-          "note": "34% snaps week 1"
-        },
-        {
-          "depth": 7,
-          "name": "Anthony Hankerson",
-          "note": ""
-        }
-      ],
-      "WR": [
-        {
-          "depth": 1,
-          "name": "Jaxon Smith-Njigba",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 2,
-          "name": "Rashid Shaheed",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 3,
-          "name": "Cooper Kupp",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 4,
-          "name": "Tory Horton",
-          "note": "OUT"
-        },
-        {
-          "depth": 5,
-          "name": "Jake Bobo",
-          "note": "OUT (IR)"
-        },
-        {
-          "depth": 6,
-          "name": "Cody White",
-          "note": "57% snaps week 1"
-        },
-        {
-          "depth": 7,
-          "name": "Ricky White III",
-          "note": "43% snaps week 1"
-        },
-        {
-          "depth": 8,
-          "name": "Montorie Foster Jr.",
-          "note": "73% snaps week 1"
-        },
-        {
-          "depth": 9,
-          "name": "Irvin Charles",
-          "note": "0% snaps week 1"
-        },
-        {
-          "depth": 10,
-          "name": "Emmanuel Henderson Jr.",
-          "note": "13% snaps week 1"
-        },
-        {
-          "depth": 11,
-          "name": "Rashad Rochelle",
-          "note": "0% snaps week 1"
-        }
-      ],
-      "TE": [
-        {
-          "depth": 1,
-          "name": "AJ Barner",
-          "note": "Not expecting starters"
-        },
-        {
-          "depth": 2,
-          "name": "Elijah Arroyo",
-          "note": "73% snaps week 1"
-        },
-        {
-          "depth": 3,
-          "name": "Eric Saubert",
-          "note": "21% snaps week 1"
-        },
-        {
-          "depth": 4,
-          "name": "Nick Kallerup",
-          "note": "27% snaps week 1"
-        },
-        {
-          "depth": 5,
-          "name": "Nick Vannett",
-          "note": "21% snaps week 1"
-        }
-      ],
-      "K": [
-        {
-          "depth": 1,
-          "name": "Jason Myers",
-          "note": ""
-        }
-      ]
+    "tomorrow": {
+      "date": "2026-08-27",
+      "teams": {}
     }
   }
 }
