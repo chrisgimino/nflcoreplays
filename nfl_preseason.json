@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-27T18:47",
+  "updated": "2026-08-27T19:45",
   "sections": [
     {
       "position": "QB",
@@ -11,7 +11,7 @@
           "core": true,
           "notes": "66% of snaps last week, and Rourke's broken ribs leave only him and Jones. Closes the game; SF playing zero starters.",
           "salary": null,
-          "fpts": 10.5,
+          "fpts": 11.2,
           "opp": "LV"
         },
         {
@@ -56,7 +56,7 @@
           "core": false,
           "notes": "Threw for 151 yards and a TD with 44 rushing yards last week.",
           "salary": null,
-          "fpts": 6.7,
+          "fpts": 6.6,
           "opp": "CLE"
         }
       ]
@@ -85,7 +85,7 @@
           "core": false,
           "notes": "CLE RB room is thin with injuries and starters sitting. Sanders had 12 carries last week and could see that again.",
           "salary": null,
-          "fpts": 7.6,
+          "fpts": 7.3,
           "opp": "NE"
         },
         {
@@ -112,35 +112,8 @@
           "core": false,
           "notes": "Has played 30% of snaps or more in both preseason games; thin RB depth chart for CLE.",
           "salary": null,
-          "fpts": 6.5,
+          "fpts": 5.8,
           "opp": "NE"
-        },
-        {
-          "rank": 7,
-          "players": "Kaelon Black",
-          "core": false,
-          "notes": "SF room is extremely thin.  Risk is earned protection if needed as RB2/3 in reg season.  McCormick also in play.",
-          "salary": null,
-          "fpts": 6.0,
-          "opp": "LV"
-        },
-        {
-          "rank": 8,
-          "players": "Jam Miller",
-          "core": false,
-          "notes": "Injuries and starters sitting open up some nice playing time for Miller, especially if Larison is out.",
-          "salary": null,
-          "fpts": 5.6,
-          "opp": "CLE"
-        },
-        {
-          "rank": 9,
-          "players": "Hassan Haskins",
-          "core": false,
-          "notes": "Injuries and starters sitting open up some nice playing time for Haskins, especially if Larison is out.",
-          "salary": null,
-          "fpts": 6.3,
-          "opp": "CLE"
         }
       ]
     },
@@ -180,7 +153,7 @@
           "core": false,
           "notes": "Seeing huge snap totals and would be most likely to see deep run amongst NE WR options tonight.",
           "salary": null,
-          "fpts": 4.6,
+          "fpts": 4.5,
           "opp": "PHI"
         },
         {
@@ -189,7 +162,7 @@
           "core": false,
           "notes": "CLE is quite think at the WR position and he has already been playing 50% of the snaps.",
           "salary": null,
-          "fpts": 4.5,
+          "fpts": 4.6,
           "opp": "NE"
         },
         {
@@ -216,7 +189,7 @@
           "core": false,
           "notes": "Vrabel somewhat worried about team health FYI. Has played 46% of snaps this preseason; starters likely resting again.",
           "salary": null,
-          "fpts": 4.2,
+          "fpts": 4.4,
           "opp": "CLE"
         },
         {
@@ -225,7 +198,7 @@
           "core": false,
           "notes": "Vrabel somewhat worried about team health FYI. 36% & 40% of snaps and has scored a TD in both preseason games.",
           "salary": null,
-          "fpts": 4.5,
+          "fpts": 4.7,
           "opp": "CLE"
         }
       ]
@@ -277,15 +250,6 @@
           "salary": null,
           "fpts": 2.6,
           "opp": "PIT"
-        },
-        {
-          "rank": 6,
-          "players": "Eli Raridon",
-          "core": false,
-          "notes": "Played 53% of snaps in Week 1. Was scratched Week 2 but sounds like he could be good to go here. Monitor news.",
-          "salary": null,
-          "fpts": 2.4,
-          "opp": "CLE"
         }
       ]
     },
@@ -298,7 +262,7 @@
           "core": false,
           "notes": "Based on Projections",
           "salary": null,
-          "fpts": 9.1,
+          "fpts": 9.0,
           "opp": "CLE"
         },
         {
