@@ -141,7 +141,12 @@
           "salary": null,
           "fpts": 6.0,
           "opp": "CLE"
-        },
+        }
+      ]
+    },
+    {
+      "position": "WR",
+      "players": [
         {
           "rank": 1,
           "players": "CJ Daniels",
