@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-27T13:08",
+  "updated": "2026-08-27T14:06",
   "sections": [
     {
       "position": "QB",
@@ -9,7 +9,7 @@
           "rank": 1,
           "players": "Adrian Martinez",
           "core": true,
-          "notes": "66% of snaps last week and Rourke's broken ribs leave only him and Jones. Closes the game, SF playing zero starters",
+          "notes": "66% of snaps last week, and Rourke's broken ribs leave only him and Jones. Closes the game; SF playing zero starters.",
           "salary": null,
           "fpts": 9.2,
           "opp": "LV"
@@ -18,7 +18,7 @@
           "rank": 2,
           "players": "Trey Lance",
           "core": false,
-          "notes": "Herbert not expected to play much, then Lance/DJU split a live QB2 battle. Has 64 rushing yards in two games this preseason.",
+          "notes": "Herbert not expected to play much, then Lance/DJU split a live QB2 battle. Has 64 rushing yards in 2 games this preseason.",
           "salary": null,
           "fpts": 8.3,
           "opp": "LAR"
@@ -27,7 +27,7 @@
           "rank": 3,
           "players": "Ty Simpson",
           "core": false,
-          "notes": "Only QB McVay has confirmed. 29-of-37, 263, 2 TDs this preseason, played 64% of snaps in W1.",
+          "notes": "Only QB McVay has confirmed. 29-of-37, 263 yards, 2 TDs this preseason. Played 64% of snaps in Week 1.",
           "salary": null,
           "fpts": 8.1,
           "opp": "LAC"
@@ -36,7 +36,7 @@
           "rank": 4,
           "players": "Tommy DeVito",
           "core": false,
-          "notes": "Threw for 151 yards and a TD with 44 rush yds last week.",
+          "notes": "Threw for 151 yards and a TD with 44 rushing yards last week.",
           "salary": null,
           "fpts": 7.6,
           "opp": "CLE"
@@ -45,7 +45,7 @@
           "rank": 5,
           "players": "Kyle Allen",
           "core": false,
-          "notes": "Josh Allen expected to sit here, Kyle Allen played 27 snaps Wk1, then posted 10-of-12/128/TD Wk2.",
+          "notes": "Josh Allen expected to sit here. Allen played 27 snaps in Week 1 and then posted 10-of-12, 128 yards, 1 TD in Week 2.",
           "salary": null,
           "fpts": 7.4,
           "opp": "PIT"
@@ -54,7 +54,7 @@
           "rank": 6,
           "players": "Dillon Gabriel",
           "core": false,
-          "notes": "Officially starting, Browns only have 2 QBs set to play with Shadeur and Watson sitting.",
+          "notes": "Officially starting. Browns only have 2 QBs set to play with Shedeur and Watson sitting.",
           "salary": null,
           "fpts": 7.4,
           "opp": "NE"
@@ -68,7 +68,7 @@
           "rank": 1,
           "players": "Raheim Sanders",
           "core": false,
-          "notes": "CLE RB room is thin with injuries and starters sitting, Sanders had 12 carries last week and could see that again.",
+          "notes": "CLE RB room is thin with injuries and starters sitting. Sanders had 12 carries last week and could see that again.",
           "salary": null,
           "fpts": 8.3,
           "opp": "NE"
@@ -77,7 +77,7 @@
           "rank": 2,
           "players": "Ian Wheeler",
           "core": false,
-          "notes": "14 carries and 2 catches last week, Wheeler has shown explosive ability.",
+          "notes": "14 carries and 2 catches last week; has shown explosive ability.",
           "salary": null,
           "fpts": 7.7,
           "opp": "PIT"
@@ -86,7 +86,7 @@
           "rank": 3,
           "players": "Frank Gore Jr.",
           "core": false,
-          "notes": "Should split time for the majority, if not the whole game, with Wheeler. Scored in W1.",
+          "notes": "Should split time with Wheeler for the majority of the game (if not the whole game). Scored in Week 1.",
           "salary": null,
           "fpts": 7.2,
           "opp": "PIT"
@@ -95,7 +95,7 @@
           "rank": 4,
           "players": "Jarquez Hunter",
           "core": false,
-          "notes": "103 yds + TD on 21 preseason carries, and played 51% of snaps last week.",
+          "notes": "103 yards + TD on 21 preseason carries and played 51% of snaps last week.",
           "salary": null,
           "fpts": 6.9,
           "opp": "LAC"
@@ -113,7 +113,7 @@
           "rank": 6,
           "players": "Ahmani Marshall",
           "core": false,
-          "notes": "Has played 30% of snaps or more in both games this preseason, thin RB depth chart for CLE.",
+          "notes": "Has played 30% of snaps or more in both preseason games; thin RB depth chart for CLE.",
           "salary": null,
           "fpts": 6.1,
           "opp": "NE"
@@ -140,7 +140,7 @@
           "rank": 9,
           "players": "Hassan Haskins",
           "core": false,
-          "notes": "Injuries and starters sitting open up some nice playing time for Miller, especially if Larison is out.",
+          "notes": "Injuries and starters sitting open up some nice playing time for Haskins, especially if Larison is out.",
           "salary": null,
           "fpts": 6.0,
           "opp": "CLE"
