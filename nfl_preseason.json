@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-28T16:27",
+  "updated": "2026-08-28T16:40",
   "sections": [
     {
       "position": "QB",
@@ -18,7 +18,7 @@
           "rank": 2,
           "players": "Sam Ehlinger",
           "core": false,
-          "notes": "Nix \"probably won't play\" \u2014 Ehlinger splits a full backup game with Stidham, rushing upside",
+          "notes": "Nix \"probably won't play\" \u2014 Ehlinger splits a full backup game with Stidham and has rushing upside",
           "salary": null,
           "fpts": 10.7,
           "opp": "MIN"
@@ -27,7 +27,7 @@
           "rank": 3,
           "players": "Joe Milton III",
           "core": false,
-          "notes": "Howell/Milton competition continues vs NO \u2014 best recent performance (12-15, 107, TD Wk1)",
+          "notes": "Howell/Milton competition continues vs. NO \u2014 best recent performance (12-for-15, 107 yards, 1 TD in Week 1)",
           "salary": null,
           "fpts": 9.3,
           "opp": "NO"
@@ -45,7 +45,7 @@
           "rank": 5,
           "players": "Gardner Minshew II",
           "core": false,
-          "notes": "Beck out (ribs) leaves a clean two-QB setup with Slovis; starts vs a resting GB",
+          "notes": "Beck out (ribs) leaves a clean two-QB setup with Slovis; starts vs. a resting GB team",
           "salary": null,
           "fpts": 8.8,
           "opp": "GB"
@@ -86,7 +86,7 @@
           "rank": 3,
           "players": "Carson Steele",
           "core": false,
-          "notes": "Cleanest extended second-half rushing path for the Eagles, showed huge receiving upside in W2.",
+          "notes": "Cleanest extended 2nd-half rushing path for the Eagles; showed huge receiving upside in Week 2",
           "salary": null,
           "fpts": 7.2,
           "opp": "CIN"
@@ -95,7 +95,7 @@
           "rank": 4,
           "players": "Josh Williams",
           "core": false,
-          "notes": "Late-game rushing volume in a Tampa backfield behind a rested Mayfield",
+          "notes": "Late-game rushing volume on a Tampa team that is resting starters",
           "salary": null,
           "fpts": 7.1,
           "opp": "JAX"
@@ -104,7 +104,7 @@
           "rank": 5,
           "players": "Owen Wright",
           "core": false,
-          "notes": "Survivor of Houston's RB attrition (Whittington/Brooks/Jordan all hurt)",
+          "notes": "Survivor of Houston's RB attrition (Whittington, Brooks, Jordan all hurt)",
           "salary": null,
           "fpts": 7.0,
           "opp": "CAR"
@@ -113,7 +113,7 @@
           "rank": 6,
           "players": "Jacardia Wright",
           "core": false,
-          "notes": "81 yards and a 69-yard TD last week \u2014 lead Seattle reserve back with Price shelved and Holani likely resting",
+          "notes": "81 yards and a 69-yard TD last week \u2014 leads Seattle reserve RBs with Price shelved and Holani likely resting",
           "salary": null,
           "fpts": 7.0,
           "opp": "KC"
@@ -122,7 +122,7 @@
           "rank": 7,
           "players": "Emmett Johnson",
           "core": false,
-          "notes": "59 yards Wk1 plus coaching praise; Walker sitting opens the KC backfield",
+          "notes": "59 yards in Week 1 plus coaching praise; Walker sitting opens the KC backfield",
           "salary": null,
           "fpts": 6.9,
           "opp": "SEA"
@@ -131,7 +131,7 @@
           "rank": 8,
           "players": "Brashard Smith",
           "core": false,
-          "notes": "Rookie change-of-pace behind Johnson in a wide-open KC reserve room",
+          "notes": "Rookie change-of-pace option behind Johnson in a wide-open KC reserve room",
           "salary": null,
           "fpts": 6.7,
           "opp": "SEA"
@@ -140,7 +140,7 @@
           "rank": 9,
           "players": "DeeJay Dallas",
           "core": false,
-          "notes": "Clear number two in the Jacksonville rotation with the starters resting",
+          "notes": "Clear #2 in the Jacksonville rotation with the starters resting",
           "salary": null,
           "fpts": 6.6,
           "opp": "TB"
@@ -181,7 +181,7 @@
           "rank": 4,
           "players": "Joseph Manjack",
           "core": false,
-          "notes": "Led Denver reserve WRs (3-40) last week; Nix out means a full game of backup passing",
+          "notes": "Led Denver reserve WRs (3 receptions for 40 yards) in Week 1; Nix out means a full game of backup passing",
           "salary": null,
           "fpts": 4.5,
           "opp": "MIN"
@@ -208,7 +208,7 @@
           "rank": 7,
           "players": "Isaiah Neyor",
           "core": false,
-          "notes": "Deeper Green Bay eval receiver who benefits from Savion Williams' ankle absence",
+          "notes": "Deeper Green Bay evaluation receiver who benefits from Savion Williams' ankle absence",
           "salary": null,
           "fpts": 4.2,
           "opp": "ARI"
@@ -217,7 +217,7 @@
           "rank": 8,
           "players": "Colbie Young",
           "core": false,
-          "notes": "Eight targets last game and pushing for a roster spot with Cincinnati's starters out",
+          "notes": "8 targets last game and pushing for a roster spot with Cincinnati's starters out",
           "salary": null,
           "fpts": 4.2,
           "opp": "PHI"
@@ -226,7 +226,7 @@
           "rank": 9,
           "players": "Jalen Brooks",
           "core": false,
-          "notes": "Projected 4.1 pts \u2014 top-9 WR on the Friday slate",
+          "notes": "Projected for 4.1 pts \u2014 a top-9 WR on this slate",
           "salary": null,
           "fpts": 4.1,
           "opp": "GB"
@@ -258,7 +258,7 @@
           "rank": 3,
           "players": "Thomas Fidone II",
           "core": false,
-          "notes": "Live if Theo Johnson and Conner sit \u2014 but Deguara's arrival caps the ceiling",
+          "notes": "Live if Theo Johnson and Tanner Conner sit \u2014 but Deguara's arrival caps the ceiling",
           "salary": null,
           "fpts": 3.1,
           "opp": "NYJ"
@@ -267,7 +267,7 @@
           "rank": 4,
           "players": "Jake Briningstool",
           "core": false,
-          "notes": "Rookie TE in the KC passing game behind Nussmeier",
+          "notes": "Rookie TE in the KC passing game with QB Nussmeier",
           "salary": null,
           "fpts": 3.0,
           "opp": "SEA"
