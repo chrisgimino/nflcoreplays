@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-28T12:30",
+  "updated": "2026-08-28T16:27",
   "sections": [
     {
       "position": "QB",
@@ -265,15 +265,6 @@
         },
         {
           "rank": 4,
-          "players": "Matt Hibner",
-          "core": false,
-          "notes": "Baltimore reserve TE with the starters resting behind Fagnano",
-          "salary": null,
-          "fpts": 3.0,
-          "opp": "WAS"
-        },
-        {
-          "rank": 5,
           "players": "Jake Briningstool",
           "core": false,
           "notes": "Rookie TE in the KC passing game behind Nussmeier",
@@ -282,7 +273,7 @@
           "opp": "SEA"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "players": "Elijah Arroyo",
           "core": false,
           "notes": "One of the better pass-catching TEs on the slate, but could get some protection treatment",
@@ -297,15 +288,6 @@
       "players": [
         {
           "rank": 1,
-          "players": "Ravens",
-          "core": false,
-          "notes": "Based on Projections",
-          "salary": null,
-          "fpts": 9.5,
-          "opp": "WAS"
-        },
-        {
-          "rank": 2,
           "players": "Broncos",
           "core": false,
           "notes": "Based on Projections",
@@ -314,7 +296,7 @@
           "opp": "MIN"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "players": "Falcons",
           "core": false,
           "notes": "Based on Projections",
@@ -323,7 +305,7 @@
           "opp": "MIA"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "players": "Texans",
           "core": false,
           "notes": "Based on Projections",
@@ -332,7 +314,7 @@
           "opp": "CAR"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "players": "Buccaneers",
           "core": false,
           "notes": "Based on Projections",
@@ -341,7 +323,7 @@
           "opp": "JAX"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "players": "Giants",
           "core": false,
           "notes": "Based on Projections",
