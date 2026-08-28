@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-28T12:29",
+  "updated": "2026-08-28T12:30",
   "sections": [
     {
       "position": "QB",
@@ -113,7 +113,7 @@
           "rank": 6,
           "players": "Jacardia Wright",
           "core": false,
-          "notes": "81 yards and a 69-yard TD at Tennessee \u2014 lead Seattle reserve back with Price shelved",
+          "notes": "81 yards and a 69-yard TD last week \u2014 lead Seattle reserve back with Price shelved and Holani likely resting",
           "salary": null,
           "fpts": 7.0,
           "opp": "KC"
@@ -122,7 +122,7 @@
           "rank": 7,
           "players": "Emmett Johnson",
           "core": false,
-          "notes": "59 yards Wk1 plus Reid praise; Walker sitting opens the KC backfield",
+          "notes": "59 yards Wk1 plus coaching praise; Walker sitting opens the KC backfield",
           "salary": null,
           "fpts": 6.9,
           "opp": "SEA"
