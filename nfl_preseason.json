@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-28T16:40",
+  "updated": "2026-08-28T16:46",
   "sections": [
     {
       "position": "QB",
@@ -58,6 +58,15 @@
           "salary": null,
           "fpts": 8.7,
           "opp": "KC"
+        },
+        {
+          "rank": 7,
+          "players": "Jalon Daniels",
+          "core": false,
+          "notes": "Will play the first half, offers rushing upside",
+          "salary": null,
+          "fpts": 8.4,
+          "opp": "JAX"
         }
       ]
     },
@@ -97,7 +106,7 @@
           "core": false,
           "notes": "Late-game rushing volume on a Tampa team that is resting starters",
           "salary": null,
-          "fpts": 7.1,
+          "fpts": 7.0,
           "opp": "JAX"
         },
         {
