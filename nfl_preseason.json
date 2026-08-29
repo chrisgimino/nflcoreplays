@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-29T11:02",
+  "updated": "2026-08-29T11:29",
   "sections": [
     {
       "position": "QB",
@@ -15,7 +15,7 @@
           "opp": "CHI"
         },
         {
-          "rank": 1,
+          "rank": 2,
           "players": "Easton Stick",
           "core": false,
           "notes": "No QB looks all that great for now, and IND stated Richardson Q1, Leonard Q2.  The leaves only Stick for H2.",
@@ -24,34 +24,34 @@
           "opp": "DET"
         },
         {
-          "rank": 1,
+          "rank": 3,
           "players": "Joshua Dobbs",
           "core": false,
-          "notes": "No stated work. The DET QBs split last week and honestly it's fair to like either one better than the first 2 names in case the split skews.",
+          "notes": "No stated work. The DET QBs split last week, and honestly, it's fair to like either better than the first 2 names in case the split skews.",
           "salary": null,
           "fpts": 6.4,
           "opp": "IND"
         },
         {
-          "rank": 1,
+          "rank": 4,
           "players": "Luke Altmyer",
           "core": false,
-          "notes": "No stated work. The DET QBs split last week and honestly it's fair to like either one better than the first 2 names in case the split skews.",
+          "notes": "No stated work. The DET QBs split last week, and honestly, it's fair to like either better than the first 2 names in case the split skews.",
           "salary": null,
           "fpts": 6.4,
           "opp": "IND"
         },
         {
-          "rank": 1,
+          "rank": 5,
           "players": "Tyson Bagent",
           "core": false,
-          "notes": "Returns this week. Played a lot in joint practice...no idea how much he plays here.  He is an ok fantasy play if playing 1Q plus. Best on slate at 2Q+.",
+          "notes": "Returns this week. Played a lot in joint practice...no idea how much he plays here.  He is an okay fantasy play if playing 1Q or more. Best on slate at 2Q+.",
           "salary": null,
           "fpts": 5.0,
           "opp": "TEN"
         },
         {
-          "rank": 1,
+          "rank": 6,
           "players": "Case Keenum",
           "core": false,
           "notes": "Unknown leash.  Potential to play up to a half but could be less. More if Miller Moss or Tyson Bagent take a seat. Watch pregame.",
@@ -83,7 +83,7 @@
           "rank": 1,
           "players": "Salvon Ahmed",
           "core": false,
-          "notes": "Bears are running thin today at RB as they only carry 5. Ahmed makes sense for fpts but all 3 worth consideration.",
+          "notes": "Bears are running thin today at RB, as they only carry 5. Ahmed makes sense for fpts but all 3 are worth consideration.",
           "salary": null,
           "fpts": 7.6,
           "opp": "TEN"
@@ -92,7 +92,7 @@
           "rank": 2,
           "players": "Trayveon Williams",
           "core": false,
-          "notes": "Lions are not settled behind Gibbs at RB with Pachecho A) being hurt B) not really having time to earn trust.  They'll give him a chance here.",
+          "notes": "Lions are not settled behind Gibbs at RB with Pacheco being hurt and not really having time to earn trust.  They'll give him a chance here.",
           "salary": null,
           "fpts": 7.0,
           "opp": "IND"
@@ -128,7 +128,7 @@
           "rank": 6,
           "players": "Anderson Castle",
           "core": false,
-          "notes": "Sat in his tower last week for team leading carries.  Not exciting but chaos option in you're feeling like the elmo fire gif is real at RB.",
+          "notes": "Sat in his tower last week for team-leading carries.  Not exciting, but chaotic option in you're feeling like the Elmo fire gif is real at RB.",
           "salary": null,
           "fpts": 4.8,
           "opp": "DET"
@@ -137,7 +137,7 @@
           "rank": 7,
           "players": "Tony Pollard",
           "core": false,
-          "notes": "Starters will play 20-25 snaps, though they do have a rotation of back they might look at in that span including Spears and Singleton.",
+          "notes": "Starters will play 20-25 snaps, though they do have a rotation of backs they might look at in that span, including Spears and Singleton.",
           "salary": null,
           "fpts": 4.7,
           "opp": "CHI"
@@ -151,7 +151,7 @@
           "rank": 1,
           "players": "Tay Martin",
           "core": false,
-          "notes": "Lions will absolutely be running a few receivers for high reps today and it would be surprising if he was not among that crew.",
+          "notes": "Lions will absolutely be running a few receivers for high reps today, and it would be surprising if he was not among that crew.",
           "salary": null,
           "fpts": 5.2,
           "opp": "IND"
@@ -160,7 +160,7 @@
           "rank": 2,
           "players": "Dominic Lovett",
           "core": false,
-          "notes": "Lions will absolutely be running a few receivers for high reps today and it would be surprising if he was not among that crew.",
+          "notes": "Lions will absolutely be running a few receivers for high reps today, and it would be surprising if he was not among that crew.",
           "salary": null,
           "fpts": 5.8,
           "opp": "IND"
@@ -169,7 +169,7 @@
           "rank": 3,
           "players": "Kaden Davis",
           "core": false,
-          "notes": "High owned last week and served up a bagel.  That's probably not happening if he gets anywhere close to half the snaps again.",
+          "notes": "Highly owned last week and served up a bagel.  That's probably not happening if he gets anywhere close to half the snaps again.",
           "salary": null,
           "fpts": 4.4,
           "opp": "TEN"
@@ -187,7 +187,7 @@
           "rank": 5,
           "players": "Carnell Tate",
           "core": false,
-          "notes": "Starters set to play 20-25 snaps, and dude really needs to have a moment with a game uniform on.  They'll give him a chance to.",
+          "notes": "Starters set to play 20-25 snaps, and the dude really needs to have a moment with a game uniform on.  They'll give him a chance to.",
           "salary": null,
           "fpts": 4.1,
           "opp": "CHI"
@@ -237,7 +237,7 @@
           "rank": 2,
           "players": "Sam Roush",
           "core": false,
-          "notes": "Best CHI option for rouets in a TE featuring offense.  2/30 last week",
+          "notes": "Best CHI option for routes in a TE-featuring offense.  2/30 last week",
           "salary": null,
           "fpts": 3.4,
           "opp": "TEN"
@@ -246,7 +246,7 @@
           "rank": 3,
           "players": "Pharaoh Brown",
           "core": false,
-          "notes": "Played a LOT so far for IND and there is a strong case that could continue.",
+          "notes": "Played a LOT so far for IND, and there is a strong case that could continue.",
           "salary": null,
           "fpts": 2.8,
           "opp": "DET"
@@ -255,7 +255,7 @@
           "rank": 4,
           "players": "Kylen Granson",
           "core": false,
-          "notes": "Signs point to him being one of the TE they want to look at the hardest among available bodies.",
+          "notes": "Signs point to him being one of the TEs they want to look at the hardest among available bodies.",
           "salary": null,
           "fpts": 2.3,
           "opp": "CHI"
@@ -264,7 +264,7 @@
           "rank": 5,
           "players": "David Martin-Robinson",
           "core": false,
-          "notes": "Signs point to him being one of the TE they want to look at the hardest among available bodies.",
+          "notes": "Signs point to him being one of the TEs they want to look at the hardest among available bodies.",
           "salary": null,
           "fpts": 1.6,
           "opp": "CHI"
