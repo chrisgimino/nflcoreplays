@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-29T15:36",
+  "updated": "2026-08-29T17:24",
   "sections": [
     {
       "position": "QB",
@@ -34,6 +34,15 @@
         },
         {
           "rank": 4,
+          "players": "Will Levis",
+          "core": false,
+          "notes": "Looks like no Trubisky, so Levis could split the game with Hooker. No word on leash for either player.",
+          "salary": null,
+          "fpts": 7.8,
+          "opp": "CHI"
+        },
+        {
+          "rank": 5,
           "players": "Tyson Bagent",
           "core": false,
           "notes": "Returns this week. Played a lot in joint practice...no idea how much he plays here.  He is an okay fantasy play if playing 1Q or more. Best on slate at 2Q+.",
@@ -42,7 +51,16 @@
           "opp": "TEN"
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "players": "Hendon Hooker",
+          "core": false,
+          "notes": "Looks like no Trubisky, so Levis could split the game with Hooker. No word on leash for either player.",
+          "salary": null,
+          "fpts": 7.1,
+          "opp": "CHI"
+        },
+        {
+          "rank": 7,
           "players": "Case Keenum",
           "core": false,
           "notes": "Unknown leash.  Potential to play up to a half but could be less. More if Miller Moss or Tyson Bagent take a seat. Watch pregame.",
@@ -51,34 +69,19 @@
           "opp": "TEN"
         },
         {
-          "rank": 6,
-          "players": "Will Levis",
-          "core": false,
-          "notes": "Waiting on starting QB and expectations.  Ward won't play (joint practice).",
-          "salary": null,
-          "fpts": 5.7,
-          "opp": "CHI"
-        },
-        {
-          "rank": 7,
+          "rank": 8,
           "players": "Anthony Richardson",
           "core": false,
           "notes": "Playing 1Q. Not a lot to like about that except if you want to gamble on a rushing TD and everyone else bricking."
         },
         {
-          "rank": 8,
+          "rank": 9,
           "players": "Riley Leonard",
           "core": false,
           "notes": "Playing 1Q. Not a lot to like about that.",
           "salary": null,
           "fpts": 4.3,
           "opp": "DET"
-        },
-        {
-          "rank": 9,
-          "players": "Mitch Trubisky",
-          "core": false,
-          "notes": "Waiting on starting QB and expectations.  Ward won't play (joint practice)."
         }
       ]
     },
@@ -109,7 +112,7 @@
           "core": false,
           "notes": "Starters are now expected to rest, leaving Singleton and other deep roster backs available to carry the load.  Consider Chestnut / Carter as well.",
           "salary": null,
-          "fpts": 6.0,
+          "fpts": 5.1,
           "opp": "CHI"
         },
         {
@@ -245,7 +248,7 @@
           "core": false,
           "notes": "Signs point to him being one of the TEs they want to look at the hardest among available bodies.",
           "salary": null,
-          "fpts": 2.7,
+          "fpts": 2.6,
           "opp": "CHI"
         },
         {
