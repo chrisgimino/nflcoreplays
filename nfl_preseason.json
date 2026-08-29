@@ -1,21 +1,12 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-29T12:08",
+  "updated": "2026-08-29T15:36",
   "sections": [
     {
       "position": "QB",
       "players": [
         {
           "rank": 1,
-          "players": "Cam Ward",
-          "core": false,
-          "notes": "QB spot is a lottery (for now). 20-25 snaps of TEN 1st-ish offense, and they were not impressive a week ago.  Expect better.",
-          "salary": null,
-          "fpts": 6.8,
-          "opp": "CHI"
-        },
-        {
-          "rank": 2,
           "players": "Easton Stick",
           "core": false,
           "notes": "No QB looks all that great for now, and IND stated Richardson Q1, Leonard Q2.  The leaves only Stick for H2.",
@@ -24,7 +15,7 @@
           "opp": "DET"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "players": "Joshua Dobbs",
           "core": false,
           "notes": "No stated work. The DET QBs split last week, and honestly, it's fair to like either better than the first 2 names in case the split skews.",
@@ -33,7 +24,7 @@
           "opp": "IND"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "players": "Luke Altmyer",
           "core": false,
           "notes": "No stated work. The DET QBs split last week, and honestly, it's fair to like either better than the first 2 names in case the split skews.",
@@ -42,7 +33,7 @@
           "opp": "IND"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "players": "Tyson Bagent",
           "core": false,
           "notes": "Returns this week. Played a lot in joint practice...no idea how much he plays here.  He is an okay fantasy play if playing 1Q or more. Best on slate at 2Q+.",
@@ -51,13 +42,22 @@
           "opp": "TEN"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "players": "Case Keenum",
           "core": false,
           "notes": "Unknown leash.  Potential to play up to a half but could be less. More if Miller Moss or Tyson Bagent take a seat. Watch pregame.",
           "salary": null,
           "fpts": 4.5,
           "opp": "TEN"
+        },
+        {
+          "rank": 6,
+          "players": "Will Levis",
+          "core": false,
+          "notes": "Waiting on starting QB and expectations.  Ward won't play (joint practice).",
+          "salary": null,
+          "fpts": 5.7,
+          "opp": "CHI"
         },
         {
           "rank": 7,
@@ -73,6 +73,12 @@
           "salary": null,
           "fpts": 4.3,
           "opp": "DET"
+        },
+        {
+          "rank": 9,
+          "players": "Mitch Trubisky",
+          "core": false,
+          "notes": "Waiting on starting QB and expectations.  Ward won't play (joint practice)."
         }
       ]
     },
@@ -99,6 +105,15 @@
         },
         {
           "rank": 3,
+          "players": "Nick Singleton",
+          "core": false,
+          "notes": "Starters are now expected to rest, leaving Singleton and other deep roster backs available to carry the load.  Consider Chestnut / Carter as well.",
+          "salary": null,
+          "fpts": 6.0,
+          "opp": "CHI"
+        },
+        {
+          "rank": 4,
           "players": "Roschon Johnson",
           "core": false,
           "notes": "They don't seem worried about his preseason reps and led the team in carries by a lot last week.",
@@ -107,16 +122,16 @@
           "opp": "TEN"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "players": "DJ Giddens",
           "core": false,
           "notes": "Colts are deeper at RB than CHI and DET, but Giddens must show something (has missed time) to help secure a spot.  They may allow him time.",
           "salary": null,
-          "fpts": 3.3,
+          "fpts": 5.8,
           "opp": "DET"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "players": "Brittain Brown",
           "core": false,
           "notes": "Joint practice this week, and it is possible we see them send carries lower down the depth chart.",
@@ -125,22 +140,13 @@
           "opp": "TEN"
         },
         {
-          "rank": 6,
+          "rank": 8,
           "players": "Anderson Castle",
           "core": false,
           "notes": "Sat in his tower last week for team-leading carries.  Not exciting, but chaotic option in you're feeling like the Elmo fire gif is real at RB.",
           "salary": null,
-          "fpts": 4.8,
+          "fpts": 3.4,
           "opp": "DET"
-        },
-        {
-          "rank": 7,
-          "players": "Tony Pollard",
-          "core": false,
-          "notes": "Starters will play 20-25 snaps, though they do have a rotation of backs they might look at in that span, including Spears and Singleton.",
-          "salary": null,
-          "fpts": 4.7,
-          "opp": "CHI"
         }
       ]
     },
@@ -185,11 +191,11 @@
         },
         {
           "rank": 5,
-          "players": "Carnell Tate",
+          "players": "Xavier Restrepo",
           "core": false,
-          "notes": "Starters set to play 20-25 snaps, and the dude really needs to have a moment with a game uniform on.  They'll give him a chance to.",
+          "notes": "Best Titans option for PPR points after the starters/roster lock players leave.",
           "salary": null,
-          "fpts": 4.1,
+          "fpts": 3.9,
           "opp": "CHI"
         },
         {
@@ -203,15 +209,6 @@
         },
         {
           "rank": 7,
-          "players": "Xavier Restrepo",
-          "core": false,
-          "notes": "Best Titans option for PPR points after the starters/roster lock players leave.",
-          "salary": null,
-          "fpts": 2.9,
-          "opp": "CHI"
-        },
-        {
-          "rank": 8,
           "players": "Coleman Owen",
           "core": false,
           "notes": "Among a small group of IND WRs who should get evaluation reps today.",
@@ -235,39 +232,39 @@
         },
         {
           "rank": 2,
+          "players": "David Martin-Robinson",
+          "core": false,
+          "notes": "Signs point to him being one of the TEs they want to look at the hardest among available bodies.",
+          "salary": null,
+          "fpts": 2.6,
+          "opp": "CHI"
+        },
+        {
+          "rank": 3,
+          "players": "Kylen Granson",
+          "core": false,
+          "notes": "Signs point to him being one of the TEs they want to look at the hardest among available bodies.",
+          "salary": null,
+          "fpts": 2.7,
+          "opp": "CHI"
+        },
+        {
+          "rank": 4,
           "players": "Sam Roush",
           "core": false,
           "notes": "Best CHI option for routes in a TE-featuring offense.  2/30 last week",
           "salary": null,
-          "fpts": 3.4,
+          "fpts": 3.2,
           "opp": "TEN"
         },
         {
-          "rank": 3,
+          "rank": 5,
           "players": "Pharaoh Brown",
           "core": false,
           "notes": "Played a LOT so far for IND, and there is a strong case that could continue.",
           "salary": null,
           "fpts": 2.8,
           "opp": "DET"
-        },
-        {
-          "rank": 4,
-          "players": "Kylen Granson",
-          "core": false,
-          "notes": "Signs point to him being one of the TEs they want to look at the hardest among available bodies.",
-          "salary": null,
-          "fpts": 2.3,
-          "opp": "CHI"
-        },
-        {
-          "rank": 5,
-          "players": "David Martin-Robinson",
-          "core": false,
-          "notes": "Signs point to him being one of the TEs they want to look at the hardest among available bodies.",
-          "salary": null,
-          "fpts": 1.6,
-          "opp": "CHI"
         }
       ]
     },
@@ -838,14 +835,14 @@
           "note": "0% & 9% snaps week 1 / 2"
         },
         {
+          "depth": 6,
+          "name": "Roydell Williams",
+          "note": "8% & 0% snaps week 1 / 2"
+        },
+        {
           "depth": 7,
           "name": "Trayveon Williams",
           "note": "% & % snaps week 1 / 2"
-        },
-        {
-          "depth": 14,
-          "name": "Roydell Williams",
-          "note": "8% & 0% snaps week 1 / 2"
         }
       ],
       "WR": [
