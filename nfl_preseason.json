@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-29T11:29",
+  "updated": "2026-08-29T12:08",
   "sections": [
     {
       "position": "QB",
@@ -108,21 +108,21 @@
         },
         {
           "rank": 4,
+          "players": "DJ Giddens",
+          "core": false,
+          "notes": "Colts are deeper at RB than CHI and DET, but Giddens must show something (has missed time) to help secure a spot.  They may allow him time.",
+          "salary": null,
+          "fpts": 3.3,
+          "opp": "DET"
+        },
+        {
+          "rank": 5,
           "players": "Brittain Brown",
           "core": false,
           "notes": "Joint practice this week, and it is possible we see them send carries lower down the depth chart.",
           "salary": null,
           "fpts": 5.3,
           "opp": "TEN"
-        },
-        {
-          "rank": 5,
-          "players": "Seth McGowan",
-          "core": false,
-          "notes": "Colts are deeper at RB than CHI and DET, and so this is a bet on alleged talent that has not yet translated to fpts.",
-          "salary": null,
-          "fpts": 4.8,
-          "opp": "DET"
         },
         {
           "rank": 6,
