@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-29T09:40",
+  "updated": "2026-08-29T11:01",
   "sections": [
     {
       "position": "QB",
@@ -141,15 +141,6 @@
           "salary": null,
           "fpts": 4.7,
           "opp": "CHI"
-        },
-        {
-          "rank": 8,
-          "players": "Nick Singleton",
-          "core": false,
-          "notes": "Best Titans option for a preseason seasoning run, but they do have a lot of bodies here.",
-          "salary": null,
-          "fpts": 4.4,
-          "opp": "CHI"
         }
       ]
     },
@@ -158,20 +149,20 @@
       "players": [
         {
           "rank": 1,
-          "players": "Dominic Lovett",
-          "core": true,
-          "notes": "Lions will absolutely be running a few receivers for high reps today and it would be surprising if he was not among that crew.",
-          "salary": null,
-          "fpts": 5.8,
-          "opp": "IND"
-        },
-        {
-          "rank": 2,
           "players": "Tay Martin",
           "core": false,
           "notes": "Lions will absolutely be running a few receivers for high reps today and it would be surprising if he was not among that crew.",
           "salary": null,
           "fpts": 5.2,
+          "opp": "IND"
+        },
+        {
+          "rank": 2,
+          "players": "Dominic Lovett",
+          "core": false,
+          "notes": "Lions will absolutely be running a few receivers for high reps today and it would be surprising if he was not among that crew.",
+          "salary": null,
+          "fpts": 5.8,
           "opp": "IND"
         },
         {
@@ -255,7 +246,7 @@
           "rank": 3,
           "players": "Pharaoh Brown",
           "core": false,
-          "notes": "Played a LOT so far for IND and they have no obvious reasons to play anyone else so why not.",
+          "notes": "Played a LOT so far for IND and there is a strong case that could continue.",
           "salary": null,
           "fpts": 2.8,
           "opp": "DET"
