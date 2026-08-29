@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-29T11:01",
+  "updated": "2026-08-29T11:02",
   "sections": [
     {
       "position": "QB",
@@ -54,7 +54,7 @@
           "rank": 1,
           "players": "Case Keenum",
           "core": false,
-          "notes": "Unknown leash.  Potential to play up to a half if all 3 QBs play. More if Miller Moss or Tyson Bagent take a seat. Watch pregame.",
+          "notes": "Unknown leash.  Potential to play up to a half but could be less. More if Miller Moss or Tyson Bagent take a seat. Watch pregame.",
           "salary": null,
           "fpts": 4.5,
           "opp": "TEN"
