@@ -1,6 +1,6 @@
 {
   "title": "NFL Preseason Core Plays",
-  "updated": "2026-08-29T17:24",
+  "updated": "2026-08-29T17:51",
   "sections": [
     {
       "position": "QB",
@@ -56,7 +56,7 @@
           "core": false,
           "notes": "Looks like no Trubisky, so Levis could split the game with Hooker. No word on leash for either player.",
           "salary": null,
-          "fpts": 7.1,
+          "fpts": 7.2,
           "opp": "CHI"
         },
         {
@@ -90,15 +90,24 @@
       "players": [
         {
           "rank": 1,
-          "players": "Salvon Ahmed",
-          "core": false,
-          "notes": "Bears are running thin today at RB, as they only carry 5. Ahmed makes sense for fpts but all 3 are worth consideration.",
+          "players": "Roschon Johnson",
+          "core": true,
+          "notes": "They don't seem worried about his preseason reps and led the team in carries by a lot last week.",
           "salary": null,
-          "fpts": 7.6,
+          "fpts": 9.0,
           "opp": "TEN"
         },
         {
           "rank": 2,
+          "players": "Brittain Brown",
+          "core": true,
+          "notes": "Joint practice this week, and it is possible we see them send carries lower down the depth chart.",
+          "salary": null,
+          "fpts": 8.1,
+          "opp": "TEN"
+        },
+        {
+          "rank": 3,
           "players": "Trayveon Williams",
           "core": false,
           "notes": "Lions are not settled behind Gibbs at RB with Pacheco being hurt and not really having time to earn trust.  They'll give him a chance here.",
@@ -107,22 +116,13 @@
           "opp": "IND"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "players": "Nick Singleton",
           "core": false,
           "notes": "Starters are now expected to rest, leaving Singleton and other deep roster backs available to carry the load.  Consider Chestnut / Carter as well.",
           "salary": null,
-          "fpts": 5.1,
+          "fpts": 5.2,
           "opp": "CHI"
-        },
-        {
-          "rank": 4,
-          "players": "Roschon Johnson",
-          "core": false,
-          "notes": "They don't seem worried about his preseason reps and led the team in carries by a lot last week.",
-          "salary": null,
-          "fpts": 5.4,
-          "opp": "TEN"
         },
         {
           "rank": 5,
@@ -135,15 +135,6 @@
         },
         {
           "rank": 6,
-          "players": "Brittain Brown",
-          "core": false,
-          "notes": "Joint practice this week, and it is possible we see them send carries lower down the depth chart.",
-          "salary": null,
-          "fpts": 5.3,
-          "opp": "TEN"
-        },
-        {
-          "rank": 8,
           "players": "Anderson Castle",
           "core": false,
           "notes": "Sat in his tower last week for team-leading carries.  Not exciting, but chaotic option in you're feeling like the Elmo fire gif is real at RB.",
@@ -180,7 +171,7 @@
           "core": false,
           "notes": "Highly owned last week and served up a bagel.  That's probably not happening if he gets anywhere close to half the snaps again.",
           "salary": null,
-          "fpts": 4.4,
+          "fpts": 4.2,
           "opp": "TEN"
         },
         {
@@ -189,7 +180,7 @@
           "core": false,
           "notes": "5/48 on 8 targets last week.  Seems to be among a group of deeper CHI evaluation WRs.",
           "salary": null,
-          "fpts": 4.2,
+          "fpts": 4.0,
           "opp": "TEN"
         },
         {
@@ -248,7 +239,7 @@
           "core": false,
           "notes": "Signs point to him being one of the TEs they want to look at the hardest among available bodies.",
           "salary": null,
-          "fpts": 2.6,
+          "fpts": 2.7,
           "opp": "CHI"
         },
         {
