@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NFL Sunday Best &mdash; Core Plays</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Barlow+Condensed:wght@400;600;700&display=swap">
+<style>
+  :root{
+    --bg:#0a0c10;
+    --panel:#12151b;
+    --panel-alt:#171b22;
+    --line:#232833;
+    --text:#e7eaf0;
+    --text-dim:#8a93a3;
+    --core:#2f8fef;
+    --core-dim:#132d4a;
+    --qb:#5b8def;
+    --rb:#3ecf8e;
+    --wr:#e85d8e;
+    --te:#a86bee;
+    --k:#f2d94e;
+    --dst:#ef7a4d;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:960px;margin:0 auto;padding:22px 16px 60px;}
+
+  header.masthead{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:8px 16px;
+    border-bottom:2px solid var(--core);
+    padding-bottom:14px;
+    margin-bottom:16px;
+  }
+  header.masthead .title-block h1{
+    font-size:1.5rem;
+    letter-spacing:0.02em;
+    margin:0 0 2px;
+    font-weight:800;
+    text-transform:uppercase;
+  }
+  header.masthead .title-block h1 .accent{color:var(--core);}
+  header.masthead .title-block .sub{
+    color:var(--text-dim);
+    font-size:0.8rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+  }
+  header.masthead .updated{
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    font-size:0.72rem;
+    color:var(--text-dim);
+    text-align:right;
+    white-space:nowrap;
+  }
+  header.masthead .updated .dot{
+    display:inline-block;width:6px;height:6px;border-radius:50%;
+    background:var(--core);margin-right:6px;
+    animation:pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+
+  /* Tabs */
+  .tabs{
+    display:flex;gap:6px;
+    margin-bottom:18px;
+    border-bottom:1px solid var(--line);
+  }
+  .tab-btn{
+    appearance:none;background:none;border:none;
+    color:var(--text-dim);
+    font-size:0.82rem;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;
+    padding:9px 4px 10px;
+    margin-right:18px;
+    cursor:pointer;
+    border-bottom:2px solid transparent;
+    transition:color .15s ease, border-color .15s ease;
+  }
+  .tab-btn.active{color:var(--core);border-bottom-color:var(--core);}
+  .tab-panel{display:none;}
+  .tab-panel.active{display:block;}
+
+  .pos-toggles{
+    display:flex;gap:8px;flex-wrap:wrap;
+    margin-bottom:16px;
+  }
+  .pos-toggle-btn{
+    appearance:none;
+    background:var(--panel);
+    border:1px solid var(--line);
+    color:var(--text-dim);
+    font-weight:800;font-size:0.78rem;letter-spacing:0.04em;
+    padding:7px 14px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:border-color .12s ease, color .12s ease, background .12s ease;
+  }
+  .pos-toggle-btn:hover{border-color:var(--text-dim);}
+  .pos-toggle-btn.active{
+    background:var(--core-dim);
+    border-color:var(--core);
+    color:var(--core);
+  }
+  .legend{
+    display:flex;gap:14px;flex-wrap:wrap;
+    font-size:0.72rem;color:var(--text-dim);
+    margin-bottom:20px;
+    text-transform:uppercase;letter-spacing:0.04em;
+  }
+  .legend .flag{
+    display:inline-flex;align-items:center;gap:5px;
+    background:var(--core-dim);color:var(--core);
+    border:1px solid var(--core);
+    border-radius:3px;padding:1px 6px;
+    font-weight:700;font-size:0.68rem;
+  }
+
+  section.pos-block{margin-bottom:30px;}
+  .pos-head{
+    display:flex;align-items:center;gap:10px;
+    margin-bottom:10px;
+  }
+  .pos-badge{
+    font-weight:800;font-size:0.78rem;letter-spacing:0.06em;
+    padding:4px 10px;border-radius:5px;
+    color:#0a0c10;
+  }
+  .pos-badge.QB{background:var(--qb);}
+  .pos-badge.RB{background:var(--rb);}
+  .pos-badge.WR{background:var(--wr);}
+  .pos-badge.TE{background:var(--te);}
+  .pos-badge.K{background:var(--k);}
+  .pos-badge.DST{background:var(--dst);}
+  .pos-count{color:var(--text-dim);font-size:0.75rem;}
+  .pos-head hr{flex:1;border:none;border-top:1px solid var(--line);}
+
+  .card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-left:3px solid var(--line);
+    border-radius:6px;
+    padding:12px 14px;
+    margin-bottom:8px;
+    display:grid;
+    grid-template-columns:34px 1fr;
+    column-gap:12px;
+    row-gap:4px;
+    align-items:start;
+    transition:border-color .15s ease, background .15s ease;
+  }
+  .card.is-core{
+    border-left-color:var(--core);
+    background:linear-gradient(90deg, rgba(232,163,61,0.07), var(--panel) 12%);
+  }
+  .card .rank{
+    color:var(--text-dim);
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    font-size:0.85rem;
+    padding-top:1px;
+  }
+  .card.is-core .rank{color:var(--core);}
+  .row-name{
+    display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  }
+  .player-name{font-weight:700;font-size:0.95rem;}
+  .core-flag{
+    display:inline-flex;align-items:center;gap:4px;
+    background:var(--core-dim);color:var(--core);
+    border:1px solid var(--core);
+    border-radius:3px;padding:1px 7px;
+    font-size:0.65rem;font-weight:800;letter-spacing:0.06em;
+    text-transform:uppercase;
+  }
+  .core-flag::before{content:"\25B2";font-size:0.6rem;}
+  .proj-line{
+    grid-column:2;
+    display:flex;gap:10px;flex-wrap:wrap;
+    font-size:0.72rem;font-weight:700;
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+  }
+  .proj-line.proj-QB{color:var(--qb);}
+  .proj-line.proj-RB{color:var(--rb);}
+  .proj-line.proj-WR{color:var(--wr);}
+  .proj-line.proj-TE{color:var(--te);}
+  .proj-line.proj-K{color:var(--k);}
+  .proj-line.proj-DST{color:var(--dst);}
+  .note{
+    grid-column:2;
+    color:var(--text-dim);
+    font-size:0.86rem;
+    line-height:1.4;
+  }
+
+  .empty-state, .error-state{
+    color:var(--text-dim);text-align:center;padding:40px 0;font-size:0.9rem;
+  }
+
+  /* Depth chart tab */
+  .team-select{
+    width:100%;
+    max-width:220px;
+    margin-bottom:16px;
+    padding:10px 12px;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:8px;
+    color:var(--text);
+    font-size:0.88rem;
+    font-weight:700;
+    letter-spacing:0.02em;
+    appearance:none;
+    -webkit-appearance:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a93a3' stroke-width='2'><polyline points='6 9 12 15 18 9'/></svg>");
+    background-repeat:no-repeat;
+    background-position:right 12px center;
+    background-size:16px;
+    padding-right:36px;
+    cursor:pointer;
+  }
+  .team-select:focus{outline:none;border-color:var(--core);}
+
+  .depth-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));
+    gap:14px;
+  }
+  .depth-col{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:10px 12px 12px;
+  }
+  .depth-col-head{
+    display:flex;align-items:center;justify-content:space-between;
+    margin-bottom:6px;
+  }
+  .depth-row{
+    display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;
+    padding:4px 0;
+    border-bottom:1px solid rgba(255,255,255,0.04);
+    font-size:0.82rem;
+  }
+  .depth-row:last-child{border-bottom:none;}
+  .depth-row .d-num{
+    color:var(--text-dim);
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    font-size:0.72rem;
+    width:14px;flex-shrink:0;
+  }
+  .depth-row .d-name{flex:1;font-weight:600;}
+  .depth-row .d-note-flag{
+    color:var(--core);
+    font-size:0.68rem;
+    flex-shrink:0;
+  }
+  .depth-row .d-note-text{
+    flex-basis:100%;
+    color:var(--core);
+    font-size:0.74rem;
+    line-height:1.35;
+    padding:2px 0 2px 22px;
+  }
+  .depth-more-btn{
+    appearance:none;background:none;border:none;
+    color:var(--text-dim);
+    font-size:0.72rem;font-weight:700;
+    padding:6px 0 2px;
+    cursor:pointer;
+    text-decoration:underline;
+    text-underline-offset:2px;
+  }
+  .depth-more-btn:hover{color:var(--core);}
+  .depth-row.hidden-row{display:none;}
+
+  @media (max-width:520px){
+    header.masthead{flex-direction:column;align-items:flex-start;}
+    header.masthead .updated{text-align:left;}
+    .title-block h1{font-size:1.25rem;}
+    .depth-grid{grid-template-columns:repeat(2, 1fr);}
+    .team-select{max-width:none;}
+  }
+
+  /* ===================== Jabroni Hunt module ===================== */
+  #jh-root{border:1px solid var(--line);border-radius:8px;overflow:hidden;}
+  .jh-blurb{color:var(--text-dim);font-size:0.86rem;line-height:1.45;margin:0 0 14px;max-width:64ch;}
+#jh-root{
+  --ink:#0E1016;
+  --panel:#171A24;
+  --panel-2:#1F2431;
+  --line:#2C3242;
+  --dim:#7A8194;
+  --chalk:#E9F2E4;
+  --gold:#FFC72C;
+  --red:#EF4136;
+  --cyan:#46D6E0;
+  --grass:#3E8E41;
+  --px:'Press Start 2P', ui-monospace, monospace;
+  --sans:'Barlow Condensed', 'Arial Narrow', system-ui, sans-serif;
+}
+#jh-root *{box-sizing:border-box}
+#jh-root{
+  margin:0; background:var(--ink); color:var(--chalk);
+  font-family:var(--sans);
+  -webkit-text-size-adjust:100%;
+  overscroll-behavior:none;
+}
+#jh-root .jh-stage{
+  max-width:760px; margin:0 auto; padding:10px 10px 14px;
+  display:flex; flex-direction:column; gap:8px;
+}
+#jh-root /* ---------- HUD ---------- */
+.jh-hud{
+  display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:10px;
+  background:var(--panel); border:2px solid var(--line); border-bottom-width:3px;
+  padding:8px 10px;
+}
+#jh-root .jh-hud .jh-stat{font-family:var(--px); font-size:9px; line-height:1.6; letter-spacing:.04em}
+#jh-root .jh-hud .jh-stat b{color:var(--gold); font-weight:400}
+#jh-root .jh-hud .jh-title{
+  font-family:var(--px); font-size:11px; text-align:center; color:var(--chalk);
+  letter-spacing:.06em;
+}
+#jh-root .jh-hud .jh-title span{display:block; font-family:var(--sans); font-size:12px; letter-spacing:.22em; color:var(--dim); margin-top:5px; text-transform:uppercase}
+#jh-root .jh-right{text-align:right}
+#jh-root /* roster chips */
+.jh-roster{display:flex; gap:4px; justify-content:center; flex-wrap:wrap}
+#jh-root .jh-chip{
+  font-family:var(--px); font-size:8px; padding:5px 6px;
+  background:var(--panel-2); border:2px solid var(--line); color:var(--dim);
+}
+#jh-root .jh-chip[data-s="live"]{border-color:var(--gold); color:var(--gold); animation:blink 1s steps(2,end) infinite}
+#jh-root .jh-chip[data-s="done"]{border-color:var(--grass); color:var(--grass); background:#14251A}
+#jh-root 50%{opacity:.45}
+#jh-root /* ---------- screen ---------- */
+.jh-screen{position:relative; border:3px solid var(--line); background:#0a1a0c; line-height:0}
+#jh-root canvas{width:100%; height:auto; display:block; image-rendering:pixelated; image-rendering:crisp-edges; touch-action:none;}
+#jh-root .jh-scan{
+  position:absolute; inset:0; pointer-events:none;
+  background:repeating-linear-gradient(to bottom, rgba(0,0,0,.22) 0 1px, rgba(0,0,0,0) 1px 3px);
+  mix-blend-mode:multiply;
+}
+#jh-root .jh-banner{
+  position:absolute; left:0; right:0; top:34%; pointer-events:none;
+  text-align:center; font-family:var(--px); line-height:1.8;
+  opacity:0; transition:opacity .16s;
+}
+#jh-root .jh-banner.jh-on{opacity:1}
+#jh-root .jh-banner .jh-k{font-size:9px; color:var(--gold); letter-spacing:.14em; text-shadow:2px 2px 0 #000}
+#jh-root .jh-banner .jh-n{font-size:16px; color:#fff; text-shadow:3px 3px 0 #000, 0 0 12px rgba(0,0,0,.8); margin-top:8px}
+#jh-root .jh-banner .jh-m{font-size:9px; color:var(--cyan); text-shadow:2px 2px 0 #000; margin-top:8px}
+#jh-root /* start / win overlay */
+.jh-over{
+  position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:12px; background:rgba(8,10,16,.93); text-align:center; padding:16px; line-height:1.5;
+}
+#jh-root .jh-over[hidden]{display:none}
+#jh-root .jh-over h1{font-family:var(--px); font-size:20px; margin:0; color:var(--gold); text-shadow:3px 3px 0 #000; letter-spacing:.04em}
+#jh-root .jh-over h2{font-family:var(--px); font-size:12px; margin:0; color:#fff; text-shadow:2px 2px 0 #000}
+#jh-root .jh-over p{font-size:16px; margin:0; color:var(--dim); max-width:44ch; line-height:1.35}
+#jh-root .jh-over .jh-keys{font-family:var(--px); font-size:8px; color:var(--dim); line-height:2.2}
+#jh-root .jh-btn{
+  font-family:var(--px); font-size:11px; padding:12px 18px; cursor:pointer;
+  background:var(--gold); color:#101218; border:0; border-bottom:4px solid #A97F12;
+}
+#jh-root .jh-btn:active{transform:translateY(2px); border-bottom-width:2px}
+#jh-root .jh-btn:focus-visible{outline:3px solid var(--cyan); outline-offset:2px}
+#jh-root .jh-tally{display:flex; flex-wrap:wrap; gap:6px; justify-content:center; max-width:100%}
+#jh-root .jh-tally span{font-family:var(--px); font-size:8px; padding:5px 6px; border:2px solid var(--grass); color:var(--grass)}
+#jh-root /* ---------- reason slots ---------- */
+.jh-reasons{display:grid; grid-template-columns:repeat(3,1fr); gap:6px}
+#jh-root .jh-slot{
+  background:var(--panel); border:2px solid var(--line); padding:8px 9px; min-height:78px;
+  display:flex; flex-direction:column; gap:6px;
+}
+#jh-root .jh-slot .jh-lab{font-family:var(--px); font-size:7px; color:var(--dim); letter-spacing:.08em}
+#jh-root .jh-slot .jh-txt{font-size:15px; line-height:1.2; color:#3A4051}
+#jh-root .jh-slot[data-on="1"]{border-color:var(--gold); background:#201D10}
+#jh-root .jh-slot[data-on="1"] .jh-lab{color:var(--gold)}
+#jh-root .jh-slot[data-on="1"] .jh-txt{color:var(--chalk)}
+#jh-root /* ---------- controls ---------- */
+.jh-ctrl{display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:10px; margin-top:2px}
+#jh-root .jh-dpad{display:grid; grid-template-columns:repeat(3,46px); grid-template-rows:repeat(3,42px); gap:4px}
+#jh-root .jh-dpad button{
+  background:var(--panel-2); border:2px solid var(--line); color:var(--chalk);
+  font-size:20px; line-height:1; cursor:pointer; touch-action:none; user-select:none;
+  -webkit-user-select:none; padding:0;
+}
+#jh-root .jh-dpad button:active, #jh-root .jh-dpad button[data-h="1"]{background:var(--gold); color:#101218}
+#jh-root .jh-dpad .jh-sp{visibility:hidden}
+#jh-root .jh-fire{
+  width:104px; height:104px; border-radius:50%; background:var(--red); color:#fff;
+  border:0; border-bottom:6px solid #8E211A; font-family:var(--px); font-size:13px;
+  cursor:pointer; touch-action:none; user-select:none; -webkit-user-select:none;
+}
+#jh-root .jh-fire:active, #jh-root .jh-fire[data-h="1"]{transform:translateY(3px); border-bottom-width:3px}
+#jh-root .jh-hint{font-family:var(--px); font-size:7px; color:var(--dim); text-align:center; line-height:2.1}
+#jh-root .jh-mute{
+  font-family:var(--px); font-size:8px; background:var(--panel-2); color:var(--dim);
+  border:2px solid var(--line); padding:6px 8px; cursor:pointer;
+}
+#jh-root .jh-foot{font-size:13px; color:#4B5162; text-align:center; letter-spacing:.04em; text-transform:uppercase}
+@media (max-width:520px){
+#jh-root .jh-hud{grid-template-columns:1fr 1fr; gap:6px}
+#jh-root .jh-hud .jh-title{grid-column:1 / -1; order:-1}
+#jh-root .jh-reasons{grid-template-columns:1fr}
+#jh-root .jh-slot{min-height:0}
+#jh-root .jh-dpad{grid-template-columns:repeat(3,42px); grid-template-rows:repeat(3,38px)}
+@media (prefers-reduced-motion:reduce){
+#jh-root *{animation:none !important}
+  /* host overrides — after the module CSS so they win */
+  #jh-root .jh-stage{max-width:none;}
+  #jh-root .jh-title{font-size:10px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="title-block">
+        <h1>NFL Sunday <span class="accent">Best</span></h1>
+        <div class="sub" id="slate-sub">In-Season Core Plays</div>
+      </div>
+      <div class="updated" id="updated"><span class="dot"></span>loading&hellip;</div>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="core">Core Plays</button>
+      <button class="tab-btn" data-tab="depth">Depth Charts</button>
+      <button class="tab-btn" data-tab="jabroni">Jabroni Hunt</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-core">
+      <div class="pos-toggles" id="pos-toggles"></div>
+
+      <div class="legend">
+        <span class="flag">&#9650; CORE</span>
+        <span>= our top-conviction plays this week</span>
+      </div>
+
+      <div id="content">
+        <div class="empty-state">Loading slate&hellip;</div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-depth">
+      <div class="pos-toggles" id="day-toggles"></div>
+      <select class="team-select" id="team-select"></select>
+      <div class="legend">
+        <span class="flag" style="color:var(--core);border-color:var(--core);">&#9679;</span>
+        <span>&#9873; = injury or usage note</span>
+      </div>
+      <div id="depth-content">
+        <div class="empty-state">Loading depth charts&hellip;</div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-jabroni">
+      <p class="jh-blurb">This week&rsquo;s five value plays are loose on the field. Tag each one three times &mdash; every hit reveals one reason the model likes him. The number over his head is his projected DK points.</p>
+      <div id="jh-root">
+<div class="jh-stage">
+  <div class="jh-hud">
+    <div class="jh-stat">SCORE<br><b id="jhSScore">0</b></div>
+    <div class="jh-title"><span id="jhSWeek">Loading slate</span></div>
+    <div class="jh-stat jh-right">HITS / SHOTS<br><b id="jhSAcc">0/0</b></div>
+  </div>
+
+  <div class="jh-roster" id="jhRoster"></div>
+
+  <div class="jh-screen">
+    <canvas id="jhCv" width="320" height="180"></canvas>
+    <div class="jh-scan"></div>
+    <div class="jh-banner" id="jhBanner">
+      <div class="jh-k" id="jhBK">NOW ENTERING</div>
+      <div class="jh-n" id="jhBN">PLAYER</div>
+      <div class="jh-m" id="jhBM">RB · NE @ SEA · 8.5 DK</div>
+    </div>
+
+    <div class="jh-over" id="jhOvStart">
+      <h1>JABRONI HUNT</h1>
+      <p>Five value plays are loose on the field. Tag each one three times &mdash; every hit reveals a reason the model likes him this week. The number over his head is his projected DK points.</p>
+      <button class="jh-btn" id="jhBtnStart">PRESS START</button>
+      <div class="jh-keys">ARROWS / WASD = AIM &nbsp;·&nbsp; SPACE = SHOOT<br>ON PHONE: DRAG THE FIELD TO AIM, OR USE THE D&#8209;PAD</div>
+    </div>
+
+    <div class="jh-over" id="jhOvWin" hidden>
+      <h1 id="jhWinH">SLATE CLEARED</h1>
+      <h2 id="jhWinS">15 PTS</h2>
+      <div class="jh-tally" id="jhWinT"></div>
+      <button class="jh-btn" id="jhBtnAgain">RUN IT BACK</button>
+    </div>
+  </div>
+
+  <div class="jh-reasons" id="jhReasons">
+    <div class="jh-slot" data-on="0"><div class="jh-lab">HIT 1</div><div class="jh-txt">Locked</div></div>
+    <div class="jh-slot" data-on="0"><div class="jh-lab">HIT 2</div><div class="jh-txt">Locked</div></div>
+    <div class="jh-slot" data-on="0"><div class="jh-lab">HIT 3</div><div class="jh-txt">Locked</div></div>
+  </div>
+
+  <div class="jh-ctrl">
+    <div class="jh-dpad">
+      <button class="jh-sp"></button><button data-d="up" aria-label="Aim up">&#9650;</button><button class="jh-sp"></button>
+      <button data-d="left" aria-label="Aim left">&#9664;</button><button class="jh-sp"></button><button data-d="right" aria-label="Aim right">&#9654;</button>
+      <button class="jh-sp"></button><button data-d="down" aria-label="Aim down">&#9660;</button><button class="jh-sp"></button>
+    </div>
+    <div>
+      <div class="jh-hint">DRAG FIELD<br>OR D&#8209;PAD</div>
+      <div style="text-align:center;margin-top:6px"><button class="jh-mute" id="jhBtnMute">SOUND: ON</button></div>
+    </div>
+    <button class="jh-fire" id="jhBtnFire" aria-label="Shoot">FIRE</button>
+  </div>
+
+  <div class="jh-foot" id="jhFoot">Explanation only &mdash; not a bet recommendation</div>
+</div>
+
+      </div>
+    </div>
+
+  </div>
+
+<script>
+const DATA_URL = "nfl_inseason.json";
+// kept so an un-renamed data file still loads
+const DATA_URL_FALLBACK = "nfl_preseason.json";
+const POS_ORDER = ["QB", "RB", "WR", "TE", "K"];
+const DEFAULT_VISIBLE = 3; // rows shown per position before "+N more"
+
+function fmtTimestamp(iso){
+  try{
+    const d = new Date(iso);
+    return d.toLocaleString(undefined, {
+      month:"short", day:"numeric", hour:"numeric", minute:"2-digit", timeZoneName:"short"
+    });
+  }catch(e){ return iso; }
+}
+
+function escapeHtml(str){
+  return (str || "").replace(/[&<>"']/g, m => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+  }[m]));
+}
+
+/* ---------- Tabs ---------- */
+document.querySelectorAll(".tab-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+    const onJabroni = btn.dataset.tab === "jabroni";
+    if (JH.active !== onJabroni){
+      JH.active = onJabroni;
+      (onJabroni ? JH.onShow : JH.onHide)?.();
+    }
+  });
+});
+
+/* ---------- Core Plays tab ---------- */
+function renderSection(section){
+  const posClass = section.position.toUpperCase();
+  const rows = section.players.map(p => {
+    const projBits = [];
+    if (p.salary != null) projBits.push(`$${p.salary.toLocaleString()}`);
+    if (p.fpts != null) projBits.push(`${p.fpts} FPTS`);
+    if (p.opp) projBits.push(`vs ${escapeHtml(p.opp)}`);
+    const projLine = projBits.length
+      ? `<div class="proj-line proj-${posClass}">${projBits.join(" &middot; ")}</div>`
+      : "";
+
+    return `
+    <div class="card ${p.core ? "is-core" : ""}">
+      <div class="rank">${p.rank}</div>
+      <div class="row-name">
+        <span class="player-name">${escapeHtml(p.players)}</span>
+        ${p.core ? '<span class="core-flag">Core</span>' : ""}
+      </div>
+      <div class="note">${escapeHtml(p.notes)}</div>
+      ${projLine}
+    </div>
+  `;
+  }).join("");
+
+  return `
+    <section class="pos-block" data-position="${posClass}">
+      <div class="pos-head">
+        <span class="pos-badge ${posClass}">${posClass}</span>
+        <span class="pos-count">${section.players.length} ranked</span>
+        <hr>
+      </div>
+      ${rows}
+    </section>
+  `;
+}
+
+function applyFilter(){
+  document.querySelectorAll("section.pos-block").forEach(sec => {
+    const posMatchesToggle = ACTIVE_POS === "ALL" || sec.dataset.position === ACTIVE_POS;
+    sec.style.display = posMatchesToggle ? "" : "none";
+  });
+}
+
+let ACTIVE_POS = "ALL";
+
+function renderPosToggles(sections){
+  const toggles = document.getElementById("pos-toggles");
+  const positions = sections.map(s => s.position.toUpperCase());
+  const buttons = ["ALL", ...positions];
+  toggles.innerHTML = buttons.map(p =>
+    `<button class="pos-toggle-btn ${p === ACTIVE_POS ? "active" : ""}" data-pos="${p}">${p === "ALL" ? "All" : p}</button>`
+  ).join("");
+  toggles.querySelectorAll(".pos-toggle-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      ACTIVE_POS = btn.dataset.pos;
+      toggles.querySelectorAll(".pos-toggle-btn").forEach(b => b.classList.toggle("active", b === btn));
+      applyFilter();
+    });
+  });
+}
+
+/* ---------- Depth Charts tab ---------- */
+let DEPTH_DATA = {};      // {"today": {date, teams:{TEAM:{...}}}, "tomorrow": {...}}
+let ACTIVE_DAY = "today";
+
+function renderDayToggles(){
+  const toggles = document.getElementById("day-toggles");
+  const days = ["today", "tomorrow"].filter(d => DEPTH_DATA[d]);
+  toggles.innerHTML = days.map(d => {
+    const label = d === "today" ? "Today" : "Tomorrow";
+    const date = DEPTH_DATA[d].date ? ` (${DEPTH_DATA[d].date})` : "";
+    return `<button class="pos-toggle-btn ${d === ACTIVE_DAY ? "active" : ""}" data-day="${d}">${label}${date}</button>`;
+  }).join("");
+  toggles.querySelectorAll(".pos-toggle-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      ACTIVE_DAY = btn.dataset.day;
+      toggles.querySelectorAll(".pos-toggle-btn").forEach(b => b.classList.toggle("active", b === btn));
+      renderTeamPicker();
+    });
+  });
+}
+
+function renderTeamPicker(){
+  const select = document.getElementById("team-select");
+  const teamsForDay = (DEPTH_DATA[ACTIVE_DAY] && DEPTH_DATA[ACTIVE_DAY].teams) || {};
+  const teams = Object.keys(teamsForDay).sort();
+
+  if (!teams.length){
+    select.innerHTML = "";
+    document.getElementById("depth-content").innerHTML =
+      `<div class="empty-state">No games ${ACTIVE_DAY === "today" ? "tonight" : "tomorrow"}.</div>`;
+    return;
+  }
+
+  select.innerHTML = teams.map(t => `<option value="${t}">${t}</option>`).join("");
+  select.onchange = () => renderDepthChart(select.value);
+  renderDepthChart(teams[0]);
+}
+
+function renderDepthChart(team){
+  const teamsForDay = (DEPTH_DATA[ACTIVE_DAY] && DEPTH_DATA[ACTIVE_DAY].teams) || {};
+  const positions = teamsForDay[team] || {};
+  const orderedPos = POS_ORDER.filter(p => positions[p] && positions[p].length);
+
+  if (!orderedPos.length){
+    document.getElementById("depth-content").innerHTML =
+      '<div class="empty-state">No depth chart data for this team.</div>';
+    return;
+  }
+
+  const cols = orderedPos.map(pos => {
+    const players = positions[pos];
+    const rows = players.map((p, i) => `
+      <div class="depth-row ${i >= DEFAULT_VISIBLE ? "hidden-row" : ""}">
+        <span class="d-num">${p.depth}</span>
+        <span class="d-name">${escapeHtml(p.name)}</span>
+        ${p.note ? `<span class="d-note-flag">&#9873;</span><span class="d-note-text">${escapeHtml(p.note)}</span>` : ""}
+      </div>
+    `).join("");
+
+    const extra = players.length - DEFAULT_VISIBLE;
+    const moreBtn = extra > 0
+      ? `<button class="depth-more-btn" type="button">+${extra} more</button>`
+      : "";
+
+    return `
+      <div class="depth-col" data-position="${pos}">
+        <div class="depth-col-head">
+          <span class="pos-badge ${pos}">${pos}</span>
+        </div>
+        ${rows}
+        ${moreBtn}
+      </div>
+    `;
+  }).join("");
+
+  document.getElementById("depth-content").innerHTML =
+    `<div class="depth-grid">${cols}</div>`;
+
+  document.querySelectorAll(".depth-more-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const col = btn.closest(".depth-col");
+      col.querySelectorAll(".hidden-row").forEach(r => r.classList.remove("hidden-row"));
+      btn.remove();
+    });
+  });
+}
+
+/* ---------- Load ---------- */
+fetch(DATA_URL, {cache: "no-store"})
+  .then(res => res.ok ? res : fetch(DATA_URL_FALLBACK, {cache: "no-store"}))
+  .then(res => {
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  })
+  .then(data => {
+    document.getElementById("updated").innerHTML =
+      `<span class="dot"></span>Updated ${fmtTimestamp(data.updated)}`;
+
+    const content = document.getElementById("content");
+    if (!data.sections || !data.sections.length){
+      content.innerHTML = '<div class="empty-state">No data available.</div>';
+    } else {
+      content.innerHTML = data.sections.map(renderSection).join("");
+      renderPosToggles(data.sections);
+    }
+
+    // Jabroni Hunt reads the same payload. build_slate.py --merge-into writes
+    // the slate under data.jabroni; without it the module keeps its built-in one.
+    if (data.jabroni) JH.setSlate?.(data.jabroni);
+    const wk = data.jabroni && data.jabroni.meta && data.jabroni.meta.week;
+    if (wk) document.getElementById("slate-sub").textContent = `Week ${wk} Core Plays`;
+
+    DEPTH_DATA = data.depth_charts || {};
+    if (Object.keys(DEPTH_DATA).length){
+      renderDayToggles();
+      renderTeamPicker();
+    } else {
+      document.getElementById("depth-content").innerHTML =
+        '<div class="empty-state">No depth chart data available.</div>';
+    }
+  })
+  .catch(err => {
+    document.getElementById("updated").textContent = "Update failed";
+    const msg = `<div class="error-state">Couldn't load slate data (${escapeHtml(err.message)}). Check that nfl_inseason.json exists at the repo root.</div>`;
+    document.getElementById("content").innerHTML = msg;
+    document.getElementById("depth-content").innerHTML = msg;
+  });
+</script>
+
+<script>
+/* ============ Jabroni Hunt (isolated module) ============ */
+const JH = { active:false, mounted:false, onShow:null, onHide:null, setSlate:null };
+(function(){
+
+/* ============================================================
+   1. DATA  —  swap this block for your real weekly feed.
+   ============================================================ */
+let GAME = {
+  "meta": {
+    "season": 2026,
+    "week": 1,
+    "label": "NFL \u00b7 Week 1 value plays",
+    "float_metric": "proj",
+    "source_files": [
+      "NFLWeeklyIndependentPlayerProjection.csv",
+      "NFLWeeklyIndependentTeamProjection.csv",
+      "NFLWeeklyInsightAIExport.csv"
+    ]
+  },
+  "plays": [
+    {
+      "rg_id": 8223312,
+      "name": "TREVEYON HENDERSON",
+      "first": "TreVeyon",
+      "pos": "RB",
+      "team": "NE",
+      "opp": "SEA",
+      "home_away": "away",
+      "num": null,
+      "proj": 8.5,
+      "salary": null,
+      "depth": 3,
+      "spread": 3.5,
+      "total": 44.5,
+      "implied": 20.5,
+      "colors": {
+        "jersey": "#002244",
+        "trim": "#C60C30",
+        "pants": "#B0B7BC",
+        "helmet": "#002244",
+        "skin": "#B07B52"
+      },
+      "reasons": [
+        "TreVeyon Henderson's receiving yards mean is 18.0% above the robust market center (capped at the Week 1 limit). Projection 8.85; market center 7.50.",
+        "TreVeyon Henderson's rushing yards mean is 18.0% above the robust market center (capped at the Week 1 limit). Projection 34.81; market center 29.50.",
+        "TreVeyon Henderson's simulated RUSH_ATT distribution leans over the quoted line. Line 7.50; model over 63.3%."
+      ],
+      "concepts": [
+        "RB_MARKET_MEAN_LEAN",
+        "RB_MARKET_MEAN_LEAN",
+        "RB_MARKET_MEAN_LEAN"
+      ]
+    },
+    {
+      "rg_id": 3492191,
+      "name": "KYREN WILLIAMS",
+      "first": "Kyren",
+      "pos": "RB",
+      "team": "LAR",
+      "opp": "SF",
+      "home_away": "home",
+      "num": null,
+      "proj": 13.4,
+      "salary": null,
+      "depth": 2,
+      "spread": -3.5,
+      "total": 48.5,
+      "implied": 26.0,
+      "colors": {
+        "jersey": "#003594",
+        "trim": "#FFA300",
+        "pants": "#E8E9EA",
+        "helmet": "#003594",
+        "skin": "#B07B52"
+      },
+      "reasons": [
+        "Kyren Williams projects for a lead-back rushing share. 56.8% of team designed rushes and 13.70 carries under Koerner usage.",
+        "Kyren Williams's receiving yards mean is 18.0% above the robust market center (capped at the Week 1 limit). Projection 12.39; market center 10.50.",
+        "Kyren Williams's rushing yards mean is 9.3% above the robust market center. Projection 61.78; market center 56.50."
+      ],
+      "concepts": [
+        "RB_RUSH_SHARE",
+        "RB_MARKET_MEAN_LEAN",
+        "RB_MARKET_MEAN_LEAN"
+      ]
+    },
+    {
+      "rg_id": 8222999,
+      "name": "HAROLD FANNIN",
+      "first": "Harold",
+      "pos": "TE",
+      "team": "CLE",
+      "opp": "JAC",
+      "home_away": "away",
+      "num": null,
+      "proj": 10.1,
+      "salary": null,
+      "depth": 11,
+      "spread": 7.5,
+      "total": 40.5,
+      "implied": 16.5,
+      "colors": {
+        "jersey": "#311D00",
+        "trim": "#FF3C00",
+        "pants": "#E8E9EA",
+        "helmet": "#FF3C00",
+        "skin": "#B07B52"
+      },
+      "reasons": [
+        "Harold Fannin has a concentrated projected target share. Target share 23.0%; 6.20 targets.",
+        "Harold Fannin's receiving yards mean is 9.8% above the robust market center. Projection 40.09; market center 36.50.",
+        "Harold Fannin has an upper-quartile TE DFS ceiling. DK mean 10.14; p10 3.03."
+      ],
+      "concepts": [
+        "RECEIVER_TARGET_SHARE",
+        "RECEIVER_MARKET_MEAN_LEAN",
+        "RECEIVER_DFS_CEILING"
+      ]
+    },
+    {
+      "rg_id": 2861778,
+      "name": "JAYLEN WADDLE",
+      "first": "Jaylen",
+      "pos": "WR",
+      "team": "DEN",
+      "opp": "KC",
+      "home_away": "away",
+      "num": null,
+      "proj": 12.5,
+      "salary": null,
+      "depth": 6,
+      "spread": 3.0,
+      "total": 42.5,
+      "implied": 19.75,
+      "colors": {
+        "jersey": "#FB4F14",
+        "trim": "#002244",
+        "pants": "#E8E9EA",
+        "helmet": "#002244",
+        "skin": "#B07B52"
+      },
+      "reasons": [
+        "Jaylen Waddle has a concentrated projected target share. Target share 22.4%; 6.89 targets.",
+        "Jaylen Waddle's receiving yards mean is 11.2% above the robust market center. Projection 61.74; market center 55.50.",
+        "Jaylen Waddle has an upper-quartile WR DFS ceiling. DK mean 13.17; p10 4.10."
+      ],
+      "concepts": [
+        "RECEIVER_TARGET_SHARE",
+        "RECEIVER_MARKET_MEAN_LEAN",
+        "RECEIVER_DFS_CEILING"
+      ]
+    },
+    {
+      "rg_id": 8223333,
+      "name": "TYLER SHOUGH",
+      "first": "Tyler",
+      "pos": "QB",
+      "team": "NO",
+      "opp": "DET",
+      "home_away": "away",
+      "num": null,
+      "proj": 17.7,
+      "salary": null,
+      "depth": 1,
+      "spread": 7.0,
+      "total": 49.5,
+      "implied": 21.25,
+      "colors": {
+        "jersey": "#101820",
+        "trim": "#D3BC8D",
+        "pants": "#D3BC8D",
+        "helmet": "#D3BC8D",
+        "skin": "#B07B52"
+      },
+      "reasons": [
+        "Tyler Shough's rushing yards mean is 18.0% above the robust market center (capped at the Week 1 limit). Projection 18.29; market center 15.50.",
+        "Tyler Shough has meaningful projected mobility. Koerner-driven rush attempts 4.40; projected rushing yards 18.29.",
+        "Tyler Shough's simulated PASS_ATT distribution leans over the quoted line. Line 32.50; model over 64.8%."
+      ],
+      "concepts": [
+        "QB_MARKET_MEAN_LEAN",
+        "QB_MOBILITY",
+        "QB_MARKET_MEAN_LEAN"
+      ]
+    }
+  ]
+};
+
+/* Optional: drop in Suno MP3 URLs and they replace the synth automatically. */
+const AUDIO_FILES = { bgm:null, victory:null };
+
+/* ============================================================
+   2. TINY BITMAP FONT (in-field salary text)
+   ============================================================ */
+const G = {
+ '0':['111','101','101','101','111'],'1':['010','110','010','010','111'],
+ '2':['111','001','111','100','111'],'3':['111','001','111','001','111'],
+ '4':['101','101','111','001','001'],'5':['111','100','111','001','111'],
+ '6':['111','100','111','101','111'],'7':['111','001','010','010','010'],
+ '8':['111','101','111','101','111'],'9':['111','101','111','001','111'],
+ '$':['111','100','111','001','111'],',':['0','0','0','1','1'],'.':['0','0','0','0','1'],
+ 'K':['101','110','100','110','101'],
+ // Jersey numbers are not in the weekly exports, so the chest falls back to
+ // the position code. Q/B/R/W/T/E are the only letters that needs.
+ 'Q':['111','101','101','111','011'],'B':['110','101','110','101','110'],
+ 'R':['110','101','110','101','101'],'W':['101','101','101','111','010'],
+ 'T':['111','010','010','010','010'],'E':['111','100','110','100','111']
+};
+function textW(s){ let w=0; for(const c of s){ const g=G[c]; w += (g?g[0].length:2)+1; } return w-1; }
+function drawText(c,s,x,y,col){
+  c.fillStyle=col;
+  let cx=x;
+  for(const ch of s){ const g=G[ch]; if(!g){cx+=3;continue;}
+    for(let r=0;r<5;r++) for(let k=0;k<g[r].length;k++) if(g[r][k]==='1') c.fillRect(cx+k,y+r,1,1);
+    if(ch==='$') c.fillRect(cx+1,y-1,1,7);   // dollar-sign stem
+    cx += g[0].length+1;
+  }
+}
+function drawTextOut(c,s,x,y,col){
+  drawText(c,s,x-1,y,'#0b0d12'); drawText(c,s,x+1,y,'#0b0d12');
+  drawText(c,s,x,y-1,'#0b0d12'); drawText(c,s,x,y+1,'#0b0d12');
+  drawText(c,s,x,y,col);
+}
+
+/* ============================================================
+   3. AUDIO  —  NES-ish synth, zero files
+   ============================================================ */
+const Audio_ = {
+  ctx:null, master:null, on:true, bgmTimer:null, step:0, next:0, files:{},
+  init(){
+    if(this.ctx) return;
+    const AC = window.AudioContext || window.webkitAudioContext; if(!AC) return;
+    this.ctx = new AC();
+    this.master = this.ctx.createGain(); this.master.gain.value=0.5; this.master.connect(this.ctx.destination);
+    for(const k in AUDIO_FILES){ if(AUDIO_FILES[k]){ const a=new Audio(AUDIO_FILES[k]); a.preload='auto'; if(k==='bgm'){a.loop=true;} this.files[k]=a; } }
+  },
+  blip(freq, dur, type='square', vol=0.18, slide=0){
+    if(!this.on || !this.ctx) return;
+    const t=this.ctx.currentTime, o=this.ctx.createOscillator(), g=this.ctx.createGain();
+    o.type=type; o.frequency.setValueAtTime(freq,t);
+    if(slide) o.frequency.exponentialRampToValueAtTime(Math.max(40,freq*slide), t+dur);
+    g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(0.0008, t+dur);
+    o.connect(g); g.connect(this.master); o.start(t); o.stop(t+dur+0.02);
+  },
+  noise(dur, vol=0.2){
+    if(!this.on || !this.ctx) return;
+    const n=Math.floor(this.ctx.sampleRate*dur), b=this.ctx.createBuffer(1,n,this.ctx.sampleRate), d=b.getChannelData(0);
+    for(let i=0;i<n;i++) d[i]=(Math.random()*2-1)*(1-i/n);
+    const s=this.ctx.createBufferSource(); s.buffer=b;
+    const f=this.ctx.createBiquadFilter(); f.type='highpass'; f.frequency.value=900;
+    const g=this.ctx.createGain(); g.gain.value=vol;
+    s.connect(f); f.connect(g); g.connect(this.master); s.start();
+  },
+  shoot(){ this.noise(0.09,0.22); this.blip(680,0.07,'square',0.1,0.3); },
+  miss(){ this.blip(160,0.09,'triangle',0.12,0.7); },
+  hit(){ this.blip(520,0.06,'square',0.2); setTimeout(()=>this.blip(780,0.09,'square',0.2),55); },
+  enter(){ this.blip(392,0.09,'square',0.16); setTimeout(()=>this.blip(587,0.13,'square',0.16),95); },
+  clear(){ [523,659,784,1046].forEach((f,i)=>setTimeout(()=>this.blip(f,0.13,'square',0.18),i*80)); },
+  win(){
+    if(this.files.victory){ try{ this.files.victory.currentTime=0; this.files.victory.play(); }catch(e){} return; }
+    const seq=[[523,0],[659,110],[784,220],[1046,330],[880,470],[1046,560],[1318,700]];
+    seq.forEach(([f,d])=>setTimeout(()=>{ this.blip(f,0.22,'square',0.2); this.blip(f/2,0.22,'triangle',0.14); },d));
+  },
+  // simple 16-step arcade loop
+  bass:[110,0,110,0,146.8,0,110,0,98,0,98,0,130.8,0,146.8,0],
+  lead:[440,523,659,523,587,523,440,392,415,494,587,494,523,494,440,392],
+  startBgm(){
+    if(this.bgmTimer) return;
+    if(this.files.bgm){ try{ this.files.bgm.play(); }catch(e){} return; }
+    this.step=0;
+    this.bgmTimer=setInterval(()=>{
+      if(!this.on) return;
+      const s=this.step%16;
+      if(this.bass[s]) this.blip(this.bass[s],0.14,'triangle',0.10);
+      if(s%2===0) this.blip(this.lead[s],0.10,'square',0.055);
+      this.step++;
+    },140);
+  },
+  stopBgm(){ clearInterval(this.bgmTimer); this.bgmTimer=null; if(this.files.bgm) this.files.bgm.pause(); }
+};
+
+/* ============================================================
+   4. FIELD (prerendered)
+   ============================================================ */
+const W=320, H=180;
+const cv=document.getElementById('jhCv'), ctx=cv.getContext('2d');
+ctx.imageSmoothingEnabled=false;
+
+const FIELD = { x0:0, x1:W, y0:26, y1:170 };   // play bounds for sprites
+const field = document.createElement('canvas'); field.width=W; field.height=H;
+(function buildField(){
+  const c=field.getContext('2d');
+  // sky / stands
+  c.fillStyle='#141824'; c.fillRect(0,0,W,H);
+  for(let i=0;i<W;i+=4){
+    c.fillStyle = ['#232941','#1D2237','#2A3050'][(i/4)%3|0];
+    c.fillRect(i,0,3,14);
+  }
+  c.fillStyle='#0E1119'; c.fillRect(0,14,W,4);
+
+  // turf with mowed stripes
+  const top=18, bot=H;
+  for(let x=0;x<W;x+=16){
+    c.fillStyle = (x/16)%2 ? '#3E8E41' : '#377F3A';
+    c.fillRect(x,top,16,bot-top);
+  }
+  // end zones
+  c.fillStyle='#1E5F86'; c.fillRect(0,top,27,bot-top);
+  c.fillStyle='#8E1B2E'; c.fillRect(W-27,top,27,bot-top);
+
+  const fy0=22, fy1=H-6;
+  // yard lines every 5 yards across 100 yards -> 266px
+  const gx0=27, gx1=W-27, span=gx1-gx0;
+  for(let y=0;y<=20;y++){
+    const x=Math.round(gx0+span*(y/20));
+    c.fillStyle = (y%2===0) ? 'rgba(233,242,228,.92)' : 'rgba(233,242,228,.5)';
+    c.fillRect(x,fy0,1,fy1-fy0);
+  }
+  // hash marks
+  c.fillStyle='rgba(233,242,228,.55)';
+  for(let x=gx0;x<gx1;x+=2.66){
+    const xr=Math.round(x);
+    c.fillRect(xr, fy0+34, 1,2); c.fillRect(xr, fy1-36, 1,2);
+  }
+  // sideline
+  c.fillStyle='#E9F2E4'; c.fillRect(0,fy0-2,W,2); c.fillRect(0,fy1,W,2);
+  // yard numbers (bitmap)
+  const nums=['1','2','3','4','5','4','3','2','1'];
+  nums.forEach((n,i)=>{
+    const x=Math.round(gx0+span*((i+1)/10));
+    drawText(c, n+'0', x+3, fy0+9, 'rgba(233,242,228,.8)');
+    drawText(c, n+'0', x+3, fy1-15,'rgba(233,242,228,.8)');
+  });
+  // goal posts
+  c.fillStyle='#F2C230'; c.fillRect(3,H/2-14,2,28); c.fillRect(W-5,H/2-14,2,28);
+})();
+
+/* ============================================================
+   5. SPRITE  —  Tecmo-style 16x24 player
+   ============================================================ */
+function drawGuy(c, X, Y, p, frame, face, flash){
+  const col = p.colors;
+  const put=(x,y,w,h,k)=>{ c.fillStyle=k; c.fillRect(X+(face<0?16-x-w:x), Y+y, w, h); };
+  if(flash){ // white hit flash
+    c.fillStyle='#fff'; c.fillRect(X-1,Y-1,18,26); return;
+  }
+  const shadowY=24;
+  c.fillStyle='rgba(0,0,0,.32)'; c.fillRect(X+3,Y+shadowY,10,2);
+
+  const legA=[0,1,2,1][frame], legB=[2,1,0,1][frame];
+  // legs
+  put(4,19-0,3,4+legA,col.pants); put(9,19,3,4+legB,col.pants);
+  put(4,23+legA,4,2,'#1B1D24'); put(9,23+legB,4,2,'#1B1D24'); // cleats
+  // pants
+  put(3,16,10,4,col.pants);
+  put(3,19,10,1,col.trim);
+  // arms (swing opposite legs)
+  put(0,10+legB,3,5,col.jersey); put(13,10+legA,3,5,col.jersey);
+  put(0,15+legB,3,2,col.skin);   put(13,15+legA,3,2,col.skin);
+  // torso + shoulder pads
+  put(1,9,14,3,col.jersey);
+  put(3,12,10,4,col.jersey);
+  put(1,9,14,1,col.trim);
+  // number on chest
+  const n = p.num != null ? String(p.num) : p.pos;
+  const nw=textW(n);
+  c.save();
+  drawText(c, n, X + (face<0 ? 16-((16-nw)/2|0)-nw : ((16-nw)/2|0)), Y+11, col.trim);
+  c.restore();
+  // neck
+  put(6,8,4,1,col.skin);
+  // helmet
+  put(3,1,10,7,col.helmet);
+  put(3,1,10,1,col.trim);
+  put(11,4,4,1,'#B9BEC9'); put(12,5,3,1,'#B9BEC9'); // facemask
+  put(10,4,2,3,col.skin);
+}
+
+/* ============================================================
+   6. GAME
+   ============================================================ */
+const S = { TITLE:0, INTRO:1, PLAY:2, CLEARED:3, WIN:4 };
+const el = id => document.getElementById(id);
+
+/* ---- DIFFICULTY DIALS ----
+   HIT_R    how close the reticle must be to the chest to land a shot.
+            This is also exactly when the gold lock brackets appear, so
+            the lock never lies: bracket on = this shot connects.
+   ASSIST_R how far out the soft magnet starts pulling, as a multiple
+            of HIT_R. Lower = you have to do more of the aiming.
+   MAGNET   strength of that pull. Too high and the game plays itself.
+   Touch gets more of everything, because a thumb is not a mouse.       */
+const TOUCH    = matchMedia('(pointer:coarse)').matches;
+const HIT_R    = TOUCH ? 15  : 11;    // was 20 / 13
+const ASSIST_R = 1.25;                // was 1.6
+const MAGNET   = TOUCH ? 0.16 : 0.08; // was 0.30 / 0.14
+const AIM_MAX  = TOUCH ? 3.4  : 2.6;  // crosshair top speed
+
+const state = {
+  mode:S.TITLE, idx:0, score:0, shots:0, hits:0,
+  guy:null, cross:{x:W/2,y:H/2,vx:0,vy:0},
+  flash:0, shake:0, cooldown:0, t:0, timer:0, splats:[], lock:false, drag:false
+};
+
+/* Distance from crosshair to the sprite's chest. */
+function aimDist(){
+  const g=state.guy; if(!g || !g.alive) return 1e9;
+  const c=state.cross;
+  return Math.hypot(c.x-(g.x+8), c.y-(g.y+12));
+}
+
+function makeGuy(p, i){
+  const spd = 0.55 + i*0.13;
+  return {
+    p, x: 20, y: FIELD.y0+30, tx:0, ty:0, spd, face:1, hp:3, frame:0, anim:0,
+    stun:0, flashT:0, alive:true, entering:24
+  };
+}
+function retarget(g){
+  g.tx = 12 + Math.random()*(W-40);
+  g.ty = FIELD.y0 + Math.random()*(FIELD.y1-FIELD.y0-26);
+}
+
+function setBanner(on, k, n, m){
+  const b=el('jhBanner');
+  if(k!==undefined){ el('jhBK').textContent=k; el('jhBN').textContent=n; el('jhBM').textContent=m; }
+  b.classList.toggle('jh-on', !!on);
+}
+function money(n){ return '$'+n.toLocaleString('en-US'); }
+// The tag over a player's head is his price when we have one and his
+// projection until then. GAME.meta.float_metric decides.
+function tag(p){
+  return (GAME.meta.float_metric === 'salary' && p.salary != null)
+    ? money(p.salary) : p.proj.toFixed(1);
+}
+function matchup(p){ return `${p.team} ${p.home_away === 'away' ? '@' : 'vs'} ${p.opp}`; }
+
+function renderRoster(){
+  el('jhRoster').innerHTML = GAME.plays.map((p,i)=>{
+    const s = i<state.idx ? 'done' : (i===state.idx && state.mode!==S.TITLE ? 'live' : 'next');
+    return `<div class="jh-chip" data-s="${s}">${p.team} ${p.pos}</div>`;
+  }).join('');
+}
+function renderSlots(){
+  const g=state.guy, revealed = g ? 3-g.hp : 0;
+  document.querySelectorAll('#jhReasons .jh-slot').forEach((slot,i)=>{
+    const on = i<revealed;
+    slot.dataset.on = on ? '1':'0';
+    slot.querySelector('.jh-lab').textContent = on ? `REASON ${i+1}` : `HIT ${i+1}`;
+    slot.querySelector('.jh-txt').textContent = on && g ? g.p.reasons[i] : 'Locked';
+  });
+}
+function renderHud(){
+  el('jhSScore').textContent = state.score;
+  el('jhSAcc').textContent = state.hits+'/'+state.shots;
+}
+
+function nextPlay(){
+  if(state.idx >= GAME.plays.length){ win(); return; }
+  const p = GAME.plays[state.idx];
+  state.guy = makeGuy(p, state.idx);
+  retarget(state.guy);
+  state.mode = S.INTRO; state.timer = 100;
+  setBanner(true, 'NOW ENTERING', p.name, `${p.pos} · ${matchup(p)} · ${tag(p)} DK`);
+  Audio_.enter();
+  renderRoster(); renderSlots();
+}
+
+function start(){
+  Audio_.init();
+  if(Audio_.ctx && Audio_.ctx.state==='suspended') Audio_.ctx.resume();
+  Audio_.startBgm();
+  state.idx=0; state.score=0; state.shots=0; state.hits=0; state.splats=[];
+  el('jhOvStart').hidden=true; el('jhOvWin').hidden=true;
+  renderHud(); nextPlay();
+}
+
+function win(){
+  state.mode=S.WIN; state.guy=null;
+  setBanner(false);
+  Audio_.stopBgm(); Audio_.win();
+  el('jhWinS').textContent = state.score+' PTS · '+Math.round(100*state.hits/Math.max(1,state.shots))+'% ACC';
+  el('jhWinT').innerHTML = GAME.plays.map(p=>`<span>${p.pos} ${p.first.toUpperCase()} ${tag(p)}</span>`).join('');
+  el('jhOvWin').hidden=false;
+  renderRoster();
+}
+
+function shoot(){
+  if(state.mode!==S.PLAY || state.cooldown>0) return;
+  state.cooldown=11; state.shots++; state.flash=2;
+  Audio_.shoot();
+  const g=state.guy, c=state.cross;
+  const hit = g && g.alive && g.stun<=0 && aimDist() <= HIT_R;
+  if(hit){
+    state.hits++; state.score++; g.hp--; g.stun=26; g.flashT=8; state.shake=6;
+    Audio_.hit();
+    renderHud(); renderSlots();
+    if(g.hp<=0){
+      g.alive=false; state.mode=S.CLEARED; state.timer=90;
+      setBanner(true, 'ROSTERED', g.p.name, `+3 PTS · ${tag(g.p)} DK PROJ`);
+      Audio_.clear();
+      state.idx++;
+    } else {
+      g.spd += 0.22; retarget(g);
+    }
+  } else {
+    Audio_.miss();
+    state.splats.push({x:c.x,y:c.y,t:16});
+    renderHud();
+  }
+}
+
+/* ---------- input ---------- */
+const keys={};
+const dirs={up:0,down:0,left:0,right:0};
+addEventListener('keydown',e=>{
+  if(!JH.active) return;                 // other tabs keep their keyboard
+  const k=e.key.toLowerCase();
+  if(['arrowup','arrowdown','arrowleft','arrowright',' ','w','a','s','d'].includes(k)) e.preventDefault();
+  if(k===' '){ if(state.mode===S.TITLE||state.mode===S.WIN) start(); else shoot(); }
+  keys[k]=true;
+},{passive:false});
+addEventListener('keyup',e=>{ if(JH.active) keys[e.key.toLowerCase()]=false; });
+
+function bindHold(node, on, off){
+  const down=e=>{ e.preventDefault(); node.dataset.h='1'; on(); };
+  const up=e=>{ node.dataset.h='0'; off&&off(); };
+  node.addEventListener('pointerdown',down);
+  ['pointerup','pointercancel','pointerleave'].forEach(t=>node.addEventListener(t,up));
+}
+document.querySelectorAll('.dpad button[data-d]').forEach(b=>{
+  const d=b.dataset.d; bindHold(b, ()=>dirs[d]=1, ()=>dirs[d]=0);
+});
+bindHold(el('jhBtnFire'), ()=>{ if(state.mode===S.TITLE||state.mode===S.WIN) start(); else shoot(); });
+
+/* Drag anywhere on the field to aim (touch only — keyboard stays the desktop way).
+   The reticle sits a little above the fingertip so your thumb never hides the guy. */
+(function dragAim(){
+  const THUMB_LIFT = 12;
+  function place(e){
+    const r=cv.getBoundingClientRect();
+    const c=state.cross;
+    c.x = Math.max(4,  Math.min(W-4, (e.clientX-r.left)/r.width  * W));
+    c.y = Math.max(20, Math.min(H-4, (e.clientY-r.top )/r.height * H - THUMB_LIFT));
+    c.vx=0; c.vy=0;
+  }
+  cv.addEventListener('pointerdown', e=>{
+    if(e.pointerType!=='touch') return;
+    e.preventDefault(); state.drag=true; cv.setPointerCapture(e.pointerId); place(e);
+  });
+  cv.addEventListener('pointermove', e=>{ if(state.drag && e.pointerType==='touch'){ e.preventDefault(); place(e); } });
+  ['pointerup','pointercancel'].forEach(t=>cv.addEventListener(t, ()=>{ state.drag=false; }));
+})();
+el('jhBtnStart').onclick=start;
+el('jhBtnAgain').onclick=start;
+el('jhBtnMute').onclick=()=>{
+  Audio_.on=!Audio_.on;
+  el('jhBtnMute').textContent='SOUND: '+(Audio_.on?'ON':'OFF');
+  if(Audio_.on){ Audio_.init(); Audio_.startBgm(); } else Audio_.stopBgm();
+};
+
+/* ---------- loop ---------- */
+function step(){
+  state.t++;
+  if(state.cooldown>0) state.cooldown--;
+  if(state.flash>0) state.flash--;
+  if(state.shake>0) state.shake--;
+  state.splats = state.splats.filter(s=>--s.t>0);
+
+  // crosshair
+  const c=state.cross;
+  const L = keys['arrowleft']||keys['a']||dirs.left, R = keys['arrowright']||keys['d']||dirs.right;
+  const U = keys['arrowup']||keys['w']||dirs.up,   D = keys['arrowdown']||keys['s']||dirs.down;
+  const ax=(R?1:0)-(L?1:0), ay=(D?1:0)-(U?1:0);
+  c.vx += ax*0.55; c.vy += ay*0.55;
+  c.vx *= ax?0.90:0.72; c.vy *= ay?0.90:0.72;
+  const MX=AIM_MAX; c.vx=Math.max(-MX,Math.min(MX,c.vx)); c.vy=Math.max(-MX,Math.min(MX,c.vy));
+  c.x=Math.max(4,Math.min(W-4, c.x+c.vx)); c.y=Math.max(20,Math.min(H-4, c.y+c.vy));
+
+  // soft aim assist: once you're close, the reticle leans onto the chest
+  const gg=state.guy;
+  if(gg && gg.alive && gg.stun<=0 && state.mode===S.PLAY){
+    const d=aimDist(), band=HIT_R*ASSIST_R;
+    if(d < band && d > 0.5){
+      // eased so the pull fades out fast near the edge of the band —
+      // it helps you settle, it doesn't drag you onto the target
+      const k = 1 - d/band;
+      c.x += ((gg.x+8)-c.x)*MAGNET*k*k; c.y += ((gg.y+12)-c.y)*MAGNET*k*k;
+    }
+    state.lock = d <= HIT_R;
+  } else state.lock = false;
+
+  if(state.mode===S.INTRO){
+    if(--state.timer<=0){ setBanner(false); state.mode=S.PLAY; }
+  } else if(state.mode===S.CLEARED){
+    if(--state.timer<=0){ setBanner(false); nextPlay(); }
+  }
+
+  // player movement
+  const g=state.guy;
+  if(g && g.alive){
+    if(g.entering>0) g.entering--;
+    if(g.stun>0){ g.stun--; if(g.flashT>0) g.flashT--; }
+    else if(state.mode===S.PLAY || state.mode===S.INTRO){
+      const dx=g.tx-g.x, dy=g.ty-g.y, d=Math.hypot(dx,dy)||1;
+      if(d<6 || Math.random()<0.006) retarget(g);
+      g.x += (dx/d)*g.spd; g.y += (dy/d)*g.spd;
+      g.face = dx>=0 ? 1 : -1;
+      g.anim += g.spd; g.frame = Math.floor(g.anim/3)%4;
+      g.x=Math.max(2,Math.min(W-18,g.x)); g.y=Math.max(FIELD.y0,Math.min(FIELD.y1-26,g.y));
+    }
+  }
+}
+
+function draw(){
+  const sh = state.shake>0 ? (Math.random()*2-1)*2 : 0;
+  ctx.save();
+  ctx.translate(Math.round(sh), Math.round(sh*0.6));
+  ctx.drawImage(field,0,0);
+
+  const g=state.guy;
+  if(g && (g.alive || state.mode===S.CLEARED)){
+    const X=Math.round(g.x), Y=Math.round(g.y);
+    drawGuy(ctx, X, Y, g.p, g.frame, g.face, g.flashT>0 && (state.t%4<2));
+
+    // salary tag floating above
+    const s=tag(g.p), w=textW(s);
+    const tx=Math.round(X+8-w/2), ty=Y-11+Math.round(Math.sin(state.t/22)*1.5);
+    ctx.fillStyle='rgba(10,12,18,.78)'; ctx.fillRect(tx-3,ty-3,w+6,11);
+    ctx.fillStyle=g.hp===3?'#FFC72C':g.hp===2?'#FFA02C':'#EF4136'; ctx.fillRect(tx-3,ty-3,w+6,1);
+    drawTextOut(ctx, s, tx, ty, '#FFC72C');
+    // hit pips
+    for(let i=0;i<3;i++){
+      ctx.fillStyle = i < (3-g.hp) ? '#EF4136' : '#4A5163';
+      ctx.fillRect(tx + i*4 + (w-10)/2, ty+7, 3,2);
+    }
+  }
+
+  // miss splats
+  ctx.fillStyle='rgba(233,242,228,.8)';
+  state.splats.forEach(s=>{ ctx.fillRect(s.x-1,s.y,3,1); ctx.fillRect(s.x,s.y-1,1,3); });
+
+  // crosshair
+  if(state.mode===S.PLAY || state.mode===S.INTRO || state.mode===S.CLEARED){
+    const c=state.cross, x=Math.round(c.x), y=Math.round(c.y);
+    const lock = state.lock;
+    const k = state.cooldown>7 ? '#EF4136' : (lock ? '#FFC72C' : '#FFFFFF');
+    const r = lock ? 9 : 7;
+    ctx.fillStyle='rgba(0,0,0,.55)';
+    ctx.fillRect(x-r,y-1,r*2+1,3); ctx.fillRect(x-1,y-r,3,r*2+1);
+    ctx.fillStyle=k;
+    ctx.fillRect(x-r,y,r-2,1); ctx.fillRect(x+3,y,r-2,1);
+    ctx.fillRect(x,y-r,1,r-2); ctx.fillRect(x,y+3,1,r-2);
+    ctx.fillRect(x,y,1,1);
+    if(lock){ // corner brackets = you're on him, pull the trigger
+      const b=r+2;
+      [[-1,-1],[1,-1],[-1,1],[1,1]].forEach(([sx,sy])=>{
+        ctx.fillRect(x+sx*b-(sx<0?0:2), y+sy*b, 3,1);
+        ctx.fillRect(x+sx*b, y+sy*b-(sy<0?0:2), 1,3);
+      });
+    }
+  }
+  ctx.restore();
+
+  if(state.flash>0){ ctx.fillStyle='rgba(255,255,255,.55)'; ctx.fillRect(0,0,W,H); }
+}
+
+function frame(){
+  if(JH.active){ step(); draw(); }        // idle while another tab is showing
+  requestAnimationFrame(frame);
+}
+JH.onHide = () => { Audio_.stopBgm(); Object.keys(keys).forEach(k=>keys[k]=false);
+                    Object.keys(dirs).forEach(d=>dirs[d]=0); };
+JH.onShow = () => { if(state.mode!==S.TITLE && state.mode!==S.WIN && Audio_.on) Audio_.startBgm(); };
+JH.setSlate = s => { if(s && s.plays && s.plays.length){ GAME = s;
+  el('jhSWeek').textContent = GAME.meta.label; renderRoster(); renderSlots(); } };
+renderRoster(); renderSlots(); renderHud();
+el('jhSWeek').textContent = GAME.meta.label;
+draw();
+frame();
+
+})();
+</script>
+</body>
+</html>
