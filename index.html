@@ -312,11 +312,16 @@ const EXPERT_TIER = {
   Krayton:3, Headchopper:3
 };
 
+// The feed spells names with spaces ("Bobby Gomes"); match on letters/digits.
+const exKey = n => String(n).toLowerCase().replace(/[^a-z0-9]/g, "");
+const TIER_BY_KEY = Object.fromEntries(
+  Object.entries(EXPERT_TIER).map(([k, v]) => [exKey(k), v]));
+
 function expertRow(p){
   const names = p.experts || [];
   if (!names.length) return "";
   const pills = names.map(n =>
-    `<span class="ex t${EXPERT_TIER[n] || 3}">${esc(n)}</span>`).join("");
+    `<span class="ex t${TIER_BY_KEY[exKey(n)] || 3}">${esc(n)}</span>`).join("");
   const count = names.length >= 4
     ? `<span class="ex count">${names.length} experts</span>` : "";
   return `<div class="experts">${count}${pills}</div>`;
