@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-12T12:53",
+ "updated": "2026-09-12T14:21",
  "slate_ids": {
   "draftkings": "151307",
   "fanduel": "133104"
@@ -39,9 +39,9 @@
       "ppd": 3.33,
       "ceil": 30.8,
       "opto": 9.9,
-      "pown": 9.2,
+      "pown": 8.8,
       "grade": 1.857,
-      "gpp_grade": 1.076
+      "gpp_grade": 1.083
      },
      "fd": {
       "salary": 7600,
@@ -49,9 +49,9 @@
       "ppd": 2.65,
       "ceil": 30.6,
       "opto": 13.5,
-      "pown": 8.9,
+      "pown": 10.3,
       "grade": 2.058,
-      "gpp_grade": 1.163
+      "gpp_grade": 1.145
      },
      "experts": [
       "Notorious",
@@ -75,7 +75,7 @@
      ],
      "num_experts": 4,
      "rank": 1,
-     "notes": "Highest implied team total on the slate against a soft Arizona pass defense."
+     "notes": "Highest implied team total. Pre-snap motion and play-action create easy throws."
     },
     {
      "player_id": "35673",
@@ -99,7 +99,7 @@
       "ppd": 3.09,
       "ceil": 29.3,
       "opto": 9.1,
-      "pown": 11.9,
+      "pown": 11.2,
       "grade": 1.029,
       "gpp_grade": 0.46
      },
@@ -109,7 +109,7 @@
       "ppd": 2.34,
       "ceil": 29.0,
       "opto": 7.5,
-      "pown": 10.8,
+      "pown": 11.8,
       "grade": 0.691,
       "gpp_grade": 0.429
      },
@@ -119,7 +119,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Solid volume projection in a high-total 49.5 game indoors against New Orleans."
+     "notes": "Indoors against a bottom-tier defense with a strong 49.5 game total."
     },
     {
      "player_id": "973153",
@@ -143,9 +143,9 @@
       "ppd": 3.25,
       "ceil": 28.0,
       "opto": 7.4,
-      "pown": 5.1,
+      "pown": 6.6,
       "grade": 0.987,
-      "gpp_grade": 0.546
+      "gpp_grade": 0.53
      },
      "fd": {
       "salary": 7200,
@@ -153,9 +153,9 @@
       "ppd": 2.45,
       "ceil": 27.6,
       "opto": 7.3,
-      "pown": 5.3,
+      "pown": 6.3,
       "grade": 0.733,
-      "gpp_grade": 0.454
+      "gpp_grade": 0.442
      },
      "experts": [
       "Headchopper"
@@ -168,7 +168,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Faces a Green Bay defense missing Micah Parsons with an improved offensive cast."
+     "notes": "Best offensive staff and system of his career facing a depleted defense."
     },
     {
      "player_id": "1844646",
@@ -192,9 +192,9 @@
       "ppd": 3.14,
       "ceil": 31.7,
       "opto": 5.4,
-      "pown": 5.8,
+      "pown": 6.6,
       "grade": 0.916,
-      "gpp_grade": 0.754
+      "gpp_grade": 0.742
      },
      "fd": {
       "salary": 8300,
@@ -202,9 +202,9 @@
       "ppd": 2.47,
       "ceil": 31.4,
       "opto": 6.7,
-      "pown": 8.1,
+      "pown": 7.2,
       "grade": 1.041,
-      "gpp_grade": 0.809
+      "gpp_grade": 0.821
      },
      "experts": [
       "Jordan Vanek"
@@ -212,7 +212,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 4,
-     "notes": "Strong rushing floor and implied team total in a favorable home matchup."
+     "notes": "Elite rushing floor with a solid 6-point home favorite game script."
     },
     {
      "player_id": "8223333",
@@ -236,19 +236,19 @@
       "ppd": 3.1,
       "ceil": 27.8,
       "opto": 8.6,
-      "pown": 7.9,
+      "pown": 8.5,
       "grade": 0.847,
-      "gpp_grade": 0.398
+      "gpp_grade": 0.392
      },
      "fd": {
       "salary": 6900,
       "fpts": 17.12,
       "ppd": 2.48,
-      "ceil": 27.4,
+      "ceil": 27.5,
       "opto": 8.1,
-      "pown": 6.1,
+      "pown": 8.0,
       "grade": 0.809,
-      "gpp_grade": 0.537
+      "gpp_grade": 0.512
      },
      "experts": [
       "Notorious"
@@ -261,7 +261,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Indoor matchup against a banged-up Lions secondary with strong rushing upside."
+     "notes": "Offers strong rushing upside in an indoor game against a banged-up secondary."
     },
     {
      "player_id": "2861939",
@@ -285,9 +285,9 @@
       "ppd": 3.18,
       "ceil": 28.8,
       "opto": 5.5,
-      "pown": 4.4,
+      "pown": 4.6,
       "grade": 0.71,
-      "gpp_grade": 0.539
+      "gpp_grade": 0.536
      },
      "fd": {
       "salary": 7700,
@@ -295,15 +295,15 @@
       "ppd": 2.37,
       "ceil": 28.5,
       "opto": 4.6,
-      "pown": 4.1,
+      "pown": 3.9,
       "grade": 0.41,
-      "gpp_grade": 0.445
+      "gpp_grade": 0.447
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Solid passing volume expected as home favorites against Cleveland."
+     "notes": "Strong home favorite with high projection value and solid point per dollar."
     },
     {
      "player_id": "1844126",
@@ -327,17 +327,17 @@
       "ppd": 2.8,
       "ceil": 30.1,
       "opto": 4.0,
-      "pown": 9.5,
+      "pown": 8.8,
       "grade": 0.046,
-      "gpp_grade": 0.146
+      "gpp_grade": 0.16
      },
      "fd": {
       "salary": 8200,
       "fpts": 19.12,
       "ppd": 2.33,
-      "ceil": 29.8,
+      "ceil": 29.9,
       "opto": 5.0,
-      "pown": 7.8,
+      "pown": 8.0,
       "grade": 0.522,
       "gpp_grade": 0.509
      },
@@ -347,7 +347,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 7,
-     "notes": "High pass rate expected against a Tampa Bay defense funneling action to the air."
+     "notes": "Pass-heavy game plan expected against a tough run defense."
     },
     {
      "player_id": "328097",
@@ -371,19 +371,19 @@
       "ppd": 2.95,
       "ceil": 31.0,
       "opto": 5.7,
-      "pown": 6.7,
+      "pown": 7.2,
       "grade": 0.577,
-      "gpp_grade": 0.473
+      "gpp_grade": 0.468
      },
      "fd": {
       "salary": 8400,
       "fpts": 19.82,
       "ppd": 2.36,
-      "ceil": 30.6,
+      "ceil": 30.7,
       "opto": 6.1,
-      "pown": 7.9,
+      "pown": 8.0,
       "grade": 0.762,
-      "gpp_grade": 0.642
+      "gpp_grade": 0.644
      },
      "experts": [
       "EBeimfohr"
@@ -391,7 +391,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 8,
-     "notes": "Elite rushing floor and dual-threat upside in a close divisional game."
+     "notes": "Dynamic dual-threat ability in a close divisional matchup."
     },
     {
      "player_id": "328331",
@@ -415,9 +415,9 @@
       "ppd": 2.93,
       "ceil": 31.5,
       "opto": 3.3,
-      "pown": 5.0,
+      "pown": 5.2,
       "grade": 0.289,
-      "gpp_grade": 0.465
+      "gpp_grade": 0.461
      },
      "fd": {
       "salary": 8900,
@@ -425,15 +425,15 @@
       "ppd": 2.28,
       "ceil": 31.2,
       "opto": 3.2,
-      "pown": 5.7,
+      "pown": 5.4,
       "grade": 0.396,
-      "gpp_grade": 0.572
+      "gpp_grade": 0.575
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Top-tier ceiling and passing volume in a competitive matchup against Houston."
+     "notes": "Elite ceiling and high pass volume in a tight game environment."
     }
    ]
   },
@@ -462,7 +462,7 @@
       "ppd": 2.98,
       "ceil": 37.8,
       "opto": 72.4,
-      "pown": 40.8,
+      "pown": 43.0,
       "grade": 3.583,
       "gpp_grade": 1.499
      },
@@ -472,7 +472,7 @@
       "ppd": 2.39,
       "ceil": 34.0,
       "opto": 73.7,
-      "pown": 44.4,
+      "pown": 46.0,
       "grade": 3.546,
       "gpp_grade": 1.496
      },
@@ -503,7 +503,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Bell-cow workhorse with massive touch volume against a weak New Orleans front."
+     "notes": "Bell-cow running back with massive workload and high red-zone usage."
     },
     {
      "player_id": "328607",
@@ -525,21 +525,21 @@
       "salary": 6900,
       "fpts": 17.52,
       "ppd": 2.54,
-      "ceil": 28.5,
+      "ceil": 28.6,
       "opto": 24.9,
-      "pown": 12.9,
+      "pown": 13.3,
       "grade": 1.563,
-      "gpp_grade": 0.803
+      "gpp_grade": 0.805
      },
      "fd": {
       "salary": 8100,
       "fpts": 16.3,
       "ppd": 2.01,
-      "ceil": 26.2,
+      "ceil": 26.3,
       "opto": 26.0,
-      "pown": 16.6,
+      "pown": 16.2,
       "grade": 1.566,
-      "gpp_grade": 0.823
+      "gpp_grade": 0.825
      },
      "experts": [
       "Headchopper",
@@ -553,7 +553,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Solid volume expected as a home favorite with strong touchdown equity."
+     "notes": "Primary rushing option on a solid home favorite team total."
     },
     {
      "player_id": "4687512",
@@ -577,7 +577,7 @@
       "ppd": 2.54,
       "ceil": 33.7,
       "opto": 20.8,
-      "pown": 14.7,
+      "pown": 13.0,
       "grade": 1.541,
       "gpp_grade": 1.002
      },
@@ -587,7 +587,7 @@
       "ppd": 1.99,
       "ceil": 29.4,
       "opto": 17.2,
-      "pown": 18.6,
+      "pown": 15.9,
       "grade": 1.343,
       "gpp_grade": 0.914
      },
@@ -602,7 +602,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Massive projected workload with little backfield competition on the ground."
+     "notes": "Unmatched workload at running back with zero backfield competition."
     },
     {
      "player_id": "1844485",
@@ -624,11 +624,11 @@
       "salary": 7300,
       "fpts": 18.45,
       "ppd": 2.53,
-      "ceil": 31.0,
+      "ceil": 30.9,
       "opto": 23.4,
-      "pown": 14.8,
+      "pown": 15.4,
       "grade": 1.541,
-      "gpp_grade": 0.856
+      "gpp_grade": 0.855
      },
      "fd": {
       "salary": 8600,
@@ -636,7 +636,7 @@
       "ppd": 1.99,
       "ceil": 28.2,
       "opto": 20.9,
-      "pown": 17.6,
+      "pown": 17.1,
       "grade": 1.43,
       "gpp_grade": 0.862
      },
@@ -644,7 +644,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Primary workhorse role with high carry projection against Baltimore."
+     "notes": "Workhorse role with strong rushing volume and goal-line duties."
     },
     {
      "player_id": "3491661",
@@ -668,7 +668,7 @@
       "ppd": 2.57,
       "ceil": 28.1,
       "opto": 19.9,
-      "pown": 12.7,
+      "pown": 12.9,
       "grade": 1.319,
       "gpp_grade": 0.769
      },
@@ -678,7 +678,7 @@
       "ppd": 2.08,
       "ceil": 24.8,
       "opto": 21.9,
-      "pown": 13.4,
+      "pown": 12.0,
       "grade": 1.343,
       "gpp_grade": 0.751
      },
@@ -686,16 +686,16 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Featured rushing and pass-catching role in a tight game against Tennessee."
+     "notes": "Feature running back handling every-down duties and passing-game work."
     },
     {
-     "player_id": "3491576",
-     "core_id": "58170",
-     "players": "James Cook",
+     "player_id": "8217222",
+     "core_id": "238380",
+     "players": "Ashton Jeanty",
      "pos": "RB",
-     "team": "BUF",
-     "opp": "HOU",
-     "schedule_id": "179499",
+     "team": "LVR",
+     "opp": "MIA",
+     "schedule_id": "179506",
      "dk_rank": 6,
      "fd_rank": null,
      "dk_slot": "GPP",
@@ -705,88 +705,92 @@
      "core_dk": false,
      "core_fd": false,
      "dk": {
-      "salary": 7200,
-      "fpts": 16.43,
-      "ppd": 2.28,
-      "ceil": 28.5,
-      "opto": 9.0,
-      "pown": 8.9,
-      "grade": 0.928,
-      "gpp_grade": 0.735
+      "salary": 6600,
+      "fpts": 15.15,
+      "ppd": 2.3,
+      "ceil": 27.0,
+      "opto": 5.4,
+      "pown": 9.5,
+      "grade": 0.799,
+      "gpp_grade": 0.766
      },
      "fd": {
-      "salary": 7800,
-      "fpts": 15.1,
-      "ppd": 1.94,
-      "ceil": 25.8,
-      "opto": 14.0,
-      "pown": 11.4,
-      "grade": 1.097,
-      "gpp_grade": 0.752
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 6,
-     "notes": "Explosive pass-catching back with strong upside in a high-total game."
-    },
-    {
-     "player_id": "6228001",
-     "core_id": "122687",
-     "players": "MarShawn Lloyd",
-     "pos": "RB",
-     "team": "GBP",
-     "opp": "MIN",
-     "schedule_id": "179508",
-     "dk_rank": 7,
-     "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 4800,
-      "fpts": 12.11,
-      "ppd": 2.52,
-      "ceil": 22.2,
-      "opto": 8.2,
-      "pown": 3.6,
-      "grade": 0.783,
-      "gpp_grade": 0.714
-     },
-     "fd": {
-      "salary": 4900,
-      "fpts": 11.1,
-      "ppd": 2.27,
-      "ceil": 20.0,
-      "opto": 13.0,
-      "pown": 4.8,
-      "grade": 1.034,
-      "gpp_grade": 0.837
+      "salary": 7000,
+      "fpts": 13.47,
+      "ppd": 1.92,
+      "ceil": 23.4,
+      "opto": 8.0,
+      "pown": 10.9,
+      "grade": 0.862,
+      "gpp_grade": 0.743
      },
      "experts": [
-      "Bobby Gomes",
-      "Jordan Vanek"
+      "EBeimfohr",
+      "Davis Mattek"
      ],
      "expert_blurbs": [
       {
-       "author": "vanekjordan",
-       "text": "Lloyd is a starting RB under $5,000 on both sites who has a lot of talent and can get his work done as a pass catcher. The Vikings are going to lean on two rookie DTs, and that\u2019s a very difficult position to excel at in Year 1. I think Lloyd has a great floor at a great price."
+       "author": "ebeimfohr",
+       "text": "With the absence of Brock Bowers, ownership is shifting heavily towards Michael Mayer and to a lesser degree Tre Tucker, but this is a smash spot for Jeanty. He is one of the most talented running backs in the league, and he should have a bounce back year two with Klint Kubiak in charge now. They revamped the offensive line, added Kirk Cousins (and Fernando Mendoza) and Jeanty is back fully healthy from a camp injury scare. I think this season with Kubiak is going to be a monster breakout for Jeanty, and the Dolphins are the worst team and worse defense in the league, but he is not projecting to be popular at all."
       },
       {
-       "author": "Notorious",
-       "text": "MarShawn Lloyd ($4,900 FD) has one of the widest ranges of potential outcomes this week, but he\u2019s too cheap on FanDuel to ignore. He\u2019s cheap on DraftKings as well, but the FanDuel price sticks out like a sore thumb. The Packers drafted him with the 88th overall pick, and Josh Jacobs has been placed on the Commissioner\u2019s Exempt List and is barred from practicing or playing entirely. Lloyd should be the lead back for Green Bay early in the season, but he was never a heavy-workload back in college. I\u2019m hesitant to expect 20+ touches from him against the Vikings, but he\u2019s still a great option at this price even if we only project him for 15 touches.\r\n\r\n"
-      },
+       "author": "DavisMattek",
+       "text": "Were Jeanty not injured at all in the preseason, this would likely be a spot that he would be the 4th most owned RB on the slate. I plan on deploying Jeanty in all SE/3-Max contests and will be bumping his projection in all of my sim runs against the worst team in the NFL. "
+      }
+     ],
+     "num_experts": 2,
+     "rank": 6,
+     "notes": "Talented running back operating behind a revamped offensive line."
+    },
+    {
+     "player_id": "2861937",
+     "core_id": "50434",
+     "players": "Travis Etienne",
+     "pos": "RB",
+     "team": "NOS",
+     "opp": "DET",
+     "schedule_id": "179500",
+     "dk_rank": null,
+     "fd_rank": 7,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5900,
+      "fpts": 14.28,
+      "ppd": 2.42,
+      "ceil": 25.4,
+      "opto": 6.2,
+      "pown": 8.9,
+      "grade": 0.794,
+      "gpp_grade": 0.698
+     },
+     "fd": {
+      "salary": 6800,
+      "fpts": 12.94,
+      "ppd": 1.9,
+      "ceil": 22.6,
+      "opto": 6.4,
+      "pown": 9.2,
+      "grade": 0.758,
+      "gpp_grade": 0.675
+     },
+     "experts": [
+      "Headchopper",
+      "Krayton"
+     ],
+     "expert_blurbs": [
       {
-       "author": "BobbyGomes",
-       "text": "Lloyd is extremely underpriced given that he is the #1 with Jacobs sidelined. The Vikings are gambling on fixing their rushing woes with 2 rookies. Vikings allowed the 9th most rushing YPG last season, and its hard to imagine it gets better. Also to note, Lloyd is projected for sub 5% pOWN, when is the last time we have seen a sub 5k starting RB that low owned? "
+       "author": "headChopper",
+       "text": "Etienne should be in for a nice role early in the year with Alvin Kamara already hurt and declining well before the injury in camp. This game has as much shootout potential as any game in Week 1, and Etienne should be a focal point of the offense.\r\n"
       }
      ],
      "num_experts": 2,
      "rank": 7,
-     "notes": "Starting workhorse value facing a Minnesota defense relying on rookie tackles."
+     "notes": "Primed for expanded touches early in the season with high shootout potential."
     },
     {
      "player_id": "982431",
@@ -810,36 +814,78 @@
       "ppd": 2.16,
       "ceil": 22.4,
       "opto": 4.8,
-      "pown": 5.1,
+      "pown": 4.7,
       "grade": 0.545,
-      "gpp_grade": 0.553
+      "gpp_grade": 0.559
      },
      "fd": {
       "salary": 6000,
       "fpts": 11.25,
       "ppd": 1.88,
-      "ceil": 20.5,
+      "ceil": 20.4,
       "opto": 7.5,
-      "pown": 3.0,
+      "pown": 3.4,
       "grade": 0.668,
-      "gpp_grade": 0.637
+      "gpp_grade": 0.631
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Featured touches out of the backfield in a tight game against the Jets."
+     "notes": "Primary passing-game back with explosive play potential."
     },
     {
-     "player_id": "2861937",
-     "core_id": "50434",
-     "players": "Travis Etienne",
+     "player_id": "3491576",
+     "core_id": "58170",
+     "players": "James Cook",
      "pos": "RB",
-     "team": "NOS",
-     "opp": "DET",
-     "schedule_id": "179500",
+     "team": "BUF",
+     "opp": "HOU",
+     "schedule_id": "179499",
+     "dk_rank": 7,
+     "fd_rank": null,
+     "dk_slot": "GPP",
+     "fd_slot": null,
+     "slot": "GPP",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7200,
+      "fpts": 16.43,
+      "ppd": 2.28,
+      "ceil": 28.5,
+      "opto": 9.0,
+      "pown": 9.3,
+      "grade": 0.928,
+      "gpp_grade": 0.728
+     },
+     "fd": {
+      "salary": 7800,
+      "fpts": 15.1,
+      "ppd": 1.94,
+      "ceil": 25.7,
+      "opto": 14.0,
+      "pown": 12.1,
+      "grade": 1.097,
+      "gpp_grade": 0.751
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 9,
+     "notes": "Explosive pass-catching back in a competitive game script."
+    },
+    {
+     "player_id": "6228001",
+     "core_id": "122687",
+     "players": "MarShawn Lloyd",
+     "pos": "RB",
+     "team": "GBP",
+     "opp": "MIN",
+     "schedule_id": "179508",
      "dk_rank": 8,
-     "fd_rank": 7,
+     "fd_rank": 6,
      "dk_slot": "GPP",
      "fd_slot": "GPP",
      "slot": "GPP",
@@ -847,38 +893,46 @@
      "core_dk": false,
      "core_fd": false,
      "dk": {
-      "salary": 5900,
-      "fpts": 14.28,
-      "ppd": 2.42,
-      "ceil": 25.4,
-      "opto": 6.2,
-      "pown": 9.0,
-      "grade": 0.794,
-      "gpp_grade": 0.697
+      "salary": 4800,
+      "fpts": 12.11,
+      "ppd": 2.52,
+      "ceil": 22.3,
+      "opto": 8.2,
+      "pown": 4.2,
+      "grade": 0.783,
+      "gpp_grade": 0.705
      },
      "fd": {
-      "salary": 6800,
-      "fpts": 12.94,
-      "ppd": 1.9,
-      "ceil": 22.6,
-      "opto": 6.4,
-      "pown": 8.0,
-      "grade": 0.758,
-      "gpp_grade": 0.693
+      "salary": 4900,
+      "fpts": 11.1,
+      "ppd": 2.27,
+      "ceil": 20.1,
+      "opto": 13.0,
+      "pown": 4.2,
+      "grade": 1.034,
+      "gpp_grade": 0.846
      },
      "experts": [
-      "Headchopper",
-      "Krayton"
+      "Bobby Gomes",
+      "Jordan Vanek"
      ],
      "expert_blurbs": [
       {
-       "author": "headChopper",
-       "text": "Etienne should be in for a nice role early in the year with Alvin Kamara already hurt and declining well before the injury in camp. This game has as much shootout potential as any game in Week 1, and Etienne should be a focal point of the offense.\r\n"
+       "author": "vanekjordan",
+       "text": "Lloyd is a starting RB under $5,000 on both sites who has a lot of talent and can get his work done as a pass catcher. The Vikings are going to lean on two rookie DTs, and that\u2019s a very difficult position to excel at in Year 1. I think Lloyd has a great floor at a great price."
+      },
+      {
+       "author": "Notorious",
+       "text": "MarShawn Lloyd ($4,900 FD) has one of the widest ranges of potential outcomes this week, but he\u2019s too cheap on FanDuel to ignore. He\u2019s cheap on DraftKings as well, but the FanDuel price sticks out like a sore thumb. The Packers drafted him with the 88th overall pick, and Josh Jacobs has been placed on the Commissioner\u2019s Exempt List and is barred from practicing or playing entirely. Lloyd should be the lead back for Green Bay early in the season, but he was never a heavy-workload back in college. I\u2019m hesitant to expect 20+ touches from him against the Vikings, but he\u2019s still a great option at this price even if we only project him for 15 touches.\r\n\r\n"
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Lloyd is extremely underpriced given that he is the #1 with Jacobs sidelined. The Vikings are gambling on fixing their rushing woes with 2 rookies. Vikings allowed the 9th most rushing YPG last season, and its hard to imagine it gets better. Also to note, Lloyd is projected for sub 5% pOWN, when is the last time we have seen a sub 5k starting RB that low owned? "
       }
      ],
      "num_experts": 2,
-     "rank": 9,
-     "notes": "Focal point of the offense with a high-upside game script against Detroit."
+     "rank": 10,
+     "notes": "Starting running back under five thousand with heavy volume expected."
     }
    ]
   },
@@ -905,21 +959,21 @@
       "salary": 7800,
       "fpts": 19.75,
       "ppd": 2.53,
-      "ceil": 36.7,
+      "ceil": 36.8,
       "opto": 22.8,
-      "pown": 26.0,
+      "pown": 25.4,
       "grade": 2.98,
-      "gpp_grade": 1.516
+      "gpp_grade": 1.517
      },
      "fd": {
       "salary": 8900,
       "fpts": 16.18,
       "ppd": 1.82,
-      "ceil": 29.9,
+      "ceil": 30.0,
       "opto": 17.7,
-      "pown": 20.8,
+      "pown": 21.4,
       "grade": 2.653,
-      "gpp_grade": 1.547
+      "gpp_grade": 1.549
      },
      "experts": [
       "Notorious",
@@ -942,7 +996,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Double-digit targets expected against a zone-heavy Tampa Bay defense."
+     "notes": "Elite target volume against zone coverage and weak secondary play."
     },
     {
      "player_id": "3491988",
@@ -966,9 +1020,9 @@
       "ppd": 2.31,
       "ceil": 29.5,
       "opto": 14.2,
-      "pown": 20.0,
+      "pown": 19.2,
       "grade": 1.876,
-      "gpp_grade": 0.952
+      "gpp_grade": 0.95
      },
      "fd": {
       "salary": 7400,
@@ -978,7 +1032,7 @@
       "opto": 15.2,
       "pown": 16.2,
       "grade": 2.017,
-      "gpp_grade": 0.989
+      "gpp_grade": 0.988
      },
      "experts": [
       "Notorious"
@@ -991,7 +1045,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "High target share against a banged-up Lions secondary indoors."
+     "notes": "Elite separation skills and high target share against a banged-up secondary."
     },
     {
      "player_id": "3491660",
@@ -1013,11 +1067,11 @@
       "salary": 5800,
       "fpts": 13.89,
       "ppd": 2.39,
-      "ceil": 26.9,
+      "ceil": 27.0,
       "opto": 15.0,
-      "pown": 11.3,
+      "pown": 12.0,
       "grade": 1.852,
-      "gpp_grade": 0.858
+      "gpp_grade": 0.861
      },
      "fd": {
       "salary": 6900,
@@ -1025,9 +1079,9 @@
       "ppd": 1.61,
       "ceil": 21.5,
       "opto": 10.0,
-      "pown": 10.6,
+      "pown": 11.2,
       "grade": 1.453,
-      "gpp_grade": 0.837
+      "gpp_grade": 0.84
      },
      "experts": [
       "Davis Mattek"
@@ -1040,7 +1094,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Poised for heavy target volume against a porous Tennessee secondary."
+     "notes": "Projected for massive target share against a weak defensive unit."
     },
     {
      "player_id": "6228204",
@@ -1064,7 +1118,7 @@
       "ppd": 2.24,
       "ceil": 27.1,
       "opto": 11.0,
-      "pown": 11.4,
+      "pown": 11.2,
       "grade": 1.444,
       "gpp_grade": 0.828
      },
@@ -1074,7 +1128,7 @@
       "ppd": 1.71,
       "ceil": 22.6,
       "opto": 14.8,
-      "pown": 10.6,
+      "pown": 11.7,
       "grade": 1.862,
       "gpp_grade": 0.92
      },
@@ -1089,7 +1143,7 @@
      ],
      "num_experts": 1,
      "rank": 4,
-     "notes": "Low-owned primary receiver facing a weak Arizona secondary."
+     "notes": "Top option facing a soft secondary with generous pricing."
     },
     {
      "player_id": "2861874",
@@ -1113,9 +1167,9 @@
       "ppd": 2.14,
       "ceil": 30.1,
       "opto": 12.3,
-      "pown": 11.2,
+      "pown": 11.3,
       "grade": 1.605,
-      "gpp_grade": 0.876
+      "gpp_grade": 0.875
      },
      "fd": {
       "salary": 7700,
@@ -1123,99 +1177,113 @@
       "ppd": 1.61,
       "ceil": 24.8,
       "opto": 13.7,
-      "pown": 12.0,
+      "pown": 11.2,
       "grade": 1.804,
-      "gpp_grade": 0.94
+      "gpp_grade": 0.938
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Core downfield target in a competitive matchup against Buffalo."
+     "notes": "Deep threat role in a high-total matchup with strong explosive upside."
     },
     {
-     "player_id": "1844306",
-     "core_id": "64507",
-     "players": "Justin Jefferson",
+     "player_id": "8216948",
+     "core_id": "239536",
+     "players": "Tetairoa McMillan",
      "pos": "WR",
-     "team": "MIN",
-     "opp": "GBP",
-     "schedule_id": "179508",
-     "dk_rank": 4,
-     "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": null,
+     "team": "CAR",
+     "opp": "CHI",
+     "schedule_id": "179502",
+     "dk_rank": null,
+     "fd_rank": 6,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
      "dk": {
-      "salary": 7300,
-      "fpts": 16.04,
-      "ppd": 2.2,
-      "ceil": 32.0,
-      "opto": 14.0,
-      "pown": 12.4,
-      "grade": 1.815,
-      "gpp_grade": 0.962
+      "salary": 6100,
+      "fpts": 13.26,
+      "ppd": 2.17,
+      "ceil": 25.1,
+      "opto": 10.0,
+      "pown": 9.7,
+      "grade": 1.356,
+      "gpp_grade": 0.732
      },
      "fd": {
-      "salary": 8100,
-      "fpts": 13.13,
-      "ppd": 1.62,
-      "ceil": 26.1,
-      "opto": 13.6,
-      "pown": 11.8,
-      "grade": 1.863,
-      "gpp_grade": 1.007
+      "salary": 6800,
+      "fpts": 10.97,
+      "ppd": 1.61,
+      "ceil": 20.8,
+      "opto": 11.5,
+      "pown": 9.2,
+      "grade": 1.551,
+      "gpp_grade": 0.801
      },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
+     "experts": [
+      "Jordan Vanek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "vanekjordan",
+       "text": "McMillan is moving into the slot this year, and the Bears are without starting slot corner Kyler Gordon. This is a matchup McMillan should have a significant advantage over, and one the Panthers will look to attack."
+      }
+     ],
+     "num_experts": 1,
      "rank": 6,
-     "notes": "Elite target share and route participation against Green Bay."
+     "notes": "Moving into the slot against a defense missing their starting corner."
     },
     {
-     "player_id": "2861659",
-     "core_id": "56173",
-     "players": "Amon-Ra St. Brown",
+     "player_id": "3491483",
+     "core_id": "134955",
+     "players": "Jameson Williams",
      "pos": "WR",
      "team": "DET",
      "opp": "NOS",
      "schedule_id": "179500",
-     "dk_rank": 5,
-     "fd_rank": null,
-     "dk_slot": "CASH",
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": "DK",
+     "dk_rank": null,
+     "fd_rank": 7,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
      "dk": {
-      "salary": 7500,
-      "fpts": 17.64,
-      "ppd": 2.35,
-      "ceil": 35.2,
-      "opto": 10.4,
-      "pown": 21.0,
-      "grade": 1.693,
-      "gpp_grade": 1.126
+      "salary": 6000,
+      "fpts": 12.83,
+      "ppd": 2.14,
+      "ceil": 24.8,
+      "opto": 5.8,
+      "pown": 9.9,
+      "grade": 0.97,
+      "gpp_grade": 0.656
      },
      "fd": {
-      "salary": 8600,
-      "fpts": 14.63,
-      "ppd": 1.7,
-      "ceil": 29.0,
-      "opto": 8.3,
-      "pown": 20.9,
-      "grade": 1.602,
-      "gpp_grade": 1.176
+      "salary": 7100,
+      "fpts": 10.99,
+      "ppd": 1.55,
+      "ceil": 21.3,
+      "opto": 5.5,
+      "pown": 9.3,
+      "grade": 1.046,
+      "gpp_grade": 0.787
      },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
+     "experts": [
+      "Headchopper"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "headChopper",
+       "text": "On FanDuel, I want big plays and touchdowns far more than the threat of PPR. Great reports are coming out of camp about Williams, and he brings that big-play ability I look for in this scoring format.\r\n"
+      }
+     ],
+     "num_experts": 1,
      "rank": 7,
-     "notes": "High-volume slot role in a game with a massive 49.5 point total."
+     "notes": "Explosive downfield playmaker with great big-play potential."
     },
     {
      "player_id": "1844128",
@@ -1239,9 +1307,9 @@
       "ppd": 2.11,
       "ceil": 25.9,
       "opto": 6.1,
-      "pown": 10.1,
+      "pown": 9.3,
       "grade": 1.013,
-      "gpp_grade": 0.693
+      "gpp_grade": 0.702
      },
      "fd": {
       "salary": 7200,
@@ -1249,15 +1317,153 @@
       "ppd": 1.54,
       "ceil": 21.6,
       "opto": 7.1,
-      "pown": 9.5,
+      "pown": 9.2,
       "grade": 1.159,
-      "gpp_grade": 0.765
+      "gpp_grade": 0.768
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Deep threat in a pass-heavy game plan against Tampa Bay."
+     "notes": "Primary perimeter receiver in a pass-heavy offensive scheme."
+    },
+    {
+     "player_id": "1844306",
+     "core_id": "64507",
+     "players": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "opp": "GBP",
+     "schedule_id": "179508",
+     "dk_rank": 4,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7300,
+      "fpts": 16.04,
+      "ppd": 2.2,
+      "ceil": 32.0,
+      "opto": 14.0,
+      "pown": 13.1,
+      "grade": 1.815,
+      "gpp_grade": 0.961
+     },
+     "fd": {
+      "salary": 8100,
+      "fpts": 13.13,
+      "ppd": 1.62,
+      "ceil": 26.1,
+      "opto": 13.6,
+      "pown": 11.6,
+      "grade": 1.863,
+      "gpp_grade": 1.006
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 9,
+     "notes": "Elite target share leader with top-tier route participation."
+    },
+    {
+     "player_id": "2861659",
+     "core_id": "56173",
+     "players": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "team": "DET",
+     "opp": "NOS",
+     "schedule_id": "179500",
+     "dk_rank": 5,
+     "fd_rank": null,
+     "dk_slot": "CASH",
+     "fd_slot": null,
+     "slot": "CASH",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7500,
+      "fpts": 17.64,
+      "ppd": 2.35,
+      "ceil": 35.2,
+      "opto": 10.4,
+      "pown": 20.2,
+      "grade": 1.693,
+      "gpp_grade": 1.126
+     },
+     "fd": {
+      "salary": 8600,
+      "fpts": 14.63,
+      "ppd": 1.7,
+      "ceil": 29.0,
+      "opto": 8.3,
+      "pown": 19.8,
+      "grade": 1.602,
+      "gpp_grade": 1.176
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 10,
+     "notes": "High target volume in a potent offense with a massive game total."
+    },
+    {
+     "player_id": "8222949",
+     "core_id": "235652",
+     "players": "Luther Burden",
+     "pos": "WR",
+     "team": "CHI",
+     "opp": "CAR",
+     "schedule_id": "179502",
+     "dk_rank": 6,
+     "fd_rank": null,
+     "dk_slot": "GPP",
+     "fd_slot": null,
+     "slot": "GPP",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5500,
+      "fpts": 13.32,
+      "ppd": 2.42,
+      "ceil": 29.0,
+      "opto": 11.4,
+      "pown": 9.5,
+      "grade": 1.585,
+      "gpp_grade": 1.051
+     },
+     "fd": {
+      "salary": 6200,
+      "fpts": 11.03,
+      "ppd": 1.78,
+      "ceil": 23.9,
+      "opto": 12.5,
+      "pown": 10.6,
+      "grade": 1.746,
+      "gpp_grade": 1.1
+     },
+     "experts": [
+      "Krayton",
+      "Davis Mattek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Krayton",
+       "text": "I am excited to see this Bears offense to start the season as we have seen HC Ben Johnson draw up explosive plays for his playmakers including Luther Burden and Colston Loveland, who are both coming off a great rookie season.  Both are players I want exposure to, but Burden is at very reasonable price point on both sites and he could easily see a few more targets with Rome Odunze still a little banged up to start the season."
+      },
+      {
+       "author": "DavisMattek",
+       "text": "Projection creators have a hard time before Week 1 creating a difference in target share between Burden, Rome and Loveland. They will not have that difficulity after an 9-120-1 game from Burden against the Panthers. "
+      }
+     ],
+     "num_experts": 2,
+     "rank": 11,
+     "notes": "Expanded target share in an explosive scheme facing a soft defense."
     },
     {
      "player_id": "2862069",
@@ -1267,12 +1473,12 @@
      "team": "PHI",
      "opp": "WAS",
      "schedule_id": "179507",
-     "dk_rank": 6,
-     "fd_rank": 6,
+     "dk_rank": 7,
+     "fd_rank": null,
      "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": null,
+     "site_only": "DK",
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1281,9 +1487,9 @@
       "ppd": 2.11,
       "ceil": 29.5,
       "opto": 6.7,
-      "pown": 8.4,
+      "pown": 8.7,
       "grade": 1.125,
-      "gpp_grade": 0.934
+      "gpp_grade": 0.928
      },
      "fd": {
       "salary": 7500,
@@ -1291,9 +1497,9 @@
       "ppd": 1.53,
       "ceil": 24.1,
       "opto": 7.8,
-      "pown": 9.8,
+      "pown": 10.1,
       "grade": 1.262,
-      "gpp_grade": 0.95
+      "gpp_grade": 0.947
      },
      "experts": [
       "Jordan Vanek"
@@ -1305,101 +1511,8 @@
       }
      ],
      "num_experts": 1,
-     "rank": 9,
-     "notes": "Clear alpha receiver role against a struggling Washington secondary."
-    },
-    {
-     "player_id": "4687830",
-     "core_id": "137499",
-     "players": "Parker Washington",
-     "pos": "WR",
-     "team": "JAC",
-     "opp": "CLE",
-     "schedule_id": "179504",
-     "dk_rank": 7,
-     "fd_rank": null,
-     "dk_slot": "GPP",
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": "DK",
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 5600,
-      "fpts": 12.22,
-      "ppd": 2.18,
-      "ceil": 24.0,
-      "opto": 7.2,
-      "pown": 8.4,
-      "grade": 1.079,
-      "gpp_grade": 0.741
-     },
-     "fd": {
-      "salary": 6600,
-      "fpts": 10.02,
-      "ppd": 1.52,
-      "ceil": 19.6,
-      "opto": 6.1,
-      "pown": 8.6,
-      "grade": 1.024,
-      "gpp_grade": 0.758
-     },
-     "experts": [
-      "EBeimfohr"
-     ],
-     "expert_blurbs": [],
-     "num_experts": 1,
-     "rank": 10,
-     "notes": "Slot target volume in a favorable matchup against Cleveland."
-    },
-    {
-     "player_id": "8216948",
-     "core_id": "239536",
-     "players": "Tetairoa McMillan",
-     "pos": "WR",
-     "team": "CAR",
-     "opp": "CHI",
-     "schedule_id": "179502",
-     "dk_rank": 8,
-     "fd_rank": 7,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 6100,
-      "fpts": 13.26,
-      "ppd": 2.17,
-      "ceil": 25.1,
-      "opto": 10.0,
-      "pown": 9.2,
-      "grade": 1.356,
-      "gpp_grade": 0.739
-     },
-     "fd": {
-      "salary": 6800,
-      "fpts": 10.97,
-      "ppd": 1.61,
-      "ceil": 20.8,
-      "opto": 11.5,
-      "pown": 10.0,
-      "grade": 1.551,
-      "gpp_grade": 0.789
-     },
-     "experts": [
-      "Jordan Vanek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "vanekjordan",
-       "text": "McMillan is moving into the slot this year, and the Bears are without starting slot corner Kyler Gordon. This is a matchup McMillan should have a significant advantage over, and one the Panthers will look to attack."
-      }
-     ],
-     "num_experts": 1,
-     "rank": 11,
-     "notes": "Moving to the slot against a Chicago defense missing Kyler Gordon."
+     "rank": 12,
+     "notes": "Unquestioned alpha receiver facing a vulnerable secondary."
     }
    ]
   },
@@ -1428,9 +1541,9 @@
       "ppd": 3.68,
       "ceil": 22.1,
       "opto": 17.2,
-      "pown": 12.9,
-      "grade": 3.01,
-      "gpp_grade": 1.305
+      "pown": 17.5,
+      "grade": 2.995,
+      "gpp_grade": 1.299
      },
      "fd": {
       "salary": 4600,
@@ -1438,9 +1551,9 @@
       "ppd": 1.82,
       "ceil": 17.2,
       "opto": 9.8,
-      "pown": 10.5,
-      "grade": 2.223,
-      "gpp_grade": 1.195
+      "pown": 12.1,
+      "grade": 2.209,
+      "gpp_grade": 1.189
      },
      "experts": [
       "Notorious",
@@ -1469,7 +1582,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Priced too cheap with primary target volume in an injured tight end room."
+     "notes": "Expected to lead the team in targets at a minimal Price tag."
     },
     {
      "player_id": "8217153",
@@ -1493,9 +1606,9 @@
       "ppd": 2.5,
       "ceil": 25.2,
       "opto": 9.1,
-      "pown": 8.7,
-      "grade": 1.828,
-      "gpp_grade": 0.971
+      "pown": 8.6,
+      "grade": 1.816,
+      "gpp_grade": 0.967
      },
      "fd": {
       "salary": 5600,
@@ -1503,64 +1616,15 @@
       "ppd": 1.77,
       "ceil": 20.3,
       "opto": 13.4,
-      "pown": 8.0,
-      "grade": 2.617,
-      "gpp_grade": 1.088
+      "pown": 8.8,
+      "grade": 2.601,
+      "gpp_grade": 1.069
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Every-down route rate and red-zone involvement against Baltimore."
-    },
-    {
-     "player_id": "8216973",
-     "core_id": "238444",
-     "players": "Colston Loveland",
-     "pos": "TE",
-     "team": "CHI",
-     "opp": "CAR",
-     "schedule_id": "179502",
-     "dk_rank": null,
-     "fd_rank": 3,
-     "dk_slot": null,
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": "FD",
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 5300,
-      "fpts": 12.01,
-      "ppd": 2.27,
-      "ceil": 25.6,
-      "opto": 4.6,
-      "pown": 10.3,
-      "grade": 1.304,
-      "gpp_grade": 0.967
-     },
-     "fd": {
-      "salary": 6000,
-      "fpts": 9.82,
-      "ppd": 1.64,
-      "ceil": 20.8,
-      "opto": 8.1,
-      "pown": 10.2,
-      "grade": 1.943,
-      "gpp_grade": 1.085
-     },
-     "experts": [
-      "Notorious"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "Notorious",
-       "text": "Colston Loveland ($5,300 DK / $6,000 FD) could make the leap from a good tight end to a great tight end this season. It wouldn\u2019t surprise me if he\u2019s in the same tier as Trey McBride and Brock Bowers at the end of the season. The Bears want to break scoring records, and Loveland might be the most reliable weapon for Caleb Williams. Loveland really came alive at the end of last season, racking up 48 targets over the final 4 games (including the playoffs). Luther Burden and Rome Odunze are expected to suit up, but they\u2019ve both dealt with injuries and haven\u2019t had many reps with Williams leading up to Week 1.\r\n\r\n"
-      }
-     ],
-     "num_experts": 1,
-     "rank": 3,
-     "notes": "Core weapon in a high-scoring offense with strong recent target volume."
+     "notes": "Every-down route participation with strong red-zone involvement."
     },
     {
      "player_id": "328096",
@@ -1585,8 +1649,8 @@
       "ceil": 22.2,
       "opto": 8.2,
       "pown": 8.0,
-      "grade": 1.67,
-      "gpp_grade": 0.883
+      "grade": 1.658,
+      "gpp_grade": 0.878
      },
      "fd": {
       "salary": 5200,
@@ -1595,14 +1659,14 @@
       "ceil": 18.1,
       "opto": 8.4,
       "pown": 6.2,
-      "grade": 1.878,
-      "gpp_grade": 0.964
+      "grade": 1.865,
+      "gpp_grade": 0.959
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
-     "notes": "Reliable seam and red-zone target in a competitive divisional matchup."
+     "rank": 3,
+     "notes": "Reliable seam option with strong red-zone target volume."
     },
     {
      "player_id": "1844771",
@@ -1627,8 +1691,8 @@
       "ceil": 20.9,
       "opto": 8.7,
       "pown": 7.1,
-      "grade": 1.641,
-      "gpp_grade": 0.83
+      "grade": 1.629,
+      "gpp_grade": 0.824
      },
      "fd": {
       "salary": 5400,
@@ -1636,15 +1700,15 @@
       "ppd": 1.45,
       "ceil": 16.5,
       "opto": 5.1,
-      "pown": 6.4,
-      "grade": 1.286,
-      "gpp_grade": 0.807
+      "pown": 5.9,
+      "grade": 1.275,
+      "gpp_grade": 0.81
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
-     "notes": "Seam and red-zone usage indoors against a vulnerable Detroit defense."
+     "rank": 4,
+     "notes": "Seam usage and red-zone looks in a favorable indoor matchup."
     },
     {
      "player_id": "4687755",
@@ -1668,9 +1732,9 @@
       "ppd": 2.38,
       "ceil": 23.9,
       "opto": 8.2,
-      "pown": 7.9,
-      "grade": 1.586,
-      "gpp_grade": 0.911
+      "pown": 8.0,
+      "grade": 1.574,
+      "gpp_grade": 0.905
      },
      "fd": {
       "salary": 6300,
@@ -1678,15 +1742,15 @@
       "ppd": 1.39,
       "ceil": 19.4,
       "opto": 4.9,
-      "pown": 5.9,
-      "grade": 1.326,
-      "gpp_grade": 0.967
+      "pown": 6.1,
+      "grade": 1.315,
+      "gpp_grade": 0.959
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 6,
-     "notes": "Red-zone target volume and route participation against Minnesota."
+     "rank": 5,
+     "notes": "Strong route rate with consistent red-zone opportunities."
     },
     {
      "player_id": "3492164",
@@ -1708,11 +1772,11 @@
       "salary": 6800,
       "fpts": 14.04,
       "ppd": 2.06,
-      "ceil": 29.5,
+      "ceil": 29.6,
       "opto": 3.7,
-      "pown": 6.3,
-      "grade": 1.294,
-      "gpp_grade": 1.133
+      "pown": 6.1,
+      "grade": 1.284,
+      "gpp_grade": 1.132
      },
      "fd": {
       "salary": 7600,
@@ -1720,15 +1784,57 @@
       "ppd": 1.45,
       "ceil": 23.0,
       "opto": 5.4,
-      "pown": 7.2,
-      "grade": 1.646,
-      "gpp_grade": 1.164
+      "pown": 6.6,
+      "grade": 1.635,
+      "gpp_grade": 1.17
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 6,
+     "notes": "Elite target hog at tight position with massive ceiling."
+    },
+    {
+     "player_id": "4687728",
+     "core_id": "137283",
+     "players": "Sam LaPorta",
+     "pos": "TE",
+     "team": "DET",
+     "opp": "NOS",
+     "schedule_id": "179500",
+     "dk_rank": null,
+     "fd_rank": 7,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 4400,
+      "fpts": 10.74,
+      "ppd": 2.44,
+      "ceil": 22.9,
+      "opto": 3.7,
+      "pown": 8.8,
+      "grade": 1.129,
+      "gpp_grade": 0.852
+     },
+     "fd": {
+      "salary": 5800,
+      "fpts": 8.83,
+      "ppd": 1.52,
+      "ceil": 18.7,
+      "opto": 3.1,
+      "pown": 7.4,
+      "grade": 1.179,
+      "gpp_grade": 0.932
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Elite target share and route rate against a weak Chargers linebacker group."
+     "notes": "Consistent route participation in a high-paced offense."
     },
     {
      "player_id": "328643",
@@ -1752,9 +1858,9 @@
       "ppd": 2.32,
       "ceil": 21.8,
       "opto": 4.5,
-      "pown": 4.4,
-      "grade": 1.094,
-      "gpp_grade": 0.866
+      "pown": 4.9,
+      "grade": 1.084,
+      "gpp_grade": 0.854
      },
      "fd": {
       "salary": 5300,
@@ -1762,15 +1868,64 @@
       "ppd": 1.46,
       "ceil": 17.6,
       "opto": 4.8,
-      "pown": 5.1,
-      "grade": 1.247,
-      "gpp_grade": 0.906
+      "pown": 5.5,
+      "grade": 1.237,
+      "gpp_grade": 0.895
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Red-zone target equity and seam usage against Washington."
+     "notes": "Red-zone target security with reliable blocking and receiving mix."
+    },
+    {
+     "player_id": "8216973",
+     "core_id": "238444",
+     "players": "Colston Loveland",
+     "pos": "TE",
+     "team": "CHI",
+     "opp": "CAR",
+     "schedule_id": "179502",
+     "dk_rank": 7,
+     "fd_rank": 3,
+     "dk_slot": "GPP",
+     "fd_slot": "CASH",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5300,
+      "fpts": 12.01,
+      "ppd": 2.27,
+      "ceil": 25.6,
+      "opto": 4.6,
+      "pown": 8.7,
+      "grade": 1.294,
+      "gpp_grade": 0.981
+     },
+     "fd": {
+      "salary": 6000,
+      "fpts": 9.82,
+      "ppd": 1.64,
+      "ceil": 20.8,
+      "opto": 8.1,
+      "pown": 10.0,
+      "grade": 1.931,
+      "gpp_grade": 1.08
+     },
+     "experts": [
+      "Notorious"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Notorious",
+       "text": "Colston Loveland ($5,300 DK / $6,000 FD) could make the leap from a good tight end to a great tight end this season. It wouldn\u2019t surprise me if he\u2019s in the same tier as Trey McBride and Brock Bowers at the end of the season. The Bears want to break scoring records, and Loveland might be the most reliable weapon for Caleb Williams. Loveland really came alive at the end of last season, racking up 48 targets over the final 4 games (including the playoffs). Luther Burden and Rome Odunze are expected to suit up, but they\u2019ve both dealt with injuries and haven\u2019t had many reps with Williams leading up to Week 1.\r\n\r\n"
+      }
+     ],
+     "num_experts": 1,
+     "rank": 9,
+     "notes": "Reliable weapon seeing heavy target volume over recent games."
     },
     {
      "player_id": "4687831",
@@ -1780,7 +1935,7 @@
      "team": "JAC",
      "opp": "CLE",
      "schedule_id": "179504",
-     "dk_rank": 7,
+     "dk_rank": 8,
      "fd_rank": null,
      "dk_slot": "GPP",
      "fd_slot": null,
@@ -1794,9 +1949,9 @@
       "ppd": 2.62,
       "ceil": 21.5,
       "opto": 6.5,
-      "pown": 5.6,
-      "grade": 1.376,
-      "gpp_grade": 0.887
+      "pown": 5.4,
+      "grade": 1.365,
+      "gpp_grade": 0.884
      },
      "fd": {
       "salary": 5100,
@@ -1804,57 +1959,15 @@
       "ppd": 1.47,
       "ceil": 17.0,
       "opto": 4.8,
-      "pown": 3.6,
-      "grade": 1.229,
-      "gpp_grade": 0.9
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 9,
-     "notes": "Emerging tight end role in a favorable matchup against Cleveland."
-    },
-    {
-     "player_id": "4687728",
-     "core_id": "137283",
-     "players": "Sam LaPorta",
-     "pos": "TE",
-     "team": "DET",
-     "opp": "NOS",
-     "schedule_id": "179500",
-     "dk_rank": 8,
-     "fd_rank": 7,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 4400,
-      "fpts": 10.74,
-      "ppd": 2.44,
-      "ceil": 22.9,
-      "opto": 3.7,
-      "pown": 8.0,
-      "grade": 1.138,
-      "gpp_grade": 0.869
-     },
-     "fd": {
-      "salary": 5800,
-      "fpts": 8.83,
-      "ppd": 1.52,
-      "ceil": 18.7,
-      "opto": 3.1,
-      "pown": 8.5,
-      "grade": 1.189,
-      "gpp_grade": 0.921
+      "pown": 3.9,
+      "grade": 1.218,
+      "gpp_grade": 0.889
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 10,
-     "notes": "Elite route rate and red-zone role in a high-total indoor game."
+     "notes": "Emerging receiving tight end with solid snap participation."
     }
    ]
   },
@@ -1883,9 +1996,9 @@
       "ppd": 2.07,
       "ceil": 36.4,
       "opto": 5.1,
-      "pown": 7.4,
+      "pown": 7.5,
       "grade": 0.753,
-      "gpp_grade": 0.28
+      "gpp_grade": 0.279
      },
      "fd": {
       "salary": 4600,
@@ -1893,9 +2006,9 @@
       "ppd": 1.58,
       "ceil": 36.4,
       "opto": 5.0,
-      "pown": 8.0,
+      "pown": 9.1,
       "grade": 0.822,
-      "gpp_grade": 0.307
+      "gpp_grade": 0.292
      },
      "experts": [],
      "expert_blurbs": [],
@@ -1925,9 +2038,9 @@
       "ppd": 2.2,
       "ceil": 37.9,
       "opto": 6.9,
-      "pown": 5.8,
+      "pown": 5.0,
       "grade": 1.119,
-      "gpp_grade": 0.452
+      "gpp_grade": 0.465
      },
      "fd": {
       "salary": 4500,
@@ -1935,9 +2048,9 @@
       "ppd": 1.57,
       "ceil": 37.9,
       "opto": 6.1,
-      "pown": 5.6,
+      "pown": 5.2,
       "grade": 0.902,
-      "gpp_grade": 0.449
+      "gpp_grade": 0.453
      },
      "experts": [],
      "expert_blurbs": [],
@@ -1967,9 +2080,9 @@
       "ppd": 2.08,
       "ceil": 26.9,
       "opto": 6.5,
-      "pown": 4.9,
+      "pown": 5.9,
       "grade": 0.856,
-      "gpp_grade": -0.397
+      "gpp_grade": -0.412
      },
      "fd": {
       "salary": 4900,
@@ -1977,9 +2090,9 @@
       "ppd": 1.4,
       "ceil": 26.9,
       "opto": 4.9,
-      "pown": 4.2,
+      "pown": 4.9,
       "grade": 0.461,
-      "gpp_grade": -0.417
+      "gpp_grade": -0.427
      },
      "experts": [],
      "expert_blurbs": [],
@@ -2009,9 +2122,9 @@
       "ppd": 1.94,
       "ceil": 31.6,
       "opto": 7.9,
-      "pown": 5.8,
+      "pown": 7.0,
       "grade": 0.834,
-      "gpp_grade": -0.107
+      "gpp_grade": -0.125
      },
      "fd": {
       "salary": 5000,
@@ -2019,9 +2132,9 @@
       "ppd": 1.32,
       "ceil": 31.6,
       "opto": 5.8,
-      "pown": 4.6,
+      "pown": 4.9,
       "grade": 0.41,
-      "gpp_grade": -0.118
+      "gpp_grade": -0.123
      },
      "experts": [],
      "expert_blurbs": [],
@@ -2051,9 +2164,9 @@
       "ppd": 2.31,
       "ceil": 38.3,
       "opto": 6.7,
-      "pown": 5.6,
+      "pown": 4.6,
       "grade": 0.927,
-      "gpp_grade": 0.525
+      "gpp_grade": 0.541
      },
      "fd": {
       "salary": 3600,
@@ -2061,9 +2174,9 @@
       "ppd": 1.74,
       "ceil": 38.3,
       "opto": 7.8,
-      "pown": 6.9,
+      "pown": 5.5,
       "grade": 1.087,
-      "gpp_grade": 0.542
+      "gpp_grade": 0.564
      },
      "experts": [],
      "expert_blurbs": [],
@@ -2106,12 +2219,12 @@
      {
       "depth": 1,
       "name": "Ja'Marr Chase",
-      "note": "19.8 proj \u00b7 $7,800 \u00b7 23% opto \u00b7 26% own \u00b7 experts: Notorious, Bobby Gomes, Davis Mattek"
+      "note": "19.8 proj \u00b7 $7,800 \u00b7 23% opto \u00b7 25% own \u00b7 experts: Notorious, Bobby Gomes, Davis Mattek"
      },
      {
       "depth": 2,
       "name": "Tee Higgins",
-      "note": "13.3 proj \u00b7 $6,300 \u00b7 6% opto \u00b7 10% own"
+      "note": "13.3 proj \u00b7 $6,300 \u00b7 6% opto \u00b7 9% own"
      },
      {
       "depth": 3,
@@ -2148,7 +2261,7 @@
      {
       "depth": 1,
       "name": "Cincinnati Bengals",
-      "note": "6.2 proj \u00b7 $2,700 \u00b7 7% opto \u00b7 6% own"
+      "note": "6.2 proj \u00b7 $2,700 \u00b7 7% opto \u00b7 5% own"
      }
     ]
    }
@@ -2184,7 +2297,7 @@
      {
       "depth": 1,
       "name": "Emeka Egbuka",
-      "note": "12.9 proj \u00b7 $6,200 \u00b7 7% opto \u00b7 7% own"
+      "note": "12.9 proj \u00b7 $6,200 \u00b7 7% opto \u00b7 8% own"
      },
      {
       "depth": 2,
@@ -2356,7 +2469,7 @@
      {
       "depth": 1,
       "name": "Dalton Schultz",
-      "note": "8.8 proj \u00b7 $3,400 \u00b7 6% opto \u00b7 4% own"
+      "note": "8.8 proj \u00b7 $3,400 \u00b7 6% opto \u00b7 3% own"
      },
      {
       "depth": 2,
@@ -2389,14 +2502,14 @@
      {
       "depth": 1,
       "name": "Jared Goff",
-      "note": "18.5 proj \u00b7 $6,000 \u00b7 9% opto \u00b7 12% own \u00b7 experts: Krayton"
+      "note": "18.5 proj \u00b7 $6,000 \u00b7 9% opto \u00b7 11% own \u00b7 experts: Krayton"
      }
     ],
     "RB": [
      {
       "depth": 1,
       "name": "Jahmyr Gibbs",
-      "note": "23.8 proj \u00b7 $8,000 \u00b7 72% opto \u00b7 41% own \u00b7 experts: Notorious, Krayton, Bobby Gomes, Davis Mattek, Jordan Vanek"
+      "note": "23.8 proj \u00b7 $8,000 \u00b7 72% opto \u00b7 43% own \u00b7 experts: Notorious, Krayton, Bobby Gomes, Davis Mattek, Jordan Vanek"
      },
      {
       "depth": 2,
@@ -2411,7 +2524,7 @@
      {
       "depth": 1,
       "name": "Amon-Ra St. Brown",
-      "note": "17.6 proj \u00b7 $7,500 \u00b7 10% opto \u00b7 21% own"
+      "note": "17.6 proj \u00b7 $7,500 \u00b7 10% opto \u00b7 20% own"
      },
      {
       "depth": 2,
@@ -2434,7 +2547,7 @@
      {
       "depth": 1,
       "name": "Sam LaPorta",
-      "note": "10.7 proj \u00b7 $4,400 \u00b7 4% opto \u00b7 8% own"
+      "note": "10.7 proj \u00b7 $4,400 \u00b7 4% opto \u00b7 9% own"
      },
      {
       "depth": 2,
@@ -2485,7 +2598,7 @@
      {
       "depth": 1,
       "name": "Chris Olave",
-      "note": "15.5 proj \u00b7 $6,700 \u00b7 14% opto \u00b7 20% own \u00b7 experts: Notorious"
+      "note": "15.5 proj \u00b7 $6,700 \u00b7 14% opto \u00b7 19% own \u00b7 experts: Notorious"
      },
      {
       "depth": 2,
@@ -2513,10 +2626,6 @@
      {
       "depth": 2,
       "name": "Noah Fant"
-     },
-     {
-      "depth": 3,
-      "name": "Stone Smartt"
      }
     ],
     "DST": [
@@ -2544,7 +2653,7 @@
      {
       "depth": 1,
       "name": "Derrick Henry",
-      "note": "16.1 proj \u00b7 $6,700 \u00b7 15% opto \u00b7 12% own"
+      "note": "16.1 proj \u00b7 $6,700 \u00b7 15% opto \u00b7 13% own"
      },
      {
       "depth": 2,
@@ -2695,7 +2804,7 @@
      {
       "depth": 1,
       "name": "Chuba Hubbard",
-      "note": "10.3 proj \u00b7 $5,500 \u00b7 1% opto \u00b7 4% own"
+      "note": "10.3 proj \u00b7 $5,500 \u00b7 1% opto \u00b7 2% own"
      },
      {
       "depth": 2,
@@ -2710,7 +2819,7 @@
      {
       "depth": 1,
       "name": "Tetairoa McMillan",
-      "note": "13.3 proj \u00b7 $6,100 \u00b7 10% opto \u00b7 9% own \u00b7 experts: Jordan Vanek"
+      "note": "13.3 proj \u00b7 $6,100 \u00b7 10% opto \u00b7 10% own \u00b7 experts: Jordan Vanek"
      },
      {
       "depth": 2,
@@ -2784,7 +2893,7 @@
      {
       "depth": 1,
       "name": "Luther Burden",
-      "note": "13.3 proj \u00b7 $5,500 \u00b7 11% opto \u00b7 11% own \u00b7 experts: Krayton, Davis Mattek"
+      "note": "13.3 proj \u00b7 $5,500 \u00b7 11% opto \u00b7 10% own \u00b7 experts: Krayton, Davis Mattek"
      },
      {
       "depth": 2,
@@ -2808,7 +2917,7 @@
      {
       "depth": 1,
       "name": "Colston Loveland",
-      "note": "12.0 proj \u00b7 $5,300 \u00b7 5% opto \u00b7 10% own \u00b7 experts: Notorious"
+      "note": "12.0 proj \u00b7 $5,300 \u00b7 5% opto \u00b7 9% own \u00b7 experts: Notorious"
      },
      {
       "depth": 2,
@@ -2858,7 +2967,7 @@
      {
       "depth": 1,
       "name": "Garrett Wilson",
-      "note": "13.9 proj \u00b7 $5,800 \u00b7 15% opto \u00b7 11% own \u00b7 experts: Davis Mattek"
+      "note": "13.9 proj \u00b7 $5,800 \u00b7 15% opto \u00b7 12% own \u00b7 experts: Davis Mattek"
      },
      {
       "depth": 2,
@@ -2900,7 +3009,7 @@
      {
       "depth": 1,
       "name": "New York Jets",
-      "note": "6.0 proj \u00b7 $2,500 \u00b7 6% opto \u00b7 8% own"
+      "note": "6.0 proj \u00b7 $2,500 \u00b7 6% opto \u00b7 10% own"
      }
     ]
    }
@@ -2941,7 +3050,7 @@
      {
       "depth": 2,
       "name": "Carnell Tate",
-      "note": "9.7 proj \u00b7 $5,300 \u00b7 2% opto \u00b7 4% own"
+      "note": "9.7 proj \u00b7 $5,300 \u00b7 2% opto \u00b7 3% own"
      },
      {
       "depth": 3,
@@ -2995,7 +3104,7 @@
      {
       "depth": 1,
       "name": "Quinshon Judkins",
-      "note": "10.9 proj \u00b7 $5,500 \u00b7 2% opto \u00b7 3% own"
+      "note": "10.9 proj \u00b7 $5,500 \u00b7 2% opto \u00b7 4% own"
      },
      {
       "depth": 2,
@@ -3063,7 +3172,7 @@
      {
       "depth": 1,
       "name": "Trevor Lawrence",
-      "note": "18.4 proj \u00b7 $5,800 \u00b7 6% opto \u00b7 4% own"
+      "note": "18.4 proj \u00b7 $5,800 \u00b7 6% opto \u00b7 5% own"
      }
     ],
     "RB": [
@@ -3084,7 +3193,7 @@
      {
       "depth": 1,
       "name": "Parker Washington",
-      "note": "12.2 proj \u00b7 $5,600 \u00b7 7% opto \u00b7 8% own \u00b7 experts: EBeimfohr"
+      "note": "12.2 proj \u00b7 $5,600 \u00b7 7% opto \u00b7 9% own \u00b7 experts: EBeimfohr"
      },
      {
       "depth": 2,
@@ -3107,7 +3216,7 @@
      {
       "depth": 1,
       "name": "Brenton Strange",
-      "note": "9.4 proj \u00b7 $3,600 \u00b7 7% opto \u00b7 6% own"
+      "note": "9.4 proj \u00b7 $3,600 \u00b7 7% opto \u00b7 5% own"
      },
      {
       "depth": 2,
@@ -3122,7 +3231,7 @@
      {
       "depth": 1,
       "name": "Jacksonville Jaguars",
-      "note": "6.6 proj \u00b7 $3,400 \u00b7 8% opto \u00b7 6% own"
+      "note": "6.6 proj \u00b7 $3,400 \u00b7 8% opto \u00b7 7% own"
      }
     ]
    }
@@ -3143,7 +3252,7 @@
      {
       "depth": 1,
       "name": "Bijan Robinson",
-      "note": "19.6 proj \u00b7 $7,700 \u00b7 21% opto \u00b7 15% own \u00b7 experts: Notorious"
+      "note": "19.6 proj \u00b7 $7,700 \u00b7 21% opto \u00b7 13% own \u00b7 experts: Notorious"
      },
      {
       "depth": 2,
@@ -3155,7 +3264,7 @@
      {
       "depth": 1,
       "name": "Drake London",
-      "note": "12.2 proj \u00b7 $6,500 \u00b7 3% opto \u00b7 6% own"
+      "note": "12.2 proj \u00b7 $6,500 \u00b7 3% opto \u00b7 5% own"
      },
      {
       "depth": 2,
@@ -3178,7 +3287,7 @@
      {
       "depth": 1,
       "name": "Kyle Pitts",
-      "note": "9.7 proj \u00b7 $4,700 \u00b7 3% opto \u00b7 4% own"
+      "note": "9.7 proj \u00b7 $4,700 \u00b7 3% opto \u00b7 5% own"
      },
      {
       "depth": 2,
@@ -3270,7 +3379,7 @@
      {
       "depth": 1,
       "name": "Pittsburgh Steelers",
-      "note": "6.9 proj \u00b7 $3,300 \u00b7 6% opto \u00b7 5% own"
+      "note": "6.9 proj \u00b7 $3,300 \u00b7 6% opto \u00b7 6% own"
      }
     ]
    }
@@ -3291,7 +3400,7 @@
      {
       "depth": 1,
       "name": "Ashton Jeanty",
-      "note": "15.2 proj \u00b7 $6,600 \u00b7 5% opto \u00b7 11% own \u00b7 experts: EBeimfohr, Davis Mattek"
+      "note": "15.2 proj \u00b7 $6,600 \u00b7 5% opto \u00b7 9% own \u00b7 experts: EBeimfohr, Davis Mattek"
      },
      {
       "depth": 2,
@@ -3306,7 +3415,7 @@
      {
       "depth": 1,
       "name": "Tre Tucker",
-      "note": "10.7 proj \u00b7 $4,000 \u00b7 10% opto \u00b7 8% own"
+      "note": "10.7 proj \u00b7 $4,000 \u00b7 10% opto \u00b7 9% own"
      },
      {
       "depth": 2,
@@ -3330,7 +3439,7 @@
      {
       "depth": 1,
       "name": "Michael Mayer",
-      "note": "10.7 proj \u00b7 $2,900 \u00b7 17% opto \u00b7 13% own \u00b7 experts: Notorious, Bobby Gomes, ncorfield8k, Davis Mattek, Jordan Vanek"
+      "note": "10.7 proj \u00b7 $2,900 \u00b7 17% opto \u00b7 17% own \u00b7 experts: Notorious, Bobby Gomes, ncorfield8k, Davis Mattek, Jordan Vanek"
      },
      {
       "depth": 2,
@@ -3365,7 +3474,7 @@
      {
       "depth": 1,
       "name": "De'Von Achane",
-      "note": "16.5 proj \u00b7 $7,000 \u00b7 8% opto \u00b7 14% own"
+      "note": "16.5 proj \u00b7 $7,000 \u00b7 8% opto \u00b7 15% own"
      },
      {
       "depth": 2,
@@ -3458,7 +3567,7 @@
      {
       "depth": 1,
       "name": "DeVonta Smith",
-      "note": "13.9 proj \u00b7 $6,600 \u00b7 7% opto \u00b7 8% own \u00b7 experts: Jordan Vanek"
+      "note": "13.9 proj \u00b7 $6,600 \u00b7 7% opto \u00b7 9% own \u00b7 experts: Jordan Vanek"
      },
      {
       "depth": 2,
@@ -3481,7 +3590,7 @@
      {
       "depth": 1,
       "name": "Dallas Goedert",
-      "note": "9.5 proj \u00b7 $4,100 \u00b7 5% opto \u00b7 4% own"
+      "note": "9.5 proj \u00b7 $4,100 \u00b7 5% opto \u00b7 5% own"
      },
      {
       "depth": 2,
@@ -3500,7 +3609,7 @@
      {
       "depth": 1,
       "name": "Philadelphia Eagles",
-      "note": "7.0 proj \u00b7 $3,200 \u00b7 7% opto \u00b7 6% own"
+      "note": "7.0 proj \u00b7 $3,200 \u00b7 7% opto \u00b7 5% own"
      }
     ]
    }
@@ -3536,12 +3645,12 @@
      {
       "depth": 1,
       "name": "Terry McLaurin",
-      "note": "11.2 proj \u00b7 $5,700 \u00b7 4% opto \u00b7 5% own"
+      "note": "11.2 proj \u00b7 $5,700 \u00b7 4% opto \u00b7 6% own"
      },
      {
       "depth": 2,
       "name": "Stefon Diggs",
-      "note": "9.9 proj \u00b7 $5,200 \u00b7 3% opto \u00b7 5% own"
+      "note": "9.9 proj \u00b7 $5,200 \u00b7 3% opto \u00b7 4% own"
      },
      {
       "depth": 3,
@@ -3564,7 +3673,7 @@
      {
       "depth": 1,
       "name": "Chigoziem Okonkwo",
-      "note": "7.1 proj \u00b7 $4,000 \u00b7 1% opto \u00b7 3% own"
+      "note": "7.1 proj \u00b7 $4,000 \u00b7 1% opto \u00b7 2% own"
      },
      {
       "depth": 2,
@@ -3667,7 +3776,7 @@
      {
       "depth": 1,
       "name": "Kyler Murray",
-      "note": "17.9 proj \u00b7 $5,500 \u00b7 7% opto \u00b7 5% own \u00b7 experts: Headchopper"
+      "note": "17.9 proj \u00b7 $5,500 \u00b7 7% opto \u00b7 7% own \u00b7 experts: Headchopper"
      }
     ],
     "RB": [
@@ -3688,7 +3797,7 @@
      {
       "depth": 1,
       "name": "Justin Jefferson",
-      "note": "16.0 proj \u00b7 $7,300 \u00b7 14% opto \u00b7 12% own"
+      "note": "16.0 proj \u00b7 $7,300 \u00b7 14% opto \u00b7 13% own"
      },
      {
       "depth": 2,
@@ -3762,12 +3871,12 @@
      {
       "depth": 1,
       "name": "Marvin Harrison",
-      "note": "10.8 proj \u00b7 $5,000 \u00b7 8% opto \u00b7 5% own"
+      "note": "10.8 proj \u00b7 $5,000 \u00b7 8% opto \u00b7 4% own"
      },
      {
       "depth": 2,
       "name": "Michael Wilson",
-      "note": "9.8 proj \u00b7 $5,300 \u00b7 4% opto \u00b7 4% own"
+      "note": "9.8 proj \u00b7 $5,300 \u00b7 4% opto \u00b7 3% own"
      },
      {
       "depth": 3,
@@ -3826,7 +3935,7 @@
      {
       "depth": 1,
       "name": "Omarion Hampton",
-      "note": "15.8 proj \u00b7 $6,800 \u00b7 12% opto \u00b7 12% own \u00b7 experts: ncorfield8k"
+      "note": "15.8 proj \u00b7 $6,800 \u00b7 12% opto \u00b7 13% own \u00b7 experts: ncorfield8k"
      },
      {
       "depth": 2,
@@ -3846,7 +3955,7 @@
      {
       "depth": 2,
       "name": "Quentin Johnston",
-      "note": "9.7 proj \u00b7 $4,700 \u00b7 7% opto \u00b7 6% own"
+      "note": "9.7 proj \u00b7 $4,700 \u00b7 7% opto \u00b7 5% own"
      },
      {
       "depth": 3,
