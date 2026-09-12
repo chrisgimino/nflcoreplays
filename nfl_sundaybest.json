@@ -1,0 +1,3479 @@
+{
+ "title": "NFL Sunday Best",
+ "updated": "2026-09-12T09:41",
+ "slate_ids": {
+  "draftkings": "151307",
+  "fanduel": "133104"
+ },
+ "sites": [
+  "DK",
+  "FD"
+ ],
+ "core_counts": {
+  "DK": 2,
+  "FD": 2
+ },
+ "sections": [
+  {
+   "position": "QB",
+   "players": [
+    {
+     "player_id": "1849725",
+     "core_id": "63756",
+     "players": "Justin Herbert",
+     "pos": "QB",
+     "team": "LAC",
+     "opp": "ARI",
+     "schedule_id": "179509",
+     "dk_rank": 1,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6100,
+      "fpts": 20.34,
+      "ppd": 3.33,
+      "ceil": 30.8,
+      "opto": 8.6,
+      "pown": 0.0,
+      "grade": 1.624,
+      "gpp_grade": 0.911
+     },
+     "fd": {
+      "salary": 7600,
+      "fpts": 20.15,
+      "ppd": 2.65,
+      "ceil": 30.6,
+      "opto": 9.3,
+      "pown": 0.0,
+      "grade": 1.619,
+      "gpp_grade": 0.987
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 1,
+     "notes": "20.3 proj, 9% opto, 0% own"
+    },
+    {
+     "player_id": "35673",
+     "core_id": "29304",
+     "players": "Jared Goff",
+     "pos": "QB",
+     "team": "DET",
+     "opp": "NOS",
+     "schedule_id": "179500",
+     "dk_rank": 2,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6000,
+      "fpts": 18.54,
+      "ppd": 3.09,
+      "ceil": 29.6,
+      "opto": 8.6,
+      "pown": 0.0,
+      "grade": 1.027,
+      "gpp_grade": 0.635
+     },
+     "fd": {
+      "salary": 7800,
+      "fpts": 18.29,
+      "ppd": 2.34,
+      "ceil": 29.2,
+      "opto": 8.3,
+      "pown": 0.0,
+      "grade": 0.866,
+      "gpp_grade": 0.593
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 2,
+     "notes": "18.5 proj, 9% opto, 0% own"
+    },
+    {
+     "player_id": "973153",
+     "core_id": "54000",
+     "players": "Kyler Murray",
+     "pos": "QB",
+     "team": "MIN",
+     "opp": "GBP",
+     "schedule_id": "179508",
+     "dk_rank": 3,
+     "fd_rank": null,
+     "dk_slot": "CASH",
+     "fd_slot": null,
+     "slot": "CASH",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5500,
+      "fpts": 17.86,
+      "ppd": 3.25,
+      "ceil": 28.0,
+      "opto": 6.9,
+      "pown": 0.0,
+      "grade": 0.977,
+      "gpp_grade": 0.599
+     },
+     "fd": null,
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 3,
+     "notes": "17.9 proj, 7% opto, 0% own"
+    },
+    {
+     "player_id": "1844126",
+     "core_id": "64500",
+     "players": "Joe Burrow",
+     "pos": "QB",
+     "team": "CIN",
+     "opp": "TBB",
+     "schedule_id": "179498",
+     "dk_rank": null,
+     "fd_rank": 4,
+     "dk_slot": null,
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": null,
+     "fd": {
+      "salary": 8200,
+      "fpts": 19.24,
+      "ppd": 2.35,
+      "ceil": 30.0,
+      "opto": 7.1,
+      "pown": 0.0,
+      "grade": 0.836,
+      "gpp_grade": 0.637
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 4,
+     "notes": "19.2 proj, 7% opto, 0% own"
+    },
+    {
+     "player_id": "1844646",
+     "core_id": "63503",
+     "players": "Jalen Hurts",
+     "pos": "QB",
+     "team": "PHI",
+     "opp": "WAS",
+     "schedule_id": "179507",
+     "dk_rank": 4,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6600,
+      "fpts": 20.7,
+      "ppd": 3.14,
+      "ceil": 31.5,
+      "opto": 5.8,
+      "pown": 0.0,
+      "grade": 0.976,
+      "gpp_grade": 0.756
+     },
+     "fd": {
+      "salary": 8300,
+      "fpts": 20.48,
+      "ppd": 2.47,
+      "ceil": 31.2,
+      "opto": 6.7,
+      "pown": 0.0,
+      "grade": 1.089,
+      "gpp_grade": 0.855
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "20.7 proj, 6% opto, 0% own"
+    },
+    {
+     "player_id": "2861939",
+     "core_id": "50547",
+     "players": "Trevor Lawrence",
+     "pos": "QB",
+     "team": "JAC",
+     "opp": "CLE",
+     "schedule_id": "179504",
+     "dk_rank": 5,
+     "fd_rank": 8,
+     "dk_slot": "CASH",
+     "fd_slot": "GPP",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5800,
+      "fpts": 18.49,
+      "ppd": 3.19,
+      "ceil": 28.9,
+      "opto": 5.0,
+      "pown": 0.0,
+      "grade": 0.694,
+      "gpp_grade": 0.618
+     },
+     "fd": {
+      "salary": 7700,
+      "fpts": 18.26,
+      "ppd": 2.37,
+      "ceil": 28.6,
+      "opto": 4.4,
+      "pown": 0.0,
+      "grade": 0.408,
+      "gpp_grade": 0.514
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 6,
+     "notes": "18.5 proj, 5% opto, 0% own"
+    },
+    {
+     "player_id": "328331",
+     "core_id": "58465",
+     "players": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "opp": "HOU",
+     "schedule_id": "179499",
+     "dk_rank": 6,
+     "fd_rank": 6,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7000,
+      "fpts": 20.54,
+      "ppd": 2.93,
+      "ceil": 31.5,
+      "opto": 4.6,
+      "pown": 0.0,
+      "grade": 0.468,
+      "gpp_grade": 0.541
+     },
+     "fd": {
+      "salary": 8900,
+      "fpts": 20.29,
+      "ppd": 2.28,
+      "ceil": 31.2,
+      "opto": 4.8,
+      "pown": 0.0,
+      "grade": 0.583,
+      "gpp_grade": 0.659
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "20.5 proj, 5% opto, 0% own"
+    },
+    {
+     "player_id": "8223333",
+     "core_id": "63768",
+     "players": "Tyler Shough",
+     "pos": "QB",
+     "team": "NOS",
+     "opp": "DET",
+     "schedule_id": "179500",
+     "dk_rank": 7,
+     "fd_rank": 7,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5600,
+      "fpts": 17.36,
+      "ppd": 3.1,
+      "ceil": 28.1,
+      "opto": 6.0,
+      "pown": 0.0,
+      "grade": 0.546,
+      "gpp_grade": 0.527
+     },
+     "fd": {
+      "salary": 6900,
+      "fpts": 17.12,
+      "ppd": 2.48,
+      "ceil": 27.7,
+      "opto": 6.0,
+      "pown": 0.0,
+      "grade": 0.62,
+      "gpp_grade": 0.627
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 8,
+     "notes": "17.4 proj, 6% opto, 0% own"
+    },
+    {
+     "player_id": "328097",
+     "core_id": "62084",
+     "players": "Lamar Jackson",
+     "pos": "QB",
+     "team": "BAL",
+     "opp": "IND",
+     "schedule_id": "179501",
+     "dk_rank": 8,
+     "fd_rank": 5,
+     "dk_slot": "GPP",
+     "fd_slot": "CASH",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6800,
+      "fpts": 20.09,
+      "ppd": 2.95,
+      "ceil": 31.0,
+      "opto": 5.2,
+      "pown": 0.0,
+      "grade": 0.523,
+      "gpp_grade": 0.526
+     },
+     "fd": {
+      "salary": 8400,
+      "fpts": 19.85,
+      "ppd": 2.36,
+      "ceil": 30.7,
+      "opto": 5.8,
+      "pown": 0.0,
+      "grade": 0.764,
+      "gpp_grade": 0.71
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 9,
+     "notes": "20.1 proj, 5% opto, 0% own"
+    }
+   ]
+  },
+  {
+   "position": "RB",
+   "players": [
+    {
+     "player_id": "4687730",
+     "core_id": "146244",
+     "players": "Jahmyr Gibbs",
+     "pos": "RB",
+     "team": "DET",
+     "opp": "NOS",
+     "schedule_id": "179500",
+     "dk_rank": 1,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": true,
+     "core_fd": true,
+     "dk": {
+      "salary": 8000,
+      "fpts": 23.82,
+      "ppd": 2.98,
+      "ceil": 37.9,
+      "opto": 44.1,
+      "pown": 0.0,
+      "grade": 3.148,
+      "gpp_grade": 1.353
+     },
+     "fd": {
+      "salary": 9100,
+      "fpts": 21.74,
+      "ppd": 2.39,
+      "ceil": 34.0,
+      "opto": 46.8,
+      "pown": 0.0,
+      "grade": 3.122,
+      "gpp_grade": 1.35
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 1,
+     "notes": "23.8 proj, 44% opto, 0% own"
+    },
+    {
+     "player_id": "4687512",
+     "core_id": "123168",
+     "players": "Bijan Robinson",
+     "pos": "RB",
+     "team": "ATL",
+     "opp": "PIT",
+     "schedule_id": "179505",
+     "dk_rank": 2,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7700,
+      "fpts": 19.55,
+      "ppd": 2.54,
+      "ceil": 33.7,
+      "opto": 19.2,
+      "pown": 0.0,
+      "grade": 1.7,
+      "gpp_grade": 1.118
+     },
+     "fd": {
+      "salary": 8800,
+      "fpts": 17.43,
+      "ppd": 1.98,
+      "ceil": 29.4,
+      "opto": 18.7,
+      "pown": 0.0,
+      "grade": 1.569,
+      "gpp_grade": 1.065
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 2,
+     "notes": "19.6 proj, 19% opto, 0% own"
+    },
+    {
+     "player_id": "1844485",
+     "core_id": "49574",
+     "players": "Jonathan Taylor",
+     "pos": "RB",
+     "team": "IND",
+     "opp": "BAL",
+     "schedule_id": "179501",
+     "dk_rank": 3,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7300,
+      "fpts": 18.43,
+      "ppd": 2.52,
+      "ceil": 30.9,
+      "opto": 17.9,
+      "pown": 0.0,
+      "grade": 1.578,
+      "gpp_grade": 1.005
+     },
+     "fd": {
+      "salary": 8600,
+      "fpts": 17.06,
+      "ppd": 1.98,
+      "ceil": 28.2,
+      "opto": 20.0,
+      "pown": 0.0,
+      "grade": 1.602,
+      "gpp_grade": 1.011
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 3,
+     "notes": "18.4 proj, 18% opto, 0% own"
+    },
+    {
+     "player_id": "328607",
+     "core_id": "76720",
+     "players": "Saquon Barkley",
+     "pos": "RB",
+     "team": "PHI",
+     "opp": "WAS",
+     "schedule_id": "179507",
+     "dk_rank": 4,
+     "fd_rank": 4,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6900,
+      "fpts": 17.54,
+      "ppd": 2.54,
+      "ceil": 28.4,
+      "opto": 16.5,
+      "pown": 0.0,
+      "grade": 1.479,
+      "gpp_grade": 0.902
+     },
+     "fd": {
+      "salary": 8100,
+      "fpts": 16.32,
+      "ppd": 2.01,
+      "ceil": 26.1,
+      "opto": 18.9,
+      "pown": 0.0,
+      "grade": 1.524,
+      "gpp_grade": 0.922
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 4,
+     "notes": "17.5 proj, 16% opto, 0% own"
+    },
+    {
+     "player_id": "3491661",
+     "core_id": "144613",
+     "players": "Breece Hall",
+     "pos": "RB",
+     "team": "NYJ",
+     "opp": "TEN",
+     "schedule_id": "179503",
+     "dk_rank": 5,
+     "fd_rank": 7,
+     "dk_slot": "CASH",
+     "fd_slot": "GPP",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6200,
+      "fpts": 15.9,
+      "ppd": 2.56,
+      "ceil": 28.0,
+      "opto": 14.3,
+      "pown": 0.0,
+      "grade": 1.302,
+      "gpp_grade": 0.915
+     },
+     "fd": {
+      "salary": 6900,
+      "fpts": 14.34,
+      "ppd": 2.08,
+      "ceil": 24.7,
+      "opto": 14.9,
+      "pown": 0.0,
+      "grade": 1.274,
+      "gpp_grade": 0.897
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "15.9 proj, 14% opto, 0% own"
+    },
+    {
+     "player_id": "4687954",
+     "core_id": "146167",
+     "players": "De'Von Achane",
+     "pos": "RB",
+     "team": "MIA",
+     "opp": "LVR",
+     "schedule_id": "179506",
+     "dk_rank": 6,
+     "fd_rank": null,
+     "dk_slot": "GPP",
+     "fd_slot": null,
+     "slot": "GPP",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7000,
+      "fpts": 16.46,
+      "ppd": 2.35,
+      "ceil": 29.9,
+      "opto": 9.5,
+      "pown": 0.0,
+      "grade": 1.056,
+      "gpp_grade": 0.945
+     },
+     "fd": null,
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 6,
+     "notes": "16.5 proj, 10% opto, 0% own"
+    },
+    {
+     "player_id": "35530",
+     "core_id": "26360",
+     "players": "Derrick Henry",
+     "pos": "RB",
+     "team": "BAL",
+     "opp": "IND",
+     "schedule_id": "179501",
+     "dk_rank": 7,
+     "fd_rank": 5,
+     "dk_slot": "GPP",
+     "fd_slot": "CASH",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6700,
+      "fpts": 16.11,
+      "ppd": 2.4,
+      "ceil": 27.8,
+      "opto": 14.2,
+      "pown": 0.0,
+      "grade": 1.262,
+      "gpp_grade": 0.868
+     },
+     "fd": {
+      "salary": 8300,
+      "fpts": 15.52,
+      "ppd": 1.87,
+      "ceil": 26.6,
+      "opto": 15.6,
+      "pown": 0.0,
+      "grade": 1.293,
+      "gpp_grade": 0.92
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "16.1 proj, 14% opto, 0% own"
+    },
+    {
+     "player_id": "8217247",
+     "core_id": "237833",
+     "players": "Omarion Hampton",
+     "pos": "RB",
+     "team": "LAC",
+     "opp": "ARI",
+     "schedule_id": "179509",
+     "dk_rank": null,
+     "fd_rank": 8,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": null,
+     "fd": {
+      "salary": 7300,
+      "fpts": 14.62,
+      "ppd": 2.0,
+      "ceil": 24.9,
+      "opto": 15.1,
+      "pown": 0.0,
+      "grade": 1.268,
+      "gpp_grade": 0.88
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 8,
+     "notes": "14.6 proj, 15% opto, 0% own"
+    },
+    {
+     "player_id": "3491576",
+     "core_id": "58170",
+     "players": "James Cook",
+     "pos": "RB",
+     "team": "BUF",
+     "opp": "HOU",
+     "schedule_id": "179499",
+     "dk_rank": 8,
+     "fd_rank": 6,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7200,
+      "fpts": 16.41,
+      "ppd": 2.28,
+      "ceil": 28.5,
+      "opto": 9.9,
+      "pown": 0.0,
+      "grade": 1.054,
+      "gpp_grade": 0.867
+     },
+     "fd": {
+      "salary": 7800,
+      "fpts": 15.08,
+      "ppd": 1.93,
+      "ceil": 25.7,
+      "opto": 12.3,
+      "pown": 0.0,
+      "grade": 1.153,
+      "gpp_grade": 0.9
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 9,
+     "notes": "16.4 proj, 10% opto, 0% own"
+    }
+   ]
+  },
+  {
+   "position": "WR",
+   "players": [
+    {
+     "player_id": "2861551",
+     "core_id": "64586",
+     "players": "Ja'Marr Chase",
+     "pos": "WR",
+     "team": "CIN",
+     "opp": "TBB",
+     "schedule_id": "179498",
+     "dk_rank": 1,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": true,
+     "core_fd": true,
+     "dk": {
+      "salary": 7800,
+      "fpts": 19.85,
+      "ppd": 2.54,
+      "ceil": 36.9,
+      "opto": 24.0,
+      "pown": 0.0,
+      "grade": 2.892,
+      "gpp_grade": 1.375
+     },
+     "fd": {
+      "salary": 8900,
+      "fpts": 16.28,
+      "ppd": 1.83,
+      "ceil": 30.1,
+      "opto": 22.7,
+      "pown": 0.0,
+      "grade": 2.854,
+      "gpp_grade": 1.408
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 1,
+     "notes": "19.9 proj, 24% opto, 0% own"
+    },
+    {
+     "player_id": "1844306",
+     "core_id": "64507",
+     "players": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "opp": "GBP",
+     "schedule_id": "179508",
+     "dk_rank": 2,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7300,
+      "fpts": 16.04,
+      "ppd": 2.2,
+      "ceil": 32.0,
+      "opto": 15.9,
+      "pown": 0.0,
+      "grade": 1.939,
+      "gpp_grade": 1.111
+     },
+     "fd": {
+      "salary": 8100,
+      "fpts": 13.13,
+      "ppd": 1.62,
+      "ceil": 26.1,
+      "opto": 16.0,
+      "pown": 0.0,
+      "grade": 2.012,
+      "gpp_grade": 1.155
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 2,
+     "notes": "16.0 proj, 16% opto, 0% own"
+    },
+    {
+     "player_id": "2861659",
+     "core_id": "56173",
+     "players": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "team": "DET",
+     "opp": "NOS",
+     "schedule_id": "179500",
+     "dk_rank": 3,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7500,
+      "fpts": 17.64,
+      "ppd": 2.35,
+      "ceil": 35.3,
+      "opto": 13.7,
+      "pown": 0.0,
+      "grade": 1.921,
+      "gpp_grade": 1.279
+     },
+     "fd": {
+      "salary": 8600,
+      "fpts": 14.63,
+      "ppd": 1.7,
+      "ceil": 29.1,
+      "opto": 13.8,
+      "pown": 0.0,
+      "grade": 1.999,
+      "gpp_grade": 1.329
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 3,
+     "notes": "17.6 proj, 14% opto, 0% own"
+    },
+    {
+     "player_id": "3491988",
+     "core_id": "47332",
+     "players": "Chris Olave",
+     "pos": "WR",
+     "team": "NOS",
+     "opp": "DET",
+     "schedule_id": "179500",
+     "dk_rank": 4,
+     "fd_rank": 5,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6700,
+      "fpts": 15.5,
+      "ppd": 2.31,
+      "ceil": 29.6,
+      "opto": 13.2,
+      "pown": 0.0,
+      "grade": 1.734,
+      "gpp_grade": 1.033
+     },
+     "fd": {
+      "salary": 7400,
+      "fpts": 12.59,
+      "ppd": 1.7,
+      "ceil": 24.0,
+      "opto": 13.0,
+      "pown": 0.0,
+      "grade": 1.775,
+      "gpp_grade": 1.071
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 4,
+     "notes": "15.5 proj, 13% opto, 0% own"
+    },
+    {
+     "player_id": "2861874",
+     "core_id": "55094",
+     "players": "Nico Collins",
+     "pos": "WR",
+     "team": "HOU",
+     "opp": "BUF",
+     "schedule_id": "179499",
+     "dk_rank": 5,
+     "fd_rank": 4,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 7000,
+      "fpts": 15.02,
+      "ppd": 2.15,
+      "ceil": 30.1,
+      "opto": 14.0,
+      "pown": 0.0,
+      "grade": 1.717,
+      "gpp_grade": 1.026
+     },
+     "fd": {
+      "salary": 7700,
+      "fpts": 12.39,
+      "ppd": 1.61,
+      "ceil": 24.8,
+      "opto": 14.7,
+      "pown": 0.0,
+      "grade": 1.849,
+      "gpp_grade": 1.089
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "15.0 proj, 14% opto, 0% own"
+    },
+    {
+     "player_id": "8222949",
+     "core_id": "235652",
+     "players": "Luther Burden",
+     "pos": "WR",
+     "team": "CHI",
+     "opp": "CAR",
+     "schedule_id": "179502",
+     "dk_rank": 6,
+     "fd_rank": 6,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5500,
+      "fpts": 13.32,
+      "ppd": 2.42,
+      "ceil": 28.9,
+      "opto": 7.9,
+      "pown": 0.0,
+      "grade": 1.237,
+      "gpp_grade": 1.059
+     },
+     "fd": {
+      "salary": 6200,
+      "fpts": 11.03,
+      "ppd": 1.78,
+      "ceil": 23.8,
+      "opto": 7.6,
+      "pown": 0.0,
+      "grade": 1.289,
+      "gpp_grade": 1.113
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 6,
+     "notes": "13.3 proj, 8% opto, 0% own"
+    },
+    {
+     "player_id": "4687538",
+     "core_id": "136555",
+     "players": "Zay Flowers",
+     "pos": "WR",
+     "team": "BAL",
+     "opp": "IND",
+     "schedule_id": "179501",
+     "dk_rank": 7,
+     "fd_rank": 7,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6400,
+      "fpts": 14.58,
+      "ppd": 2.28,
+      "ceil": 29.8,
+      "opto": 10.8,
+      "pown": 0.0,
+      "grade": 1.488,
+      "gpp_grade": 1.043
+     },
+     "fd": {
+      "salary": 7300,
+      "fpts": 11.98,
+      "ppd": 1.64,
+      "ceil": 24.3,
+      "opto": 11.2,
+      "pown": 0.0,
+      "grade": 1.571,
+      "gpp_grade": 1.079
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "14.6 proj, 11% opto, 0% own"
+    },
+    {
+     "player_id": "2862069",
+     "core_id": "63504",
+     "players": "DeVonta Smith",
+     "pos": "WR",
+     "team": "PHI",
+     "opp": "WAS",
+     "schedule_id": "179507",
+     "dk_rank": 8,
+     "fd_rank": 8,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6600,
+      "fpts": 13.95,
+      "ppd": 2.11,
+      "ceil": 29.5,
+      "opto": 9.0,
+      "pown": 0.0,
+      "grade": 1.261,
+      "gpp_grade": 1.004
+     },
+     "fd": {
+      "salary": 7500,
+      "fpts": 11.46,
+      "ppd": 1.53,
+      "ceil": 24.1,
+      "opto": 9.8,
+      "pown": 0.0,
+      "grade": 1.373,
+      "gpp_grade": 1.041
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 8,
+     "notes": "13.9 proj, 9% opto, 0% own"
+    }
+   ]
+  },
+  {
+   "position": "TE",
+   "players": [
+    {
+     "player_id": "4687882",
+     "core_id": "138618",
+     "players": "Michael Mayer",
+     "pos": "TE",
+     "team": "LVR",
+     "opp": "MIA",
+     "schedule_id": "179506",
+     "dk_rank": 1,
+     "fd_rank": 5,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 2900,
+      "fpts": 10.68,
+      "ppd": 3.68,
+      "ceil": 22.1,
+      "opto": 8.7,
+      "pown": 0.0,
+      "grade": 2.127,
+      "gpp_grade": 1.155
+     },
+     "fd": {
+      "salary": 4600,
+      "fpts": 8.38,
+      "ppd": 1.82,
+      "ceil": 17.2,
+      "opto": 6.1,
+      "pown": 0.0,
+      "grade": 1.679,
+      "gpp_grade": 1.045
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 1,
+     "notes": "10.7 proj, 9% opto, 0% own"
+    },
+    {
+     "player_id": "8217153",
+     "core_id": "137548",
+     "players": "Tyler Warren",
+     "pos": "TE",
+     "team": "IND",
+     "opp": "BAL",
+     "schedule_id": "179501",
+     "dk_rank": 2,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 4900,
+      "fpts": 12.25,
+      "ppd": 2.5,
+      "ceil": 25.2,
+      "opto": 9.5,
+      "pown": 0.0,
+      "grade": 2.02,
+      "gpp_grade": 1.104
+     },
+     "fd": {
+      "salary": 5600,
+      "fpts": 9.94,
+      "ppd": 1.78,
+      "ceil": 20.3,
+      "opto": 10.1,
+      "pown": 0.0,
+      "grade": 2.324,
+      "gpp_grade": 1.211
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 2,
+     "notes": "12.2 proj, 10% opto, 0% own"
+    },
+    {
+     "player_id": "3492164",
+     "core_id": "41195",
+     "players": "Trey McBride",
+     "pos": "TE",
+     "team": "ARI",
+     "opp": "LAC",
+     "schedule_id": "179509",
+     "dk_rank": 3,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6800,
+      "fpts": 14.01,
+      "ppd": 2.06,
+      "ceil": 29.5,
+      "opto": 8.7,
+      "pown": 0.0,
+      "grade": 1.94,
+      "gpp_grade": 1.224
+     },
+     "fd": {
+      "salary": 7600,
+      "fpts": 11.0,
+      "ppd": 1.45,
+      "ceil": 22.9,
+      "opto": 9.2,
+      "pown": 0.0,
+      "grade": 2.16,
+      "gpp_grade": 1.269
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 3,
+     "notes": "14.0 proj, 9% opto, 0% own"
+    },
+    {
+     "player_id": "4687755",
+     "core_id": "134664",
+     "players": "Tucker Kraft",
+     "pos": "TE",
+     "team": "GBP",
+     "opp": "MIN",
+     "schedule_id": "179508",
+     "dk_rank": 4,
+     "fd_rank": 4,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 4500,
+      "fpts": 10.7,
+      "ppd": 2.38,
+      "ceil": 23.8,
+      "opto": 8.8,
+      "pown": 0.0,
+      "grade": 1.775,
+      "gpp_grade": 1.029
+     },
+     "fd": {
+      "salary": 6300,
+      "fpts": 8.75,
+      "ppd": 1.39,
+      "ceil": 19.4,
+      "opto": 7.5,
+      "pown": 0.0,
+      "grade": 1.693,
+      "gpp_grade": 1.054
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 4,
+     "notes": "10.7 proj, 9% opto, 0% own"
+    },
+    {
+     "player_id": "8216973",
+     "core_id": "238444",
+     "players": "Colston Loveland",
+     "pos": "TE",
+     "team": "CHI",
+     "opp": "CAR",
+     "schedule_id": "179502",
+     "dk_rank": 5,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5300,
+      "fpts": 12.01,
+      "ppd": 2.27,
+      "ceil": 25.4,
+      "opto": 6.0,
+      "pown": 0.0,
+      "grade": 1.516,
+      "gpp_grade": 1.077
+     },
+     "fd": {
+      "salary": 6000,
+      "fpts": 9.82,
+      "ppd": 1.64,
+      "ceil": 20.6,
+      "opto": 7.3,
+      "pown": 0.0,
+      "grade": 1.886,
+      "gpp_grade": 1.193
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "12.0 proj, 6% opto, 0% own"
+    },
+    {
+     "player_id": "328096",
+     "core_id": "40601",
+     "players": "Mark Andrews",
+     "pos": "TE",
+     "team": "BAL",
+     "opp": "IND",
+     "schedule_id": "179501",
+     "dk_rank": 6,
+     "fd_rank": 6,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 3900,
+      "fpts": 10.66,
+      "ppd": 2.73,
+      "ceil": 22.2,
+      "opto": 5.1,
+      "pown": 0.0,
+      "grade": 1.424,
+      "gpp_grade": 1.007
+     },
+     "fd": {
+      "salary": 5200,
+      "fpts": 8.78,
+      "ppd": 1.69,
+      "ceil": 18.1,
+      "opto": 4.9,
+      "pown": 0.0,
+      "grade": 1.498,
+      "gpp_grade": 1.063
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 6,
+     "notes": "10.7 proj, 5% opto, 0% own"
+    },
+    {
+     "player_id": "4687728",
+     "core_id": "137283",
+     "players": "Sam LaPorta",
+     "pos": "TE",
+     "team": "DET",
+     "opp": "NOS",
+     "schedule_id": "179500",
+     "dk_rank": 7,
+     "fd_rank": 7,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 4400,
+      "fpts": 10.74,
+      "ppd": 2.44,
+      "ceil": 23.0,
+      "opto": 5.2,
+      "pown": 0.0,
+      "grade": 1.368,
+      "gpp_grade": 0.996
+     },
+     "fd": {
+      "salary": 5800,
+      "fpts": 8.83,
+      "ppd": 1.52,
+      "ceil": 18.8,
+      "opto": 5.0,
+      "pown": 0.0,
+      "grade": 1.436,
+      "gpp_grade": 1.055
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "10.7 proj, 5% opto, 0% own"
+    },
+    {
+     "player_id": "328643",
+     "core_id": "40739",
+     "players": "Dallas Goedert",
+     "pos": "TE",
+     "team": "PHI",
+     "opp": "WAS",
+     "schedule_id": "179507",
+     "dk_rank": null,
+     "fd_rank": 8,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": null,
+     "fd": {
+      "salary": 5300,
+      "fpts": 7.73,
+      "ppd": 1.46,
+      "ceil": 17.6,
+      "opto": 6.3,
+      "pown": 0.0,
+      "grade": 1.471,
+      "gpp_grade": 0.981
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 8,
+     "notes": "7.7 proj, 6% opto, 0% own"
+    },
+    {
+     "player_id": "4687831",
+     "core_id": "137486",
+     "players": "Brenton Strange",
+     "pos": "TE",
+     "team": "JAC",
+     "opp": "CLE",
+     "schedule_id": "179504",
+     "dk_rank": 8,
+     "fd_rank": null,
+     "dk_slot": "GPP",
+     "fd_slot": null,
+     "slot": "GPP",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 3600,
+      "fpts": 9.46,
+      "ppd": 2.63,
+      "ceil": 21.6,
+      "opto": 4.3,
+      "pown": 0.0,
+      "grade": 1.21,
+      "gpp_grade": 0.979
+     },
+     "fd": null,
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 9,
+     "notes": "9.5 proj, 4% opto, 0% own"
+    }
+   ]
+  },
+  {
+   "position": "DST",
+   "players": [
+    {
+     "player_id": "18439",
+     "core_id": "8488",
+     "players": "Los Angeles Chargers",
+     "pos": "DST",
+     "team": "LAC",
+     "opp": "ARI",
+     "schedule_id": "179509",
+     "dk_rank": 1,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 3500,
+      "fpts": 7.26,
+      "ppd": 2.07,
+      "ceil": 36.4,
+      "opto": 4.9,
+      "pown": 0.0,
+      "grade": 0.741,
+      "gpp_grade": 0.39
+     },
+     "fd": {
+      "salary": 4600,
+      "fpts": 7.26,
+      "ppd": 1.58,
+      "ceil": 36.4,
+      "opto": 4.8,
+      "pown": 0.0,
+      "grade": 0.826,
+      "gpp_grade": 0.427
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 1,
+     "notes": "DST Ranked by Projections"
+    },
+    {
+     "player_id": "18437",
+     "core_id": "8486",
+     "players": "Philadelphia Eagles",
+     "pos": "DST",
+     "team": "PHI",
+     "opp": "WAS",
+     "schedule_id": "179507",
+     "dk_rank": 2,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 3200,
+      "fpts": 7.05,
+      "ppd": 2.2,
+      "ceil": 37.9,
+      "opto": 6.2,
+      "pown": 0.0,
+      "grade": 1.056,
+      "gpp_grade": 0.539
+     },
+     "fd": {
+      "salary": 4500,
+      "fpts": 7.05,
+      "ppd": 1.57,
+      "ceil": 37.9,
+      "opto": 6.2,
+      "pown": 0.0,
+      "grade": 0.995,
+      "gpp_grade": 0.531
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 2,
+     "notes": "DST Ranked by Projections"
+    },
+    {
+     "player_id": "18438",
+     "core_id": "8487",
+     "players": "Pittsburgh Steelers",
+     "pos": "DST",
+     "team": "PIT",
+     "opp": "ATL",
+     "schedule_id": "179505",
+     "dk_rank": 3,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 3300,
+      "fpts": 6.88,
+      "ppd": 2.08,
+      "ceil": 26.9,
+      "opto": 6.2,
+      "pown": 0.0,
+      "grade": 0.864,
+      "gpp_grade": -0.323
+     },
+     "fd": {
+      "salary": 4900,
+      "fpts": 6.88,
+      "ppd": 1.4,
+      "ceil": 26.9,
+      "opto": 6.2,
+      "pown": 0.0,
+      "grade": 0.729,
+      "gpp_grade": -0.353
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 3,
+     "notes": "DST Ranked by Projections"
+    },
+    {
+     "player_id": "18428",
+     "core_id": "8477",
+     "players": "Jacksonville Jaguars",
+     "pos": "DST",
+     "team": "JAC",
+     "opp": "CLE",
+     "schedule_id": "179504",
+     "dk_rank": 4,
+     "fd_rank": 4,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 3400,
+      "fpts": 6.61,
+      "ppd": 1.94,
+      "ceil": 31.7,
+      "opto": 9.2,
+      "pown": 0.0,
+      "grade": 1.159,
+      "gpp_grade": -0.016
+     },
+     "fd": {
+      "salary": 5000,
+      "fpts": 6.61,
+      "ppd": 1.32,
+      "ceil": 31.7,
+      "opto": 8.6,
+      "pown": 0.0,
+      "grade": 0.989,
+      "gpp_grade": -0.045
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 4,
+     "notes": "DST Ranked by Projections"
+    },
+    {
+     "player_id": "18420",
+     "core_id": "8469",
+     "players": "Cincinnati Bengals",
+     "pos": "DST",
+     "team": "CIN",
+     "opp": "TBB",
+     "schedule_id": "179498",
+     "dk_rank": 5,
+     "fd_rank": 5,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 2700,
+      "fpts": 6.25,
+      "ppd": 2.31,
+      "ceil": 38.5,
+      "opto": 5.5,
+      "pown": 0.0,
+      "grade": 0.781,
+      "gpp_grade": 0.626
+     },
+     "fd": {
+      "salary": 3600,
+      "fpts": 6.25,
+      "ppd": 1.74,
+      "ceil": 38.5,
+      "opto": 5.8,
+      "pown": 0.0,
+      "grade": 0.859,
+      "gpp_grade": 0.663
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "DST Ranked by Projections"
+    }
+   ]
+  }
+ ],
+ "lineups": {
+  "CIN": {
+   "opponent": "TBB",
+   "spread": 3.5,
+   "total": 50.5,
+   "favourite": "CIN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Joe Burrow"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Chase Brown",
+      "note": "15.7 proj \u00b7 $7,100 \u00b7 8% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Samaje Perine"
+     },
+     {
+      "depth": 3,
+      "name": "Tahj Brooks"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Ja'Marr Chase",
+      "note": "19.9 proj \u00b7 $7,800 \u00b7 24% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Tee Higgins",
+      "note": "13.3 proj \u00b7 $6,300 \u00b7 9% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Andrei Iosivas"
+     },
+     {
+      "depth": 4,
+      "name": "Colbie Young"
+     },
+     {
+      "depth": 5,
+      "name": "Dohnte Meyers"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Mike Gesicki"
+     },
+     {
+      "depth": 2,
+      "name": "Erick All"
+     },
+     {
+      "depth": 3,
+      "name": "Drew Sample"
+     },
+     {
+      "depth": 4,
+      "name": "Jack Endries"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Cincinnati Bengals",
+      "note": "6.2 proj \u00b7 $2,700 \u00b7 6% opto \u00b7 0% own"
+     }
+    ]
+   }
+  },
+  "TBB": {
+   "opponent": "CIN",
+   "spread": 3.5,
+   "total": 50.5,
+   "favourite": "CIN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Baker Mayfield"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Bucky Irving",
+      "note": "12.9 proj \u00b7 $5,700 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Kenneth Gainwell"
+     },
+     {
+      "depth": 3,
+      "name": "Josh Williams"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Emeka Egbuka",
+      "note": "12.9 proj \u00b7 $6,200 \u00b7 7% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Chris Godwin",
+      "note": "10.9 proj \u00b7 $5,200 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Ted Hurst"
+     },
+     {
+      "depth": 4,
+      "name": "Tez Johnson"
+     },
+     {
+      "depth": 5,
+      "name": "Kameron Johnson"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Cade Otton",
+      "note": "8.0 proj \u00b7 $3,700 \u00b7 3% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Payne Durham"
+     },
+     {
+      "depth": 3,
+      "name": "Ko Kieft"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Tampa Bay Buccaneers"
+     }
+    ]
+   }
+  },
+  "BUF": {
+   "opponent": "HOU",
+   "spread": 1.5,
+   "total": 44.5,
+   "favourite": "BUF",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Josh Allen"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "James Cook",
+      "note": "16.4 proj \u00b7 $7,200 \u00b7 10% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Ray Davis"
+     },
+     {
+      "depth": 3,
+      "name": "Ty Johnson"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "D.J. Moore",
+      "note": "10.8 proj \u00b7 $5,600 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Khalil Shakir",
+      "note": "9.5 proj \u00b7 $4,800 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Keon Coleman"
+     },
+     {
+      "depth": 4,
+      "name": "Josh Palmer"
+     },
+     {
+      "depth": 5,
+      "name": "Skyler Bell"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Dalton Kincaid",
+      "note": "8.9 proj \u00b7 $4,600 \u00b7 3% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Dawson Knox"
+     },
+     {
+      "depth": 3,
+      "name": "Jackson Hawes"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Buffalo Bills"
+     }
+    ]
+   }
+  },
+  "HOU": {
+   "opponent": "BUF",
+   "spread": 1.5,
+   "total": 44.5,
+   "favourite": "BUF",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "C.J. Stroud"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "David Montgomery",
+      "note": "11.9 proj \u00b7 $6,000 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Woody Marks",
+      "note": "7.2 proj \u00b7 $5,000 \u00b7 0% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "British Brooks"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Nico Collins",
+      "note": "15.0 proj \u00b7 $7,000 \u00b7 14% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Xavier Hutchinson"
+     },
+     {
+      "depth": 3,
+      "name": "Jaylin Noel"
+     },
+     {
+      "depth": 4,
+      "name": "Jared Wayne"
+     },
+     {
+      "depth": 5,
+      "name": "Kayshon Boutte"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Dalton Schultz",
+      "note": "8.7 proj \u00b7 $3,400 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Foster Moreau"
+     },
+     {
+      "depth": 3,
+      "name": "Cade Stover"
+     },
+     {
+      "depth": 4,
+      "name": "Marlin Klein"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Houston Texans"
+     }
+    ]
+   }
+  },
+  "DET": {
+   "opponent": "NOS",
+   "spread": 7.0,
+   "total": 49.5,
+   "favourite": "DET",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jared Goff"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Jahmyr Gibbs",
+      "note": "23.8 proj \u00b7 $8,000 \u00b7 44% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jacob Saylors"
+     },
+     {
+      "depth": 3,
+      "name": "Sione Vaki"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Amon-Ra St. Brown",
+      "note": "17.6 proj \u00b7 $7,500 \u00b7 14% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jameson Williams",
+      "note": "12.8 proj \u00b7 $6,000 \u00b7 8% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Isaac TeSlaa"
+     },
+     {
+      "depth": 4,
+      "name": "Tay Martin"
+     },
+     {
+      "depth": 5,
+      "name": "Dominic Lovett"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Sam LaPorta",
+      "note": "10.7 proj \u00b7 $4,400 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Brock Wright"
+     },
+     {
+      "depth": 3,
+      "name": "Tyler Conklin"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Detroit Lions"
+     }
+    ]
+   }
+  },
+  "NOS": {
+   "opponent": "DET",
+   "spread": 7.0,
+   "total": 49.5,
+   "favourite": "DET",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Tyler Shough",
+      "note": "17.4 proj \u00b7 $5,600 \u00b7 6% opto \u00b7 0% own"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Travis Etienne",
+      "note": "14.3 proj \u00b7 $5,900 \u00b7 11% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Alvin Kamara"
+     },
+     {
+      "depth": 3,
+      "name": "Kendre Miller"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Chris Olave",
+      "note": "15.5 proj \u00b7 $6,700 \u00b7 13% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Devaughn Vele"
+     },
+     {
+      "depth": 3,
+      "name": "Bryce Lance"
+     },
+     {
+      "depth": 4,
+      "name": "Barion Brown"
+     },
+     {
+      "depth": 5,
+      "name": "Kevin Austin"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Juwan Johnson",
+      "note": "9.8 proj \u00b7 $3,700 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Noah Fant"
+     },
+     {
+      "depth": 3,
+      "name": "Stone Smartt"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "New Orleans Saints"
+     }
+    ]
+   }
+  },
+  "BAL": {
+   "opponent": "IND",
+   "spread": 3.5,
+   "total": 47.5,
+   "favourite": "BAL",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Lamar Jackson",
+      "note": "20.1 proj \u00b7 $6,800 \u00b7 5% opto \u00b7 0% own"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Derrick Henry",
+      "note": "16.1 proj \u00b7 $6,700 \u00b7 14% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Justice Hill"
+     },
+     {
+      "depth": 3,
+      "name": "Rasheen Ali"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Zay Flowers",
+      "note": "14.6 proj \u00b7 $6,400 \u00b7 11% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Rashod Bateman"
+     },
+     {
+      "depth": 3,
+      "name": "Ja'Kobi Lane"
+     },
+     {
+      "depth": 4,
+      "name": "Elijah Sarratt"
+     },
+     {
+      "depth": 5,
+      "name": "Devontez Walker"
+     },
+     {
+      "depth": 6,
+      "name": "LaJohntay Wester"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Mark Andrews",
+      "note": "10.7 proj \u00b7 $3,900 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Matthew Hibner"
+     },
+     {
+      "depth": 3,
+      "name": "Durham Smythe"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Baltimore Ravens"
+     }
+    ]
+   }
+  },
+  "IND": {
+   "opponent": "BAL",
+   "spread": 3.5,
+   "total": 47.5,
+   "favourite": "BAL",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Daniel Jones"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Jonathan Taylor",
+      "note": "18.4 proj \u00b7 $7,300 \u00b7 18% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Seth McGowan"
+     },
+     {
+      "depth": 3,
+      "name": "DJ Giddens"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Josh Downs",
+      "note": "10.4 proj \u00b7 $5,200 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Alec Pierce",
+      "note": "9.2 proj \u00b7 $5,700 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Keenan Allen"
+     },
+     {
+      "depth": 4,
+      "name": "Ashton Dulin"
+     },
+     {
+      "depth": 5,
+      "name": "Laquon Treadwell"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Tyler Warren",
+      "note": "12.2 proj \u00b7 $4,900 \u00b7 10% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Mo Alie-Cox"
+     },
+     {
+      "depth": 3,
+      "name": "Drew Ogletree"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Indianapolis Colts"
+     }
+    ]
+   }
+  },
+  "CAR": {
+   "opponent": "CHI",
+   "spread": 3.0,
+   "total": 47.5,
+   "favourite": "CHI",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Bryce Young"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Chuba Hubbard",
+      "note": "10.3 proj \u00b7 $5,500 \u00b7 2% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jonathon Brooks"
+     },
+     {
+      "depth": 3,
+      "name": "AJ Dillon"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Tetairoa McMillan",
+      "note": "13.2 proj \u00b7 $6,100 \u00b7 10% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jalen Coker",
+      "note": "9.4 proj \u00b7 $4,600 \u00b7 3% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Xavier Legette"
+     },
+     {
+      "depth": 4,
+      "name": "Jimmy Horn"
+     },
+     {
+      "depth": 5,
+      "name": "John Metchie"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Darren Waller",
+      "note": "5.0 proj \u00b7 $3,200 \u00b7 2% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Tommy Tremble"
+     },
+     {
+      "depth": 3,
+      "name": "Mitchell Evans"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Carolina Panthers"
+     }
+    ]
+   }
+  },
+  "CHI": {
+   "opponent": "CAR",
+   "spread": 3.0,
+   "total": 47.5,
+   "favourite": "CHI",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Caleb Williams"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "D'Andre Swift",
+      "note": "13.6 proj \u00b7 $6,100 \u00b7 7% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Kyle Monangai"
+     },
+     {
+      "depth": 3,
+      "name": "Roschon Johnson"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Luther Burden",
+      "note": "13.3 proj \u00b7 $5,500 \u00b7 8% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Rome Odunze",
+      "note": "9.7 proj \u00b7 $5,400 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Kalif Raymond"
+     },
+     {
+      "depth": 4,
+      "name": "Zavion Thomas"
+     },
+     {
+      "depth": 5,
+      "name": "Jahdae Walker"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Colston Loveland",
+      "note": "12.0 proj \u00b7 $5,300 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Cole Kmet"
+     },
+     {
+      "depth": 3,
+      "name": "Sam Roush"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Chicago Bears"
+     }
+    ]
+   }
+  },
+  "NYJ": {
+   "opponent": "TEN",
+   "spread": 1.5,
+   "total": 38.5,
+   "favourite": "TEN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Geno Smith"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Breece Hall",
+      "note": "15.9 proj \u00b7 $6,200 \u00b7 14% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Braelon Allen"
+     },
+     {
+      "depth": 3,
+      "name": "Isaiah Davis"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Garrett Wilson",
+      "note": "13.8 proj \u00b7 $5,800 \u00b7 11% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Adonai Mitchell"
+     },
+     {
+      "depth": 3,
+      "name": "Omar Cooper"
+     },
+     {
+      "depth": 4,
+      "name": "Isaiah Williams"
+     },
+     {
+      "depth": 5,
+      "name": "Arian Smith"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Mason Taylor",
+      "note": "5.2 proj \u00b7 $2,800 \u00b7 0% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Kenyon Sadiq"
+     },
+     {
+      "depth": 3,
+      "name": "Jeremy Ruckert"
+     },
+     {
+      "depth": 4,
+      "name": "Andrew Beck"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "New York Jets",
+      "note": "6.0 proj \u00b7 $2,500 \u00b7 5% opto \u00b7 0% own"
+     }
+    ]
+   }
+  },
+  "TEN": {
+   "opponent": "NYJ",
+   "spread": 1.5,
+   "total": 38.5,
+   "favourite": "TEN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Cam Ward"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Tony Pollard",
+      "note": "12.1 proj \u00b7 $5,600 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Tyjae Spears"
+     },
+     {
+      "depth": 3,
+      "name": "Nicholas Singleton"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Wan'Dale Robinson",
+      "note": "9.9 proj \u00b7 $4,800 \u00b7 3% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Carnell Tate",
+      "note": "9.7 proj \u00b7 $5,300 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Calvin Ridley"
+     },
+     {
+      "depth": 4,
+      "name": "Elic Ayomanor"
+     },
+     {
+      "depth": 5,
+      "name": "Chimere Dike"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Gunnar Helm",
+      "note": "6.7 proj \u00b7 $3,200 \u00b7 2% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Daniel Bellinger"
+     },
+     {
+      "depth": 3,
+      "name": "Kylen Granson"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Tennessee Titans"
+     }
+    ]
+   }
+  },
+  "CLE": {
+   "opponent": "JAC",
+   "spread": 8.5,
+   "total": 39.5,
+   "favourite": "JAC",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Deshaun Watson"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Quinshon Judkins",
+      "note": "10.9 proj \u00b7 $5,500 \u00b7 3% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Dylan Sampson"
+     },
+     {
+      "depth": 3,
+      "name": "Raheim Sanders"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "KC Concepcion",
+      "note": "8.7 proj \u00b7 $4,600 \u00b7 3% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jerry Jeudy"
+     },
+     {
+      "depth": 3,
+      "name": "Denzel Boston"
+     },
+     {
+      "depth": 4,
+      "name": "Isaiah Bond"
+     },
+     {
+      "depth": 5,
+      "name": "Tylan Wallace"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Harold Fannin",
+      "note": "9.4 proj \u00b7 $4,200 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Blake Whiteheart"
+     },
+     {
+      "depth": 3,
+      "name": "Carsen Ryan"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Cleveland Browns",
+      "note": "5.6 proj \u00b7 $2,100 \u00b7 5% opto \u00b7 0% own"
+     }
+    ]
+   }
+  },
+  "JAC": {
+   "opponent": "CLE",
+   "spread": 8.5,
+   "total": 39.5,
+   "favourite": "JAC",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Trevor Lawrence",
+      "note": "18.5 proj \u00b7 $5,800 \u00b7 5% opto \u00b7 0% own"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Bhayshul Tuten"
+     },
+     {
+      "depth": 2,
+      "name": "Chris Rodriguez"
+     },
+     {
+      "depth": 3,
+      "name": "LeQuint Allen"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Parker Washington",
+      "note": "12.3 proj \u00b7 $5,600 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jakobi Meyers"
+     },
+     {
+      "depth": 3,
+      "name": "Brian Thomas"
+     },
+     {
+      "depth": 4,
+      "name": "Travis Hunter"
+     },
+     {
+      "depth": 5,
+      "name": "CJ Williams"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Brenton Strange",
+      "note": "9.5 proj \u00b7 $3,600 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Nate Boerkircher"
+     },
+     {
+      "depth": 3,
+      "name": "Tanner Koziol"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Jacksonville Jaguars",
+      "note": "6.6 proj \u00b7 $3,400 \u00b7 9% opto \u00b7 0% own"
+     }
+    ]
+   }
+  },
+  "ATL": {
+   "opponent": "PIT",
+   "spread": 6.0,
+   "total": 41.5,
+   "favourite": "PIT",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Cooper Rush"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Bijan Robinson",
+      "note": "19.6 proj \u00b7 $7,700 \u00b7 19% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Brian Robinson"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Drake London",
+      "note": "12.2 proj \u00b7 $6,500 \u00b7 8% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jahan Dotson",
+      "note": "3.5 proj \u00b7 $3,700 \u00b7 0% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Zachariah Branch"
+     },
+     {
+      "depth": 4,
+      "name": "Olamide Zaccheaus"
+     },
+     {
+      "depth": 5,
+      "name": "Chris Blair"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Kyle Pitts",
+      "note": "9.7 proj \u00b7 $4,700 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Austin Hooper"
+     },
+     {
+      "depth": 3,
+      "name": "Charlie Woerner"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Atlanta Falcons"
+     }
+    ]
+   }
+  },
+  "PIT": {
+   "opponent": "ATL",
+   "spread": 6.0,
+   "total": 41.5,
+   "favourite": "PIT",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Aaron Rodgers"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Jaylen Warren"
+     },
+     {
+      "depth": 2,
+      "name": "Rico Dowdle",
+      "note": "11.3 proj \u00b7 $5,200 \u00b7 7% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Eli Heidenreich"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "D.K. Metcalf",
+      "note": "11.2 proj \u00b7 $5,400 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Michael Pittman",
+      "note": "9.9 proj \u00b7 $4,900 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Germie Bernard"
+     },
+     {
+      "depth": 4,
+      "name": "Roman Wilson"
+     },
+     {
+      "depth": 5,
+      "name": "Ben Skowronek"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Pat Freiermuth"
+     },
+     {
+      "depth": 2,
+      "name": "Darnell Washington"
+     },
+     {
+      "depth": 3,
+      "name": "Robert Tonyan"
+     },
+     {
+      "depth": 4,
+      "name": "Riley Nowakowski"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Pittsburgh Steelers",
+      "note": "6.9 proj \u00b7 $3,300 \u00b7 6% opto \u00b7 0% own"
+     }
+    ]
+   }
+  },
+  "LVR": {
+   "opponent": "MIA",
+   "spread": 3.0,
+   "total": 40.5,
+   "favourite": "LVR",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Kirk Cousins"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Ashton Jeanty",
+      "note": "15.2 proj \u00b7 $6,600 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Mike Washington"
+     },
+     {
+      "depth": 3,
+      "name": "Dylan Laube"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Tre Tucker",
+      "note": "10.7 proj \u00b7 $4,000 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jalen Nailor",
+      "note": "9.0 proj \u00b7 $4,300 \u00b7 3% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Jack Bech"
+     },
+     {
+      "depth": 4,
+      "name": "Malik Benson"
+     },
+     {
+      "depth": 5,
+      "name": "Dareke Young"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Michael Mayer",
+      "note": "10.7 proj \u00b7 $2,900 \u00b7 9% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Ian Thomas"
+     },
+     {
+      "depth": 3,
+      "name": "Connor Heyward"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Las Vegas Raiders"
+     }
+    ]
+   }
+  },
+  "MIA": {
+   "opponent": "LVR",
+   "spread": 3.0,
+   "total": 40.5,
+   "favourite": "LVR",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Malik Willis"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "De'Von Achane",
+      "note": "16.5 proj \u00b7 $7,000 \u00b7 9% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jaylen Wright"
+     },
+     {
+      "depth": 3,
+      "name": "Ollie Gordon"
+     },
+     {
+      "depth": 4,
+      "name": "DJ Herman"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Malik Washington",
+      "note": "7.6 proj \u00b7 $4,200 \u00b7 1% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Caleb Douglas",
+      "note": "6.7 proj \u00b7 $3,000 \u00b7 2% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Chris Bell"
+     },
+     {
+      "depth": 4,
+      "name": "Jalen Tolbert"
+     },
+     {
+      "depth": 5,
+      "name": "Kevin Coleman"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Greg Dulcich",
+      "note": "7.4 proj \u00b7 $3,500 \u00b7 1% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Will Kacmarek"
+     },
+     {
+      "depth": 3,
+      "name": "Seydou Traore"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Miami Dolphins"
+     }
+    ]
+   }
+  },
+  "PHI": {
+   "opponent": "WAS",
+   "spread": 6.0,
+   "total": 44.5,
+   "favourite": "PHI",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jalen Hurts"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Saquon Barkley",
+      "note": "17.5 proj \u00b7 $6,900 \u00b7 17% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Tank Bigsby"
+     },
+     {
+      "depth": 3,
+      "name": "Will Shipley"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "DeVonta Smith",
+      "note": "13.9 proj \u00b7 $6,600 \u00b7 9% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Dontayvion Wicks"
+     },
+     {
+      "depth": 3,
+      "name": "Makai Lemon"
+     },
+     {
+      "depth": 4,
+      "name": "Marquise Brown"
+     },
+     {
+      "depth": 5,
+      "name": "Elijah Moore"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Dallas Goedert",
+      "note": "9.5 proj \u00b7 $4,100 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Eli Stowers"
+     },
+     {
+      "depth": 3,
+      "name": "Johnny Mundt"
+     },
+     {
+      "depth": 4,
+      "name": "E.J. Jenkins"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Philadelphia Eagles",
+      "note": "7.0 proj \u00b7 $3,200 \u00b7 6% opto \u00b7 0% own"
+     }
+    ]
+   }
+  },
+  "WAS": {
+   "opponent": "PHI",
+   "spread": 6.0,
+   "total": 44.5,
+   "favourite": "PHI",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jayden Daniels"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Jacory Croskey-Merritt",
+      "note": "8.4 proj \u00b7 $5,300 \u00b7 1% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Rachaad White"
+     },
+     {
+      "depth": 3,
+      "name": "Kaytron Allen"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Terry McLaurin",
+      "note": "11.2 proj \u00b7 $5,700 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Stefon Diggs",
+      "note": "9.9 proj \u00b7 $5,200 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Antonio Williams"
+     },
+     {
+      "depth": 4,
+      "name": "Treylon Burks"
+     },
+     {
+      "depth": 5,
+      "name": "Luke McCaffrey"
+     },
+     {
+      "depth": 6,
+      "name": "Jaylin Lane"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Chigoziem Okonkwo",
+      "note": "7.1 proj \u00b7 $4,000 \u00b7 2% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "John Bates"
+     },
+     {
+      "depth": 3,
+      "name": "Ben Sinnott"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Washington Commanders"
+     }
+    ]
+   }
+  },
+  "GBP": {
+   "opponent": "MIN",
+   "spread": 1.5,
+   "total": 46.5,
+   "favourite": "MIN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jordan Love"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "MarShawn Lloyd",
+      "note": "12.1 proj \u00b7 $4,800 \u00b7 7% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Chris Brooks"
+     },
+     {
+      "depth": 3,
+      "name": "Kaleb Johnson"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Christian Watson",
+      "note": "11.9 proj \u00b7 $5,900 \u00b7 9% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jayden Reed",
+      "note": "10.0 proj \u00b7 $4,900 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Matthew Golden"
+     },
+     {
+      "depth": 4,
+      "name": "Bo Melton"
+     },
+     {
+      "depth": 5,
+      "name": "Skyy Moore"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Tucker Kraft",
+      "note": "10.7 proj \u00b7 $4,500 \u00b7 9% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jonnu Smith"
+     },
+     {
+      "depth": 3,
+      "name": "Josh Whyle"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Green Bay Packers"
+     }
+    ]
+   }
+  },
+  "MIN": {
+   "opponent": "GBP",
+   "spread": 1.5,
+   "total": 46.5,
+   "favourite": "MIN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Kyler Murray",
+      "note": "17.9 proj \u00b7 $5,500 \u00b7 7% opto \u00b7 0% own"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Aaron Jones"
+     },
+     {
+      "depth": 2,
+      "name": "Jordan Mason"
+     },
+     {
+      "depth": 3,
+      "name": "Demond Claiborne"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Justin Jefferson",
+      "note": "16.0 proj \u00b7 $7,300 \u00b7 16% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jordan Addison",
+      "note": "9.9 proj \u00b7 $5,800 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Jauan Jennings"
+     },
+     {
+      "depth": 4,
+      "name": "Tai Felton"
+     },
+     {
+      "depth": 5,
+      "name": "Myles Price"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "T.J. Hockenson",
+      "note": "8.3 proj \u00b7 $3,300 \u00b7 5% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Josh Oliver"
+     },
+     {
+      "depth": 3,
+      "name": "Gavin Bartholomew"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Minnesota Vikings"
+     }
+    ]
+   }
+  },
+  "ARI": {
+   "opponent": "LAC",
+   "spread": 9.5,
+   "total": 47.5,
+   "favourite": "LAC",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jacoby Brissett"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Jeremiyah Love",
+      "note": "11.9 proj \u00b7 $6,400 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Tyler Allgeier"
+     },
+     {
+      "depth": 3,
+      "name": "Zonovan Knight"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Marvin Harrison",
+      "note": "10.8 proj \u00b7 $5,000 \u00b7 6% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Michael Wilson",
+      "note": "9.8 proj \u00b7 $5,300 \u00b7 4% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Kendrick Bourne"
+     },
+     {
+      "depth": 4,
+      "name": "Jalen Brooks"
+     },
+     {
+      "depth": 5,
+      "name": "Reggie Virgil"
+     },
+     {
+      "depth": 6,
+      "name": "Devin Duvernay"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Trey McBride",
+      "note": "14.0 proj \u00b7 $6,800 \u00b7 9% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Elijah Higgins"
+     },
+     {
+      "depth": 3,
+      "name": "Hunter Long"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Arizona Cardinals"
+     }
+    ]
+   }
+  },
+  "LAC": {
+   "opponent": "ARI",
+   "spread": 9.5,
+   "total": 47.5,
+   "favourite": "LAC",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Justin Herbert",
+      "note": "20.3 proj \u00b7 $6,100 \u00b7 9% opto \u00b7 0% own"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Omarion Hampton",
+      "note": "15.8 proj \u00b7 $6,800 \u00b7 12% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Keaton Mitchell"
+     },
+     {
+      "depth": 3,
+      "name": "Kimani Vidal"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Ladd McConkey",
+      "note": "13.2 proj \u00b7 $5,900 \u00b7 9% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Quentin Johnston"
+     },
+     {
+      "depth": 3,
+      "name": "Tre' Harris"
+     },
+     {
+      "depth": 4,
+      "name": "Brenen Thompson"
+     },
+     {
+      "depth": 5,
+      "name": "KeAndre Lambert-Smith"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Charlie Kolar"
+     },
+     {
+      "depth": 2,
+      "name": "Oronde Gadsden"
+     },
+     {
+      "depth": 3,
+      "name": "David Njoku"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Los Angeles Chargers",
+      "note": "7.3 proj \u00b7 $3,500 \u00b7 5% opto \u00b7 0% own"
+     }
+    ]
+   }
+  }
+ }
+}
