@@ -147,13 +147,27 @@
   .ranks b{color:var(--text);font-weight:700;}
   .ranks .sep{color:var(--line);}
 
-  .stat-line{
-    grid-column:2;display:flex;gap:10px;flex-wrap:wrap;
-    font-size:0.72rem;font-weight:700;
+  .books{
+    grid-column:2;
+    display:grid;
+    grid-template-columns:26px repeat(5,minmax(0,1fr));
+    gap:1px 10px;
+    max-width:430px;
     font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
-    color:var(--text-dim);
+    font-size:0.72rem;
+    font-variant-numeric:tabular-nums;
   }
-  .stat-line .book{color:var(--text);}
+  .books .hd{
+    color:#5c6473;font-size:0.6rem;letter-spacing:0.08em;
+    text-transform:uppercase;text-align:right;padding-bottom:1px;
+  }
+  .books .bk{color:var(--text-dim);font-weight:800;letter-spacing:0.04em;}
+  .books .bk.dk{color:var(--dk);}
+  .books .bk.fd{color:var(--fd);}
+  .books .v{text-align:right;color:var(--text);}
+  .books .v.dim{color:#4d5564;}
+  .books .v.hot{color:var(--core);}
+  .books .v.lev{color:var(--gpp);}
   .note{grid-column:2;color:var(--text-dim);font-size:0.86rem;line-height:1.4;}
 
   .empty-state,.error-state{color:var(--text-dim);text-align:center;padding:40px 0;font-size:0.9rem;}
@@ -277,15 +291,30 @@ document.querySelectorAll(".tab-btn").forEach(btn => {
 });
 
 /* ---------- Core Plays ---------- */
-function bookLine(label, s){
-  if (!s) return `<span>${label} &mdash;</span>`;
-  const bits = [];
-  if (s.salary != null) bits.push(`$${s.salary.toLocaleString()}`);
-  if (s.fpts   != null) bits.push(`${s.fpts.toFixed(1)}`);
-  if (s.ppd    != null) bits.push(`${s.ppd.toFixed(2)}/k`);
-  if (s.opto   != null) bits.push(`${s.opto.toFixed(0)}% opto`);
-  if (s.pown   != null) bits.push(`${s.pown.toFixed(0)}% own`);
-  return `<span><span class="book">${label}</span> ${bits.join(" &middot; ")}</span>`;
+const DASH = '<span class="v dim">&mdash;</span>';
+
+function bookRow(label, s){
+  const cls = label.toLowerCase();
+  if (!s) return `<div class="bk ${cls}">${label}</div>` + DASH.repeat(5);
+  const cell = (val, extra) =>
+    val == null ? DASH : `<div class="v${extra ? " " + extra : ""}">${val}</div>`;
+  // opto above 15% is a real signal; ownership under 10% is the leverage band
+  const optoHot = s.opto != null && s.opto >= 15 ? "hot" : "";
+  const ownLev  = s.pown != null && s.pown < 10 ? "lev" : "";
+  return [
+    `<div class="bk ${cls}">${label}</div>`,
+    cell(s.salary != null ? "$" + s.salary.toLocaleString() : null),
+    cell(s.fpts   != null ? s.fpts.toFixed(1) : null),
+    cell(s.ppd    != null ? s.ppd.toFixed(2) : null),
+    cell(s.opto   != null ? s.opto.toFixed(1) + "%" : null, optoHot),
+    cell(s.pown   != null ? s.pown.toFixed(1) + "%" : null, ownLev),
+  ].join("");
+}
+
+function bookGrid(p){
+  const head = ["", "Sal", "Proj", "Pt/$", "Opto", "Own"]
+    .map(h => `<div class="hd">${h}</div>`).join("");
+  return `<div class="books">${head}${bookRow("DK", p.dk)}${bookRow("FD", p.fd)}</div>`;
 }
 
 function renderCard(p){
@@ -313,7 +342,7 @@ function renderCard(p){
         ${chips.join("")}
       </div>
       <div class="ranks">DK ${dkR} <span class="sep">|</span> FD ${fdR}</div>
-      <div class="stat-line">${bookLine("DK", p.dk)} ${bookLine("FD", p.fd)}</div>
+      ${bookGrid(p)}
       <div class="note">${esc(p.notes)}</div>
     </div>`;
 }
