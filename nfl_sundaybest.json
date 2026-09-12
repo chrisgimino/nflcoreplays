@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-12T09:57",
+ "updated": "2026-09-12T10:07",
  "slate_ids": {
   "draftkings": "151307",
   "fanduel": "133104"
@@ -57,7 +57,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Top projected QB. Large favorite vs ARI with a 30.8 ceiling."
+     "notes": "Top projected QB. Heavy favorite with 47.5 total."
     },
     {
      "player_id": "35673",
@@ -99,7 +99,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "High total of 49.5. Great matchup vs NOS with 29.6 ceiling."
+     "notes": "Solid home favorite in high 49.5 total game."
     },
     {
      "player_id": "973153",
@@ -132,7 +132,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Low ownership value at 5500. Great leverage vs GBP in GPP."
+     "notes": "Low ownership upside with great point-per-dollar."
     },
     {
      "player_id": "1844126",
@@ -165,7 +165,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Solid FD projection in high 50.5 total game against TBB."
+     "notes": "Elite matchup in highest 50.5 total game."
     },
     {
      "player_id": "1844646",
@@ -207,7 +207,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Elite dual threat with 31.5 ceiling as 6 point favorite."
+     "notes": "Solid favorite. High projection and ceiling."
     },
     {
      "player_id": "2861939",
@@ -249,7 +249,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Heavy 8.5 point home favorite against CLE with good value."
+     "notes": "Strong home favorite with solid value metrics."
     },
     {
      "player_id": "328331",
@@ -291,7 +291,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "GPP hammer with massive 31.5 ceiling in close matchup."
+     "notes": "Elite ceiling option for GPP tournament builds."
     },
     {
      "player_id": "328097",
@@ -333,7 +333,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "High ceiling GPP option with 31.0 projection vs IND."
+     "notes": "Strong dual-threat favorite with massive ceiling."
     },
     {
      "player_id": "8223333",
@@ -375,7 +375,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Cheap GPP stack piece in high total 49.5 game vs DET."
+     "notes": "Value option in high total game for tournaments."
     }
    ]
   },
@@ -422,7 +422,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Must play chalk. Top opto% and massive 37.9 ceiling vs NOS."
+     "notes": "Top projected RB. Massive 44.1 opto% as favorite."
     },
     {
      "player_id": "4687512",
@@ -464,7 +464,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Solid volume expected as home favorite against PIT."
+     "notes": "Strong projection with high optimal rate."
     },
     {
      "player_id": "1844485",
@@ -506,7 +506,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Strong cash game workload against BAL in close game."
+     "notes": "Solid volume expected as home underdog."
     },
     {
      "player_id": "328607",
@@ -548,7 +548,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Solid 16.5% opto rate as 6 point favorite vs WAS."
+     "notes": "Great home favorite with strong optimal rate."
     },
     {
      "player_id": "35530",
@@ -581,7 +581,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Strong FD option with solid red zone role against IND."
+     "notes": "Solid favorite with reliable ceiling projection."
     },
     {
      "player_id": "6228001",
@@ -614,7 +614,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Low ownership GPP dart throw at 4900 vs MIN."
+     "notes": "Low ownership GPP punt with decent ceiling."
     },
     {
      "player_id": "3491661",
@@ -647,7 +647,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Bargain price at 6200 with 28.0 ceiling against TEN."
+     "notes": "Solid value play in tight 38.5 total game."
     },
     {
      "player_id": "982431",
@@ -680,7 +680,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Pivotal GPP leverage play against NYJ defense."
+     "notes": "Low owned tournament leverage option."
     },
     {
      "player_id": "3491576",
@@ -713,7 +713,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Great GPP pivot with 28.5 ceiling in close game vs HOU."
+     "notes": "Strong tournament upside in narrow spread game."
     },
     {
      "player_id": "4687629",
@@ -746,7 +746,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 10,
-     "notes": "High total game environment at 50.5 to exploit vs TBB."
+     "notes": "High total game environment supports GPP upside."
     },
     {
      "player_id": "2861937",
@@ -788,7 +788,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 11,
-     "notes": "Solid GPP value at 5900 against DET in high total."
+     "notes": "Decent value points per dollar for GPPs."
     }
    ]
   },
@@ -835,7 +835,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Elite WR1 option. Massive 36.9 ceiling in 50.5 total game."
+     "notes": "Top projected WR in highest 50.5 total game."
     },
     {
      "player_id": "1844306",
@@ -877,7 +877,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Top tier cash play with slate leading 32.0 ceiling vs GBP."
+     "notes": "Elite ceiling in narrow spread matchup."
     },
     {
      "player_id": "2861659",
@@ -919,7 +919,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "High volume target in 49.5 total matchup against NOS."
+     "notes": "Strong home favorite with high projection."
     },
     {
      "player_id": "3491988",
@@ -961,7 +961,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Strong stacking partner in high total game against DET."
+     "notes": "Solid volume expected in high total game."
     },
     {
      "player_id": "2861874",
@@ -1003,7 +1003,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Solid cash game floor with 30.1 ceiling against BUF."
+     "notes": "Great optimal rate in tight game script."
     },
     {
      "player_id": "8222949",
@@ -1036,7 +1036,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Low owned GPP rookie wideout in favorable spot vs CAR."
+     "notes": "Low ownership GPP play with decent upside."
     },
     {
      "player_id": "6228204",
@@ -1069,7 +1069,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Great leverage play against ARI as heavy favorite."
+     "notes": "Strong favorite with high optimal rate."
     },
     {
      "player_id": "1844128",
@@ -1102,7 +1102,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "High upside tournament target in 50.5 total game vs TBB."
+     "notes": "High total game environment aids GPP ceiling."
     },
     {
      "player_id": "4687538",
@@ -1135,7 +1135,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Explosive GPP option with 29.8 ceiling against IND."
+     "notes": "Solid points per dollar for tournament builds."
     },
     {
      "player_id": "2862069",
@@ -1168,7 +1168,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 10,
-     "notes": "Great tournament correlation play as favorite vs WAS."
+     "notes": "Solid favorite with high tournament ceiling."
     },
     {
      "player_id": "3491660",
@@ -1201,7 +1201,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 11,
-     "notes": "Underpriced GPP target at 5800 against TEN."
+     "notes": "Great value points per dollar for GPPs."
     }
    ]
   },
@@ -1248,7 +1248,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Unmatched value at 2900 with 3.68 points per dollar vs MIA."
+     "notes": "Top value tight end. Great point per dollar."
     },
     {
      "player_id": "8217153",
@@ -1290,7 +1290,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Great point per dollar value at 4900 against BAL."
+     "notes": "Solid projection with great salary value."
     },
     {
      "player_id": "3492164",
@@ -1332,7 +1332,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite tight end volume leader with 29.5 ceiling vs LAC."
+     "notes": "Top tier tight end with massive ceiling."
     },
     {
      "player_id": "4687755",
@@ -1374,7 +1374,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Solid mid tier salary value with 23.8 ceiling vs MIN."
+     "notes": "Solid value option in narrow spread game."
     },
     {
      "player_id": "8216973",
@@ -1416,7 +1416,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Strong rookie tight end option in home matchup vs CAR."
+     "notes": "Good projection in high total matchup."
     },
     {
      "player_id": "328096",
@@ -1458,7 +1458,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Exceptional value at 3900 with 2.73 points per dollar vs IND"
+     "notes": "Great value points per dollar for GPPs."
     },
     {
      "player_id": "4687728",
@@ -1500,7 +1500,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Great GPP stack piece in 49.5 total game vs NOS."
+     "notes": "Solid tournament option in high total game."
     },
     {
      "player_id": "328643",
@@ -1533,7 +1533,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Low ownership GPP tight end against vulnerable WAS defense."
+     "notes": "Low ownership GPP leverage play."
     },
     {
      "player_id": "4687831",
@@ -1566,7 +1566,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Punt salary savings at 3600 with 21.6 ceiling vs CLE."
+     "notes": "Cheap value play with solid ceiling."
     }
    ]
   },
