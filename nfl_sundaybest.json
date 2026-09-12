@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-12T10:35",
+ "updated": "2026-09-12T10:51",
  "slate_ids": {
   "draftkings": "151307",
   "fanduel": "133104"
@@ -75,7 +75,7 @@
      ],
      "num_experts": 4,
      "rank": 1,
-     "notes": "Highest implied total. Play-action and motion vs weak pass"
+     "notes": "Highest implied team total. Play-action schemes and clean pocket vs Cardinals."
     },
     {
      "player_id": "35673",
@@ -116,15 +116,10 @@
      "experts": [
       "Krayton"
      ],
-     "expert_blurbs": [
-      {
-       "author": "Krayton",
-       "text": "Gibbs is my favorite play on the slate and he is going to be popular in one of the top game stacks on the slate.  Gibbs has an elite matchup and with David Montgomery gone, Gibbs is going to see a ton of touches and while they signed Isiah Pacheco, he is going to be out the first few weeks, making Gibbs the number one running back play on the slate by far."
-      }
-     ],
+     "expert_blurbs": [],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Top game stack. Massive volume in high total."
+     "notes": "Solid 49.5 game total in an indoor matchup against a soft secondary."
     },
     {
      "player_id": "1844646",
@@ -168,7 +163,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Solid rushing floor and implied team total of 22.25 points."
+     "notes": "Strong rushing floor with a solid implied team total at home."
     },
     {
      "player_id": "1844126",
@@ -203,7 +198,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 4,
-     "notes": "High total shootout in favorable home matchup."
+     "notes": "High 50.5 game total in a pass-leaning environment against Tampa Bay."
     },
     {
      "player_id": "973153",
@@ -252,7 +247,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Elite weaponry and new scheme face depleted Green Bay"
+     "notes": "Elite rushing floor and weapons. Packers miss Parsons on defense."
     },
     {
      "player_id": "2861939",
@@ -285,7 +280,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Strong home favorite with solid implied team total."
+     "notes": "Solid home favorite spot with a manageable 39.5 game total."
     },
     {
      "player_id": "328097",
@@ -329,7 +324,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 7,
-     "notes": "Dynamic rushing ceiling in a tightly contested divisional"
+     "notes": "Exceptional rushing upside and dual-threat volume against Indianapolis."
     },
     {
      "player_id": "8223333",
@@ -378,7 +373,7 @@
      ],
      "num_experts": 1,
      "rank": 8,
-     "notes": "Indoor matchup against banged-up secondary with rushing"
+     "notes": "Indoor matchup facing a banged-up secondary with strong rushing floor."
     },
     {
      "player_id": "328331",
@@ -420,7 +415,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Elite dual-threat upside in close projected game."
+     "notes": "Top tier rushing and passing ceiling in a tight 44.5 total game."
     }
    ]
   },
@@ -490,7 +485,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Backup out; early-down workhorse with goal-line work."
+     "notes": "Clear workhorse bell-cow role with heavy red-zone touches against Saints."
     },
     {
      "player_id": "4687512",
@@ -539,7 +534,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Unmatched backfield workload despite tough road matchup."
+     "notes": "Unmatched backfield workload with zero backfield competition remaining."
     },
     {
      "player_id": "1844485",
@@ -581,7 +576,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Solid volume projection as slight road underdog."
+     "notes": "Strong rushing volume as a clear focal point in a 47.5 total game."
     },
     {
      "player_id": "328607",
@@ -631,7 +626,7 @@
      ],
      "num_experts": 2,
      "rank": 4,
-     "notes": "Healthy offensive line against average run defense."
+     "notes": "High snap share and goal-line volume for a strong home favorite."
     },
     {
      "player_id": "35530",
@@ -664,7 +659,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Power workhorse role in strong home rushing script."
+     "notes": "Heavy-volume bell-cow back in a favorable game script for Baltimore."
     },
     {
      "player_id": "3491661",
@@ -697,7 +692,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Feature back role with strong red-zone involvement."
+     "notes": "Explosive pass-catching role and high touch projection against Titans."
     },
     {
      "player_id": "3491576",
@@ -730,7 +725,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Explosive pass-catching back in close game environment."
+     "notes": "explosive pass-game involvement in a close matchup against Houston."
     },
     {
      "player_id": "982431",
@@ -763,7 +758,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Lead rushing duties in a low total game script."
+     "notes": "Solid featured role and goal-line work in a tight defensive battle."
     },
     {
      "player_id": "6228001",
@@ -821,7 +816,7 @@
      ],
      "num_experts": 2,
      "rank": 9,
-     "notes": "Starter price relief; bell-cow volume with Jacobs sidelined."
+     "notes": "Value bell-cow role with Jacobs out against rookie defensive tackles."
     },
     {
      "player_id": "2861937",
@@ -871,7 +866,7 @@
      ],
      "num_experts": 2,
      "rank": 10,
-     "notes": "Expanded touch role early with backfield injuries."
+     "notes": "Featured backfield role with shootout potential against Detroit."
     }
    ]
   },
@@ -935,7 +930,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Elite zone matchup against Tampa Bay pass defense."
+     "notes": "Elite zone-coverage metrics against a heavy-blitz Tampa Bay defense."
     },
     {
      "player_id": "1844306",
@@ -977,7 +972,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Top target share in high total divisional battle."
+     "notes": "Elite target share and route participation in a close divisional game."
     },
     {
      "player_id": "2861659",
@@ -1019,7 +1014,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite target volume in highest implied game total."
+     "notes": "High target volume and route rate in a favorable indoor game script."
     },
     {
      "player_id": "3491988",
@@ -1068,7 +1063,7 @@
      ],
      "num_experts": 1,
      "rank": 4,
-     "notes": "High target and air yards share vs banged-up secondary."
+     "notes": "High target share and air yards facing a banged-up Lions secondary."
     },
     {
      "player_id": "2861874",
@@ -1110,7 +1105,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Top target share and air yards in a close home script."
+     "notes": "Deep role and strong target volume in a tight 44.5 total matchup."
     },
     {
      "player_id": "8222949",
@@ -1155,7 +1150,7 @@
      ],
      "num_experts": 2,
      "rank": 6,
-     "notes": "Expanded targets with banged-up teammates in new offense."
+     "notes": "Expanded target share while benefiting from banged-up receiver room."
     },
     {
      "player_id": "6228204",
@@ -1195,7 +1190,7 @@
      ],
      "num_experts": 1,
      "rank": 7,
-     "notes": "Facing weak secondary with high implied team total."
+     "notes": "Low ownership slot option benefiting from clean pocket against Arizona."
     },
     {
      "player_id": "4687538",
@@ -1236,7 +1231,7 @@
      ],
      "num_experts": 2,
      "rank": 8,
-     "notes": "PPR magnet in new offensive system with steady targets."
+     "notes": "Elite PPR target magnet in a renovated Ravens passing offense."
     },
     {
      "player_id": "2862069",
@@ -1276,7 +1271,7 @@
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Unquestioned alpha receiver against weak secondary."
+     "notes": "Alpha receiver role with Brown sidelined against weak Washington secondary."
     },
     {
      "player_id": "3491660",
@@ -1325,7 +1320,7 @@
      ],
      "num_experts": 1,
      "rank": 10,
-     "notes": "Elite target share upside against bottom-ten defense."
+     "notes": "Poised for massive target share against vulnerable Tennessee secondary."
     }
    ]
   },
@@ -1395,7 +1390,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Expanded role and every-down tight end targets."
+     "notes": "Primary passing target filling in for Bowers at an extreme discount."
     },
     {
      "player_id": "8217153",
@@ -1437,7 +1432,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Strong route rate and red-zone usage as favorite."
+     "notes": "Every-down route rate and seam looks in a 47.5 total matchup."
     },
     {
      "player_id": "3492164",
@@ -1479,7 +1474,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite target volume and route participation."
+     "notes": "Elite target share and route participation against Chargers defense."
     },
     {
      "player_id": "4687755",
@@ -1521,7 +1516,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Seam usage and red-zone involvement in indoor matchup."
+     "notes": "Strong red-zone role and route rate in a competitive division game."
     },
     {
      "player_id": "8216973",
@@ -1570,7 +1565,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Reliable target volume with banged-up wideout corps."
+     "notes": "Reliable target earner seeing heavy route usage down the field."
     },
     {
      "player_id": "328096",
@@ -1612,7 +1607,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Red-zone weapon in close divisional game."
+     "notes": "Discounted pricing with elite red-zone target history against Indy."
     },
     {
      "player_id": "4687728",
@@ -1654,7 +1649,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Every-down route rate in top game stack."
+     "notes": "Elite route participation in a high-total indoor game environment."
     },
     {
      "player_id": "328643",
@@ -1687,7 +1682,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Red-zone tight end role in positive game script."
+     "notes": "Strong red-zone role and route rate in a 44.5 total matchup."
     },
     {
      "player_id": "4687831",
@@ -1720,7 +1715,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Expanded route participation as heavy favorite."
+     "notes": "Affordable pricing with expanding route rate against Cleveland."
     }
    ]
   },
