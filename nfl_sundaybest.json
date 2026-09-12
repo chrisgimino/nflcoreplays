@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-12T12:47",
+ "updated": "2026-09-12T12:53",
  "slate_ids": {
   "draftkings": "151307",
   "fanduel": "133104"
@@ -75,7 +75,7 @@
      ],
      "num_experts": 4,
      "rank": 1,
-     "notes": "Highest implied team total on slate. Pass-heavy scheme vs weak secondary."
+     "notes": "Highest implied team total on the slate against a soft Arizona pass defense."
     },
     {
      "player_id": "35673",
@@ -103,14 +103,23 @@
       "grade": 1.029,
       "gpp_grade": 0.46
      },
-     "fd": null,
+     "fd": {
+      "salary": 7800,
+      "fpts": 18.29,
+      "ppd": 2.34,
+      "ceil": 29.0,
+      "opto": 7.5,
+      "pown": 10.8,
+      "grade": 0.691,
+      "gpp_grade": 0.429
+     },
      "experts": [
       "Krayton"
      ],
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Strong passing volume in a 49.5 game total against a vulnerable secondary."
+     "notes": "Solid volume projection in a high-total 49.5 game indoors against New Orleans."
     },
     {
      "player_id": "973153",
@@ -159,7 +168,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Best weapon group of his career facing a defense missing Micah Parsons."
+     "notes": "Faces a Green Bay defense missing Micah Parsons with an improved offensive cast."
     },
     {
      "player_id": "1844646",
@@ -203,7 +212,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 4,
-     "notes": "Elite rushing floor and high implied team total in a favorable home spot."
+     "notes": "Strong rushing floor and implied team total in a favorable home matchup."
     },
     {
      "player_id": "8223333",
@@ -252,7 +261,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Indoor matchup against a banged-up secondary with strong rushing upside."
+     "notes": "Indoor matchup against a banged-up Lions secondary with strong rushing upside."
     },
     {
      "player_id": "2861939",
@@ -294,7 +303,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Solid passing volume projection as a home favorite against Cleveland."
+     "notes": "Solid passing volume expected as home favorites against Cleveland."
     },
     {
      "player_id": "1844126",
@@ -312,7 +321,16 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "dk": null,
+     "dk": {
+      "salary": 6900,
+      "fpts": 19.33,
+      "ppd": 2.8,
+      "ceil": 30.1,
+      "opto": 4.0,
+      "pown": 9.5,
+      "grade": 0.046,
+      "gpp_grade": 0.146
+     },
      "fd": {
       "salary": 8200,
       "fpts": 19.12,
@@ -329,7 +347,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 7,
-     "notes": "High pass volume expected in a 50.5 total against a pass-funnel defense."
+     "notes": "High pass rate expected against a Tampa Bay defense funneling action to the air."
     },
     {
      "player_id": "328097",
@@ -373,7 +391,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 8,
-     "notes": "Elite rushing floor and dual-threat upside in a 47.5 game total."
+     "notes": "Elite rushing floor and dual-threat upside in a close divisional game."
     },
     {
      "player_id": "328331",
@@ -415,7 +433,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "High passing ceiling and rushing floor as a home favorite."
+     "notes": "Top-tier ceiling and passing volume in a competitive matchup against Houston."
     }
    ]
   },
@@ -485,7 +503,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Bell-cow workhorse role with goal-line dominance and high team total."
+     "notes": "Bell-cow workhorse with massive touch volume against a weak New Orleans front."
     },
     {
      "player_id": "328607",
@@ -535,7 +553,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Heavy touch volume as a home favorite with strong red-zone role."
+     "notes": "Solid volume expected as a home favorite with strong touchdown equity."
     },
     {
      "player_id": "4687512",
@@ -584,7 +602,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Unmatched backfield workload with zero backfield touch competition."
+     "notes": "Massive projected workload with little backfield competition on the ground."
     },
     {
      "player_id": "1844485",
@@ -626,7 +644,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Workhorse role with strong rushing volume and goal-line duties."
+     "notes": "Primary workhorse role with high carry projection against Baltimore."
     },
     {
      "player_id": "3491661",
@@ -668,7 +686,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Clear Bell-cow touches and heavy involvement in the passing attack."
+     "notes": "Featured rushing and pass-catching role in a tight game against Tennessee."
     },
     {
      "player_id": "3491576",
@@ -696,12 +714,21 @@
       "grade": 0.928,
       "gpp_grade": 0.735
      },
-     "fd": null,
+     "fd": {
+      "salary": 7800,
+      "fpts": 15.1,
+      "ppd": 1.94,
+      "ceil": 25.8,
+      "opto": 14.0,
+      "pown": 11.4,
+      "grade": 1.097,
+      "gpp_grade": 0.752
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Strong pass-catching role and efficient rushing matchup as a favorite."
+     "notes": "Explosive pass-catching back with strong upside in a high-total game."
     },
     {
      "player_id": "6228001",
@@ -759,7 +786,7 @@
      ],
      "num_experts": 2,
      "rank": 7,
-     "notes": "Lead back with Josh Jacobs out, facing rookie interior defenders."
+     "notes": "Starting workhorse value facing a Minnesota defense relying on rookie tackles."
     },
     {
      "player_id": "982431",
@@ -777,7 +804,16 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "dk": null,
+     "dk": {
+      "salary": 5600,
+      "fpts": 12.12,
+      "ppd": 2.16,
+      "ceil": 22.4,
+      "opto": 4.8,
+      "pown": 5.1,
+      "grade": 0.545,
+      "gpp_grade": 0.553
+     },
      "fd": {
       "salary": 6000,
       "fpts": 11.25,
@@ -792,7 +828,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Solid touch projection as a home favorite in a low-total game."
+     "notes": "Featured touches out of the backfield in a tight game against the Jets."
     },
     {
      "player_id": "2861937",
@@ -842,7 +878,7 @@
      ],
      "num_experts": 2,
      "rank": 9,
-     "notes": "Expanded early-season touch role in a potential high-scoring game."
+     "notes": "Focal point of the offense with a high-upside game script against Detroit."
     }
    ]
   },
@@ -906,7 +942,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Elite target share against zone coverage and a vulnerable defense."
+     "notes": "Double-digit targets expected against a zone-heavy Tampa Bay defense."
     },
     {
      "player_id": "3491988",
@@ -955,7 +991,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "High target and air yards share against a banged-up secondary."
+     "notes": "High target share against a banged-up Lions secondary indoors."
     },
     {
      "player_id": "3491660",
@@ -983,7 +1019,16 @@
       "grade": 1.852,
       "gpp_grade": 0.858
      },
-     "fd": null,
+     "fd": {
+      "salary": 6900,
+      "fpts": 11.13,
+      "ppd": 1.61,
+      "ceil": 21.5,
+      "opto": 10.0,
+      "pown": 10.6,
+      "grade": 1.453,
+      "gpp_grade": 0.837
+     },
      "experts": [
       "Davis Mattek"
      ],
@@ -995,7 +1040,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Elite target share potential facing a bottom-10 defensive unit."
+     "notes": "Poised for heavy target volume against a porous Tennessee secondary."
     },
     {
      "player_id": "6228204",
@@ -1013,7 +1058,16 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "dk": null,
+     "dk": {
+      "salary": 5900,
+      "fpts": 13.22,
+      "ppd": 2.24,
+      "ceil": 27.1,
+      "opto": 11.0,
+      "pown": 11.4,
+      "grade": 1.444,
+      "gpp_grade": 0.828
+     },
      "fd": {
       "salary": 6500,
       "fpts": 11.11,
@@ -1035,7 +1089,7 @@
      ],
      "num_experts": 1,
      "rank": 4,
-     "notes": "High slot target share with a weak pass Rush aiding the offense."
+     "notes": "Low-owned primary receiver facing a weak Arizona secondary."
     },
     {
      "player_id": "2861874",
@@ -1053,7 +1107,16 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "dk": null,
+     "dk": {
+      "salary": 7000,
+      "fpts": 15.01,
+      "ppd": 2.14,
+      "ceil": 30.1,
+      "opto": 12.3,
+      "pown": 11.2,
+      "grade": 1.605,
+      "gpp_grade": 0.876
+     },
      "fd": {
       "salary": 7700,
       "fpts": 12.38,
@@ -1068,7 +1131,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Strong outside role and high target volume in a competitive matchup."
+     "notes": "Core downfield target in a competitive matchup against Buffalo."
     },
     {
      "player_id": "1844306",
@@ -1110,7 +1173,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Elite target volume and route participation as a focal point."
+     "notes": "Elite target share and route participation against Green Bay."
     },
     {
      "player_id": "2861659",
@@ -1138,12 +1201,21 @@
       "grade": 1.693,
       "gpp_grade": 1.126
      },
-     "fd": null,
+     "fd": {
+      "salary": 8600,
+      "fpts": 14.63,
+      "ppd": 1.7,
+      "ceil": 29.0,
+      "opto": 8.3,
+      "pown": 20.9,
+      "grade": 1.602,
+      "gpp_grade": 1.176
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Heavy slot target share in the highest total game on the slate."
+     "notes": "High-volume slot role in a game with a massive 49.5 point total."
     },
     {
      "player_id": "1844128",
@@ -1161,7 +1233,16 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "dk": null,
+     "dk": {
+      "salary": 6300,
+      "fpts": 13.28,
+      "ppd": 2.11,
+      "ceil": 25.9,
+      "opto": 6.1,
+      "pown": 10.1,
+      "grade": 1.013,
+      "gpp_grade": 0.693
+     },
      "fd": {
       "salary": 7200,
       "fpts": 11.09,
@@ -1176,7 +1257,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Deep-threat role in a high-total pass-funnel matchup."
+     "notes": "Deep threat in a pass-heavy game plan against Tampa Bay."
     },
     {
      "player_id": "2862069",
@@ -1225,7 +1306,7 @@
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Unquestioned alpha receiver facing a weak secondary."
+     "notes": "Clear alpha receiver role against a struggling Washington secondary."
     },
     {
      "player_id": "4687830",
@@ -1253,14 +1334,23 @@
       "grade": 1.079,
       "gpp_grade": 0.741
      },
-     "fd": null,
+     "fd": {
+      "salary": 6600,
+      "fpts": 10.02,
+      "ppd": 1.52,
+      "ceil": 19.6,
+      "opto": 6.1,
+      "pown": 8.6,
+      "grade": 1.024,
+      "gpp_grade": 0.758
+     },
      "experts": [
       "EBeimfohr"
      ],
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 10,
-     "notes": "Solid route participation and cheap Price in a home matchup."
+     "notes": "Slot target volume in a favorable matchup against Cleveland."
     },
     {
      "player_id": "8216948",
@@ -1309,7 +1399,7 @@
      ],
      "num_experts": 1,
      "rank": 11,
-     "notes": "Moving into the slot against a defense missing their starting corner."
+     "notes": "Moving to the slot against a Chicago defense missing Kyler Gordon."
     }
    ]
   },
@@ -1379,7 +1469,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Main passing-game target in an elite value Price situation."
+     "notes": "Priced too cheap with primary target volume in an injured tight end room."
     },
     {
      "player_id": "8217153",
@@ -1421,7 +1511,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Every-down route rate with strong seam and red-zone involvement."
+     "notes": "Every-down route rate and red-zone involvement against Baltimore."
     },
     {
      "player_id": "8216973",
@@ -1439,7 +1529,16 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "dk": null,
+     "dk": {
+      "salary": 5300,
+      "fpts": 12.01,
+      "ppd": 2.27,
+      "ceil": 25.6,
+      "opto": 4.6,
+      "pown": 10.3,
+      "grade": 1.304,
+      "gpp_grade": 0.967
+     },
      "fd": {
       "salary": 6000,
       "fpts": 9.82,
@@ -1461,7 +1560,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Primary passing weapon for his quarterback with huge target upside."
+     "notes": "Core weapon in a high-scoring offense with strong recent target volume."
     },
     {
      "player_id": "328096",
@@ -1503,7 +1602,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Elite red-zone role and consistent target share in the offense."
+     "notes": "Reliable seam and red-zone target in a competitive divisional matchup."
     },
     {
      "player_id": "1844771",
@@ -1531,12 +1630,21 @@
       "grade": 1.641,
       "gpp_grade": 0.83
      },
-     "fd": null,
+     "fd": {
+      "salary": 5400,
+      "fpts": 7.81,
+      "ppd": 1.45,
+      "ceil": 16.5,
+      "opto": 5.1,
+      "pown": 6.4,
+      "grade": 1.286,
+      "gpp_grade": 0.807
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Favorable indoor game script against a vulnerable secondary."
+     "notes": "Seam and red-zone usage indoors against a vulnerable Detroit defense."
     },
     {
      "player_id": "4687755",
@@ -1578,7 +1686,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Strong red-zone role and steady route participation in a close total."
+     "notes": "Red-zone target volume and route participation against Minnesota."
     },
     {
      "player_id": "3492164",
@@ -1620,7 +1728,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Elite target volume and high route rate at the tight end position."
+     "notes": "Elite target share and route rate against a weak Chargers linebacker group."
     },
     {
      "player_id": "328643",
@@ -1638,7 +1746,16 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "dk": null,
+     "dk": {
+      "salary": 4100,
+      "fpts": 9.5,
+      "ppd": 2.32,
+      "ceil": 21.8,
+      "opto": 4.5,
+      "pown": 4.4,
+      "grade": 1.094,
+      "gpp_grade": 0.866
+     },
      "fd": {
       "salary": 5300,
       "fpts": 7.74,
@@ -1653,7 +1770,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Solid red-zone targets and high snap rate in a positive game script."
+     "notes": "Red-zone target equity and seam usage against Washington."
     },
     {
      "player_id": "4687831",
@@ -1681,12 +1798,21 @@
       "grade": 1.376,
       "gpp_grade": 0.887
      },
-     "fd": null,
+     "fd": {
+      "salary": 5100,
+      "fpts": 7.52,
+      "ppd": 1.47,
+      "ceil": 17.0,
+      "opto": 4.8,
+      "pown": 3.6,
+      "grade": 1.229,
+      "gpp_grade": 0.9
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Cheap pricing with a growing route share as a home favorite."
+     "notes": "Emerging tight end role in a favorable matchup against Cleveland."
     },
     {
      "player_id": "4687728",
@@ -1728,7 +1854,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 10,
-     "notes": "Strong seam usage and high-tempo game environment indoors."
+     "notes": "Elite route rate and red-zone role in a high-total indoor game."
     }
    ]
   },
