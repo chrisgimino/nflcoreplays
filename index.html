@@ -181,6 +181,28 @@
   .ex.t3{color:#8a93a3;border-color:rgba(138,147,163,.35);background:rgba(138,147,163,.08);}
   /* four or more tags is the consensus green flag */
   .ex.count{color:var(--dk);border-color:var(--dk);background:rgba(62,207,142,.14);}
+  .analyst{grid-column:2;margin-top:2px;}
+  .analyst summary{
+    cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:6px;
+    color:var(--text-dim);font-size:0.72rem;font-weight:700;
+    letter-spacing:0.04em;text-transform:uppercase;
+    padding:2px 0;user-select:none;
+  }
+  .analyst summary::-webkit-details-marker{display:none;}
+  .analyst summary::before{
+    content:"\25B8";display:inline-block;transition:transform .12s ease;
+    color:var(--accent);font-size:0.7rem;
+  }
+  .analyst[open] summary::before{transform:rotate(90deg);}
+  .analyst summary:hover{color:var(--accent);}
+  .analyst .body{
+    margin-top:6px;padding-left:12px;
+    border-left:2px solid var(--line);
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .analyst .blurb{
+    color:var(--text-dim);font-size:0.84rem;line-height:1.45;max-width:72ch;
+  }
   .note{grid-column:2;color:var(--text-dim);font-size:0.86rem;line-height:1.4;}
 
   .empty-state,.error-state{color:var(--text-dim);text-align:center;padding:40px 0;font-size:0.9rem;}
@@ -317,6 +339,15 @@ const exKey = n => String(n).toLowerCase().replace(/[^a-z0-9]/g, "");
 const TIER_BY_KEY = Object.fromEntries(
   Object.entries(EXPERT_TIER).map(([k, v]) => [exKey(k), v]));
 
+function analystNotes(p){
+  const notes = p.expert_blurbs || [];
+  if (!notes.length) return "";
+  const label = notes.length === 1 ? "Analyst note" : `Analyst notes (${notes.length})`;
+  const body = notes.map(n => `<div class="blurb">${esc(n)}</div>`).join("");
+  return `<details class="analyst"><summary>${label}</summary>` +
+         `<div class="body">${body}</div></details>`;
+}
+
 function expertRow(p){
   const names = p.experts || [];
   if (!names.length) return "";
@@ -381,6 +412,7 @@ function renderCard(p){
       ${bookGrid(p)}
       ${expertRow(p)}
       <div class="note">${esc(p.notes)}</div>
+      ${analystNotes(p)}
     </div>`;
 }
 
