@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-12T10:26",
+ "updated": "2026-09-12T10:35",
  "slate_ids": {
   "draftkings": "151307",
   "fanduel": "133104"
@@ -60,13 +60,22 @@
       "Jordan Vanek"
      ],
      "expert_blurbs": [
-      "Most of us are very anxious to see what Mike McDaniel can do with Justin Herbert. This seems like an extremely winnable matchup for Herbert, and the price tag is actually cheaper than I would have expected.\r\n",
-      "I can\u2019t wait to see what this Chargers\u2019 offense looks like with Mike McDaniel at the helm. He\u2019s one of the best offensive minds in football, and now that he\u2019s an offensive coordinator instead of a head coach, he can focus on what he does best. Justin Herbert ($6,100 DK / $7,600 FD) has immense talent, but something always seems to go wrong with the Chargers. More often than not, it\u2019s injuries to the offensive line or his wideouts. Neither is an issue heading into this season. McDaniel will make Herbert\u2019s job a lot easier this season. The pre-snap motion and play-action will give Herbert easy throws and create space for the receivers. I want to bet on this offense early, especially in a home matchup against the Cardinals, who had a bottom-10 pass defense last season.",
-      "Everyone should be excited to see Justin Herbert under Mike McDaniels offense and he is simply too cheap on both sites. Highest implied offense on the slate, and isn't afraid to use his legs. Hard to ignore his value and upside on this slate and the Cards make for a compelling runback.  "
+      {
+       "author": "headChopper",
+       "text": "Most of us are very anxious to see what Mike McDaniel can do with Justin Herbert. This seems like an extremely winnable matchup for Herbert, and the price tag is actually cheaper than I would have expected.\r\n"
+      },
+      {
+       "author": "Notorious",
+       "text": "I can\u2019t wait to see what this Chargers\u2019 offense looks like with Mike McDaniel at the helm. He\u2019s one of the best offensive minds in football, and now that he\u2019s an offensive coordinator instead of a head coach, he can focus on what he does best. Justin Herbert ($6,100 DK / $7,600 FD) has immense talent, but something always seems to go wrong with the Chargers. More often than not, it\u2019s injuries to the offensive line or his wideouts. Neither is an issue heading into this season. McDaniel will make Herbert\u2019s job a lot easier this season. The pre-snap motion and play-action will give Herbert easy throws and create space for the receivers. I want to bet on this offense early, especially in a home matchup against the Cardinals, who had a bottom-10 pass defense last season."
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Everyone should be excited to see Justin Herbert under Mike McDaniels offense and he is simply too cheap on both sites. Highest implied offense on the slate, and isn't afraid to use his legs. Hard to ignore his value and upside on this slate and the Cards make for a compelling runback.  "
+      }
      ],
      "num_experts": 4,
      "rank": 1,
-     "notes": "New offense system and soft pass defense match up well."
+     "notes": "Highest implied total. Play-action and motion vs weak pass"
     },
     {
      "player_id": "35673",
@@ -91,8 +100,8 @@
       "ceil": 29.6,
       "opto": 8.6,
       "pown": 11.5,
-      "grade": 1.04,
-      "gpp_grade": 0.512
+      "grade": 1.039,
+      "gpp_grade": 0.51
      },
      "fd": {
       "salary": 7800,
@@ -101,64 +110,65 @@
       "ceil": 29.2,
       "opto": 8.3,
       "pown": 11.1,
-      "grade": 0.879,
-      "gpp_grade": 0.471
+      "grade": 0.878,
+      "gpp_grade": 0.468
      },
      "experts": [
       "Krayton"
      ],
      "expert_blurbs": [
-      "Gibbs is my favorite play on the slate and he is going to be popular in one of the top game stacks on the slate.  Gibbs has an elite matchup and with David Montgomery gone, Gibbs is going to see a ton of touches and while they signed Isiah Pacheco, he is going to be out the first few weeks, making Gibbs the number one running back play on the slate by far."
+      {
+       "author": "Krayton",
+       "text": "Gibbs is my favorite play on the slate and he is going to be popular in one of the top game stacks on the slate.  Gibbs has an elite matchup and with David Montgomery gone, Gibbs is going to see a ton of touches and while they signed Isiah Pacheco, he is going to be out the first few weeks, making Gibbs the number one running back play on the slate by far."
+      }
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Bell-cow role opens up with heavy volume expected."
+     "notes": "Top game stack. Massive volume in high total."
     },
     {
-     "player_id": "973153",
-     "core_id": "54000",
-     "players": "Kyler Murray",
+     "player_id": "1844646",
+     "core_id": "63503",
+     "players": "Jalen Hurts",
      "pos": "QB",
-     "team": "MIN",
-     "opp": "GBP",
-     "schedule_id": "179508",
+     "team": "PHI",
+     "opp": "WAS",
+     "schedule_id": "179507",
      "dk_rank": 3,
-     "fd_rank": 8,
+     "fd_rank": 2,
      "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
-      "salary": 5500,
-      "fpts": 17.86,
-      "ppd": 3.25,
-      "ceil": 28.0,
-      "opto": 6.9,
-      "pown": 4.4,
-      "grade": 0.988,
-      "gpp_grade": 0.557
+      "salary": 6600,
+      "fpts": 20.7,
+      "ppd": 3.14,
+      "ceil": 31.5,
+      "opto": 5.8,
+      "pown": 6.6,
+      "grade": 0.994,
+      "gpp_grade": 0.694
      },
      "fd": {
-      "salary": 7200,
-      "fpts": 17.62,
-      "ppd": 2.45,
-      "ceil": 27.6,
-      "opto": 6.6,
-      "pown": 4.9,
-      "grade": 0.724,
-      "gpp_grade": 0.456
+      "salary": 8300,
+      "fpts": 20.48,
+      "ppd": 2.47,
+      "ceil": 31.2,
+      "opto": 6.7,
+      "pown": 8.1,
+      "grade": 1.107,
+      "gpp_grade": 0.769
      },
      "experts": [
-      "Headchopper"
+      "Jordan Vanek"
      ],
-     "expert_blurbs": [
-      "This is easily the best group of weapons and the best offensive staff and system Kyler Murray has been a part of in the pros. Green Bay is likely to be tough on defense, but they will have to play the first portion of the season without their best player, Micah Parsons. I still believe there is a lot of untapped upside with Kyler Murray as a QB.\r\n"
-     ],
+     "expert_blurbs": [],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Elite weapons around him; top opposing star is out."
+     "notes": "Solid rushing floor and implied team total of 22.25 points."
     },
     {
      "player_id": "1844126",
@@ -184,8 +194,8 @@
       "ceil": 30.0,
       "opto": 7.1,
       "pown": 6.4,
-      "grade": 0.847,
-      "gpp_grade": 0.566
+      "grade": 0.846,
+      "gpp_grade": 0.563
      },
      "experts": [
       "ncorfield8k"
@@ -193,51 +203,56 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 4,
-     "notes": "Top projected option with high implied team total."
+     "notes": "High total shootout in favorable home matchup."
     },
     {
-     "player_id": "1844646",
-     "core_id": "63503",
-     "players": "Jalen Hurts",
+     "player_id": "973153",
+     "core_id": "54000",
+     "players": "Kyler Murray",
      "pos": "QB",
-     "team": "PHI",
-     "opp": "WAS",
-     "schedule_id": "179507",
+     "team": "MIN",
+     "opp": "GBP",
+     "schedule_id": "179508",
      "dk_rank": 4,
-     "fd_rank": 2,
+     "fd_rank": 8,
      "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "fd_slot": "GPP",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
-      "salary": 6600,
-      "fpts": 20.7,
-      "ppd": 3.14,
-      "ceil": 31.5,
-      "opto": 5.8,
-      "pown": 6.6,
-      "grade": 0.988,
-      "gpp_grade": 0.682
+      "salary": 5500,
+      "fpts": 17.86,
+      "ppd": 3.25,
+      "ceil": 28.0,
+      "opto": 6.9,
+      "pown": 4.4,
+      "grade": 0.987,
+      "gpp_grade": 0.554
      },
      "fd": {
-      "salary": 8300,
-      "fpts": 20.48,
-      "ppd": 2.47,
-      "ceil": 31.2,
-      "opto": 6.7,
-      "pown": 8.1,
-      "grade": 1.101,
-      "gpp_grade": 0.757
+      "salary": 7200,
+      "fpts": 17.62,
+      "ppd": 2.45,
+      "ceil": 27.6,
+      "opto": 6.6,
+      "pown": 4.9,
+      "grade": 0.723,
+      "gpp_grade": 0.454
      },
      "experts": [
-      "Jordan Vanek"
+      "Headchopper"
      ],
-     "expert_blurbs": [],
+     "expert_blurbs": [
+      {
+       "author": "headChopper",
+       "text": "This is easily the best group of weapons and the best offensive staff and system Kyler Murray has been a part of in the pros. Green Bay is likely to be tough on defense, but they will have to play the first portion of the season without their best player, Micah Parsons. I still believe there is a lot of untapped upside with Kyler Murray as a QB.\r\n"
+      }
+     ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "High implied team total and strong rushing floor."
+     "notes": "Elite weaponry and new scheme face depleted Green Bay"
     },
     {
      "player_id": "2861939",
@@ -270,7 +285,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Strong favorite at home with solid point projection."
+     "notes": "Strong home favorite with solid implied team total."
     },
     {
      "player_id": "328097",
@@ -295,8 +310,8 @@
       "ceil": 31.0,
       "opto": 5.2,
       "pown": 6.2,
-      "grade": 0.544,
-      "gpp_grade": 0.493
+      "grade": 0.542,
+      "gpp_grade": 0.486
      },
      "fd": {
       "salary": 8400,
@@ -305,8 +320,8 @@
       "ceil": 30.7,
       "opto": 5.8,
       "pown": 6.6,
-      "grade": 0.786,
-      "gpp_grade": 0.67
+      "grade": 0.784,
+      "gpp_grade": 0.664
      },
      "experts": [
       "EBeimfohr"
@@ -314,7 +329,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 7,
-     "notes": "Dual-threat upside in a closely contested matchup."
+     "notes": "Dynamic rushing ceiling in a tightly contested divisional"
     },
     {
      "player_id": "8223333",
@@ -339,8 +354,8 @@
       "ceil": 28.1,
       "opto": 6.0,
       "pown": 7.6,
-      "grade": 0.574,
-      "gpp_grade": 0.465
+      "grade": 0.571,
+      "gpp_grade": 0.459
      },
      "fd": {
       "salary": 6900,
@@ -349,18 +364,21 @@
       "ceil": 27.7,
       "opto": 6.0,
       "pown": 6.5,
-      "grade": 0.648,
-      "gpp_grade": 0.581
+      "grade": 0.645,
+      "gpp_grade": 0.576
      },
      "experts": [
       "Notorious"
      ],
      "expert_blurbs": [
-      "Tyler Shough ($5,600 DK / $6,900 FD) led me to some nice DFS scores in the second half of last season. He played so well that the Saints decided that he didn\u2019t need any reps in the preseason. While I would have given my young quarterback some reps, I\u2019m not an NFL coach. Even though he\u2019s missing one of his best weapons in Jordyn Tyson, I still love the spot for Shough in Week 1. He\u2019s playing indoors against the Lions, who have a banged-up secondary heading into the season. He has two obvious stacking mates in Chris Olave and Juwan Johnson, and he offers rushing upside (35+ rushing yards in 3 of the last 5 games last season). It could also be a great game script for the passing attack, as the Saints are 6.5-point underdogs.\r\n\r\n"
+      {
+       "author": "Notorious",
+       "text": "Tyler Shough ($5,600 DK / $6,900 FD) led me to some nice DFS scores in the second half of last season. He played so well that the Saints decided that he didn\u2019t need any reps in the preseason. While I would have given my young quarterback some reps, I\u2019m not an NFL coach. Even though he\u2019s missing one of his best weapons in Jordyn Tyson, I still love the spot for Shough in Week 1. He\u2019s playing indoors against the Lions, who have a banged-up secondary heading into the season. He has two obvious stacking mates in Chris Olave and Juwan Johnson, and he offers rushing upside (35+ rushing yards in 3 of the last 5 games last season). It could also be a great game script for the passing attack, as the Saints are 6.5-point underdogs.\r\n\r\n"
+      }
      ],
      "num_experts": 1,
      "rank": 8,
-     "notes": "No preseason rust and faces banged-up secondary indoors."
+     "notes": "Indoor matchup against banged-up secondary with rushing"
     },
     {
      "player_id": "328331",
@@ -402,7 +420,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Elite dual-threat upside with high ceiling."
+     "notes": "Elite dual-threat upside in close projected game."
     }
    ]
   },
@@ -453,14 +471,26 @@
       "Jordan Vanek"
      ],
      "expert_blurbs": [
-      "The Saints lost LB Demario Davis in free agency, and he was the leader of this defense for a long time. I don\u2019t expect anyone on this roster to be able to replace him in Year 1, and that loss should hurt the run defense, which will lead to Gibbs feasting in this matchup.",
-      "With David Montgomery now in Houston, we get a full season of Jahmyr Gibbs ($8,000 DK / $9,100 FD) as a bell-cow running back. There\u2019s a reason why he\u2019s been the de facto #1 pick in season-long drafts. He\u2019s one of the most explosive players in the NFL, and he plays in one of the best offenses in the NFL. While the Saints are better equipped to stop the run than they are the pass, Gibbs can overcome a bad matchup, and he\u2019s a huge weapon in the passing game. He\u2019s a good bet for 20+ touches on an offense with a team total of 28.5 points. I\u2019m not fading the best play on the board.\r\n\r\n",
-      "In a week where I generally think it's a good idea to embrace the unknown of a new season and get contrarian, I still think Gibbs is excellent chalk. He'll get all the work he can handle in a nice matchup. Gibbs should have a 5-figure DFS salary in no time.",
-      "Gibbs is the clear cut #1 RB on the slate, especially in Cash games. There is no more Montgomery (now with the Texans) and newly acquired backup Pacheco landed on IR to start off the season. That leaves Gibbs to freely occupy the running game with little red zone competition. Saints allowed the 11th most rushing YPG last season and have not made any major changes that would fix this. "
+      {
+       "author": "vanekjordan",
+       "text": "The Saints lost LB Demario Davis in free agency, and he was the leader of this defense for a long time. I don\u2019t expect anyone on this roster to be able to replace him in Year 1, and that loss should hurt the run defense, which will lead to Gibbs feasting in this matchup."
+      },
+      {
+       "author": "Notorious",
+       "text": "With David Montgomery now in Houston, we get a full season of Jahmyr Gibbs ($8,000 DK / $9,100 FD) as a bell-cow running back. There\u2019s a reason why he\u2019s been the de facto #1 pick in season-long drafts. He\u2019s one of the most explosive players in the NFL, and he plays in one of the best offenses in the NFL. While the Saints are better equipped to stop the run than they are the pass, Gibbs can overcome a bad matchup, and he\u2019s a huge weapon in the passing game. He\u2019s a good bet for 20+ touches on an offense with a team total of 28.5 points. I\u2019m not fading the best play on the board.\r\n\r\n"
+      },
+      {
+       "author": "NeilCO",
+       "text": "In a week where I generally think it's a good idea to embrace the unknown of a new season and get contrarian, I still think Gibbs is excellent chalk. He'll get all the work he can handle in a nice matchup. Gibbs should have a 5-figure DFS salary in no time."
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Gibbs is the clear cut #1 RB on the slate, especially in Cash games. There is no more Montgomery (now with the Texans) and newly acquired backup Pacheco landed on IR to start off the season. That leaves Gibbs to freely occupy the running game with little red zone competition. Saints allowed the 11th most rushing YPG last season and have not made any major changes that would fix this. "
+      }
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Clear bell-cow role with backup out and great matchup."
+     "notes": "Backup out; early-down workhorse with goal-line work."
     },
     {
      "player_id": "4687512",
@@ -485,8 +515,8 @@
       "ceil": 33.7,
       "opto": 19.2,
       "pown": 18.2,
-      "grade": 1.72,
-      "gpp_grade": 1.006
+      "grade": 1.719,
+      "gpp_grade": 1.003
      },
      "fd": {
       "salary": 8800,
@@ -502,11 +532,14 @@
       "Notorious"
      ],
      "expert_blurbs": [
-      "I\u2019m honestly a tad hesitant to tag Bijan Robinson ($7,700 DK) as a core play this week. On the one hand, he has little competition for touches now that Tyler Allgeier is out of the picture. The projected workload is essentially unmatched at the running back position. On the other hand, the Falcons are starting Cooper Rush at quarterback in a fairly difficult spot on the road against the Steelers. I suppose many will argue that Rush is a better quarterback at this stage than Tua Tagovailoa, but this offense as a whole carries systemic risk. I have Robinson tagged at the moment, but that could change by Sunday morning.\r\n\r\n"
+      {
+       "author": "Notorious",
+       "text": "I\u2019m honestly a tad hesitant to tag Bijan Robinson ($7,700 DK) as a core play this week. On the one hand, he has little competition for touches now that Tyler Allgeier is out of the picture. The projected workload is essentially unmatched at the running back position. On the other hand, the Falcons are starting Cooper Rush at quarterback in a fairly difficult spot on the road against the Steelers. I suppose many will argue that Rush is a better quarterback at this stage than Tua Tagovailoa, but this offense as a whole carries systemic risk. I have Robinson tagged at the moment, but that could change by Sunday morning.\r\n\r\n"
+      }
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Unmatched volume expected with zero backfield competition."
+     "notes": "Unmatched backfield workload despite tough road matchup."
     },
     {
      "player_id": "1844485",
@@ -548,7 +581,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Solid workload projection as a primary rushing option."
+     "notes": "Solid volume projection as slight road underdog."
     },
     {
      "player_id": "328607",
@@ -573,8 +606,8 @@
       "ceil": 28.4,
       "opto": 16.5,
       "pown": 13.1,
-      "grade": 1.501,
-      "gpp_grade": 0.8
+      "grade": 1.5,
+      "gpp_grade": 0.796
      },
      "fd": {
       "salary": 8100,
@@ -583,19 +616,22 @@
       "ceil": 26.1,
       "opto": 18.9,
       "pown": 16.9,
-      "grade": 1.546,
-      "gpp_grade": 0.82
+      "grade": 1.545,
+      "gpp_grade": 0.816
      },
      "experts": [
       "Headchopper",
       "Krayton"
      ],
      "expert_blurbs": [
-      "I think we are in for a nice bounce-back season from Saquon, and I do not believe the Commanders made enough acquisitions on defense to fill the holes they had last season. I believe they are likely to be average or below average again, and the Philly offensive line looks healthy heading into the season.\r\n"
+      {
+       "author": "headChopper",
+       "text": "I think we are in for a nice bounce-back season from Saquon, and I do not believe the Commanders made enough acquisitions on defense to fill the holes they had last season. I believe they are likely to be average or below average again, and the Philly offensive line looks healthy heading into the season.\r\n"
+      }
      ],
      "num_experts": 2,
      "rank": 4,
-     "notes": "Healthy line and favorable opponent point to strong"
+     "notes": "Healthy offensive line against average run defense."
     },
     {
      "player_id": "35530",
@@ -628,7 +664,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Strong favorite with steady rushing volume expected."
+     "notes": "Power workhorse role in strong home rushing script."
     },
     {
      "player_id": "3491661",
@@ -661,7 +697,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Feature role with solid expected touch volume."
+     "notes": "Feature back role with strong red-zone involvement."
     },
     {
      "player_id": "3491576",
@@ -694,7 +730,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Explosive playmaker with secure pass-game involvement."
+     "notes": "Explosive pass-catching back in close game environment."
     },
     {
      "player_id": "982431",
@@ -727,54 +763,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Value option with reasonable salary and projection."
-    },
-    {
-     "player_id": "2861937",
-     "core_id": "50434",
-     "players": "Travis Etienne",
-     "pos": "RB",
-     "team": "NOS",
-     "opp": "DET",
-     "schedule_id": "179500",
-     "dk_rank": 7,
-     "fd_rank": 7,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 5900,
-      "fpts": 14.28,
-      "ppd": 2.42,
-      "ceil": 25.5,
-      "opto": 11.2,
-      "pown": 8.9,
-      "grade": 1.063,
-      "gpp_grade": 0.708
-     },
-     "fd": {
-      "salary": 6800,
-      "fpts": 12.94,
-      "ppd": 1.9,
-      "ceil": 22.7,
-      "opto": 8.3,
-      "pown": 9.3,
-      "grade": 0.882,
-      "gpp_grade": 0.681
-     },
-     "experts": [
-      "Headchopper",
-      "Krayton"
-     ],
-     "expert_blurbs": [
-      "Etienne should be in for a nice role early in the year with Alvin Kamara already hurt and declining well before the injury in camp. This game has as much shootout potential as any game in Week 1, and Etienne should be a focal point of the offense.\r\n"
-     ],
-     "num_experts": 2,
-     "rank": 9,
-     "notes": "Primed for early season work with backfield mate hurt."
+     "notes": "Lead rushing duties in a low total game script."
     },
     {
      "player_id": "6228001",
@@ -784,7 +773,7 @@
      "team": "GBP",
      "opp": "MIN",
      "schedule_id": "179508",
-     "dk_rank": 8,
+     "dk_rank": 7,
      "fd_rank": 6,
      "dk_slot": "GPP",
      "fd_slot": "GPP",
@@ -799,8 +788,8 @@
       "ceil": 22.2,
       "opto": 7.4,
       "pown": 3.4,
-      "grade": 0.816,
-      "gpp_grade": 0.707
+      "grade": 0.82,
+      "gpp_grade": 0.716
      },
      "fd": {
       "salary": 4900,
@@ -809,21 +798,80 @@
       "ceil": 20.0,
       "opto": 8.3,
       "pown": 4.2,
-      "grade": 0.956,
-      "gpp_grade": 0.838
+      "grade": 0.959,
+      "gpp_grade": 0.845
      },
      "experts": [
       "Bobby Gomes",
       "Jordan Vanek"
      ],
      "expert_blurbs": [
-      "Lloyd is a starting RB under $5,000 on both sites who has a lot of talent and can get his work done as a pass catcher. The Vikings are going to lean on two rookie DTs, and that\u2019s a very difficult position to excel at in Year 1. I think Lloyd has a great floor at a great price.",
-      "MarShawn Lloyd ($4,900 FD) has one of the widest ranges of potential outcomes this week, but he\u2019s too cheap on FanDuel to ignore. He\u2019s cheap on DraftKings as well, but the FanDuel price sticks out like a sore thumb. The Packers drafted him with the 88th overall pick, and Josh Jacobs has been placed on the Commissioner\u2019s Exempt List and is barred from practicing or playing entirely. Lloyd should be the lead back for Green Bay early in the season, but he was never a heavy-workload back in college. I\u2019m hesitant to expect 20+ touches from him against the Vikings, but he\u2019s still a great option at this price even if we only project him for 15 touches.\r\n\r\n",
-      "Lloyd is extremely underpriced given that he is the #1 with Jacobs sidelined. The Vikings are gambling on fixing their rushing woes with 2 rookies. Vikings allowed the 9th most rushing YPG last season, and its hard to imagine it gets better. Also to note, Lloyd is projected for sub 5% pOWN, when is the last time we have seen a sub 5k starting RB that low owned? "
+      {
+       "author": "vanekjordan",
+       "text": "Lloyd is a starting RB under $5,000 on both sites who has a lot of talent and can get his work done as a pass catcher. The Vikings are going to lean on two rookie DTs, and that\u2019s a very difficult position to excel at in Year 1. I think Lloyd has a great floor at a great price."
+      },
+      {
+       "author": "Notorious",
+       "text": "MarShawn Lloyd ($4,900 FD) has one of the widest ranges of potential outcomes this week, but he\u2019s too cheap on FanDuel to ignore. He\u2019s cheap on DraftKings as well, but the FanDuel price sticks out like a sore thumb. The Packers drafted him with the 88th overall pick, and Josh Jacobs has been placed on the Commissioner\u2019s Exempt List and is barred from practicing or playing entirely. Lloyd should be the lead back for Green Bay early in the season, but he was never a heavy-workload back in college. I\u2019m hesitant to expect 20+ touches from him against the Vikings, but he\u2019s still a great option at this price even if we only project him for 15 touches.\r\n\r\n"
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Lloyd is extremely underpriced given that he is the #1 with Jacobs sidelined. The Vikings are gambling on fixing their rushing woes with 2 rookies. Vikings allowed the 9th most rushing YPG last season, and its hard to imagine it gets better. Also to note, Lloyd is projected for sub 5% pOWN, when is the last time we have seen a sub 5k starting RB that low owned? "
+      }
+     ],
+     "num_experts": 2,
+     "rank": 9,
+     "notes": "Starter price relief; bell-cow volume with Jacobs sidelined."
+    },
+    {
+     "player_id": "2861937",
+     "core_id": "50434",
+     "players": "Travis Etienne",
+     "pos": "RB",
+     "team": "NOS",
+     "opp": "DET",
+     "schedule_id": "179500",
+     "dk_rank": 8,
+     "fd_rank": 7,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5900,
+      "fpts": 14.28,
+      "ppd": 2.42,
+      "ceil": 25.5,
+      "opto": 11.2,
+      "pown": 8.9,
+      "grade": 1.061,
+      "gpp_grade": 0.704
+     },
+     "fd": {
+      "salary": 6800,
+      "fpts": 12.94,
+      "ppd": 1.9,
+      "ceil": 22.7,
+      "opto": 8.3,
+      "pown": 9.3,
+      "grade": 0.881,
+      "gpp_grade": 0.678
+     },
+     "experts": [
+      "Headchopper",
+      "Krayton"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "headChopper",
+       "text": "Etienne should be in for a nice role early in the year with Alvin Kamara already hurt and declining well before the injury in camp. This game has as much shootout potential as any game in Week 1, and Etienne should be a focal point of the offense.\r\n"
+      }
      ],
      "num_experts": 2,
      "rank": 10,
-     "notes": "Dirt cheap starter with low ownership against rookie DTs."
+     "notes": "Expanded touch role early with backfield injuries."
     }
    ]
   },
@@ -872,13 +920,22 @@
       "Davis Mattek"
      ],
      "expert_blurbs": [
-      "I am giving a slight preference to Chase over St. Brown this week due to ownership discrepancy and some secondary injuries for the Buccaneers' defense. ",
-      "There are some narratives that I buy into and others that I have a hard time believing. Joe Burrow and the Bengals have been notoriously slow starters, but every year brings a new team and new matchups, so I\u2019m not shying away from them in Week 1. JaMarr Chase ($7,800 DK / $8,900 FD) is one of the best receivers in the NFL, and he has one of the best quarterbacks throwing him the ball. The Bengals open their season against the Buccaneers, who are expected to be one of the best pass-funnel matchups in the league. With Vita Vea leading the way, it will be extremely tough to run on Tampa Bay this season. We should see a pass-heavy game plan from the Bengals, which means there\u2019s a good chance Chase will see double-digit targets. With the soft pricing, it\u2019s easy to fit two expensive receivers in lineups.\r\n\r\n",
-      "Chase is a staple for cash and is hard to ignore facing a Bucs defense who should continue to blitz and play zone at a heavy rate. Ja'marr Chase has been one of the best WRs vs zone coverage over the last few seasons, averaging 3.28 yards per route run."
+      {
+       "author": "DavisMattek",
+       "text": "I am giving a slight preference to Chase over St. Brown this week due to ownership discrepancy and some secondary injuries for the Buccaneers' defense. "
+      },
+      {
+       "author": "Notorious",
+       "text": "There are some narratives that I buy into and others that I have a hard time believing. Joe Burrow and the Bengals have been notoriously slow starters, but every year brings a new team and new matchups, so I\u2019m not shying away from them in Week 1. JaMarr Chase ($7,800 DK / $8,900 FD) is one of the best receivers in the NFL, and he has one of the best quarterbacks throwing him the ball. The Bengals open their season against the Buccaneers, who are expected to be one of the best pass-funnel matchups in the league. With Vita Vea leading the way, it will be extremely tough to run on Tampa Bay this season. We should see a pass-heavy game plan from the Bengals, which means there\u2019s a good chance Chase will see double-digit targets. With the soft pricing, it\u2019s easy to fit two expensive receivers in lineups.\r\n\r\n"
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Chase is a staple for cash and is hard to ignore facing a Bucs defense who should continue to blitz and play zone at a heavy rate. Ja'marr Chase has been one of the best WRs vs zone coverage over the last few seasons, averaging 3.28 yards per route run."
+      }
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Elite target share against zone defense and banged"
+     "notes": "Elite zone matchup against Tampa Bay pass defense."
     },
     {
      "player_id": "1844306",
@@ -920,7 +977,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Top target share projection with elite pass upside."
+     "notes": "Top target share in high total divisional battle."
     },
     {
      "player_id": "2861659",
@@ -962,7 +1019,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "High volume slot option in strong game script."
+     "notes": "Elite target volume in highest implied game total."
     },
     {
      "player_id": "3491988",
@@ -1004,11 +1061,14 @@
       "Notorious"
      ],
      "expert_blurbs": [
-      "Chris Olave ($6,700 DK / $7,400 FD) was a prominent feature in my Key Personnel article last season. The advanced metrics continued to suggest positive regression, and sure enough, he finally started to have some breakout games. He was clearly the favorite target for Tyler Shough, as he racked up a 27% target share and a 42% air yards share with him under center. Olave is elite at creating separation and is a solid redzone threat. He draws a nice matchup against a banged-up Lions\u2019 secondary in Week 1, and he doesn\u2019t have much competition for targets with Jordyn Tyson out. You can pair him with Shough and bring it back with Jahmyr Gibbs, or you can use Olave as a bring-back to your Lions\u2019 stacks.\r\n\r\n"
+      {
+       "author": "Notorious",
+       "text": "Chris Olave ($6,700 DK / $7,400 FD) was a prominent feature in my Key Personnel article last season. The advanced metrics continued to suggest positive regression, and sure enough, he finally started to have some breakout games. He was clearly the favorite target for Tyler Shough, as he racked up a 27% target share and a 42% air yards share with him under center. Olave is elite at creating separation and is a solid redzone threat. He draws a nice matchup against a banged-up Lions\u2019 secondary in Week 1, and he doesn\u2019t have much competition for targets with Jordyn Tyson out. You can pair him with Shough and bring it back with Jahmyr Gibbs, or you can use Olave as a bring-back to your Lions\u2019 stacks.\r\n\r\n"
+      }
      ],
      "num_experts": 1,
      "rank": 4,
-     "notes": "Heavy target share against injured secondary without"
+     "notes": "High target and air yards share vs banged-up secondary."
     },
     {
      "player_id": "2861874",
@@ -1050,7 +1110,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Primary deep threat with strong projection metrics."
+     "notes": "Top target share and air yards in a close home script."
     },
     {
      "player_id": "8222949",
@@ -1084,12 +1144,18 @@
       "Davis Mattek"
      ],
      "expert_blurbs": [
-      "I am excited to see this Bears offense to start the season as we have seen HC Ben Johnson draw up explosive plays for his playmakers including Luther Burden and Colston Loveland, who are both coming off a great rookie season.  Both are players I want exposure to, but Burden is at very reasonable price point on both sites and he could easily see a few more targets with Rome Odunze still a little banged up to start the season.",
-      "Projection creators have a hard time before Week 1 creating a difference in target share between Burden, Rome and Loveland. They will not have that difficulity after an 9-120-1 game from Burden against the Panthers. "
+      {
+       "author": "Krayton",
+       "text": "I am excited to see this Bears offense to start the season as we have seen HC Ben Johnson draw up explosive plays for his playmakers including Luther Burden and Colston Loveland, who are both coming off a great rookie season.  Both are players I want exposure to, but Burden is at very reasonable price point on both sites and he could easily see a few more targets with Rome Odunze still a little banged up to start the season."
+      },
+      {
+       "author": "DavisMattek",
+       "text": "Projection creators have a hard time before Week 1 creating a difference in target share between Burden, Rome and Loveland. They will not have that difficulity after an 9-120-1 game from Burden against the Panthers. "
+      }
      ],
      "num_experts": 2,
      "rank": 6,
-     "notes": "Explosive rookie role with teammate nursing minor injury."
+     "notes": "Expanded targets with banged-up teammates in new offense."
     },
     {
      "player_id": "6228204",
@@ -1122,11 +1188,14 @@
       "Bobby Gomes"
      ],
      "expert_blurbs": [
-      "Cardinals should continue to struggle to pressure and sack QBs which means Herbert will have plenty of time to torment this weak secondary. Chargers have the highest implied on the slate and their #1 Ladd McConkey is projected for sub 10% ownership. "
+      {
+       "author": "BobbyGomes",
+       "text": "Cardinals should continue to struggle to pressure and sack QBs which means Herbert will have plenty of time to torment this weak secondary. Chargers have the highest implied on the slate and their #1 Ladd McConkey is projected for sub 10% ownership. "
+      }
      ],
      "num_experts": 1,
      "rank": 7,
-     "notes": "Low ownership option facing a weak secondary."
+     "notes": "Facing weak secondary with high implied team total."
     },
     {
      "player_id": "4687538",
@@ -1160,11 +1229,14 @@
       "EBeimfohr"
      ],
      "expert_blurbs": [
-      "Flowers has never been a big touchdown scorer, but when he is healthy, he can certainly be a PPR magnet. I have a lot of confidence in the Ravens' new offensive coaching staff to put Zay in the spots where he belongs and bring out the best in him, which I think is going to be good for the DraftKings format.\r\n"
+      {
+       "author": "headChopper",
+       "text": "Flowers has never been a big touchdown scorer, but when he is healthy, he can certainly be a PPR magnet. I have a lot of confidence in the Ravens' new offensive coaching staff to put Zay in the spots where he belongs and bring out the best in him, which I think is going to be good for the DraftKings format.\r\n"
+      }
      ],
      "num_experts": 2,
      "rank": 8,
-     "notes": "PPR magnet with new staff maximizing his route usage."
+     "notes": "PPR magnet in new offensive system with steady targets."
     },
     {
      "player_id": "2862069",
@@ -1189,19 +1261,22 @@
       "ceil": 29.5,
       "opto": 9.0,
       "pown": 9.1,
-      "grade": 1.277,
-      "gpp_grade": 0.901
+      "grade": 1.287,
+      "gpp_grade": 0.923
      },
      "fd": null,
      "experts": [
       "Jordan Vanek"
      ],
      "expert_blurbs": [
-      "DeVonta Smith has been incredible when A.J. Brown hasn\u2019t been on the field, and now he\u2019s the unquestioned alpha in this receiver room against a horrible Washington Commanders secondary. I know Jalen Hurts isn\u2019t the greatest passer, but the hate has gone too far. They also made an upgrade at OC with Sean Mannion, and I expect Smith to be a major beneficiary."
+      {
+       "author": "vanekjordan",
+       "text": "DeVonta Smith has been incredible when A.J. Brown hasn\u2019t been on the field, and now he\u2019s the unquestioned alpha in this receiver room against a horrible Washington Commanders secondary. I know Jalen Hurts isn\u2019t the greatest passer, but the hate has gone too far. They also made an upgrade at OC with Sean Mannion, and I expect Smith to be a major beneficiary."
+      }
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Alpha receiver role against a very weak secondary."
+     "notes": "Unquestioned alpha receiver against weak secondary."
     },
     {
      "player_id": "3491660",
@@ -1243,11 +1318,14 @@
       "Davis Mattek"
      ],
      "expert_blurbs": [
-      "There is a chance that Garrett Wilson ends up leading the NFL in target share. He gets a matchup against a bottom-10 NFL defensive unit with a weak-ish pass rush outside of Jeff Simmons. Priced down on both DK and FD, Wilson a priority tournament option for me. "
+      {
+       "author": "DavisMattek",
+       "text": "There is a chance that Garrett Wilson ends up leading the NFL in target share. He gets a matchup against a bottom-10 NFL defensive unit with a weak-ish pass rush outside of Jeff Simmons. Priced down on both DK and FD, Wilson a priority tournament option for me. "
+      }
      ],
      "num_experts": 1,
      "rank": 10,
-     "notes": "Poised for huge target share against bottom-tier defense."
+     "notes": "Elite target share upside against bottom-ten defense."
     }
    ]
   },
@@ -1298,14 +1376,26 @@
       "Jordan Vanek"
      ],
      "expert_blurbs": [
-      "I thought Mayer would be the number 2 or 3 option with Brock Bowers in the lineup, and now he's probably the main target in the passing game. He's way too cheap.",
-      "With Brock Bowers expected out, Michael Mayer ($2,900 DK / $4,600 FD) feels like the free square of the week (especially on DraftKings). The pricing is already soft as a whole, so plugging in Mayer essentially allows you to do whatever you want with the rest of your roster. I\u2019m not sold on Kirk Cousins as being a good quarterback in his 15th NFL season, but he should be serviceable in a nice matchup against the Dolphins. In 4 games without Bowers last season, Mayer caught 18-of-24 targets for 196 yards and a touchdown.\r\n\r\n",
-      "Mayer is an obvious cash game play, but also a strong GPP target. He's cheap and could very easily lead the team in targets. ",
-      "Very hard to ignore how cheap and expanded his role will be without Brock Bowers. He also gets the luxury of playing the Dolphins Week 1 who over the last few seasons have struggled to stop the TE position. Safe cash play with heavy ownership."
+      {
+       "author": "vanekjordan",
+       "text": "I thought Mayer would be the number 2 or 3 option with Brock Bowers in the lineup, and now he's probably the main target in the passing game. He's way too cheap."
+      },
+      {
+       "author": "Notorious",
+       "text": "With Brock Bowers expected out, Michael Mayer ($2,900 DK / $4,600 FD) feels like the free square of the week (especially on DraftKings). The pricing is already soft as a whole, so plugging in Mayer essentially allows you to do whatever you want with the rest of your roster. I\u2019m not sold on Kirk Cousins as being a good quarterback in his 15th NFL season, but he should be serviceable in a nice matchup against the Dolphins. In 4 games without Bowers last season, Mayer caught 18-of-24 targets for 196 yards and a touchdown.\r\n\r\n"
+      },
+      {
+       "author": "NeilCO",
+       "text": "Mayer is an obvious cash game play, but also a strong GPP target. He's cheap and could very easily lead the team in targets. "
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Very hard to ignore how cheap and expanded his role will be without Brock Bowers. He also gets the luxury of playing the Dolphins Week 1 who over the last few seasons have struggled to stop the TE position. Safe cash play with heavy ownership."
+      }
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Free square value with teammate out and elite tight end"
+     "notes": "Expanded role and every-down tight end targets."
     },
     {
      "player_id": "8217153",
@@ -1347,7 +1437,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Solid point-per-dollar value in a competitive matchup."
+     "notes": "Strong route rate and red-zone usage as favorite."
     },
     {
      "player_id": "3492164",
@@ -1389,7 +1479,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite target hog with high ceiling at tight end."
+     "notes": "Elite target volume and route participation."
     },
     {
      "player_id": "4687755",
@@ -1431,7 +1521,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Value tight end option with reliable red zone role."
+     "notes": "Seam usage and red-zone involvement in indoor matchup."
     },
     {
      "player_id": "8216973",
@@ -1456,8 +1546,8 @@
       "ceil": 25.4,
       "opto": 6.0,
       "pown": 8.1,
-      "grade": 1.536,
-      "gpp_grade": 0.994
+      "grade": 1.535,
+      "gpp_grade": 0.991
      },
      "fd": {
       "salary": 6000,
@@ -1466,18 +1556,21 @@
       "ceil": 20.6,
       "opto": 7.3,
       "pown": 8.5,
-      "grade": 1.906,
-      "gpp_grade": 1.105
+      "grade": 1.905,
+      "gpp_grade": 1.102
      },
      "experts": [
       "Notorious"
      ],
      "expert_blurbs": [
-      "Colston Loveland ($5,300 DK / $6,000 FD) could make the leap from a good tight end to a great tight end this season. It wouldn\u2019t surprise me if he\u2019s in the same tier as Trey McBride and Brock Bowers at the end of the season. The Bears want to break scoring records, and Loveland might be the most reliable weapon for Caleb Williams. Loveland really came alive at the end of last season, racking up 48 targets over the final 4 games (including the playoffs). Luther Burden and Rome Odunze are expected to suit up, but they\u2019ve both dealt with injuries and haven\u2019t had many reps with Williams leading up to Week 1.\r\n\r\n"
+      {
+       "author": "Notorious",
+       "text": "Colston Loveland ($5,300 DK / $6,000 FD) could make the leap from a good tight end to a great tight end this season. It wouldn\u2019t surprise me if he\u2019s in the same tier as Trey McBride and Brock Bowers at the end of the season. The Bears want to break scoring records, and Loveland might be the most reliable weapon for Caleb Williams. Loveland really came alive at the end of last season, racking up 48 targets over the final 4 games (including the playoffs). Luther Burden and Rome Odunze are expected to suit up, but they\u2019ve both dealt with injuries and haven\u2019t had many reps with Williams leading up to Week 1.\r\n\r\n"
+      }
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Ascending rookie talent with high red zone usage."
+     "notes": "Reliable target volume with banged-up wideout corps."
     },
     {
      "player_id": "328096",
@@ -1519,7 +1612,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Cheap salary with reliable red zone target volume."
+     "notes": "Red-zone weapon in close divisional game."
     },
     {
      "player_id": "4687728",
@@ -1561,7 +1654,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Solid value in a high-total indoor matchup."
+     "notes": "Every-down route rate in top game stack."
     },
     {
      "player_id": "328643",
@@ -1594,7 +1687,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Low owned tournament option in favorable game script."
+     "notes": "Red-zone tight end role in positive game script."
     },
     {
      "player_id": "4687831",
@@ -1627,7 +1720,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Cheap GPP tight end with decent ceiling projection."
+     "notes": "Expanded route participation as heavy favorite."
     }
    ]
   },
