@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NFL Sunday Best &mdash; Core Plays</title>
+<title>NFL Sunday Best</title>
 <style>
   :root{
     --bg:#0a0c10;
@@ -12,13 +12,19 @@
     --line:#232833;
     --text:#e7eaf0;
     --text-dim:#8a93a3;
-    --core:#2f8fef;
-    --core-dim:#132d4a;
+    --accent:#2f8fef;
+    --core:#f0b429;          /* core flag moved to amber so blue can mean FD */
+    --core-dim:#3a2c09;
+    --dk:#3ecf8e;            /* DraftKings-only play */
+    --dk-dim:#0e2b20;
+    --fd:#5b8def;            /* FanDuel-only play */
+    --fd-dim:#121f3a;
+    --gpp:#a86bee;
+    --gpp-dim:#221533;
     --qb:#5b8def;
     --rb:#3ecf8e;
     --wr:#e85d8e;
     --te:#a86bee;
-    --k:#f2d94e;
     --dst:#ef7a4d;
   }
   *{box-sizing:border-box;}
@@ -32,113 +38,78 @@
   .wrap{max-width:960px;margin:0 auto;padding:22px 16px 60px;}
 
   header.masthead{
-    display:flex;
-    align-items:baseline;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    gap:8px 16px;
-    border-bottom:2px solid var(--core);
-    padding-bottom:14px;
-    margin-bottom:16px;
+    display:flex;align-items:baseline;justify-content:space-between;
+    flex-wrap:wrap;gap:8px 16px;
+    border-bottom:2px solid var(--accent);
+    padding-bottom:14px;margin-bottom:16px;
   }
   header.masthead .title-block h1{
-    font-size:1.5rem;
-    letter-spacing:0.02em;
-    margin:0 0 2px;
-    font-weight:800;
-    text-transform:uppercase;
+    font-size:1.5rem;letter-spacing:0.02em;margin:0 0 2px;
+    font-weight:800;text-transform:uppercase;
   }
-  header.masthead .title-block h1 .accent{color:var(--core);}
+  header.masthead .title-block h1 .accent{color:var(--accent);}
   header.masthead .title-block .sub{
-    color:var(--text-dim);
-    font-size:0.8rem;
-    text-transform:uppercase;
-    letter-spacing:0.08em;
+    color:var(--text-dim);font-size:0.8rem;
+    text-transform:uppercase;letter-spacing:0.08em;
   }
   header.masthead .updated{
     font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
-    font-size:0.72rem;
-    color:var(--text-dim);
-    text-align:right;
-    white-space:nowrap;
+    font-size:0.72rem;color:var(--text-dim);text-align:right;white-space:nowrap;
   }
   header.masthead .updated .dot{
     display:inline-block;width:6px;height:6px;border-radius:50%;
-    background:var(--core);margin-right:6px;
+    background:var(--accent);margin-right:6px;
     animation:pulse 2s ease-in-out infinite;
   }
   @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
 
-  /* Tabs */
-  .tabs{
-    display:flex;gap:6px;
-    margin-bottom:18px;
-    border-bottom:1px solid var(--line);
-  }
+  .tabs{display:flex;gap:6px;margin-bottom:18px;border-bottom:1px solid var(--line);}
   .tab-btn{
-    appearance:none;background:none;border:none;
-    color:var(--text-dim);
+    appearance:none;background:none;border:none;color:var(--text-dim);
     font-size:0.82rem;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;
-    padding:9px 4px 10px;
-    margin-right:18px;
-    cursor:pointer;
+    padding:9px 4px 10px;margin-right:18px;cursor:pointer;
     border-bottom:2px solid transparent;
     transition:color .15s ease, border-color .15s ease;
   }
-  .tab-btn.active{color:var(--core);border-bottom-color:var(--core);}
+  .tab-btn.active{color:var(--accent);border-bottom-color:var(--accent);}
   .tab-panel{display:none;}
   .tab-panel.active{display:block;}
 
-  .pos-toggles{
-    display:flex;gap:8px;flex-wrap:wrap;
-    margin-bottom:16px;
-  }
+  .pos-toggles{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
   .pos-toggle-btn{
-    appearance:none;
-    background:var(--panel);
-    border:1px solid var(--line);
-    color:var(--text-dim);
-    font-weight:800;font-size:0.78rem;letter-spacing:0.04em;
-    padding:7px 14px;
-    border-radius:20px;
-    cursor:pointer;
+    appearance:none;background:var(--panel);border:1px solid var(--line);
+    color:var(--text-dim);font-weight:800;font-size:0.78rem;letter-spacing:0.04em;
+    padding:7px 14px;border-radius:20px;cursor:pointer;
     transition:border-color .12s ease, color .12s ease, background .12s ease;
   }
   .pos-toggle-btn:hover{border-color:var(--text-dim);}
-  .pos-toggle-btn.active{
-    background:var(--core-dim);
-    border-color:var(--core);
-    color:var(--core);
-  }
+  .pos-toggle-btn.active{background:#12233a;border-color:var(--accent);color:var(--accent);}
+
   .legend{
-    display:flex;gap:14px;flex-wrap:wrap;
-    font-size:0.72rem;color:var(--text-dim);
-    margin-bottom:20px;
+    display:flex;gap:14px;flex-wrap:wrap;align-items:center;
+    font-size:0.72rem;color:var(--text-dim);margin-bottom:20px;
     text-transform:uppercase;letter-spacing:0.04em;
   }
-  .legend .flag{
+  .chip{
     display:inline-flex;align-items:center;gap:5px;
-    background:var(--core-dim);color:var(--core);
-    border:1px solid var(--core);
-    border-radius:3px;padding:1px 6px;
-    font-weight:700;font-size:0.68rem;
+    border-radius:3px;padding:1px 7px;
+    font-weight:800;font-size:0.65rem;letter-spacing:0.06em;text-transform:uppercase;
   }
+  .chip.core{background:var(--core-dim);color:var(--core);border:1px solid var(--core);}
+  .chip.gpp{background:var(--gpp-dim);color:var(--gpp);border:1px solid var(--gpp);}
+  .chip.dk{background:var(--dk-dim);color:var(--dk);border:1px solid var(--dk);}
+  .chip.fd{background:var(--fd-dim);color:var(--fd);border:1px solid var(--fd);}
 
   section.pos-block{margin-bottom:30px;}
-  .pos-head{
-    display:flex;align-items:center;gap:10px;
-    margin-bottom:10px;
-  }
+  .pos-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
   .pos-badge{
     font-weight:800;font-size:0.78rem;letter-spacing:0.06em;
-    padding:4px 10px;border-radius:5px;
-    color:#0a0c10;
+    padding:4px 10px;border-radius:5px;color:#0a0c10;
   }
   .pos-badge.QB{background:var(--qb);}
   .pos-badge.RB{background:var(--rb);}
   .pos-badge.WR{background:var(--wr);}
   .pos-badge.TE{background:var(--te);}
-  .pos-badge.K{background:var(--k);}
   .pos-badge.DST{background:var(--dst);}
   .pos-count{color:var(--text-dim);font-size:0.75rem;}
   .pos-head hr{flex:1;border:none;border-top:1px solid var(--line);}
@@ -148,144 +119,95 @@
     border:1px solid var(--line);
     border-left:3px solid var(--line);
     border-radius:6px;
-    padding:12px 14px;
-    margin-bottom:8px;
-    display:grid;
-    grid-template-columns:34px 1fr;
-    column-gap:12px;
-    row-gap:4px;
-    align-items:start;
-    transition:border-color .15s ease, background .15s ease;
+    padding:12px 14px;margin-bottom:8px;
+    display:grid;grid-template-columns:34px 1fr;
+    column-gap:12px;row-gap:5px;align-items:start;
   }
-  .card.is-core{
-    border-left-color:var(--core);
-    background:linear-gradient(90deg, rgba(232,163,61,0.07), var(--panel) 12%);
-  }
+  .card.is-core{border-left-color:var(--core);background:linear-gradient(90deg,rgba(240,180,41,0.07),var(--panel) 14%);}
+  .card.only-dk{border-left-color:var(--dk);}
+  .card.only-fd{border-left-color:var(--fd);}
   .card .rank{
     color:var(--text-dim);
     font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
-    font-size:0.85rem;
-    padding-top:1px;
+    font-size:0.85rem;padding-top:1px;
   }
   .card.is-core .rank{color:var(--core);}
-  .row-name{
-    display:flex;align-items:center;gap:8px;flex-wrap:wrap;
-  }
+  .card.only-dk .rank{color:var(--dk);}
+  .card.only-fd .rank{color:var(--fd);}
+  .row-name{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
   .player-name{font-weight:700;font-size:0.95rem;}
-  .core-flag{
-    display:inline-flex;align-items:center;gap:4px;
-    background:var(--core-dim);color:var(--core);
-    border:1px solid var(--core);
-    border-radius:3px;padding:1px 7px;
-    font-size:0.65rem;font-weight:800;letter-spacing:0.06em;
-    text-transform:uppercase;
+  .card.only-dk .player-name{color:var(--dk);}
+  .card.only-fd .player-name{color:var(--fd);}
+
+  .ranks{
+    grid-column:2;display:flex;gap:8px;flex-wrap:wrap;
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    font-size:0.7rem;color:var(--text-dim);
   }
-  .core-flag::before{content:"\25B2";font-size:0.6rem;}
-  .proj-line{
-    grid-column:2;
-    display:flex;gap:10px;flex-wrap:wrap;
+  .ranks b{color:var(--text);font-weight:700;}
+  .ranks .sep{color:var(--line);}
+
+  .stat-line{
+    grid-column:2;display:flex;gap:10px;flex-wrap:wrap;
     font-size:0.72rem;font-weight:700;
     font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
-  }
-  .proj-line.proj-QB{color:var(--qb);}
-  .proj-line.proj-RB{color:var(--rb);}
-  .proj-line.proj-WR{color:var(--wr);}
-  .proj-line.proj-TE{color:var(--te);}
-  .proj-line.proj-K{color:var(--k);}
-  .proj-line.proj-DST{color:var(--dst);}
-  .note{
-    grid-column:2;
     color:var(--text-dim);
-    font-size:0.86rem;
-    line-height:1.4;
   }
+  .stat-line .book{color:var(--text);}
+  .note{grid-column:2;color:var(--text-dim);font-size:0.86rem;line-height:1.4;}
 
-  .empty-state, .error-state{
-    color:var(--text-dim);text-align:center;padding:40px 0;font-size:0.9rem;
-  }
+  .empty-state,.error-state{color:var(--text-dim);text-align:center;padding:40px 0;font-size:0.9rem;}
 
-  /* Depth chart tab */
+  /* Lineups tab */
   .team-select{
-    width:100%;
-    max-width:220px;
-    margin-bottom:16px;
-    padding:10px 12px;
-    background:var(--panel);
-    border:1px solid var(--line);
-    border-radius:8px;
-    color:var(--text);
-    font-size:0.88rem;
-    font-weight:700;
-    letter-spacing:0.02em;
-    appearance:none;
-    -webkit-appearance:none;
+    width:100%;max-width:220px;margin-bottom:8px;padding:10px 12px;
+    background:var(--panel);border:1px solid var(--line);border-radius:8px;
+    color:var(--text);font-size:0.88rem;font-weight:700;letter-spacing:0.02em;
+    appearance:none;-webkit-appearance:none;
     background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a93a3' stroke-width='2'><polyline points='6 9 12 15 18 9'/></svg>");
-    background-repeat:no-repeat;
-    background-position:right 12px center;
-    background-size:16px;
-    padding-right:36px;
-    cursor:pointer;
+    background-repeat:no-repeat;background-position:right 12px center;background-size:16px;
+    padding-right:36px;cursor:pointer;
   }
-  .team-select:focus{outline:none;border-color:var(--core);}
+  .team-select:focus{outline:none;border-color:var(--accent);}
+  .game-line{
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    font-size:0.75rem;color:var(--text-dim);margin-bottom:16px;
+  }
+  .game-line b{color:var(--text);}
 
-  .depth-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));
-    gap:14px;
-  }
-  .depth-col{
-    background:var(--panel);
-    border:1px solid var(--line);
-    border-radius:8px;
-    padding:10px 12px 12px;
-  }
-  .depth-col-head{
-    display:flex;align-items:center;justify-content:space-between;
-    margin-bottom:6px;
-  }
+  .depth-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;}
+  .depth-col{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px 12px;}
+  .depth-col-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;}
   .depth-row{
     display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;
-    padding:4px 0;
-    border-bottom:1px solid rgba(255,255,255,0.04);
-    font-size:0.82rem;
+    padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.04);font-size:0.82rem;
   }
   .depth-row:last-child{border-bottom:none;}
   .depth-row .d-num{
     color:var(--text-dim);
     font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
-    font-size:0.72rem;
-    width:14px;flex-shrink:0;
+    font-size:0.72rem;width:14px;flex-shrink:0;
   }
   .depth-row .d-name{flex:1;font-weight:600;}
-  .depth-row .d-note-flag{
-    color:var(--core);
-    font-size:0.68rem;
-    flex-shrink:0;
-  }
+  .depth-row.has-note .d-name{color:var(--accent);}
   .depth-row .d-note-text{
-    flex-basis:100%;
-    color:var(--core);
-    font-size:0.74rem;
-    line-height:1.35;
+    flex-basis:100%;color:var(--text-dim);font-size:0.72rem;line-height:1.4;
     padding:2px 0 2px 22px;
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
   }
   .depth-more-btn{
-    appearance:none;background:none;border:none;
-    color:var(--text-dim);
-    font-size:0.72rem;font-weight:700;
-    padding:6px 0 2px;
-    cursor:pointer;
-    text-decoration:underline;
-    text-underline-offset:2px;
+    appearance:none;background:none;border:none;color:var(--text-dim);
+    font-size:0.72rem;font-weight:700;padding:6px 0 2px;cursor:pointer;
+    text-decoration:underline;text-underline-offset:2px;
   }
-  .depth-more-btn:hover{color:var(--core);}
+  .depth-more-btn:hover{color:var(--accent);}
   .depth-row.hidden-row{display:none;}
 
   @media (max-width:520px){
     header.masthead{flex-direction:column;align-items:flex-start;}
     header.masthead .updated{text-align:left;}
     .title-block h1{font-size:1.25rem;}
-    .depth-grid{grid-template-columns:repeat(2, 1fr);}
+    .depth-grid{grid-template-columns:1fr;}
     .team-select{max-width:none;}
   }
 </style>
@@ -295,63 +217,56 @@
     <header class="masthead">
       <div class="title-block">
         <h1>NFL Sunday <span class="accent">Best</span></h1>
-        <div class="sub">Preseason Core Plays</div>
+        <div class="sub" id="slate-sub">Sunday Main Slate &middot; DK + FD</div>
       </div>
       <div class="updated" id="updated"><span class="dot"></span>loading&hellip;</div>
     </header>
 
     <div class="tabs">
       <button class="tab-btn active" data-tab="core">Core Plays</button>
-      <button class="tab-btn" data-tab="depth">Depth Charts</button>
+      <button class="tab-btn" data-tab="lineups">Lineups</button>
     </div>
 
     <div class="tab-panel active" id="tab-core">
       <div class="pos-toggles" id="pos-toggles"></div>
-
       <div class="legend">
-        <span class="flag">&#9650; CORE</span>
-        <span>= our top-conviction preseason plays</span>
+        <span class="chip core">Core</span><span>top conviction</span>
+        <span class="chip gpp">GPP</span><span>ceiling / leverage slot</span>
+        <span class="chip dk">DK only</span>
+        <span class="chip fd">FD only</span>
       </div>
-
-      <div id="content">
-        <div class="empty-state">Loading slate&hellip;</div>
-      </div>
+      <div id="content"><div class="empty-state">Loading slate&hellip;</div></div>
     </div>
 
-    <div class="tab-panel" id="tab-depth">
+    <div class="tab-panel" id="tab-lineups">
       <select class="team-select" id="team-select"></select>
-      <div class="legend">
-        <span class="flag" style="color:var(--core);border-color:var(--core);">&#9679;</span>
-        <span>&#9873; = injury or usage note</span>
-      </div>
-      <div id="depth-content">
-        <div class="empty-state">Loading depth charts&hellip;</div>
-      </div>
+      <div class="game-line" id="game-line"></div>
+      <div id="lineups-content"><div class="empty-state">Loading lineups&hellip;</div></div>
     </div>
-
   </div>
 
 <script>
-const DATA_URL = "nfl_preseason.json";
-const POS_ORDER = ["QB", "RB", "WR", "TE", "K"];
-const DEFAULT_VISIBLE = 3; // rows shown per position before "+N more"
+const DATA_URL = "nfl_sundaybest.json";
+const POS_ORDER = ["QB","RB","WR","TE","DST"];
+const DEFAULT_VISIBLE = 4;
+
+let ACTIVE_POS = "ALL";
+let LINEUPS = {};
 
 function fmtTimestamp(iso){
   try{
-    const d = new Date(iso);
-    return d.toLocaleString(undefined, {
-      month:"short", day:"numeric", hour:"numeric", minute:"2-digit", timeZoneName:"short"
+    return new Date(iso).toLocaleString(undefined,{
+      month:"short",day:"numeric",hour:"numeric",minute:"2-digit",timeZoneName:"short"
     });
   }catch(e){ return iso; }
 }
 
-function escapeHtml(str){
-  return (str || "").replace(/[&<>"']/g, m => ({
-    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+function esc(str){
+  return (str==null?"":String(str)).replace(/[&<>"']/g, m => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
   }[m]));
 }
 
-/* ---------- Tabs ---------- */
 document.querySelectorAll(".tab-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -361,136 +276,147 @@ document.querySelectorAll(".tab-btn").forEach(btn => {
   });
 });
 
-/* ---------- Core Plays tab ---------- */
-function renderSection(section){
-  const posClass = section.position.toUpperCase();
-  const rows = section.players.map(p => {
-    const projBits = [];
-    if (p.salary != null) projBits.push(`$${p.salary.toLocaleString()}`);
-    if (p.fpts != null) projBits.push(`${p.fpts} FPTS`);
-    if (p.opp) projBits.push(`vs ${escapeHtml(p.opp)}`);
-    const projLine = projBits.length
-      ? `<div class="proj-line proj-${posClass}">${projBits.join(" &middot; ")}</div>`
-      : "";
+/* ---------- Core Plays ---------- */
+function bookLine(label, s){
+  if (!s) return `<span>${label} &mdash;</span>`;
+  const bits = [];
+  if (s.salary != null) bits.push(`$${s.salary.toLocaleString()}`);
+  if (s.fpts   != null) bits.push(`${s.fpts.toFixed(1)}`);
+  if (s.ppd    != null) bits.push(`${s.ppd.toFixed(2)}/k`);
+  if (s.opto   != null) bits.push(`${s.opto.toFixed(0)}% opto`);
+  if (s.pown   != null) bits.push(`${s.pown.toFixed(0)}% own`);
+  return `<span><span class="book">${label}</span> ${bits.join(" &middot; ")}</span>`;
+}
 
-    return `
-    <div class="card ${p.core ? "is-core" : ""}">
-      <div class="rank">${p.rank}</div>
-      <div class="row-name">
-        <span class="player-name">${escapeHtml(p.players)}</span>
-        ${p.core ? '<span class="core-flag">Core</span>' : ""}
-      </div>
-      <div class="note">${escapeHtml(p.notes)}</div>
-      ${projLine}
-    </div>
-  `;
-  }).join("");
+function renderCard(p){
+  const classes = ["card"];
+  if (p.core_dk || p.core_fd) classes.push("is-core");
+  if (p.site_only === "DK") classes.push("only-dk");
+  if (p.site_only === "FD") classes.push("only-fd");
+
+  const chips = [];
+  if (p.core_dk) chips.push('<span class="chip core">Core DK</span>');
+  if (p.core_fd) chips.push('<span class="chip core">Core FD</span>');
+  if (p.dk_slot === "GPP" || p.fd_slot === "GPP") chips.push('<span class="chip gpp">GPP</span>');
+  if (p.site_only === "DK") chips.push('<span class="chip dk">DK only</span>');
+  if (p.site_only === "FD") chips.push('<span class="chip fd">FD only</span>');
+
+  const dkR = p.dk_rank == null ? "&mdash;" : `<b>${p.dk_rank}</b>`;
+  const fdR = p.fd_rank == null ? "&mdash;" : `<b>${p.fd_rank}</b>`;
 
   return `
-    <section class="pos-block" data-position="${posClass}">
+    <div class="${classes.join(" ")}">
+      <div class="rank">${p.rank}</div>
+      <div class="row-name">
+        <span class="player-name">${esc(p.players)}</span>
+        <span style="color:var(--text-dim);font-size:0.78rem">${esc(p.team)} vs ${esc(p.opp)}</span>
+        ${chips.join("")}
+      </div>
+      <div class="ranks">DK ${dkR} <span class="sep">|</span> FD ${fdR}</div>
+      <div class="stat-line">${bookLine("DK", p.dk)} ${bookLine("FD", p.fd)}</div>
+      <div class="note">${esc(p.notes)}</div>
+    </div>`;
+}
+
+function renderSection(section){
+  const pos = section.position.toUpperCase();
+  return `
+    <section class="pos-block" data-position="${pos}">
       <div class="pos-head">
-        <span class="pos-badge ${posClass}">${posClass}</span>
+        <span class="pos-badge ${pos}">${pos}</span>
         <span class="pos-count">${section.players.length} ranked</span>
         <hr>
       </div>
-      ${rows}
-    </section>
-  `;
+      ${section.players.map(renderCard).join("")}
+    </section>`;
 }
 
 function applyFilter(){
   document.querySelectorAll("section.pos-block").forEach(sec => {
-    const posMatchesToggle = ACTIVE_POS === "ALL" || sec.dataset.position === ACTIVE_POS;
-    sec.style.display = posMatchesToggle ? "" : "none";
+    sec.style.display = (ACTIVE_POS === "ALL" || sec.dataset.position === ACTIVE_POS) ? "" : "none";
   });
 }
 
-let ACTIVE_POS = "ALL";
-
 function renderPosToggles(sections){
-  const toggles = document.getElementById("pos-toggles");
-  const positions = sections.map(s => s.position.toUpperCase());
-  const buttons = ["ALL", ...positions];
-  toggles.innerHTML = buttons.map(p =>
-    `<button class="pos-toggle-btn ${p === ACTIVE_POS ? "active" : ""}" data-pos="${p}">${p === "ALL" ? "All" : p}</button>`
+  const el = document.getElementById("pos-toggles");
+  const buttons = ["ALL", ...sections.map(s => s.position.toUpperCase())];
+  el.innerHTML = buttons.map(p =>
+    `<button class="pos-toggle-btn ${p===ACTIVE_POS?"active":""}" data-pos="${p}">${p==="ALL"?"All":p}</button>`
   ).join("");
-  toggles.querySelectorAll(".pos-toggle-btn").forEach(btn => {
+  el.querySelectorAll(".pos-toggle-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       ACTIVE_POS = btn.dataset.pos;
-      toggles.querySelectorAll(".pos-toggle-btn").forEach(b => b.classList.toggle("active", b === btn));
+      el.querySelectorAll(".pos-toggle-btn").forEach(b => b.classList.toggle("active", b === btn));
       applyFilter();
     });
   });
 }
 
-/* ---------- Depth Charts tab ---------- */
-let DEPTH_DATA = {};
-
+/* ---------- Lineups ---------- */
 function renderTeamPicker(){
   const select = document.getElementById("team-select");
-  const teams = Object.keys(DEPTH_DATA).sort();
-  select.innerHTML = teams.map(t => `<option value="${t}">${t}</option>`).join("");
-  select.addEventListener("change", () => renderDepthChart(select.value));
-  if (teams.length) renderDepthChart(teams[0]);
-}
-
-function renderDepthChart(team){
-  const positions = DEPTH_DATA[team] || {};
-  const orderedPos = POS_ORDER.filter(p => positions[p] && positions[p].length);
-
-  if (!orderedPos.length){
-    document.getElementById("depth-content").innerHTML =
-      '<div class="empty-state">No depth chart data for this team.</div>';
+  const teams = Object.keys(LINEUPS).sort();
+  if (!teams.length){
+    document.getElementById("lineups-content").innerHTML =
+      '<div class="empty-state">No lineup data available.</div>';
     return;
   }
+  select.innerHTML = teams.map(t => `<option value="${t}">${t}</option>`).join("");
+  select.onchange = () => renderLineup(select.value);
+  renderLineup(teams[0]);
+}
 
-  const cols = orderedPos.map(pos => {
-    const players = positions[pos];
-    const rows = players.map((p, i) => `
-      <div class="depth-row ${i >= DEFAULT_VISIBLE ? "hidden-row" : ""}">
+function renderLineup(team){
+  const data = LINEUPS[team];
+  if (!data){ return; }
+
+  const g = document.getElementById("game-line");
+  const bits = [`vs <b>${esc(data.opponent)}</b>`];
+  if (data.spread != null) bits.push(`spread <b>${data.spread}</b>`);
+  if (data.total  != null) bits.push(`total <b>${data.total}</b>`);
+  if (data.favourite)      bits.push(`fav <b>${esc(data.favourite)}</b>`);
+  g.innerHTML = bits.join(" &nbsp;&middot;&nbsp; ");
+
+  const cols = POS_ORDER.filter(p => data.positions[p] && data.positions[p].length).map(pos => {
+    const players = data.positions[pos];
+    const rows = players.map((p,i) => `
+      <div class="depth-row ${p.note ? "has-note" : ""} ${i >= DEFAULT_VISIBLE ? "hidden-row" : ""}">
         <span class="d-num">${p.depth}</span>
-        <span class="d-name">${escapeHtml(p.name)}</span>
-        ${p.note ? `<span class="d-note-flag">&#9873;</span><span class="d-note-text">${escapeHtml(p.note)}</span>` : ""}
-      </div>
-    `).join("");
-
+        <span class="d-name">${esc(p.name)}</span>
+        ${p.note ? `<span class="d-note-text">${esc(p.note)}</span>` : ""}
+      </div>`).join("");
     const extra = players.length - DEFAULT_VISIBLE;
-    const moreBtn = extra > 0
-      ? `<button class="depth-more-btn" type="button">+${extra} more</button>`
-      : "";
-
     return `
       <div class="depth-col" data-position="${pos}">
-        <div class="depth-col-head">
-          <span class="pos-badge ${pos}">${pos}</span>
-        </div>
+        <div class="depth-col-head"><span class="pos-badge ${pos}">${pos}</span></div>
         ${rows}
-        ${moreBtn}
-      </div>
-    `;
+        ${extra > 0 ? `<button class="depth-more-btn" type="button">+${extra} more</button>` : ""}
+      </div>`;
   }).join("");
 
-  document.getElementById("depth-content").innerHTML =
-    `<div class="depth-grid">${cols}</div>`;
-
+  document.getElementById("lineups-content").innerHTML = `<div class="depth-grid">${cols}</div>`;
   document.querySelectorAll(".depth-more-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      const col = btn.closest(".depth-col");
-      col.querySelectorAll(".hidden-row").forEach(r => r.classList.remove("hidden-row"));
+      btn.closest(".depth-col").querySelectorAll(".hidden-row")
+         .forEach(r => r.classList.remove("hidden-row"));
       btn.remove();
     });
   });
 }
 
 /* ---------- Load ---------- */
-fetch(DATA_URL, {cache: "no-store"})
-  .then(res => {
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    return res.json();
-  })
+fetch(DATA_URL, {cache:"no-store"})
+  .then(res => { if(!res.ok) throw new Error("HTTP " + res.status); return res.json(); })
   .then(data => {
     document.getElementById("updated").innerHTML =
       `<span class="dot"></span>Updated ${fmtTimestamp(data.updated)}`;
+
+    const books = (data.sites || []).join(" + ") || "DK";
+    const core = data.core_counts
+      ? Object.entries(data.core_counts).map(([k,v]) => `${v} core ${k}`).join(" &middot; ")
+      : "";
+    document.getElementById("slate-sub").innerHTML =
+      `Sunday Main Slate &middot; ${esc(books)}${core ? " &middot; " + core : ""}`;
 
     const content = document.getElementById("content");
     if (!data.sections || !data.sections.length){
@@ -500,19 +426,14 @@ fetch(DATA_URL, {cache: "no-store"})
       renderPosToggles(data.sections);
     }
 
-    DEPTH_DATA = data.depth_charts || {};
-    if (Object.keys(DEPTH_DATA).length){
-      renderTeamPicker();
-    } else {
-      document.getElementById("depth-content").innerHTML =
-        '<div class="empty-state">No depth chart data available.</div>';
-    }
+    LINEUPS = data.lineups || {};
+    renderTeamPicker();
   })
   .catch(err => {
     document.getElementById("updated").textContent = "Update failed";
-    const msg = `<div class="error-state">Couldn't load slate data (${escapeHtml(err.message)}). Check that nfl_preseason.json exists at the repo root.</div>`;
+    const msg = `<div class="error-state">Couldn't load slate data (${esc(err.message)}). Check that nfl_sundaybest.json exists at the repo root.</div>`;
     document.getElementById("content").innerHTML = msg;
-    document.getElementById("depth-content").innerHTML = msg;
+    document.getElementById("lineups-content").innerHTML = msg;
   });
 </script>
 </body>
