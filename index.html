@@ -168,6 +168,19 @@
   .books .v.dim{color:#4d5564;}
   .books .v.hot{color:var(--core);}
   .books .v.lev{color:var(--gpp);}
+  .experts{
+    grid-column:2;display:flex;gap:5px;flex-wrap:wrap;align-items:center;
+  }
+  .ex{
+    font-size:0.62rem;font-weight:800;letter-spacing:0.02em;
+    padding:2px 8px;border-radius:10px;border:1px solid;white-space:nowrap;
+  }
+  /* tier = the expert's rank in the weighting table */
+  .ex.t1{color:#f0b429;border-color:rgba(240,180,41,.55);background:rgba(240,180,41,.10);}
+  .ex.t2{color:#5b8def;border-color:rgba(91,141,239,.50);background:rgba(91,141,239,.10);}
+  .ex.t3{color:#8a93a3;border-color:rgba(138,147,163,.35);background:rgba(138,147,163,.08);}
+  /* four or more tags is the consensus green flag */
+  .ex.count{color:var(--dk);border-color:var(--dk);background:rgba(62,207,142,.14);}
   .note{grid-column:2;color:var(--text-dim);font-size:0.86rem;line-height:1.4;}
 
   .empty-state,.error-state{color:var(--text-dim);text-align:center;padding:40px 0;font-size:0.9rem;}
@@ -231,7 +244,7 @@
     <header class="masthead">
       <div class="title-block">
         <h1>NFL Sunday <span class="accent">Best</span></h1>
-        <div class="sub" id="slate-sub">Sunday Main Slate &middot; DK + FD</div>
+        <div class="sub" id="slate-sub">Sunday Main Slate</div>
       </div>
       <div class="updated" id="updated"><span class="dot"></span>loading&hellip;</div>
     </header>
@@ -291,6 +304,24 @@ document.querySelectorAll(".tab-btn").forEach(btn => {
 });
 
 /* ---------- Core Plays ---------- */
+// Tier matches the weighting table in NFLSundayBest.py -- top three carry the
+// most weight, so they read loudest.
+const EXPERT_TIER = {
+  Notorious:1, DavisMattek:1, EBeimfohr:1,
+  VanekJordan:2, BobbyGomes:2, ncordfield8k:2,
+  Krayton:3, Headchopper:3
+};
+
+function expertRow(p){
+  const names = p.experts || [];
+  if (!names.length) return "";
+  const pills = names.map(n =>
+    `<span class="ex t${EXPERT_TIER[n] || 3}">${esc(n)}</span>`).join("");
+  const count = names.length >= 4
+    ? `<span class="ex count">${names.length} experts</span>` : "";
+  return `<div class="experts">${count}${pills}</div>`;
+}
+
 const DASH = '<span class="v dim">&mdash;</span>';
 
 function bookRow(label, s){
@@ -343,6 +374,7 @@ function renderCard(p){
       </div>
       <div class="ranks">DK ${dkR} <span class="sep">|</span> FD ${fdR}</div>
       ${bookGrid(p)}
+      ${expertRow(p)}
       <div class="note">${esc(p.notes)}</div>
     </div>`;
 }
@@ -440,12 +472,7 @@ fetch(DATA_URL, {cache:"no-store"})
     document.getElementById("updated").innerHTML =
       `<span class="dot"></span>Updated ${fmtTimestamp(data.updated)}`;
 
-    const books = (data.sites || []).join(" + ") || "DK";
-    const core = data.core_counts
-      ? Object.entries(data.core_counts).map(([k,v]) => `${v} core ${k}`).join(" &middot; ")
-      : "";
-    document.getElementById("slate-sub").innerHTML =
-      `Sunday Main Slate &middot; ${esc(books)}${core ? " &middot; " + core : ""}`;
+    document.getElementById("slate-sub").textContent = "Sunday Main Slate";
 
     const content = document.getElementById("content");
     if (!data.sections || !data.sections.length){
