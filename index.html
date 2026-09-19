@@ -99,6 +99,8 @@
   .chip.gpp{background:var(--gpp-dim);color:var(--gpp);border:1px solid var(--gpp);}
   .chip.dk{background:var(--dk-dim);color:var(--dk);border:1px solid var(--dk);}
   .chip.fd{background:var(--fd-dim);color:var(--fd);border:1px solid var(--fd);}
+  /* cheap enough to count as a salary saver at the position */
+  .chip.value{background:rgba(148,163,184,0.12);color:#cbd5e1;border:1px solid #64748b;}
 
   section.pos-block{margin-bottom:30px;}
   .pos-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
@@ -285,6 +287,7 @@
       <div class="legend">
         <span class="chip core">Core</span><span>top conviction</span>
         <span class="chip gpp">GPP</span><span>ceiling / leverage slot</span>
+        <span class="chip value">Value</span><span>salary saver</span>
         <span class="chip dk">Green</span><span>preferred on DK</span>
         <span class="chip fd">Blue</span><span>preferred on FD</span>
       </div>
@@ -421,6 +424,7 @@ function renderCard(p){
   if (p.core_dk) chips.push('<span class="chip core">Core DK</span>');
   if (p.core_fd) chips.push('<span class="chip core">Core FD</span>');
   if (p.dk_slot === "GPP" || p.fd_slot === "GPP") chips.push('<span class="chip gpp">GPP</span>');
+  if (p.saver_dk || p.saver_fd) chips.push('<span class="chip value">Value</span>');
   // a human moved this one up rather than the grade
   // soft book cue -- the colour already carries it, this just names it
   if (p.site_only === "DK") chips.push('<span class="chip dk">DK</span>');
