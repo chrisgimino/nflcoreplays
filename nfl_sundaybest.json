@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-18T21:44",
+ "updated": "2026-09-19T00:19",
  "slate_ids": {
   "draftkings": "153428",
   "fanduel": "134251"
@@ -11,7 +11,7 @@
  ],
  "core_counts": {
   "DK": 3,
-  "FD": 0
+  "FD": 2
  },
  "sections": [
   {
@@ -26,11 +26,11 @@
      "opp": "WAS",
      "schedule_id": "206321",
      "dk_rank": 1,
-     "fd_rank": null,
+     "fd_rank": 2,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -39,11 +39,20 @@
       "ppd": 3.17,
       "ceil": 31.5,
       "opto": 7.5,
-      "pown": 10.4,
+      "pown": 11.7,
       "grade": 1.206,
       "gpp_grade": 0.866
      },
-     "fd": null,
+     "fd": {
+      "salary": 8000,
+      "fpts": 20.21,
+      "ppd": 2.53,
+      "ceil": 31.4,
+      "opto": 6.3,
+      "pown": 11.0,
+      "grade": 1.161,
+      "gpp_grade": 1.04
+     },
      "experts": [
       "Notorious",
       "Krayton",
@@ -57,7 +66,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Elite weapons and a top implied team total against Washington."
+     "notes": "Elite weapons and a high implied team total in a top home matchup."
     },
     {
      "player_id": "6228653",
@@ -68,11 +77,11 @@
      "opp": "DAL",
      "schedule_id": "206321",
      "dk_rank": 2,
-     "fd_rank": null,
+     "fd_rank": 3,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -81,11 +90,20 @@
       "ppd": 3.19,
       "ceil": 30.7,
       "opto": 7.0,
-      "pown": 7.0,
+      "pown": 6.3,
       "grade": 1.068,
-      "gpp_grade": 0.668
+      "gpp_grade": 0.678
      },
-     "fd": null,
+     "fd": {
+      "salary": 7900,
+      "fpts": 19.91,
+      "ppd": 2.52,
+      "ceil": 30.4,
+      "opto": 7.0,
+      "pown": 7.1,
+      "grade": 1.118,
+      "gpp_grade": 0.818
+     },
      "experts": [
       "Notorious",
       "Headchopper"
@@ -102,7 +120,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Rushing floor and a high total in a great matchup."
+     "notes": "Strong rushing floor and designed runs against a struggling secondary."
     },
     {
      "player_id": "1844646",
@@ -113,11 +131,11 @@
      "opp": "TEN",
      "schedule_id": "206318",
      "dk_rank": 3,
-     "fd_rank": null,
+     "fd_rank": 6,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "GPP",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -126,16 +144,25 @@
       "ppd": 3.1,
       "ceil": 31.8,
       "opto": 6.8,
-      "pown": 4.1,
+      "pown": 4.9,
       "grade": 0.945,
-      "gpp_grade": 0.611
+      "gpp_grade": 0.599
      },
-     "fd": null,
+     "fd": {
+      "salary": 8600,
+      "fpts": 20.53,
+      "ppd": 2.39,
+      "ceil": 31.4,
+      "opto": 7.8,
+      "pown": 4.7,
+      "grade": 1.051,
+      "gpp_grade": 0.69
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Solid implied team total in a favorable home matchup."
+     "notes": "Solid pass volume and implied team total in a favorable game script."
     },
     {
      "player_id": "3492223",
@@ -146,11 +173,11 @@
      "opp": "MIA",
      "schedule_id": "206323",
      "dk_rank": 4,
-     "fd_rank": null,
+     "fd_rank": 7,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "GPP",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -159,16 +186,25 @@
       "ppd": 3.28,
       "ceil": 31.0,
       "opto": 5.2,
-      "pown": 10.7,
+      "pown": 8.7,
       "grade": 0.892,
-      "gpp_grade": 0.606
+      "gpp_grade": 0.625
      },
-     "fd": null,
+     "fd": {
+      "salary": 8100,
+      "fpts": 20.2,
+      "ppd": 2.49,
+      "ceil": 30.9,
+      "opto": 4.8,
+      "pown": 8.7,
+      "grade": 0.804,
+      "gpp_grade": 0.671
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Strong passing volume in a high-total home spot."
+     "notes": "High pass rate and strong implied team total as a heavy home favorite."
     },
     {
      "player_id": "328097",
@@ -179,11 +215,11 @@
      "opp": "NOS",
      "schedule_id": "206317",
      "dk_rank": 5,
-     "fd_rank": null,
+     "fd_rank": 1,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -192,16 +228,25 @@
       "ppd": 2.97,
       "ceil": 32.8,
       "opto": 6.6,
-      "pown": 6.1,
+      "pown": 8.5,
       "grade": 0.863,
-      "gpp_grade": 0.55
+      "gpp_grade": 0.515
      },
-     "fd": null,
+     "fd": {
+      "salary": 8800,
+      "fpts": 21.33,
+      "ppd": 2.42,
+      "ceil": 32.4,
+      "opto": 9.6,
+      "pown": 7.3,
+      "grade": 1.38,
+      "gpp_grade": 0.762
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "High rushing upside against a vulnerable defense."
+     "notes": "Rushing floor and high implied team total as a strong home favorite."
     },
     {
      "player_id": "6227816",
@@ -212,11 +257,11 @@
      "opp": "MIN",
      "schedule_id": "206312",
      "dk_rank": 6,
-     "fd_rank": null,
+     "fd_rank": 4,
      "dk_slot": "GPP",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -225,11 +270,20 @@
       "ppd": 2.94,
       "ceil": 30.9,
       "opto": 6.6,
-      "pown": 3.3,
+      "pown": 4.5,
       "grade": 0.8,
-      "gpp_grade": 0.713
+      "gpp_grade": 0.695
      },
-     "fd": null,
+     "fd": {
+      "salary": 8400,
+      "fpts": 19.76,
+      "ppd": 2.35,
+      "ceil": 30.5,
+      "opto": 8.0,
+      "pown": 6.5,
+      "grade": 1.098,
+      "gpp_grade": 0.845
+     },
      "experts": [
       "Krayton",
       "EBeimfohr",
@@ -247,47 +301,7 @@
      ],
      "num_experts": 3,
      "rank": 6,
-     "notes": "Multiple weapons available in a fast-paced game."
-    },
-    {
-     "player_id": "1844276",
-     "core_id": "49745",
-     "players": "Jordan Love",
-     "pos": "QB",
-     "team": "GBP",
-     "opp": "NYJ",
-     "schedule_id": "206311",
-     "dk_rank": 7,
-     "fd_rank": null,
-     "dk_slot": "GPP",
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": "DK",
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 5900,
-      "fpts": 18.24,
-      "ppd": 3.09,
-      "ceil": 28.9,
-      "opto": 6.8,
-      "pown": 4.3,
-      "grade": 0.672,
-      "gpp_grade": 0.421
-     },
-     "fd": null,
-     "experts": [
-      "Headchopper"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "headChopper",
-       "text": "This Green Bay offense is going to play a lot more through Jordan Love as long as Josh Jacobs is out. Love had a really good game against a tough Minnesota defense, and while the Jets looked better in Week 1, they were still a bad secondary last year.\r\n"
-      }
-     ],
-     "num_experts": 1,
-     "rank": 7,
-     "notes": "Increased pass volume with a strong team total."
+     "notes": "Multiple weapons available and strong passing volume at Soldier Field."
     },
     {
      "player_id": "1849725",
@@ -297,6 +311,97 @@
      "team": "LAC",
      "opp": "LVR",
      "schedule_id": "206319",
+     "dk_rank": 7,
+     "fd_rank": 5,
+     "dk_slot": "GPP",
+     "fd_slot": "CASH",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6000,
+      "fpts": 19.12,
+      "ppd": 3.19,
+      "ceil": 29.4,
+      "opto": 6.3,
+      "pown": 5.1,
+      "grade": 0.802,
+      "gpp_grade": 0.449
+     },
+     "fd": {
+      "salary": 7400,
+      "fpts": 18.94,
+      "ppd": 2.56,
+      "ceil": 29.2,
+      "opto": 7.7,
+      "pown": 5.9,
+      "grade": 1.067,
+      "gpp_grade": 0.623
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "Favorable game script and strong implied team total at home."
+    },
+    {
+     "player_id": "6228327",
+     "core_id": "167238",
+     "players": "Drake Maye",
+     "pos": "QB",
+     "team": "NEP",
+     "opp": "PIT",
+     "schedule_id": "206313",
+     "dk_rank": null,
+     "fd_rank": 8,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6100,
+      "fpts": 18.26,
+      "ppd": 2.99,
+      "ceil": 29.0,
+      "opto": 4.8,
+      "pown": 3.1,
+      "grade": 0.301,
+      "gpp_grade": 0.364
+     },
+     "fd": {
+      "salary": 7500,
+      "fpts": 18.0,
+      "ppd": 2.4,
+      "ceil": 28.6,
+      "opto": 4.7,
+      "pown": 4.1,
+      "grade": 0.474,
+      "gpp_grade": 0.533
+     },
+     "experts": [
+      "ncorfield8k"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "NeilCO",
+       "text": "Maye had a terrible time against the Seahawks in Week 1, and now gets another theoretically tough matchup. He\u2019s just a dart throw, but Maye has had some strong fantasy games against tougher defenses, including 20 fantasy points against the Steelers last year in a game where the Patriots only scored 14 points. It\u2019s also looking like Joey Porter Jr. is likely out again this week. And the Steelers had a best possible matchup with Cooper Rush last week, so this defense could be worse than they appear.\r\n"
+      }
+     ],
+     "num_experts": 1,
+     "rank": 8,
+     "notes": "Implied team total and pass volume as a home favorite."
+    },
+    {
+     "player_id": "2861939",
+     "core_id": "50547",
+     "players": "Trevor Lawrence",
+     "pos": "QB",
+     "team": "JAC",
+     "opp": "DEN",
+     "schedule_id": "206320",
      "dk_rank": 8,
      "fd_rank": null,
      "dk_slot": "GPP",
@@ -306,21 +411,30 @@
      "core_dk": false,
      "core_fd": false,
      "dk": {
-      "salary": 6000,
-      "fpts": 19.12,
-      "ppd": 3.19,
-      "ceil": 29.4,
-      "opto": 6.3,
-      "pown": 7.1,
-      "grade": 0.802,
-      "gpp_grade": 0.419
+      "salary": 5800,
+      "fpts": 18.23,
+      "ppd": 3.14,
+      "ceil": 28.7,
+      "opto": 4.3,
+      "pown": 2.5,
+      "grade": 0.394,
+      "gpp_grade": 0.428
      },
-     "fd": null,
+     "fd": {
+      "salary": 7800,
+      "fpts": 17.93,
+      "ppd": 2.3,
+      "ceil": 28.3,
+      "opto": 4.3,
+      "pown": 2.6,
+      "grade": 0.291,
+      "gpp_grade": 0.364
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
-     "notes": "Strong implied team total in a divisional matchup."
+     "rank": 9,
+     "notes": "Pass volume and implied team total in a tight divisional matchup."
     }
    ]
   },
@@ -336,24 +450,33 @@
      "opp": "CAR",
      "schedule_id": "206314",
      "dk_rank": 1,
-     "fd_rank": null,
+     "fd_rank": 2,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": true,
-     "core_fd": false,
+     "core_fd": true,
      "dk": {
       "salary": 8200,
       "fpts": 21.99,
       "ppd": 2.68,
       "ceil": 36.1,
       "opto": 36.8,
-      "pown": 32.3,
+      "pown": 34.5,
       "grade": 2.616,
       "gpp_grade": 1.391
      },
-     "fd": null,
+     "fd": {
+      "salary": 8900,
+      "fpts": 19.8,
+      "ppd": 2.22,
+      "ceil": 31.9,
+      "opto": 37.8,
+      "pown": 35.1,
+      "grade": 2.618,
+      "gpp_grade": 1.409
+     },
      "experts": [
       "Notorious",
       "Krayton",
@@ -371,7 +494,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Heavy workload with immense rushing and receiving upside."
+     "notes": "Heavy volume of touches and receptions against a weak run defense."
     },
     {
      "player_id": "35530",
@@ -382,24 +505,33 @@
      "opp": "NOS",
      "schedule_id": "206317",
      "dk_rank": 2,
-     "fd_rank": null,
+     "fd_rank": 1,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": true,
-     "core_fd": false,
+     "core_fd": true,
      "dk": {
       "salary": 7200,
       "fpts": 19.3,
       "ppd": 2.68,
       "ceil": 30.1,
       "opto": 42.7,
-      "pown": 17.3,
+      "pown": 24.7,
       "grade": 2.597,
       "gpp_grade": 0.94
      },
-     "fd": null,
+     "fd": {
+      "salary": 8700,
+      "fpts": 18.59,
+      "ppd": 2.14,
+      "ceil": 28.7,
+      "opto": 45.2,
+      "pown": 30.3,
+      "grade": 2.681,
+      "gpp_grade": 1.039
+     },
      "experts": [
       "EBeimfohr"
      ],
@@ -411,7 +543,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Heavy outside zone usage against a struggling run defense."
+     "notes": "Outside zone rushing role with increased work in a run-heavy plan."
     },
     {
      "player_id": "36994",
@@ -422,11 +554,11 @@
      "opp": "MIA",
      "schedule_id": "206323",
      "dk_rank": 3,
-     "fd_rank": null,
+     "fd_rank": 3,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -435,16 +567,25 @@
       "ppd": 2.61,
       "ceil": 35.2,
       "opto": 22.0,
-      "pown": 26.3,
+      "pown": 21.5,
       "grade": 1.804,
       "gpp_grade": 1.054
      },
-     "fd": null,
+     "fd": {
+      "salary": 9000,
+      "fpts": 18.66,
+      "ppd": 2.07,
+      "ceil": 30.9,
+      "opto": 21.4,
+      "pown": 19.5,
+      "grade": 1.726,
+      "gpp_grade": 1.04
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite touch volume in a high-implied-total offense."
+     "notes": "Bell-cow touches and strong game script as a massive home favorite."
     },
     {
      "player_id": "36871",
@@ -455,11 +596,11 @@
      "opp": "CHI",
      "schedule_id": "206312",
      "dk_rank": 4,
-     "fd_rank": null,
+     "fd_rank": 4,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -468,11 +609,20 @@
       "ppd": 3.09,
       "ceil": 27.1,
       "opto": 19.4,
-      "pown": 12.0,
+      "pown": 11.4,
       "grade": 1.705,
       "gpp_grade": 1.133
      },
-     "fd": null,
+     "fd": {
+      "salary": 5900,
+      "fpts": 14.2,
+      "ppd": 2.41,
+      "ceil": 24.0,
+      "opto": 19.8,
+      "pown": 6.7,
+      "grade": 1.666,
+      "gpp_grade": 1.175
+     },
      "experts": [
       "EBeimfohr",
       "ncorfield8k",
@@ -494,7 +644,7 @@
      ],
      "num_experts": 3,
      "rank": 4,
-     "notes": "Clear Bell-cow workload with a great matchup against Chicago."
+     "notes": "True Bell-cow workload with high snap share and pass-catching role."
     },
     {
      "player_id": "328607",
@@ -505,11 +655,11 @@
      "opp": "TEN",
      "schedule_id": "206318",
      "dk_rank": 5,
-     "fd_rank": null,
+     "fd_rank": 5,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -518,16 +668,25 @@
       "ppd": 2.42,
       "ceil": 26.9,
       "opto": 20.8,
-      "pown": 11.2,
+      "pown": 11.9,
       "grade": 1.495,
       "gpp_grade": 0.677
      },
-     "fd": null,
+     "fd": {
+      "salary": 8300,
+      "fpts": 15.84,
+      "ppd": 1.91,
+      "ceil": 24.9,
+      "opto": 22.6,
+      "pown": 12.8,
+      "grade": 1.555,
+      "gpp_grade": 0.724
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Strong rushing role as a home favorite against Tennessee."
+     "notes": "Workhorse touches and goal-line role as a strong home favorite."
     },
     {
      "player_id": "3491661",
@@ -555,7 +714,16 @@
       "grade": 1.123,
       "gpp_grade": 0.839
      },
-     "fd": null,
+     "fd": {
+      "salary": 7200,
+      "fpts": 14.13,
+      "ppd": 1.96,
+      "ceil": 24.4,
+      "opto": 11.5,
+      "pown": 10.1,
+      "grade": 1.097,
+      "gpp_grade": 0.813
+     },
      "experts": [
       "Notorious"
      ],
@@ -567,40 +735,7 @@
      ],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Heavy Bell-cow touches and goal-line work."
-    },
-    {
-     "player_id": "982082",
-     "core_id": "63253",
-     "players": "David Montgomery",
-     "pos": "RB",
-     "team": "HOU",
-     "opp": "CIN",
-     "schedule_id": "206316",
-     "dk_rank": 7,
-     "fd_rank": null,
-     "dk_slot": "GPP",
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": "DK",
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 6500,
-      "fpts": 15.02,
-      "ppd": 2.31,
-      "ceil": 26.9,
-      "opto": 8.4,
-      "pown": 6.5,
-      "grade": 0.877,
-      "gpp_grade": 0.731
-     },
-     "fd": null,
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 7,
-     "notes": "Solid rushing share in a close divisional game."
+     "notes": "Bell-cow touches and heavy red-zone work behind a strong line."
     },
     {
      "player_id": "4687629",
@@ -610,12 +745,12 @@
      "team": "CIN",
      "opp": "HOU",
      "schedule_id": "206316",
-     "dk_rank": 8,
-     "fd_rank": null,
+     "dk_rank": 7,
+     "fd_rank": 7,
      "dk_slot": "GPP",
-     "fd_slot": null,
+     "fd_slot": "GPP",
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -624,16 +759,109 @@
       "ppd": 2.26,
       "ceil": 27.5,
       "opto": 5.3,
-      "pown": 7.1,
+      "pown": 6.3,
       "grade": 0.768,
-      "gpp_grade": 0.731
+      "gpp_grade": 0.743
      },
-     "fd": null,
+     "fd": {
+      "salary": 7600,
+      "fpts": 13.54,
+      "ppd": 1.78,
+      "ceil": 23.4,
+      "opto": 5.1,
+      "pown": 7.6,
+      "grade": 0.713,
+      "gpp_grade": 0.679
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "Solid carry share and rushing touches in a close road matchup."
+    },
+    {
+     "player_id": "4687954",
+     "core_id": "146167",
+     "players": "De'Von Achane",
+     "pos": "RB",
+     "team": "MIA",
+     "opp": "SFO",
+     "schedule_id": "206323",
+     "dk_rank": null,
+     "fd_rank": 8,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6700,
+      "fpts": 15.79,
+      "ppd": 2.36,
+      "ceil": 28.8,
+      "opto": 6.5,
+      "pown": 11.3,
+      "grade": 0.854,
+      "gpp_grade": 0.768
+     },
+     "fd": {
+      "salary": 8200,
+      "fpts": 13.51,
+      "ppd": 1.65,
+      "ceil": 24.0,
+      "opto": 4.0,
+      "pown": 9.1,
+      "grade": 0.624,
+      "gpp_grade": 0.653
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Strong snap share and rushing role as a slight underdog."
+     "notes": "Explosive rushing touches and pass-catching role in a trailing script."
+    },
+    {
+     "player_id": "982082",
+     "core_id": "63253",
+     "players": "David Montgomery",
+     "pos": "RB",
+     "team": "HOU",
+     "opp": "CIN",
+     "schedule_id": "206316",
+     "dk_rank": 8,
+     "fd_rank": 6,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6500,
+      "fpts": 15.02,
+      "ppd": 2.31,
+      "ceil": 26.9,
+      "opto": 8.4,
+      "pown": 6.9,
+      "grade": 0.877,
+      "gpp_grade": 0.724
+     },
+     "fd": {
+      "salary": 7000,
+      "fpts": 13.63,
+      "ppd": 1.95,
+      "ceil": 23.9,
+      "opto": 11.6,
+      "pown": 6.9,
+      "grade": 1.025,
+      "gpp_grade": 0.759
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 9,
+     "notes": "Red-zone carries and solid snap share as a slight home favorite."
     }
    ]
   },
@@ -649,11 +877,11 @@
      "opp": "ARI",
      "schedule_id": "206322",
      "dk_rank": 1,
-     "fd_rank": null,
+     "fd_rank": 1,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -662,16 +890,25 @@
       "ppd": 2.4,
       "ceil": 38.4,
       "opto": 17.6,
-      "pown": 16.4,
+      "pown": 14.7,
       "grade": 2.426,
       "gpp_grade": 1.184
      },
-     "fd": null,
+     "fd": {
+      "salary": 9000,
+      "fpts": 16.09,
+      "ppd": 1.79,
+      "ceil": 31.6,
+      "opto": 16.0,
+      "pown": 12.6,
+      "grade": 2.448,
+      "gpp_grade": 1.253
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Strong target volume and route participation."
+     "notes": "Strong route participation and target share in a dome matchup."
     },
     {
      "player_id": "1844578",
@@ -682,11 +919,11 @@
      "opp": "WAS",
      "schedule_id": "206321",
      "dk_rank": 2,
-     "fd_rank": null,
+     "fd_rank": 2,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -695,11 +932,20 @@
       "ppd": 2.4,
       "ceil": 34.7,
       "opto": 14.3,
-      "pown": 17.5,
+      "pown": 20.1,
       "grade": 2.07,
       "gpp_grade": 1.121
      },
-     "fd": null,
+     "fd": {
+      "salary": 8500,
+      "fpts": 14.53,
+      "ppd": 1.71,
+      "ceil": 28.6,
+      "opto": 11.7,
+      "pown": 15.5,
+      "grade": 1.953,
+      "gpp_grade": 1.168
+     },
      "experts": [
       "Headchopper",
       "Krayton"
@@ -712,7 +958,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Great bounce-back spot exploiting a secondary weakness."
+     "notes": "Slot matchup advantage and high target share at home."
     },
     {
      "player_id": "2861551",
@@ -723,11 +969,11 @@
      "opp": "HOU",
      "schedule_id": "206316",
      "dk_rank": 3,
-     "fd_rank": null,
+     "fd_rank": 3,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -736,11 +982,20 @@
       "ppd": 2.34,
       "ceil": 33.9,
       "opto": 12.8,
-      "pown": 22.8,
+      "pown": 17.3,
       "grade": 1.941,
       "gpp_grade": 1.051
      },
-     "fd": null,
+     "fd": {
+      "salary": 8800,
+      "fpts": 14.45,
+      "ppd": 1.64,
+      "ceil": 27.4,
+      "opto": 10.1,
+      "pown": 12.9,
+      "grade": 1.768,
+      "gpp_grade": 1.062
+     },
      "experts": [
       "Davis Mattek"
      ],
@@ -752,7 +1007,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Schemed touches and high target upside."
+     "notes": "Schemed targets and high route participation in a close matchup."
     },
     {
      "player_id": "3491660",
@@ -776,16 +1031,25 @@
       "ppd": 2.42,
       "ceil": 28.4,
       "opto": 12.3,
-      "pown": 12.1,
+      "pown": 13.7,
       "grade": 1.684,
       "gpp_grade": 0.8
      },
-     "fd": null,
+     "fd": {
+      "salary": 7200,
+      "fpts": 11.7,
+      "ppd": 1.63,
+      "ceil": 22.8,
+      "opto": 9.9,
+      "pown": 11.9,
+      "grade": 1.507,
+      "gpp_grade": 0.792
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Strong target share and route volume."
+     "notes": "Perimeter target share and deep route role in a competitive matchup."
     },
     {
      "player_id": "1844306",
@@ -796,11 +1060,11 @@
      "opp": "CHI",
      "schedule_id": "206312",
      "dk_rank": 5,
-     "fd_rank": null,
+     "fd_rank": 4,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -809,11 +1073,20 @@
       "ppd": 2.15,
       "ceil": 33.2,
       "opto": 10.6,
-      "pown": 13.8,
+      "pown": 15.7,
       "grade": 1.635,
       "gpp_grade": 1.0
      },
-     "fd": null,
+     "fd": {
+      "salary": 8600,
+      "fpts": 13.88,
+      "ppd": 1.61,
+      "ceil": 27.4,
+      "opto": 10.4,
+      "pown": 12.6,
+      "grade": 1.744,
+      "gpp_grade": 1.067
+     },
      "experts": [
       "Notorious"
      ],
@@ -825,7 +1098,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Massive target and air yards share against a weak secondary."
+     "notes": "Massive target share and air yards in a trailing game script."
     },
     {
      "player_id": "8222949",
@@ -836,11 +1109,11 @@
      "opp": "MIN",
      "schedule_id": "206312",
      "dk_rank": 6,
-     "fd_rank": null,
+     "fd_rank": 5,
      "dk_slot": "GPP",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -849,11 +1122,20 @@
       "ppd": 2.28,
       "ceil": 28.8,
       "opto": 9.8,
-      "pown": 5.9,
+      "pown": 5.1,
       "grade": 1.463,
-      "gpp_grade": 1.129
+      "gpp_grade": 1.14
      },
-     "fd": null,
+     "fd": {
+      "salary": 6000,
+      "fpts": 10.67,
+      "ppd": 1.78,
+      "ceil": 23.4,
+      "opto": 11.3,
+      "pown": 6.9,
+      "grade": 1.742,
+      "gpp_grade": 1.188
+     },
      "experts": [
       "Krayton",
       "EBeimfohr",
@@ -871,7 +1153,98 @@
      ],
      "num_experts": 3,
      "rank": 6,
-     "notes": "Elite yards after catch ability in a high-scoring offense."
+     "notes": "Elite yards after catch ability and consistent slot targets."
+    },
+    {
+     "player_id": "6227778",
+     "core_id": "134299",
+     "players": "Jalen Coker",
+     "pos": "WR",
+     "team": "CAR",
+     "opp": "ATL",
+     "schedule_id": "206314",
+     "dk_rank": null,
+     "fd_rank": 7,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 5100,
+      "fpts": 12.33,
+      "ppd": 2.42,
+      "ceil": 27.3,
+      "opto": 9.3,
+      "pown": 8.6,
+      "grade": 1.298,
+      "gpp_grade": 0.806
+     },
+     "fd": {
+      "salary": 5900,
+      "fpts": 10.07,
+      "ppd": 1.71,
+      "ceil": 22.1,
+      "opto": 8.5,
+      "pown": 7.9,
+      "grade": 1.298,
+      "gpp_grade": 0.839
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "Deep route participation and targets in a trailing game script."
+    },
+    {
+     "player_id": "2861778",
+     "core_id": "63612",
+     "players": "Jaylen Waddle",
+     "pos": "WR",
+     "team": "DEN",
+     "opp": "JAC",
+     "schedule_id": "206320",
+     "dk_rank": null,
+     "fd_rank": 8,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "dk": {
+      "salary": 6500,
+      "fpts": 13.74,
+      "ppd": 2.11,
+      "ceil": 27.5,
+      "opto": 9.0,
+      "pown": 7.2,
+      "grade": 1.272,
+      "gpp_grade": 0.754
+     },
+     "fd": {
+      "salary": 6700,
+      "fpts": 11.33,
+      "ppd": 1.69,
+      "ceil": 22.6,
+      "opto": 11.6,
+      "pown": 9.8,
+      "grade": 1.673,
+      "gpp_grade": 0.834
+     },
+     "experts": [
+      "Headchopper"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "headChopper",
+       "text": "I'm looking for a rebound from Waddle, and the salary on FanDuel appeals to me more than DraftKings relative to the salary cap.\r\n"
+      }
+     ],
+     "num_experts": 1,
+     "rank": 8,
+     "notes": "Perimeter targets and favorable pricing on FanDuel."
     },
     {
      "player_id": "4687830",
@@ -895,11 +1268,20 @@
       "ppd": 2.17,
       "ceil": 25.6,
       "opto": 7.9,
-      "pown": 9.0,
+      "pown": 8.3,
       "grade": 1.289,
-      "gpp_grade": 0.965
+      "gpp_grade": 0.976
      },
-     "fd": null,
+     "fd": {
+      "salary": 6600,
+      "fpts": 10.56,
+      "ppd": 1.6,
+      "ceil": 21.0,
+      "opto": 8.1,
+      "pown": 10.4,
+      "grade": 1.406,
+      "gpp_grade": 1.002
+     },
      "experts": [
       "Notorious",
       "EBeimfohr",
@@ -916,8 +1298,8 @@
       }
      ],
      "num_experts": 3,
-     "rank": 7,
-     "notes": "Dominant slot route share and high target efficiency."
+     "rank": 9,
+     "notes": "High slot target share and elite route efficiency against the defense."
     },
     {
      "player_id": "2862069",
@@ -928,11 +1310,11 @@
      "opp": "TEN",
      "schedule_id": "206318",
      "dk_rank": 8,
-     "fd_rank": null,
+     "fd_rank": 6,
      "dk_slot": "GPP",
-     "fd_slot": null,
+     "fd_slot": "GPP",
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -941,11 +1323,20 @@
       "ppd": 2.1,
       "ceil": 30.2,
       "opto": 8.4,
-      "pown": 7.7,
+      "pown": 7.0,
       "grade": 1.298,
-      "gpp_grade": 0.95
+      "gpp_grade": 0.961
      },
-     "fd": null,
+     "fd": {
+      "salary": 7400,
+      "fpts": 11.83,
+      "ppd": 1.6,
+      "ceil": 24.8,
+      "opto": 9.4,
+      "pown": 8.5,
+      "grade": 1.515,
+      "gpp_grade": 1.008
+     },
      "experts": [
       "Headchopper",
       "Jordan Vanek"
@@ -957,8 +1348,8 @@
       }
      ],
      "num_experts": 2,
-     "rank": 8,
-     "notes": "Strong route participation and downfield target upside."
+     "rank": 10,
+     "notes": "Solid route participation and red-zone target share."
     }
    ]
   },
@@ -974,11 +1365,11 @@
      "opp": "CIN",
      "schedule_id": "206316",
      "dk_rank": 1,
-     "fd_rank": null,
+     "fd_rank": 4,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": true,
      "core_fd": false,
      "dk": {
@@ -987,16 +1378,25 @@
       "ppd": 3.69,
       "ceil": 23.3,
       "opto": 12.9,
-      "pown": 11.5,
+      "pown": 14.2,
       "grade": 2.688,
       "gpp_grade": 1.009
      },
-     "fd": null,
+     "fd": {
+      "salary": 5200,
+      "fpts": 9.33,
+      "ppd": 1.79,
+      "ceil": 18.3,
+      "opto": 8.4,
+      "pown": 10.7,
+      "grade": 2.031,
+      "gpp_grade": 0.923
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Strong route rate and red-zone usage."
+     "notes": "Seam usage and high route rate in a competitive game total."
     },
     {
      "player_id": "328096",
@@ -1007,11 +1407,11 @@
      "opp": "NOS",
      "schedule_id": "206317",
      "dk_rank": 2,
-     "fd_rank": null,
+     "fd_rank": 1,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1020,11 +1420,20 @@
       "ppd": 2.8,
       "ceil": 25.5,
       "opto": 9.2,
-      "pown": 11.9,
+      "pown": 16.1,
       "grade": 2.06,
       "gpp_grade": 1.018
      },
-     "fd": null,
+     "fd": {
+      "salary": 5200,
+      "fpts": 10.18,
+      "ppd": 1.96,
+      "ceil": 20.9,
+      "opto": 10.1,
+      "pown": 13.9,
+      "grade": 2.48,
+      "gpp_grade": 1.258
+     },
      "experts": [
       "Notorious"
      ],
@@ -1036,7 +1445,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Full route participation as the primary receiving option."
+     "notes": "Every-down route rate and high target share with weapons out."
     },
     {
      "player_id": "3492164",
@@ -1047,11 +1456,11 @@
      "opp": "SEA",
      "schedule_id": "206322",
      "dk_rank": 3,
-     "fd_rank": null,
+     "fd_rank": 3,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1060,16 +1469,25 @@
       "ppd": 2.14,
       "ceil": 30.6,
       "opto": 7.2,
-      "pown": 12.1,
+      "pown": 9.1,
       "grade": 1.802,
-      "gpp_grade": 1.102
+      "gpp_grade": 1.115
      },
-     "fd": null,
+     "fd": {
+      "salary": 7500,
+      "fpts": 11.6,
+      "ppd": 1.55,
+      "ceil": 23.7,
+      "opto": 7.9,
+      "pown": 6.9,
+      "grade": 2.08,
+      "gpp_grade": 1.223
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite route participation and seam target volume."
+     "notes": "Elite target share and route participation in a divisional game."
     },
     {
      "player_id": "8216973",
@@ -1080,11 +1498,11 @@
      "opp": "MIN",
      "schedule_id": "206312",
      "dk_rank": 4,
-     "fd_rank": null,
+     "fd_rank": 2,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1093,11 +1511,20 @@
       "ppd": 2.4,
       "ceil": 24.8,
       "opto": 7.8,
-      "pown": 6.3,
+      "pown": 8.6,
       "grade": 1.766,
-      "gpp_grade": 1.02
+      "gpp_grade": 0.985
      },
-     "fd": null,
+     "fd": {
+      "salary": 5800,
+      "fpts": 9.79,
+      "ppd": 1.69,
+      "ceil": 20.1,
+      "opto": 8.8,
+      "pown": 10.7,
+      "grade": 2.175,
+      "gpp_grade": 1.259
+     },
      "experts": [
       "EBeimfohr",
       "ncorfield8k"
@@ -1105,7 +1532,7 @@
      "expert_blurbs": [],
      "num_experts": 2,
      "rank": 4,
-     "notes": "Strong seam and slot usage in an explosive offense."
+     "notes": "Seam usage and red-zone route rate in an uptempo offense."
     },
     {
      "player_id": "4687882",
@@ -1116,11 +1543,11 @@
      "opp": "LAC",
      "schedule_id": "206319",
      "dk_rank": 5,
-     "fd_rank": null,
+     "fd_rank": 7,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "GPP",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1129,11 +1556,20 @@
       "ppd": 2.85,
       "ceil": 20.7,
       "opto": 6.1,
-      "pown": 8.9,
+      "pown": 10.9,
       "grade": 1.663,
-      "gpp_grade": 1.072
+      "gpp_grade": 1.056
      },
-     "fd": null,
+     "fd": {
+      "salary": 5300,
+      "fpts": 7.98,
+      "ppd": 1.51,
+      "ceil": 16.0,
+      "opto": 4.7,
+      "pown": 8.4,
+      "grade": 1.448,
+      "gpp_grade": 1.033
+     },
      "experts": [
       "Notorious",
       "Headchopper",
@@ -1160,7 +1596,7 @@
      ],
      "num_experts": 4,
      "rank": 5,
-     "notes": "Strong route participation and target volume against the Chargers."
+     "notes": "Leading route participation and targets as a primary receiving option."
     },
     {
      "player_id": "328643",
@@ -1171,11 +1607,11 @@
      "opp": "TEN",
      "schedule_id": "206318",
      "dk_rank": 6,
-     "fd_rank": null,
+     "fd_rank": 5,
      "dk_slot": "GPP",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1184,18 +1620,27 @@
       "ppd": 2.39,
       "ceil": 25.1,
       "opto": 6.4,
-      "pown": 4.0,
+      "pown": 6.2,
       "grade": 1.52,
-      "gpp_grade": 1.008
+      "gpp_grade": 0.975
      },
-     "fd": null,
+     "fd": {
+      "salary": 5700,
+      "fpts": 9.41,
+      "ppd": 1.65,
+      "ceil": 20.4,
+      "opto": 7.2,
+      "pown": 6.3,
+      "grade": 1.853,
+      "gpp_grade": 1.141
+     },
      "experts": [
       "Krayton"
      ],
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Every-down route rate with strong red-zone involvement."
+     "notes": "Solid route rate and red-zone usage as a strong favorite."
     },
     {
      "player_id": "37069",
@@ -1206,11 +1651,11 @@
      "opp": "MIA",
      "schedule_id": "206323",
      "dk_rank": 7,
-     "fd_rank": null,
+     "fd_rank": 6,
      "dk_slot": "GPP",
-     "fd_slot": null,
+     "fd_slot": "GPP",
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1219,16 +1664,25 @@
       "ppd": 2.36,
       "ceil": 24.4,
       "opto": 5.1,
-      "pown": 6.5,
+      "pown": 5.6,
       "grade": 1.303,
-      "gpp_grade": 0.914
+      "gpp_grade": 0.928
      },
-     "fd": null,
+     "fd": {
+      "salary": 5900,
+      "fpts": 9.02,
+      "ppd": 1.53,
+      "ceil": 20.1,
+      "opto": 5.3,
+      "pown": 5.7,
+      "grade": 1.49,
+      "gpp_grade": 1.037
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "High route participation and seam upside."
+     "notes": "Blocking and receiving snap share as a massive home favorite."
     },
     {
      "player_id": "4687755",
@@ -1239,11 +1693,11 @@
      "opp": "NYJ",
      "schedule_id": "206311",
      "dk_rank": 8,
-     "fd_rank": null,
+     "fd_rank": 8,
      "dk_slot": "GPP",
-     "fd_slot": null,
+     "fd_slot": "GPP",
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1252,16 +1706,25 @@
       "ppd": 2.25,
       "ceil": 23.9,
       "opto": 6.1,
-      "pown": 4.9,
+      "pown": 5.2,
       "grade": 1.396,
-      "gpp_grade": 0.891
+      "gpp_grade": 0.887
      },
-     "fd": null,
+     "fd": {
+      "salary": 6000,
+      "fpts": 9.02,
+      "ppd": 1.5,
+      "ceil": 19.4,
+      "opto": 6.1,
+      "pown": 4.9,
+      "grade": 1.574,
+      "gpp_grade": 0.996
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Solid route rate and red-zone role."
+     "notes": "Seam route participation and red-zone targets in a favorable matchup."
     }
    ]
   },
@@ -1277,11 +1740,11 @@
      "opp": "NOS",
      "schedule_id": "206317",
      "dk_rank": 1,
-     "fd_rank": null,
+     "fd_rank": 1,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1290,11 +1753,20 @@
       "ppd": 2.45,
       "ceil": 37.8,
       "opto": 7.2,
-      "pown": 6.4,
+      "pown": 8.1,
       "grade": 1.493,
-      "gpp_grade": 0.476
+      "gpp_grade": 0.451
      },
-     "fd": null,
+     "fd": {
+      "salary": 4600,
+      "fpts": 8.09,
+      "ppd": 1.76,
+      "ceil": 37.8,
+      "opto": 6.7,
+      "pown": 8.3,
+      "grade": 1.352,
+      "gpp_grade": 0.427
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
@@ -1310,11 +1782,11 @@
      "opp": "ARI",
      "schedule_id": "206322",
      "dk_rank": 2,
-     "fd_rank": null,
+     "fd_rank": 2,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1323,11 +1795,20 @@
       "ppd": 2.27,
       "ceil": 27.1,
       "opto": 8.4,
-      "pown": 4.8,
+      "pown": 4.7,
       "grade": 1.456,
-      "gpp_grade": -0.331
+      "gpp_grade": -0.33
      },
-     "fd": null,
+     "fd": {
+      "salary": 4700,
+      "fpts": 7.96,
+      "ppd": 1.69,
+      "ceil": 27.1,
+      "opto": 8.3,
+      "pown": 3.6,
+      "grade": 1.466,
+      "gpp_grade": -0.322
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
@@ -1343,11 +1824,11 @@
      "opp": "PIT",
      "schedule_id": "206313",
      "dk_rank": 3,
-     "fd_rank": null,
+     "fd_rank": 3,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1356,11 +1837,20 @@
       "ppd": 2.37,
       "ceil": 33.8,
       "opto": 7.5,
-      "pown": 5.0,
+      "pown": 4.5,
       "grade": 1.259,
-      "gpp_grade": 0.171
+      "gpp_grade": 0.178
      },
-     "fd": null,
+     "fd": {
+      "salary": 4100,
+      "fpts": 7.36,
+      "ppd": 1.8,
+      "ceil": 33.8,
+      "opto": 8.2,
+      "pown": 4.5,
+      "grade": 1.428,
+      "gpp_grade": 0.193
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
@@ -1376,11 +1866,11 @@
      "opp": "MIA",
      "schedule_id": "206323",
      "dk_rank": 4,
-     "fd_rank": null,
+     "fd_rank": 4,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1389,11 +1879,20 @@
       "ppd": 1.93,
       "ceil": 33.7,
       "opto": 6.6,
-      "pown": 6.5,
+      "pown": 6.4,
       "grade": 0.66,
-      "gpp_grade": 0.024
+      "gpp_grade": 0.026
      },
-     "fd": null,
+     "fd": {
+      "salary": 5000,
+      "fpts": 7.35,
+      "ppd": 1.47,
+      "ceil": 33.7,
+      "opto": 6.8,
+      "pown": 8.4,
+      "grade": 0.769,
+      "gpp_grade": 0.003
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
@@ -1409,11 +1908,11 @@
      "opp": "TEN",
      "schedule_id": "206318",
      "dk_rank": 5,
-     "fd_rank": null,
+     "fd_rank": 5,
      "dk_slot": "CASH",
-     "fd_slot": null,
+     "fd_slot": "CASH",
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "dk": {
@@ -1422,11 +1921,20 @@
       "ppd": 1.89,
       "ceil": 34.5,
       "opto": 5.3,
-      "pown": 6.8,
+      "pown": 7.9,
       "grade": 0.328,
-      "gpp_grade": 0.063
+      "gpp_grade": 0.047
      },
-     "fd": null,
+     "fd": {
+      "salary": 4900,
+      "fpts": 7.01,
+      "ppd": 1.43,
+      "ceil": 34.5,
+      "opto": 4.9,
+      "pown": 8.9,
+      "grade": 0.318,
+      "gpp_grade": 0.038
+     },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
@@ -1472,12 +1980,12 @@
      {
       "depth": 2,
       "name": "Matthew Golden",
-      "note": "10.7 proj \u00b7 $4,700 \u00b7 6% opto \u00b7 6% own \u00b7 experts: Krayton, EBeimfohr"
+      "note": "10.7 proj \u00b7 $4,700 \u00b7 6% opto \u00b7 8% own \u00b7 experts: Krayton, EBeimfohr"
      },
      {
       "depth": 3,
       "name": "Jayden Reed",
-      "note": "10.5 proj \u00b7 $4,500 \u00b7 5% opto \u00b7 4% own"
+      "note": "10.5 proj \u00b7 $4,500 \u00b7 5% opto \u00b7 5% own"
      },
      {
       "depth": 4,
@@ -1542,7 +2050,7 @@
      {
       "depth": 1,
       "name": "Garrett Wilson",
-      "note": "14.5 proj \u00b7 $6,000 \u00b7 12% opto \u00b7 12% own"
+      "note": "14.5 proj \u00b7 $6,000 \u00b7 12% opto \u00b7 14% own"
      },
      {
       "depth": 2,
@@ -1599,14 +2107,14 @@
      {
       "depth": 1,
       "name": "Caleb Williams",
-      "note": "20.0 proj \u00b7 $6,800 \u00b7 7% opto \u00b7 3% own \u00b7 experts: Krayton, EBeimfohr, Davis Mattek"
+      "note": "20.0 proj \u00b7 $6,800 \u00b7 7% opto \u00b7 4% own \u00b7 experts: Krayton, EBeimfohr, Davis Mattek"
      }
     ],
     "RB": [
      {
       "depth": 1,
       "name": "D'Andre Swift",
-      "note": "13.7 proj \u00b7 $6,300 \u00b7 8% opto \u00b7 7% own"
+      "note": "13.7 proj \u00b7 $6,300 \u00b7 8% opto \u00b7 6% own"
      },
      {
       "depth": 2,
@@ -1621,7 +2129,7 @@
      {
       "depth": 1,
       "name": "Luther Burden",
-      "note": "13.0 proj \u00b7 $5,700 \u00b7 10% opto \u00b7 6% own \u00b7 experts: Krayton, EBeimfohr, Davis Mattek"
+      "note": "13.0 proj \u00b7 $5,700 \u00b7 10% opto \u00b7 5% own \u00b7 experts: Krayton, EBeimfohr, Davis Mattek"
      },
      {
       "depth": 2,
@@ -1644,7 +2152,7 @@
      {
       "depth": 1,
       "name": "Colston Loveland",
-      "note": "12.0 proj \u00b7 $5,000 \u00b7 8% opto \u00b7 6% own \u00b7 experts: EBeimfohr, ncorfield8k"
+      "note": "12.0 proj \u00b7 $5,000 \u00b7 8% opto \u00b7 9% own \u00b7 experts: EBeimfohr, ncorfield8k"
      },
      {
       "depth": 2,
@@ -1679,7 +2187,7 @@
      {
       "depth": 1,
       "name": "Aaron Jones",
-      "note": "15.8 proj \u00b7 $5,100 \u00b7 19% opto \u00b7 12% own \u00b7 experts: EBeimfohr, ncorfield8k, Jordan Vanek"
+      "note": "15.8 proj \u00b7 $5,100 \u00b7 19% opto \u00b7 11% own \u00b7 experts: EBeimfohr, ncorfield8k, Jordan Vanek"
      },
      {
       "depth": 2,
@@ -1694,12 +2202,12 @@
      {
       "depth": 1,
       "name": "Justin Jefferson",
-      "note": "16.7 proj \u00b7 $7,800 \u00b7 11% opto \u00b7 14% own \u00b7 experts: Notorious"
+      "note": "16.7 proj \u00b7 $7,800 \u00b7 11% opto \u00b7 16% own \u00b7 experts: Notorious"
      },
      {
       "depth": 2,
       "name": "Jordan Addison",
-      "note": "8.8 proj \u00b7 $5,100 \u00b7 2% opto \u00b7 4% own"
+      "note": "8.8 proj \u00b7 $5,100 \u00b7 2% opto \u00b7 3% own"
      },
      {
       "depth": 3,
@@ -1780,7 +2288,7 @@
      {
       "depth": 3,
       "name": "Mack Hollins",
-      "note": "9.5 proj \u00b7 $4,300 \u00b7 4% opto \u00b7 2% own"
+      "note": "9.5 proj \u00b7 $4,300 \u00b7 4% opto \u00b7 3% own"
      },
      {
       "depth": 4,
@@ -1795,7 +2303,7 @@
      {
       "depth": 1,
       "name": "Hunter Henry",
-      "note": "9.8 proj \u00b7 $4,000 \u00b7 5% opto \u00b7 5% own"
+      "note": "9.8 proj \u00b7 $4,000 \u00b7 5% opto \u00b7 4% own"
      },
      {
       "depth": 2,
@@ -1831,12 +2339,12 @@
      {
       "depth": 1,
       "name": "Jaylen Warren",
-      "note": "12.4 proj \u00b7 $5,400 \u00b7 3% opto \u00b7 4% own"
+      "note": "12.4 proj \u00b7 $5,400 \u00b7 3% opto \u00b7 3% own"
      },
      {
       "depth": 2,
       "name": "Rico Dowdle",
-      "note": "10.5 proj \u00b7 $4,900 \u00b7 1% opto \u00b7 2% own"
+      "note": "10.5 proj \u00b7 $4,900 \u00b7 1% opto \u00b7 1% own"
      },
      {
       "depth": 3,
@@ -1847,7 +2355,7 @@
      {
       "depth": 1,
       "name": "D.K. Metcalf",
-      "note": "13.3 proj \u00b7 $5,200 \u00b7 10% opto \u00b7 9% own"
+      "note": "13.3 proj \u00b7 $5,200 \u00b7 10% opto \u00b7 11% own"
      },
      {
       "depth": 2,
@@ -1870,7 +2378,7 @@
      {
       "depth": 1,
       "name": "Pat Freiermuth",
-      "note": "8.2 proj \u00b7 $3,700 \u00b7 3% opto \u00b7 4% own"
+      "note": "8.2 proj \u00b7 $3,700 \u00b7 3% opto \u00b7 3% own"
      },
      {
       "depth": 2,
@@ -1905,7 +2413,7 @@
      {
       "depth": 1,
       "name": "Bijan Robinson",
-      "note": "22.0 proj \u00b7 $8,200 \u00b7 37% opto \u00b7 32% own \u00b7 experts: Notorious, Krayton, Jordan Vanek"
+      "note": "22.0 proj \u00b7 $8,200 \u00b7 37% opto \u00b7 35% own \u00b7 experts: Notorious, Krayton, Jordan Vanek"
      },
      {
       "depth": 2,
@@ -2000,7 +2508,7 @@
      {
       "depth": 2,
       "name": "Jalen Coker",
-      "note": "12.3 proj \u00b7 $5,100 \u00b7 9% opto \u00b7 7% own"
+      "note": "12.3 proj \u00b7 $5,100 \u00b7 9% opto \u00b7 9% own"
      },
      {
       "depth": 3,
@@ -2053,7 +2561,7 @@
      {
       "depth": 1,
       "name": "Quinshon Judkins",
-      "note": "10.5 proj \u00b7 $5,400 \u00b7 1% opto \u00b7 4% own"
+      "note": "10.5 proj \u00b7 $5,400 \u00b7 1% opto \u00b7 2% own"
      },
      {
       "depth": 2,
@@ -2068,7 +2576,7 @@
      {
       "depth": 1,
       "name": "KC Concepcion",
-      "note": "9.2 proj \u00b7 $4,100 \u00b7 3% opto \u00b7 4% own"
+      "note": "9.2 proj \u00b7 $4,100 \u00b7 3% opto \u00b7 2% own"
      },
      {
       "depth": 2,
@@ -2091,7 +2599,7 @@
      {
       "depth": 1,
       "name": "Harold Fannin",
-      "note": "9.5 proj \u00b7 $4,100 \u00b7 4% opto \u00b7 4% own"
+      "note": "9.5 proj \u00b7 $4,100 \u00b7 4% opto \u00b7 3% own"
      },
      {
       "depth": 2,
@@ -2106,7 +2614,7 @@
      {
       "depth": 1,
       "name": "Cleveland Browns",
-      "note": "5.5 proj \u00b7 $2,200 \u00b7 4% opto \u00b7 5% own"
+      "note": "5.5 proj \u00b7 $2,200 \u00b7 4% opto \u00b7 3% own"
      }
     ]
    }
@@ -2205,7 +2713,7 @@
      {
       "depth": 1,
       "name": "Chase Brown",
-      "note": "15.6 proj \u00b7 $6,900 \u00b7 5% opto \u00b7 7% own"
+      "note": "15.6 proj \u00b7 $6,900 \u00b7 5% opto \u00b7 6% own"
      },
      {
       "depth": 2,
@@ -2220,7 +2728,7 @@
      {
       "depth": 1,
       "name": "Ja'Marr Chase",
-      "note": "17.8 proj \u00b7 $7,600 \u00b7 13% opto \u00b7 23% own \u00b7 experts: Davis Mattek"
+      "note": "17.8 proj \u00b7 $7,600 \u00b7 13% opto \u00b7 17% own \u00b7 experts: Davis Mattek"
      },
      {
       "depth": 2,
@@ -2244,7 +2752,7 @@
      {
       "depth": 1,
       "name": "Mike Gesicki",
-      "note": "7.0 proj \u00b7 $3,600 \u00b7 1% opto \u00b7 2% own"
+      "note": "7.0 proj \u00b7 $3,600 \u00b7 1% opto \u00b7 1% own"
      },
      {
       "depth": 2,
@@ -2283,7 +2791,7 @@
      {
       "depth": 1,
       "name": "David Montgomery",
-      "note": "15.0 proj \u00b7 $6,500 \u00b7 8% opto \u00b7 6% own"
+      "note": "15.0 proj \u00b7 $6,500 \u00b7 8% opto \u00b7 7% own"
      },
      {
       "depth": 2,
@@ -2298,12 +2806,12 @@
      {
       "depth": 1,
       "name": "Kayshon Boutte",
-      "note": "8.8 proj \u00b7 $4,000 \u00b7 4% opto \u00b7 5% own"
+      "note": "8.8 proj \u00b7 $4,000 \u00b7 4% opto \u00b7 4% own"
      },
      {
       "depth": 2,
       "name": "Xavier Hutchinson",
-      "note": "7.9 proj \u00b7 $3,500 \u00b7 2% opto \u00b7 2% own"
+      "note": "7.9 proj \u00b7 $3,500 \u00b7 2% opto \u00b7 1% own"
      },
      {
       "depth": 3,
@@ -2322,7 +2830,7 @@
      {
       "depth": 1,
       "name": "Dalton Schultz",
-      "note": "11.8 proj \u00b7 $3,200 \u00b7 13% opto \u00b7 11% own"
+      "note": "11.8 proj \u00b7 $3,200 \u00b7 13% opto \u00b7 14% own"
      },
      {
       "depth": 2,
@@ -2351,14 +2859,14 @@
      {
       "depth": 1,
       "name": "Lamar Jackson",
-      "note": "21.7 proj \u00b7 $7,300 \u00b7 7% opto \u00b7 6% own"
+      "note": "21.7 proj \u00b7 $7,300 \u00b7 7% opto \u00b7 8% own"
      }
     ],
     "RB": [
      {
       "depth": 1,
       "name": "Derrick Henry",
-      "note": "19.3 proj \u00b7 $7,200 \u00b7 43% opto \u00b7 17% own \u00b7 experts: EBeimfohr"
+      "note": "19.3 proj \u00b7 $7,200 \u00b7 43% opto \u00b7 25% own \u00b7 experts: EBeimfohr"
      },
      {
       "depth": 2,
@@ -2395,7 +2903,7 @@
      {
       "depth": 1,
       "name": "Mark Andrews",
-      "note": "12.3 proj \u00b7 $4,400 \u00b7 9% opto \u00b7 12% own \u00b7 experts: Notorious"
+      "note": "12.3 proj \u00b7 $4,400 \u00b7 9% opto \u00b7 16% own \u00b7 experts: Notorious"
      },
      {
       "depth": 2,
@@ -2410,7 +2918,7 @@
      {
       "depth": 1,
       "name": "Baltimore Ravens",
-      "note": "8.1 proj \u00b7 $3,300 \u00b7 7% opto \u00b7 6% own"
+      "note": "8.1 proj \u00b7 $3,300 \u00b7 7% opto \u00b7 8% own"
      }
     ]
    }
@@ -2446,7 +2954,7 @@
      {
       "depth": 1,
       "name": "Chris Olave",
-      "note": "15.3 proj \u00b7 $7,200 \u00b7 10% opto \u00b7 11% own"
+      "note": "15.3 proj \u00b7 $7,200 \u00b7 10% opto \u00b7 9% own"
      },
      {
       "depth": 2,
@@ -2499,14 +3007,14 @@
      {
       "depth": 1,
       "name": "Jalen Hurts",
-      "note": "20.8 proj \u00b7 $6,700 \u00b7 7% opto \u00b7 4% own"
+      "note": "20.8 proj \u00b7 $6,700 \u00b7 7% opto \u00b7 5% own"
      }
     ],
     "RB": [
      {
       "depth": 1,
       "name": "Saquon Barkley",
-      "note": "16.9 proj \u00b7 $7,000 \u00b7 21% opto \u00b7 11% own"
+      "note": "16.9 proj \u00b7 $7,000 \u00b7 21% opto \u00b7 12% own"
      },
      {
       "depth": 2,
@@ -2521,7 +3029,7 @@
      {
       "depth": 1,
       "name": "DeVonta Smith",
-      "note": "14.3 proj \u00b7 $6,800 \u00b7 8% opto \u00b7 8% own \u00b7 experts: Headchopper, Jordan Vanek"
+      "note": "14.3 proj \u00b7 $6,800 \u00b7 8% opto \u00b7 7% own \u00b7 experts: Headchopper, Jordan Vanek"
      },
      {
       "depth": 2,
@@ -2544,7 +3052,7 @@
      {
       "depth": 1,
       "name": "Dallas Goedert",
-      "note": "11.5 proj \u00b7 $4,800 \u00b7 6% opto \u00b7 4% own \u00b7 experts: Krayton"
+      "note": "11.5 proj \u00b7 $4,800 \u00b7 6% opto \u00b7 6% own \u00b7 experts: Krayton"
      },
      {
       "depth": 2,
@@ -2594,12 +3102,12 @@
      {
       "depth": 1,
       "name": "Carnell Tate",
-      "note": "9.8 proj \u00b7 $5,100 \u00b7 4% opto \u00b7 3% own"
+      "note": "9.8 proj \u00b7 $5,100 \u00b7 4% opto \u00b7 2% own"
      },
      {
       "depth": 2,
       "name": "Wan'Dale Robinson",
-      "note": "9.6 proj \u00b7 $4,600 \u00b7 4% opto \u00b7 4% own"
+      "note": "9.6 proj \u00b7 $4,600 \u00b7 4% opto \u00b7 3% own"
      },
      {
       "depth": 3,
@@ -2618,7 +3126,7 @@
      {
       "depth": 1,
       "name": "Gunnar Helm",
-      "note": "7.2 proj \u00b7 $3,100 \u00b7 3% opto \u00b7 2% own"
+      "note": "7.2 proj \u00b7 $3,100 \u00b7 3% opto \u00b7 1% own"
      },
      {
       "depth": 2,
@@ -2647,14 +3155,14 @@
      {
       "depth": 1,
       "name": "Justin Herbert",
-      "note": "19.1 proj \u00b7 $6,000 \u00b7 6% opto \u00b7 7% own"
+      "note": "19.1 proj \u00b7 $6,000 \u00b7 6% opto \u00b7 5% own"
      }
     ],
     "RB": [
      {
       "depth": 1,
       "name": "Omarion Hampton",
-      "note": "14.3 proj \u00b7 $6,600 \u00b7 8% opto \u00b7 10% own \u00b7 experts: Headchopper"
+      "note": "14.3 proj \u00b7 $6,600 \u00b7 8% opto \u00b7 8% own \u00b7 experts: Headchopper"
      },
      {
       "depth": 2,
@@ -2669,12 +3177,12 @@
      {
       "depth": 1,
       "name": "Ladd McConkey",
-      "note": "12.5 proj \u00b7 $6,200 \u00b7 6% opto \u00b7 6% own"
+      "note": "12.5 proj \u00b7 $6,200 \u00b7 6% opto \u00b7 3% own"
      },
      {
       "depth": 2,
       "name": "Quentin Johnston",
-      "note": "10.6 proj \u00b7 $5,000 \u00b7 5% opto \u00b7 8% own"
+      "note": "10.6 proj \u00b7 $5,000 \u00b7 5% opto \u00b7 9% own"
      },
      {
       "depth": 3,
@@ -2727,7 +3235,7 @@
      {
       "depth": 1,
       "name": "Ashton Jeanty",
-      "note": "17.2 proj \u00b7 $6,800 \u00b7 12% opto \u00b7 14% own"
+      "note": "17.2 proj \u00b7 $6,800 \u00b7 12% opto \u00b7 12% own"
      },
      {
       "depth": 2,
@@ -2766,7 +3274,7 @@
      {
       "depth": 1,
       "name": "Michael Mayer",
-      "note": "10.3 proj \u00b7 $3,600 \u00b7 6% opto \u00b7 9% own \u00b7 experts: Notorious, Headchopper, Davis Mattek, Jordan Vanek"
+      "note": "10.3 proj \u00b7 $3,600 \u00b7 6% opto \u00b7 11% own \u00b7 experts: Notorious, Headchopper, Davis Mattek, Jordan Vanek"
      },
      {
       "depth": 2,
@@ -2812,12 +3320,12 @@
      {
       "depth": 1,
       "name": "Jaylen Waddle",
-      "note": "13.7 proj \u00b7 $6,500 \u00b7 9% opto \u00b7 6% own"
+      "note": "13.7 proj \u00b7 $6,500 \u00b7 9% opto \u00b7 7% own"
      },
      {
       "depth": 2,
       "name": "Courtland Sutton",
-      "note": "10.5 proj \u00b7 $5,800 \u00b7 4% opto \u00b7 4% own"
+      "note": "10.5 proj \u00b7 $5,800 \u00b7 4% opto \u00b7 3% own"
      },
      {
       "depth": 3,
@@ -2885,7 +3393,7 @@
      {
       "depth": 1,
       "name": "Parker Washington",
-      "note": "12.8 proj \u00b7 $5,900 \u00b7 8% opto \u00b7 9% own \u00b7 experts: Notorious, EBeimfohr, Davis Mattek"
+      "note": "12.8 proj \u00b7 $5,900 \u00b7 8% opto \u00b7 8% own \u00b7 experts: Notorious, EBeimfohr, Davis Mattek"
      },
      {
       "depth": 2,
@@ -2913,7 +3421,7 @@
      {
       "depth": 1,
       "name": "Brenton Strange",
-      "note": "8.6 proj \u00b7 $3,900 \u00b7 3% opto \u00b7 4% own"
+      "note": "8.6 proj \u00b7 $3,900 \u00b7 3% opto \u00b7 2% own"
      },
      {
       "depth": 2,
@@ -2928,7 +3436,7 @@
      {
       "depth": 1,
       "name": "Jacksonville Jaguars",
-      "note": "6.5 proj \u00b7 $2,400 \u00b7 6% opto \u00b7 5% own"
+      "note": "6.5 proj \u00b7 $2,400 \u00b7 6% opto \u00b7 4% own"
      }
     ]
    }
@@ -2943,14 +3451,14 @@
      {
       "depth": 1,
       "name": "Dak Prescott",
-      "note": "20.3 proj \u00b7 $6,400 \u00b7 7% opto \u00b7 10% own \u00b7 experts: Notorious, Krayton, Jordan Vanek"
+      "note": "20.3 proj \u00b7 $6,400 \u00b7 7% opto \u00b7 12% own \u00b7 experts: Notorious, Krayton, Jordan Vanek"
      }
     ],
     "RB": [
      {
       "depth": 1,
       "name": "Javonte Williams",
-      "note": "16.5 proj \u00b7 $6,400 \u00b7 15% opto \u00b7 15% own \u00b7 experts: Krayton, Davis Mattek"
+      "note": "16.5 proj \u00b7 $6,400 \u00b7 15% opto \u00b7 19% own \u00b7 experts: Krayton, Davis Mattek"
      },
      {
       "depth": 2,
@@ -2965,7 +3473,7 @@
      {
       "depth": 1,
       "name": "CeeDee Lamb",
-      "note": "17.5 proj \u00b7 $7,300 \u00b7 14% opto \u00b7 17% own \u00b7 experts: Headchopper, Krayton"
+      "note": "17.5 proj \u00b7 $7,300 \u00b7 14% opto \u00b7 20% own \u00b7 experts: Headchopper, Krayton"
      },
      {
       "depth": 2,
@@ -3017,7 +3525,7 @@
      {
       "depth": 1,
       "name": "Jayden Daniels",
-      "note": "20.1 proj \u00b7 $6,300 \u00b7 7% opto \u00b7 7% own \u00b7 experts: Notorious, Headchopper"
+      "note": "20.1 proj \u00b7 $6,300 \u00b7 7% opto \u00b7 6% own \u00b7 experts: Notorious, Headchopper"
      }
     ],
     "RB": [
@@ -3043,7 +3551,7 @@
      {
       "depth": 2,
       "name": "Stefon Diggs",
-      "note": "12.0 proj \u00b7 $5,300 \u00b7 8% opto \u00b7 10% own"
+      "note": "12.0 proj \u00b7 $5,300 \u00b7 8% opto \u00b7 8% own"
      },
      {
       "depth": 3,
@@ -3097,7 +3605,7 @@
      {
       "depth": 1,
       "name": "Jeremiyah Love",
-      "note": "11.5 proj \u00b7 $5,900 \u00b7 1% opto \u00b7 1% own"
+      "note": "11.5 proj \u00b7 $5,900 \u00b7 1% opto \u00b7 2% own"
      },
      {
       "depth": 2,
@@ -3112,7 +3620,7 @@
      {
       "depth": 1,
       "name": "Michael Wilson",
-      "note": "9.8 proj \u00b7 $5,400 \u00b7 2% opto \u00b7 3% own"
+      "note": "9.8 proj \u00b7 $5,400 \u00b7 2% opto \u00b7 4% own"
      },
      {
       "depth": 2,
@@ -3136,7 +3644,7 @@
      {
       "depth": 1,
       "name": "Trey McBride",
-      "note": "14.8 proj \u00b7 $6,900 \u00b7 7% opto \u00b7 12% own"
+      "note": "14.8 proj \u00b7 $6,900 \u00b7 7% opto \u00b7 9% own"
      },
      {
       "depth": 2,
@@ -3171,7 +3679,7 @@
      {
       "depth": 1,
       "name": "Jadarian Price",
-      "note": "11.8 proj \u00b7 $5,500 \u00b7 3% opto \u00b7 4% own \u00b7 experts: Headchopper"
+      "note": "11.8 proj \u00b7 $5,500 \u00b7 3% opto \u00b7 5% own \u00b7 experts: Headchopper"
      },
      {
       "depth": 2,
@@ -3186,7 +3694,7 @@
      {
       "depth": 1,
       "name": "Jaxon Smith-Njigba",
-      "note": "19.4 proj \u00b7 $8,100 \u00b7 18% opto \u00b7 16% own"
+      "note": "19.4 proj \u00b7 $8,100 \u00b7 18% opto \u00b7 15% own"
      },
      {
       "depth": 2,
@@ -3284,7 +3792,7 @@
      {
       "depth": 1,
       "name": "Greg Dulcich",
-      "note": "6.9 proj \u00b7 $3,200 \u00b7 2% opto \u00b7 2% own"
+      "note": "6.9 proj \u00b7 $3,200 \u00b7 2% opto \u00b7 1% own"
      },
      {
       "depth": 2,
@@ -3313,14 +3821,14 @@
      {
       "depth": 1,
       "name": "Brock Purdy",
-      "note": "20.3 proj \u00b7 $6,200 \u00b7 5% opto \u00b7 11% own"
+      "note": "20.3 proj \u00b7 $6,200 \u00b7 5% opto \u00b7 9% own"
      }
     ],
     "RB": [
      {
       "depth": 1,
       "name": "Christian McCaffrey",
-      "note": "20.9 proj \u00b7 $8,000 \u00b7 22% opto \u00b7 26% own"
+      "note": "20.9 proj \u00b7 $8,000 \u00b7 22% opto \u00b7 21% own"
      },
      {
       "depth": 2,
@@ -3358,7 +3866,7 @@
      {
       "depth": 1,
       "name": "George Kittle",
-      "note": "10.8 proj \u00b7 $4,600 \u00b7 5% opto \u00b7 7% own"
+      "note": "10.8 proj \u00b7 $4,600 \u00b7 5% opto \u00b7 6% own"
      },
      {
       "depth": 2,
