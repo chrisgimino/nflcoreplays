@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-18T21:40",
+ "updated": "2026-09-18T21:44",
  "slate_ids": {
   "draftkings": "153428",
   "fanduel": "134251"
@@ -57,7 +57,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Top weapons and 50.5 total. Elite track record vs Commanders."
+     "notes": "Elite weapons and a top implied team total against Washington."
     },
     {
      "player_id": "6228653",
@@ -102,7 +102,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Rushing floor and upside. High team total against weak defense."
+     "notes": "Rushing floor and a high total in a great matchup."
     },
     {
      "player_id": "1844646",
@@ -135,7 +135,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Strong implied team total of 39.5 points in a favorable spot."
+     "notes": "Solid implied team total in a favorable home matchup."
     },
     {
      "player_id": "3492223",
@@ -168,7 +168,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Massive 13.5 point favorite with a healthy 44.5 game total."
+     "notes": "Strong passing volume in a high-total home spot."
     },
     {
      "player_id": "328097",
@@ -201,7 +201,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "High 46.5 total at home against a fast-paced Saints defense."
+     "notes": "High rushing upside against a vulnerable defense."
     },
     {
      "player_id": "6227816",
@@ -247,7 +247,7 @@
      ],
      "num_experts": 3,
      "rank": 6,
-     "notes": "Elite offensive weapons and strong home matchup at Soldier Field."
+     "notes": "Multiple weapons available in a fast-paced game."
     },
     {
      "player_id": "1844276",
@@ -287,7 +287,7 @@
      ],
      "num_experts": 1,
      "rank": 7,
-     "notes": "Increased pass volume with running back sidelined against Jets."
+     "notes": "Increased pass volume with a strong team total."
     },
     {
      "player_id": "1849725",
@@ -320,7 +320,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Solid 43.5 game total as a strong home favorite this week."
+     "notes": "Strong implied team total in a divisional matchup."
     }
    ]
   },
@@ -371,7 +371,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Heavy touch volume with high red-zone upside against Panthers."
+     "notes": "Heavy workload with immense rushing and receiving upside."
     },
     {
      "player_id": "35530",
@@ -411,7 +411,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Big uptick in outside zone runs with key pass catchers out."
+     "notes": "Heavy outside zone usage against a struggling run defense."
     },
     {
      "player_id": "36994",
@@ -444,7 +444,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite workload as a massive 13.5 point home favorite."
+     "notes": "Elite touch volume in a high-implied-total offense."
     },
     {
      "player_id": "36871",
@@ -494,7 +494,7 @@
      ],
      "num_experts": 3,
      "rank": 4,
-     "notes": "True Bell cow with backfield teammate out against weak defense."
+     "notes": "Clear Bell-cow workload with a great matchup against Chicago."
     },
     {
      "player_id": "328607",
@@ -527,7 +527,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Solid 39.5 game total as a touchdown home favorite on slate."
+     "notes": "Strong rushing role as a home favorite against Tennessee."
     },
     {
      "player_id": "3491661",
@@ -567,7 +567,7 @@
      ],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Bell-cow role with heavy red-zone carries against light front."
+     "notes": "Heavy Bell-cow touches and goal-line work."
     },
     {
      "player_id": "982082",
@@ -600,7 +600,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Narrow 2.5 point spread with strong 45.5 implied game total."
+     "notes": "Solid rushing share in a close divisional game."
     },
     {
      "player_id": "4687629",
@@ -633,7 +633,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Tight 2.5 point spread in a high 45.5 total matchup."
+     "notes": "Strong snap share and rushing role as a slight underdog."
     }
    ]
   },
@@ -671,7 +671,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Strong road matchup with a solid 40.5 game total on slate."
+     "notes": "Strong target volume and route participation."
     },
     {
      "player_id": "1844578",
@@ -712,7 +712,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Great home matchup with high urgency against vulnerable corner."
+     "notes": "Great bounce-back spot exploiting a secondary weakness."
     },
     {
      "player_id": "2861551",
@@ -752,7 +752,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Designed touches expected in a low ownership squeaky spot."
+     "notes": "Schemed touches and high target upside."
     },
     {
      "player_id": "3491660",
@@ -785,7 +785,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Solid 44.5 game total in a favorable road underdog spot."
+     "notes": "Strong target share and route volume."
     },
     {
      "player_id": "1844306",
@@ -825,7 +825,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Huge target and air yards share with New QB vs weak secondary."
+     "notes": "Massive target and air yards share against a weak secondary."
     },
     {
      "player_id": "8222949",
@@ -871,7 +871,7 @@
      ],
      "num_experts": 3,
      "rank": 6,
-     "notes": "Elite yards after catch ability in high-scoring home offense."
+     "notes": "Elite yards after catch ability in a high-scoring offense."
     },
     {
      "player_id": "4687830",
@@ -917,7 +917,7 @@
      ],
      "num_experts": 3,
      "rank": 7,
-     "notes": "Elite slot route share and high efficiency against Denver defense."
+     "notes": "Dominant slot route share and high target efficiency."
     },
     {
      "player_id": "2862069",
@@ -958,7 +958,7 @@
      ],
      "num_experts": 2,
      "rank": 8,
-     "notes": "Strong 39.5 game total as a solid home favorite on slate."
+     "notes": "Strong route participation and downfield target upside."
     }
    ]
   },
@@ -996,7 +996,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Tight 2.5 point spread with solid 45.5 game total."
+     "notes": "Strong route rate and red-zone usage."
     },
     {
      "player_id": "328096",
@@ -1036,7 +1036,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Full route participation with top receiver sidelined at home."
+     "notes": "Full route participation as the primary receiving option."
     },
     {
      "player_id": "3492164",
@@ -1069,7 +1069,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Solid matchup with high target upside on the road."
+     "notes": "Elite route participation and seam target volume."
     },
     {
      "player_id": "8216973",
@@ -1105,7 +1105,7 @@
      "expert_blurbs": [],
      "num_experts": 2,
      "rank": 4,
-     "notes": "Strong offensive environment with high 48.5 game total."
+     "notes": "Strong seam and slot usage in an explosive offense."
     },
     {
      "player_id": "4687882",
@@ -1160,7 +1160,7 @@
      ],
      "num_experts": 4,
      "rank": 5,
-     "notes": "Led team in route participation and catches as a cheap option."
+     "notes": "Strong route participation and target volume against the Chargers."
     },
     {
      "player_id": "328643",
@@ -1195,7 +1195,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Solid touchdown favorite with a 39.5 total at home."
+     "notes": "Every-down route rate with strong red-zone involvement."
     },
     {
      "player_id": "37069",
@@ -1228,7 +1228,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Massive 13.5 point home favorite with strong game script."
+     "notes": "High route participation and seam upside."
     },
     {
      "player_id": "4687755",
@@ -1261,7 +1261,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Solid 44.5 game total as a home favorite against Jets."
+     "notes": "Solid route rate and red-zone role."
     }
    ]
   },
