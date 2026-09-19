@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-19T00:19",
+ "updated": "2026-09-19T08:22",
  "slate_ids": {
   "draftkings": "153428",
   "fanduel": "134251"
@@ -33,6 +33,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
      "dk": {
       "salary": 6400,
       "fpts": 20.3,
@@ -66,7 +68,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Elite weapons and a high implied team total in a top home matchup."
+     "notes": "Top tier weapons and a high 50.5 game total in an indoor home matchup."
     },
     {
      "player_id": "6228653",
@@ -84,6 +86,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
      "dk": {
       "salary": 6300,
       "fpts": 20.07,
@@ -120,7 +124,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Strong rushing floor and designed runs against a struggling secondary."
+     "notes": "Strong rushing floor and massive ceiling in an indoor matchup as underdogs."
     },
     {
      "player_id": "1844646",
@@ -138,6 +142,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 6700,
       "fpts": 20.75,
@@ -162,7 +168,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Solid pass volume and implied team total in a favorable game script."
+     "notes": "Solid quarterback option with a 39.5 game total and 7.0 point spread."
     },
     {
      "player_id": "3492223",
@@ -180,6 +186,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
      "dk": {
       "salary": 6200,
       "fpts": 20.34,
@@ -204,7 +212,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "High pass rate and strong implied team total as a heavy home favorite."
+     "notes": "Projected for 20.34 points with a 44.5 total as huge home favorites."
     },
     {
      "player_id": "328097",
@@ -222,6 +230,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 7300,
       "fpts": 21.66,
@@ -246,7 +256,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Rushing floor and high implied team total as a strong home favorite."
+     "notes": "Elite dual threat quarterback leading a team with an 8.5 point spread."
     },
     {
      "player_id": "6227816",
@@ -257,13 +267,15 @@
      "opp": "MIN",
      "schedule_id": "206312",
      "dk_rank": 6,
-     "fd_rank": 4,
+     "fd_rank": 5,
      "dk_slot": "GPP",
      "fd_slot": "CASH",
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 6800,
       "fpts": 20.02,
@@ -301,7 +313,7 @@
      ],
      "num_experts": 3,
      "rank": 6,
-     "notes": "Multiple weapons available and strong passing volume at Soldier Field."
+     "notes": "Strong passing volume paired with rushing upside in a 48.5 total game."
     },
     {
      "player_id": "1849725",
@@ -312,13 +324,15 @@
      "opp": "LVR",
      "schedule_id": "206319",
      "dk_rank": 7,
-     "fd_rank": 5,
+     "fd_rank": 4,
      "dk_slot": "GPP",
      "fd_slot": "CASH",
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": true,
      "dk": {
       "salary": 6000,
       "fpts": 19.12,
@@ -343,7 +357,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Favorable game script and strong implied team total at home."
+     "notes": "Favorable 6.5 point spread and solid 19.12 point projection at home."
     },
     {
      "player_id": "6228327",
@@ -361,6 +375,8 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": true,
      "dk": {
       "salary": 6100,
       "fpts": 18.26,
@@ -392,7 +408,7 @@
      ],
      "num_experts": 1,
      "rank": 8,
-     "notes": "Implied team total and pass volume as a home favorite."
+     "notes": "Favorable matchup with opposing secondary injuries and a 41.5 total."
     },
     {
      "player_id": "2861939",
@@ -410,6 +426,8 @@
      "site_only": "DK",
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
      "dk": {
       "salary": 5800,
       "fpts": 18.23,
@@ -434,7 +452,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Pass volume and implied team total in a tight divisional matchup."
+     "notes": "Solid 18.23 projection in a tight 2.5 point spread matchup."
     }
    ]
   },
@@ -457,6 +475,8 @@
      "site_only": null,
      "core_dk": true,
      "core_fd": true,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 8200,
       "fpts": 21.99,
@@ -494,7 +514,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Heavy volume of touches and receptions against a weak run defense."
+     "notes": "Heavy workload with immense receiving involvement against a weak run defense."
     },
     {
      "player_id": "35530",
@@ -512,6 +532,8 @@
      "site_only": null,
      "core_dk": true,
      "core_fd": true,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 7200,
       "fpts": 19.3,
@@ -543,7 +565,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Outside zone rushing role with increased work in a run-heavy plan."
+     "notes": "Significant uptick in outside zone runs with a favorable game script."
     },
     {
      "player_id": "36994",
@@ -561,6 +583,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 8000,
       "fpts": 20.87,
@@ -585,7 +609,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Bell-cow touches and strong game script as a massive home favorite."
+     "notes": "Elite option with a 20.87 projection as massive 13.5 point home favorites."
     },
     {
      "player_id": "36871",
@@ -603,6 +627,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": true,
      "dk": {
       "salary": 5100,
       "fpts": 15.75,
@@ -644,7 +670,7 @@
      ],
      "num_experts": 3,
      "rank": 4,
-     "notes": "True Bell-cow workload with high snap share and pass-catching role."
+     "notes": "True Bell cow role with zero backfield competition and great value."
     },
     {
      "player_id": "328607",
@@ -662,6 +688,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 7000,
       "fpts": 16.92,
@@ -686,7 +714,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Workhorse touches and goal-line role as a strong home favorite."
+     "notes": "Solid 16.92 projection as 7.0 point favorites in a 39.5 total game."
     },
     {
      "player_id": "3491661",
@@ -704,6 +732,8 @@
      "site_only": "DK",
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 6200,
       "fpts": 15.54,
@@ -735,7 +765,7 @@
      ],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Bell-cow touches and heavy red-zone work behind a strong line."
+     "notes": "Clear Bell-cow role with heavy red-zone usage against a depleted front."
     },
     {
      "player_id": "4687629",
@@ -753,6 +783,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 6900,
       "fpts": 15.57,
@@ -777,7 +809,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Solid carry share and rushing touches in a close road matchup."
+     "notes": "Strong ceiling projection in a close 2.5 point game script."
     },
     {
      "player_id": "4687954",
@@ -795,6 +827,8 @@
      "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 6700,
       "fpts": 15.79,
@@ -819,7 +853,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Explosive rushing touches and pass-catching role in a trailing script."
+     "notes": "High upside receiving back with a 28.8 ceiling projection."
     },
     {
      "player_id": "982082",
@@ -837,6 +871,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": true,
      "dk": {
       "salary": 6500,
       "fpts": 15.02,
@@ -861,7 +897,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Red-zone carries and solid snap share as a slight home favorite."
+     "notes": "Solid 15.02 projection in a tight 2.5 point road matchup."
     }
    ]
   },
@@ -884,6 +920,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 8100,
       "fpts": 19.42,
@@ -908,7 +946,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Strong route participation and target share in a dome matchup."
+     "notes": "Top tier target volume with an elite 38.4 ceiling projection."
     },
     {
      "player_id": "1844578",
@@ -926,6 +964,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 7300,
       "fpts": 17.52,
@@ -958,7 +998,139 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Slot matchup advantage and high target share at home."
+     "notes": "Great home game urgency against a vulnerable slot coverage matchup."
+    },
+    {
+     "player_id": "3491660",
+     "core_id": "43396",
+     "players": "Garrett Wilson",
+     "pos": "WR",
+     "team": "NYJ",
+     "opp": "GBP",
+     "schedule_id": "206311",
+     "dk_rank": 3,
+     "fd_rank": null,
+     "dk_slot": "CASH",
+     "fd_slot": null,
+     "slot": "CASH",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
+     "dk": {
+      "salary": 6000,
+      "fpts": 14.5,
+      "ppd": 2.42,
+      "ceil": 28.4,
+      "opto": 12.3,
+      "pown": 13.7,
+      "grade": 1.684,
+      "gpp_grade": 0.8
+     },
+     "fd": {
+      "salary": 7200,
+      "fpts": 11.7,
+      "ppd": 1.63,
+      "ceil": 22.8,
+      "opto": 9.9,
+      "pown": 11.9,
+      "grade": 1.507,
+      "gpp_grade": 0.792
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 3,
+     "notes": "Solid 14.5 projection with strong underlying target volume."
+    },
+    {
+     "player_id": "982511",
+     "core_id": "47334",
+     "players": "Terry McLaurin",
+     "pos": "WR",
+     "team": "WAS",
+     "opp": "DAL",
+     "schedule_id": "206321",
+     "dk_rank": null,
+     "fd_rank": 4,
+     "dk_slot": null,
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": true,
+     "dk": {
+      "salary": 5200,
+      "fpts": 12.89,
+      "ppd": 2.48,
+      "ceil": 25.6,
+      "opto": 11.1,
+      "pown": 11.1,
+      "grade": 1.501,
+      "gpp_grade": 0.707
+     },
+     "fd": {
+      "salary": 6000,
+      "fpts": 10.62,
+      "ppd": 1.77,
+      "ceil": 21.0,
+      "opto": 10.6,
+      "pown": 11.5,
+      "grade": 1.55,
+      "gpp_grade": 0.749
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 4,
+     "notes": "Favorable game environment with a high 50.5 total at indoor venue."
+    },
+    {
+     "player_id": "982879",
+     "core_id": "61444",
+     "players": "D.K. Metcalf",
+     "pos": "WR",
+     "team": "PIT",
+     "opp": "NEP",
+     "schedule_id": "206313",
+     "dk_rank": 4,
+     "fd_rank": null,
+     "dk_slot": "CASH",
+     "fd_slot": null,
+     "slot": "CASH",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
+     "dk": {
+      "salary": 5200,
+      "fpts": 13.27,
+      "ppd": 2.55,
+      "ceil": 24.3,
+      "opto": 9.7,
+      "pown": 11.0,
+      "grade": 1.428,
+      "gpp_grade": 0.655
+     },
+     "fd": {
+      "salary": 7000,
+      "fpts": 10.74,
+      "ppd": 1.53,
+      "ceil": 19.6,
+      "opto": 6.8,
+      "pown": 9.3,
+      "grade": 1.122,
+      "gpp_grade": 0.617
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "Strong red-zone role and solid projection in a 41.5 total matchup."
     },
     {
      "player_id": "2861551",
@@ -968,14 +1140,16 @@
      "team": "CIN",
      "opp": "HOU",
      "schedule_id": "206316",
-     "dk_rank": 3,
-     "fd_rank": 3,
+     "dk_rank": 5,
+     "fd_rank": 5,
      "dk_slot": "CASH",
      "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 7600,
       "fpts": 17.82,
@@ -1006,99 +1180,103 @@
       }
      ],
      "num_experts": 1,
-     "rank": 3,
-     "notes": "Schemed targets and high route participation in a close matchup."
+     "rank": 6,
+     "notes": "Squeaky wheel narrative with intentional target scheming at low ownership."
     },
     {
-     "player_id": "3491660",
-     "core_id": "43396",
-     "players": "Garrett Wilson",
+     "player_id": "6227778",
+     "core_id": "134299",
+     "players": "Jalen Coker",
      "pos": "WR",
-     "team": "NYJ",
-     "opp": "GBP",
-     "schedule_id": "206311",
-     "dk_rank": 4,
-     "fd_rank": null,
-     "dk_slot": "CASH",
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": "DK",
+     "team": "CAR",
+     "opp": "ATL",
+     "schedule_id": "206314",
+     "dk_rank": null,
+     "fd_rank": 7,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": true,
      "dk": {
-      "salary": 6000,
-      "fpts": 14.5,
+      "salary": 5100,
+      "fpts": 12.33,
       "ppd": 2.42,
-      "ceil": 28.4,
-      "opto": 12.3,
-      "pown": 13.7,
-      "grade": 1.684,
-      "gpp_grade": 0.8
+      "ceil": 27.3,
+      "opto": 9.3,
+      "pown": 8.6,
+      "grade": 1.298,
+      "gpp_grade": 0.806
      },
      "fd": {
-      "salary": 7200,
-      "fpts": 11.7,
-      "ppd": 1.63,
-      "ceil": 22.8,
-      "opto": 9.9,
-      "pown": 11.9,
-      "grade": 1.507,
-      "gpp_grade": 0.792
+      "salary": 5900,
+      "fpts": 10.07,
+      "ppd": 1.71,
+      "ceil": 22.1,
+      "opto": 8.5,
+      "pown": 7.9,
+      "grade": 1.298,
+      "gpp_grade": 0.839
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
-     "notes": "Perimeter target share and deep route role in a competitive matchup."
+     "rank": 7,
+     "notes": "Strong GPP upside with a 27.3 ceiling in a close game script."
     },
     {
-     "player_id": "1844306",
-     "core_id": "64507",
-     "players": "Justin Jefferson",
+     "player_id": "2861778",
+     "core_id": "63612",
+     "players": "Jaylen Waddle",
      "pos": "WR",
-     "team": "MIN",
-     "opp": "CHI",
-     "schedule_id": "206312",
-     "dk_rank": 5,
-     "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": null,
+     "team": "DEN",
+     "opp": "JAC",
+     "schedule_id": "206320",
+     "dk_rank": null,
+     "fd_rank": 8,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": true,
      "dk": {
-      "salary": 7800,
-      "fpts": 16.74,
-      "ppd": 2.15,
-      "ceil": 33.2,
-      "opto": 10.6,
-      "pown": 15.7,
-      "grade": 1.635,
-      "gpp_grade": 1.0
+      "salary": 6500,
+      "fpts": 13.74,
+      "ppd": 2.11,
+      "ceil": 27.5,
+      "opto": 9.0,
+      "pown": 7.2,
+      "grade": 1.272,
+      "gpp_grade": 0.754
      },
      "fd": {
-      "salary": 8600,
-      "fpts": 13.88,
-      "ppd": 1.61,
-      "ceil": 27.4,
-      "opto": 10.4,
-      "pown": 12.6,
-      "grade": 1.744,
-      "gpp_grade": 1.067
+      "salary": 6700,
+      "fpts": 11.33,
+      "ppd": 1.69,
+      "ceil": 22.6,
+      "opto": 11.6,
+      "pown": 9.8,
+      "grade": 1.673,
+      "gpp_grade": 0.834
      },
      "experts": [
-      "Notorious"
+      "Headchopper"
      ],
      "expert_blurbs": [
       {
-       "author": "Notorious",
-       "text": "It only took one week and a concussion from Kyler Murray for me to go from a full fade on Jefferson to tagging him as a Core Play. That's all thanks to Carson Wentz and a matchup against the Bears. With Wentz under center, Jefferson has racked up a 32% target share in his career. He finally looked like the best receiver in football again, as he caught 8-of-9 targets for 92 yards and 2 touchdowns. He had a massive 48% air yards share and a 55% first-read rate in that game. The Vikings will likely be trailing in this one, and the Bears couldn't stop Bryce Young and Carolina's passing attack last week. "
+       "author": "headChopper",
+       "text": "I'm looking for a rebound from Waddle, and the salary on FanDuel appeals to me more than DraftKings relative to the salary cap.\r\n"
       }
      ],
      "num_experts": 1,
-     "rank": 5,
-     "notes": "Massive target share and air yards in a trailing game script."
+     "rank": 8,
+     "notes": "Priced favorably on FanDuel with solid bounce-back potential."
     },
     {
      "player_id": "8222949",
@@ -1109,13 +1287,15 @@
      "opp": "MIN",
      "schedule_id": "206312",
      "dk_rank": 6,
-     "fd_rank": 5,
+     "fd_rank": 3,
      "dk_slot": "GPP",
      "fd_slot": "CASH",
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": true,
      "dk": {
       "salary": 5700,
       "fpts": 13.01,
@@ -1152,99 +1332,8 @@
       }
      ],
      "num_experts": 3,
-     "rank": 6,
-     "notes": "Elite yards after catch ability and consistent slot targets."
-    },
-    {
-     "player_id": "6227778",
-     "core_id": "134299",
-     "players": "Jalen Coker",
-     "pos": "WR",
-     "team": "CAR",
-     "opp": "ATL",
-     "schedule_id": "206314",
-     "dk_rank": null,
-     "fd_rank": 7,
-     "dk_slot": null,
-     "fd_slot": "GPP",
-     "slot": "GPP",
-     "site_only": "FD",
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 5100,
-      "fpts": 12.33,
-      "ppd": 2.42,
-      "ceil": 27.3,
-      "opto": 9.3,
-      "pown": 8.6,
-      "grade": 1.298,
-      "gpp_grade": 0.806
-     },
-     "fd": {
-      "salary": 5900,
-      "fpts": 10.07,
-      "ppd": 1.71,
-      "ceil": 22.1,
-      "opto": 8.5,
-      "pown": 7.9,
-      "grade": 1.298,
-      "gpp_grade": 0.839
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 7,
-     "notes": "Deep route participation and targets in a trailing game script."
-    },
-    {
-     "player_id": "2861778",
-     "core_id": "63612",
-     "players": "Jaylen Waddle",
-     "pos": "WR",
-     "team": "DEN",
-     "opp": "JAC",
-     "schedule_id": "206320",
-     "dk_rank": null,
-     "fd_rank": 8,
-     "dk_slot": null,
-     "fd_slot": "GPP",
-     "slot": "GPP",
-     "site_only": "FD",
-     "core_dk": false,
-     "core_fd": false,
-     "dk": {
-      "salary": 6500,
-      "fpts": 13.74,
-      "ppd": 2.11,
-      "ceil": 27.5,
-      "opto": 9.0,
-      "pown": 7.2,
-      "grade": 1.272,
-      "gpp_grade": 0.754
-     },
-     "fd": {
-      "salary": 6700,
-      "fpts": 11.33,
-      "ppd": 1.69,
-      "ceil": 22.6,
-      "opto": 11.6,
-      "pown": 9.8,
-      "grade": 1.673,
-      "gpp_grade": 0.834
-     },
-     "experts": [
-      "Headchopper"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "headChopper",
-       "text": "I'm looking for a rebound from Waddle, and the salary on FanDuel appeals to me more than DraftKings relative to the salary cap.\r\n"
-      }
-     ],
-     "num_experts": 1,
-     "rank": 8,
-     "notes": "Perimeter targets and favorable pricing on FanDuel."
+     "rank": 9,
+     "notes": "Elite yards after catch ability to combat heavy defensive pressure."
     },
     {
      "player_id": "4687830",
@@ -1262,6 +1351,8 @@
      "site_only": "DK",
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
      "dk": {
       "salary": 5900,
       "fpts": 12.83,
@@ -1298,8 +1389,8 @@
       }
      ],
      "num_experts": 3,
-     "rank": 9,
-     "notes": "High slot target share and elite route efficiency against the defense."
+     "rank": 10,
+     "notes": "Elite slot target share and high efficiency attacking the middle."
     },
     {
      "player_id": "2862069",
@@ -1317,6 +1408,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 6800,
       "fpts": 14.29,
@@ -1348,8 +1441,8 @@
       }
      ],
      "num_experts": 2,
-     "rank": 10,
-     "notes": "Solid route participation and red-zone target share."
+     "rank": 11,
+     "notes": "Strong route participation and a high ceiling in a 7.0 point spread."
     }
    ]
   },
@@ -1372,6 +1465,8 @@
      "site_only": null,
      "core_dk": true,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
      "dk": {
       "salary": 3200,
       "fpts": 11.81,
@@ -1396,7 +1491,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Seam usage and high route rate in a competitive game total."
+     "notes": "Exceptional points per dollar value in a close 2.5 point matchup."
     },
     {
      "player_id": "328096",
@@ -1414,6 +1509,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 4400,
       "fpts": 12.31,
@@ -1445,7 +1542,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Every-down route rate and high target share with weapons out."
+     "notes": "Clear TE1 role with high route rate and missing receiver targets."
     },
     {
      "player_id": "3492164",
@@ -1463,6 +1560,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 6900,
       "fpts": 14.8,
@@ -1487,7 +1586,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite target share and route participation in a divisional game."
+     "notes": "Elite tight end option with a massive 30.6 ceiling projection."
     },
     {
      "player_id": "8216973",
@@ -1505,6 +1604,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 5000,
       "fpts": 12.0,
@@ -1532,7 +1633,7 @@
      "expert_blurbs": [],
      "num_experts": 2,
      "rank": 4,
-     "notes": "Seam usage and red-zone route rate in an uptempo offense."
+     "notes": "Strong route rate and red-zone involvement in a high total game."
     },
     {
      "player_id": "4687882",
@@ -1550,6 +1651,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
      "dk": {
       "salary": 3600,
       "fpts": 10.27,
@@ -1596,7 +1699,7 @@
      ],
      "num_experts": 4,
      "rank": 5,
-     "notes": "Leading route participation and targets as a primary receiving option."
+     "notes": "Led team in route participation and catches at a discounted salary."
     },
     {
      "player_id": "328643",
@@ -1614,6 +1717,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 4800,
       "fpts": 11.48,
@@ -1640,7 +1745,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Solid route rate and red-zone usage as a strong favorite."
+     "notes": "Solid 11.48 projection as 7.0 point favorites at home."
     },
     {
      "player_id": "37069",
@@ -1658,6 +1763,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 4600,
       "fpts": 10.85,
@@ -1682,7 +1789,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Blocking and receiving snap share as a massive home favorite."
+     "notes": "Strong ceiling projection as heavy 13.5 point home favorites."
     },
     {
      "player_id": "4687755",
@@ -1700,6 +1807,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 4900,
       "fpts": 11.01,
@@ -1724,7 +1833,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Seam route participation and red-zone targets in a favorable matchup."
+     "notes": "Solid 11.01 projection with strong red-zone route usage."
     }
    ]
   },
@@ -1747,6 +1856,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 3300,
       "fpts": 8.09,
@@ -1789,6 +1900,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 3500,
       "fpts": 7.96,
@@ -1831,6 +1944,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 3100,
       "fpts": 7.36,
@@ -1873,6 +1988,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 3800,
       "fpts": 7.35,
@@ -1915,6 +2032,8 @@
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
      "dk": {
       "salary": 3700,
       "fpts": 7.01,
@@ -1980,7 +2099,7 @@
      {
       "depth": 2,
       "name": "Matthew Golden",
-      "note": "10.7 proj \u00b7 $4,700 \u00b7 6% opto \u00b7 8% own \u00b7 experts: Krayton, EBeimfohr"
+      "note": "10.7 proj \u00b7 $4,700 \u00b7 6% opto \u00b7 8% own \u00b7 experts: Krayton, EBeimfohr, ncorfield8k"
      },
      {
       "depth": 3,
