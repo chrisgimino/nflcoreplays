@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-19T08:22",
+ "updated": "2026-09-19T10:32",
  "slate_ids": {
   "draftkings": "153428",
   "fanduel": "134251"
@@ -10,8 +10,8 @@
   "FD"
  ],
  "core_counts": {
-  "DK": 3,
-  "FD": 2
+  "DK": 0,
+  "FD": 0
  },
  "sections": [
   {
@@ -25,10 +25,11 @@
      "team": "DAL",
      "opp": "WAS",
      "schedule_id": "206321",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -67,8 +68,7 @@
       }
      ],
      "num_experts": 3,
-     "rank": 1,
-     "notes": "Top tier weapons and a high 50.5 game total in an indoor home matchup."
+     "notes": "Top-tier weapons and a high 50.5 game total in an indoor home matchup."
     },
     {
      "player_id": "6228653",
@@ -78,10 +78,11 @@
      "team": "WAS",
      "opp": "DAL",
      "schedule_id": "206321",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -123,7 +124,6 @@
       }
      ],
      "num_experts": 2,
-     "rank": 2,
      "notes": "Strong rushing floor and massive ceiling in an indoor matchup as underdogs."
     },
     {
@@ -134,10 +134,11 @@
      "team": "PHI",
      "opp": "TEN",
      "schedule_id": "206318",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 6,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -167,8 +168,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
-     "notes": "Solid quarterback option with a 39.5 game total and 7.0 point spread."
+     "notes": "Solid quarterback option with a 39.5 game total and 7-point spread."
     },
     {
      "player_id": "3492223",
@@ -178,10 +178,11 @@
      "team": "SFO",
      "opp": "MIA",
      "schedule_id": "206323",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 7,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -211,7 +212,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "Projected for 20.34 points with a 44.5 total as huge home favorites."
     },
     {
@@ -222,10 +222,11 @@
      "team": "BAL",
      "opp": "NOS",
      "schedule_id": "206317",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -255,8 +256,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
-     "notes": "Elite dual threat quarterback leading a team with an 8.5 point spread."
+     "notes": "Elite dual-threat quarterback leading a team with an 8.5-point spread."
     },
     {
      "player_id": "6227816",
@@ -266,10 +266,11 @@
      "team": "CHI",
      "opp": "MIN",
      "schedule_id": "206312",
+     "rank": 6,
      "dk_rank": 6,
      "fd_rank": 5,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -312,7 +313,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 6,
      "notes": "Strong passing volume paired with rushing upside in a 48.5 total game."
     },
     {
@@ -323,10 +323,11 @@
      "team": "LAC",
      "opp": "LVR",
      "schedule_id": "206319",
+     "rank": 7,
      "dk_rank": 7,
      "fd_rank": 4,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -356,8 +357,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
-     "notes": "Favorable 6.5 point spread and solid 19.12 point projection at home."
+     "notes": "Favorable 6.5-point spread and solid 19.12-point projection at home."
     },
     {
      "player_id": "6228327",
@@ -367,15 +367,16 @@
      "team": "NEP",
      "opp": "PIT",
      "schedule_id": "206313",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "dk": {
       "salary": 6100,
@@ -407,7 +408,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 8,
      "notes": "Favorable matchup with opposing secondary injuries and a 41.5 total."
     },
     {
@@ -418,16 +418,17 @@
      "team": "JAC",
      "opp": "DEN",
      "schedule_id": "206320",
+     "rank": 9,
      "dk_rank": 8,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "dk": {
       "salary": 5800,
       "fpts": 18.23,
@@ -451,8 +452,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
-     "notes": "Solid 18.23 projection in a tight 2.5 point spread matchup."
+     "notes": "Solid 18.23 projection in a tight 2.5-point spread matchup."
     }
    ]
   },
@@ -467,14 +467,15 @@
      "team": "ATL",
      "opp": "CAR",
      "schedule_id": "206314",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
-     "core_dk": true,
-     "core_fd": true,
+     "core_dk": false,
+     "core_fd": false,
      "saver_dk": false,
      "saver_fd": false,
      "dk": {
@@ -513,7 +514,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 1,
      "notes": "Heavy workload with immense receiving involvement against a weak run defense."
     },
     {
@@ -524,14 +524,15 @@
      "team": "BAL",
      "opp": "NOS",
      "schedule_id": "206317",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
-     "core_dk": true,
-     "core_fd": true,
+     "core_dk": false,
+     "core_fd": false,
      "saver_dk": false,
      "saver_fd": false,
      "dk": {
@@ -564,7 +565,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 2,
      "notes": "Significant uptick in outside zone runs with a favorable game script."
     },
     {
@@ -575,10 +575,11 @@
      "team": "SFO",
      "opp": "MIA",
      "schedule_id": "206323",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -608,8 +609,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
-     "notes": "Elite option with a 20.87 projection as massive 13.5 point home favorites."
+     "notes": "Elite option with a 20.87 projection as massive 13.5-point home favorites."
     },
     {
      "player_id": "36871",
@@ -619,10 +619,11 @@
      "team": "MIN",
      "opp": "CHI",
      "schedule_id": "206312",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -669,8 +670,7 @@
       }
      ],
      "num_experts": 3,
-     "rank": 4,
-     "notes": "True Bell cow role with zero backfield competition and great value."
+     "notes": "True Bell-cow role with zero backfield competition and great value."
     },
     {
      "player_id": "328607",
@@ -680,10 +680,11 @@
      "team": "PHI",
      "opp": "TEN",
      "schedule_id": "206318",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -713,8 +714,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
-     "notes": "Solid 16.92 projection as 7.0 point favorites in a 39.5 total game."
+     "notes": "Solid 16.92 projection as 7-point favorites in a 39.5 total game."
     },
     {
      "player_id": "3491661",
@@ -724,16 +724,17 @@
      "team": "NYJ",
      "opp": "GBP",
      "schedule_id": "206311",
+     "rank": 6,
      "dk_rank": 6,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
-     "saver_fd": false,
+     "saver_fd": true,
      "dk": {
       "salary": 6200,
       "fpts": 15.54,
@@ -764,7 +765,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 6,
      "notes": "Clear Bell-cow role with heavy red-zone usage against a depleted front."
     },
     {
@@ -775,10 +775,11 @@
      "team": "CIN",
      "opp": "HOU",
      "schedule_id": "206316",
+     "rank": 7,
      "dk_rank": 7,
      "fd_rank": 7,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -808,8 +809,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
-     "notes": "Strong ceiling projection in a close 2.5 point game script."
+     "notes": "Strong ceiling projection in a close 2.5-point game script."
     },
     {
      "player_id": "4687954",
@@ -819,12 +819,13 @@
      "team": "MIA",
      "opp": "SFO",
      "schedule_id": "206323",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -852,8 +853,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
-     "notes": "High upside receiving back with a 28.8 ceiling projection."
+     "notes": "High-upside receiving back with a 28.8 ceiling projection."
     },
     {
      "player_id": "982082",
@@ -863,10 +863,11 @@
      "team": "HOU",
      "opp": "CIN",
      "schedule_id": "206316",
+     "rank": 9,
      "dk_rank": 8,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -896,8 +897,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
-     "notes": "Solid 15.02 projection in a tight 2.5 point road matchup."
+     "notes": "Solid 15.02 projection in a tight 2.5-point road matchup."
     }
    ]
   },
@@ -912,10 +912,11 @@
      "team": "SEA",
      "opp": "ARI",
      "schedule_id": "206322",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -945,8 +946,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 1,
-     "notes": "Top tier target volume with an elite 38.4 ceiling projection."
+     "notes": "Top-tier target volume with an elite 38.4 ceiling projection."
     },
     {
      "player_id": "1844578",
@@ -956,10 +956,11 @@
      "team": "DAL",
      "opp": "WAS",
      "schedule_id": "206321",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -997,7 +998,6 @@
       }
      ],
      "num_experts": 2,
-     "rank": 2,
      "notes": "Great home game urgency against a vulnerable slot coverage matchup."
     },
     {
@@ -1008,16 +1008,17 @@
      "team": "NYJ",
      "opp": "GBP",
      "schedule_id": "206311",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": null,
-     "dk_slot": "CASH",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "dk": {
       "salary": 6000,
       "fpts": 14.5,
@@ -1041,7 +1042,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "Solid 14.5 projection with strong underlying target volume."
     },
     {
@@ -1052,15 +1052,16 @@
      "team": "WAS",
      "opp": "DAL",
      "schedule_id": "206321",
+     "rank": 4,
      "dk_rank": null,
      "fd_rank": 4,
      "dk_slot": null,
-     "fd_slot": "CASH",
+     "fd_slot": null,
      "slot": "CASH",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "dk": {
       "salary": 5200,
@@ -1085,7 +1086,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "Favorable game environment with a high 50.5 total at indoor venue."
     },
     {
@@ -1096,16 +1096,17 @@
      "team": "PIT",
      "opp": "NEP",
      "schedule_id": "206313",
+     "rank": 5,
      "dk_rank": 4,
      "fd_rank": null,
-     "dk_slot": "CASH",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "dk": {
       "salary": 5200,
       "fpts": 13.27,
@@ -1129,7 +1130,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
      "notes": "Strong red-zone role and solid projection in a 41.5 total matchup."
     },
     {
@@ -1140,10 +1140,11 @@
      "team": "CIN",
      "opp": "HOU",
      "schedule_id": "206316",
+     "rank": 6,
      "dk_rank": 5,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1180,7 +1181,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 6,
      "notes": "Squeaky wheel narrative with intentional target scheming at low ownership."
     },
     {
@@ -1191,15 +1191,16 @@
      "team": "CAR",
      "opp": "ATL",
      "schedule_id": "206314",
+     "rank": 7,
      "dk_rank": null,
      "fd_rank": 7,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "dk": {
       "salary": 5100,
@@ -1224,7 +1225,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Strong GPP upside with a 27.3 ceiling in a close game script."
     },
     {
@@ -1235,12 +1235,13 @@
      "team": "DEN",
      "opp": "JAC",
      "schedule_id": "206320",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1265,17 +1266,14 @@
       "grade": 1.673,
       "gpp_grade": 0.834
      },
-     "experts": [
-      "Headchopper"
-     ],
+     "experts": [],
      "expert_blurbs": [
       {
        "author": "headChopper",
        "text": "I'm looking for a rebound from Waddle, and the salary on FanDuel appeals to me more than DraftKings relative to the salary cap.\r\n"
       }
      ],
-     "num_experts": 1,
-     "rank": 8,
+     "num_experts": 0,
      "notes": "Priced favorably on FanDuel with solid bounce-back potential."
     },
     {
@@ -1286,10 +1284,11 @@
      "team": "CHI",
      "opp": "MIN",
      "schedule_id": "206312",
+     "rank": 9,
      "dk_rank": 6,
      "fd_rank": 3,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1332,7 +1331,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 9,
      "notes": "Elite yards after catch ability to combat heavy defensive pressure."
     },
     {
@@ -1343,16 +1341,17 @@
      "team": "JAC",
      "opp": "DEN",
      "schedule_id": "206320",
+     "rank": 10,
      "dk_rank": 7,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "dk": {
       "salary": 5900,
       "fpts": 12.83,
@@ -1389,7 +1388,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 10,
      "notes": "Elite slot target share and high efficiency attacking the middle."
     },
     {
@@ -1400,10 +1398,11 @@
      "team": "PHI",
      "opp": "TEN",
      "schedule_id": "206318",
+     "rank": 11,
      "dk_rank": 8,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1441,8 +1440,7 @@
       }
      ],
      "num_experts": 2,
-     "rank": 11,
-     "notes": "Strong route participation and a high ceiling in a 7.0 point spread."
+     "notes": "Strong route participation and a high ceiling in a 7-point spread."
     }
    ]
   },
@@ -1457,13 +1455,14 @@
      "team": "HOU",
      "opp": "CIN",
      "schedule_id": "206316",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
-     "core_dk": true,
+     "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
      "saver_fd": false,
@@ -1490,8 +1489,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 1,
-     "notes": "Exceptional points per dollar value in a close 2.5 point matchup."
+     "notes": "Exceptional points-per-dollar value in a close 2.5-point matchup."
     },
     {
      "player_id": "328096",
@@ -1501,10 +1499,11 @@
      "team": "BAL",
      "opp": "NOS",
      "schedule_id": "206317",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1541,7 +1540,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 2,
      "notes": "Clear TE1 role with high route rate and missing receiver targets."
     },
     {
@@ -1552,10 +1550,11 @@
      "team": "ARI",
      "opp": "SEA",
      "schedule_id": "206322",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1585,7 +1584,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "Elite tight end option with a massive 30.6 ceiling projection."
     },
     {
@@ -1596,10 +1594,11 @@
      "team": "CHI",
      "opp": "MIN",
      "schedule_id": "206312",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1632,8 +1631,7 @@
      ],
      "expert_blurbs": [],
      "num_experts": 2,
-     "rank": 4,
-     "notes": "Strong route rate and red-zone involvement in a high total game."
+     "notes": "Strong route rate and red-zone involvement in a high-total game."
     },
     {
      "player_id": "4687882",
@@ -1643,10 +1641,11 @@
      "team": "LVR",
      "opp": "LAC",
      "schedule_id": "206319",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 7,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1698,7 +1697,6 @@
       }
      ],
      "num_experts": 4,
-     "rank": 5,
      "notes": "Led team in route participation and catches at a discounted salary."
     },
     {
@@ -1709,10 +1707,11 @@
      "team": "PHI",
      "opp": "TEN",
      "schedule_id": "206318",
+     "rank": 6,
      "dk_rank": 6,
      "fd_rank": 5,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1744,8 +1743,7 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 6,
-     "notes": "Solid 11.48 projection as 7.0 point favorites at home."
+     "notes": "Solid 11.48 projection as 7.-point favorites at home."
     },
     {
      "player_id": "37069",
@@ -1755,10 +1753,11 @@
      "team": "SFO",
      "opp": "MIA",
      "schedule_id": "206323",
+     "rank": 7,
      "dk_rank": 7,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1788,8 +1787,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
-     "notes": "Strong ceiling projection as heavy 13.5 point home favorites."
+     "notes": "Strong ceiling projection as heavy 13.5-point home favorites."
     },
     {
      "player_id": "4687755",
@@ -1799,10 +1797,11 @@
      "team": "GBP",
      "opp": "NYJ",
      "schedule_id": "206311",
+     "rank": 8,
      "dk_rank": 8,
      "fd_rank": 8,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1832,7 +1831,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Solid 11.01 projection with strong red-zone route usage."
     }
    ]
@@ -1848,10 +1846,11 @@
      "team": "BAL",
      "opp": "NOS",
      "schedule_id": "206317",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1881,7 +1880,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 1,
      "notes": "DST Ranked by Projections"
     },
     {
@@ -1892,10 +1890,11 @@
      "team": "SEA",
      "opp": "ARI",
      "schedule_id": "206322",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1925,7 +1924,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 2,
      "notes": "DST Ranked by Projections"
     },
     {
@@ -1936,10 +1934,11 @@
      "team": "NEP",
      "opp": "PIT",
      "schedule_id": "206313",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1969,7 +1968,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "DST Ranked by Projections"
     },
     {
@@ -1980,10 +1978,11 @@
      "team": "SFO",
      "opp": "MIA",
      "schedule_id": "206323",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2013,7 +2012,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "DST Ranked by Projections"
     },
     {
@@ -2024,10 +2022,11 @@
      "team": "PHI",
      "opp": "TEN",
      "schedule_id": "206318",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2057,7 +2056,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
      "notes": "DST Ranked by Projections"
     }
    ]
