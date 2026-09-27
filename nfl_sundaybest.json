@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-27T08:20",
+ "updated": "2026-09-27T08:34",
  "slate_ids": {
   "draftkings": "153769",
   "fanduel": "134503"
@@ -10,8 +10,8 @@
   "FD"
  ],
  "core_counts": {
-  "DK": 2,
-  "FD": 2
+  "DK": 3,
+  "FD": 3
  },
  "sections": [
   {
@@ -43,8 +43,8 @@
       "ceil": 28.0,
       "opto": 15.0,
       "pown": 10.1,
-      "grade": 2.01,
-      "gpp_grade": 0.931,
+      "grade": 4.01,
+      "gpp_grade": 2.931,
       "injury": null
      },
      "fd": {
@@ -79,7 +79,67 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Saints play at the league's fastest pace in a potential high-scoring home game."
+     "notes": "Saints play the fastest pace in a high total game against the Raiders."
+    },
+    {
+     "player_id": "16557",
+     "core_id": "6816",
+     "players": "Geno Smith",
+     "pos": "QB",
+     "team": "NYJ",
+     "opp": "DET",
+     "schedule_id": "206441",
+     "dk_rank": 2,
+     "fd_rank": null,
+     "dk_slot": "CASH",
+     "fd_slot": null,
+     "slot": "CASH",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 4900,
+      "fpts": 15.72,
+      "ppd": 3.21,
+      "ceil": 23.4,
+      "opto": 6.8,
+      "pown": 5.7,
+      "grade": 2.367,
+      "gpp_grade": 2.245,
+      "injury": null
+     },
+     "fd": {
+      "salary": 6700,
+      "fpts": 15.58,
+      "ppd": 2.33,
+      "ceil": 23.2,
+      "opto": 5.0,
+      "pown": 5.4,
+      "grade": 0.047,
+      "gpp_grade": 0.062,
+      "injury": null
+     },
+     "experts": [
+      "Headchopper",
+      "Krayton",
+      "Bobby Gomes"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Krayton",
+       "text": "Geno Smith is one of my favorite cheaper QB options on DK as Garrett Wilson is my favorite WR to pair him with.   I could see Smith airing it out quite a bit against a Lions secondary that is especially depleted at safety.  Wilson has elite upside and is just $6.3K on DK and you can get the cheaper WR option in Adonai Mitchell for just $4.3, making this a cheaper stack to build around allowing you to pay up for some of the higher priced players in great positions this week."
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Dirt cheap on both sites and should be unowned in GPPs. Very much like last week, Geno should be forced to throw the ball 40 times in one of the highest total games on the slate. His main receiving weapons are also fairly priced, which makes stacking him very affordable and allows you to runback the expensive pieces for the Lions."
+      }
+     ],
+     "num_experts": 3,
+     "rank": 2,
+     "notes": "Favorable pass volume against a depleted Lions secondary in a dome."
     },
     {
      "player_id": "328331",
@@ -89,7 +149,7 @@
      "team": "BUF",
      "opp": "LAC",
      "schedule_id": "206447",
-     "dk_rank": 2,
+     "dk_rank": 3,
      "fd_rank": 1,
      "dk_slot": "CASH",
      "fd_slot": "CASH",
@@ -130,55 +190,8 @@
       }
      ],
      "num_experts": 0,
-     "rank": 2,
-     "notes": "High-end salary with elite pass volume and a strong 50.5 game total in Buffalo."
-    },
-    {
-     "player_id": "2861939",
-     "core_id": "50547",
-     "players": "Trevor Lawrence",
-     "pos": "QB",
-     "team": "JAC",
-     "opp": "NEP",
-     "schedule_id": "206443",
-     "dk_rank": 3,
-     "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 5700,
-      "fpts": 19.11,
-      "ppd": 3.35,
-      "ceil": 27.5,
-      "opto": 9.4,
-      "pown": 5.4,
-      "grade": 1.008,
-      "gpp_grade": 0.468,
-      "injury": null
-     },
-     "fd": {
-      "salary": 7700,
-      "fpts": 18.81,
-      "ppd": 2.44,
-      "ceil": 27.1,
-      "opto": 7.8,
-      "pown": 5.2,
-      "grade": 0.726,
-      "gpp_grade": 0.409,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
      "rank": 3,
-     "notes": "Solid home favorite spot with a 45.5 game total to drive solid passing volume."
+     "notes": "High implied team total and strong pricing value on FanDuel."
     },
     {
      "player_id": "1849725",
@@ -225,7 +238,54 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "High game total of 50.5 points against Buffalo should force heavy pass volume."
+     "notes": "Strong passing game environment in a 50.5 total against Buffalo."
+    },
+    {
+     "player_id": "2861939",
+     "core_id": "50547",
+     "players": "Trevor Lawrence",
+     "pos": "QB",
+     "team": "JAC",
+     "opp": "NEP",
+     "schedule_id": "206443",
+     "dk_rank": 4,
+     "fd_rank": 5,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": true,
+     "injury": null,
+     "dk": {
+      "salary": 5700,
+      "fpts": 19.11,
+      "ppd": 3.35,
+      "ceil": 27.5,
+      "opto": 9.4,
+      "pown": 5.4,
+      "grade": 1.008,
+      "gpp_grade": 0.468,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7700,
+      "fpts": 18.81,
+      "ppd": 2.44,
+      "ceil": 27.1,
+      "opto": 7.8,
+      "pown": 5.2,
+      "grade": 0.726,
+      "gpp_grade": 0.409,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "Solid 45.5 total matchup with favorable home favorite odds."
     },
     {
      "player_id": "37022",
@@ -235,7 +295,7 @@
      "team": "KCC",
      "opp": "MIA",
      "schedule_id": "206444",
-     "dk_rank": 4,
+     "dk_rank": 5,
      "fd_rank": null,
      "dk_slot": "CASH",
      "fd_slot": null,
@@ -278,62 +338,55 @@
       }
      ],
      "num_experts": 1,
-     "rank": 5,
-     "notes": "Third-highest scoring quarterback with a strong 28.0 implied team total."
+     "rank": 6,
+     "notes": "High 28 point implied team total and massive offensive efficiency."
     },
     {
-     "player_id": "973153",
-     "core_id": "54000",
-     "players": "Kyler Murray",
+     "player_id": "35539",
+     "core_id": "26479",
+     "players": "Dak Prescott",
      "pos": "QB",
-     "team": "MIN",
-     "opp": "TBB",
-     "schedule_id": "206448",
-     "dk_rank": 5,
-     "fd_rank": 8,
-     "dk_slot": "CASH",
+     "team": "DAL",
+     "opp": "BAL",
+     "schedule_id": "206451",
+     "dk_rank": null,
+     "fd_rank": 7,
+     "dk_slot": null,
      "fd_slot": "GPP",
-     "slot": "CASH",
-     "site_only": null,
+     "slot": "GPP",
+     "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
+     "saver_dk": false,
+     "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 5100,
-      "fpts": 17.58,
-      "ppd": 3.45,
-      "ceil": 25.6,
-      "opto": 5.5,
-      "pown": 4.8,
-      "grade": 0.62,
-      "gpp_grade": 0.44,
+      "salary": 6700,
+      "fpts": 20.39,
+      "ppd": 3.04,
+      "ceil": 29.2,
+      "opto": 4.3,
+      "pown": 5.0,
+      "grade": 0.314,
+      "gpp_grade": 0.395,
       "injury": null
      },
      "fd": {
-      "salary": 7000,
-      "fpts": 17.43,
-      "ppd": 2.49,
-      "ceil": 25.4,
-      "opto": 5.0,
-      "pown": 3.9,
-      "grade": 0.43,
-      "gpp_grade": 0.445,
+      "salary": 8300,
+      "fpts": 20.25,
+      "ppd": 2.44,
+      "ceil": 29.0,
+      "opto": 4.4,
+      "pown": 4.6,
+      "grade": 0.554,
+      "gpp_grade": 0.591,
       "injury": null
      },
-     "experts": [
-      "Jordan Vanek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "vanekjordan",
-       "text": "Over the last three years, according to Fantasy Points, the Vikings have had the third-highest aDOT in the NFL against single-high coverage. That\u2019s the primary coverage Tampa Bay plays, and the big-play upside is significant in this matchup. "
-      }
-     ],
-     "num_experts": 1,
-     "rank": 6,
-     "notes": "Affordable Price tag in a tight divisional matchup with a 42.5 game total."
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "Elite 53.5 game total in a pass friendly matchup versus Baltimore."
     },
     {
      "player_id": "328097",
@@ -387,8 +440,8 @@
       }
      ],
      "num_experts": 2,
-     "rank": 7,
-     "notes": "High ceiling in a marquee matchup featuring the slate's top 53.5 game total."
+     "rank": 8,
+     "notes": "Rushing floor in the highest game total on the slate at 53.5."
     },
     {
      "player_id": "3492223",
@@ -441,55 +494,62 @@
       }
      ],
      "num_experts": 1,
-     "rank": 8,
-     "notes": "High pass rate in an offense carrying a massive 28-point implied team total."
+     "rank": 9,
+     "notes": "High implied team total and rushing floor against Arizona."
     },
     {
-     "player_id": "35539",
-     "core_id": "26479",
-     "players": "Dak Prescott",
+     "player_id": "973153",
+     "core_id": "54000",
+     "players": "Kyler Murray",
      "pos": "QB",
-     "team": "DAL",
-     "opp": "BAL",
-     "schedule_id": "206451",
+     "team": "MIN",
+     "opp": "TBB",
+     "schedule_id": "206448",
      "dk_rank": 8,
-     "fd_rank": 7,
+     "fd_rank": 8,
      "dk_slot": "GPP",
      "fd_slot": "GPP",
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
+     "saver_dk": true,
+     "saver_fd": true,
      "injury": null,
      "dk": {
-      "salary": 6700,
-      "fpts": 20.39,
-      "ppd": 3.04,
-      "ceil": 29.2,
-      "opto": 4.3,
-      "pown": 5.0,
-      "grade": 0.314,
-      "gpp_grade": 0.395,
+      "salary": 5100,
+      "fpts": 17.58,
+      "ppd": 3.45,
+      "ceil": 25.6,
+      "opto": 5.5,
+      "pown": 4.8,
+      "grade": 0.62,
+      "gpp_grade": 0.44,
       "injury": null
      },
      "fd": {
-      "salary": 8300,
-      "fpts": 20.25,
-      "ppd": 2.44,
-      "ceil": 29.0,
-      "opto": 4.4,
-      "pown": 4.6,
-      "grade": 0.554,
-      "gpp_grade": 0.591,
+      "salary": 7000,
+      "fpts": 17.43,
+      "ppd": 2.49,
+      "ceil": 25.4,
+      "opto": 5.0,
+      "pown": 3.9,
+      "grade": 0.43,
+      "gpp_grade": 0.445,
       "injury": null
      },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 9,
-     "notes": "Primed for heavy pass attempts in a game carrying a slate-high 53.5 total."
+     "experts": [
+      "Jordan Vanek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "vanekjordan",
+       "text": "Over the last three years, according to Fantasy Points, the Vikings have had the third-highest aDOT in the NFL against single-high coverage. That\u2019s the primary coverage Tampa Bay plays, and the big-play upside is significant in this matchup. "
+      }
+     ],
+     "num_experts": 1,
+     "rank": 10,
+     "notes": "Close 1.5 spread and tightly contested game environment."
     }
    ]
   },
@@ -522,8 +582,8 @@
       "ceil": 36.0,
       "opto": 34.5,
       "pown": 31.0,
-      "grade": 2.691,
-      "gpp_grade": 1.518,
+      "grade": 5.941,
+      "gpp_grade": 4.768,
       "injury": null
      },
      "fd": {
@@ -533,8 +593,8 @@
       "ceil": 32.5,
       "opto": 44.8,
       "pown": 37.1,
-      "grade": 3.002,
-      "gpp_grade": 1.509,
+      "grade": 6.252,
+      "gpp_grade": 4.759,
       "injury": null
      },
      "experts": [
@@ -560,7 +620,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Elite Bell-cow role with heavy snap share and strong pass-catching usage."
+     "notes": "Bell cow workhorse role with massive snap share and receiving work."
     },
     {
      "player_id": "3492251",
@@ -576,8 +636,8 @@
      "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
+     "core_dk": true,
+     "core_fd": true,
      "saver_dk": false,
      "saver_fd": false,
      "injury": null,
@@ -588,8 +648,8 @@
       "ceil": 31.2,
       "opto": 23.6,
       "pown": 26.1,
-      "grade": 2.043,
-      "gpp_grade": 1.285,
+      "grade": 5.293,
+      "gpp_grade": 4.535,
       "injury": null
      },
      "fd": {
@@ -599,8 +659,8 @@
       "ceil": 28.5,
       "opto": 23.9,
       "pown": 32.1,
-      "grade": 1.987,
-      "gpp_grade": 1.271,
+      "grade": 5.237,
+      "gpp_grade": 4.521,
       "injury": null
      },
      "experts": [
@@ -617,7 +677,177 @@
      ],
      "num_experts": 4,
      "rank": 2,
-     "notes": "Heavy workload and strong rushing role as a heavy home favorite."
+     "notes": "Heavy workload and high implied team total as large favorites."
+    },
+    {
+     "player_id": "2862163",
+     "core_id": "46456",
+     "players": "Chuba Hubbard",
+     "pos": "RB",
+     "team": "CAR",
+     "opp": "CLE",
+     "schedule_id": "206446",
+     "dk_rank": 3,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": true,
+     "injury": null,
+     "dk": {
+      "salary": 6100,
+      "fpts": 15.41,
+      "ppd": 2.53,
+      "ceil": 24.2,
+      "opto": 8.9,
+      "pown": 8.9,
+      "grade": 3.039,
+      "gpp_grade": 2.882,
+      "injury": null
+     },
+     "fd": {
+      "salary": 6700,
+      "fpts": 14.06,
+      "ppd": 2.1,
+      "ceil": 22.1,
+      "opto": 11.4,
+      "pown": 10.8,
+      "grade": 4.46,
+      "gpp_grade": 4.286,
+      "injury": null
+     },
+     "experts": [
+      "Bobby Gomes",
+      "EBeimfohr",
+      "Davis Mattek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "headChopper",
+       "text": "Jonathan Brooks is out again, and that should leave a pretty big workload for Chuba Hubbard. The price tag on FanDuel is very appealing, and this offense has shown it can run the ball on anybody when it gets going.\r\n"
+      },
+      {
+       "author": "ebeimfohr",
+       "text": "Without Brooks, Chuba should have one of the larger workloads among all RBs in the league, and he's very affordable on both sites."
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Chuba Hubbard has less competition with Jonathan Brooks already ruled out, this should pave way for a healthy dose of Chuba. Cleveland has opened the year allowing 5 YPC to opposing running backs with a 54.5% success rate. The panthers are road favorites, and the Browns have struggled to chain possessions with Watson this season which lead to a very run friendly run script for Hubbard. "
+      }
+     ],
+     "num_experts": 3,
+     "rank": 3,
+     "notes": "Workhorse touches with Jonathan Brooks out against Cleveland."
+    },
+    {
+     "player_id": "3491433",
+     "core_id": "136380",
+     "players": "Jaylen Warren",
+     "pos": "RB",
+     "team": "PIT",
+     "opp": "CIN",
+     "schedule_id": "206440",
+     "dk_rank": 4,
+     "fd_rank": 6,
+     "dk_slot": "CASH",
+     "fd_slot": "GPP",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": true,
+     "injury": "Q",
+     "dk": {
+      "salary": 5700,
+      "fpts": 18.17,
+      "ppd": 3.19,
+      "ceil": 27.1,
+      "opto": 33.9,
+      "pown": 11.8,
+      "grade": 1.328,
+      "gpp_grade": 0.984,
+      "injury": "Q"
+     },
+     "fd": {
+      "salary": 6300,
+      "fpts": 15.86,
+      "ppd": 2.52,
+      "ceil": 23.6,
+      "opto": 33.6,
+      "pown": 8.7,
+      "grade": 1.15,
+      "gpp_grade": 0.95,
+      "injury": "Q"
+     },
+     "experts": [
+      "ncorfield8k",
+      "Davis Mattek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "DavisMattek",
+       "text": "For the first time in his career, Jaylen Warren will be getting a start without a trusted backup (Najee/Gainwell never missed a game). Warren played a career-high 50 snaps last week; I think his workload will be unassailable here against CIN."
+      },
+      {
+       "author": "NeilCO",
+       "text": "Warren has always had the talent to be a great fantasy asset if he saw increased usage. We should finally see that increased usage with Rico Dowdle out this week."
+      }
+     ],
+     "num_experts": 2,
+     "rank": 4,
+     "notes": "Unassailable workhorse workload with a massive career-high snap count."
+    },
+    {
+     "player_id": "4687629",
+     "core_id": "56372",
+     "players": "Chase Brown",
+     "pos": "RB",
+     "team": "CIN",
+     "opp": "PIT",
+     "schedule_id": "206440",
+     "dk_rank": null,
+     "fd_rank": 5,
+     "dk_slot": null,
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6600,
+      "fpts": 17.9,
+      "ppd": 2.71,
+      "ceil": 26.7,
+      "opto": 21.5,
+      "pown": 12.4,
+      "grade": 1.65,
+      "gpp_grade": 0.831,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7500,
+      "fpts": 16.12,
+      "ppd": 2.15,
+      "ceil": 24.0,
+      "opto": 20.4,
+      "pown": 15.5,
+      "grade": 1.521,
+      "gpp_grade": 0.822,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "Favorable matchup against Pittsburgh in a 42.5 total game."
     },
     {
      "player_id": "8217222",
@@ -627,8 +857,8 @@
      "team": "LVR",
      "opp": "NOS",
      "schedule_id": "206450",
-     "dk_rank": 3,
-     "fd_rank": 3,
+     "dk_rank": 5,
+     "fd_rank": 4,
      "dk_slot": "CASH",
      "fd_slot": "CASH",
      "slot": "CASH",
@@ -679,178 +909,8 @@
       }
      ],
      "num_experts": 2,
-     "rank": 3,
-     "notes": "Massive touch volume and a huge pass-catching floor in a fast-paced offense."
-    },
-    {
-     "player_id": "3491433",
-     "core_id": "136380",
-     "players": "Jaylen Warren",
-     "pos": "RB",
-     "team": "PIT",
-     "opp": "CIN",
-     "schedule_id": "206440",
-     "dk_rank": 4,
-     "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
-     "injury": "Q",
-     "dk": {
-      "salary": 5700,
-      "fpts": 18.17,
-      "ppd": 3.19,
-      "ceil": 27.1,
-      "opto": 33.9,
-      "pown": 11.8,
-      "grade": 1.328,
-      "gpp_grade": 0.984,
-      "injury": "Q"
-     },
-     "fd": {
-      "salary": 6300,
-      "fpts": 15.86,
-      "ppd": 2.52,
-      "ceil": 23.6,
-      "opto": 33.6,
-      "pown": 8.7,
-      "grade": 1.15,
-      "gpp_grade": 0.95,
-      "injury": "Q"
-     },
-     "experts": [
-      "ncorfield8k",
-      "Davis Mattek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "DavisMattek",
-       "text": "For the first time in his career, Jaylen Warren will be getting a start without a trusted backup (Najee/Gainwell never missed a game). Warren played a career-high 50 snaps last week; I think his workload will be unassailable here against CIN."
-      },
-      {
-       "author": "NeilCO",
-       "text": "Warren has always had the talent to be a great fantasy asset if he saw increased usage. We should finally see that increased usage with Rico Dowdle out this week."
-      }
-     ],
-     "num_experts": 2,
-     "rank": 4,
-     "notes": "Unassailable workload and a career-high snap share with no backfield."
-    },
-    {
-     "player_id": "4687629",
-     "core_id": "56372",
-     "players": "Chase Brown",
-     "pos": "RB",
-     "team": "CIN",
-     "opp": "PIT",
-     "schedule_id": "206440",
-     "dk_rank": 5,
-     "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 6600,
-      "fpts": 17.9,
-      "ppd": 2.71,
-      "ceil": 26.7,
-      "opto": 21.5,
-      "pown": 12.4,
-      "grade": 1.65,
-      "gpp_grade": 0.831,
-      "injury": null
-     },
-     "fd": {
-      "salary": 7500,
-      "fpts": 16.12,
-      "ppd": 2.15,
-      "ceil": 24.0,
-      "opto": 20.4,
-      "pown": 15.5,
-      "grade": 1.521,
-      "gpp_grade": 0.822,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 5,
-     "notes": "Solid rushing role in a close divisional game with a 42.5 total."
-    },
-    {
-     "player_id": "2862163",
-     "core_id": "46456",
-     "players": "Chuba Hubbard",
-     "pos": "RB",
-     "team": "CAR",
-     "opp": "CLE",
-     "schedule_id": "206446",
-     "dk_rank": 6,
-     "fd_rank": null,
-     "dk_slot": "GPP",
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": "DK",
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 6100,
-      "fpts": 15.41,
-      "ppd": 2.53,
-      "ceil": 24.2,
-      "opto": 8.9,
-      "pown": 8.9,
-      "grade": 1.039,
-      "gpp_grade": 0.882,
-      "injury": null
-     },
-     "fd": {
-      "salary": 6700,
-      "fpts": 14.06,
-      "ppd": 2.1,
-      "ceil": 22.1,
-      "opto": 11.4,
-      "pown": 10.8,
-      "grade": 1.21,
-      "gpp_grade": 1.036,
-      "injury": null
-     },
-     "experts": [
-      "Bobby Gomes",
-      "EBeimfohr",
-      "Davis Mattek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "headChopper",
-       "text": "Jonathan Brooks is out again, and that should leave a pretty big workload for Chuba Hubbard. The price tag on FanDuel is very appealing, and this offense has shown it can run the ball on anybody when it gets going.\r\n"
-      },
-      {
-       "author": "ebeimfohr",
-       "text": "Without Brooks, Chuba should have one of the larger workloads among all RBs in the league, and he's very affordable on both sites."
-      },
-      {
-       "author": "BobbyGomes",
-       "text": "Chuba Hubbard has less competition with Jonathan Brooks already ruled out, this should pave way for a healthy dose of Chuba. Cleveland has opened the year allowing 5 YPC to opposing running backs with a 54.5% success rate. The panthers are road favorites, and the Browns have struggled to chain possessions with Watson this season which lead to a very run friendly run script for Hubbard. "
-      }
-     ],
-     "num_experts": 3,
      "rank": 6,
-     "notes": "Expanded backfield workload as the lead runner for a road favorite."
+     "notes": "Massive touch volume and massive pass game usage as a workhorse."
     },
     {
      "player_id": "8228864",
@@ -860,8 +920,8 @@
      "team": "NYG",
      "opp": "TEN",
      "schedule_id": "206442",
-     "dk_rank": 7,
-     "fd_rank": 6,
+     "dk_rank": 6,
+     "fd_rank": 7,
      "dk_slot": "GPP",
      "fd_slot": "GPP",
      "slot": "GPP",
@@ -897,54 +957,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Featured rushing role for a slight home favorite in a low-total matchup."
-    },
-    {
-     "player_id": "8217247",
-     "core_id": "237833",
-     "players": "Omarion Hampton",
-     "pos": "RB",
-     "team": "LAC",
-     "opp": "BUF",
-     "schedule_id": "206447",
-     "dk_rank": null,
-     "fd_rank": 8,
-     "dk_slot": null,
-     "fd_slot": "GPP",
-     "slot": "GPP",
-     "site_only": "FD",
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 6800,
-      "fpts": 14.32,
-      "ppd": 2.11,
-      "ceil": 23.0,
-      "opto": 2.1,
-      "pown": 5.1,
-      "grade": 0.527,
-      "gpp_grade": 0.659,
-      "injury": null
-     },
-     "fd": {
-      "salary": 7200,
-      "fpts": 13.04,
-      "ppd": 1.81,
-      "ceil": 21.0,
-      "opto": 4.9,
-      "pown": 6.7,
-      "grade": 0.668,
-      "gpp_grade": 0.676,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 8,
-     "notes": "Underdog game script could push more passing-down work in a high total."
+     "notes": "Home favorite role with solid red-zone opportunities against Tennessee."
     },
     {
      "player_id": "982082",
@@ -954,8 +967,8 @@
      "team": "HOU",
      "opp": "IND",
      "schedule_id": "206445",
-     "dk_rank": 8,
-     "fd_rank": 7,
+     "dk_rank": 7,
+     "fd_rank": 8,
      "dk_slot": "GPP",
      "fd_slot": "GPP",
      "slot": "GPP",
@@ -997,14 +1010,191 @@
       }
      ],
      "num_experts": 1,
+     "rank": 8,
+     "notes": "Bounce-back spot against a porous Colts rush defense."
+    },
+    {
+     "player_id": "3491576",
+     "core_id": "58170",
+     "players": "James Cook",
+     "pos": "RB",
+     "team": "BUF",
+     "opp": "LAC",
+     "schedule_id": "206447",
+     "dk_rank": 8,
+     "fd_rank": null,
+     "dk_slot": "GPP",
+     "fd_slot": null,
+     "slot": "GPP",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6900,
+      "fpts": 16.36,
+      "ppd": 2.37,
+      "ceil": 25.0,
+      "opto": 11.3,
+      "pown": 9.5,
+      "grade": 1.068,
+      "gpp_grade": 0.713,
+      "injury": null
+     },
+     "fd": {
+      "salary": 8100,
+      "fpts": 15.08,
+      "ppd": 1.86,
+      "ceil": 23.1,
+      "opto": 10.4,
+      "pown": 13.3,
+      "grade": 0.993,
+      "gpp_grade": 0.719,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
      "rank": 9,
-     "notes": "Expected bounce-back spot against a porous run defense allowing heavy points."
+     "notes": "Strong implied team total in a 50.5 total game against LA."
     }
    ]
   },
   {
    "position": "WR",
    "players": [
+    {
+     "player_id": "4687830",
+     "core_id": "137499",
+     "players": "Parker Washington",
+     "pos": "WR",
+     "team": "JAC",
+     "opp": "NEP",
+     "schedule_id": "206443",
+     "dk_rank": 1,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": true,
+     "core_fd": true,
+     "saver_dk": true,
+     "saver_fd": true,
+     "injury": null,
+     "dk": {
+      "salary": 6000,
+      "fpts": 15.43,
+      "ppd": 2.57,
+      "ceil": 26.9,
+      "opto": 17.1,
+      "pown": 15.5,
+      "grade": 5.451,
+      "gpp_grade": 4.433,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7100,
+      "fpts": 12.79,
+      "ppd": 1.8,
+      "ceil": 22.3,
+      "opto": 14.1,
+      "pown": 12.1,
+      "grade": 5.303,
+      "gpp_grade": 4.468,
+      "injury": null
+     },
+     "experts": [
+      "Notorious",
+      "Bobby Gomes",
+      "EBeimfohr",
+      "ncorfield8k",
+      "Davis Mattek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "ebeimfohr",
+       "text": "Parker has the 2nd highest target share in the NFL with a top 5 yards per route run through 2 games. The Pats are not an ideal matchup, but he's way too cheap and should avoid Christian Gonzalez with most of his snaps coming from the slot."
+      },
+      {
+       "author": "DavisMattek",
+       "text": "Parker Washington is giving us JSN level usage with arguably a better quarterback and overall offensive efficiency. He is my favorite WR play of the slate on both DK and FD."
+      },
+      {
+       "author": "Notorious",
+       "text": "The Patriots are far from an ideal matchup on paper, ranking 2nd in EPA allowed per dropback and 11th in fantasy points allowed to wideouts through two games. But dig a little deeper and the setup for Parker Washington ($6,000 DK / $7,100 FD) actually looks great. He runs nearly half his routes from the slot, keeping him away from Christian Gonzalez, and the Patriots have played man coverage at the 2nd highest rate in the league this season. Washington has a massive 57% target rate against man coverage, so expect him to get peppered with looks in this one."
+      },
+      {
+       "author": "NeilCO",
+       "text": "Washington's salary and ownership are slowly catching up to what we're seeing from him this year. But we're still getting a discount on both."
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Parker Washington continues to be underpriced given his usage entering Week 3. He should have a similar role on Sunday as he did last week, playing primarily from the slot, this time to avoid a matchup with Christian Gonzalez (this weeks version of Pat Surtain). Until they raise his price or make his ownership uncomfortable to play, he will be a staple in my lineups. "
+      }
+     ],
+     "num_experts": 5,
+     "rank": 1,
+     "notes": "Elite target share and slot route usage avoiding Christian Gonzalez."
+    },
+    {
+     "player_id": "3491660",
+     "core_id": "43396",
+     "players": "Garrett Wilson",
+     "pos": "WR",
+     "team": "NYJ",
+     "opp": "DET",
+     "schedule_id": "206441",
+     "dk_rank": 2,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6300,
+      "fpts": 14.38,
+      "ppd": 2.28,
+      "ceil": 25.3,
+      "opto": 11.5,
+      "pown": 21.3,
+      "grade": 3.533,
+      "gpp_grade": 2.865,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7300,
+      "fpts": 11.74,
+      "ppd": 1.61,
+      "ceil": 20.7,
+      "opto": 8.8,
+      "pown": 17.9,
+      "grade": 3.381,
+      "gpp_grade": 2.886,
+      "injury": null
+     },
+     "experts": [
+      "Notorious",
+      "Headchopper",
+      "Davis Mattek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Notorious",
+       "text": "The Lions started the season already missing their top two safeties and have only piled on more secondary injuries since. It shows: they're bottom eight in EPA allowed per dropback, fantasy points allowed to wideouts, and success rate allowed. Geno Smith has been an upgrade at quarterback for the Jets, and he hasn't even had his best game yet. As 6.5-point road dogs in a dome, this matchup sets up perfectly. If Smith pops, Wilson ($6,300 DK / $7,300 FD) is the clear beneficiary, with a 22% target share and 38% air yards share through 2 games."
+      }
+     ],
+     "num_experts": 3,
+     "rank": 2,
+     "notes": "Strong target share against a depleted Lions secondary."
+    },
     {
      "player_id": "4688187",
      "core_id": "134969",
@@ -1013,14 +1203,14 @@
      "team": "SEA",
      "opp": "WAS",
      "schedule_id": "206439",
-     "dk_rank": 1,
-     "fd_rank": 1,
+     "dk_rank": 3,
+     "fd_rank": 3,
      "dk_slot": "CASH",
      "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
-     "core_fd": true,
+     "core_fd": false,
      "saver_dk": false,
      "saver_fd": false,
      "injury": null,
@@ -1056,176 +1246,8 @@
       }
      ],
      "num_experts": 1,
-     "rank": 1,
-     "notes": "Strong target volume as a heavy home favorite with a positive game script."
-    },
-    {
-     "player_id": "3491988",
-     "core_id": "47332",
-     "players": "Chris Olave",
-     "pos": "WR",
-     "team": "NOS",
-     "opp": "LVR",
-     "schedule_id": "206450",
-     "dk_rank": 2,
-     "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 7200,
-      "fpts": 18.02,
-      "ppd": 2.5,
-      "ceil": 30.7,
-      "opto": 17.7,
-      "pown": 16.7,
-      "grade": 2.233,
-      "gpp_grade": 1.027,
-      "injury": null
-     },
-     "fd": {
-      "salary": 8100,
-      "fpts": 14.66,
-      "ppd": 1.81,
-      "ceil": 24.9,
-      "opto": 12.6,
-      "pown": 15.2,
-      "grade": 1.92,
-      "gpp_grade": 1.053,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 2,
-     "notes": "Strong downfield role in a fast-paced offense with a healthy implied total."
-    },
-    {
-     "player_id": "4687830",
-     "core_id": "137499",
-     "players": "Parker Washington",
-     "pos": "WR",
-     "team": "JAC",
-     "opp": "NEP",
-     "schedule_id": "206443",
-     "dk_rank": 3,
-     "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 6000,
-      "fpts": 15.43,
-      "ppd": 2.57,
-      "ceil": 26.9,
-      "opto": 17.1,
-      "pown": 15.5,
-      "grade": 2.201,
-      "gpp_grade": 1.183,
-      "injury": null
-     },
-     "fd": {
-      "salary": 7100,
-      "fpts": 12.79,
-      "ppd": 1.8,
-      "ceil": 22.3,
-      "opto": 14.1,
-      "pown": 12.1,
-      "grade": 2.053,
-      "gpp_grade": 1.218,
-      "injury": null
-     },
-     "experts": [
-      "Notorious",
-      "Bobby Gomes",
-      "EBeimfohr",
-      "ncorfield8k",
-      "Davis Mattek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "ebeimfohr",
-       "text": "Parker has the 2nd highest target share in the NFL with a top 5 yards per route run through 2 games. The Pats are not an ideal matchup, but he's way too cheap and should avoid Christian Gonzalez with most of his snaps coming from the slot."
-      },
-      {
-       "author": "DavisMattek",
-       "text": "Parker Washington is giving us JSN level usage with arguably a better quarterback and overall offensive efficiency. He is my favorite WR play of the slate on both DK and FD."
-      },
-      {
-       "author": "Notorious",
-       "text": "The Patriots are far from an ideal matchup on paper, ranking 2nd in EPA allowed per dropback and 11th in fantasy points allowed to wideouts through two games. But dig a little deeper and the setup for Parker Washington ($6,000 DK / $7,100 FD) actually looks great. He runs nearly half his routes from the slot, keeping him away from Christian Gonzalez, and the Patriots have played man coverage at the 2nd highest rate in the league this season. Washington has a massive 57% target rate against man coverage, so expect him to get peppered with looks in this one."
-      },
-      {
-       "author": "NeilCO",
-       "text": "Washington's salary and ownership are slowly catching up to what we're seeing from him this year. But we're still getting a discount on both."
-      },
-      {
-       "author": "BobbyGomes",
-       "text": "Parker Washington continues to be underpriced given his usage entering Week 3. He should have a similar role on Sunday as he did last week, playing primarily from the slot, this time to avoid a matchup with Christian Gonzalez (this weeks version of Pat Surtain). Until they raise his price or make his ownership uncomfortable to play, he will be a staple in my lineups. "
-      }
-     ],
-     "num_experts": 5,
      "rank": 3,
-     "notes": "Heavy slot alignment helps avoid top cornerbacks in a man-heavy scheme."
-    },
-    {
-     "player_id": "1844578",
-     "core_id": "54073",
-     "players": "CeeDee Lamb",
-     "pos": "WR",
-     "team": "DAL",
-     "opp": "BAL",
-     "schedule_id": "206451",
-     "dk_rank": null,
-     "fd_rank": 4,
-     "dk_slot": null,
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": "FD",
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 7800,
-      "fpts": 18.97,
-      "ppd": 2.43,
-      "ceil": 31.5,
-      "opto": 11.3,
-      "pown": 11.9,
-      "grade": 1.775,
-      "gpp_grade": 1.046,
-      "injury": null
-     },
-     "fd": {
-      "salary": 8600,
-      "fpts": 15.77,
-      "ppd": 1.83,
-      "ceil": 26.2,
-      "opto": 11.6,
-      "pown": 12.7,
-      "grade": 1.925,
-      "gpp_grade": 1.12,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 4,
-     "notes": "High target share in a game carrying the slate's highest 53.5 total."
+     "notes": "High target volume and ceiling in a favorable game script."
     },
     {
      "player_id": "6228204",
@@ -1236,7 +1258,7 @@
      "opp": "BUF",
      "schedule_id": "206447",
      "dk_rank": 4,
-     "fd_rank": 2,
+     "fd_rank": 4,
      "dk_slot": "CASH",
      "fd_slot": "CASH",
      "slot": "CASH",
@@ -1276,17 +1298,64 @@
       }
      ],
      "num_experts": 0,
-     "rank": 5,
-     "notes": "Expected to resume primary slot duties after an extra week of recovery."
+     "rank": 4,
+     "notes": "Healthier after extra recovery week in a high total game."
     },
     {
-     "player_id": "2861659",
-     "core_id": "56173",
-     "players": "Amon-Ra St. Brown",
+     "player_id": "1844578",
+     "core_id": "54073",
+     "players": "CeeDee Lamb",
      "pos": "WR",
-     "team": "DET",
-     "opp": "NYJ",
-     "schedule_id": "206441",
+     "team": "DAL",
+     "opp": "BAL",
+     "schedule_id": "206451",
+     "dk_rank": null,
+     "fd_rank": 5,
+     "dk_slot": null,
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 7800,
+      "fpts": 18.97,
+      "ppd": 2.43,
+      "ceil": 31.5,
+      "opto": 11.3,
+      "pown": 11.9,
+      "grade": 1.775,
+      "gpp_grade": 1.046,
+      "injury": null
+     },
+     "fd": {
+      "salary": 8600,
+      "fpts": 15.77,
+      "ppd": 1.83,
+      "ceil": 26.2,
+      "opto": 11.6,
+      "pown": 12.7,
+      "grade": 1.925,
+      "gpp_grade": 1.12,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "Elite target upside in the highest game total on the slate."
+    },
+    {
+     "player_id": "3491988",
+     "core_id": "47332",
+     "players": "Chris Olave",
+     "pos": "WR",
+     "team": "NOS",
+     "opp": "LVR",
+     "schedule_id": "206450",
      "dk_rank": 5,
      "fd_rank": null,
      "dk_slot": "CASH",
@@ -1299,39 +1368,32 @@
      "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 7900,
-      "fpts": 20.75,
-      "ppd": 2.63,
-      "ceil": 33.2,
-      "opto": 13.0,
-      "pown": 18.5,
-      "grade": 2.077,
-      "gpp_grade": 1.171,
+      "salary": 7200,
+      "fpts": 18.02,
+      "ppd": 2.5,
+      "ceil": 30.7,
+      "opto": 17.7,
+      "pown": 16.7,
+      "grade": 2.233,
+      "gpp_grade": 1.027,
       "injury": null
      },
      "fd": {
-      "salary": 9000,
-      "fpts": 16.91,
-      "ppd": 1.88,
-      "ceil": 27.1,
-      "opto": 7.7,
-      "pown": 13.2,
-      "grade": 1.724,
-      "gpp_grade": 1.192,
+      "salary": 8100,
+      "fpts": 14.66,
+      "ppd": 1.81,
+      "ceil": 24.9,
+      "opto": 12.6,
+      "pown": 15.2,
+      "grade": 1.92,
+      "gpp_grade": 1.053,
       "injury": null
      },
-     "experts": [
-      "Bobby Gomes"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "BobbyGomes",
-       "text": "Playable in both cash and GPPs for me this week as he is a very safe runback for any Geno Smith team. ASB now has 19 receptions on 27 targets and 4 TDs entering this week. He continues to be Goffs main guy in the redzone outside of Gibbs. "
-      }
-     ],
-     "num_experts": 1,
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
      "rank": 6,
-     "notes": "Elite target share in a high-total matchup with strong offensive pace."
+     "notes": "High ceiling in a fast paced matchup against Las Vegas."
     },
     {
      "player_id": "2861551",
@@ -1378,7 +1440,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Primary downfield weapon in an anticipated divisional battle."
+     "notes": "Explosive deep role in a divisional matchup against Pittsburgh."
     },
     {
      "player_id": "3491429",
@@ -1432,7 +1494,7 @@
      ],
      "num_experts": 1,
      "rank": 8,
-     "notes": "Positioned to absorb heavy targets in a pass-heavy game script."
+     "notes": "Primary target volume in a high total game against Baltimore."
     },
     {
      "player_id": "1844306",
@@ -1479,7 +1541,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Elite receiving option with condensed targets in a tight divisional matchup."
+     "notes": "Elite route participation in a close divisional game."
     },
     {
      "player_id": "8216948",
@@ -1533,13 +1595,77 @@
      ],
      "num_experts": 1,
      "rank": 10,
-     "notes": "Massive air yards share and condensed targets inside a high PROE offense."
+     "notes": "Condensed targets and massive air yards share against Cleveland."
     }
    ]
   },
   {
    "position": "TE",
    "players": [
+    {
+     "player_id": "4687560",
+     "core_id": "170729",
+     "players": "Dalton Kincaid",
+     "pos": "TE",
+     "team": "BUF",
+     "opp": "LAC",
+     "schedule_id": "206447",
+     "dk_rank": 1,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 5500,
+      "fpts": 11.97,
+      "ppd": 2.18,
+      "ceil": 20.9,
+      "opto": 3.5,
+      "pown": 5.9,
+      "grade": 3.238,
+      "gpp_grade": 3.202,
+      "injury": null
+     },
+     "fd": {
+      "salary": 5700,
+      "fpts": 9.72,
+      "ppd": 1.71,
+      "ceil": 17.0,
+      "opto": 10.1,
+      "pown": 10.3,
+      "grade": 4.336,
+      "gpp_grade": 3.298,
+      "injury": null
+     },
+     "experts": [
+      "EBeimfohr",
+      "ncorfield8k",
+      "Davis Mattek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "ebeimfohr",
+       "text": "Kincaid has always been one of the best and most efficient receiving TEs in the league, but he has not run enough routes to reach his ceiling. That's change this year, as he's run 66% of the routes so far, which has catapulted him into the upper echelon of fantasy TEs, but his price and ownership haven't caught up. He is 3rd in the NFL in receiving yards, not amongst TEs but the entire league. He also has earned a target on 30% of his routes, and he's produced an extremely efficient 4.89 YPRR on a team high target share. The Chargers have also been an extreme pass funnel through two weeks, which plays into the Bills new high pass rate offense with the highest aDOT in the league."
+      },
+      {
+       "author": "DavisMattek",
+       "text": "Kincaid is top 5 over the last 2 seasons amongst TEs in targets per route run and fantasy points per route run, he just has never run enough rates. His route rate is now above 70% for consecutive games for the first time in his career. Absolute jam play."
+      },
+      {
+       "author": "NeilCO",
+       "text": "The Bills have the highest implied team total on the slate. They also rank sixth in PROE. Kincaid is Josh Allen's favorite target so far, with an elite 23.3% target share. If DJ Moore is out or limited, that should only go up. And the Chargers defense is tied for allowing the 8th-most expected points added (EPA) per pass."
+      }
+     ],
+     "num_experts": 3,
+     "rank": 1,
+     "notes": "Elite route rate and massive target share in a high total game."
+    },
     {
      "player_id": "328583",
      "core_id": "40358",
@@ -1548,13 +1674,13 @@
      "team": "HOU",
      "opp": "IND",
      "schedule_id": "206445",
-     "dk_rank": 1,
+     "dk_rank": 2,
      "fd_rank": 3,
      "dk_slot": "CASH",
      "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
-     "core_dk": true,
+     "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
      "saver_fd": false,
@@ -1596,8 +1722,8 @@
       }
      ],
      "num_experts": 2,
-     "rank": 1,
-     "notes": "Every-down tight end with elite target volume with teammates sidelined."
+     "rank": 2,
+     "notes": "Heavy target volume with Nico Collins ruled out again."
     },
     {
      "player_id": "3492164",
@@ -1607,8 +1733,8 @@
      "team": "ARI",
      "opp": "SFO",
      "schedule_id": "206449",
-     "dk_rank": 2,
-     "fd_rank": 1,
+     "dk_rank": 3,
+     "fd_rank": 2,
      "dk_slot": "CASH",
      "fd_slot": "CASH",
      "slot": "CASH",
@@ -1643,8 +1769,55 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 2,
-     "notes": "Primary passing game focal point with high route participation."
+     "rank": 3,
+     "notes": "Seam usage and high target ceiling against San Francisco."
+    },
+    {
+     "player_id": "18314",
+     "core_id": "4377",
+     "players": "Travis Kelce",
+     "pos": "TE",
+     "team": "KCC",
+     "opp": "MIA",
+     "schedule_id": "206444",
+     "dk_rank": null,
+     "fd_rank": 4,
+     "dk_slot": null,
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 4500,
+      "fpts": 12.26,
+      "ppd": 2.72,
+      "ceil": 21.6,
+      "opto": 6.5,
+      "pown": 10.4,
+      "grade": 1.595,
+      "gpp_grade": 0.974,
+      "injury": null
+     },
+     "fd": {
+      "salary": 5500,
+      "fpts": 9.91,
+      "ppd": 1.8,
+      "ceil": 17.5,
+      "opto": 6.7,
+      "pown": 10.1,
+      "grade": 1.818,
+      "gpp_grade": 1.062,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 4,
+     "notes": "Red-zone role in a high implied team total against Miami."
     },
     {
      "player_id": "8228725",
@@ -1654,7 +1827,7 @@
      "team": "LAC",
      "opp": "BUF",
      "schedule_id": "206447",
-     "dk_rank": 3,
+     "dk_rank": 4,
      "fd_rank": 5,
      "dk_slot": "CASH",
      "fd_slot": "CASH",
@@ -1698,8 +1871,8 @@
       }
      ],
      "num_experts": 2,
-     "rank": 3,
-     "notes": "Expanded seam opportunities in a high-total game against Buffalo."
+     "rank": 5,
+     "notes": "Expanded route opportunity in a high total game against Buffalo."
     },
     {
      "player_id": "4687728",
@@ -1709,7 +1882,7 @@
      "team": "DET",
      "opp": "NYJ",
      "schedule_id": "206441",
-     "dk_rank": 4,
+     "dk_rank": 5,
      "fd_rank": 7,
      "dk_slot": "CASH",
      "fd_slot": "GPP",
@@ -1745,119 +1918,8 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
-     "notes": "Reliable target earner in a high-paced offense with strong red-zone usage."
-    },
-    {
-     "player_id": "18314",
-     "core_id": "4377",
-     "players": "Travis Kelce",
-     "pos": "TE",
-     "team": "KCC",
-     "opp": "MIA",
-     "schedule_id": "206444",
-     "dk_rank": 5,
-     "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 4500,
-      "fpts": 12.26,
-      "ppd": 2.72,
-      "ceil": 21.6,
-      "opto": 6.5,
-      "pown": 10.4,
-      "grade": 1.595,
-      "gpp_grade": 0.974,
-      "injury": null
-     },
-     "fd": {
-      "salary": 5500,
-      "fpts": 9.91,
-      "ppd": 1.8,
-      "ceil": 17.5,
-      "opto": 6.7,
-      "pown": 10.1,
-      "grade": 1.818,
-      "gpp_grade": 1.062,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "rank": 5,
-     "notes": "Trusted safety blanket in a massive home-favorite spot."
-    },
-    {
-     "player_id": "4687560",
-     "core_id": "170729",
-     "players": "Dalton Kincaid",
-     "pos": "TE",
-     "team": "BUF",
-     "opp": "LAC",
-     "schedule_id": "206447",
-     "dk_rank": 6,
-     "fd_rank": 2,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 5500,
-      "fpts": 11.97,
-      "ppd": 2.18,
-      "ceil": 20.9,
-      "opto": 3.5,
-      "pown": 5.9,
-      "grade": 1.238,
-      "gpp_grade": 1.202,
-      "injury": null
-     },
-     "fd": {
-      "salary": 5700,
-      "fpts": 9.72,
-      "ppd": 1.71,
-      "ceil": 17.0,
-      "opto": 10.1,
-      "pown": 10.3,
-      "grade": 2.336,
-      "gpp_grade": 1.298,
-      "injury": null
-     },
-     "experts": [
-      "EBeimfohr",
-      "ncorfield8k",
-      "Davis Mattek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "ebeimfohr",
-       "text": "Kincaid has always been one of the best and most efficient receiving TEs in the league, but he has not run enough routes to reach his ceiling. That's change this year, as he's run 66% of the routes so far, which has catapulted him into the upper echelon of fantasy TEs, but his price and ownership haven't caught up. He is 3rd in the NFL in receiving yards, not amongst TEs but the entire league. He also has earned a target on 30% of his routes, and he's produced an extremely efficient 4.89 YPRR on a team high target share. The Chargers have also been an extreme pass funnel through two weeks, which plays into the Bills new high pass rate offense with the highest aDOT in the league."
-      },
-      {
-       "author": "DavisMattek",
-       "text": "Kincaid is top 5 over the last 2 seasons amongst TEs in targets per route run and fantasy points per route run, he just has never run enough rates. His route rate is now above 70% for consecutive games for the first time in his career. Absolute jam play."
-      },
-      {
-       "author": "NeilCO",
-       "text": "The Bills have the highest implied team total on the slate. They also rank sixth in PROE. Kincaid is Josh Allen's favorite target so far, with an elite 23.3% target share. If DJ Moore is out or limited, that should only go up. And the Chargers defense is tied for allowing the 8th-most expected points added (EPA) per pass."
-      }
-     ],
-     "num_experts": 3,
      "rank": 6,
-     "notes": "Elite route rate above seventy percent and top-tier target share for Buffalo."
+     "notes": "Seam targets and red-zone usage in a fast paced dome game."
     },
     {
      "player_id": "3491355",
@@ -1867,7 +1929,7 @@
      "team": "NYG",
      "opp": "TEN",
      "schedule_id": "206442",
-     "dk_rank": 7,
+     "dk_rank": 6,
      "fd_rank": 6,
      "dk_slot": "GPP",
      "fd_slot": "GPP",
@@ -1904,7 +1966,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Athletic mismatch with growing route participation in a close matchup."
+     "notes": "Favorable red-zone role in a 37.5 total game against Tennessee."
     },
     {
      "player_id": "37069",
@@ -1914,7 +1976,7 @@
      "team": "SFO",
      "opp": "ARI",
      "schedule_id": "206449",
-     "dk_rank": 8,
+     "dk_rank": 7,
      "fd_rank": 8,
      "dk_slot": "GPP",
      "fd_slot": "GPP",
@@ -1951,7 +2013,54 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "High-end blocking and receiving tight end in a potent offensive scheme."
+     "notes": "Physical route participation in a high total game vs Arizona."
+    },
+    {
+     "player_id": "6228166",
+     "core_id": "169466",
+     "players": "Brock Bowers",
+     "pos": "TE",
+     "team": "LVR",
+     "opp": "NOS",
+     "schedule_id": "206450",
+     "dk_rank": 8,
+     "fd_rank": null,
+     "dk_slot": "GPP",
+     "fd_slot": null,
+     "slot": "GPP",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": "Q",
+     "dk": {
+      "salary": 6600,
+      "fpts": 11.73,
+      "ppd": 1.78,
+      "ceil": 20.4,
+      "opto": 1.1,
+      "pown": 2.5,
+      "grade": -0.315,
+      "gpp_grade": 0.861,
+      "injury": "Q"
+     },
+     "fd": {
+      "salary": 6500,
+      "fpts": 9.54,
+      "ppd": 1.47,
+      "ceil": 16.6,
+      "opto": 3.8,
+      "pown": 6.0,
+      "grade": 0.26,
+      "gpp_grade": 0.966,
+      "injury": "Q"
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 9,
+     "notes": "Strong target volume and seam usage against New Orleans."
     }
    ]
   },
