@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-27T08:11",
+ "updated": "2026-09-27T08:20",
  "slate_ids": {
   "draftkings": "153769",
   "fanduel": "134503"
@@ -79,7 +79,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Saints play at the league's fastest pace in a high home total."
+     "notes": "Saints play at the league's fastest pace in a potential high-scoring home game."
     },
     {
      "player_id": "328331",
@@ -131,7 +131,7 @@
      ],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Elite pass volume in a 50.5 total game against the Chargers."
+     "notes": "High-end salary with elite pass volume and a strong 50.5 game total in Buffalo."
     },
     {
      "player_id": "2861939",
@@ -178,7 +178,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Strong passing efficiency and high implied team total at home."
+     "notes": "Solid home favorite spot with a 45.5 game total to drive solid passing volume."
     },
     {
      "player_id": "1849725",
@@ -225,7 +225,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Massive pass volume expected in a 50.5 game total."
+     "notes": "High game total of 50.5 points against Buffalo should force heavy pass volume."
     },
     {
      "player_id": "37022",
@@ -253,8 +253,8 @@
       "ceil": 29.4,
       "opto": 4.6,
       "pown": 10.1,
-      "grade": 0.682,
-      "gpp_grade": 0.61,
+      "grade": 0.673,
+      "gpp_grade": 0.595,
       "injury": null
      },
      "fd": {
@@ -279,7 +279,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "High implied team total of 28 points in a favorable matchup."
+     "notes": "Third-highest scoring quarterback with a strong 28.0 implied team total."
     },
     {
      "player_id": "973153",
@@ -307,8 +307,8 @@
       "ceil": 25.6,
       "opto": 5.5,
       "pown": 4.8,
-      "grade": 0.627,
-      "gpp_grade": 0.454,
+      "grade": 0.62,
+      "gpp_grade": 0.44,
       "injury": null
      },
      "fd": {
@@ -333,7 +333,7 @@
      ],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Strong rushing floor and a tight 42.5 game total."
+     "notes": "Affordable Price tag in a tight divisional matchup with a 42.5 game total."
     },
     {
      "player_id": "328097",
@@ -361,8 +361,8 @@
       "ceil": 31.6,
       "opto": 1.2,
       "pown": 5.9,
-      "grade": 0.152,
-      "gpp_grade": 0.659,
+      "grade": 0.142,
+      "gpp_grade": 0.638,
       "injury": null
      },
      "fd": {
@@ -388,7 +388,7 @@
      ],
      "num_experts": 2,
      "rank": 7,
-     "notes": "Explosive rushing upside in the highest game total on the slate."
+     "notes": "High ceiling in a marquee matchup featuring the slate's top 53.5 game total."
     },
     {
      "player_id": "3492223",
@@ -416,8 +416,8 @@
       "ceil": 29.5,
       "opto": 2.4,
       "pown": 5.5,
-      "grade": 0.35,
-      "gpp_grade": 0.602,
+      "grade": 0.341,
+      "gpp_grade": 0.584,
       "injury": null
      },
      "fd": {
@@ -442,7 +442,7 @@
      ],
      "num_experts": 1,
      "rank": 8,
-     "notes": "Niners carry a high team total against a bottom-ten defense."
+     "notes": "High pass rate in an offense carrying a massive 28-point implied team total."
     },
     {
      "player_id": "35539",
@@ -489,7 +489,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "High pass volume expected in the highest total of the week."
+     "notes": "Primed for heavy pass attempts in a game carrying a slate-high 53.5 total."
     }
    ]
   },
@@ -560,7 +560,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Bell-cow role with heavy snap and route share in a great matchup."
+     "notes": "Elite Bell-cow role with heavy snap share and strong pass-catching usage."
     },
     {
      "player_id": "3492251",
@@ -617,7 +617,7 @@
      ],
      "num_experts": 4,
      "rank": 2,
-     "notes": "Heavy touch volume as a home favorite with a strong team total."
+     "notes": "Heavy workload and strong rushing role as a heavy home favorite."
     },
     {
      "player_id": "8217222",
@@ -645,8 +645,8 @@
       "ceil": 27.3,
       "opto": 22.2,
       "pown": 14.9,
-      "grade": 1.728,
-      "gpp_grade": 0.939,
+      "grade": 1.714,
+      "gpp_grade": 0.905,
       "injury": null
      },
      "fd": {
@@ -656,8 +656,8 @@
       "ceil": 24.2,
       "opto": 19.8,
       "pown": 12.8,
-      "grade": 1.55,
-      "gpp_grade": 0.911,
+      "grade": 1.538,
+      "gpp_grade": 0.883,
       "injury": null
      },
      "experts": [
@@ -680,7 +680,7 @@
      ],
      "num_experts": 2,
      "rank": 3,
-     "notes": "Massive touch volume and massive pass game usage in a fast pace."
+     "notes": "Massive touch volume and a huge pass-catching floor in a fast-paced offense."
     },
     {
      "player_id": "3491433",
@@ -708,8 +708,8 @@
       "ceil": 27.1,
       "opto": 33.9,
       "pown": 11.8,
-      "grade": 1.341,
-      "gpp_grade": 1.008,
+      "grade": 1.328,
+      "gpp_grade": 0.984,
       "injury": "Q"
      },
      "fd": {
@@ -719,8 +719,8 @@
       "ceil": 23.6,
       "opto": 33.6,
       "pown": 8.7,
-      "grade": 1.161,
-      "gpp_grade": 0.97,
+      "grade": 1.15,
+      "gpp_grade": 0.95,
       "injury": "Q"
      },
      "experts": [
@@ -739,7 +739,7 @@
      ],
      "num_experts": 2,
      "rank": 4,
-     "notes": "Unassailable workload and career-high snaps with backup out."
+     "notes": "Unassailable workload and a career-high snap share with no backfield."
     },
     {
      "player_id": "4687629",
@@ -786,7 +786,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Solid rushing role as a home favorite in a divisional matchup."
+     "notes": "Solid rushing role in a close divisional game with a 42.5 total."
     },
     {
      "player_id": "2862163",
@@ -814,8 +814,8 @@
       "ceil": 24.2,
       "opto": 8.9,
       "pown": 8.9,
-      "grade": 1.052,
-      "gpp_grade": 0.91,
+      "grade": 1.039,
+      "gpp_grade": 0.882,
       "injury": null
      },
      "fd": {
@@ -850,7 +850,7 @@
      ],
      "num_experts": 3,
      "rank": 6,
-     "notes": "Heavy workload as a road favorite against a weak run defense."
+     "notes": "Expanded backfield workload as the lead runner for a road favorite."
     },
     {
      "player_id": "8228864",
@@ -897,7 +897,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Strong rushing script as a home favorite against Tennessee."
+     "notes": "Featured rushing role for a slight home favorite in a low-total matchup."
     },
     {
      "player_id": "8217247",
@@ -944,7 +944,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "High upside role in a game with the highest total on the slate."
+     "notes": "Underdog game script could push more passing-down work in a high total."
     },
     {
      "player_id": "982082",
@@ -972,8 +972,8 @@
       "ceil": 22.3,
       "opto": 3.1,
       "pown": 3.2,
-      "grade": 0.598,
-      "gpp_grade": 0.72,
+      "grade": 0.595,
+      "gpp_grade": 0.713,
       "injury": null
      },
      "fd": {
@@ -983,8 +983,8 @@
       "ceil": 20.4,
       "opto": 5.5,
       "pown": 3.5,
-      "grade": 0.706,
-      "gpp_grade": 0.743,
+      "grade": 0.703,
+      "gpp_grade": 0.737,
       "injury": null
      },
      "experts": [
@@ -998,7 +998,7 @@
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Bounce-back spot against a defense allowing many running back points."
+     "notes": "Expected bounce-back spot against a porous run defense allowing heavy points."
     }
    ]
   },
@@ -1031,8 +1031,8 @@
       "ceil": 35.5,
       "opto": 16.7,
       "pown": 10.9,
-      "grade": 2.422,
-      "gpp_grade": 1.258,
+      "grade": 2.419,
+      "gpp_grade": 1.253,
       "injury": null
      },
      "fd": {
@@ -1042,8 +1042,8 @@
       "ceil": 30.1,
       "opto": 19.5,
       "pown": 10.9,
-      "grade": 2.866,
-      "gpp_grade": 1.39,
+      "grade": 2.863,
+      "gpp_grade": 1.384,
       "injury": null
      },
      "experts": [
@@ -1057,7 +1057,7 @@
      ],
      "num_experts": 1,
      "rank": 1,
-     "notes": "High target share as a heavy home favorite against Washington."
+     "notes": "Strong target volume as a heavy home favorite with a positive game script."
     },
     {
      "player_id": "3491988",
@@ -1104,7 +1104,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Strong passing game role in the league's fastest-paced offense."
+     "notes": "Strong downfield role in a fast-paced offense with a healthy implied total."
     },
     {
      "player_id": "4687830",
@@ -1178,7 +1178,7 @@
      ],
      "num_experts": 5,
      "rank": 3,
-     "notes": "Elite slot usage avoids top corner against heavy man coverage."
+     "notes": "Heavy slot alignment helps avoid top cornerbacks in a man-heavy scheme."
     },
     {
      "player_id": "1844578",
@@ -1225,7 +1225,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Elite target volume in the highest game total on the slate."
+     "notes": "High target share in a game carrying the slate's highest 53.5 total."
     },
     {
      "player_id": "6228204",
@@ -1264,8 +1264,8 @@
       "ceil": 20.8,
       "opto": 20.6,
       "pown": 7.9,
-      "grade": 2.431,
-      "gpp_grade": 0.914,
+      "grade": 2.428,
+      "gpp_grade": 0.909,
       "injury": null
      },
      "experts": [],
@@ -1277,7 +1277,7 @@
      ],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Healthier after extra recovery with strong early-season targets."
+     "notes": "Expected to resume primary slot duties after an extra week of recovery."
     },
     {
      "player_id": "2861659",
@@ -1305,8 +1305,8 @@
       "ceil": 33.2,
       "opto": 13.0,
       "pown": 18.5,
-      "grade": 2.08,
-      "gpp_grade": 1.178,
+      "grade": 2.077,
+      "gpp_grade": 1.171,
       "injury": null
      },
      "fd": {
@@ -1316,8 +1316,8 @@
       "ceil": 27.1,
       "opto": 7.7,
       "pown": 13.2,
-      "grade": 1.728,
-      "gpp_grade": 1.199,
+      "grade": 1.724,
+      "gpp_grade": 1.192,
       "injury": null
      },
      "experts": [
@@ -1331,7 +1331,7 @@
      ],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Elite target share in a high-total matchup against the Jets."
+     "notes": "Elite target share in a high-total matchup with strong offensive pace."
     },
     {
      "player_id": "2861551",
@@ -1378,7 +1378,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Deep role and high target upside in a divisional matchup."
+     "notes": "Primary downfield weapon in an anticipated divisional battle."
     },
     {
      "player_id": "3491429",
@@ -1406,8 +1406,8 @@
       "ceil": 26.5,
       "opto": 6.4,
       "pown": 10.7,
-      "grade": 1.101,
-      "gpp_grade": 0.818,
+      "grade": 1.099,
+      "gpp_grade": 0.813,
       "injury": null
      },
      "fd": {
@@ -1417,8 +1417,8 @@
       "ceil": 22.2,
       "opto": 6.1,
       "pown": 9.5,
-      "grade": 1.159,
-      "gpp_grade": 0.886,
+      "grade": 1.156,
+      "gpp_grade": 0.881,
       "injury": null
      },
      "experts": [
@@ -1432,7 +1432,7 @@
      ],
      "num_experts": 1,
      "rank": 8,
-     "notes": "Poised for increased targets in a high-total game against Baltimore."
+     "notes": "Positioned to absorb heavy targets in a pass-heavy game script."
     },
     {
      "player_id": "1844306",
@@ -1479,7 +1479,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Top target share in a close divisional game against Tampa Bay."
+     "notes": "Elite receiving option with condensed targets in a tight divisional matchup."
     },
     {
      "player_id": "8216948",
@@ -1507,8 +1507,8 @@
       "ceil": 24.7,
       "opto": 8.5,
       "pown": 6.7,
-      "grade": 1.235,
-      "gpp_grade": 0.826,
+      "grade": 1.23,
+      "gpp_grade": 0.814,
       "injury": null
      },
      "fd": {
@@ -1518,8 +1518,8 @@
       "ceil": 20.4,
       "opto": 8.5,
       "pown": 7.1,
-      "grade": 1.318,
-      "gpp_grade": 0.868,
+      "grade": 1.313,
+      "gpp_grade": 0.856,
       "injury": null
      },
      "experts": [
@@ -1533,7 +1533,7 @@
      ],
      "num_experts": 1,
      "rank": 10,
-     "notes": "Condensed targets and massive air yards share with banged-up teammates."
+     "notes": "Massive air yards share and condensed targets inside a high PROE offense."
     }
    ]
   },
@@ -1566,8 +1566,8 @@
       "ceil": 21.6,
       "opto": 15.1,
       "pown": 14.4,
-      "grade": 2.774,
-      "gpp_grade": 1.135,
+      "grade": 2.762,
+      "gpp_grade": 1.112,
       "injury": null
      },
      "fd": {
@@ -1577,8 +1577,8 @@
       "ceil": 16.8,
       "opto": 7.4,
       "pown": 8.8,
-      "grade": 1.924,
-      "gpp_grade": 1.055,
+      "grade": 1.919,
+      "gpp_grade": 1.044,
       "injury": null
      },
      "experts": [
@@ -1597,7 +1597,7 @@
      ],
      "num_experts": 2,
      "rank": 1,
-     "notes": "Heavy target volume and seam usage with top receiver sidelined."
+     "notes": "Every-down tight end with elite target volume with teammates sidelined."
     },
     {
      "player_id": "3492164",
@@ -1644,7 +1644,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Elite target share and route participation as a primary pass catcher."
+     "notes": "Primary passing game focal point with high route participation."
     },
     {
      "player_id": "8228725",
@@ -1672,8 +1672,8 @@
       "ceil": 17.8,
       "opto": 9.8,
       "pown": 5.1,
-      "grade": 1.912,
-      "gpp_grade": 0.999,
+      "grade": 1.898,
+      "gpp_grade": 0.974,
       "injury": null
      },
      "fd": {
@@ -1683,8 +1683,8 @@
       "ceil": 14.3,
       "opto": 7.6,
       "pown": 4.7,
-      "grade": 1.749,
-      "gpp_grade": 1.007,
+      "grade": 1.734,
+      "gpp_grade": 0.982,
       "injury": null
      },
      "experts": [
@@ -1699,7 +1699,7 @@
      ],
      "num_experts": 2,
      "rank": 3,
-     "notes": "Expanded role and seam usage in a high-total game against Buffalo."
+     "notes": "Expanded seam opportunities in a high-total game against Buffalo."
     },
     {
      "player_id": "4687728",
@@ -1746,7 +1746,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Strong route rate in an explosive offense with a high total."
+     "notes": "Reliable target earner in a high-paced offense with strong red-zone usage."
     },
     {
      "player_id": "18314",
@@ -1793,7 +1793,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Elite red-zone role and seam targets as a heavy home favorite."
+     "notes": "Trusted safety blanket in a massive home-favorite spot."
     },
     {
      "player_id": "4687560",
@@ -1857,7 +1857,7 @@
      ],
      "num_experts": 3,
      "rank": 6,
-     "notes": "Elite route rate and high target share in a high-total pass funnel."
+     "notes": "Elite route rate above seventy percent and top-tier target share for Buffalo."
     },
     {
      "player_id": "3491355",
@@ -1904,7 +1904,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Seam usage and red-zone role as a home favorite against Tennessee."
+     "notes": "Athletic mismatch with growing route participation in a close matchup."
     },
     {
      "player_id": "37069",
@@ -1951,7 +1951,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "High route participation and red-zone upside in a top offense."
+     "notes": "High-end blocking and receiving tight end in a potent offensive scheme."
     }
    ]
   },
