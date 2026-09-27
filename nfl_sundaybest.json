@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-26T21:31",
+ "updated": "2026-09-26T21:32",
  "slate_ids": {
   "draftkings": "153769",
   "fanduel": "134503"
@@ -76,7 +76,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Playing fastest pace in league with 43.5 total. Great value."
+     "notes": "Saints play at the league's fastest pace in a 43.5 total home matchup."
     },
     {
      "player_id": "328331",
@@ -125,7 +125,7 @@
      ],
      "num_experts": 0,
      "rank": 2,
-     "notes": "High Price tag in a 49.5 total matchup against the Chargers."
+     "notes": "Priced high on a 49.5 implied total with solid stacking options."
     },
     {
      "player_id": "2861939",
@@ -169,7 +169,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Solid projection of 19.06 points with a 46.5 game total."
+     "notes": "Solid point-per-dollar value in a 46.5 total home matchup."
     },
     {
      "player_id": "1849725",
@@ -213,7 +213,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Strong passing volume expected in a high 49.5 game total."
+     "notes": "High pass volume expected in a 49.5 total game against Buffalo."
     },
     {
      "player_id": "35673",
@@ -257,7 +257,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Strong 19.44 projection with a 48.5 total against the Jets."
+     "notes": "Strong passing floor with a 48.5 game total at home."
     },
     {
      "player_id": "37022",
@@ -308,7 +308,7 @@
      ],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Third highest scoring quarterback with a 28 point total."
+     "notes": "Third highest scoring quarterback with a 28 point implied total."
     },
     {
      "player_id": "35539",
@@ -352,7 +352,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "High ceiling in a game featuring a slate leading 53.5 total."
+     "notes": "High pass volume in a 53.5 total game against Baltimore."
     },
     {
      "player_id": "328097",
@@ -404,7 +404,7 @@
      ],
      "num_experts": 2,
      "rank": 8,
-     "notes": "Strong dual threat option in a massive 53.5 game total."
+     "notes": "Elite rushing floor in a 53.5 total game against Dallas."
     },
     {
      "player_id": "3492223",
@@ -455,7 +455,7 @@
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Ranks third in pass rate over expected with rushing floor."
+     "notes": "High pass rate and rushing floor in a 47.5 total home matchup."
     },
     {
      "player_id": "973153",
@@ -506,7 +506,7 @@
      ],
      "num_experts": 1,
      "rank": 10,
-     "notes": "Value quarterback with 17.59 projection in tight matchup."
+     "notes": "Strong rushing floor with a tight 42.5 game total."
     }
    ]
   },
@@ -574,7 +574,7 @@
      ],
      "num_experts": 5,
      "rank": 1,
-     "notes": "Bell-cow role with heavy snaps and routes in great matchup."
+     "notes": "Bell-cow role with heavy snap share and route participation."
     },
     {
      "player_id": "3491433",
@@ -630,7 +630,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Increased workload and unassailable volume with back out."
+     "notes": "Increased workload and unassailable usage against Cincinnati."
     },
     {
      "player_id": "1844485",
@@ -674,7 +674,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Solid 18.73 projection in a tight divisional matchup."
+     "notes": "Solid rushing volume in a 42.5 total matchup against Houston."
     },
     {
      "player_id": "3492251",
@@ -728,7 +728,7 @@
      ],
      "num_experts": 4,
      "rank": 4,
-     "notes": "High 21.05 projection with a massive 10 point spread."
+     "notes": "High ceiling running back with a 10-point implied favorite total."
     },
     {
      "player_id": "35530",
@@ -772,7 +772,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Strong rushing floor in a high 53.5 total game script."
+     "notes": "Heavy rushing volume in a high-total 53.5 game against Dallas."
     },
     {
      "player_id": "8228864",
@@ -816,7 +816,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Solid GPP running back option with a favorable home spread."
+     "notes": "Solid rushing role with a 37.5 game total at home."
     },
     {
      "player_id": "3491661",
@@ -860,7 +860,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Explosive pass catching back in a high 48.5 game total."
+     "notes": "Pass-catching upside in a 48.5 total matchup against Detroit."
     },
     {
      "player_id": "36871",
@@ -904,7 +904,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Contrarian running back option with a narrow point spread."
+     "notes": "Balanced rushing and receiving role in a tight 42.5 total game."
     },
     {
      "player_id": "982082",
@@ -955,7 +955,7 @@
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Volatile role against defense allowing many running back points."
+     "notes": "Bounce-back candidate against a struggling Colts run defense."
     }
    ]
   },
@@ -1011,7 +1011,7 @@
      ],
      "num_experts": 1,
      "rank": 1,
-     "notes": "Elite target volume in a favorable divisional matchup."
+     "notes": "High target volume in a 40.5 total game against Washington."
     },
     {
      "player_id": "2861659",
@@ -1062,7 +1062,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "High projection of 20.8 points in a 48.5 game total."
+     "notes": "Elite target share in a 48.5 total matchup against the Jets."
     },
     {
      "player_id": "1844578",
@@ -1106,7 +1106,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite target upside in the highest total game of the slate."
+     "notes": "Elite target volume in a high-total 53.5 game against Baltimore."
     },
     {
      "player_id": "4687830",
@@ -1177,7 +1177,7 @@
      ],
      "num_experts": 5,
      "rank": 4,
-     "notes": "Heavy slot usage avoids top corner in man heavy coverage."
+     "notes": "Runs routes from the slot to avoid outside cornerback coverage."
     },
     {
      "player_id": "6228204",
@@ -1226,7 +1226,7 @@
      ],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Healthier with extra recovery time in high total matchup."
+     "notes": "Healthier with an extra week of recovery in a 49.5 total game."
     },
     {
      "player_id": "3491988",
@@ -1270,7 +1270,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Strong 18.03 projection in a favorable game script."
+     "notes": "Strong target share in a 43.5 total home matchup."
     },
     {
      "player_id": "1844306",
@@ -1314,7 +1314,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Elite ceiling option with strong target share upside."
+     "notes": "Elite target ceiling in a tight 42.5 total game."
     },
     {
      "player_id": "4687538",
@@ -1358,7 +1358,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "GPP wide receiver with massive ceiling in high total."
+     "notes": "High upside receiving role in a 53.5 total game against Dallas."
     },
     {
      "player_id": "8216948",
@@ -1409,7 +1409,7 @@
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Condensed targets and massive air yards share in offense."
+     "notes": "Condensed targets and highest air yards share in the offense."
     },
     {
      "player_id": "3491429",
@@ -1460,7 +1460,7 @@
      ],
      "num_experts": 1,
      "rank": 10,
-     "notes": "Poised for heavy passing volume against vulnerable defense."
+     "notes": "Primary target in a high-total 53.5 game against Baltimore."
     }
    ]
   },
@@ -1521,7 +1521,7 @@
      ],
      "num_experts": 2,
      "rank": 1,
-     "notes": "Heavy target volume with top pass catcher ruled out."
+     "notes": "Heavy target volume with teammate Collins ruled out again."
     },
     {
      "player_id": "8228725",
@@ -1573,7 +1573,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Expected to run more routes to keep up with high total."
+     "notes": "Route opportunities in a high-total 49.5 game against Buffalo."
     },
     {
      "player_id": "3492164",
@@ -1617,7 +1617,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 3,
-     "notes": "Elite tight end projection with strong target volume."
+     "notes": "Elite target volume and route rate in a 47.5 total game."
     },
     {
      "player_id": "4687728",
@@ -1661,7 +1661,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Solid value tight end in a high 48.5 game total."
+     "notes": "Strong route participation in a 48.5 total game against the Jets."
     },
     {
      "player_id": "18314",
@@ -1705,7 +1705,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Reliable red zone weapon in a high implied total game."
+     "notes": "Elite seam usage in a 45.5 total game as heavy favorites."
     },
     {
      "player_id": "4687560",
@@ -1766,7 +1766,7 @@
      ],
      "num_experts": 3,
      "rank": 6,
-     "notes": "Elite route participation and high target share in offense."
+     "notes": "Elite route rate over 70% in a high-total 49.5 game."
     },
     {
      "player_id": "328096",
@@ -1817,7 +1817,7 @@
      ],
      "num_experts": 1,
      "rank": 7,
-     "notes": "Carves out larger role with high route and target share."
+     "notes": "Carves out a 23% target share and 68% route participation."
     },
     {
      "player_id": "3491355",
@@ -1861,7 +1861,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Solid GPP tight end option in a tight game script."
+     "notes": "Solid receiving role in a tight 37.5 total game at home."
     },
     {
      "player_id": "37069",
@@ -1905,7 +1905,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Physical tight end option with solid red zone upside."
+     "notes": "Strong blocking and receiving snaps in a 47.5 total game."
     }
    ]
   },
