@@ -105,19 +105,47 @@
   }
   @keyframes popUp{ 0%{opacity:1; transform:translate(-50%,-50%);} 100%{opacity:0; transform:translate(-50%,-160%);} }
 
+  /* First-person thrower: a body standing at the bottom of the court, not
+     just a floating arm. .shoulder is the aim pivot (JS leans it toward the
+     cursor continuously); .upperArm plays its own windup-and-release swing
+     on top of that lean when a ball is thrown -- the two transforms compose
+     because .upperArm is nested inside .shoulder. */
   .launcherWrap{
-    position:absolute; bottom:-6px; left:50%; width:90px; height:96px; margin-left:-45px;
+    position:absolute; bottom:-8px; left:50%; width:130px; height:130px; margin-left:-65px;
     pointer-events:none; z-index:8;
   }
-  .arm{
-    position:absolute; bottom:0; left:50%; width:16px; height:64px; margin-left:-8px;
-    background:#ffcc88; border:2px solid #000;
+  @keyframes idleBob{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-3px); } }
+  .torso{
+    position:absolute; bottom:4px; left:50%; width:46px; height:40px; margin-left:-23px;
+    background:#dcdcdc; border:3px solid #000;
+    animation:idleBob 1.7s ease-in-out infinite;
+  }
+  .legL{ position:absolute; bottom:-10px; left:50%; width:14px; height:26px; margin-left:-20px; background:#2a2a2a; border:3px solid #000; }
+  .legR{ position:absolute; bottom:-10px; left:50%; width:14px; height:26px; margin-left:6px; background:#2a2a2a; border:3px solid #000; }
+  .offArm{ position:absolute; bottom:24px; left:50%; width:12px; height:28px; margin-left:-40px; background:#ffcc88; border:3px solid #000; transform:rotate(-12deg); }
+
+  .shoulder{
+    position:absolute; bottom:40px; left:50%; width:1px; height:1px; margin-left:16px;
     transform-origin:50% 100%; transition:transform .06s linear;
   }
+  .upperArm{
+    position:absolute; bottom:0; left:0; width:16px; height:58px; margin-left:-8px;
+    background:#ffcc88; border:3px solid #000;
+    transform-origin:50% 100%;
+  }
+  @keyframes throwSwing{
+    0%   { transform:rotate(0deg); }
+    22%  { transform:rotate(-42deg); }
+    55%  { transform:rotate(64deg); }
+    100% { transform:rotate(0deg); }
+  }
+  .upperArm.throwing{ animation:throwSwing .26s ease-out; }
   .handball{
     position:absolute; top:-8px; left:50%; width:22px; height:22px; margin-left:-11px;
     background:var(--ball); border:3px solid #000;
   }
+  @keyframes ballRelease{ 0%,45%{ opacity:1; } 50%,92%{ opacity:0; } 100%{ opacity:1; } }
+  .handball.throwing{ animation:ballRelease .26s steps(1); }
 
   /* ---------- Toast (insight) ---------- */
   #toast{
@@ -207,8 +235,15 @@
     </svg>
     <div class="aimDot" id="aimDot"></div>
     <div class="launcherWrap" id="launcherWrap">
-      <div class="arm" id="launcherArm"></div>
-      <div class="handball"></div>
+      <div class="legL"></div>
+      <div class="legR"></div>
+      <div class="offArm"></div>
+      <div class="torso"></div>
+      <div class="shoulder" id="launcherShoulder">
+        <div class="upperArm" id="launcherArm">
+          <div class="handball" id="launcherBall"></div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -263,6 +298,7 @@
   const ROUND_TIME = 20;          // seconds per slot
   const BALL_SPEED = 1500;        // px/sec
   const THROW_COOLDOWN = 320;     // ms between throws
+  const THROW_RELEASE_DELAY = 130; // ms from click to the ball actually leaving the hand (windup)
   const RUNNER_COUNT = 12;        // how many of the affordable pool actually run out per slot
   const DODGE_NOTICE = 72;        // px from the throw line that triggers a dodge
   const DODGE_SPEED = 190;        // px/sec flee speed
@@ -311,7 +347,7 @@
   // ---------- DOM ----------
   const $ = (id) => document.getElementById(id);
   const field = $("field"), aimDot = $("aimDot"), toast = $("toast");
-  const launcherArm = $("launcherArm");
+  const launcherShoulder = $("launcherShoulder"), launcherArm = $("launcherArm"), launcherBall = $("launcherBall");
   const startOverlay = $("startOverlay"), startBtn = $("startBtn"), startBlurb = $("startBlurb"), loadErr = $("loadErr");
   const roundOverlay = $("roundOverlay"), endOverlay = $("endOverlay");
   const hudPos = $("hudPos"), hudPosSub = $("hudPosSub"), hudDots = $("hudDots"),
@@ -541,7 +577,15 @@
     const lp = launchPos();
     let deg = Math.atan2(px - lp.x, (lp.y - py) || 1) * (180/Math.PI);
     deg = Math.max(-48, Math.min(48, deg));
-    launcherArm.style.transform = "rotate(" + deg + "deg)";
+    launcherShoulder.style.transform = "rotate(" + deg + "deg)";
+  }
+
+  // Forces a CSS animation to play again even if the class is already on the
+  // element (rapid throws) -- remove, force a reflow, re-add.
+  function restartAnim(el, cls){
+    el.classList.remove(cls);
+    void el.offsetWidth;
+    el.classList.add(cls);
   }
 
   let lastPointer = null;
@@ -581,8 +625,24 @@
     if(now - state.lastThrow < THROW_COOLDOWN) return;
     if(state.ammo <= 0) return;
     state.lastThrow = now;
+
+    // Play the windup/release swing now; the ball itself actually leaves the
+    // hand at THROW_RELEASE_DELAY, matching the animation's release frame.
+    // roundToken guards against a throw that was mid-windup when the slot
+    // ended (timeout, ammo-out, or a different hit) from spawning late into
+    // whatever slot comes next.
+    restartAnim(launcherArm, "throwing");
+    restartAnim(launcherBall, "throwing");
+    const roundToken = state.slotIndex;
+    setTimeout(() => releaseBall(tx, ty, roundToken), THROW_RELEASE_DELAY);
+  }
+
+  function releaseBall(tx, ty, roundToken){
+    if(!state || state.slotIndex !== roundToken || !state.running || state.roundOver) return;
+    if(state.ammo <= 0) return;
     state.ammo--;
     updateHud();
+    const now = performance.now();
 
     const lp = launchPos();
     const sx = lp.x, sy = lp.y - 24;
