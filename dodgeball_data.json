@@ -1,6 +1,6 @@
 {
   "title": "Dodge Ball",
-  "updated": "2026-09-30T16:48:54Z",
+  "updated": "2026-09-30T17:12:05Z",
   "source_updated": "2026-09-27T09:12",
   "positions": [
     {
@@ -13,12 +13,13 @@
           "team": "NOS",
           "opp": "LVR",
           "rank": 1,
-          "weight": 1000,
           "salary_dk": 5400,
+          "grade_dk": 4.01,
           "salary_fd": 7500,
+          "grade_fd": 1.176,
           "injury": null,
           "core": false,
-          "insight": "Fastest pace in a high total game against the Raiders -- fire up Shough!"
+          "insight": "Fastest pace and league-best value pricing -- elite QB1 upside."
         },
         {
           "player_id": "16557",
@@ -27,12 +28,13 @@
           "team": "NYJ",
           "opp": "DET",
           "rank": 2,
-          "weight": 900,
           "salary_dk": 4900,
+          "grade_dk": 2.367,
           "salary_fd": 6700,
+          "grade_fd": 0.047,
           "injury": null,
           "core": false,
-          "insight": "40 pass attempts against a depleted Lions secondary in a dome!"
+          "insight": "40 pass attempts against a depleted secondary in a dome."
         },
         {
           "player_id": "328331",
@@ -41,12 +43,13 @@
           "team": "BUF",
           "opp": "LAC",
           "rank": 3,
-          "weight": 800,
           "salary_dk": 8000,
+          "grade_dk": 1.077,
           "salary_fd": 9100,
+          "grade_fd": 2.401,
           "injury": null,
           "core": false,
-          "insight": "High team total and elite pricing value on FanDuel."
+          "insight": "High team total and massive ceiling on FanDuel pricing."
         },
         {
           "player_id": "1849725",
@@ -55,12 +58,13 @@
           "team": "LAC",
           "opp": "BUF",
           "rank": 4,
-          "weight": 700,
           "salary_dk": 5800,
+          "grade_dk": 0.347,
           "salary_fd": 7200,
+          "grade_fd": 0.844,
           "injury": null,
           "core": false,
-          "insight": "50.5 total game environment with strong passing volume."
+          "insight": "Elite 50.5 total game environment to air it out."
         },
         {
           "player_id": "2861939",
@@ -69,12 +73,13 @@
           "team": "JAC",
           "opp": "NEP",
           "rank": 5,
-          "weight": 600,
           "salary_dk": 5700,
+          "grade_dk": 1.008,
           "salary_fd": 7700,
+          "grade_fd": 0.726,
           "injury": null,
           "core": false,
-          "insight": "45.5 total with strong home favorite odds."
+          "insight": "Solid 45.5 total with strong home favorite odds."
         },
         {
           "player_id": "37022",
@@ -83,12 +88,13 @@
           "team": "KCC",
           "opp": "MIA",
           "rank": 6,
-          "weight": 500,
           "salary_dk": 6200,
+          "grade_dk": 0.673,
           "salary_fd": 8100,
+          "grade_fd": 0.551,
           "injury": null,
           "core": false,
-          "insight": "Massive 28-point implied team total and elite efficiency."
+          "insight": "Massive 28-point team total and extreme efficiency."
         },
         {
           "player_id": "35539",
@@ -97,12 +103,13 @@
           "team": "DAL",
           "opp": "BAL",
           "rank": 7,
-          "weight": 400,
           "salary_dk": 6700,
+          "grade_dk": 0.314,
           "salary_fd": 8300,
+          "grade_fd": 0.554,
           "injury": null,
           "core": false,
-          "insight": "Elite 53.5 game total in a pass-friendly matchup."
+          "insight": "Massive 53.5 game total in a pass-friendly spot."
         },
         {
           "player_id": "328097",
@@ -111,12 +118,13 @@
           "team": "BAL",
           "opp": "DAL",
           "rank": 8,
-          "weight": 300,
           "salary_dk": 7500,
+          "grade_dk": 0.142,
           "salary_fd": 8600,
+          "grade_fd": 0.91,
           "injury": null,
           "core": false,
-          "insight": "Rushing floor in the highest game total on the slate at 53.5."
+          "insight": "Rushing floor in the slate's highest 53.5 total."
         },
         {
           "player_id": "3492223",
@@ -125,12 +133,13 @@
           "team": "SFO",
           "opp": "ARI",
           "rank": 9,
-          "weight": 200,
           "salary_dk": 6500,
+          "grade_dk": 0.341,
           "salary_fd": 8200,
+          "grade_fd": 0.619,
           "injury": null,
           "core": false,
-          "insight": "28 team total and a rushing floor against Arizona."
+          "insight": "Top-3 PROE and rushing floor against Arizona."
         },
         {
           "player_id": "973153",
@@ -139,12 +148,13 @@
           "team": "MIN",
           "opp": "TBB",
           "rank": 10,
-          "weight": 100,
           "salary_dk": 5100,
+          "grade_dk": 0.62,
           "salary_fd": 7000,
+          "grade_fd": 0.43,
           "injury": null,
           "core": false,
-          "insight": "Tight 1.5 spread in a closely contested matchup."
+          "insight": "High aDOT passing upside in a tight 1.5 spread."
         }
       ]
     },
@@ -158,12 +168,13 @@
           "team": "DET",
           "opp": "NYJ",
           "rank": 1,
-          "weight": 1000,
           "salary_dk": 8800,
+          "grade_dk": 5.941,
           "salary_fd": 9200,
+          "grade_fd": 6.252,
           "injury": null,
           "core": false,
-          "insight": "Bell-cow workhorse with massive snap share and receiving work."
+          "insight": "Bell-cow 77% snaps and massive receiving work."
         },
         {
           "player_id": "3492251",
@@ -172,12 +183,13 @@
           "team": "KCC",
           "opp": "MIA",
           "rank": 2,
-          "weight": 888,
           "salary_dk": 7400,
+          "grade_dk": 5.293,
           "salary_fd": 8300,
+          "grade_fd": 5.237,
           "injury": null,
           "core": false,
-          "insight": "Heavy workload as massive favorites with a 28-point total."
+          "insight": "Heavy workload as massive favorites with multi-TD upside."
         },
         {
           "player_id": "2862163",
@@ -186,12 +198,13 @@
           "team": "CAR",
           "opp": "CLE",
           "rank": 3,
-          "weight": 775,
           "salary_dk": 6100,
+          "grade_dk": 3.039,
           "salary_fd": 6700,
+          "grade_fd": 4.46,
           "injury": null,
           "core": false,
-          "insight": "Workhorse touches with Brooks out against Cleveland."
+          "insight": "Workhorse touches against a 5 YPC Cleveland defense."
         },
         {
           "player_id": "3491433",
@@ -200,12 +213,13 @@
           "team": "PIT",
           "opp": "CIN",
           "rank": 4,
-          "weight": 662,
           "salary_dk": 5700,
+          "grade_dk": 2.328,
           "salary_fd": 6300,
+          "grade_fd": 2.15,
           "injury": null,
           "core": false,
-          "insight": "Unassailable workhorse workload with a massive career-high snap count."
+          "insight": "Career-high 50 snaps into an unassailable workload."
         },
         {
           "player_id": "4687629",
@@ -214,12 +228,13 @@
           "team": "CIN",
           "opp": "PIT",
           "rank": 5,
-          "weight": 550,
           "salary_dk": 6600,
+          "grade_dk": 1.65,
           "salary_fd": 7500,
+          "grade_fd": 1.521,
           "injury": null,
           "core": false,
-          "insight": "Favorable matchup against Pittsburgh in a 42.5 total game."
+          "insight": "Favorable touches in a 42.5 total game."
         },
         {
           "player_id": "8217222",
@@ -228,12 +243,13 @@
           "team": "LVR",
           "opp": "NOS",
           "rank": 6,
-          "weight": 438,
           "salary_dk": 7100,
+          "grade_dk": 1.714,
           "salary_fd": 7700,
+          "grade_fd": 1.538,
           "injury": null,
           "core": false,
-          "insight": "25+ touches and massive pass-game usage as a workhorse."
+          "insight": "25+ touches and massive 68% route participation."
         },
         {
           "player_id": "8228864",
@@ -242,12 +258,13 @@
           "team": "NYG",
           "opp": "TEN",
           "rank": 7,
-          "weight": 325,
           "salary_dk": 6200,
+          "grade_dk": 1.085,
           "salary_fd": 6900,
+          "grade_fd": 1.234,
           "injury": null,
           "core": false,
-          "insight": "Home favorite role with solid red-zone opportunities."
+          "insight": "Home favorite role with key red-zone carries."
         },
         {
           "player_id": "982082",
@@ -256,12 +273,13 @@
           "team": "HOU",
           "opp": "IND",
           "rank": 8,
-          "weight": 212,
           "salary_dk": 6000,
+          "grade_dk": 0.595,
           "salary_fd": 6600,
+          "grade_fd": 0.703,
           "injury": null,
           "core": false,
-          "insight": "Bounce-back spot against a porous Colts rush defense."
+          "insight": "Bounce-back volume against a porous rush defense."
         },
         {
           "player_id": "3491576",
@@ -270,12 +288,13 @@
           "team": "BUF",
           "opp": "LAC",
           "rank": 9,
-          "weight": 100,
           "salary_dk": 6900,
+          "grade_dk": 1.068,
           "salary_fd": 8100,
+          "grade_fd": 0.993,
           "injury": null,
           "core": false,
-          "insight": "Strong implied team total in a 50.5 total game."
+          "insight": "Strong implied team total in a 50.5 game."
         }
       ]
     },
@@ -289,12 +308,13 @@
           "team": "JAC",
           "opp": "NEP",
           "rank": 1,
-          "weight": 1000,
           "salary_dk": 6000,
+          "grade_dk": 5.451,
           "salary_fd": 7100,
+          "grade_fd": 5.303,
           "injury": null,
           "core": false,
-          "insight": "Elite slot routes and target share avoiding Christian Gonzalez."
+          "insight": "Elite slot routes avoiding Christian Gonzalez."
         },
         {
           "player_id": "3491660",
@@ -303,12 +323,13 @@
           "team": "NYJ",
           "opp": "DET",
           "rank": 2,
-          "weight": 900,
           "salary_dk": 6300,
+          "grade_dk": 3.533,
           "salary_fd": 7300,
+          "grade_fd": 3.381,
           "injury": null,
           "core": false,
-          "insight": "Strong target share against a depleted Lions secondary."
+          "insight": "22% target share against a depleted secondary."
         },
         {
           "player_id": "4688187",
@@ -317,12 +338,13 @@
           "team": "SEA",
           "opp": "WAS",
           "rank": 3,
-          "weight": 800,
           "salary_dk": 8600,
+          "grade_dk": 2.419,
           "salary_fd": 9200,
+          "grade_fd": 2.863,
           "injury": null,
           "core": false,
-          "insight": "High target volume and ceiling in a favorable game script."
+          "insight": "Explosive ceiling against a terrible secondary."
         },
         {
           "player_id": "6228204",
@@ -331,12 +353,13 @@
           "team": "LAC",
           "opp": "BUF",
           "rank": 4,
-          "weight": 700,
           "salary_dk": 5900,
+          "grade_dk": 1.8,
           "salary_fd": 6300,
+          "grade_fd": 2.428,
           "injury": null,
           "core": false,
-          "insight": "Healthier after extra recovery week in a high total game."
+          "insight": "Healthier route volume in a high total game."
         },
         {
           "player_id": "1844578",
@@ -345,12 +368,13 @@
           "team": "DAL",
           "opp": "BAL",
           "rank": 5,
-          "weight": 600,
           "salary_dk": 7800,
+          "grade_dk": 1.775,
           "salary_fd": 8600,
+          "grade_fd": 1.925,
           "injury": null,
           "core": false,
-          "insight": "Elite target upside in the highest game total on the slate."
+          "insight": "Elite target upside in the highest game total."
         },
         {
           "player_id": "3491988",
@@ -359,12 +383,13 @@
           "team": "NOS",
           "opp": "LVR",
           "rank": 6,
-          "weight": 500,
           "salary_dk": 7200,
+          "grade_dk": 2.233,
           "salary_fd": 8100,
+          "grade_fd": 1.92,
           "injury": null,
           "core": false,
-          "insight": "High ceiling in a fast-paced matchup against Las Vegas."
+          "insight": "Fast-paced shootout environment against Las Vegas."
         },
         {
           "player_id": "2861551",
@@ -373,12 +398,13 @@
           "team": "CIN",
           "opp": "PIT",
           "rank": 7,
-          "weight": 400,
           "salary_dk": 8100,
+          "grade_dk": 1.128,
           "salary_fd": 8900,
+          "grade_fd": 1.238,
           "injury": null,
           "core": false,
-          "insight": "Explosive deep role in a divisional matchup."
+          "insight": "Explosive deep routes in a divisional matchup."
         },
         {
           "player_id": "3491429",
@@ -387,12 +413,13 @@
           "team": "DAL",
           "opp": "BAL",
           "rank": 8,
-          "weight": 300,
           "salary_dk": 6600,
+          "grade_dk": 1.099,
           "salary_fd": 7700,
+          "grade_fd": 1.156,
           "injury": null,
           "core": false,
-          "insight": "Primary target volume in a high total game against Baltimore."
+          "insight": "Primary target volume in a 53.5 total game."
         },
         {
           "player_id": "1844306",
@@ -401,12 +428,13 @@
           "team": "MIN",
           "opp": "TBB",
           "rank": 9,
-          "weight": 200,
           "salary_dk": 7500,
+          "grade_dk": 1.458,
           "salary_fd": 8400,
+          "grade_fd": 1.431,
           "injury": null,
           "core": false,
-          "insight": "Elite route participation in a close divisional game."
+          "insight": "Elite route participation in a close contest."
         },
         {
           "player_id": "8216948",
@@ -415,12 +443,13 @@
           "team": "CAR",
           "opp": "CLE",
           "rank": 10,
-          "weight": 100,
           "salary_dk": 6000,
+          "grade_dk": 1.23,
           "salary_fd": 6800,
+          "grade_fd": 1.313,
           "injury": null,
           "core": false,
-          "insight": "Condensed targets and massive air yards share against Cleveland."
+          "insight": "40% air yards share and condensed target volume."
         }
       ]
     },
@@ -434,12 +463,13 @@
           "team": "BUF",
           "opp": "LAC",
           "rank": 1,
-          "weight": 1000,
           "salary_dk": 5500,
+          "grade_dk": 3.228,
           "salary_fd": 5700,
+          "grade_fd": 4.322,
           "injury": null,
           "core": false,
-          "insight": "Elite route rate and massive target share in a high total game."
+          "insight": "Elite 70% route rate and 30% target share."
         },
         {
           "player_id": "328583",
@@ -448,12 +478,13 @@
           "team": "HOU",
           "opp": "IND",
           "rank": 2,
-          "weight": 888,
           "salary_dk": 4200,
+          "grade_dk": 2.748,
           "salary_fd": 5800,
+          "grade_fd": 1.907,
           "injury": null,
           "core": false,
-          "insight": "Heavy target volume with Nico Collins ruled out again."
+          "insight": "14 targets and massive volume with Collins out."
         },
         {
           "player_id": "3492164",
@@ -462,12 +493,13 @@
           "team": "ARI",
           "opp": "SFO",
           "rank": 3,
-          "weight": 775,
           "salary_dk": 6700,
+          "grade_dk": 2.022,
           "salary_fd": 7300,
+          "grade_fd": 2.5,
           "injury": null,
           "core": false,
-          "insight": "Seam usage and high target ceiling against San Francisco."
+          "insight": "Seam routes and high target ceiling vs SF."
         },
         {
           "player_id": "18314",
@@ -476,12 +508,13 @@
           "team": "KCC",
           "opp": "MIA",
           "rank": 4,
-          "weight": 662,
           "salary_dk": 4500,
+          "grade_dk": 1.584,
           "salary_fd": 5500,
+          "grade_fd": 1.806,
           "injury": null,
           "core": false,
-          "insight": "Red-zone role in a high implied team total."
+          "insight": "High red-zone role in a 28-point team total."
         },
         {
           "player_id": "8228725",
@@ -490,12 +523,13 @@
           "team": "LAC",
           "opp": "BUF",
           "rank": 5,
-          "weight": 550,
           "salary_dk": 3500,
+          "grade_dk": 1.886,
           "salary_fd": 5000,
+          "grade_fd": 1.722,
           "injury": null,
           "core": false,
-          "insight": "Expanded route opportunity in a high total game against Buffalo."
+          "insight": "Expanded route opportunities in a high-total game."
         },
         {
           "player_id": "4687728",
@@ -504,12 +538,13 @@
           "team": "DET",
           "opp": "NYJ",
           "rank": 6,
-          "weight": 438,
           "salary_dk": 4300,
+          "grade_dk": 1.697,
           "salary_fd": 6200,
+          "grade_fd": 1.209,
           "injury": null,
           "core": false,
-          "insight": "Seam targets and red-zone usage in a fast-paced dome game."
+          "insight": "Seam targets in a fast-paced dome shootout."
         },
         {
           "player_id": "3491355",
@@ -518,12 +553,13 @@
           "team": "NYG",
           "opp": "TEN",
           "rank": 7,
-          "weight": 325,
           "salary_dk": 4700,
+          "grade_dk": 1.047,
           "salary_fd": 5600,
+          "grade_fd": 1.376,
           "injury": null,
           "core": false,
-          "insight": "Favorable red-zone role in a 37.5 total game."
+          "insight": "Favorable red-zone targets in a 37.5 total."
         },
         {
           "player_id": "37069",
@@ -532,12 +568,13 @@
           "team": "SFO",
           "opp": "ARI",
           "rank": 8,
-          "weight": 212,
           "salary_dk": 4800,
+          "grade_dk": 1.138,
           "salary_fd": 6100,
+          "grade_fd": 1.282,
           "injury": null,
           "core": false,
-          "insight": "Physical route participation in a high-total game vs Arizona."
+          "insight": "Physical route participation in a high total."
         },
         {
           "player_id": "6228166",
@@ -546,12 +583,13 @@
           "team": "LVR",
           "opp": "NOS",
           "rank": 9,
-          "weight": 100,
           "salary_dk": 6600,
+          "grade_dk": 0.676,
           "salary_fd": 6500,
+          "grade_fd": 1.25,
           "injury": null,
           "core": false,
-          "insight": "Strong target volume and seam usage against New Orleans."
+          "insight": "Strong seam volume and targets against New Orleans."
         }
       ]
     },
@@ -565,12 +603,13 @@
           "team": "SEA",
           "opp": "WAS",
           "rank": 1,
-          "weight": 1000,
           "salary_dk": 3800,
+          "grade_dk": 1.64,
           "salary_fd": 4800,
+          "grade_fd": 1.548,
           "injury": null,
           "core": false,
-          "insight": "Sacks and turnovers off a shaky opposing offense."
+          "insight": "Top projection for sacks and turnovers."
         },
         {
           "player_id": "18429",
@@ -579,12 +618,13 @@
           "team": "KCC",
           "opp": "MIA",
           "rank": 2,
-          "weight": 775,
           "salary_dk": 3700,
+          "grade_dk": 0.69,
           "salary_fd": 5000,
+          "grade_fd": 0.575,
           "injury": null,
           "core": false,
-          "insight": "Sacks and turnovers off a shaky opposing offense."
+          "insight": "Elite defensive pressure in a favored matchup."
         },
         {
           "player_id": "18431",
@@ -593,12 +633,13 @@
           "team": "MIN",
           "opp": "TBB",
           "rank": 3,
-          "weight": 550,
           "salary_dk": 3100,
+          "grade_dk": 1.02,
           "salary_fd": 4300,
+          "grade_fd": 0.739,
           "injury": null,
           "core": false,
-          "insight": "Sacks and turnovers off a shaky opposing offense."
+          "insight": "Strong projection for defensive takeaways."
         },
         {
           "player_id": "18440",
@@ -607,12 +648,13 @@
           "team": "SFO",
           "opp": "ARI",
           "rank": 4,
-          "weight": 325,
           "salary_dk": 3600,
+          "grade_dk": 0.158,
           "salary_fd": 4900,
+          "grade_fd": 0.079,
           "injury": null,
           "core": false,
-          "insight": "Sacks and turnovers off a shaky opposing offense."
+          "insight": "Pass rush upside against a shaky offense."
         },
         {
           "player_id": "18418",
@@ -621,12 +663,13 @@
           "team": "CAR",
           "opp": "CLE",
           "rank": 5,
-          "weight": 100,
           "salary_dk": 3000,
+          "grade_dk": 0.979,
           "salary_fd": 3800,
+          "grade_fd": 1.143,
           "injury": null,
           "core": false,
-          "insight": "Sacks and turnovers off a shaky opposing offense."
+          "insight": "Solid value conversion on defensive pressure."
         }
       ]
     }
