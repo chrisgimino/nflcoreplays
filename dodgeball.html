@@ -88,9 +88,18 @@
   .target.hit{ opacity:0; transition:opacity .1s; }
   .target.forcedGhost{ opacity:.55; filter:grayscale(1); }
 
+  /* Classic white dodgeball with a diagonal stripe, not a solid-color blob. */
   .ball{
-    position:absolute; width:16px; height:16px; margin:-8px 0 0 -8px;
-    background:var(--ball); border:2px solid #000; pointer-events:none; z-index:10;
+    position:absolute; width:24px; height:24px; margin:-12px 0 0 -12px;
+    background:#ffffff; border:3px solid #000; overflow:hidden; pointer-events:none; z-index:10;
+  }
+  .ball::before{
+    content:""; position:absolute; left:-35%; top:36%; width:170%; height:26%;
+    background:var(--accent2); transform:rotate(-26deg);
+  }
+  .ball::after{
+    content:""; position:absolute; left:-35%; top:66%; width:170%; height:15%;
+    background:var(--accent2); transform:rotate(-26deg);
   }
   .aimDot{
     position:absolute; width:10px; height:10px; margin:-5px 0 0 -5px;
@@ -115,21 +124,27 @@
     pointer-events:none; z-index:8;
   }
   @keyframes idleBob{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-3px); } }
+  /* Head first -- a torso-plus-arm with no head is what was reading wrong.
+     Head + wider torso makes the raised arm unambiguously an arm. */
+  .head{
+    position:absolute; bottom:60px; left:50%; width:26px; height:24px; margin-left:-13px;
+    background:#ffcc88; border:3px solid #000;
+  }
   .torso{
-    position:absolute; bottom:4px; left:50%; width:46px; height:40px; margin-left:-23px;
+    position:absolute; bottom:4px; left:50%; width:56px; height:58px; margin-left:-28px;
     background:#dcdcdc; border:3px solid #000;
     animation:idleBob 1.7s ease-in-out infinite;
   }
-  .legL{ position:absolute; bottom:-10px; left:50%; width:14px; height:26px; margin-left:-20px; background:#2a2a2a; border:3px solid #000; }
-  .legR{ position:absolute; bottom:-10px; left:50%; width:14px; height:26px; margin-left:6px; background:#2a2a2a; border:3px solid #000; }
-  .offArm{ position:absolute; bottom:24px; left:50%; width:12px; height:28px; margin-left:-40px; background:#ffcc88; border:3px solid #000; transform:rotate(-12deg); }
+  .legL{ position:absolute; bottom:-10px; left:50%; width:16px; height:26px; margin-left:-24px; background:#2a2a2a; border:3px solid #000; }
+  .legR{ position:absolute; bottom:-10px; left:50%; width:16px; height:26px; margin-left:8px; background:#2a2a2a; border:3px solid #000; }
+  .offArm{ position:absolute; bottom:28px; left:50%; width:13px; height:30px; margin-left:-46px; background:#ffcc88; border:3px solid #000; transform:rotate(-10deg); }
 
   .shoulder{
-    position:absolute; bottom:40px; left:50%; width:1px; height:1px; margin-left:16px;
+    position:absolute; bottom:48px; left:50%; width:1px; height:1px; margin-left:22px;
     transform-origin:50% 100%; transition:transform .06s linear;
   }
   .upperArm{
-    position:absolute; bottom:0; left:0; width:16px; height:58px; margin-left:-8px;
+    position:absolute; bottom:0; left:0; width:14px; height:52px; margin-left:-7px;
     background:#ffcc88; border:3px solid #000;
     transform-origin:50% 100%;
   }
@@ -140,9 +155,19 @@
     100% { transform:rotate(0deg); }
   }
   .upperArm.throwing{ animation:throwSwing .26s ease-out; }
+  /* Held ball -- same white/striped dodgeball as the thrown one, bigger since
+     it's up close in the hand. */
   .handball{
-    position:absolute; top:-8px; left:50%; width:22px; height:22px; margin-left:-11px;
-    background:var(--ball); border:3px solid #000;
+    position:absolute; top:-14px; left:50%; width:32px; height:32px; margin-left:-16px;
+    background:#ffffff; border:3px solid #000; overflow:hidden;
+  }
+  .handball::before{
+    content:""; position:absolute; left:-35%; top:36%; width:170%; height:24%;
+    background:var(--accent2); transform:rotate(-26deg);
+  }
+  .handball::after{
+    content:""; position:absolute; left:-35%; top:66%; width:170%; height:14%;
+    background:var(--accent2); transform:rotate(-26deg);
   }
   @keyframes ballRelease{ 0%,45%{ opacity:1; } 50%,92%{ opacity:0; } 100%{ opacity:1; } }
   .handball.throwing{ animation:ballRelease .26s steps(1); }
@@ -239,6 +264,7 @@
       <div class="legR"></div>
       <div class="offArm"></div>
       <div class="torso"></div>
+      <div class="head"></div>
       <div class="shoulder" id="launcherShoulder">
         <div class="upperArm" id="launcherArm">
           <div class="handball" id="launcherBall"></div>
