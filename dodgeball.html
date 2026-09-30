@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Dodge Ball — NFL Value Plays</title>
+<style>
+  :root{
+    --bg:#0b0f14; --panel:#121822; --panel2:#182233; --line:#26324a;
+    --text:#eef2f8; --dim:#93a2ba; --accent:#ffb020; --accent2:#ff5a3d;
+    --good:#3dd68c; --bad:#ff5a5a; --ball:#ff7a1a; --ball-line:#3a1e00;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  html,body{height:100%;}
+  body{
+    margin:0; background:radial-gradient(ellipse at 50% -10%, #16202f 0%, var(--bg) 60%);
+    color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    overflow:hidden; height:100vh; width:100vw; touch-action:none; user-select:none;
+  }
+  #app{position:relative; height:100vh; width:100vw; display:flex; flex-direction:column;}
+
+  /* ---------- HUD ---------- */
+  #hud{
+    display:flex; align-items:center; gap:10px; padding:8px 12px;
+    background:linear-gradient(180deg, rgba(10,14,20,.95), rgba(10,14,20,.75));
+    border-bottom:1px solid var(--line); z-index:20; flex:0 0 auto;
+  }
+  #hudPos{font-weight:800; font-size:15px; letter-spacing:.04em; color:var(--accent); min-width:38px;}
+  #hudDots{display:flex; gap:5px; margin-right:auto;}
+  #hudDots span{width:8px;height:8px;border-radius:50%;background:#2a3448;display:inline-block;}
+  #hudDots span.done{background:var(--good);}
+  #hudDots span.active{background:var(--accent); box-shadow:0 0 8px var(--accent);}
+  .hudStat{font-size:12px; color:var(--dim); text-align:right; line-height:1.2;}
+  .hudStat b{display:block; font-size:16px; color:var(--text); font-weight:800;}
+  #hudTimeWrap{flex:0 0 74px;}
+  #hudTimeBar{height:5px; border-radius:3px; background:#1c2434; overflow:hidden; margin-top:3px;}
+  #hudTimeFill{height:100%; width:100%; background:linear-gradient(90deg,var(--good),var(--accent),var(--bad)); transform-origin:left; transition:transform .12s linear, background .3s;}
+
+  /* ---------- Field ---------- */
+  #field{
+    position:relative; flex:1 1 auto; overflow:hidden;
+    background:
+      repeating-linear-gradient(0deg, rgba(255,255,255,.03) 0 1px, transparent 1px 40px),
+      repeating-linear-gradient(90deg, rgba(255,255,255,.03) 0 1px, transparent 1px 40px),
+      radial-gradient(ellipse at 50% 30%, #17202e 0%, #0d1219 75%);
+    cursor:crosshair;
+  }
+  .target{
+    position:absolute; width:64px; height:64px; margin:-32px 0 0 -32px;
+    border-radius:50%; display:flex; align-items:center; justify-content:center;
+    flex-direction:column; will-change:transform; transition:opacity .15s, transform .15s;
+    filter:drop-shadow(0 4px 10px rgba(0,0,0,.5));
+  }
+  .target .ring{
+    position:absolute; inset:0; border-radius:50%; border:3px solid var(--tc,#4a90d9);
+    background:radial-gradient(circle at 35% 30%, rgba(255,255,255,.22), rgba(0,0,0,.35));
+  }
+  .target .rank{
+    position:relative; font-weight:900; font-size:15px; color:#fff; text-shadow:0 1px 3px #000;
+  }
+  .target .wt{
+    position:relative; font-size:9px; font-weight:800; color:var(--accent); margin-top:1px;
+    text-shadow:0 1px 2px #000;
+  }
+  .target .nm{
+    position:absolute; top:100%; left:50%; transform:translateX(-50%); margin-top:3px;
+    font-size:10px; font-weight:700; white-space:nowrap; color:#fff;
+    background:rgba(0,0,0,.55); padding:1px 6px; border-radius:8px; pointer-events:none;
+  }
+  .target.core .ring{ box-shadow:0 0 0 3px rgba(255,176,32,.5), 0 0 14px rgba(255,176,32,.6); }
+  .target.core::after{
+    content:"★"; position:absolute; top:-9px; right:-4px; color:var(--accent);
+    font-size:13px; text-shadow:0 1px 2px #000;
+  }
+  .target.hit{ opacity:0; transform:scale(1.6); }
+
+  .ball{
+    position:absolute; width:20px; height:20px; margin:-10px 0 0 -10px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #ffd58a, var(--ball) 55%, var(--ball-line) 100%);
+    box-shadow:0 2px 6px rgba(0,0,0,.6); pointer-events:none; z-index:10;
+  }
+  .crosshair{
+    position:absolute; width:26px; height:26px; margin:-13px 0 0 -13px; pointer-events:none; z-index:9;
+    border:2px solid rgba(255,176,32,.85); border-radius:50%; opacity:0; transition:opacity .1s;
+  }
+  .crosshair::before,.crosshair::after{
+    content:""; position:absolute; background:rgba(255,176,32,.85);
+  }
+  .crosshair::before{ left:50%; top:-6px; bottom:-6px; width:1px; margin-left:-.5px; }
+  .crosshair::after{ top:50%; left:-6px; right:-6px; height:1px; margin-top:-.5px; }
+
+  .popup{
+    position:absolute; font-weight:900; font-size:18px; color:var(--accent);
+    text-shadow:0 2px 4px #000; pointer-events:none; z-index:11;
+    animation:popUp .7s ease-out forwards;
+  }
+  @keyframes popUp{ 0%{opacity:1; transform:translate(-50%,-50%) scale(.8);} 100%{opacity:0; transform:translate(-50%,-130%) scale(1.15);} }
+
+  .launcher{
+    position:absolute; bottom:8px; left:50%; transform:translateX(-50%);
+    width:34px; height:34px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #ffd58a, var(--ball) 55%, var(--ball-line) 100%);
+    box-shadow:0 0 0 4px rgba(255,122,26,.15), 0 3px 10px rgba(0,0,0,.6); z-index:8;
+  }
+
+  /* ---------- Toast (insight) ---------- */
+  #toast{
+    position:absolute; left:50%; bottom:52px; transform:translate(-50%, 12px);
+    max-width:min(460px, 88vw); background:linear-gradient(180deg, var(--panel2), var(--panel));
+    border:1px solid var(--line); border-radius:12px; padding:9px 14px; z-index:15;
+    opacity:0; pointer-events:none; transition:opacity .18s, transform .18s;
+    box-shadow:0 8px 24px rgba(0,0,0,.45);
+  }
+  #toast.show{ opacity:1; transform:translate(-50%,0); }
+  #toast .tName{ font-weight:800; font-size:13px; }
+  #toast .tName .pos{ color:var(--accent); font-weight:900; margin-right:4px; }
+  #toast .tLine{ font-size:12.5px; color:var(--dim); margin-top:2px; }
+  #toast .tPts{ float:right; color:var(--good); font-weight:900; }
+
+  /* ---------- Overlays ---------- */
+  .overlay{
+    position:absolute; inset:0; z-index:30; display:flex; align-items:center; justify-content:center;
+    background:rgba(6,9,13,.86); backdrop-filter:blur(3px); text-align:center; padding:24px;
+  }
+  .overlay.hidden{ display:none; }
+  .card{ max-width:420px; }
+  .card h1{ font-size:30px; margin:0 0 6px; letter-spacing:.02em;
+    background:linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .card p{ color:var(--dim); font-size:14px; line-height:1.5; margin:6px 0 18px; }
+  .card .roundTitle{ font-size:26px; font-weight:900; margin-bottom:4px; }
+  .card .roundSub{ color:var(--dim); font-size:13px; margin-bottom:6px; }
+  .card .big{ font-size:40px; font-weight:900; color:var(--accent); margin:4px 0 14px; }
+  button.cta{
+    background:linear-gradient(180deg, var(--accent), #e08d10); color:#1a1200; border:none;
+    font-weight:900; font-size:15px; padding:13px 30px; border-radius:12px; cursor:pointer;
+    box-shadow:0 6px 18px rgba(255,176,32,.35);
+  }
+  button.cta:active{ transform:translateY(1px); }
+  #hitList{ text-align:left; max-height:34vh; overflow-y:auto; margin:10px 0 18px;
+    border:1px solid var(--line); border-radius:10px; }
+  .hitRow{ display:flex; align-items:center; gap:8px; padding:7px 10px; border-bottom:1px solid var(--line); font-size:12.5px; }
+  .hitRow:last-child{ border-bottom:none; }
+  .hitDot{ width:9px; height:9px; border-radius:50%; flex:0 0 auto; }
+  .hitRow .nm{ font-weight:800; flex:0 0 auto; }
+  .hitRow .ins{ color:var(--dim); flex:1 1 auto; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .hitRow .pts{ color:var(--good); font-weight:800; flex:0 0 auto; }
+  #loadErr{ color:var(--bad); font-size:13px; }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <div id="hud">
+    <div id="hudPos">--</div>
+    <div id="hudDots"></div>
+    <div class="hudStat" id="hudTimeWrap">
+      TIME<div id="hudTimeNum">--</div>
+      <div id="hudTimeBar"><div id="hudTimeFill"></div></div>
+    </div>
+    <div class="hudStat">AMMO<b id="hudAmmo">--</b></div>
+    <div class="hudStat">LEFT<b id="hudTargets">--</b></div>
+    <div class="hudStat">SCORE<b id="hudScore">0</b></div>
+  </div>
+
+  <div id="field">
+    <div class="crosshair" id="crosshair"></div>
+    <div class="launcher"></div>
+  </div>
+
+  <div id="toast"></div>
+
+  <div class="overlay" id="startOverlay">
+    <div class="card">
+      <h1>DODGE&nbsp;BALL</h1>
+      <p id="startBlurb">Loading this week's value plays…</p>
+      <p style="font-size:12.5px">One position at a time. Everybody ranked is loose on the
+      field at once. Peg the best ones for the most points — <b style="color:var(--accent)">1000</b>
+      for the top play down to <b style="color:var(--accent)">100</b> for the last guy shown.
+      Limited balls, limited time, five rounds: QB → RB → WR → TE → DST.</p>
+      <button class="cta" id="startBtn" disabled>LOADING…</button>
+      <p id="loadErr" style="display:none; margin-top:14px;"></p>
+    </div>
+  </div>
+
+  <div class="overlay hidden" id="roundOverlay">
+    <div class="card">
+      <div class="roundSub" id="roundOverlaySub">ROUND CLEAR</div>
+      <div class="roundTitle" id="roundOverlayTitle">QB</div>
+      <div class="roundSub" id="roundOverlayStat">3 / 8 hit — 2,150 pts</div>
+      <div class="big" id="roundOverlayNext">Next up: RB</div>
+    </div>
+  </div>
+
+  <div class="overlay hidden" id="endOverlay">
+    <div class="card" style="max-width:480px;">
+      <div class="roundSub">GAME OVER</div>
+      <h1 style="font-size:26px;">FINAL SCORE</h1>
+      <div class="big" id="finalScore">0</div>
+      <div id="hitList"></div>
+      <button class="cta" id="againBtn">PLAY AGAIN</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  const DATA_URL = "dodgeball_data.json";
+  const POSITIONS = ["QB","RB","WR","TE","DST"];
+  const ROUND_TIME = 20;          // seconds
+  const ROUND_SPEED = [1.0, 1.12, 1.26, 1.42, 1.6]; // target speed ramp per round
+  const BALL_SPEED = 1500;        // px/sec
+  const THROW_COOLDOWN = 320;     // ms between throws
+  const CLEAR_BONUS = 250;
+
+  const TEAM_COLORS = {
+    ARI:"#97233f", ATL:"#a71930", BAL:"#241773", BUF:"#00338d", CAR:"#0085ca",
+    CHI:"#0b162a", CIN:"#fb4f14", CLE:"#311d00", DAL:"#003594", DEN:"#fb4f14",
+    DET:"#0076b6", GBP:"#203731", HOU:"#03202f", IND:"#002c5f", JAC:"#006778",
+    KCC:"#e31837", LAC:"#0080c6", LAR:"#003594", LVR:"#000000", MIA:"#008e97",
+    MIN:"#4f2683", NEP:"#002244", NOS:"#d3bc8d", NYG:"#0b2265", NYJ:"#125740",
+    PHI:"#004c54", PIT:"#ffb612", SEA:"#002244", SFO:"#aa0000", TBB:"#d50a0a",
+    TEN:"#4b92db", WAS:"#5a1414"
+  };
+  function teamColor(t){ return TEAM_COLORS[t] || "#4a5a78"; }
+
+  // ---------- DOM ----------
+  const $ = (id) => document.getElementById(id);
+  const field = $("field"), crosshair = $("crosshair"), toast = $("toast");
+  const startOverlay = $("startOverlay"), startBtn = $("startBtn"), startBlurb = $("startBlurb"), loadErr = $("loadErr");
+  const roundOverlay = $("roundOverlay"), endOverlay = $("endOverlay");
+  const hudPos = $("hudPos"), hudDots = $("hudDots"), hudAmmo = $("hudAmmo"),
+        hudTargets = $("hudTargets"), hudScore = $("hudScore"),
+        hudTimeNum = $("hudTimeNum"), hudTimeFill = $("hudTimeFill");
+
+  let gameData = null;
+  let state = null; // set in resetGame()
+
+  function resetGame(){
+    state = {
+      roundIndex: -1,
+      score: 0,
+      hits: [],           // {name,pos,team,weight,insight}
+      targets: [],         // alive targets this round
+      balls: [],
+      ammo: 0,
+      timeLeft: ROUND_TIME,
+      lastThrow: -Infinity,
+      running: false,
+      roundOver: false,
+      raf: null,
+      lastTs: null,
+    };
+    hudScore.textContent = "0";
+  }
+
+  // ---------- Load ----------
+  fetch(DATA_URL, {cache:"no-store"})
+    .then(res => { if(!res.ok) throw new Error("HTTP " + res.status); return res.json(); })
+    .then(data => {
+      gameData = data;
+      const total = (data.positions||[]).reduce((n,s)=>n+(s.players||[]).length, 0);
+      startBlurb.textContent = `${total} ranked plays loaded, updated ${fmtUpdated(data.updated)}.`;
+      startBtn.disabled = false;
+      startBtn.textContent = "START";
+      buildDots();
+      resetGame();
+    })
+    .catch(err => {
+      startBtn.style.display = "none";
+      loadErr.style.display = "block";
+      loadErr.textContent = "Couldn't load this week's data (" + err.message + "). Check that dodgeball_data.json exists at the repo root.";
+    });
+
+  function fmtUpdated(iso){
+    if(!iso) return "recently";
+    try{
+      const d = new Date(iso);
+      return d.toLocaleString(undefined, {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"});
+    }catch(e){ return "recently"; }
+  }
+
+  function buildDots(){
+    hudDots.innerHTML = "";
+    POSITIONS.forEach(()=>{
+      const s = document.createElement("span");
+      hudDots.appendChild(s);
+    });
+  }
+  function updateDots(){
+    [...hudDots.children].forEach((el,i)=>{
+      el.className = i < state.roundIndex ? "done" : (i === state.roundIndex ? "active" : "");
+    });
+  }
+
+  // ---------- Start / round flow ----------
+  startBtn.addEventListener("click", () => {
+    startOverlay.classList.add("hidden");
+    resetGame();
+    startRound(0);
+  });
+  $("againBtn").addEventListener("click", () => {
+    endOverlay.classList.add("hidden");
+    resetGame();
+    startRound(0);
+  });
+
+  function startRound(idx){
+    clearField();
+    state.roundIndex = idx;
+    state.roundOver = false;
+    const posName = POSITIONS[idx];
+    const section = (gameData.positions||[]).find(s => s.position === posName) || {players:[]};
+    const players = section.players || [];
+
+    state.targets = players.map((p, i) => spawnTarget(p, i, ROUND_SPEED[idx] || 1));
+    state.ammo = Math.max(6, Math.min(10, players.length + 2));
+    state.timeLeft = ROUND_TIME;
+    state.lastThrow = -Infinity;
+    state.balls = [];
+
+    hudPos.textContent = posName;
+    updateDots();
+    updateHud();
+    state.running = true;
+    if(!state.raf){ state.lastTs = null; state.raf = requestAnimationFrame(tick); }
+  }
+
+  function clearField(){
+    field.querySelectorAll(".target, .ball, .popup").forEach(el => el.remove());
+  }
+
+  function spawnTarget(p, i, speedMul){
+    const el = document.createElement("div");
+    el.className = "target" + (p.core ? " core" : "");
+    el.style.setProperty("--tc", teamColor(p.team));
+    el.innerHTML = `<div class="ring"></div><div class="rank">${esc(p.team||"")}</div>
+                     <div class="wt">${p.weight}</div>
+                     <div class="nm">${esc(shortName(p.name))} · ${esc(p.pos)}${p.injury?(" · "+esc(p.injury)):""}</div>`;
+    field.appendChild(el);
+
+    const rect = field.getBoundingClientRect();
+    const r = 32;
+    const x = r + Math.random() * Math.max(1, rect.width - 2*r);
+    const y = r + Math.random() * Math.max(1, (rect.height - 90) - 2*r) + 20;
+    const baseSpeed = (26 + Math.random() * 30) * speedMul;
+    const ang = Math.random() * Math.PI * 2;
+
+    return {
+      p, el, x, y, r,
+      vx: Math.cos(ang) * baseSpeed,
+      vy: Math.sin(ang) * baseSpeed,
+      alive: true,
+    };
+  }
+
+  function shortName(n){
+    if(!n) return "";
+    const parts = n.split(" ");
+    if(parts.length <= 1) return n;
+    return parts[0][0] + ". " + parts.slice(1).join(" ");
+  }
+  function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+  // ---------- Aiming / throwing ----------
+  function fieldPoint(clientX, clientY){
+    const rect = field.getBoundingClientRect();
+    return { x: clientX - rect.left, y: clientY - rect.top };
+  }
+
+  field.addEventListener("pointermove", (e) => {
+    if(e.pointerType === "mouse"){
+      const pt = fieldPoint(e.clientX, e.clientY);
+      crosshair.style.left = pt.x + "px";
+      crosshair.style.top = pt.y + "px";
+      crosshair.style.opacity = "1";
+    }
+  });
+  field.addEventListener("pointerleave", () => { crosshair.style.opacity = "0"; });
+
+  field.addEventListener("pointerdown", (e) => {
+    const pt = fieldPoint(e.clientX, e.clientY);
+    if(e.pointerType !== "mouse"){
+      crosshair.style.left = pt.x + "px";
+      crosshair.style.top = pt.y + "px";
+      crosshair.style.opacity = "1";
+      setTimeout(()=>{ crosshair.style.opacity = "0"; }, 250);
+    }
+    throwBall(pt.x, pt.y);
+  });
+
+  window.addEventListener("keydown", (e) => {
+    if(e.code === "Space" && state && state.running && !state.roundOver){
+      e.preventDefault();
+      const rect = field.getBoundingClientRect();
+      const cx = parseFloat(crosshair.style.left) || rect.width/2;
+      const cy = parseFloat(crosshair.style.top) || rect.height/2;
+      throwBall(cx, cy);
+    }
+  });
+
+  function throwBall(tx, ty){
+    if(!state || !state.running || state.roundOver) return;
+    const now = performance.now();
+    if(now - state.lastThrow < THROW_COOLDOWN) return;
+    if(state.ammo <= 0) return;
+    state.lastThrow = now;
+    state.ammo--;
+    updateHud();
+
+    const rect = field.getBoundingClientRect();
+    const sx = rect.width / 2, sy = rect.height - 26;
+    const dx = tx - sx, dy = ty - sy;
+    const dist = Math.max(1, Math.hypot(dx, dy));
+    const el = document.createElement("div");
+    el.className = "ball";
+    el.style.left = sx + "px"; el.style.top = sy + "px";
+    field.appendChild(el);
+    state.balls.push({
+      el, x: sx, y: sy,
+      vx: (dx/dist) * BALL_SPEED, vy: (dy/dist) * BALL_SPEED,
+      life: 1400,
+    });
+  }
+
+  // ---------- Loop ----------
+  function tick(ts){
+    if(!state.lastTs) state.lastTs = ts;
+    const dt = Math.min(0.05, (ts - state.lastTs) / 1000);
+    state.lastTs = ts;
+    const rect = field.getBoundingClientRect();
+
+    if(state.running && !state.roundOver){
+      state.timeLeft -= dt;
+      updateHud();
+      if(state.timeLeft <= 0){
+        state.timeLeft = 0;
+        endRound("time");
+      }
+    }
+
+    // targets wander & bounce
+    state.targets.forEach(t => {
+      if(!t.alive) return;
+      t.x += t.vx * dt; t.y += t.vy * dt;
+      const minY = 8, maxY = rect.height - 90;
+      if(t.x < t.r || t.x > rect.width - t.r){ t.vx *= -1; t.x = Math.max(t.r, Math.min(rect.width - t.r, t.x)); }
+      if(t.y < minY + t.r || t.y > maxY - t.r){ t.vy *= -1; t.y = Math.max(minY + t.r, Math.min(maxY - t.r, t.y)); }
+      t.el.style.transform = `translate(${t.x}px, ${t.y}px)`;
+    });
+
+    // balls advance & collide
+    for(let i = state.balls.length - 1; i >= 0; i--){
+      const b = state.balls[i];
+      b.x += b.vx * dt; b.y += b.vy * dt; b.life -= dt * 1000;
+      b.el.style.left = b.x + "px"; b.el.style.top = b.y + "px";
+
+      let hit = null;
+      for(const t of state.targets){
+        if(!t.alive) continue;
+        if(Math.hypot(t.x - b.x, t.y - b.y) <= t.r + 10){ hit = t; break; }
+      }
+      const outOfBounds = b.x < -20 || b.x > rect.width + 20 || b.y < -20 || b.y > rect.height + 20;
+      if(hit){
+        registerHit(hit, b.x, b.y);
+        b.el.remove(); state.balls.splice(i, 1);
+      } else if(outOfBounds || b.life <= 0){
+        b.el.remove(); state.balls.splice(i, 1);
+      }
+    }
+
+    if(state.running && !state.roundOver){
+      const aliveLeft = state.targets.some(t => t.alive);
+      if(!aliveLeft){
+        endRound("clear");
+      } else if(state.ammo <= 0 && state.balls.length === 0){
+        endRound("ammo");
+      }
+    }
+
+    state.raf = requestAnimationFrame(tick);
+  }
+
+  function registerHit(t, atX, atY){
+    t.alive = false;
+    t.el.classList.add("hit");
+    setTimeout(() => t.el.remove(), 200);
+
+    state.score += t.p.weight;
+    state.hits.push({ name: t.p.name, pos: t.p.pos, team: t.p.team, weight: t.p.weight, insight: t.p.insight });
+    updateHud();
+
+    const pop = document.createElement("div");
+    pop.className = "popup";
+    pop.style.left = atX + "px"; pop.style.top = atY + "px";
+    pop.textContent = "+" + t.p.weight;
+    field.appendChild(pop);
+    setTimeout(() => pop.remove(), 700);
+
+    showToast(t.p);
+  }
+
+  let toastTimer = null;
+  function showToast(p){
+    toast.innerHTML = `<div class="tName"><span class="pos">${esc(p.pos)}</span>${esc(p.name)}
+                        <span class="tPts">+${p.weight}</span></div>
+                        <div class="tLine">${esc(p.insight)}</div>`;
+    toast.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove("show"), 2200);
+  }
+
+  function updateHud(){
+    hudAmmo.textContent = String(state.ammo);
+    hudTargets.textContent = String(state.targets.filter(t => t.alive).length);
+    hudScore.textContent = state.score.toLocaleString();
+    hudTimeNum.textContent = Math.ceil(Math.max(0, state.timeLeft)) + "s";
+    const frac = Math.max(0, state.timeLeft / ROUND_TIME);
+    hudTimeFill.style.transform = `scaleX(${frac})`;
+  }
+
+  function endRound(reason){
+    if(state.roundOver) return;
+    state.roundOver = true;
+    state.running = false;
+
+    const hitCount = state.hits.filter((h, idx) => true).length; // running total, fine for display below
+    const total = state.targets.length;
+    const hitThisRound = state.targets.filter(t => !t.alive).length;
+
+    let bonus = 0;
+    if(reason === "clear"){ bonus = CLEAR_BONUS; state.score += bonus; }
+
+    const isLast = state.roundIndex >= POSITIONS.length - 1;
+    toast.classList.remove("show");
+
+    setTimeout(() => {
+      if(isLast){ showEnd(); return; }
+      $("roundOverlaySub").textContent = reason === "clear" ? "ROUND CLEARED — +" + CLEAR_BONUS + " BONUS"
+                                        : reason === "time" ? "TIME'S UP" : "OUT OF BALLS";
+      $("roundOverlayTitle").textContent = POSITIONS[state.roundIndex];
+      $("roundOverlayStat").textContent = `${hitThisRound} / ${total} hit`;
+      $("roundOverlayNext").textContent = "Next up: " + POSITIONS[state.roundIndex + 1];
+      roundOverlay.classList.remove("hidden");
+      setTimeout(() => {
+        roundOverlay.classList.add("hidden");
+        startRound(state.roundIndex + 1);
+      }, 1900);
+    }, 350);
+  }
+
+  function showEnd(){
+    $("finalScore").textContent = state.score.toLocaleString();
+    const list = $("hitList");
+    if(state.hits.length === 0){
+      list.innerHTML = `<div class="hitRow"><span class="ins">No hits this run — the field's still out there waiting.</span></div>`;
+    } else {
+      const sorted = [...state.hits].sort((a,b) => b.weight - a.weight);
+      list.innerHTML = sorted.map(h => `
+        <div class="hitRow">
+          <span class="hitDot" style="background:${teamColor(h.team)}"></span>
+          <span class="nm">${esc(h.pos)} ${esc(h.name)}</span>
+          <span class="ins">${esc(h.insight)}</span>
+          <span class="pts">+${h.weight}</span>
+        </div>`).join("");
+    }
+    endOverlay.classList.remove("hidden");
+  }
+
+})();
+</script>
+</body>
+</html>
