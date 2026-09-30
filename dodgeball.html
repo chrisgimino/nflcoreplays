@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Dodge Ball — NFL Value Plays</title>
+<title>Dodge Ball — Build Your Lineup</title>
 <style>
   :root{
     --bg:#0b0f14; --panel:#121822; --panel2:#182233; --line:#26324a;
@@ -25,87 +25,96 @@
     background:linear-gradient(180deg, rgba(10,14,20,.95), rgba(10,14,20,.75));
     border-bottom:1px solid var(--line); z-index:20; flex:0 0 auto;
   }
-  #hudPos{font-weight:800; font-size:15px; letter-spacing:.04em; color:var(--accent); min-width:38px;}
-  #hudDots{display:flex; gap:5px; margin-right:auto;}
-  #hudDots span{width:8px;height:8px;border-radius:50%;background:#2a3448;display:inline-block;}
+  #hudSlotWrap{min-width:46px;}
+  #hudPos{font-weight:800; font-size:15px; letter-spacing:.04em; color:var(--accent);}
+  #hudPosSub{font-size:9px; color:var(--dim); letter-spacing:.03em;}
+  #hudDots{display:flex; gap:4px; margin-right:auto; flex-wrap:wrap; max-width:110px;}
+  #hudDots span{width:7px;height:7px;border-radius:50%;background:#2a3448;display:inline-block;}
   #hudDots span.done{background:var(--good);}
   #hudDots span.active{background:var(--accent); box-shadow:0 0 8px var(--accent);}
-  .hudStat{font-size:12px; color:var(--dim); text-align:right; line-height:1.2;}
-  .hudStat b{display:block; font-size:16px; color:var(--text); font-weight:800;}
-  #hudTimeWrap{flex:0 0 74px;}
+  .hudStat{font-size:11px; color:var(--dim); text-align:right; line-height:1.2;}
+  .hudStat b{display:block; font-size:14px; color:var(--text); font-weight:800;}
+  #hudTimeWrap{flex:0 0 66px;}
   #hudTimeBar{height:5px; border-radius:3px; background:#1c2434; overflow:hidden; margin-top:3px;}
   #hudTimeFill{height:100%; width:100%; background:linear-gradient(90deg,var(--good),var(--accent),var(--bad)); transform-origin:left; transition:transform .12s linear, background .3s;}
 
-  /* ---------- Field ---------- */
+  /* ---------- Field (first-person court) ---------- */
   #field{
-    position:relative; flex:1 1 auto; overflow:hidden;
-    background:
-      repeating-linear-gradient(0deg, rgba(255,255,255,.03) 0 1px, transparent 1px 40px),
-      repeating-linear-gradient(90deg, rgba(255,255,255,.03) 0 1px, transparent 1px 40px),
-      radial-gradient(ellipse at 50% 30%, #17202e 0%, #0d1219 75%);
-    cursor:crosshair;
+    position:relative; flex:1 1 auto; overflow:hidden; background:#0d1219; cursor:pointer;
   }
+  .courtBg{ position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; }
+
   .target{
-    position:absolute; width:64px; height:64px; margin:-32px 0 0 -32px;
-    border-radius:50%; display:flex; align-items:center; justify-content:center;
-    flex-direction:column; will-change:transform; transition:opacity .15s, transform .15s;
-    filter:drop-shadow(0 4px 10px rgba(0,0,0,.5));
+    position:absolute; width:46px; height:66px; margin:-50px 0 0 -23px;
+    will-change:transform; transition:opacity .15s;
+    filter:drop-shadow(0 4px 8px rgba(0,0,0,.5));
   }
-  .target .ring{
-    position:absolute; inset:0; border-radius:50%; border:3px solid var(--tc,#4a90d9);
-    background:radial-gradient(circle at 35% 30%, rgba(255,255,255,.22), rgba(0,0,0,.35));
+  .target svg{ width:100%; height:100%; overflow:visible; }
+  .target .headband, .target .wristL, .target .wristR{ fill:var(--tc,#4a90d9); }
+  .target .jersey{ fill:#e9edf3; stroke:var(--tc,#4a90d9); stroke-width:2; }
+  .target .skin{ fill:#e7b98d; }
+  .target .legs rect{ fill:#33415c; }
+  @keyframes runCycle{
+    0%{ transform:rotate(22deg); } 50%{ transform:rotate(-22deg); } 100%{ transform:rotate(22deg); }
   }
-  .target .rank{
-    position:relative; font-weight:900; font-size:15px; color:#fff; text-shadow:0 1px 3px #000;
+  @keyframes runCycleOpp{
+    0%{ transform:rotate(-22deg); } 50%{ transform:rotate(22deg); } 100%{ transform:rotate(-22deg); }
   }
-  .target .wt{
-    position:relative; font-size:9px; font-weight:800; color:var(--accent); margin-top:1px;
-    text-shadow:0 1px 2px #000;
+  .target .legL{ transform-box:fill-box; transform-origin:50% 0%; animation:runCycle .42s linear infinite; }
+  .target .legR{ transform-box:fill-box; transform-origin:50% 0%; animation:runCycleOpp .42s linear infinite; }
+  .target .armL{ transform-box:fill-box; transform-origin:50% 0%; animation:runCycleOpp .42s linear infinite; }
+  .target .armR{ transform-box:fill-box; transform-origin:50% 0%; animation:runCycle .42s linear infinite; }
+
+  .target .tag{
+    position:absolute; top:100%; left:50%; transform:translateX(-50%); margin-top:2px;
+    font-size:9px; font-weight:700; white-space:nowrap; color:#fff; text-align:center;
+    background:rgba(0,0,0,.6); padding:1px 5px; border-radius:7px; pointer-events:none;
   }
-  .target .nm{
-    position:absolute; top:100%; left:50%; transform:translateX(-50%); margin-top:3px;
-    font-size:10px; font-weight:700; white-space:nowrap; color:#fff;
-    background:rgba(0,0,0,.55); padding:1px 6px; border-radius:8px; pointer-events:none;
+  .target .salTag{
+    position:absolute; top:-13px; left:50%; transform:translateX(-50%);
+    font-size:9px; font-weight:800; color:var(--accent); white-space:nowrap;
+    text-shadow:0 1px 2px #000; pointer-events:none;
   }
-  .target.core .ring{ box-shadow:0 0 0 3px rgba(255,176,32,.5), 0 0 14px rgba(255,176,32,.6); }
-  .target.core::after{
-    content:"★"; position:absolute; top:-9px; right:-4px; color:var(--accent);
-    font-size:13px; text-shadow:0 1px 2px #000;
-  }
-  .target.hit{ opacity:0; transform:scale(1.6); }
+  .target.core .salTag::before{ content:"★ "; }
+  .target.hit{ opacity:0; transition:opacity .18s; }
+  .target.forcedGhost{ opacity:.55; filter:grayscale(.6) drop-shadow(0 4px 8px rgba(0,0,0,.5)); }
 
   .ball{
-    position:absolute; width:20px; height:20px; margin:-10px 0 0 -10px; border-radius:50%;
+    position:absolute; width:18px; height:18px; margin:-9px 0 0 -9px; border-radius:50%;
     background:radial-gradient(circle at 35% 30%, #ffd58a, var(--ball) 55%, var(--ball-line) 100%);
     box-shadow:0 2px 6px rgba(0,0,0,.6); pointer-events:none; z-index:10;
   }
-  .crosshair{
-    position:absolute; width:26px; height:26px; margin:-13px 0 0 -13px; pointer-events:none; z-index:9;
-    border:2px solid rgba(255,176,32,.85); border-radius:50%; opacity:0; transition:opacity .1s;
+  .aimDot{
+    position:absolute; width:10px; height:10px; margin:-5px 0 0 -5px; border-radius:50%;
+    background:rgba(255,176,32,.55); box-shadow:0 0 10px 2px rgba(255,176,32,.35);
+    pointer-events:none; z-index:9; opacity:0; transition:opacity .12s;
   }
-  .crosshair::before,.crosshair::after{
-    content:""; position:absolute; background:rgba(255,176,32,.85);
-  }
-  .crosshair::before{ left:50%; top:-6px; bottom:-6px; width:1px; margin-left:-.5px; }
-  .crosshair::after{ top:50%; left:-6px; right:-6px; height:1px; margin-top:-.5px; }
 
   .popup{
-    position:absolute; font-weight:900; font-size:18px; color:var(--accent);
+    position:absolute; font-weight:900; font-size:14px; color:var(--good);
     text-shadow:0 2px 4px #000; pointer-events:none; z-index:11;
     animation:popUp .7s ease-out forwards;
   }
-  @keyframes popUp{ 0%{opacity:1; transform:translate(-50%,-50%) scale(.8);} 100%{opacity:0; transform:translate(-50%,-130%) scale(1.15);} }
+  @keyframes popUp{ 0%{opacity:1; transform:translate(-50%,-50%) scale(.8);} 100%{opacity:0; transform:translate(-50%,-160%) scale(1.1);} }
 
-  .launcher{
-    position:absolute; bottom:8px; left:50%; transform:translateX(-50%);
-    width:34px; height:34px; border-radius:50%;
-    background:radial-gradient(circle at 35% 30%, #ffd58a, var(--ball) 55%, var(--ball-line) 100%);
-    box-shadow:0 0 0 4px rgba(255,122,26,.15), 0 3px 10px rgba(0,0,0,.6); z-index:8;
+  .launcherWrap{
+    position:absolute; bottom:-6px; left:50%; width:90px; height:96px; margin-left:-45px;
+    pointer-events:none; z-index:8;
+  }
+  .arm{
+    position:absolute; bottom:0; left:50%; width:15px; height:64px; margin-left:-7.5px;
+    background:linear-gradient(180deg,#f0c194,#c98f63); border-radius:8px;
+    transform-origin:50% 100%; transition:transform .06s linear;
+  }
+  .handball{
+    position:absolute; top:-8px; left:50%; width:24px; height:24px; margin-left:-12px;
+    border-radius:50%; background:radial-gradient(circle at 35% 30%, #ffd58a, var(--ball) 55%, var(--ball-line) 100%);
+    box-shadow:0 0 0 4px rgba(255,122,26,.15), 0 3px 10px rgba(0,0,0,.6);
   }
 
   /* ---------- Toast (insight) ---------- */
   #toast{
-    position:absolute; left:50%; bottom:52px; transform:translate(-50%, 12px);
+    position:absolute; left:50%; bottom:108px; transform:translate(-50%, 12px);
     max-width:min(460px, 88vw); background:linear-gradient(180deg, var(--panel2), var(--panel));
     border:1px solid var(--line); border-radius:12px; padding:9px 14px; z-index:15;
     opacity:0; pointer-events:none; transition:opacity .18s, transform .18s;
@@ -115,35 +124,49 @@
   #toast .tName{ font-weight:800; font-size:13px; }
   #toast .tName .pos{ color:var(--accent); font-weight:900; margin-right:4px; }
   #toast .tLine{ font-size:12.5px; color:var(--dim); margin-top:2px; }
-  #toast .tPts{ float:right; color:var(--good); font-weight:900; }
+  #toast .tSal{ float:right; color:var(--good); font-weight:900; }
 
   /* ---------- Overlays ---------- */
   .overlay{
     position:absolute; inset:0; z-index:30; display:flex; align-items:center; justify-content:center;
-    background:rgba(6,9,13,.86); backdrop-filter:blur(3px); text-align:center; padding:24px;
+    background:rgba(6,9,13,.88); backdrop-filter:blur(3px); text-align:center; padding:24px; overflow-y:auto;
   }
   .overlay.hidden{ display:none; }
-  .card{ max-width:420px; }
-  .card h1{ font-size:30px; margin:0 0 6px; letter-spacing:.02em;
+  .card{ max-width:440px; }
+  .card h1{ font-size:28px; margin:0 0 6px; letter-spacing:.02em;
     background:linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
-  .card p{ color:var(--dim); font-size:14px; line-height:1.5; margin:6px 0 18px; }
-  .card .roundTitle{ font-size:26px; font-weight:900; margin-bottom:4px; }
-  .card .roundSub{ color:var(--dim); font-size:13px; margin-bottom:6px; }
-  .card .big{ font-size:40px; font-weight:900; color:var(--accent); margin:4px 0 14px; }
+  .card p{ color:var(--dim); font-size:13.5px; line-height:1.5; margin:6px 0 14px; }
+  .card .roundTitle{ font-size:24px; font-weight:900; margin-bottom:4px; }
+  .card .roundSub{ color:var(--dim); font-size:12.5px; margin-bottom:6px; letter-spacing:.03em; }
+  .card .big{ font-size:34px; font-weight:900; color:var(--accent); margin:4px 0 12px; }
   button.cta{
     background:linear-gradient(180deg, var(--accent), #e08d10); color:#1a1200; border:none;
     font-weight:900; font-size:15px; padding:13px 30px; border-radius:12px; cursor:pointer;
     box-shadow:0 6px 18px rgba(255,176,32,.35);
   }
   button.cta:active{ transform:translateY(1px); }
-  #hitList{ text-align:left; max-height:34vh; overflow-y:auto; margin:10px 0 18px;
-    border:1px solid var(--line); border-radius:10px; }
-  .hitRow{ display:flex; align-items:center; gap:8px; padding:7px 10px; border-bottom:1px solid var(--line); font-size:12.5px; }
-  .hitRow:last-child{ border-bottom:none; }
-  .hitDot{ width:9px; height:9px; border-radius:50%; flex:0 0 auto; }
-  .hitRow .nm{ font-weight:800; flex:0 0 auto; }
-  .hitRow .ins{ color:var(--dim); flex:1 1 auto; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .hitRow .pts{ color:var(--good); font-weight:800; flex:0 0 auto; }
+  button.cta:disabled{ opacity:.5; }
+  .siteRow{ display:flex; gap:10px; justify-content:center; margin:0 0 18px; }
+  .siteBtn{
+    flex:1; max-width:160px; border:2px solid var(--line); background:var(--panel);
+    color:var(--text); border-radius:12px; padding:12px 10px; cursor:pointer; font-weight:800;
+  }
+  .siteBtn .cap{ display:block; font-size:11px; color:var(--dim); font-weight:600; margin-top:2px; }
+  .siteBtn.selected{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(255,176,32,.25) inset; }
+
+  #rosterList{ text-align:left; margin:10px 0 16px; border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  .rosterRow{ display:flex; align-items:center; gap:8px; padding:8px 10px; border-bottom:1px solid var(--line); font-size:12px; }
+  .rosterRow:last-child{ border-bottom:none; }
+  .rosterRow .slotLbl{ flex:0 0 40px; color:var(--accent); font-weight:900; font-size:11px; }
+  .rosterRow .dot{ width:8px; height:8px; border-radius:50%; flex:0 0 auto; }
+  .rosterRow .nm{ font-weight:800; flex:0 0 auto; }
+  .rosterRow .ins{ color:var(--dim); flex:1 1 auto; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:11px; }
+  .rosterRow .sal{ color:var(--good); font-weight:800; flex:0 0 auto; }
+  .rosterRow.forced .nm::after{ content:" (auto)"; color:var(--bad); font-weight:600; font-size:10px; }
+  .rosterRow.overcap{ background:rgba(255,90,90,.08); }
+  .rosterRow.overcap .sal{ color:var(--bad); }
+  .totalsRow{ display:flex; justify-content:space-between; font-size:13px; padding:0 4px; margin-bottom:16px; color:var(--dim); }
+  .totalsRow b{ color:var(--text); }
   #loadErr{ color:var(--bad); font-size:13px; }
 </style>
 </head>
@@ -151,20 +174,40 @@
 <div id="app">
 
   <div id="hud">
-    <div id="hudPos">--</div>
+    <div id="hudSlotWrap"><div id="hudPos">--</div><div id="hudPosSub">&nbsp;</div></div>
     <div id="hudDots"></div>
     <div class="hudStat" id="hudTimeWrap">
       TIME<div id="hudTimeNum">--</div>
       <div id="hudTimeBar"><div id="hudTimeFill"></div></div>
     </div>
-    <div class="hudStat">AMMO<b id="hudAmmo">--</b></div>
-    <div class="hudStat">LEFT<b id="hudTargets">--</b></div>
-    <div class="hudStat">SCORE<b id="hudScore">0</b></div>
+    <div class="hudStat">BALLS<b id="hudAmmo">--</b></div>
+    <div class="hudStat">BUDGET<b id="hudBudget">--</b></div>
+    <div class="hudStat">CAP LEFT<b id="hudCapLeft">--</b></div>
   </div>
 
   <div id="field">
-    <div class="crosshair" id="crosshair"></div>
-    <div class="launcher"></div>
+    <svg class="courtBg" viewBox="0 0 400 600" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#141b26"/>
+          <stop offset="1" stop-color="#0d1219"/>
+        </linearGradient>
+      </defs>
+      <rect x="0" y="0" width="400" height="600" fill="url(#floorGrad)"/>
+      <polygon points="90,0 310,0 400,600 0,600" fill="#17202e" opacity="0.6"/>
+      <line x1="90" y1="0" x2="0" y2="600" stroke="#2a3448" stroke-width="2"/>
+      <line x1="310" y1="0" x2="400" y2="600" stroke="#2a3448" stroke-width="2"/>
+      <line x1="0" y1="90" x2="400" y2="90" stroke="#232d40" stroke-width="1.5" opacity="0.7"/>
+      <line x1="30" y1="200" x2="370" y2="200" stroke="#232d40" stroke-width="1.5" opacity="0.6"/>
+      <line x1="55" y1="330" x2="345" y2="330" stroke="#232d40" stroke-width="1.5" opacity="0.5"/>
+      <line x1="85" y1="470" x2="315" y2="470" stroke="#232d40" stroke-width="1.5" opacity="0.4"/>
+      <ellipse cx="200" cy="598" rx="120" ry="20" fill="#1c2434" opacity="0.5"/>
+    </svg>
+    <div class="aimDot" id="aimDot"></div>
+    <div class="launcherWrap" id="launcherWrap">
+      <div class="arm" id="launcherArm"></div>
+      <div class="handball"></div>
+    </div>
   </div>
 
   <div id="toast"></div>
@@ -173,10 +216,14 @@
     <div class="card">
       <h1>DODGE&nbsp;BALL</h1>
       <p id="startBlurb">Loading this week's value plays…</p>
-      <p style="font-size:12.5px">One position at a time. Everybody ranked is loose on the
-      field at once. Peg the best ones for the most points — <b style="color:var(--accent)">1000</b>
-      for the top play down to <b style="color:var(--accent)">100</b> for the last guy shown.
-      Limited balls, limited time, five rounds: QB → RB → WR → TE → DST.</p>
+      <div class="siteRow" id="siteRow">
+        <button class="siteBtn selected" data-site="draftkings">DraftKings<span class="cap">$50,000 cap</span></button>
+        <button class="siteBtn" data-site="fanduel">FanDuel<span class="cap">$60,000 cap</span></button>
+      </div>
+      <p style="font-size:12px">One slot at a time. The best-graded plays who still fit the
+      cap come out to run — peg one to lock him into your lineup. Nine slots:
+      QB, RB, RB, WR, WR, WR, TE, FLEX, DST. Spend early, and the back half of your
+      roster gets tight.</p>
       <button class="cta" id="startBtn" disabled>LOADING…</button>
       <p id="loadErr" style="display:none; margin-top:14px;"></p>
     </div>
@@ -184,20 +231,23 @@
 
   <div class="overlay hidden" id="roundOverlay">
     <div class="card">
-      <div class="roundSub" id="roundOverlaySub">ROUND CLEAR</div>
-      <div class="roundTitle" id="roundOverlayTitle">QB</div>
-      <div class="roundSub" id="roundOverlayStat">3 / 8 hit — 2,150 pts</div>
+      <div class="roundSub" id="roundOverlaySub">LOCKED IN</div>
+      <div class="roundTitle" id="roundOverlayTitle">QB — Justin Herbert</div>
+      <div class="roundSub" id="roundOverlayStat">$6,100 · LAC</div>
       <div class="big" id="roundOverlayNext">Next up: RB</div>
     </div>
   </div>
 
   <div class="overlay hidden" id="endOverlay">
     <div class="card" style="max-width:480px;">
-      <div class="roundSub">GAME OVER</div>
-      <h1 style="font-size:26px;">FINAL SCORE</h1>
-      <div class="big" id="finalScore">0</div>
-      <div id="hitList"></div>
-      <button class="cta" id="againBtn">PLAY AGAIN</button>
+      <div class="roundSub">LINEUP COMPLETE</div>
+      <h1 style="font-size:24px;">YOUR ROSTER</h1>
+      <div id="rosterList"></div>
+      <div class="totalsRow"><span>Salary used</span><b id="totalSpent">$0</b></div>
+      <div class="totalsRow"><span>Cap space left</span><b id="totalLeft">$0</b></div>
+      <div class="totalsRow"><span>Lineup grade</span><b id="totalGrade">0.0</b></div>
+      <p id="capNote" style="color:var(--bad); font-size:12px; margin:-6px 0 14px;"></p>
+      <button class="cta" id="againBtn">BUILD ANOTHER</button>
     </div>
   </div>
 
@@ -208,12 +258,26 @@
   "use strict";
 
   const DATA_URL = "dodgeball_data.json";
-  const POSITIONS = ["QB","RB","WR","TE","DST"];
-  const ROUND_TIME = 20;          // seconds
-  const ROUND_SPEED = [1.0, 1.12, 1.26, 1.42, 1.6]; // target speed ramp per round
+  const ROUND_TIME = 16;          // seconds per slot
   const BALL_SPEED = 1500;        // px/sec
   const THROW_COOLDOWN = 320;     // ms between throws
-  const CLEAR_BONUS = 250;
+  const RUNNER_COUNT = 6;
+  const DODGE_NOTICE = 72;        // px from the throw line that triggers a dodge
+  const DODGE_SPEED = 190;        // px/sec flee speed
+  const DODGE_MS = 620;
+
+  const SLOTS = [
+    { key:"QB",   label:"QB",   pool:["QB"] },
+    { key:"RB1",  label:"RB",   pool:["RB"] },
+    { key:"RB2",  label:"RB",   pool:["RB"] },
+    { key:"WR1",  label:"WR",   pool:["WR"] },
+    { key:"WR2",  label:"WR",   pool:["WR"] },
+    { key:"WR3",  label:"WR",   pool:["WR"] },
+    { key:"TE",   label:"TE",   pool:["TE"] },
+    { key:"FLEX", label:"FLEX", pool:["RB","WR","TE"] },
+    { key:"DST",  label:"DST",  pool:["DST"] },
+  ];
+  const CAPS = { draftkings:50000, fanduel:60000 };
 
   const TEAM_COLORS = {
     ARI:"#97233f", ATL:"#a71930", BAL:"#241773", BUF:"#00338d", CAR:"#0085ca",
@@ -226,24 +290,44 @@
   };
   function teamColor(t){ return TEAM_COLORS[t] || "#4a5a78"; }
 
+  // Real cheapest still-undrafted salary at a position, not a guess -- this is what
+  // actually decides how much room later slots need to hold back.
+  function minAvailableSalary(posName, site){
+    const sec = (gameData.positions || []).find(s => s.position === posName);
+    if(!sec) return null;
+    let min = null;
+    for(const p of sec.players){
+      if(state.draftedIds.has(p.player_id)) continue;
+      const sal = site === "draftkings" ? p.salary_dk : p.salary_fd;
+      if(sal == null) continue;
+      if(min == null || sal < min) min = sal;
+    }
+    return min;
+  }
+  function fmt$(n){ return "$" + Math.round(n).toLocaleString(); }
+
   // ---------- DOM ----------
   const $ = (id) => document.getElementById(id);
-  const field = $("field"), crosshair = $("crosshair"), toast = $("toast");
+  const field = $("field"), aimDot = $("aimDot"), toast = $("toast");
+  const launcherArm = $("launcherArm");
   const startOverlay = $("startOverlay"), startBtn = $("startBtn"), startBlurb = $("startBlurb"), loadErr = $("loadErr");
   const roundOverlay = $("roundOverlay"), endOverlay = $("endOverlay");
-  const hudPos = $("hudPos"), hudDots = $("hudDots"), hudAmmo = $("hudAmmo"),
-        hudTargets = $("hudTargets"), hudScore = $("hudScore"),
+  const hudPos = $("hudPos"), hudPosSub = $("hudPosSub"), hudDots = $("hudDots"),
+        hudAmmo = $("hudAmmo"), hudBudget = $("hudBudget"), hudCapLeft = $("hudCapLeft"),
         hudTimeNum = $("hudTimeNum"), hudTimeFill = $("hudTimeFill");
 
   let gameData = null;
-  let state = null; // set in resetGame()
+  let chosenSite = "draftkings";
+  let state = null;
 
   function resetGame(){
     state = {
-      roundIndex: -1,
-      score: 0,
-      hits: [],           // {name,pos,team,weight,insight}
-      targets: [],         // alive targets this round
+      site: chosenSite,
+      slotIndex: -1,
+      spent: 0,
+      draftedIds: new Set(),
+      roster: [],          // {slotKey,label,name,pos,team,sal,grade,insight,forced}
+      targets: [],
       balls: [],
       ammo: 0,
       timeLeft: ROUND_TIME,
@@ -252,8 +336,9 @@
       roundOver: false,
       raf: null,
       lastTs: null,
+      currentBudget: 0,
     };
-    hudScore.textContent = "0";
+    buildDots();
   }
 
   // ---------- Load ----------
@@ -264,8 +349,7 @@
       const total = (data.positions||[]).reduce((n,s)=>n+(s.players||[]).length, 0);
       startBlurb.textContent = `${total} ranked plays loaded, updated ${fmtUpdated(data.updated)}.`;
       startBtn.disabled = false;
-      startBtn.textContent = "START";
-      buildDots();
+      startBtn.textContent = "START DRAFT";
       resetGame();
     })
     .catch(err => {
@@ -282,46 +366,107 @@
     }catch(e){ return "recently"; }
   }
 
+  document.querySelectorAll(".siteBtn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".siteBtn").forEach(b => b.classList.remove("selected"));
+      btn.classList.add("selected");
+      chosenSite = btn.dataset.site;
+    });
+  });
+
   function buildDots(){
     hudDots.innerHTML = "";
-    POSITIONS.forEach(()=>{
+    SLOTS.forEach(()=>{
       const s = document.createElement("span");
       hudDots.appendChild(s);
     });
   }
   function updateDots(){
     [...hudDots.children].forEach((el,i)=>{
-      el.className = i < state.roundIndex ? "done" : (i === state.roundIndex ? "active" : "");
+      el.className = i < state.slotIndex ? "done" : (i === state.slotIndex ? "active" : "");
     });
   }
 
-  // ---------- Start / round flow ----------
+  // ---------- Start / slot flow ----------
   startBtn.addEventListener("click", () => {
     startOverlay.classList.add("hidden");
     resetGame();
-    startRound(0);
+    startSlot(0);
   });
   $("againBtn").addEventListener("click", () => {
     endOverlay.classList.add("hidden");
-    resetGame();
-    startRound(0);
+    startOverlay.classList.remove("hidden");
   });
 
-  function startRound(idx){
-    clearField();
-    state.roundIndex = idx;
-    state.roundOver = false;
-    const posName = POSITIONS[idx];
-    const section = (gameData.positions||[]).find(s => s.position === posName) || {players:[]};
-    const players = section.players || [];
+  function computePool(slotIdx){
+    const slot = SLOTS[slotIdx];
+    const cap = CAPS[state.site];
+    const hardCap = cap - state.spent; // the one number that can never be exceeded
 
-    state.targets = players.map((p, i) => spawnTarget(p, i, ROUND_SPEED[idx] || 1));
-    state.ammo = Math.max(6, Math.min(10, players.length + 2));
+    const remainingAfter = SLOTS.slice(slotIdx + 1);
+    const reserve = remainingAfter.reduce((sum, sl) => {
+      const mins = sl.pool.map(p => minAvailableSalary(p, state.site)).filter(v => v != null);
+      return sum + (mins.length ? Math.min(...mins) : 0);
+    }, 0);
+    const budget = hardCap - reserve; // preferred: leave room for what's still to come
+
+    const candidates = [];
+    for(const posName of slot.pool){
+      const sec = (gameData.positions || []).find(s => s.position === posName);
+      if(!sec) continue;
+      for(const p of sec.players){
+        if(state.draftedIds.has(p.player_id)) continue;
+        const sal = state.site === "draftkings" ? p.salary_dk : p.salary_fd;
+        const grade = state.site === "draftkings" ? p.grade_dk : p.grade_fd;
+        if(sal == null || grade == null) continue;
+        candidates.push({ p, sal, grade });
+      }
+    }
+    // Prefer staying under budget (room for later slots). If that's empty, relax to the
+    // hard cap (spend into what was reserved for later -- they'll feel it instead).
+    // Only if EVERY available player at this position costs more than what's left at all
+    // do we take the cheapest one anyway, and that pick gets flagged as a cap bust.
+    let pool = candidates.filter(c => c.sal <= budget);
+    let bust = false;
+    if(pool.length === 0){
+      pool = candidates.filter(c => c.sal <= hardCap);
+    }
+    if(pool.length === 0 && candidates.length > 0){
+      const cheapest = candidates.reduce((a,b) => a.sal < b.sal ? a : b);
+      pool = [cheapest];
+      bust = true;
+    }
+    pool.sort((a,b) => b.grade - a.grade);
+    return { slot, pool: pool.slice(0, RUNNER_COUNT), budget, cap, hardCap, bust };
+  }
+
+  function startSlot(idx){
+    clearField();
+    if(idx >= SLOTS.length){ showEnd(); return; }
+    state.slotIndex = idx;
+    state.roundOver = false;
+
+    const { slot, pool, budget, hardCap, bust } = computePool(idx);
+    state.currentBudget = budget;
+    state.currentHardCap = hardCap;
+    state.currentBust = bust;
+
+    if(pool.length === 0){
+      // position genuinely exhausted -- skip the slot rather than break the draft
+      state.roster.push({ slotKey: slot.key, label: slot.label, name: "(none available)",
+                           pos: "-", team: "", sal: 0, grade: 0, insight: "", forced: true, empty:true });
+      startSlot(idx + 1);
+      return;
+    }
+
+    state.targets = pool.map(c => spawnTarget(c));
+    state.ammo = Math.max(5, Math.min(9, pool.length + 3));
     state.timeLeft = ROUND_TIME;
     state.lastThrow = -Infinity;
     state.balls = [];
 
-    hudPos.textContent = posName;
+    hudPos.textContent = slot.key;
+    hudPosSub.textContent = bust ? "CAP TIGHT" : (slot.pool.length > 1 ? slot.pool.join("/") : "");
     updateDots();
     updateHud();
     state.running = true;
@@ -332,26 +477,41 @@
     field.querySelectorAll(".target, .ball, .popup").forEach(el => el.remove());
   }
 
-  function spawnTarget(p, i, speedMul){
+  const FIG_SVG = `
+    <svg viewBox="0 0 40 66">
+      <g class="legs">
+        <g class="legL"><rect x="15" y="38" width="5" height="18" rx="2.5"/></g>
+        <g class="legR"><rect x="20" y="38" width="5" height="18" rx="2.5"/></g>
+      </g>
+      <rect class="jersey" x="11" y="20" width="18" height="20" rx="5"/>
+      <g class="armL"><rect class="skin" x="5" y="22" width="6" height="16" rx="3"/><rect class="wristL" x="5" y="34" width="6" height="4" rx="2"/></g>
+      <g class="armR"><rect class="skin" x="29" y="22" width="6" height="16" rx="3"/><rect class="wristR" x="29" y="34" width="6" height="4" rx="2"/></g>
+      <circle class="skin" cx="20" cy="12" r="9"/>
+      <rect class="headband" x="10.5" y="8" width="19" height="4.5" rx="2.2"/>
+    </svg>`;
+
+  function spawnTarget(c){
+    const p = c.p;
     const el = document.createElement("div");
     el.className = "target" + (p.core ? " core" : "");
     el.style.setProperty("--tc", teamColor(p.team));
-    el.innerHTML = `<div class="ring"></div><div class="rank">${esc(p.team||"")}</div>
-                     <div class="wt">${p.weight}</div>
-                     <div class="nm">${esc(shortName(p.name))} · ${esc(p.pos)}${p.injury?(" · "+esc(p.injury)):""}</div>`;
+    el.innerHTML = FIG_SVG +
+      `<div class="salTag">${fmt$(c.sal)}</div>
+       <div class="tag">${esc(shortName(p.name))} · ${esc(p.pos)}${p.injury?(" · "+esc(p.injury)):""}</div>`;
     field.appendChild(el);
 
     const rect = field.getBoundingClientRect();
-    const r = 32;
-    const x = r + Math.random() * Math.max(1, rect.width - 2*r);
-    const y = r + Math.random() * Math.max(1, (rect.height - 90) - 2*r) + 20;
-    const baseSpeed = (26 + Math.random() * 30) * speedMul;
+    const minY = 60, maxY = rect.height - 110;
+    const x = 30 + Math.random() * Math.max(1, rect.width - 60);
+    const y = minY + Math.random() * Math.max(1, maxY - minY);
+    const baseSpeed = 26 + Math.random() * 28;
     const ang = Math.random() * Math.PI * 2;
 
     return {
-      p, el, x, y, r,
-      vx: Math.cos(ang) * baseSpeed,
-      vy: Math.sin(ang) * baseSpeed,
+      p, sal: c.sal, grade: c.grade, el, x, y, r: 20,
+      minY, maxY,
+      vx: Math.cos(ang) * baseSpeed, vy: Math.sin(ang) * baseSpeed,
+      dodgeUntil: 0, dodgeVx: 0, dodgeVy: 0,
       alive: true,
     };
   }
@@ -364,29 +524,40 @@
   }
   function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
-  // ---------- Aiming / throwing ----------
+  // ---------- Aiming / throwing (first-person: launcher hand at the bottom) ----------
   function fieldPoint(clientX, clientY){
     const rect = field.getBoundingClientRect();
     return { x: clientX - rect.left, y: clientY - rect.top };
   }
+  function launchPos(){
+    const rect = field.getBoundingClientRect();
+    return { x: rect.width / 2, y: rect.height - 58 };
+  }
+  function aimArm(px, py){
+    const lp = launchPos();
+    let deg = Math.atan2(px - lp.x, (lp.y - py) || 1) * (180/Math.PI);
+    deg = Math.max(-48, Math.min(48, deg));
+    launcherArm.style.transform = "rotate(" + deg + "deg)";
+  }
 
+  let lastPointer = null;
   field.addEventListener("pointermove", (e) => {
+    const pt = fieldPoint(e.clientX, e.clientY);
+    lastPointer = pt;
+    aimArm(pt.x, pt.y);
     if(e.pointerType === "mouse"){
-      const pt = fieldPoint(e.clientX, e.clientY);
-      crosshair.style.left = pt.x + "px";
-      crosshair.style.top = pt.y + "px";
-      crosshair.style.opacity = "1";
+      aimDot.style.left = pt.x + "px"; aimDot.style.top = pt.y + "px"; aimDot.style.opacity = "1";
     }
   });
-  field.addEventListener("pointerleave", () => { crosshair.style.opacity = "0"; });
+  field.addEventListener("pointerleave", () => { aimDot.style.opacity = "0"; });
 
   field.addEventListener("pointerdown", (e) => {
     const pt = fieldPoint(e.clientX, e.clientY);
+    lastPointer = pt;
+    aimArm(pt.x, pt.y);
     if(e.pointerType !== "mouse"){
-      crosshair.style.left = pt.x + "px";
-      crosshair.style.top = pt.y + "px";
-      crosshair.style.opacity = "1";
-      setTimeout(()=>{ crosshair.style.opacity = "0"; }, 250);
+      aimDot.style.left = pt.x + "px"; aimDot.style.top = pt.y + "px"; aimDot.style.opacity = "1";
+      setTimeout(()=>{ aimDot.style.opacity = "0"; }, 220);
     }
     throwBall(pt.x, pt.y);
   });
@@ -394,10 +565,9 @@
   window.addEventListener("keydown", (e) => {
     if(e.code === "Space" && state && state.running && !state.roundOver){
       e.preventDefault();
-      const rect = field.getBoundingClientRect();
-      const cx = parseFloat(crosshair.style.left) || rect.width/2;
-      const cy = parseFloat(crosshair.style.top) || rect.height/2;
-      throwBall(cx, cy);
+      const lp = launchPos();
+      const pt = lastPointer || { x: lp.x, y: lp.y - 200 };
+      throwBall(pt.x, pt.y);
     }
   });
 
@@ -410,18 +580,35 @@
     state.ammo--;
     updateHud();
 
-    const rect = field.getBoundingClientRect();
-    const sx = rect.width / 2, sy = rect.height - 26;
+    const lp = launchPos();
+    const sx = lp.x, sy = lp.y - 24;
     const dx = tx - sx, dy = ty - sy;
     const dist = Math.max(1, Math.hypot(dx, dy));
+    const dirx = dx / dist, diry = dy / dist;
+
     const el = document.createElement("div");
     el.className = "ball";
     el.style.left = sx + "px"; el.style.top = sy + "px";
     field.appendChild(el);
-    state.balls.push({
-      el, x: sx, y: sy,
-      vx: (dx/dist) * BALL_SPEED, vy: (dy/dist) * BALL_SPEED,
-      life: 1400,
+    state.balls.push({ el, x: sx, y: sy, vx: dirx * BALL_SPEED, vy: diry * BALL_SPEED, life: 1400 });
+
+    // targets near the throw line try to dodge out of the way
+    const lineLen = Math.hypot(tx - sx, ty - sy) || 1;
+    state.targets.forEach(t => {
+      if(!t.alive) return;
+      const px = dirx, py = diry;
+      const wx = t.x - sx, wy = t.y - sy;
+      const along = wx * px + wy * py;
+      if(along < 0 || along > lineLen + 60) return;
+      const perpX = wx - px * along, perpY = wy - py * along;
+      const perpDist = Math.hypot(perpX, perpY);
+      if(perpDist < DODGE_NOTICE){
+        const side = (perpX * (-py) + perpY * px) >= 0 ? 1 : -1;
+        const fleeX = -py * side, fleeY = px * side;
+        t.dodgeVx = fleeX * DODGE_SPEED;
+        t.dodgeVy = fleeY * DODGE_SPEED;
+        t.dodgeUntil = now + DODGE_MS;
+      }
     });
   }
 
@@ -431,52 +618,49 @@
     const dt = Math.min(0.05, (ts - state.lastTs) / 1000);
     state.lastTs = ts;
     const rect = field.getBoundingClientRect();
+    const now = performance.now();
 
     if(state.running && !state.roundOver){
       state.timeLeft -= dt;
       updateHud();
-      if(state.timeLeft <= 0){
-        state.timeLeft = 0;
-        endRound("time");
-      }
+      if(state.timeLeft <= 0){ state.timeLeft = 0; endSlot(null); }
     }
 
-    // targets wander & bounce
-    state.targets.forEach(t => {
-      if(!t.alive) return;
-      t.x += t.vx * dt; t.y += t.vy * dt;
-      const minY = 8, maxY = rect.height - 90;
-      if(t.x < t.r || t.x > rect.width - t.r){ t.vx *= -1; t.x = Math.max(t.r, Math.min(rect.width - t.r, t.x)); }
-      if(t.y < minY + t.r || t.y > maxY - t.r){ t.vy *= -1; t.y = Math.max(minY + t.r, Math.min(maxY - t.r, t.y)); }
-      t.el.style.transform = `translate(${t.x}px, ${t.y}px)`;
-    });
+    if(!state.roundOver){
+      state.targets.forEach(t => {
+        if(!t.alive) return;
+        let vx = t.vx, vy = t.vy;
+        if(now < t.dodgeUntil){ vx = t.dodgeVx; vy = t.dodgeVy; }
+        t.x += vx * dt; t.y += vy * dt;
+        if(t.x < t.r || t.x > rect.width - t.r){ t.vx *= -1; t.x = Math.max(t.r, Math.min(rect.width - t.r, t.x)); }
+        if(t.y < t.minY + t.r || t.y > t.maxY - t.r){ t.vy *= -1; t.y = Math.max(t.minY + t.r, Math.min(t.maxY - t.r, t.y)); }
+        const scale = 0.55 + 0.6 * ((t.y - t.minY) / Math.max(1, (t.maxY - t.minY)));
+        t.el.style.transform = `translate(${t.x}px, ${t.y}px) scale(${scale.toFixed(2)})`;
+        t.scale = scale;
+      });
 
-    // balls advance & collide
-    for(let i = state.balls.length - 1; i >= 0; i--){
-      const b = state.balls[i];
-      b.x += b.vx * dt; b.y += b.vy * dt; b.life -= dt * 1000;
-      b.el.style.left = b.x + "px"; b.el.style.top = b.y + "px";
+      for(let i = state.balls.length - 1; i >= 0; i--){
+        const b = state.balls[i];
+        b.x += b.vx * dt; b.y += b.vy * dt; b.life -= dt * 1000;
+        b.el.style.left = b.x + "px"; b.el.style.top = b.y + "px";
 
-      let hit = null;
-      for(const t of state.targets){
-        if(!t.alive) continue;
-        if(Math.hypot(t.x - b.x, t.y - b.y) <= t.r + 10){ hit = t; break; }
+        let hit = null;
+        for(const t of state.targets){
+          if(!t.alive) continue;
+          const hitR = (t.r * (t.scale || 1)) + 9;
+          if(Math.hypot(t.x - b.x, t.y - b.y) <= hitR){ hit = t; break; }
+        }
+        const outOfBounds = b.x < -20 || b.x > rect.width + 20 || b.y < -20 || b.y > rect.height + 20;
+        if(hit){
+          registerHit(hit, b.x, b.y);
+          b.el.remove(); state.balls.splice(i, 1);
+        } else if(outOfBounds || b.life <= 0){
+          b.el.remove(); state.balls.splice(i, 1);
+        }
       }
-      const outOfBounds = b.x < -20 || b.x > rect.width + 20 || b.y < -20 || b.y > rect.height + 20;
-      if(hit){
-        registerHit(hit, b.x, b.y);
-        b.el.remove(); state.balls.splice(i, 1);
-      } else if(outOfBounds || b.life <= 0){
-        b.el.remove(); state.balls.splice(i, 1);
-      }
-    }
 
-    if(state.running && !state.roundOver){
-      const aliveLeft = state.targets.some(t => t.alive);
-      if(!aliveLeft){
-        endRound("clear");
-      } else if(state.ammo <= 0 && state.balls.length === 0){
-        endRound("ammo");
+      if(state.running && state.ammo <= 0 && state.balls.length === 0){
+        endSlot(null);
       }
     }
 
@@ -484,88 +668,120 @@
   }
 
   function registerHit(t, atX, atY){
+    if(state.roundOver) return;
     t.alive = false;
     t.el.classList.add("hit");
-    setTimeout(() => t.el.remove(), 200);
-
-    state.score += t.p.weight;
-    state.hits.push({ name: t.p.name, pos: t.p.pos, team: t.p.team, weight: t.p.weight, insight: t.p.insight });
-    updateHud();
+    setTimeout(() => t.el.remove(), 180);
 
     const pop = document.createElement("div");
     pop.className = "popup";
     pop.style.left = atX + "px"; pop.style.top = atY + "px";
-    pop.textContent = "+" + t.p.weight;
+    pop.textContent = fmt$(t.sal);
     field.appendChild(pop);
     setTimeout(() => pop.remove(), 700);
 
-    showToast(t.p);
+    endSlot(t);
+  }
+
+  function recordPick(t, forced){
+    const slot = SLOTS[state.slotIndex];
+    state.spent += t.sal;
+    state.draftedIds.add(t.p.player_id);
+    const record = {
+      slotKey: slot.key, label: slot.label, name: t.p.name, pos: t.p.pos, team: t.p.team,
+      sal: t.sal, grade: t.grade, insight: t.p.insight, forced, overCap: !!state.currentBust,
+    };
+    state.roster.push(record);
+    updateHud();
+    showToast(t.p, t.sal, forced);
+    return record;
   }
 
   let toastTimer = null;
-  function showToast(p){
+  function showToast(p, sal, forced){
     toast.innerHTML = `<div class="tName"><span class="pos">${esc(p.pos)}</span>${esc(p.name)}
-                        <span class="tPts">+${p.weight}</span></div>
-                        <div class="tLine">${esc(p.insight)}</div>`;
+                        <span class="tSal">${fmt$(sal)}</span></div>
+                        <div class="tLine">${forced ? "Auto-filled — " : ""}${esc(p.insight)}</div>`;
     toast.classList.add("show");
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => toast.classList.remove("show"), 2200);
+    toastTimer = setTimeout(() => toast.classList.remove("show"), 2400);
   }
 
   function updateHud(){
     hudAmmo.textContent = String(state.ammo);
-    hudTargets.textContent = String(state.targets.filter(t => t.alive).length);
-    hudScore.textContent = state.score.toLocaleString();
+    hudBudget.textContent = fmt$(Math.max(0, state.currentBudget));
+    hudCapLeft.textContent = fmt$(CAPS[state.site] - state.spent);
     hudTimeNum.textContent = Math.ceil(Math.max(0, state.timeLeft)) + "s";
     const frac = Math.max(0, state.timeLeft / ROUND_TIME);
     hudTimeFill.style.transform = `scaleX(${frac})`;
   }
 
-  function endRound(reason){
+  function endSlot(hitTarget){
+    // hitTarget is the target object that was hit, or null if time/ammo ran out.
+    // Called exactly once per slot, from exactly one place -- never re-enters itself.
     if(state.roundOver) return;
     state.roundOver = true;
     state.running = false;
-
-    const hitCount = state.hits.filter((h, idx) => true).length; // running total, fine for display below
-    const total = state.targets.length;
-    const hitThisRound = state.targets.filter(t => !t.alive).length;
-
-    let bonus = 0;
-    if(reason === "clear"){ bonus = CLEAR_BONUS; state.score += bonus; }
-
-    const isLast = state.roundIndex >= POSITIONS.length - 1;
     toast.classList.remove("show");
+
+    let last;
+    if(hitTarget){
+      last = recordPick(hitTarget, false);
+    } else {
+      // out of time or out of balls with no hit -- auto-fill the cheapest runner still up
+      const alive = state.targets.filter(t => t.alive);
+      if(alive.length){
+        const cheapest = alive.reduce((a,b) => a.sal < b.sal ? a : b);
+        cheapest.alive = false;
+        cheapest.el.remove();
+        last = recordPick(cheapest, true);
+      } else {
+        // nothing left alive somehow -- skip with an empty slot rather than stall
+        const slot = SLOTS[state.slotIndex];
+        last = { slotKey: slot.key, label: slot.label, name: "(missed)", pos:"-", team:"",
+                 sal:0, grade:0, insight:"", forced:true, empty:true };
+        state.roster.push(last);
+      }
+    }
+
+    const isLast = state.slotIndex >= SLOTS.length - 1;
 
     setTimeout(() => {
       if(isLast){ showEnd(); return; }
-      $("roundOverlaySub").textContent = reason === "clear" ? "ROUND CLEARED — +" + CLEAR_BONUS + " BONUS"
-                                        : reason === "time" ? "TIME'S UP" : "OUT OF BALLS";
-      $("roundOverlayTitle").textContent = POSITIONS[state.roundIndex];
-      $("roundOverlayStat").textContent = `${hitThisRound} / ${total} hit`;
-      $("roundOverlayNext").textContent = "Next up: " + POSITIONS[state.roundIndex + 1];
+      $("roundOverlaySub").textContent = last.forced ? "TIME'S UP — AUTO-FILLED" : "LOCKED IN";
+      $("roundOverlayTitle").textContent = `${last.label} — ${last.name}`;
+      $("roundOverlayStat").textContent = last.empty ? "" : `${fmt$(last.sal)} · ${last.team}`;
+      const next = SLOTS[state.slotIndex + 1];
+      $("roundOverlayNext").textContent = "Next up: " + next.key;
       roundOverlay.classList.remove("hidden");
       setTimeout(() => {
         roundOverlay.classList.add("hidden");
-        startRound(state.roundIndex + 1);
-      }, 1900);
-    }, 350);
+        startSlot(state.slotIndex + 1);
+      }, 1700);
+    }, 300);
   }
 
   function showEnd(){
-    $("finalScore").textContent = state.score.toLocaleString();
-    const list = $("hitList");
-    if(state.hits.length === 0){
-      list.innerHTML = `<div class="hitRow"><span class="ins">No hits this run — the field's still out there waiting.</span></div>`;
-    } else {
-      const sorted = [...state.hits].sort((a,b) => b.weight - a.weight);
-      list.innerHTML = sorted.map(h => `
-        <div class="hitRow">
-          <span class="hitDot" style="background:${teamColor(h.team)}"></span>
-          <span class="nm">${esc(h.pos)} ${esc(h.name)}</span>
-          <span class="ins">${esc(h.insight)}</span>
-          <span class="pts">+${h.weight}</span>
-        </div>`).join("");
-    }
+    const list = $("rosterList");
+    list.innerHTML = state.roster.map(r => `
+      <div class="rosterRow${r.forced ? " forced" : ""}${r.overCap ? " overcap" : ""}">
+        <span class="slotLbl">${esc(r.slotKey)}</span>
+        <span class="dot" style="background:${teamColor(r.team)}"></span>
+        <span class="nm">${r.empty ? "" : esc(r.pos)} ${esc(r.name)}</span>
+        <span class="ins">${r.overCap ? "Cap was too tight -- best option left. " : ""}${esc(r.insight)}</span>
+        <span class="sal">${r.empty ? "" : fmt$(r.sal)}</span>
+      </div>`).join("");
+    const totalGrade = state.roster.reduce((s,r)=>s + (r.grade||0), 0);
+    const cap = CAPS[state.site];
+    const over = state.spent > cap;
+    $("totalSpent").textContent = fmt$(state.spent) + (over ? " ⚠" : "");
+    $("totalSpent").style.color = over ? "var(--bad)" : "";
+    $("totalLeft").textContent = fmt$(cap - state.spent);
+    $("totalLeft").style.color = over ? "var(--bad)" : "";
+    $("totalGrade").textContent = totalGrade.toFixed(2);
+    $("capNote").textContent = over
+      ? "Over the cap -- not a legal lineup. A brutal early spend left nothing for the end."
+      : "";
     endOverlay.classList.remove("hidden");
   }
 
