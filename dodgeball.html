@@ -260,10 +260,10 @@
   "use strict";
 
   const DATA_URL = "dodgeball_data.json";
-  const ROUND_TIME = 16;          // seconds per slot
+  const ROUND_TIME = 20;          // seconds per slot
   const BALL_SPEED = 1500;        // px/sec
   const THROW_COOLDOWN = 320;     // ms between throws
-  const RUNNER_COUNT = 6;
+  const RUNNER_COUNT = 12;        // how many of the affordable pool actually run out per slot
   const DODGE_NOTICE = 72;        // px from the throw line that triggers a dodge
   const DODGE_SPEED = 190;        // px/sec flee speed
   const DODGE_MS = 620;
@@ -462,7 +462,7 @@
     }
 
     state.targets = pool.map(c => spawnTarget(c));
-    state.ammo = Math.max(5, Math.min(9, pool.length + 3));
+    state.ammo = Math.max(6, Math.min(14, pool.length + 4));
     state.timeLeft = ROUND_TIME;
     state.lastThrow = -Infinity;
     state.balls = [];
