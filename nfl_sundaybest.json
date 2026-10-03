@@ -1,99 +1,619 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-09-27T09:12",
+ "updated": "2026-10-03T17:02",
  "slate_ids": {
-  "draftkings": "153769",
-  "fanduel": "134503"
+  "draftkings": "154078",
+  "fanduel": "134747"
  },
  "sites": [
   "DK",
   "FD"
  ],
  "core_counts": {
-  "DK": 0,
-  "FD": 0
+  "DK": 2,
+  "FD": 2
  },
  "sections": [
   {
    "position": "QB",
    "players": [
     {
-     "player_id": "8223333",
-     "core_id": "63768",
-     "players": "Tyler Shough",
+     "player_id": "328331",
+     "core_id": "58465",
+     "players": "Josh Allen",
      "pos": "QB",
-     "team": "NOS",
-     "opp": "LVR",
-     "schedule_id": "206450",
-     "rank": 1,
+     "team": "BUF",
+     "opp": "NEP",
+     "schedule_id": "206456",
      "dk_rank": 1,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 7700,
+      "fpts": 25.47,
+      "ppd": 3.31,
+      "ceil": 35.7,
+      "opto": 10.1,
+      "pown": 11.5,
+      "grade": 1.811,
+      "gpp_grade": 1.313,
+      "injury": null
+     },
+     "fd": {
+      "salary": 9100,
+      "fpts": 25.23,
+      "ppd": 2.77,
+      "ceil": 35.3,
+      "opto": 14.1,
+      "pown": 13.0,
+      "grade": 2.498,
+      "gpp_grade": 1.703,
+      "injury": null
+     },
+     "experts": [
+      "Notorious"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Notorious",
+       "text": "If you can find the cap room, Allen is a tremendous foundation for lineups. His rushing upside means you don't even need to stack him with his pass catchers. In 3 games, he already has 28 rushes for 114 yards and 6 touchdowns. He won't keep that pace up every week, but this team has to score a ton. The offense is elite and the defense is terrible, which is exactly the recipe you want. The matchup isn't pretty on paper, but Allen's history against the Patriots says otherwise, with 20+ fantasy points in 5 of the last 6 meetings."
+      }
+     ],
+     "num_experts": 1,
+     "rank": 1,
+     "notes": "Elite rushing floor and immense touchdown upside in a 49.5 game total."
+    },
+    {
+     "player_id": "2861939",
+     "core_id": "50547",
+     "players": "Trevor Lawrence",
+     "pos": "QB",
+     "team": "JAC",
+     "opp": "CIN",
+     "schedule_id": "206460",
+     "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": null,
-     "fd_slot": null,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": true,
+     "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 5400,
-      "fpts": 19.49,
-      "ppd": 3.61,
-      "ceil": 28.0,
-      "opto": 15.0,
-      "pown": 8.3,
-      "grade": 4.01,
-      "gpp_grade": 2.957,
+      "salary": 5900,
+      "fpts": 20.46,
+      "ppd": 3.47,
+      "ceil": 29.4,
+      "opto": 11.3,
+      "pown": 14.9,
+      "grade": 1.596,
+      "gpp_grade": 0.883,
       "injury": null
      },
      "fd": {
-      "salary": 7500,
-      "fpts": 19.24,
-      "ppd": 2.57,
-      "ceil": 27.6,
-      "opto": 8.9,
-      "pown": 5.3,
-      "grade": 1.176,
-      "gpp_grade": 0.877,
+      "salary": 7900,
+      "fpts": 20.03,
+      "ppd": 2.54,
+      "ceil": 28.7,
+      "opto": 9.6,
+      "pown": 8.4,
+      "grade": 1.209,
+      "gpp_grade": 0.799,
       "injury": null
      },
      "experts": [
-      "Notorious",
       "Headchopper",
       "Bobby Gomes"
      ],
      "expert_blurbs": [
       {
-       "author": "headChopper",
-       "text": "The numbers have been great for Shough so far, and the offense is humming. DraftKings fell asleep on this pricing. He is one of the best values on the slate this week.\r\n"
-      },
-      {
-       "author": "Notorious",
-       "text": "I was high on Tyler Shough ($5,400 DK / $7,500 FD) coming into the year, but even I didn't see this level of production coming through two games. Nearly all of it has come in his last six quarters (plus OT). His 24 FPPG is already strong for the price, but his 31 XFPPG suggests there's still more in the tank. The Saints are playing the league's fastest pace, and now get a home opener against a Raiders defense I'm not buying as legitimate. I could see a shootout here. "
-      },
-      {
        "author": "BobbyGomes",
-       "text": "Tyler Shough comes in as a very PT/$ friendly QB for cash games this week. Coming into week 3, Shough has completed 62 of 90 passes for 662 yards and 4 TDs (adding one TD on the ground as well). "
+       "text": "Highest total on the slate. Trevor Lawrence is mispriced. Not afraid to use his legs as well. Safe cash QB this week."
       }
      ],
-     "num_experts": 3,
-     "notes": "Saints play the fastest pace in a high total game against the Raiders."
+     "num_experts": 2,
+     "rank": 2,
+     "notes": "Highest game total on the slate at 51.5 points. Active rushing floor."
     },
     {
-     "player_id": "16557",
-     "core_id": "6816",
-     "players": "Geno Smith",
+     "player_id": "328423",
+     "core_id": "76998",
+     "players": "Sam Darnold",
      "pos": "QB",
-     "team": "NYJ",
-     "opp": "DET",
-     "schedule_id": "206441",
-     "rank": 2,
-     "dk_rank": 2,
+     "team": "SEA",
+     "opp": "LAC",
+     "schedule_id": "206467",
+     "dk_rank": 3,
      "fd_rank": null,
-     "dk_slot": null,
+     "dk_slot": "CASH",
      "fd_slot": null,
+     "slot": "CASH",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 5500,
+      "fpts": 17.52,
+      "ppd": 3.19,
+      "ceil": 25.4,
+      "opto": 12.1,
+      "pown": 1.8,
+      "grade": 0.934,
+      "gpp_grade": 0.216,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7500,
+      "fpts": 17.08,
+      "ppd": 2.28,
+      "ceil": 24.8,
+      "opto": 9.7,
+      "pown": 1.7,
+      "grade": 0.477,
+      "gpp_grade": 0.068,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 3,
+     "notes": "Solid quarterback projection with a 42.5 game total and low ownership."
+    },
+    {
+     "player_id": "37022",
+     "core_id": "33623",
+     "players": "Patrick Mahomes",
+     "pos": "QB",
+     "team": "KCC",
+     "opp": "LVR",
+     "schedule_id": "206466",
+     "dk_rank": 4,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6500,
+      "fpts": 20.08,
+      "ppd": 3.09,
+      "ceil": 28.7,
+      "opto": 6.9,
+      "pown": 6.7,
+      "grade": 0.744,
+      "gpp_grade": 0.607,
+      "injury": null
+     },
+     "fd": {
+      "salary": 8000,
+      "fpts": 19.86,
+      "ppd": 2.48,
+      "ceil": 28.4,
+      "opto": 8.6,
+      "pown": 9.3,
+      "grade": 1.061,
+      "gpp_grade": 0.73,
+      "injury": null
+     },
+     "experts": [
+      "Krayton",
+      "Davis Mattek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "DavisMattek",
+       "text": "It turns out the best QB of our lifetimes is still a great fantasy football option, who would have thought? Mahomes only scored 16.5 fantasy points last week as the Dolphins were unable to push the Chiefs at all but I do think the Raiders as only 4.5 dogs should be able to get KC into the 30s in points scored."
+      }
+     ],
+     "num_experts": 2,
+     "rank": 4,
+     "notes": "Favourable 47.5 game total with an implied push toward 30 team points."
+    },
+    {
+     "player_id": "1844126",
+     "core_id": "64500",
+     "players": "Joe Burrow",
+     "pos": "QB",
+     "team": "CIN",
+     "opp": "JAC",
+     "schedule_id": "206460",
+     "dk_rank": null,
+     "fd_rank": 5,
+     "dk_slot": null,
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6800,
+      "fpts": 20.32,
+      "ppd": 2.99,
+      "ceil": 29.3,
+      "opto": 4.4,
+      "pown": 11.7,
+      "grade": 0.337,
+      "gpp_grade": 0.421,
+      "injury": null
+     },
+     "fd": {
+      "salary": 8200,
+      "fpts": 20.05,
+      "ppd": 2.45,
+      "ceil": 28.9,
+      "opto": 5.3,
+      "pown": 10.9,
+      "grade": 0.666,
+      "gpp_grade": 0.616,
+      "injury": null
+     },
+     "experts": [
+      "Jordan Vanek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "vanekjordan",
+       "text": "The Jaguars are allowing 8.8 yards per attempt this season despite facing some QBs who aren\u2019t all that great. Burrow hasn\u2019t had a huge game yet, but the Bengals also haven\u2019t pushed the ball downfield much. His aDOT is just 6.7 yards this season, while opposing offenses have averaged a 10.04-yard aDOT against the Jaguars. I think that changes here. Cincinnati should be able to create explosive plays and push the pace of this game. You can double-stack Burrow with Chase and Higgins, but if I\u2019m choosing one, I lean Chase."
+      }
+     ],
+     "num_experts": 1,
+     "rank": 5,
+     "notes": "Highest slate total at 51.5 facing a secondary allowing 8.8 yards per attempt."
+    },
+    {
+     "player_id": "973153",
+     "core_id": "54000",
+     "players": "Kyler Murray",
+     "pos": "QB",
+     "team": "MIN",
+     "opp": "MIA",
+     "schedule_id": "206464",
+     "dk_rank": 5,
+     "fd_rank": null,
+     "dk_slot": "CASH",
+     "fd_slot": null,
+     "slot": "CASH",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 5300,
+      "fpts": 17.03,
+      "ppd": 3.21,
+      "ceil": 24.9,
+      "opto": 6.5,
+      "pown": 7.8,
+      "grade": 0.4,
+      "gpp_grade": 0.173,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7200,
+      "fpts": 16.95,
+      "ppd": 2.35,
+      "ceil": 24.8,
+      "opto": 4.7,
+      "pown": 10.7,
+      "grade": 0.129,
+      "gpp_grade": 0.099,
+      "injury": null
+     },
+     "experts": [
+      "ncorfield8k"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "NeilCO",
+       "text": "Murray's pOWN% is low, and it makes sense that the field isn't excited to play him based on what we've seen so far and with his top receiver out. But it's a great matchup, Murray will use his legs when he needs to, and Addison, Hockenson, and Jennings are all great values with Jefferson out, so the stack is easy."
+      }
+     ],
+     "num_experts": 1,
+     "rank": 6,
+     "notes": "Strong rushing floor paired with low ownership and multiple value weapons."
+    },
+    {
+     "player_id": "3492223",
+     "core_id": "63297",
+     "players": "Brock Purdy",
+     "pos": "QB",
+     "team": "SFO",
+     "opp": "DEN",
+     "schedule_id": "206465",
+     "dk_rank": null,
+     "fd_rank": 7,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6700,
+      "fpts": 19.93,
+      "ppd": 2.97,
+      "ceil": 28.7,
+      "opto": 2.0,
+      "pown": 5.7,
+      "grade": -0.023,
+      "gpp_grade": 0.308,
+      "injury": null
+     },
+     "fd": {
+      "salary": 8300,
+      "fpts": 19.77,
+      "ppd": 2.38,
+      "ceil": 28.4,
+      "opto": 1.8,
+      "pown": 5.1,
+      "grade": 0.175,
+      "gpp_grade": 0.476,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "Solid 48.5 game total with a narrow 3.0 point spread for passing volume."
+    },
+    {
+     "player_id": "35539",
+     "core_id": "26479",
+     "players": "Dak Prescott",
+     "pos": "QB",
+     "team": "DAL",
+     "opp": "HOU",
+     "schedule_id": "206459",
+     "dk_rank": null,
+     "fd_rank": 8,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6400,
+      "fpts": 19.31,
+      "ppd": 3.02,
+      "ceil": 27.7,
+      "opto": 4.9,
+      "pown": 5.1,
+      "grade": 0.245,
+      "gpp_grade": 0.251,
+      "injury": null
+     },
+     "fd": {
+      "salary": 8100,
+      "fpts": 19.16,
+      "ppd": 2.37,
+      "ceil": 27.5,
+      "opto": 3.6,
+      "pown": 3.8,
+      "grade": 0.257,
+      "gpp_grade": 0.383,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 8,
+     "notes": "High 48.5 game total in a narrow 3.0 spread game script for pass volume."
+    },
+    {
+     "player_id": "328097",
+     "core_id": "62084",
+     "players": "Lamar Jackson",
+     "pos": "QB",
+     "team": "BAL",
+     "opp": "TEN",
+     "schedule_id": "206463",
+     "dk_rank": 6,
+     "fd_rank": 6,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 7300,
+      "fpts": 20.2,
+      "ppd": 2.77,
+      "ceil": 29.0,
+      "opto": 1.4,
+      "pown": 2.3,
+      "grade": -0.123,
+      "gpp_grade": 0.538,
+      "injury": null
+     },
+     "fd": {
+      "salary": 8700,
+      "fpts": 20.07,
+      "ppd": 2.31,
+      "ceil": 28.9,
+      "opto": 3.1,
+      "pown": 4.7,
+      "grade": 0.377,
+      "gpp_grade": 0.751,
+      "injury": null
+     },
+     "experts": [
+      "Bobby Gomes",
+      "EBeimfohr"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "BobbyGomes",
+       "text": "Direct GPP pivot from Josh Allen, as Lamar Jackson is projected for a fraction of the ownership with a very high ceiling. Ravens implied for 3rd highest team total on the slate. "
+      },
+      {
+       "author": "ebeimfohr",
+       "text": "The Ravens have the single highest team total of the week behind the Bills, but absolutely no one is interested in playing this stack. The Titans actually look like they might be more of a pass funnel, with an above average run defense and a bottom 8 pass defense in EPA/play allowed. The Ravens offensive line is also dealing with some injuries that I think will make it tougher on Derrick Henry (despite the revenge angle), but Lamar's mobility and wizardry can withstand that. Lamar is so efficient that limited dropbacks are not a major issue, and he scored nearly 30 DK points week 1 with just 25 pass attempts. If the Titans can push the Ravens (who are 21st in defensive EPA/play), the ceiling is nuclear."
+      }
+     ],
+     "num_experts": 2,
+     "rank": 9,
+     "notes": "Massive ceiling in a high-total matchup with the third-highest team total."
+    },
+    {
+     "player_id": "4687775",
+     "core_id": "134990",
+     "players": "C.J. Stroud",
+     "pos": "QB",
+     "team": "HOU",
+     "opp": "DAL",
+     "schedule_id": "206459",
+     "dk_rank": 7,
+     "fd_rank": 4,
+     "dk_slot": "GPP",
+     "fd_slot": "CASH",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": true,
+     "injury": null,
+     "dk": {
+      "salary": 5700,
+      "fpts": 18.28,
+      "ppd": 3.21,
+      "ceil": 26.7,
+      "opto": 2.6,
+      "pown": 5.5,
+      "grade": 0.165,
+      "gpp_grade": 0.382,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7000,
+      "fpts": 17.96,
+      "ppd": 2.57,
+      "ceil": 26.2,
+      "opto": 6.3,
+      "pown": 9.1,
+      "grade": 0.658,
+      "gpp_grade": 0.472,
+      "injury": null
+     },
+     "experts": [
+      "Headchopper"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "headChopper",
+       "text": "I typically would gloss over Stroud in DFS because the upside is so low, but this week he has two things working in his favor: a low price tag on both sites and a fantastic matchup against a Cowboys secondary that is working out guys off the street this week to come in and play a role due to the rash of injuries they have suffered over the last two weeks."
+      }
+     ],
+     "num_experts": 1,
+     "rank": 10,
+     "notes": "Favorable matchup against an injury-ravaged secondary starting backups."
+    },
+    {
+     "player_id": "35493",
+     "core_id": "26395",
+     "players": "Jacoby Brissett",
+     "pos": "QB",
+     "team": "ARI",
+     "opp": "NYG",
+     "schedule_id": "206458",
+     "dk_rank": 8,
+     "fd_rank": null,
+     "dk_slot": "GPP",
+     "fd_slot": null,
+     "slot": "GPP",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 5000,
+      "fpts": 16.83,
+      "ppd": 3.37,
+      "ceil": 24.8,
+      "opto": 3.2,
+      "pown": 8.1,
+      "grade": 0.3,
+      "gpp_grade": 0.36,
+      "injury": null
+     },
+     "fd": {
+      "salary": 6800,
+      "fpts": 16.5,
+      "ppd": 2.43,
+      "ceil": 24.3,
+      "opto": 3.9,
+      "pown": 6.4,
+      "grade": 0.156,
+      "gpp_grade": 0.262,
+      "injury": null
+     },
+     "experts": [
+      "Notorious"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Notorious",
+       "text": "Brissett was a fun story last year, but nobody expected him to keep it up in 2026. Not sure why we slept on him. He has elite weapons and a defense that lets up a bunch of points. Dating back to last season, he's topped 20 fantasy points in 10 of his last 15 games, which is great production at his price point. The matchup against the Giants is easy to like too, since they're 27th in EPA allowed per dropback and now missing one of their best EDGE rushers."
+      }
+     ],
+     "num_experts": 1,
+     "rank": 11,
+     "notes": "Faces a Giants defense ranking 27th in EPA allowed per dropback."
+    }
+   ]
+  },
+  {
+   "position": "RB",
+   "players": [
+    {
+     "player_id": "36871",
+     "core_id": "33090",
+     "players": "Aaron Jones",
+     "pos": "RB",
+     "team": "MIN",
+     "opp": "MIA",
+     "schedule_id": "206464",
+     "dk_rank": 1,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -102,25 +622,25 @@
      "saver_fd": true,
      "injury": null,
      "dk": {
-      "salary": 4900,
-      "fpts": 15.72,
-      "ppd": 3.21,
-      "ceil": 23.4,
-      "opto": 6.8,
-      "pown": 4.5,
-      "grade": 2.367,
-      "gpp_grade": 2.262,
+      "salary": 6000,
+      "fpts": 15.38,
+      "ppd": 2.56,
+      "ceil": 23.5,
+      "opto": 12.3,
+      "pown": 28.4,
+      "grade": 3.407,
+      "gpp_grade": 3.058,
       "injury": null
      },
      "fd": {
-      "salary": 6700,
-      "fpts": 15.58,
-      "ppd": 2.33,
-      "ceil": 23.2,
-      "opto": 5.0,
-      "pown": 3.7,
-      "grade": 0.047,
-      "gpp_grade": 0.088,
+      "salary": 6400,
+      "fpts": 13.8,
+      "ppd": 2.16,
+      "ceil": 21.1,
+      "opto": 20.1,
+      "pown": 41.9,
+      "grade": 3.733,
+      "gpp_grade": 3.084,
       "injury": null
      },
      "experts": [
@@ -130,30 +650,30 @@
      ],
      "expert_blurbs": [
       {
-       "author": "Krayton",
-       "text": "Geno Smith is one of my favorite cheaper QB options on DK as Garrett Wilson is my favorite WR to pair him with.   I could see Smith airing it out quite a bit against a Lions secondary that is especially depleted at safety.  Wilson has elite upside and is just $6.3K on DK and you can get the cheaper WR option in Adonai Mitchell for just $4.3, making this a cheaper stack to build around allowing you to pay up for some of the higher priced players in great positions this week."
+       "author": "BobbyGomes",
+       "text": "I find it hard to believe his ownership stays this low, but if it is, he is an amazing GPP-play. Dolphins have allowed the most fantasy points to opposing RBs on both sites and Vikings just ruled out Justin Jefferson which means they should lean on Aaron Jones a little more on the ground. Dolphins have a allowed an astonishing 2.33 TDs per game to opposing RBs. "
       },
       {
-       "author": "BobbyGomes",
-       "text": "Dirt cheap on both sites and should be unowned in GPPs. Very much like last week, Geno should be forced to throw the ball 40 times in one of the highest total games on the slate. His main receiving weapons are also fairly priced, which makes stacking him very affordable and allows you to runback the expensive pieces for the Lions."
+       "author": "Krayton",
+       "text": "Aaron Jones gets the best possible matchup against the Dolphins and with Justin Jefferson out, they may lean on Jones for a few more carries.  He also saw 6 targets last game against TB and he is one of the top value plays on the slate on both sites."
       }
      ],
      "num_experts": 3,
-     "notes": "Favorable pass volume against a depleted Lions secondary in a dome."
+     "rank": 1,
+     "notes": "Prime matchup against a Dolphins defense yielding heavy running back points."
     },
     {
-     "player_id": "328331",
-     "core_id": "58465",
-     "players": "Josh Allen",
-     "pos": "QB",
-     "team": "BUF",
-     "opp": "LAC",
-     "schedule_id": "206447",
-     "rank": 3,
-     "dk_rank": 3,
-     "fd_rank": 1,
-     "dk_slot": null,
-     "fd_slot": null,
+     "player_id": "36994",
+     "core_id": "33213",
+     "players": "Christian McCaffrey",
+     "pos": "RB",
+     "team": "SFO",
+     "opp": "DEN",
+     "schedule_id": "206465",
+     "dk_rank": 2,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -162,246 +682,164 @@
      "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 8000,
-      "fpts": 25.06,
-      "ppd": 3.13,
-      "ceil": 34.9,
-      "opto": 6.2,
-      "pown": 6.9,
-      "grade": 1.077,
-      "gpp_grade": 0.956,
-      "injury": null
-     },
-     "fd": {
-      "salary": 9100,
-      "fpts": 24.86,
-      "ppd": 2.73,
-      "ceil": 34.6,
-      "opto": 14.5,
-      "pown": 14.8,
-      "grade": 2.401,
-      "gpp_grade": 1.481,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [
-      {
-       "author": "headChopper",
-       "text": "The price tag is high on both sites, as it should be. But on FanDuel, we have the luxury of being able to build around Josh Allen with players who are actually pretty solid due to some pricing mistakes over there.\r\n"
-      }
-     ],
-     "num_experts": 0,
-     "notes": "High implied team total and strong pricing value on FanDuel."
-    },
-    {
-     "player_id": "1849725",
-     "core_id": "63756",
-     "players": "Justin Herbert",
-     "pos": "QB",
-     "team": "LAC",
-     "opp": "BUF",
-     "schedule_id": "206447",
-     "rank": 4,
-     "dk_rank": null,
-     "fd_rank": 4,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 5800,
-      "fpts": 17.99,
-      "ppd": 3.1,
-      "ceil": 26.2,
-      "opto": 6.5,
-      "pown": 2.7,
-      "grade": 0.347,
-      "gpp_grade": 0.199,
-      "injury": null
-     },
-     "fd": {
-      "salary": 7200,
-      "fpts": 17.81,
-      "ppd": 2.47,
-      "ceil": 25.9,
-      "opto": 9.8,
-      "pown": 3.5,
-      "grade": 0.844,
-      "gpp_grade": 0.365,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Strong passing game environment in a 50.5 total against Buffalo."
-    },
-    {
-     "player_id": "2861939",
-     "core_id": "50547",
-     "players": "Trevor Lawrence",
-     "pos": "QB",
-     "team": "JAC",
-     "opp": "NEP",
-     "schedule_id": "206443",
-     "rank": 5,
-     "dk_rank": 4,
-     "fd_rank": 5,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 5700,
-      "fpts": 19.11,
-      "ppd": 3.35,
-      "ceil": 27.5,
-      "opto": 9.4,
-      "pown": 5.3,
-      "grade": 1.008,
-      "gpp_grade": 0.469,
-      "injury": null
-     },
-     "fd": {
       "salary": 7700,
-      "fpts": 18.81,
-      "ppd": 2.44,
-      "ceil": 27.1,
-      "opto": 7.8,
-      "pown": 5.2,
-      "grade": 0.726,
-      "gpp_grade": 0.409,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Solid 45.5 total matchup with favorable home favorite odds."
-    },
-    {
-     "player_id": "37022",
-     "core_id": "33623",
-     "players": "Patrick Mahomes",
-     "pos": "QB",
-     "team": "KCC",
-     "opp": "MIA",
-     "schedule_id": "206444",
-     "rank": 6,
-     "dk_rank": 5,
-     "fd_rank": null,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 6200,
-      "fpts": 20.44,
-      "ppd": 3.3,
-      "ceil": 29.4,
-      "opto": 4.6,
-      "pown": 11.9,
-      "grade": 0.673,
-      "gpp_grade": 0.595,
+      "fpts": 21.51,
+      "ppd": 2.79,
+      "ceil": 31.8,
+      "opto": 36.3,
+      "pown": 29.3,
+      "grade": 2.825,
+      "gpp_grade": 1.353,
       "injury": null
      },
      "fd": {
-      "salary": 8100,
-      "fpts": 20.35,
-      "ppd": 2.51,
-      "ceil": 29.2,
-      "opto": 2.6,
-      "pown": 11.7,
-      "grade": 0.551,
-      "gpp_grade": 0.738,
+      "salary": 8800,
+      "fpts": 19.09,
+      "ppd": 2.17,
+      "ceil": 28.2,
+      "opto": 27.0,
+      "pown": 20.6,
+      "grade": 2.279,
+      "gpp_grade": 1.312,
       "injury": null
      },
      "experts": [
+      "Notorious",
+      "Bobby Gomes"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Notorious",
+       "text": "We have plenty of great running back plays on this slate, but none compare to McCaffrey. There were rumblings that the Niners wanted to limit him this season, and that showed in the first 2 games. But in their first competitive game, he played 82% of the snaps against the Cardinals. This week, the Niners host the Broncos in a game with a 2.5-point spread. San Francisco is missing pieces in the passing game, and Denver is dead last in EPA against the run this season. CMC should see 15+ carries and potentially double-digit targets depending on the game script."
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Broncos have allowed the 6th most DK FPPG and the 5th most FD FPPG to opposing RBs. 49ers have the 6th highest implied team total on the slate. CMC offers one of the safest floors on the slate and a cash RB priority. "
+      }
+     ],
+     "num_experts": 2,
+     "rank": 2,
+     "notes": "Workhorse snap share facing a run defense dead last in EPA against the run."
+    },
+    {
+     "player_id": "3492251",
+     "core_id": "33516",
+     "players": "Kenneth Walker III",
+     "pos": "RB",
+     "team": "KCC",
+     "opp": "LVR",
+     "schedule_id": "206466",
+     "dk_rank": 3,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 8200,
+      "fpts": 20.37,
+      "ppd": 2.48,
+      "ceil": 30.3,
+      "opto": 24.3,
+      "pown": 17.3,
+      "grade": 2.119,
+      "gpp_grade": 1.199,
+      "injury": null
+     },
+     "fd": {
+      "salary": 8500,
+      "fpts": 18.65,
+      "ppd": 2.19,
+      "ceil": 27.8,
+      "opto": 34.8,
+      "pown": 26.9,
+      "grade": 2.572,
+      "gpp_grade": 1.269,
+      "injury": null
+     },
+     "experts": [
+      "Krayton",
       "Davis Mattek"
      ],
      "expert_blurbs": [
       {
        "author": "DavisMattek",
-       "text": "Mahomes is the 3rd highest scoring QB on the year with a 28 point implied team total while also providing leverage on the incredibly popular KW3. I expect his DK/FD price tags will be much higher very soon."
+       "text": "Averaging over 25 fantasy points per game, Walker should be priced at least 10% higher on both DraftKings and Fanduel given his role at the goalline and in the passing game."
+      },
+      {
+       "author": "Krayton",
+       "text": "Walker has been elite in every way to start the season and he is getting all the touches in the KC offense.  He\u2019s had 3 big games to start the season getting 23, 24 and 18 rushing attempts along with multiple goal line carries.  He\u2019s is one of my top RB plays on the slate."
       }
      ],
-     "num_experts": 1,
-     "notes": "High 28-point implied team total and massive offensive efficiency."
+     "num_experts": 2,
+     "rank": 3,
+     "notes": "Strong projection in a 47.5 game total with favorable game script."
     },
     {
-     "player_id": "35539",
-     "core_id": "26479",
-     "players": "Dak Prescott",
-     "pos": "QB",
-     "team": "DAL",
-     "opp": "BAL",
-     "schedule_id": "206451",
-     "rank": 7,
-     "dk_rank": null,
-     "fd_rank": 7,
-     "dk_slot": null,
+     "player_id": "4687629",
+     "core_id": "56372",
+     "players": "Chase Brown",
+     "pos": "RB",
+     "team": "CIN",
+     "opp": "JAC",
+     "schedule_id": "206460",
+     "dk_rank": 4,
+     "fd_rank": null,
+     "dk_slot": "CASH",
      "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
+     "slot": "CASH",
+     "site_only": "DK",
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
      "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 6700,
-      "fpts": 20.39,
-      "ppd": 3.04,
-      "ceil": 29.2,
-      "opto": 4.3,
-      "pown": 8.3,
-      "grade": 0.314,
-      "gpp_grade": 0.346,
+      "salary": 6100,
+      "fpts": 16.69,
+      "ppd": 2.74,
+      "ceil": 25.8,
+      "opto": 23.5,
+      "pown": 26.5,
+      "grade": 1.88,
+      "gpp_grade": 0.9,
       "injury": null
      },
      "fd": {
-      "salary": 8300,
-      "fpts": 20.25,
-      "ppd": 2.44,
-      "ceil": 29.0,
-      "opto": 4.4,
-      "pown": 6.2,
-      "grade": 0.554,
-      "gpp_grade": 0.567,
+      "salary": 7600,
+      "fpts": 15.02,
+      "ppd": 1.98,
+      "ceil": 23.2,
+      "opto": 15.0,
+      "pown": 18.0,
+      "grade": 1.371,
+      "gpp_grade": 0.843,
       "injury": null
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Elite 53.5 game total in a pass-friendly matchup versus Baltimore."
+     "rank": 4,
+     "notes": "Solid 51.5 game total and strong projection in a favorable matchup."
     },
     {
-     "player_id": "328097",
-     "core_id": "62084",
-     "players": "Lamar Jackson",
-     "pos": "QB",
+     "player_id": "35530",
+     "core_id": "26360",
+     "players": "Derrick Henry",
+     "pos": "RB",
      "team": "BAL",
-     "opp": "DAL",
-     "schedule_id": "206451",
-     "rank": 8,
-     "dk_rank": 6,
-     "fd_rank": 3,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
+     "opp": "TEN",
+     "schedule_id": "206463",
+     "dk_rank": 5,
+     "fd_rank": 4,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
@@ -409,25 +847,25 @@
      "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 7500,
-      "fpts": 22.14,
-      "ppd": 2.95,
-      "ceil": 31.6,
-      "opto": 1.2,
-      "pown": 8.1,
-      "grade": 0.142,
-      "gpp_grade": 0.605,
+      "salary": 8400,
+      "fpts": 19.8,
+      "ppd": 2.36,
+      "ceil": 29.9,
+      "opto": 17.3,
+      "pown": 12.7,
+      "grade": 1.709,
+      "gpp_grade": 1.107,
       "injury": null
      },
      "fd": {
-      "salary": 8600,
-      "fpts": 21.77,
-      "ppd": 2.53,
-      "ceil": 31.1,
-      "opto": 4.5,
-      "pown": 9.9,
-      "grade": 0.91,
-      "gpp_grade": 0.984,
+      "salary": 9100,
+      "fpts": 19.02,
+      "ppd": 2.09,
+      "ceil": 28.7,
+      "opto": 26.6,
+      "pown": 20.2,
+      "grade": 2.18,
+      "gpp_grade": 1.243,
       "injury": null
      },
      "experts": [
@@ -437,139 +875,85 @@
      "expert_blurbs": [
       {
        "author": "headChopper",
-       "text": "Through two games, this Dallas defense has had no answers for running quarterbacks. Jaxson Dart had plenty of success in Week 1, and Jayden Daniels was well on his way to an easy 100-yard rushing game before injuring himself right before halftime. So if plays break down in Week 3, we're going to see Lamar use his legs quite a bit.\r\n"
+       "text": "New Ravens OC Declan Doyle has this running game humming with Henry. That, plus a revenge spot against the team that didn't want him anymore and Lamar Jackson actively looking to run less when he doesn't need to, makes me think Henry is as good a bet as anyone in the NFL for two-plus rushing touchdowns in any given matchup."
       }
      ],
      "num_experts": 2,
-     "notes": "Rushing floor in the highest game total on the slate at 53.5."
+     "rank": 5,
+     "notes": "Elite red-zone workhorse role backed by a surging rushing scheme."
     },
     {
-     "player_id": "3492223",
-     "core_id": "63297",
-     "players": "Brock Purdy",
-     "pos": "QB",
-     "team": "SFO",
-     "opp": "ARI",
-     "schedule_id": "206449",
-     "rank": 9,
-     "dk_rank": 7,
+     "player_id": "6228431",
+     "core_id": "166723",
+     "players": "Braelon Allen",
+     "pos": "RB",
+     "team": "NYJ",
+     "opp": "CHI",
+     "schedule_id": "206457",
+     "dk_rank": null,
      "fd_rank": 6,
      "dk_slot": null,
-     "fd_slot": null,
+     "fd_slot": "GPP",
      "slot": "GPP",
-     "site_only": null,
+     "site_only": "FD",
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 6500,
-      "fpts": 20.63,
-      "ppd": 3.17,
-      "ceil": 29.5,
-      "opto": 2.4,
-      "pown": 6.4,
-      "grade": 0.341,
-      "gpp_grade": 0.57,
-      "injury": null
-     },
-     "fd": {
-      "salary": 8200,
-      "fpts": 20.4,
-      "ppd": 2.49,
-      "ceil": 29.2,
-      "opto": 3.5,
-      "pown": 7.4,
-      "grade": 0.619,
-      "gpp_grade": 0.754,
-      "injury": null
-     },
-     "experts": [
-      "Notorious"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "Notorious",
-       "text": "Sometimes DFS doesn't need to be complicated. I faded Brock Purdy ($6,500 DK / $8,200 FD) last week despite a dream matchup, worried about a blowout \u2014 he still dropped 28 fantasy points anyway. He's in another great spot this week, as the Niners once again carry one of the slate's highest team totals (28), this time against a Cardinals defense I expect to finish bottom-10 by year's end. San Francisco ranks 3rd in PROE, and Purdy's legs keep adding value on top of his arm \u2014 his XFPPG is 4th-best among QBs."
-      }
-     ],
-     "num_experts": 1,
-     "notes": "High implied team total and rushing floor against Arizona."
-    },
-    {
-     "player_id": "973153",
-     "core_id": "54000",
-     "players": "Kyler Murray",
-     "pos": "QB",
-     "team": "MIN",
-     "opp": "TBB",
-     "schedule_id": "206448",
-     "rank": 10,
-     "dk_rank": 8,
-     "fd_rank": 8,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
+     "saver_dk": false,
      "saver_fd": true,
      "injury": null,
      "dk": {
-      "salary": 5100,
-      "fpts": 17.58,
-      "ppd": 3.45,
-      "ceil": 25.6,
-      "opto": 5.5,
-      "pown": 4.1,
-      "grade": 0.62,
-      "gpp_grade": 0.45,
+      "salary": 5200,
+      "fpts": 12.68,
+      "ppd": 2.44,
+      "ceil": 20.6,
+      "opto": 9.3,
+      "pown": 10.0,
+      "grade": 1.035,
+      "gpp_grade": 0.838,
       "injury": null
      },
      "fd": {
-      "salary": 7000,
-      "fpts": 17.43,
-      "ppd": 2.49,
-      "ceil": 25.4,
-      "opto": 5.0,
-      "pown": 3.7,
-      "grade": 0.43,
-      "gpp_grade": 0.448,
+      "salary": 5700,
+      "fpts": 11.45,
+      "ppd": 2.01,
+      "ceil": 18.6,
+      "opto": 15.3,
+      "pown": 6.7,
+      "grade": 1.283,
+      "gpp_grade": 0.911,
       "injury": null
      },
      "experts": [
+      "EBeimfohr",
       "Jordan Vanek"
      ],
      "expert_blurbs": [
       {
        "author": "vanekjordan",
-       "text": "Over the last three years, according to Fantasy Points, the Vikings have had the third-highest aDOT in the NFL against single-high coverage. That\u2019s the primary coverage Tampa Bay plays, and the big-play upside is significant in this matchup. "
+       "text": "Breece Hall isn\u2019t likely to play, and this Bears run defense has not been good. They\u2019ve allowed 2.58 yards before contact per attempt, and if they\u2019re giving Allen that kind of room to build up a full head of steam, he\u2019s going to have multiple explosive runs in this game."
+      },
+      {
+       "author": "ebeimfohr",
+       "text": "Braelon played every snap after Breece was hurt last week, and he had every RB opportunity, including 3 targets. The Bears are a total sieve in run defense, and he's far too cheap for the lead back role here."
       }
      ],
-     "num_experts": 1,
-     "notes": "Close 1.5 spread and tightly contested game environment."
-    }
-   ]
-  },
-  {
-   "position": "RB",
-   "players": [
+     "num_experts": 2,
+     "rank": 6,
+     "notes": "Explosive run potential against a porous rush defense allowing heavy yards."
+    },
     {
-     "player_id": "4687730",
-     "core_id": "146244",
-     "players": "Jahmyr Gibbs",
+     "player_id": "1844244",
+     "core_id": "58120",
+     "players": "D'Andre Swift",
      "pos": "RB",
-     "team": "DET",
+     "team": "CHI",
      "opp": "NYJ",
-     "schedule_id": "206441",
-     "rank": 1,
-     "dk_rank": 1,
-     "fd_rank": 1,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
+     "schedule_id": "206457",
+     "dk_rank": 6,
+     "fd_rank": 5,
+     "dk_slot": "GPP",
+     "fd_slot": "CASH",
+     "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
@@ -577,66 +961,94 @@
      "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 8800,
-      "fpts": 24.95,
-      "ppd": 2.84,
-      "ceil": 36.0,
-      "opto": 34.5,
-      "pown": 28.1,
-      "grade": 5.941,
-      "gpp_grade": 4.768,
+      "salary": 6400,
+      "fpts": 16.05,
+      "ppd": 2.51,
+      "ceil": 25.4,
+      "opto": 14.0,
+      "pown": 3.0,
+      "grade": 1.352,
+      "gpp_grade": 0.941,
       "injury": null
      },
      "fd": {
-      "salary": 9200,
-      "fpts": 22.52,
-      "ppd": 2.45,
-      "ceil": 32.5,
-      "opto": 44.8,
-      "pown": 31.2,
-      "grade": 6.252,
-      "gpp_grade": 4.759,
+      "salary": 7300,
+      "fpts": 14.72,
+      "ppd": 2.02,
+      "ceil": 23.2,
+      "opto": 15.9,
+      "pown": 3.9,
+      "grade": 1.408,
+      "gpp_grade": 0.951,
       "injury": null
      },
-     "experts": [
-      "Notorious",
-      "Headchopper",
-      "Krayton",
-      "Bobby Gomes",
-      "ncorfield8k"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "Notorious",
-       "text": "Jahmyr Gibbs ($8,800 DK / $9,200 FD) is delivering exactly what we hoped for now that David Montgomery is in Houston. The bell-cow role suits him perfectly \u2014 he's averaging 29 fantasy points per game through two weeks, playing 77% of the snaps, and running a route on 55% of dropbacks. The numbers will say the Jets have been tough against the run, but they have faced the Titans and Packers, who have non-existent rushing attacks. There's no reason to fade Gibbs in Week 3. "
-      },
-      {
-       "author": "NeilCO",
-       "text": "Gibbs saw his role decrease in Week 2, following an overtime win, in a Thursday night game following a Sunday game. He still scored over 20 fantasy points that game. The role is almost too good to fail as long as Gibbs is healthy."
-      },
-      {
-       "author": "BobbyGomes",
-       "text": "The bellcow RB Jahmyr Gibbs gets a dream matchup with the Jets. While on paper the Jets look good against the run, they have yet to face the talent that is Gibbs. No player on the slate has as great of a floor as Gibbs, and should be a must have in cash games."
-      }
-     ],
-     "num_experts": 5,
-     "notes": "Bell-cow workhorse role with massive snap share and receiving work."
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "Solid target share and rushing projection in a 43.5 total matchup."
     },
     {
-     "player_id": "3492251",
-     "core_id": "33516",
-     "players": "Kenneth Walker III",
+     "player_id": "3492191",
+     "core_id": "119535",
+     "players": "Kyren Williams",
      "pos": "RB",
-     "team": "KCC",
-     "opp": "MIA",
-     "schedule_id": "206444",
-     "rank": 2,
-     "dk_rank": 2,
-     "fd_rank": 2,
+     "team": "LAR",
+     "opp": "PHI",
+     "schedule_id": "206462",
+     "dk_rank": null,
+     "fd_rank": 8,
      "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 5900,
+      "fpts": 14.75,
+      "ppd": 2.5,
+      "ceil": 23.7,
+      "opto": 12.0,
+      "pown": 7.4,
+      "grade": 1.193,
+      "gpp_grade": 0.806,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7900,
+      "fpts": 13.5,
+      "ppd": 1.71,
+      "ceil": 21.7,
+      "opto": 4.7,
+      "pown": 3.7,
+      "grade": 0.754,
+      "gpp_grade": 0.801,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 8,
+     "notes": "Solid Bell-cow volume in a tightly contested 42.5 total matchup."
+    },
+    {
+     "player_id": "3491576",
+     "core_id": "58170",
+     "players": "James Cook",
+     "pos": "RB",
+     "team": "BUF",
+     "opp": "NEP",
+     "schedule_id": "206456",
+     "dk_rank": 7,
+     "fd_rank": null,
+     "dk_slot": "GPP",
      "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
+     "slot": "GPP",
+     "site_only": "DK",
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -644,210 +1056,38 @@
      "injury": null,
      "dk": {
       "salary": 7400,
-      "fpts": 21.05,
-      "ppd": 2.84,
-      "ceil": 31.2,
-      "opto": 23.6,
-      "pown": 26.7,
-      "grade": 5.293,
-      "gpp_grade": 4.535,
+      "fpts": 15.95,
+      "ppd": 2.16,
+      "ceil": 25.4,
+      "opto": 7.0,
+      "pown": 7.9,
+      "grade": 0.97,
+      "gpp_grade": 0.899,
       "injury": null
      },
      "fd": {
-      "salary": 8300,
-      "fpts": 19.26,
-      "ppd": 2.32,
-      "ceil": 28.5,
-      "opto": 23.9,
-      "pown": 31.6,
-      "grade": 5.237,
-      "gpp_grade": 4.521,
+      "salary": 8200,
+      "fpts": 15.0,
+      "ppd": 1.83,
+      "ceil": 23.9,
+      "opto": 11.1,
+      "pown": 14.5,
+      "grade": 1.19,
+      "gpp_grade": 0.944,
       "injury": null
      },
      "experts": [
-      "Headchopper",
-      "Krayton",
-      "Davis Mattek",
-      "Jordan Vanek"
+      "EBeimfohr"
      ],
      "expert_blurbs": [
-      {
-       "author": "vanekjordan",
-       "text": "The Dolphins have been solid against the run through the first two weekends, but the Chiefs\u2019 run blocking and usage of Walker outweigh what we\u2019ve seen from Miami so far. I do expect Emmett Johnson to see some more work here, but if Walker gets 20 touches, he has the upside to score twice and clear 100 yards."
-      }
-     ],
-     "num_experts": 4,
-     "notes": "Heavy workload and high implied team total as large favorites."
-    },
-    {
-     "player_id": "2862163",
-     "core_id": "46456",
-     "players": "Chuba Hubbard",
-     "pos": "RB",
-     "team": "CAR",
-     "opp": "CLE",
-     "schedule_id": "206446",
-     "rank": 3,
-     "dk_rank": 3,
-     "fd_rank": 3,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 6100,
-      "fpts": 15.41,
-      "ppd": 2.53,
-      "ceil": 24.2,
-      "opto": 8.9,
-      "pown": 10.1,
-      "grade": 3.039,
-      "gpp_grade": 2.866,
-      "injury": null
-     },
-     "fd": {
-      "salary": 6700,
-      "fpts": 14.06,
-      "ppd": 2.1,
-      "ceil": 22.1,
-      "opto": 11.4,
-      "pown": 10.5,
-      "grade": 4.46,
-      "gpp_grade": 4.286,
-      "injury": null
-     },
-     "experts": [
-      "Bobby Gomes",
-      "EBeimfohr",
-      "Davis Mattek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "headChopper",
-       "text": "Jonathan Brooks is out again, and that should leave a pretty big workload for Chuba Hubbard. The price tag on FanDuel is very appealing, and this offense has shown it can run the ball on anybody when it gets going.\r\n"
-      },
       {
        "author": "ebeimfohr",
-       "text": "Without Brooks, Chuba should have one of the larger workloads among all RBs in the league, and he's very affordable on both sites."
-      },
-      {
-       "author": "BobbyGomes",
-       "text": "Chuba Hubbard has less competition with Jonathan Brooks already ruled out, this should pave way for a healthy dose of Chuba. Cleveland has opened the year allowing 5 YPC to opposing running backs with a 54.5% success rate. The panthers are road favorites, and the Browns have struggled to chain possessions with Watson this season which lead to a very run friendly run script for Hubbard. "
+       "text": "It's not a perfect matchup, but I'm not sure matchups matter for Cook on the ground. What might matter is the fact Josh Allen hurt his knee last week, and we could see Cook get a larger share of the rushing touchdowns in this elite offense until Allen is fully healthy."
       }
      ],
-     "num_experts": 3,
-     "notes": "Workhorse touches with Jonathan Brooks out against Cleveland."
-    },
-    {
-     "player_id": "3491433",
-     "core_id": "136380",
-     "players": "Jaylen Warren",
-     "pos": "RB",
-     "team": "PIT",
-     "opp": "CIN",
-     "schedule_id": "206440",
-     "rank": 4,
-     "dk_rank": 4,
-     "fd_rank": 4,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 5700,
-      "fpts": 18.17,
-      "ppd": 3.19,
-      "ceil": 27.1,
-      "opto": 33.9,
-      "pown": 10.8,
-      "grade": 2.328,
-      "gpp_grade": 0.984,
-      "injury": null
-     },
-     "fd": {
-      "salary": 6300,
-      "fpts": 15.86,
-      "ppd": 2.52,
-      "ceil": 23.6,
-      "opto": 33.6,
-      "pown": 11.7,
-      "grade": 2.15,
-      "gpp_grade": 0.931,
-      "injury": null
-     },
-     "experts": [
-      "ncorfield8k",
-      "Davis Mattek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "DavisMattek",
-       "text": "For the first time in his career, Jaylen Warren will be getting a start without a trusted backup (Najee/Gainwell never missed a game). Warren played a career-high 50 snaps last week; I think his workload will be unassailable here against CIN."
-      },
-      {
-       "author": "NeilCO",
-       "text": "Warren has always had the talent to be a great fantasy asset if he saw increased usage. We should finally see that increased usage with Rico Dowdle out this week."
-      }
-     ],
-     "num_experts": 2,
-     "notes": "Unassailable workhorse workload with a massive career-high snap count."
-    },
-    {
-     "player_id": "4687629",
-     "core_id": "56372",
-     "players": "Chase Brown",
-     "pos": "RB",
-     "team": "CIN",
-     "opp": "PIT",
-     "schedule_id": "206440",
-     "rank": 5,
-     "dk_rank": 6,
-     "fd_rank": null,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 6600,
-      "fpts": 17.9,
-      "ppd": 2.71,
-      "ceil": 26.7,
-      "opto": 21.5,
-      "pown": 8.3,
-      "grade": 1.65,
-      "gpp_grade": 0.857,
-      "injury": null
-     },
-     "fd": {
-      "salary": 7500,
-      "fpts": 16.12,
-      "ppd": 2.15,
-      "ceil": 24.0,
-      "opto": 20.4,
-      "pown": 10.9,
-      "grade": 1.521,
-      "gpp_grade": 0.822,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Favorable matchup against Pittsburgh in a 42.5 total game."
+     "num_experts": 1,
+     "rank": 9,
+     "notes": "Poised for increased high-value touches in an elite offensive unit."
     },
     {
      "player_id": "8217222",
@@ -855,14 +1095,13 @@
      "players": "Ashton Jeanty",
      "pos": "RB",
      "team": "LVR",
-     "opp": "NOS",
-     "schedule_id": "206450",
-     "rank": 6,
-     "dk_rank": 5,
-     "fd_rank": 5,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
+     "opp": "KCC",
+     "schedule_id": "206466",
+     "dk_rank": 8,
+     "fd_rank": 7,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
@@ -871,194 +1110,31 @@
      "injury": null,
      "dk": {
       "salary": 7100,
-      "fpts": 18.59,
-      "ppd": 2.62,
-      "ceil": 27.3,
-      "opto": 22.2,
-      "pown": 13.9,
-      "grade": 1.714,
-      "gpp_grade": 0.905,
-      "injury": null
-     },
-     "fd": {
-      "salary": 7700,
-      "fpts": 16.46,
-      "ppd": 2.14,
-      "ceil": 24.2,
-      "opto": 19.8,
-      "pown": 13.7,
-      "grade": 1.538,
-      "gpp_grade": 0.883,
-      "injury": null
-     },
-     "experts": [
-      "EBeimfohr",
-      "Jordan Vanek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "vanekjordan",
-       "text": "Jeanty wasn\u2019t good in Week 2, but his touch volume was off the charts, and I\u2019ll continue buying into someone seeing 25+ touches a week. Jeanty now gets a Saints defense that has allowed a lot of explosive plays to the RB position this season."
-      },
-      {
-       "author": "ebeimfohr",
-       "text": "Ken Walker's workload has stolen the headlines through 2 games, rightfully so, but Jeanty is right there with him. He had a down game in Week 2, but the Saints have been torched on the ground through two games, and Jeanty's pass game usage is also massive."
-      },
-      {
-       "author": "Notorious",
-       "text": "I don't understand why projection systems are sleeping on Ashton Jeanty ($7,100 DK / $7,700 FD). The pieces are all there \u2014 an improved offensive line, an offensive-minded head coach in Klint Kubiak, and basically zero competition for touches. Through 2 games, he's playing 77% of the snaps and running a route on 68% of dropbacks. With Kirk Cousins willing to check the ball down, his receiving floor is rock solid. His 26 XFPPG ranks 2nd among all running backs. The matchup looks great, as the Saints are shaky on defense and play at the league's fastest pace."
-      }
-     ],
-     "num_experts": 2,
-     "notes": "Massive touch volume and massive pass-game usage as a workhorse."
-    },
-    {
-     "player_id": "8228864",
-     "core_id": "135301",
-     "players": "Cam Skattebo",
-     "pos": "RB",
-     "team": "NYG",
-     "opp": "TEN",
-     "schedule_id": "206442",
-     "rank": 7,
-     "dk_rank": 7,
-     "fd_rank": 6,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 6200,
-      "fpts": 15.92,
-      "ppd": 2.57,
-      "ceil": 24.9,
-      "opto": 10.9,
-      "pown": 3.9,
-      "grade": 1.085,
-      "gpp_grade": 0.834,
-      "injury": null
-     },
-     "fd": {
-      "salary": 6900,
-      "fpts": 14.76,
-      "ppd": 2.14,
-      "ceil": 23.1,
+      "fpts": 16.94,
+      "ppd": 2.39,
+      "ceil": 25.5,
       "opto": 14.7,
-      "pown": 4.4,
-      "grade": 1.234,
-      "gpp_grade": 0.873,
+      "pown": 7.9,
+      "grade": 1.396,
+      "gpp_grade": 0.84,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7800,
+      "fpts": 15.05,
+      "ppd": 1.93,
+      "ceil": 22.7,
+      "opto": 14.6,
+      "pown": 8.7,
+      "grade": 1.338,
+      "gpp_grade": 0.819,
       "injury": null
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Home favorite role with solid red-zone opportunities against Tennessee."
-    },
-    {
-     "player_id": "982082",
-     "core_id": "63253",
-     "players": "David Montgomery",
-     "pos": "RB",
-     "team": "HOU",
-     "opp": "IND",
-     "schedule_id": "206445",
-     "rank": 8,
-     "dk_rank": null,
-     "fd_rank": 8,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
-     "injury": null,
-     "dk": {
-      "salary": 6000,
-      "fpts": 13.74,
-      "ppd": 2.29,
-      "ceil": 22.3,
-      "opto": 3.1,
-      "pown": 2.4,
-      "grade": 0.595,
-      "gpp_grade": 0.725,
-      "injury": null
-     },
-     "fd": {
-      "salary": 6600,
-      "fpts": 12.57,
-      "ppd": 1.9,
-      "ceil": 20.4,
-      "opto": 5.5,
-      "pown": 3.7,
-      "grade": 0.703,
-      "gpp_grade": 0.735,
-      "injury": null
-     },
-     "experts": [
-      "ncorfield8k"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "NeilCO",
-       "text": "Montgomery has one elite game and one terrible game so far on the Texans. I'm expecting that volatility to continue. Against a Colts defense that has allowed the 2nd-most fantasy points to running backs so far this year, I'll bet on a bounce-back for Montgomery. It's a strong contrarian GPP play."
-      }
-     ],
-     "num_experts": 1,
-     "notes": "Bounce-back spot against a porous Colts rush defense."
-    },
-    {
-     "player_id": "3491576",
-     "core_id": "58170",
-     "players": "James Cook",
-     "pos": "RB",
-     "team": "BUF",
-     "opp": "LAC",
-     "schedule_id": "206447",
-     "rank": 9,
-     "dk_rank": null,
-     "fd_rank": null,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 6900,
-      "fpts": 16.36,
-      "ppd": 2.37,
-      "ceil": 25.0,
-      "opto": 11.3,
-      "pown": 7.7,
-      "grade": 1.068,
-      "gpp_grade": 0.74,
-      "injury": null
-     },
-     "fd": {
-      "salary": 8100,
-      "fpts": 15.08,
-      "ppd": 1.86,
-      "ceil": 23.1,
-      "opto": 10.4,
-      "pown": 14.5,
-      "grade": 0.993,
-      "gpp_grade": 0.719,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Strong implied team total in a 50.5 total game against LA."
+     "rank": 10,
+     "notes": "Solid projection and touch volume in a 47.5 total game environment."
     }
    ]
   },
@@ -1071,73 +1147,63 @@
      "players": "Parker Washington",
      "pos": "WR",
      "team": "JAC",
-     "opp": "NEP",
-     "schedule_id": "206443",
-     "rank": 1,
+     "opp": "CIN",
+     "schedule_id": "206460",
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": null,
-     "fd_slot": null,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": true,
+     "core_dk": true,
+     "core_fd": true,
+     "saver_dk": false,
      "saver_fd": true,
      "injury": null,
      "dk": {
-      "salary": 6000,
-      "fpts": 15.43,
-      "ppd": 2.57,
-      "ceil": 26.9,
-      "opto": 17.1,
-      "pown": 13.3,
-      "grade": 5.451,
-      "gpp_grade": 4.433,
+      "salary": 6500,
+      "fpts": 16.81,
+      "ppd": 2.59,
+      "ceil": 29.7,
+      "opto": 17.7,
+      "pown": 23.0,
+      "grade": 4.113,
+      "gpp_grade": 3.295,
       "injury": null
      },
      "fd": {
       "salary": 7100,
-      "fpts": 12.79,
-      "ppd": 1.8,
-      "ceil": 22.3,
-      "opto": 14.1,
-      "pown": 12.5,
-      "grade": 5.303,
-      "gpp_grade": 4.468,
+      "fpts": 14.08,
+      "ppd": 1.98,
+      "ceil": 24.9,
+      "opto": 19.8,
+      "pown": 23.8,
+      "grade": 4.399,
+      "gpp_grade": 3.395,
       "injury": null
      },
      "experts": [
       "Notorious",
       "Bobby Gomes",
-      "EBeimfohr",
-      "ncorfield8k",
       "Davis Mattek"
      ],
      "expert_blurbs": [
       {
-       "author": "ebeimfohr",
-       "text": "Parker has the 2nd highest target share in the NFL with a top 5 yards per route run through 2 games. The Pats are not an ideal matchup, but he's way too cheap and should avoid Christian Gonzalez with most of his snaps coming from the slot."
-      },
-      {
        "author": "DavisMattek",
-       "text": "Parker Washington is giving us JSN level usage with arguably a better quarterback and overall offensive efficiency. He is my favorite WR play of the slate on both DK and FD."
-      },
-      {
-       "author": "Notorious",
-       "text": "The Patriots are far from an ideal matchup on paper, ranking 2nd in EPA allowed per dropback and 11th in fantasy points allowed to wideouts through two games. But dig a little deeper and the setup for Parker Washington ($6,000 DK / $7,100 FD) actually looks great. He runs nearly half his routes from the slot, keeping him away from Christian Gonzalez, and the Patriots have played man coverage at the 2nd highest rate in the league this season. Washington has a massive 57% target rate against man coverage, so expect him to get peppered with looks in this one."
-      },
-      {
-       "author": "NeilCO",
-       "text": "Washington's salary and ownership are slowly catching up to what we're seeing from him this year. But we're still getting a discount on both."
+       "text": "Top 5 in the NFL in target share, yards per route run, fantasy points per target and expected fantasy points. This is what a fantasy football superstar looks like."
       },
       {
        "author": "BobbyGomes",
-       "text": "Parker Washington continues to be underpriced given his usage entering Week 3. He should have a similar role on Sunday as he did last week, playing primarily from the slot, this time to avoid a matchup with Christian Gonzalez (this weeks version of Pat Surtain). Until they raise his price or make his ownership uncomfortable to play, he will be a staple in my lineups. "
+       "text": "Cash combo of TLaw + Parker Washington is very appealing. Like mentioned already with TLaw, Jaguars/Bengals implied for highest total on the slate. Bengals have faced some pretty mediocre receiving cores (Bucs, Texans without Nico Collins, and Steelers). Parker Washington is currently top 10 in Air Yard Share, target %, and Fantasy Points per route run. All advance stats that signal him to be a true #1 receiver. "
+      },
+      {
+       "author": "Notorious",
+       "text": "Washington has been a staple of this article all season, and he's yet to let us down. He's cleared 90 receiving yards or found the end zone in all 3 games. The underlying usage says he should be even better, with a 28% target share and a 46% air yards share. What's more impressive is he's built those numbers while running almost half his routes from the slot. This game against the Bengals carries the highest total on the board this week."
       }
      ],
-     "num_experts": 5,
-     "notes": "Elite target share and slot route usage avoiding Christian Gonzalez."
+     "num_experts": 3,
+     "rank": 1,
+     "notes": "Elite 28% target share and 46% air yards share in a slate-high 51.5 total."
     },
     {
      "player_id": "3491660",
@@ -1145,13 +1211,12 @@
      "players": "Garrett Wilson",
      "pos": "WR",
      "team": "NYJ",
-     "opp": "DET",
-     "schedule_id": "206441",
-     "rank": 2,
+     "opp": "CHI",
+     "schedule_id": "206457",
      "dk_rank": 2,
-     "fd_rank": 2,
-     "dk_slot": null,
-     "fd_slot": null,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1160,25 +1225,25 @@
      "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 6300,
-      "fpts": 14.38,
-      "ppd": 2.28,
-      "ceil": 25.3,
-      "opto": 11.5,
-      "pown": 17.5,
-      "grade": 3.533,
-      "gpp_grade": 2.865,
+      "salary": 6800,
+      "fpts": 17.0,
+      "ppd": 2.5,
+      "ceil": 29.1,
+      "opto": 16.8,
+      "pown": 19.1,
+      "grade": 4.025,
+      "gpp_grade": 3.221,
       "injury": null
      },
      "fd": {
-      "salary": 7300,
-      "fpts": 11.74,
-      "ppd": 1.61,
-      "ceil": 20.7,
-      "opto": 8.8,
-      "pown": 14.1,
-      "grade": 3.381,
-      "gpp_grade": 2.886,
+      "salary": 7600,
+      "fpts": 13.82,
+      "ppd": 1.82,
+      "ceil": 23.6,
+      "opto": 13.8,
+      "pown": 13.0,
+      "grade": 3.904,
+      "gpp_grade": 3.251,
       "injury": null
      },
      "experts": [
@@ -1188,80 +1253,34 @@
      ],
      "expert_blurbs": [
       {
+       "author": "headChopper",
+       "text": "I wouldn't let the Monday night game fool you. The Bears defense is not that good, despite Jalen Hurts making them look like the '85 Bears. Wilson is the most talented and most heavily targeted WR on this team, and he should find room against this secondary as long as his QB can get him the ball."
+      },
+      {
+       "author": "DavisMattek",
+       "text": "Without AD Mitchell in the lineup, we should reasonably expect Garrett Wilson to have a target share north of 30%. "
+      },
+      {
        "author": "Notorious",
-       "text": "The Lions started the season already missing their top two safeties and have only piled on more secondary injuries since. It shows: they're bottom eight in EPA allowed per dropback, fantasy points allowed to wideouts, and success rate allowed. Geno Smith has been an upgrade at quarterback for the Jets, and he hasn't even had his best game yet. As 6.5-point road dogs in a dome, this matchup sets up perfectly. If Smith pops, Wilson ($6,300 DK / $7,300 FD) is the clear beneficiary, with a 22% target share and 38% air yards share through 2 games."
+       "text": "Wilson got off to a slow start against the Lions, but a big game was never really in question; the spot was too good to fail. He finished with 10 catches for 107 yards and a touchdown. This week the Jets are missing Breece Hall, A.D. Mitchell, and Mason Taylor, which should leave their offense running through very few hands. Even better, they draw the Bears, who rarely bother playing defense."
       }
      ],
      "num_experts": 3,
-     "notes": "Strong target share against a depleted Lions secondary."
+     "rank": 2,
+     "notes": "Heavy target volume boosted by multiple offensive injuries."
     },
     {
-     "player_id": "4688187",
-     "core_id": "134969",
-     "players": "Jaxon Smith-Njigba",
+     "player_id": "4687982",
+     "core_id": "122160",
+     "players": "Jordan Addison",
      "pos": "WR",
-     "team": "SEA",
-     "opp": "WAS",
-     "schedule_id": "206439",
-     "rank": 3,
+     "team": "MIN",
+     "opp": "MIA",
+     "schedule_id": "206464",
      "dk_rank": 3,
-     "fd_rank": 3,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 8600,
-      "fpts": 22.06,
-      "ppd": 2.57,
-      "ceil": 35.5,
-      "opto": 16.7,
-      "pown": 11.7,
-      "grade": 2.419,
-      "gpp_grade": 1.253,
-      "injury": null
-     },
-     "fd": {
-      "salary": 9200,
-      "fpts": 18.7,
-      "ppd": 2.03,
-      "ceil": 30.1,
-      "opto": 19.5,
-      "pown": 10.9,
-      "grade": 2.863,
-      "gpp_grade": 1.384,
-      "injury": null
-     },
-     "experts": [
-      "Krayton"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "Krayton",
-       "text": "The Commanders have one of the worst secondaries in all of the NFL as CeeDee Lamb just had a field against them last week.  JSN is currently projected for only 11% ownership and I absolutely love this spot for him as he has been nothing short of spectacular to start the year.  It\u2019s even better yet if we can get JSN at lower ownership."
-      }
-     ],
-     "num_experts": 1,
-     "notes": "High target volume and ceiling in a favorable game script."
-    },
-    {
-     "player_id": "6228204",
-     "core_id": "141410",
-     "players": "Ladd McConkey",
-     "pos": "WR",
-     "team": "LAC",
-     "opp": "BUF",
-     "schedule_id": "206447",
-     "rank": 4,
-     "dk_rank": 4,
-     "fd_rank": 4,
-     "dk_slot": null,
-     "fd_slot": null,
+     "fd_rank": 5,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1270,36 +1289,278 @@
      "saver_fd": true,
      "injury": null,
      "dk": {
-      "salary": 5900,
-      "fpts": 14.72,
-      "ppd": 2.49,
-      "ceil": 25.4,
-      "opto": 14.6,
-      "pown": 6.7,
-      "grade": 1.8,
-      "gpp_grade": 0.849,
+      "salary": 5300,
+      "fpts": 14.03,
+      "ppd": 2.65,
+      "ceil": 25.1,
+      "opto": 16.8,
+      "pown": 19.1,
+      "grade": 1.764,
+      "gpp_grade": 0.816,
       "injury": null
      },
      "fd": {
-      "salary": 6300,
-      "fpts": 12.04,
-      "ppd": 1.91,
-      "ceil": 20.8,
-      "opto": 20.6,
-      "pown": 8.1,
-      "grade": 2.428,
-      "gpp_grade": 0.905,
+      "salary": 6500,
+      "fpts": 11.92,
+      "ppd": 1.83,
+      "ceil": 21.3,
+      "opto": 14.1,
+      "pown": 18.1,
+      "grade": 1.654,
+      "gpp_grade": 0.873,
       "injury": null
      },
      "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 3,
+     "notes": "Favorable route participation in a Minnesota pass offense."
+    },
+    {
+     "player_id": "4688187",
+     "core_id": "134969",
+     "players": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "team": "SEA",
+     "opp": "LAC",
+     "schedule_id": "206467",
+     "dk_rank": null,
+     "fd_rank": 4,
+     "dk_slot": null,
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 9100,
+      "fpts": 22.67,
+      "ppd": 2.49,
+      "ceil": 35.0,
+      "opto": 28.8,
+      "pown": 13.3,
+      "grade": 2.998,
+      "gpp_grade": 1.226,
+      "injury": null
+     },
+     "fd": {
+      "salary": 9500,
+      "fpts": 19.21,
+      "ppd": 2.02,
+      "ceil": 29.7,
+      "opto": 29.2,
+      "pown": 15.3,
+      "grade": 3.266,
+      "gpp_grade": 1.367,
+      "injury": null
+     },
+     "experts": [
+      "Krayton"
+     ],
+     "expert_blurbs": [],
+     "num_experts": 1,
+     "rank": 4,
+     "notes": "Elite projection and ceiling in a 42.5 game total."
+    },
+    {
+     "player_id": "4687750",
+     "core_id": "116819",
+     "players": "Dontayvion Wicks",
+     "pos": "WR",
+     "team": "PHI",
+     "opp": "LAR",
+     "schedule_id": "206462",
+     "dk_rank": 4,
+     "fd_rank": null,
+     "dk_slot": "CASH",
+     "fd_slot": null,
+     "slot": "CASH",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": true,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 4300,
+      "fpts": 12.07,
+      "ppd": 2.81,
+      "ceil": 21.4,
+      "opto": 17.2,
+      "pown": 14.7,
+      "grade": 1.726,
+      "gpp_grade": 0.689,
+      "injury": null
+     },
+     "fd": {
+      "salary": 5900,
+      "fpts": 9.85,
+      "ppd": 1.67,
+      "ceil": 17.5,
+      "opto": 9.5,
+      "pown": 6.4,
+      "grade": 1.136,
+      "gpp_grade": 0.677,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
+     "notes": "Solid value target share in a competitive 42.5 total game."
+    },
+    {
+     "player_id": "4687933",
+     "core_id": "93290",
+     "players": "Puka Nacua",
+     "pos": "WR",
+     "team": "LAR",
+     "opp": "PHI",
+     "schedule_id": "206462",
+     "dk_rank": null,
+     "fd_rank": 6,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 7500,
+      "fpts": 18.27,
+      "ppd": 2.44,
+      "ceil": 30.8,
+      "opto": 13.0,
+      "pown": 15.5,
+      "grade": 1.7,
+      "gpp_grade": 1.007,
+      "injury": null
+     },
+     "fd": {
+      "salary": 9000,
+      "fpts": 15.15,
+      "ppd": 1.68,
+      "ceil": 25.6,
+      "opto": 5.0,
+      "pown": 8.1,
+      "grade": 1.209,
+      "gpp_grade": 1.064,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 6,
+     "notes": "Strong target volume and ceiling in a 42.5 game total matchup."
+    },
+    {
+     "player_id": "3491515",
+     "core_id": "54757",
+     "players": "Christian Watson",
+     "pos": "WR",
+     "team": "GBP",
+     "opp": "TBB",
+     "schedule_id": "206461",
+     "dk_rank": 5,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": true,
+     "saver_dk": false,
+     "saver_fd": true,
+     "injury": null,
+     "dk": {
+      "salary": 6700,
+      "fpts": 15.61,
+      "ppd": 2.33,
+      "ceil": 27.4,
+      "opto": 11.0,
+      "pown": 8.5,
+      "grade": 3.483,
+      "gpp_grade": 3.117,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7200,
+      "fpts": 13.2,
+      "ppd": 1.83,
+      "ceil": 23.2,
+      "opto": 15.2,
+      "pown": 11.2,
+      "grade": 3.917,
+      "gpp_grade": 3.213,
+      "injury": null
+     },
+     "experts": [
+      "Headchopper",
+      "Krayton",
+      "EBeimfohr"
+     ],
      "expert_blurbs": [
       {
-       "author": "NeilCO",
-       "text": "McConkey was a priority for the Chargers offense early in Week 1. He has been limited by an injury, but he should be healthier with an extra week of recovery. "
+       "author": "ebeimfohr",
+       "text": "With the Bucs blitzing at the 3rd highest rate in the league and a struggling OL, Watson's ability to catch and run give him the upside to break this slate. He's also the primary red zone target for the team, leading the Pack in both red zone and end zone targets, while improving his per route efficiency to elite levels (2.51 YPRR this season). If the Bucs can cobble together some points, Watson has as high of a ceiling as any WR at a reasonable price and low ownership."
       }
      ],
+     "num_experts": 3,
+     "rank": 7,
+     "notes": "Elite 2.51 yards per route run against a high-blitz defensive scheme."
+    },
+    {
+     "player_id": "3491429",
+     "core_id": "93289",
+     "players": "George Pickens",
+     "pos": "WR",
+     "team": "DAL",
+     "opp": "HOU",
+     "schedule_id": "206459",
+     "dk_rank": null,
+     "fd_rank": 8,
+     "dk_slot": null,
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": "FD",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6300,
+      "fpts": 15.22,
+      "ppd": 2.42,
+      "ceil": 27.5,
+      "opto": 11.6,
+      "pown": 13.4,
+      "grade": 1.428,
+      "gpp_grade": 0.871,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7900,
+      "fpts": 12.7,
+      "ppd": 1.61,
+      "ceil": 22.9,
+      "opto": 6.1,
+      "pown": 8.3,
+      "grade": 1.081,
+      "gpp_grade": 0.914,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Healthier after extra recovery week in a high total game."
+     "rank": 8,
+     "notes": "High ceiling route participation in a 48.5 total game script."
     },
     {
      "player_id": "1844578",
@@ -1307,14 +1568,13 @@
      "players": "CeeDee Lamb",
      "pos": "WR",
      "team": "DAL",
-     "opp": "BAL",
-     "schedule_id": "206451",
-     "rank": 5,
-     "dk_rank": null,
-     "fd_rank": 5,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
+     "opp": "HOU",
+     "schedule_id": "206459",
+     "dk_rank": 6,
+     "fd_rank": 7,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
@@ -1323,279 +1583,136 @@
      "injury": null,
      "dk": {
       "salary": 7800,
-      "fpts": 18.97,
-      "ppd": 2.43,
-      "ceil": 31.5,
-      "opto": 11.3,
-      "pown": 17.8,
-      "grade": 1.775,
-      "gpp_grade": 1.046,
+      "fpts": 17.75,
+      "ppd": 2.28,
+      "ceil": 30.0,
+      "opto": 7.7,
+      "pown": 9.1,
+      "grade": 1.279,
+      "gpp_grade": 0.954,
       "injury": null
      },
      "fd": {
-      "salary": 8600,
-      "fpts": 15.77,
-      "ppd": 1.83,
-      "ceil": 26.2,
-      "opto": 11.6,
-      "pown": 15.5,
-      "grade": 1.925,
-      "gpp_grade": 1.12,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Elite target upside in the highest game total on the slate."
-    },
-    {
-     "player_id": "3491988",
-     "core_id": "47332",
-     "players": "Chris Olave",
-     "pos": "WR",
-     "team": "NOS",
-     "opp": "LVR",
-     "schedule_id": "206450",
-     "rank": 6,
-     "dk_rank": 5,
-     "fd_rank": null,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 7200,
-      "fpts": 18.02,
-      "ppd": 2.5,
-      "ceil": 30.7,
-      "opto": 17.7,
-      "pown": 13.1,
-      "grade": 2.233,
-      "gpp_grade": 1.027,
-      "injury": null
-     },
-     "fd": {
-      "salary": 8100,
-      "fpts": 14.66,
-      "ppd": 1.81,
-      "ceil": 24.9,
-      "opto": 12.6,
-      "pown": 11.3,
-      "grade": 1.92,
-      "gpp_grade": 1.053,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "High ceiling in a fast-paced matchup against Las Vegas."
-    },
-    {
-     "player_id": "2861551",
-     "core_id": "64586",
-     "players": "Ja'Marr Chase",
-     "pos": "WR",
-     "team": "CIN",
-     "opp": "PIT",
-     "schedule_id": "206440",
-     "rank": 7,
-     "dk_rank": 6,
-     "fd_rank": 6,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 8100,
-      "fpts": 17.58,
-      "ppd": 2.17,
-      "ceil": 30.1,
-      "opto": 5.0,
-      "pown": 8.4,
-      "grade": 1.128,
-      "gpp_grade": 0.963,
-      "injury": null
-     },
-     "fd": {
-      "salary": 8900,
-      "fpts": 14.47,
-      "ppd": 1.63,
+      "salary": 8500,
+      "fpts": 14.69,
+      "ppd": 1.73,
       "ceil": 24.8,
-      "opto": 5.3,
-      "pown": 7.4,
-      "grade": 1.238,
-      "gpp_grade": 1.032,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Explosive deep role in a divisional matchup against Pittsburgh."
-    },
-    {
-     "player_id": "3491429",
-     "core_id": "93289",
-     "players": "George Pickens",
-     "pos": "WR",
-     "team": "DAL",
-     "opp": "BAL",
-     "schedule_id": "206451",
-     "rank": 8,
-     "dk_rank": null,
-     "fd_rank": null,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 6600,
-      "fpts": 14.75,
-      "ppd": 2.23,
-      "ceil": 26.5,
-      "opto": 6.4,
-      "pown": 10.0,
-      "grade": 1.099,
-      "gpp_grade": 0.813,
-      "injury": null
-     },
-     "fd": {
-      "salary": 7700,
-      "fpts": 12.37,
-      "ppd": 1.61,
-      "ceil": 22.2,
-      "opto": 6.1,
-      "pown": 11.6,
-      "grade": 1.156,
-      "gpp_grade": 0.873,
-      "injury": null
-     },
-     "experts": [
-      "Headchopper"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "headChopper",
-       "text": "I have nothing to back this up other than the fact that the Cowboys are a good passing offense and Baltimore looked susceptible through the air, at least in Week 2. But I have a hunch that after two bad weeks, the passing game will go through George Pickens this week in Brazil.\r\n"
-      }
-     ],
-     "num_experts": 1,
-     "notes": "Primary target volume in a high total game against Baltimore."
-    },
-    {
-     "player_id": "1844306",
-     "core_id": "64507",
-     "players": "Justin Jefferson",
-     "pos": "WR",
-     "team": "MIN",
-     "opp": "TBB",
-     "schedule_id": "206448",
-     "rank": 9,
-     "dk_rank": null,
-     "fd_rank": 7,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 7500,
-      "fpts": 16.88,
-      "ppd": 2.25,
-      "ceil": 29.1,
-      "opto": 9.5,
-      "pown": 11.0,
-      "grade": 1.458,
-      "gpp_grade": 0.911,
-      "injury": null
-     },
-     "fd": {
-      "salary": 8400,
-      "fpts": 14.01,
-      "ppd": 1.67,
-      "ceil": 24.1,
-      "opto": 7.8,
+      "opto": 7.9,
       "pown": 9.0,
-      "grade": 1.431,
-      "gpp_grade": 0.987,
+      "grade": 1.39,
+      "gpp_grade": 1.026,
       "injury": null
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Elite route participation in a close divisional game."
+     "rank": 9,
+     "notes": "Elite target upside in a high-total 48.5 game environment."
     },
     {
-     "player_id": "8216948",
-     "core_id": "239536",
-     "players": "Tetairoa McMillan",
+     "player_id": "18106",
+     "core_id": "926",
+     "players": "Davante Adams",
      "pos": "WR",
-     "team": "CAR",
-     "opp": "CLE",
-     "schedule_id": "206446",
-     "rank": 10,
+     "team": "LAR",
+     "opp": "PHI",
+     "schedule_id": "206462",
      "dk_rank": 7,
-     "fd_rank": 8,
-     "dk_slot": null,
+     "fd_rank": null,
+     "dk_slot": "GPP",
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": null,
+     "site_only": "DK",
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": true,
-     "saver_fd": true,
+     "saver_dk": false,
+     "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 6000,
-      "fpts": 13.81,
-      "ppd": 2.3,
-      "ceil": 24.7,
-      "opto": 8.5,
-      "pown": 5.1,
-      "grade": 1.23,
-      "gpp_grade": 0.838,
+      "salary": 7000,
+      "fpts": 14.71,
+      "ppd": 2.1,
+      "ceil": 26.1,
+      "opto": 3.4,
+      "pown": 4.3,
+      "grade": 0.767,
+      "gpp_grade": 0.829,
       "injury": null
      },
      "fd": {
-      "salary": 6800,
-      "fpts": 11.4,
-      "ppd": 1.68,
-      "ceil": 20.4,
-      "opto": 8.5,
-      "pown": 8.1,
-      "grade": 1.313,
-      "gpp_grade": 0.842,
+      "salary": 8300,
+      "fpts": 12.36,
+      "ppd": 1.49,
+      "ceil": 21.9,
+      "opto": 1.8,
+      "pown": 3.2,
+      "grade": 0.718,
+      "gpp_grade": 0.899,
       "injury": null
      },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 10,
+     "notes": "Solid route participation in a tightly spread 42.5 total game."
+    },
+    {
+     "player_id": "4687538",
+     "core_id": "136555",
+     "players": "Zay Flowers",
+     "pos": "WR",
+     "team": "BAL",
+     "opp": "TEN",
+     "schedule_id": "206463",
+     "dk_rank": 8,
+     "fd_rank": null,
+     "dk_slot": "GPP",
+     "fd_slot": null,
+     "slot": "GPP",
+     "site_only": "DK",
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": "Q",
+     "dk": {
+      "salary": 6900,
+      "fpts": 14.59,
+      "ppd": 2.11,
+      "ceil": 26.4,
+      "opto": 4.7,
+      "pown": 9.7,
+      "grade": -0.131,
+      "gpp_grade": 0.809,
+      "injury": "Q"
+     },
+     "fd": {
+      "salary": 7300,
+      "fpts": 12.19,
+      "ppd": 1.67,
+      "ceil": 22.1,
+      "opto": 8.1,
+      "pown": 13.3,
+      "grade": 0.224,
+      "gpp_grade": 0.906,
+      "injury": "Q"
+     },
      "experts": [
-      "EBeimfohr"
+      "Bobby Gomes"
      ],
      "expert_blurbs": [
       {
        "author": "ebeimfohr",
-       "text": "The Panthers have the 4th highest PROE in the league, and the targets are extremely condensed to justa. few guys, with McMillan as the lead dog. Jalen Coker has put up better counting stats, but TMac has the same target share and the biggest air yards share on the team (40%). The Browns pass defense was torched by the Jags in Week One, and some missed throws, drops and weather made their week 2 seem better than it was. This is an exploitable unit, and TMac looks set for a big leap in year two, especially with Bryce Young playing really well to start the season, but they are drawing no ownership again this week. For TMac, Jalen Coker is also banged up and questionable to play, so we may see a larger target share this week as well."
+       "text": "Zay rested during Friday's practice, but he was a full participant Wednesday/Thursday, and he could break fantasy with great route participation this week. He has scored 1.58 fantasy points per route this year, averaging north of 9 yards per route run and being targeted on 12 of his 25 routes. He scored more than 15 PPR points last week on just 14 routes, and he's turning into one of the best fantasy WRs in the game, but he's completely unowned on this slate. If the Titans can push the Ravens (who are 21st in defensive EPA/play), the ceiling is nuclear."
+      },
+      {
+       "author": "BobbyGomes",
+       "text": "Titans are bottom 8 in EPA/Pass and 2 of their games are versus the Jets and the Giants. Ravens took it easy with Flowers last week but should expect to be a full contributor this week. A Lamar + Zay Flowers combo in GPPs offers both ownership leverage and ceiling upside. "
       }
      ],
      "num_experts": 1,
-     "notes": "Condensed targets and massive air yards share against Cleveland."
+     "rank": 11,
+     "notes": "Full contributor role facing a Titans defense struggling in pass EPA."
     }
    ]
   },
@@ -1603,127 +1720,177 @@
    "position": "TE",
    "players": [
     {
-     "player_id": "4687560",
-     "core_id": "170729",
-     "players": "Dalton Kincaid",
+     "player_id": "972605",
+     "core_id": "51195",
+     "players": "T.J. Hockenson",
      "pos": "TE",
-     "team": "BUF",
-     "opp": "LAC",
-     "schedule_id": "206447",
-     "rank": 1,
+     "team": "MIN",
+     "opp": "MIA",
+     "schedule_id": "206464",
      "dk_rank": 1,
-     "fd_rank": 1,
-     "dk_slot": null,
-     "fd_slot": null,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
-     "core_dk": false,
+     "core_dk": true,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 5500,
-      "fpts": 11.97,
-      "ppd": 2.18,
-      "ceil": 20.9,
-      "opto": 3.5,
-      "pown": 5.2,
-      "grade": 3.228,
-      "gpp_grade": 3.206,
+      "salary": 3300,
+      "fpts": 11.89,
+      "ppd": 3.6,
+      "ceil": 20.3,
+      "opto": 23.1,
+      "pown": 20.3,
+      "grade": 6.34,
+      "gpp_grade": 4.582,
       "injury": null
      },
      "fd": {
-      "salary": 5700,
-      "fpts": 9.72,
-      "ppd": 1.71,
-      "ceil": 17.0,
-      "opto": 10.1,
-      "pown": 9.1,
-      "grade": 4.322,
-      "gpp_grade": 3.305,
+      "salary": 4900,
+      "fpts": 9.63,
+      "ppd": 1.97,
+      "ceil": 16.4,
+      "opto": 14.6,
+      "pown": 14.1,
+      "grade": 2.421,
+      "gpp_grade": 1.25,
       "injury": null
      },
      "experts": [
-      "EBeimfohr",
-      "ncorfield8k",
-      "Davis Mattek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "ebeimfohr",
-       "text": "Kincaid has always been one of the best and most efficient receiving TEs in the league, but he has not run enough routes to reach his ceiling. That's change this year, as he's run 66% of the routes so far, which has catapulted him into the upper echelon of fantasy TEs, but his price and ownership haven't caught up. He is 3rd in the NFL in receiving yards, not amongst TEs but the entire league. He also has earned a target on 30% of his routes, and he's produced an extremely efficient 4.89 YPRR on a team high target share. The Chargers have also been an extreme pass funnel through two weeks, which plays into the Bills new high pass rate offense with the highest aDOT in the league."
-      },
-      {
-       "author": "DavisMattek",
-       "text": "Kincaid is top 5 over the last 2 seasons amongst TEs in targets per route run and fantasy points per route run, he just has never run enough rates. His route rate is now above 70% for consecutive games for the first time in his career. Absolute jam play."
-      },
-      {
-       "author": "NeilCO",
-       "text": "The Bills have the highest implied team total on the slate. They also rank sixth in PROE. Kincaid is Josh Allen's favorite target so far, with an elite 23.3% target share. If DJ Moore is out or limited, that should only go up. And the Chargers defense is tied for allowing the 8th-most expected points added (EPA) per pass."
-      }
-     ],
-     "num_experts": 3,
-     "notes": "Elite route rate and massive target share in a high total game."
-    },
-    {
-     "player_id": "328583",
-     "core_id": "40358",
-     "players": "Dalton Schultz",
-     "pos": "TE",
-     "team": "HOU",
-     "opp": "IND",
-     "schedule_id": "206445",
-     "rank": 2,
-     "dk_rank": 2,
-     "fd_rank": 3,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 4200,
-      "fpts": 12.97,
-      "ppd": 3.09,
-      "ceil": 21.6,
-      "opto": 15.1,
-      "pown": 15.4,
-      "grade": 2.748,
-      "gpp_grade": 1.106,
-      "injury": null
-     },
-     "fd": {
-      "salary": 5800,
-      "fpts": 10.09,
-      "ppd": 1.74,
-      "ceil": 16.8,
-      "opto": 7.4,
-      "pown": 8.2,
-      "grade": 1.907,
-      "gpp_grade": 1.047,
-      "injury": null
-     },
-     "experts": [
+      "Headchopper",
       "Krayton",
-      "Bobby Gomes"
+      "Bobby Gomes",
+      "ncorfield8k"
      ],
      "expert_blurbs": [
       {
-       "author": "Krayton",
-       "text": "Schultz is still a tremendous value on DK in particular this week as he saw 14 targets in their game against the Bengals with Nico Collins out.  Collins is doubtful to play once again and I would expect him to be heavily involved in the offense once again making him more like cheap WR option with heavy usage."
+       "author": "headChopper",
+       "text": "Obviously, this is a great matchup in general terms these days, with the Dolphins being arguably the worst team in the NFL. This is a fantastic punt price on DraftKings for a tight end who could take on a bigger role in the offense this week."
       },
       {
        "author": "BobbyGomes",
-       "text": "With Collins ruled out again, Schultz becomes another elite play and a cash must have. Last week, he collected 12 of 14 catches for 140 yards. He also faces a Colts defense that continues to struggle vs TEs. Both their starting LBs have struggled in coverage, and they were just tormented by Kelce for 9-101-1. "
+       "text": "Cheap on both sites and Vikings have ruled out Justin Jefferson opening up a bigger role for TJ Hockenson this weekend. Dolphins also have struggled to stop the TE position over the last few seasons, including this year, where they are bottom 10 vs the position. Hard to pass on the value, especially in cash games."
+      },
+      {
+       "author": "NeilCO",
+       "text": "He hasn't played a game without Justin Jefferson since 2023, but in 2023, Hockenson averaged 9.9 targets and 17.31 PPR FPPG without Jefferson, compared to 7.3 targets and 12.35 FPPG with Jefferson. He gets a great matchup this week against the Dolphins."
       }
      ],
-     "num_experts": 2,
-     "notes": "Heavy target volume with Nico Collins ruled out again."
+     "num_experts": 4,
+     "rank": 1,
+     "notes": "Averaged 9.9 targets without Jefferson against a weak tight-end defense."
+    },
+    {
+     "player_id": "6228166",
+     "core_id": "169466",
+     "players": "Brock Bowers",
+     "pos": "TE",
+     "team": "LVR",
+     "opp": "KCC",
+     "schedule_id": "206466",
+     "dk_rank": 2,
+     "fd_rank": 1,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 6900,
+      "fpts": 17.61,
+      "ppd": 2.55,
+      "ceil": 29.1,
+      "opto": 15.2,
+      "pown": 19.6,
+      "grade": 2.458,
+      "gpp_grade": 1.357,
+      "injury": null
+     },
+     "fd": {
+      "salary": 7200,
+      "fpts": 14.21,
+      "ppd": 1.97,
+      "ceil": 23.4,
+      "opto": 20.0,
+      "pown": 23.6,
+      "grade": 3.352,
+      "gpp_grade": 1.767,
+      "injury": null
+     },
+     "experts": [
+      "Notorious"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Notorious",
+       "text": "Bowers delivered as good a game as you could've hoped for in his return from injury: 10 catches for 116 yards and a touchdown. He's a tight end in name only; he lined up in the slot constantly and pulled in 39% of the team's targets. Think of him as a WR1 you get to play at tight end. With the Raiders likely trailing in this one, that target share should hold up. There's a ton of value out there this week, which makes spending up at tight end an easy call."
+      }
+     ],
+     "num_experts": 1,
+     "rank": 2,
+     "notes": "Commanding 39% target share with elite slot route usage as a primary weapon."
+    },
+    {
+     "player_id": "37069",
+     "core_id": "33357",
+     "players": "George Kittle",
+     "pos": "TE",
+     "team": "SFO",
+     "opp": "DEN",
+     "schedule_id": "206465",
+     "dk_rank": 3,
+     "fd_rank": 6,
+     "dk_slot": "CASH",
+     "fd_slot": "GPP",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 5100,
+      "fpts": 13.75,
+      "ppd": 2.7,
+      "ceil": 23.7,
+      "opto": 10.1,
+      "pown": 17.4,
+      "grade": 1.802,
+      "gpp_grade": 1.092,
+      "injury": null
+     },
+     "fd": {
+      "salary": 6700,
+      "fpts": 11.28,
+      "ppd": 1.68,
+      "ceil": 19.4,
+      "opto": 6.5,
+      "pown": 9.5,
+      "grade": 1.671,
+      "gpp_grade": 1.265,
+      "injury": null
+     },
+     "experts": [
+      "Jordan Vanek"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "vanekjordan",
+       "text": "I think the 49ers are going to attack their former safety Talanoa Hufanga in coverage with George Kittle. The Rams had a lot of plays where a TE was running open against this defense, and Stafford missed quite a few of those opportunities. I expect Shanahan to take a lot from that game plan, and I think Purdy will find Kittle for a big game."
+      }
+     ],
+     "num_experts": 1,
+     "rank": 3,
+     "notes": "Favorable seam route matchup exploiting coverage weaknesses."
     },
     {
      "player_id": "3492164",
@@ -1731,13 +1898,12 @@
      "players": "Trey McBride",
      "pos": "TE",
      "team": "ARI",
-     "opp": "SFO",
-     "schedule_id": "206449",
-     "rank": 3,
-     "dk_rank": 3,
-     "fd_rank": 2,
-     "dk_slot": null,
-     "fd_slot": null,
+     "opp": "NYG",
+     "schedule_id": "206458",
+     "dk_rank": 4,
+     "fd_rank": 4,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1746,31 +1912,39 @@
      "saver_fd": false,
      "injury": null,
      "dk": {
-      "salary": 6700,
-      "fpts": 16.55,
-      "ppd": 2.47,
-      "ceil": 27.4,
-      "opto": 8.3,
-      "pown": 7.7,
-      "grade": 2.022,
-      "gpp_grade": 1.26,
+      "salary": 6500,
+      "fpts": 16.42,
+      "ppd": 2.53,
+      "ceil": 27.0,
+      "opto": 7.0,
+      "pown": 11.4,
+      "grade": 1.707,
+      "gpp_grade": 1.243,
       "injury": null
      },
      "fd": {
-      "salary": 7300,
-      "fpts": 13.22,
-      "ppd": 1.81,
-      "ceil": 21.9,
-      "opto": 9.8,
-      "pown": 7.6,
-      "grade": 2.5,
-      "gpp_grade": 1.375,
+      "salary": 7400,
+      "fpts": 13.11,
+      "ppd": 1.77,
+      "ceil": 21.6,
+      "opto": 5.1,
+      "pown": 7.9,
+      "grade": 1.781,
+      "gpp_grade": 1.483,
       "injury": null
      },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Seam usage and high target ceiling against San Francisco."
+     "experts": [
+      "Notorious"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Notorious",
+       "text": "McBride always ends up too low-owned in DFS. Most people want to save at the position, so the pricier tight ends get passed over. With Bowers back in the mix this week, McBride might go even more overlooked than usual. He's commanding a 28% target share and a 27% air yards share in an offense that's quietly underrated. Stack him with Brissett, or go the skinny-stack route and pair him with Skattebo."
+      }
+     ],
+     "num_experts": 1,
+     "rank": 4,
+     "notes": "Elite 28% target share in an underrated, high-efficiency passing offense."
     },
     {
      "player_id": "18314",
@@ -1778,14 +1952,67 @@
      "players": "Travis Kelce",
      "pos": "TE",
      "team": "KCC",
-     "opp": "MIA",
-     "schedule_id": "206444",
-     "rank": 4,
-     "dk_rank": null,
-     "fd_rank": 4,
-     "dk_slot": null,
-     "fd_slot": null,
+     "opp": "LVR",
+     "schedule_id": "206466",
+     "dk_rank": 5,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 5000,
+      "fpts": 12.62,
+      "ppd": 2.52,
+      "ceil": 21.6,
+      "opto": 8.0,
+      "pown": 5.9,
+      "grade": 1.501,
+      "gpp_grade": 1.008,
+      "injury": null
+     },
+     "fd": {
+      "salary": 5500,
+      "fpts": 10.03,
+      "ppd": 1.82,
+      "ceil": 17.1,
+      "opto": 11.1,
+      "pown": 8.8,
+      "grade": 2.029,
+      "gpp_grade": 1.15,
+      "injury": null
+     },
+     "experts": [
+      "Bobby Gomes"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "BobbyGomes",
+       "text": "Kelce perfect GPP candidate with Raiders getting absolutely torched last week by the Saints TEs (combined 12-86-4), yet should be relatively on the lower owned side with a cash/value play like Hockenson available or pay-up guys like McBride/Bowers available. Based on the eye test, Kelce looks fresher and in-shape for this year where in 2025 you say some sort of dip. "
+      }
+     ],
+     "num_experts": 1,
+     "rank": 5,
+     "notes": "Fresh legs and elite matchup against a defense yielding heavy tight-end."
+    },
+    {
+     "player_id": "3491355",
+     "core_id": "126944",
+     "players": "Isaiah Likely",
+     "pos": "TE",
+     "team": "NYG",
+     "opp": "ARI",
+     "schedule_id": "206458",
+     "dk_rank": 6,
+     "fd_rank": 5,
+     "dk_slot": "GPP",
+     "fd_slot": "CASH",
+     "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
@@ -1794,273 +2021,125 @@
      "injury": null,
      "dk": {
       "salary": 4500,
-      "fpts": 12.26,
-      "ppd": 2.72,
-      "ceil": 21.6,
-      "opto": 6.5,
-      "pown": 11.0,
-      "grade": 1.584,
-      "gpp_grade": 0.968,
+      "fpts": 11.0,
+      "ppd": 2.44,
+      "ceil": 19.8,
+      "opto": 5.2,
+      "pown": 3.1,
+      "grade": 1.124,
+      "gpp_grade": 0.922,
       "injury": null
      },
      "fd": {
-      "salary": 5500,
-      "fpts": 9.91,
-      "ppd": 1.8,
-      "ceil": 17.5,
-      "opto": 6.7,
-      "pown": 8.9,
-      "grade": 1.806,
-      "gpp_grade": 1.073,
+      "salary": 5100,
+      "fpts": 8.99,
+      "ppd": 1.76,
+      "ceil": 16.2,
+      "opto": 9.7,
+      "pown": 9.1,
+      "grade": 1.729,
+      "gpp_grade": 0.966,
       "injury": null
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Red-zone role in a high implied team total against Miami."
+     "rank": 6,
+     "notes": "Solid route rate and projection in a 44.5 total game matchup."
     },
     {
-     "player_id": "8228725",
-     "core_id": "167146",
-     "players": "Oronde Gadsden",
+     "player_id": "4687560",
+     "core_id": "170729",
+     "players": "Dalton Kincaid",
      "pos": "TE",
-     "team": "LAC",
-     "opp": "BUF",
-     "schedule_id": "206447",
-     "rank": 5,
-     "dk_rank": 4,
-     "fd_rank": 5,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
+     "team": "BUF",
+     "opp": "NEP",
+     "schedule_id": "206456",
+     "dk_rank": 7,
+     "fd_rank": 7,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 5300,
+      "fpts": 11.56,
+      "ppd": 2.18,
+      "ceil": 20.8,
+      "opto": 3.9,
+      "pown": 7.0,
+      "grade": 0.988,
+      "gpp_grade": 0.866,
+      "injury": null
+     },
+     "fd": {
+      "salary": 6100,
+      "fpts": 9.44,
+      "ppd": 1.55,
+      "ceil": 16.9,
+      "opto": 5.5,
+      "pown": 8.6,
+      "grade": 1.302,
+      "gpp_grade": 0.958,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 7,
+     "notes": "Strong red-zone route participation in a high 49.5 game total."
+    },
+    {
+     "player_id": "12274926",
+     "core_id": "257471",
+     "players": "Kenyon Sadiq",
+     "pos": "TE",
+     "team": "NYJ",
+     "opp": "CHI",
+     "schedule_id": "206457",
+     "dk_rank": 8,
+     "fd_rank": 8,
+     "dk_slot": "GPP",
+     "fd_slot": "GPP",
+     "slot": "GPP",
      "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
      "saver_fd": false,
-     "injury": null,
+     "injury": "Q",
      "dk": {
-      "salary": 3500,
-      "fpts": 10.04,
-      "ppd": 2.87,
-      "ceil": 17.8,
-      "opto": 9.8,
-      "pown": 4.3,
-      "grade": 1.886,
-      "gpp_grade": 0.98,
-      "injury": null
-     },
-     "fd": {
-      "salary": 5000,
-      "fpts": 8.07,
-      "ppd": 1.61,
-      "ceil": 14.3,
-      "opto": 7.6,
+      "salary": 4000,
+      "fpts": 10.54,
+      "ppd": 2.64,
+      "ceil": 18.5,
+      "opto": 8.1,
       "pown": 4.4,
-      "grade": 1.722,
-      "gpp_grade": 0.98,
-      "injury": null
-     },
-     "experts": [
-      "ncorfield8k",
-      "Davis Mattek"
-     ],
-     "expert_blurbs": [
-      {
-       "author": "NeilCO",
-       "text": "Gadsden showed flashes of the elite fantasy asset he can be when given the opportunity last year. With both David Njoku and Charlie Kolar out, he should get the opportunity the next few weeks. And the Chargers are likely going to need to throw to keep up with the Bills."
-      }
-     ],
-     "num_experts": 2,
-     "notes": "Expanded route opportunity in a high total game against Buffalo."
-    },
-    {
-     "player_id": "4687728",
-     "core_id": "137283",
-     "players": "Sam LaPorta",
-     "pos": "TE",
-     "team": "DET",
-     "opp": "NYJ",
-     "schedule_id": "206441",
-     "rank": 6,
-     "dk_rank": 5,
-     "fd_rank": 8,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 4300,
-      "fpts": 12.4,
-      "ppd": 2.88,
-      "ceil": 21.1,
-      "opto": 7.1,
-      "pown": 8.7,
-      "grade": 1.697,
-      "gpp_grade": 0.978,
-      "injury": null
+      "grade": 0.374,
+      "gpp_grade": 0.865,
+      "injury": "Q"
      },
      "fd": {
-      "salary": 6200,
-      "fpts": 9.88,
-      "ppd": 1.59,
-      "ceil": 16.8,
-      "opto": 2.8,
-      "pown": 6.9,
-      "grade": 1.209,
-      "gpp_grade": 0.99,
-      "injury": null
+      "salary": 5300,
+      "fpts": 8.54,
+      "ppd": 1.61,
+      "ceil": 15.0,
+      "opto": 6.1,
+      "pown": 3.1,
+      "grade": 0.3,
+      "gpp_grade": 0.93,
+      "injury": "Q"
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Seam targets and red-zone usage in a fast-paced dome game."
-    },
-    {
-     "player_id": "3491355",
-     "core_id": "126944",
-     "players": "Isaiah Likely",
-     "pos": "TE",
-     "team": "NYG",
-     "opp": "TEN",
-     "schedule_id": "206442",
-     "rank": 7,
-     "dk_rank": 7,
-     "fd_rank": 6,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 4700,
-      "fpts": 10.87,
-      "ppd": 2.31,
-      "ceil": 19.6,
-      "opto": 3.7,
-      "pown": 2.8,
-      "grade": 1.047,
-      "gpp_grade": 0.902,
-      "injury": null
-     },
-     "fd": {
-      "salary": 5600,
-      "fpts": 8.89,
-      "ppd": 1.59,
-      "ceil": 16.0,
-      "opto": 4.8,
-      "pown": 1.7,
-      "grade": 1.376,
-      "gpp_grade": 1.027,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Favorable red-zone role in a 37.5 total game against Tennessee."
-    },
-    {
-     "player_id": "37069",
-     "core_id": "33357",
-     "players": "George Kittle",
-     "pos": "TE",
-     "team": "SFO",
-     "opp": "ARI",
-     "schedule_id": "206449",
      "rank": 8,
-     "dk_rank": 6,
-     "fd_rank": 7,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 4800,
-      "fpts": 11.24,
-      "ppd": 2.34,
-      "ceil": 20.6,
-      "opto": 4.2,
-      "pown": 4.8,
-      "grade": 1.138,
-      "gpp_grade": 0.928,
-      "injury": null
-     },
-     "fd": {
-      "salary": 6100,
-      "fpts": 9.33,
-      "ppd": 1.53,
-      "ceil": 17.1,
-      "opto": 4.0,
-      "pown": 6.3,
-      "grade": 1.282,
-      "gpp_grade": 1.011,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Physical route participation in a high-total game vs Arizona."
-    },
-    {
-     "player_id": "6228166",
-     "core_id": "169466",
-     "players": "Brock Bowers",
-     "pos": "TE",
-     "team": "LVR",
-     "opp": "NOS",
-     "schedule_id": "206450",
-     "rank": 9,
-     "dk_rank": null,
-     "fd_rank": null,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "GPP",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 6600,
-      "fpts": 11.73,
-      "ppd": 1.78,
-      "ceil": 20.4,
-      "opto": 1.1,
-      "pown": 3.9,
-      "grade": 0.676,
-      "gpp_grade": 0.833,
-      "injury": null
-     },
-     "fd": {
-      "salary": 6500,
-      "fpts": 9.54,
-      "ppd": 1.47,
-      "ceil": 16.6,
-      "opto": 3.8,
-      "pown": 5.7,
-      "grade": 1.25,
-      "gpp_grade": 0.965,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "Strong target volume and seam usage against New Orleans."
+     "notes": "Solid points-per-dollar value in a 43.5 game total environment."
     }
    ]
   },
@@ -2068,208 +2147,17 @@
    "position": "DST",
    "players": [
     {
-     "player_id": "18441",
-     "core_id": "8490",
-     "players": "Seattle Seahawks",
+     "player_id": "18419",
+     "core_id": "8468",
+     "players": "Chicago Bears",
      "pos": "DST",
-     "team": "SEA",
-     "opp": "WAS",
-     "schedule_id": "206439",
-     "rank": 1,
+     "team": "CHI",
+     "opp": "NYJ",
+     "schedule_id": "206457",
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 3800,
-      "fpts": 8.61,
-      "ppd": 2.27,
-      "ceil": 14.7,
-      "opto": 9.4,
-      "pown": 5.2,
-      "grade": 1.64,
-      "gpp_grade": 0.651,
-      "injury": null
-     },
-     "fd": {
-      "salary": 4800,
-      "fpts": 8.61,
-      "ppd": 1.79,
-      "ceil": 14.7,
-      "opto": 9.4,
-      "pown": 5.9,
-      "grade": 1.548,
-      "gpp_grade": 0.736,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "DST Ranked by Projections"
-    },
-    {
-     "player_id": "18429",
-     "core_id": "8478",
-     "players": "Kansas City Chiefs",
-     "pos": "DST",
-     "team": "KCC",
-     "opp": "MIA",
-     "schedule_id": "206444",
-     "rank": 2,
-     "dk_rank": 2,
-     "fd_rank": 2,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 3700,
-      "fpts": 7.88,
-      "ppd": 2.13,
-      "ceil": 14.3,
-      "opto": 5.5,
-      "pown": 4.1,
-      "grade": 0.69,
-      "gpp_grade": 0.511,
-      "injury": null
-     },
-     "fd": {
-      "salary": 5000,
-      "fpts": 7.88,
-      "ppd": 1.58,
-      "ceil": 14.3,
-      "opto": 4.9,
-      "pown": 3.9,
-      "grade": 0.575,
-      "gpp_grade": 0.538,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "DST Ranked by Projections"
-    },
-    {
-     "player_id": "18431",
-     "core_id": "8480",
-     "players": "Minnesota Vikings",
-     "pos": "DST",
-     "team": "MIN",
-     "opp": "TBB",
-     "schedule_id": "206448",
-     "rank": 3,
-     "dk_rank": 3,
-     "fd_rank": 3,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 3100,
-      "fpts": 7.46,
-      "ppd": 2.41,
-      "ceil": 13.9,
-      "opto": 5.5,
-      "pown": 3.3,
-      "grade": 1.02,
-      "gpp_grade": 0.899,
-      "injury": null
-     },
-     "fd": {
-      "salary": 4300,
-      "fpts": 7.46,
-      "ppd": 1.73,
-      "ceil": 13.9,
-      "opto": 4.6,
-      "pown": 2.1,
-      "grade": 0.739,
-      "gpp_grade": 0.893,
-      "injury": null
-     },
-     "experts": [
-      "EBeimfohr"
-     ],
-     "expert_blurbs": [],
-     "num_experts": 1,
-     "notes": "DST Ranked by Projections"
-    },
-    {
-     "player_id": "18440",
-     "core_id": "8489",
-     "players": "San Francisco 49ers",
-     "pos": "DST",
-     "team": "SFO",
-     "opp": "ARI",
-     "schedule_id": "206449",
-     "rank": 4,
-     "dk_rank": 4,
-     "fd_rank": 4,
-     "dk_slot": null,
-     "fd_slot": null,
-     "slot": "CASH",
-     "site_only": null,
-     "core_dk": false,
-     "core_fd": false,
-     "saver_dk": false,
-     "saver_fd": false,
-     "injury": null,
-     "dk": {
-      "salary": 3600,
-      "fpts": 7.38,
-      "ppd": 2.05,
-      "ceil": 13.8,
-      "opto": 3.5,
-      "pown": 2.1,
-      "grade": 0.158,
-      "gpp_grade": 0.393,
-      "injury": null
-     },
-     "fd": {
-      "salary": 4900,
-      "fpts": 7.38,
-      "ppd": 1.51,
-      "ceil": 13.8,
-      "opto": 2.6,
-      "pown": 1.5,
-      "grade": 0.079,
-      "gpp_grade": 0.421,
-      "injury": null
-     },
-     "experts": [],
-     "expert_blurbs": [],
-     "num_experts": 0,
-     "notes": "DST Ranked by Projections"
-    },
-    {
-     "player_id": "18418",
-     "core_id": "8467",
-     "players": "Carolina Panthers",
-     "pos": "DST",
-     "team": "CAR",
-     "opp": "CLE",
-     "schedule_id": "206446",
-     "rank": 5,
-     "dk_rank": 5,
-     "fd_rank": 5,
-     "dk_slot": null,
-     "fd_slot": null,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2279,1269 +2167,249 @@
      "injury": null,
      "dk": {
       "salary": 3000,
-      "fpts": 7.37,
-      "ppd": 2.46,
-      "ceil": 13.8,
-      "opto": 6.0,
-      "pown": 5.1,
-      "grade": 0.979,
-      "gpp_grade": 0.573,
+      "fpts": 7.59,
+      "ppd": 2.53,
+      "ceil": 14.3,
+      "opto": 6.7,
+      "pown": 8.1,
+      "grade": 1.222,
+      "gpp_grade": 0.941,
       "injury": null
      },
      "fd": {
-      "salary": 3800,
-      "fpts": 7.37,
-      "ppd": 1.94,
-      "ceil": 13.8,
-      "opto": 7.5,
-      "pown": 6.7,
-      "grade": 1.143,
-      "gpp_grade": 0.634,
+      "salary": 3500,
+      "fpts": 7.59,
+      "ppd": 2.17,
+      "ceil": 14.3,
+      "opto": 12.1,
+      "pown": 21.9,
+      "grade": 2.143,
+      "gpp_grade": 1.133,
       "injury": null
      },
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
+     "rank": 1,
+     "notes": "DST Ranked by Projections"
+    },
+    {
+     "player_id": "18425",
+     "core_id": "8474",
+     "players": "Green Bay Packers",
+     "pos": "DST",
+     "team": "GBP",
+     "opp": "TBB",
+     "schedule_id": "206461",
+     "dk_rank": 2,
+     "fd_rank": 2,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 3200,
+      "fpts": 7.5,
+      "ppd": 2.34,
+      "ceil": 12.9,
+      "opto": 8.1,
+      "pown": 10.7,
+      "grade": 1.261,
+      "gpp_grade": 0.412,
+      "injury": null
+     },
+     "fd": {
+      "salary": 4800,
+      "fpts": 7.5,
+      "ppd": 1.56,
+      "ceil": 12.9,
+      "opto": 4.1,
+      "pown": 3.1,
+      "grade": 0.452,
+      "gpp_grade": 0.43,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 2,
+     "notes": "DST Ranked by Projections"
+    },
+    {
+     "player_id": "18431",
+     "core_id": "8480",
+     "players": "Minnesota Vikings",
+     "pos": "DST",
+     "team": "MIN",
+     "opp": "MIA",
+     "schedule_id": "206464",
+     "dk_rank": 3,
+     "fd_rank": 3,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 4000,
+      "fpts": 7.3,
+      "ppd": 1.83,
+      "ceil": 12.0,
+      "opto": 5.5,
+      "pown": 10.5,
+      "grade": 0.508,
+      "gpp_grade": 0.197,
+      "injury": null
+     },
+     "fd": {
+      "salary": 5000,
+      "fpts": 7.3,
+      "ppd": 1.46,
+      "ceil": 12.0,
+      "opto": 5.7,
+      "pown": 10.7,
+      "grade": 0.644,
+      "gpp_grade": 0.312,
+      "injury": null
+     },
+     "experts": [
+      "Notorious"
+     ],
+     "expert_blurbs": [
+      {
+       "author": "Notorious",
+       "text": "Spending this much on a defense (specifically on DraftKings) never feels good, but the Vikings ($4,000 DK / $5,000 FD) are in a tremendous spot this week. They are massive favorites at home against the Dolphins, who have been one of the worst offensive teams in the NFL this season. The Vikings blitz more than any team, and they force the Dolphins into a pass-heavy game plan. Minnesota is also 1st in points allowed and EPA allowed per play. They could have a slate-breaking type of performance. \r\n"
+      }
+     ],
+     "num_experts": 1,
+     "rank": 3,
+     "notes": "DST Ranked by Projections"
+    },
+    {
+     "player_id": "18429",
+     "core_id": "8478",
+     "players": "Kansas City Chiefs",
+     "pos": "DST",
+     "team": "KCC",
+     "opp": "LVR",
+     "schedule_id": "206466",
+     "dk_rank": 4,
+     "fd_rank": 4,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 3400,
+      "fpts": 7.28,
+      "ppd": 2.14,
+      "ceil": 12.8,
+      "opto": 6.4,
+      "pown": 0.9,
+      "grade": 0.757,
+      "gpp_grade": 0.411,
+      "injury": null
+     },
+     "fd": {
+      "salary": 4600,
+      "fpts": 7.28,
+      "ppd": 1.58,
+      "ceil": 12.8,
+      "opto": 5.1,
+      "pown": 0.6,
+      "grade": 0.532,
+      "gpp_grade": 0.445,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 4,
+     "notes": "DST Ranked by Projections"
+    },
+    {
+     "player_id": "18441",
+     "core_id": "8490",
+     "players": "Seattle Seahawks",
+     "pos": "DST",
+     "team": "SEA",
+     "opp": "LAC",
+     "schedule_id": "206467",
+     "dk_rank": 5,
+     "fd_rank": 5,
+     "dk_slot": "CASH",
+     "fd_slot": "CASH",
+     "slot": "CASH",
+     "site_only": null,
+     "core_dk": false,
+     "core_fd": false,
+     "saver_dk": false,
+     "saver_fd": false,
+     "injury": null,
+     "dk": {
+      "salary": 3500,
+      "fpts": 6.93,
+      "ppd": 1.98,
+      "ceil": 12.9,
+      "opto": 4.3,
+      "pown": 7.5,
+      "grade": 0.174,
+      "gpp_grade": 0.289,
+      "injury": null
+     },
+     "fd": {
+      "salary": 4700,
+      "fpts": 6.93,
+      "ppd": 1.47,
+      "ceil": 12.9,
+      "opto": 3.6,
+      "pown": 3.7,
+      "grade": 0.131,
+      "gpp_grade": 0.386,
+      "injury": null
+     },
+     "experts": [],
+     "expert_blurbs": [],
+     "num_experts": 0,
+     "rank": 5,
      "notes": "DST Ranked by Projections"
     }
    ]
   }
  ],
  "lineups": {
-  "SEA": {
-   "opponent": "WAS",
-   "spread": 8.5,
-   "total": 40.5,
-   "favourite": "SEA",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Sam Darnold"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Jadarian Price"
-     },
-     {
-      "depth": 2,
-      "name": "Emanuel Wilson"
-     },
-     {
-      "depth": 3,
-      "name": "George Holani"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Jaxon Smith-Njigba",
-      "note": "22.1 proj \u00b7 $8,600 \u00b7 17% opto \u00b7 12% own \u00b7 experts: Krayton"
-     },
-     {
-      "depth": 2,
-      "name": "Rashid Shaheed",
-      "note": "8.1 proj \u00b7 $4,200 \u00b7 2% opto \u00b7 2% own"
-     },
-     {
-      "depth": 3,
-      "name": "Cooper Kupp"
-     },
-     {
-      "depth": 4,
-      "name": "Tory Horton"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "AJ Barner",
-      "note": "6.9 proj \u00b7 $3,100 \u00b7 2% opto \u00b7 2% own \u00b7 experts: Jordan Vanek"
-     },
-     {
-      "depth": 2,
-      "name": "Elijah Arroyo"
-     },
-     {
-      "depth": 3,
-      "name": "Eric Saubert"
-     },
-     {
-      "depth": 4,
-      "name": "Nick Kallerup"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Seattle Seahawks",
-      "note": "8.6 proj \u00b7 $3,800 \u00b7 9% opto \u00b7 5% own"
-     }
-    ]
-   }
-  },
-  "WAS": {
-   "opponent": "SEA",
-   "spread": 8.5,
-   "total": 40.5,
-   "favourite": "SEA",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Marcus Mariota"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Rachaad White",
-      "note": "8.1 proj \u00b7 $5,100 \u00b7 0% opto \u00b7 1% own"
-     },
-     {
-      "depth": 2,
-      "name": "Jacory Croskey-Merritt",
-      "note": "7.7 proj \u00b7 $5,300 \u00b7 0% opto \u00b7 0% own"
-     },
-     {
-      "depth": 3,
-      "name": "Kaytron Allen"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Terry McLaurin",
-      "note": "10.1 proj \u00b7 $5,100 \u00b7 3% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Stefon Diggs",
-      "note": "9.2 proj \u00b7 $5,500 \u00b7 1% opto \u00b7 3% own"
-     },
-     {
-      "depth": 3,
-      "name": "Antonio Williams"
-     },
-     {
-      "depth": 4,
-      "name": "Dyami Brown"
-     },
-     {
-      "depth": 5,
-      "name": "Jaylin Lane"
-     },
-     {
-      "depth": 6,
-      "name": "Treylon Burks"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Ben Sinnott"
-     },
-     {
-      "depth": 2,
-      "name": "Colson Yankoff"
-     },
-     {
-      "depth": 3,
-      "name": "John Bates"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Washington Commanders"
-     }
-    ]
-   }
-  },
-  "CIN": {
-   "opponent": "PIT",
-   "spread": 3.5,
-   "total": 42.5,
-   "favourite": "CIN",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Joe Burrow"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Chase Brown",
-      "note": "17.9 proj \u00b7 $6,600 \u00b7 22% opto \u00b7 8% own"
-     },
-     {
-      "depth": 2,
-      "name": "Samaje Perine"
-     },
-     {
-      "depth": 3,
-      "name": "Tahj Brooks"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Ja'Marr Chase",
-      "note": "17.6 proj \u00b7 $8,100 \u00b7 5% opto \u00b7 8% own"
-     },
-     {
-      "depth": 2,
-      "name": "Tee Higgins",
-      "note": "12.2 proj \u00b7 $6,100 \u00b7 3% opto \u00b7 6% own"
-     },
-     {
-      "depth": 3,
-      "name": "Dohnte Meyers"
-     },
-     {
-      "depth": 4,
-      "name": "Colbie Young"
-     },
-     {
-      "depth": 5,
-      "name": "Ke'Shawn Williams"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Mike Gesicki"
-     },
-     {
-      "depth": 2,
-      "name": "Drew Sample"
-     },
-     {
-      "depth": 3,
-      "name": "Erick All"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Cincinnati Bengals",
-      "note": "7.1 proj \u00b7 $2,900 \u00b7 5% opto \u00b7 4% own"
-     }
-    ]
-   }
-  },
-  "PIT": {
-   "opponent": "CIN",
-   "spread": 3.5,
-   "total": 42.5,
-   "favourite": "CIN",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Aaron Rodgers"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Jaylen Warren",
-      "note": "18.2 proj \u00b7 $5,700 \u00b7 34% opto \u00b7 11% own \u00b7 experts: ncorfield8k, Davis Mattek"
-     },
-     {
-      "depth": 2,
-      "name": "Eli Heidenreich"
-     },
-     {
-      "depth": 3,
-      "name": "Travis Homer"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "D.K. Metcalf",
-      "note": "12.5 proj \u00b7 $5,400 \u00b7 6% opto \u00b7 7% own"
-     },
-     {
-      "depth": 2,
-      "name": "Michael Pittman"
-     },
-     {
-      "depth": 3,
-      "name": "Roman Wilson",
-      "note": "6.1 proj \u00b7 $3,400 \u00b7 1% opto \u00b7 1% own"
-     },
-     {
-      "depth": 4,
-      "name": "Germie Bernard"
-     },
-     {
-      "depth": 5,
-      "name": "Ben Skowronek"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Pat Freiermuth",
-      "note": "9.2 proj \u00b7 $3,800 \u00b7 3% opto \u00b7 4% own"
-     },
-     {
-      "depth": 2,
-      "name": "Darnell Washington"
-     },
-     {
-      "depth": 3,
-      "name": "Robert Tonyan"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Pittsburgh Steelers"
-     }
-    ]
-   }
-  },
-  "DET": {
-   "opponent": "NYJ",
-   "spread": 6.5,
-   "total": 48.5,
-   "favourite": "DET",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Jared Goff"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Jahmyr Gibbs",
-      "note": "24.9 proj \u00b7 $8,800 \u00b7 34% opto \u00b7 28% own \u00b7 experts: Notorious, Headchopper, Krayton, Bobby Gomes, ncorfield8k"
-     },
-     {
-      "depth": 2,
-      "name": "Sione Vaki"
-     },
-     {
-      "depth": 3,
-      "name": "Jacob Saylors"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Amon-Ra St. Brown",
-      "note": "20.8 proj \u00b7 $7,900 \u00b7 13% opto \u00b7 18% own \u00b7 experts: Bobby Gomes"
-     },
-     {
-      "depth": 2,
-      "name": "Jameson Williams",
-      "note": "12.7 proj \u00b7 $5,400 \u00b7 5% opto \u00b7 8% own"
-     },
-     {
-      "depth": 3,
-      "name": "Isaac TeSlaa"
-     },
-     {
-      "depth": 4,
-      "name": "Tay Martin"
-     },
-     {
-      "depth": 5,
-      "name": "Tom Kennedy"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Sam LaPorta",
-      "note": "12.4 proj \u00b7 $4,300 \u00b7 7% opto \u00b7 9% own"
-     },
-     {
-      "depth": 2,
-      "name": "Brock Wright"
-     },
-     {
-      "depth": 3,
-      "name": "Tyler Conklin"
-     },
-     {
-      "depth": 4,
-      "name": "Jackson Meeks"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Detroit Lions"
-     }
-    ]
-   }
-  },
-  "NYJ": {
-   "opponent": "DET",
-   "spread": 6.5,
-   "total": 48.5,
-   "favourite": "DET",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Geno Smith",
-      "note": "15.7 proj \u00b7 $4,900 \u00b7 7% opto \u00b7 5% own \u00b7 experts: Headchopper, Krayton, Bobby Gomes"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Breece Hall",
-      "note": "16.5 proj \u00b7 $6,400 \u00b7 13% opto \u00b7 10% own"
-     },
-     {
-      "depth": 2,
-      "name": "Braelon Allen"
-     },
-     {
-      "depth": 3,
-      "name": "Isaiah Davis"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Garrett Wilson",
-      "note": "14.4 proj \u00b7 $6,300 \u00b7 11% opto \u00b7 18% own \u00b7 experts: Notorious, Headchopper, Davis Mattek"
-     },
-     {
-      "depth": 2,
-      "name": "Adonai Mitchell"
-     },
-     {
-      "depth": 3,
-      "name": "Isaiah Williams"
-     },
-     {
-      "depth": 4,
-      "name": "Jamaal Pritchett"
-     },
-     {
-      "depth": 5,
-      "name": "Sterling Shepard"
-     },
-     {
-      "depth": 6,
-      "name": "Malik McClain"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Kenyon Sadiq",
-      "note": "6.8 proj \u00b7 $3,500 \u00b7 2% opto \u00b7 3% own \u00b7 experts: Bobby Gomes"
-     },
-     {
-      "depth": 2,
-      "name": "Jeremy Ruckert"
-     },
-     {
-      "depth": 3,
-      "name": "Jelani Woods"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "New York Jets"
-     }
-    ]
-   }
-  },
-  "NYG": {
-   "opponent": "TEN",
-   "spread": 2.5,
-   "total": 37.5,
-   "favourite": "NYG",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Jameis Winston",
-      "note": "14.0 proj \u00b7 $4,000 \u00b7 1% opto \u00b7 1% own"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Cam Skattebo",
-      "note": "15.9 proj \u00b7 $6,200 \u00b7 11% opto \u00b7 4% own"
-     },
-     {
-      "depth": 2,
-      "name": "Devin Singletary"
-     },
-     {
-      "depth": 3,
-      "name": "Patrick Ricard"
-     },
-     {
-      "depth": 4,
-      "name": "Tyrone Tracy"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Malik Nabers",
-      "note": "11.8 proj \u00b7 $6,500 \u00b7 1% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Malachi Fields"
-     },
-     {
-      "depth": 3,
-      "name": "Darnell Mooney"
-     },
-     {
-      "depth": 4,
-      "name": "Odell Beckham"
-     },
-     {
-      "depth": 5,
-      "name": "Braxton Berrios"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Isaiah Likely",
-      "note": "10.9 proj \u00b7 $4,700 \u00b7 4% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Theo Johnson"
-     },
-     {
-      "depth": 3,
-      "name": "Chris Manhertz"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "New York Giants"
-     }
-    ]
-   }
-  },
-  "TEN": {
-   "opponent": "NYG",
-   "spread": 2.5,
-   "total": 37.5,
-   "favourite": "NYG",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Cam Ward"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Tony Pollard",
-      "note": "11.1 proj \u00b7 $5,400 \u00b7 1% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Tyjae Spears"
-     },
-     {
-      "depth": 3,
-      "name": "Nicholas Singleton"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Carnell Tate",
-      "note": "9.9 proj \u00b7 $5,000 \u00b7 2% opto \u00b7 2% own"
-     },
-     {
-      "depth": 2,
-      "name": "Wan'Dale Robinson"
-     },
-     {
-      "depth": 3,
-      "name": "Elic Ayomanor"
-     },
-     {
-      "depth": 4,
-      "name": "Calvin Ridley"
-     },
-     {
-      "depth": 5,
-      "name": "Chimere Dike"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Gunnar Helm",
-      "note": "6.6 proj \u00b7 $2,900 \u00b7 2% opto \u00b7 1% own"
-     },
-     {
-      "depth": 2,
-      "name": "Daniel Bellinger"
-     },
-     {
-      "depth": 3,
-      "name": "David Martin-Robinson"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Tennessee Titans",
-      "note": "6.4 proj \u00b7 $2,400 \u00b7 6% opto \u00b7 17% own"
-     }
-    ]
-   }
-  },
-  "JAC": {
-   "opponent": "NEP",
-   "spread": 3.0,
-   "total": 45.5,
-   "favourite": "JAC",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Trevor Lawrence",
-      "note": "19.1 proj \u00b7 $5,700 \u00b7 9% opto \u00b7 5% own"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Bhayshul Tuten"
-     },
-     {
-      "depth": 2,
-      "name": "Chris Rodriguez"
-     },
-     {
-      "depth": 3,
-      "name": "LeQuint Allen"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Parker Washington",
-      "note": "15.4 proj \u00b7 $6,000 \u00b7 17% opto \u00b7 13% own \u00b7 experts: Notorious, Bobby Gomes, EBeimfohr, ncorfield8k, Davis Mattek"
-     },
-     {
-      "depth": 2,
-      "name": "Jakobi Meyers"
-     },
-     {
-      "depth": 3,
-      "name": "Brian Thomas",
-      "note": "9.6 proj \u00b7 $4,600 \u00b7 5% opto \u00b7 4% own"
-     },
-     {
-      "depth": 4,
-      "name": "Josh Cameron"
-     },
-     {
-      "depth": 5,
-      "name": "Travis Hunter"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Brenton Strange",
-      "note": "8.4 proj \u00b7 $3,400 \u00b7 4% opto \u00b7 4% own"
-     },
-     {
-      "depth": 2,
-      "name": "Nate Boerkircher"
-     },
-     {
-      "depth": 3,
-      "name": "Quintin Morris"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Jacksonville Jaguars"
-     }
-    ]
-   }
-  },
-  "NEP": {
-   "opponent": "JAC",
-   "spread": 3.0,
-   "total": 45.5,
-   "favourite": "JAC",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Drake Maye"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Rhamondre Stevenson"
-     },
-     {
-      "depth": 2,
-      "name": "TreVeyon Henderson",
-      "note": "10.5 proj \u00b7 $5,200 \u00b7 1% opto \u00b7 2% own"
-     },
-     {
-      "depth": 3,
-      "name": "Corey Kiner"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Romeo Doubs"
-     },
-     {
-      "depth": 2,
-      "name": "Mack Hollins",
-      "note": "8.6 proj \u00b7 $4,200 \u00b7 3% opto \u00b7 2% own"
-     },
-     {
-      "depth": 3,
-      "name": "DeMario Douglas",
-      "note": "7.9 proj \u00b7 $3,700 \u00b7 3% opto \u00b7 2% own"
-     },
-     {
-      "depth": 4,
-      "name": "Kyle Williams"
-     },
-     {
-      "depth": 5,
-      "name": "Efton Chism III"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Hunter Henry",
-      "note": "10.3 proj \u00b7 $3,900 \u00b7 7% opto \u00b7 8% own"
-     },
-     {
-      "depth": 2,
-      "name": "Eli Raridon"
-     },
-     {
-      "depth": 3,
-      "name": "Cameron Latu"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "New England Patriots"
-     }
-    ]
-   }
-  },
-  "KCC": {
-   "opponent": "MIA",
-   "spread": 9.5,
-   "total": 45.5,
-   "favourite": "KCC",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Patrick Mahomes"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Kenneth Walker III",
-      "note": "21.1 proj \u00b7 $7,400 \u00b7 24% opto \u00b7 27% own \u00b7 experts: Headchopper, Krayton, Davis Mattek, Jordan Vanek"
-     },
-     {
-      "depth": 2,
-      "name": "Emmett Johnson"
-     },
-     {
-      "depth": 3,
-      "name": "Brashard Smith"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Rashee Rice"
-     },
-     {
-      "depth": 2,
-      "name": "Xavier Worthy",
-      "note": "11.1 proj \u00b7 $4,400 \u00b7 6% opto \u00b7 8% own"
-     },
-     {
-      "depth": 3,
-      "name": "Tyquan Thornton"
-     },
-     {
-      "depth": 4,
-      "name": "Jalen Royals"
-     },
-     {
-      "depth": 5,
-      "name": "Cyrus Allen"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Travis Kelce",
-      "note": "12.3 proj \u00b7 $4,500 \u00b7 7% opto \u00b7 11% own"
-     },
-     {
-      "depth": 2,
-      "name": "Noah Gray"
-     },
-     {
-      "depth": 3,
-      "name": "Jake Briningstool"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Kansas City Chiefs",
-      "note": "7.9 proj \u00b7 $3,700 \u00b7 6% opto \u00b7 4% own"
-     }
-    ]
-   }
-  },
-  "MIA": {
-   "opponent": "KCC",
-   "spread": 9.5,
-   "total": 45.5,
-   "favourite": "KCC",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Malik Willis"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "De'Von Achane",
-      "note": "16.9 proj \u00b7 $6,500 \u00b7 12% opto \u00b7 14% own"
-     },
-     {
-      "depth": 2,
-      "name": "Ollie Gordon"
-     },
-     {
-      "depth": 3,
-      "name": "DJ Herman"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Malik Washington",
-      "note": "10.7 proj \u00b7 $4,200 \u00b7 11% opto \u00b7 7% own"
-     },
-     {
-      "depth": 2,
-      "name": "Chris Bell",
-      "note": "6.0 proj \u00b7 $3,400 \u00b7 2% opto \u00b7 1% own"
-     },
-     {
-      "depth": 3,
-      "name": "Kevin Coleman"
-     },
-     {
-      "depth": 4,
-      "name": "Jalen Tolbert"
-     },
-     {
-      "depth": 5,
-      "name": "Ryan Miller"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Greg Dulcich",
-      "note": "7.0 proj \u00b7 $3,000 \u00b7 3% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Will Kacmarek"
-     },
-     {
-      "depth": 3,
-      "name": "Seydou Traore"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Miami Dolphins"
-     }
-    ]
-   }
-  },
-  "HOU": {
-   "opponent": "IND",
-   "spread": 1.5,
-   "total": 42.5,
-   "favourite": "HOU",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "C.J. Stroud"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "David Montgomery",
-      "note": "13.7 proj \u00b7 $6,000 \u00b7 3% opto \u00b7 2% own \u00b7 experts: ncorfield8k"
-     },
-     {
-      "depth": 2,
-      "name": "Woody Marks"
-     },
-     {
-      "depth": 3,
-      "name": "British Brooks"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Xavier Hutchinson",
-      "note": "9.3 proj \u00b7 $4,000 \u00b7 4% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Kayshon Boutte"
-     },
-     {
-      "depth": 3,
-      "name": "Jaylin Noel"
-     },
-     {
-      "depth": 4,
-      "name": "Jared Wayne"
-     },
-     {
-      "depth": 5,
-      "name": "Lewis Bond"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Dalton Schultz",
-      "note": "13.0 proj \u00b7 $4,200 \u00b7 15% opto \u00b7 15% own \u00b7 experts: Krayton, Bobby Gomes"
-     },
-     {
-      "depth": 2,
-      "name": "Foster Moreau"
-     },
-     {
-      "depth": 3,
-      "name": "Cade Stover"
-     },
-     {
-      "depth": 4,
-      "name": "Marlin Klein"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Houston Texans",
-      "note": "7.3 proj \u00b7 $3,200 \u00b7 4% opto \u00b7 2% own"
-     }
-    ]
-   }
-  },
-  "IND": {
-   "opponent": "HOU",
-   "spread": 1.5,
-   "total": 42.5,
-   "favourite": "HOU",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Daniel Jones"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Jonathan Taylor",
-      "note": "18.7 proj \u00b7 $7,600 \u00b7 17% opto \u00b7 10% own"
-     },
-     {
-      "depth": 2,
-      "name": "Seth McGowan"
-     },
-     {
-      "depth": 3,
-      "name": "DJ Giddens"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Josh Downs",
-      "note": "11.0 proj \u00b7 $5,700 \u00b7 3% opto \u00b7 6% own \u00b7 experts: Headchopper, Davis Mattek"
-     },
-     {
-      "depth": 2,
-      "name": "Keenan Allen",
-      "note": "8.5 proj \u00b7 $4,600 \u00b7 2% opto \u00b7 3% own"
-     },
-     {
-      "depth": 3,
-      "name": "Darius Slayton"
-     },
-     {
-      "depth": 4,
-      "name": "Laquon Treadwell"
-     },
-     {
-      "depth": 5,
-      "name": "Nick Westbrook-Ikhine"
-     },
-     {
-      "depth": 6,
-      "name": "Deion Burks"
-     },
-     {
-      "depth": 7,
-      "name": "Anthony Gould"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Tyler Warren",
-      "note": "11.4 proj \u00b7 $5,300 \u00b7 3% opto \u00b7 4% own"
-     },
-     {
-      "depth": 2,
-      "name": "Drew Ogletree"
-     },
-     {
-      "depth": 3,
-      "name": "Mo Alie-Cox"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Indianapolis Colts"
-     }
-    ]
-   }
-  },
-  "CAR": {
-   "opponent": "CLE",
-   "spread": 1.5,
-   "total": 41.5,
-   "favourite": "CAR",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Bryce Young"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Chuba Hubbard",
-      "note": "15.4 proj \u00b7 $6,100 \u00b7 9% opto \u00b7 10% own \u00b7 experts: Bobby Gomes, EBeimfohr, Davis Mattek"
-     },
-     {
-      "depth": 2,
-      "name": "AJ Dillon"
-     },
-     {
-      "depth": 3,
-      "name": "Anthony Tyus"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Tetairoa McMillan",
-      "note": "13.8 proj \u00b7 $6,000 \u00b7 9% opto \u00b7 5% own \u00b7 experts: EBeimfohr"
-     },
-     {
-      "depth": 2,
-      "name": "Jalen Coker",
-      "note": "13.2 proj \u00b7 $5,500 \u00b7 9% opto \u00b7 6% own"
-     },
-     {
-      "depth": 3,
-      "name": "Xavier Legette"
-     },
-     {
-      "depth": 4,
-      "name": "John Metchie"
-     },
-     {
-      "depth": 5,
-      "name": "Brycen Tremayne"
-     },
-     {
-      "depth": 6,
-      "name": "David Moore"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Darren Waller"
-     },
-     {
-      "depth": 2,
-      "name": "Tommy Tremble"
-     },
-     {
-      "depth": 3,
-      "name": "Mitchell Evans"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Carolina Panthers",
-      "note": "7.4 proj \u00b7 $3,000 \u00b7 6% opto \u00b7 5% own"
-     }
-    ]
-   }
-  },
-  "CLE": {
-   "opponent": "CAR",
-   "spread": 1.5,
-   "total": 41.5,
-   "favourite": "CAR",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Deshaun Watson"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Quinshon Judkins"
-     },
-     {
-      "depth": 2,
-      "name": "Raheim Sanders"
-     },
-     {
-      "depth": 3,
-      "name": "Jaleel McLaughlin"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Denzel Boston",
-      "note": "10.9 proj \u00b7 $4,500 \u00b7 11% opto \u00b7 5% own"
-     },
-     {
-      "depth": 2,
-      "name": "KC Concepcion",
-      "note": "9.5 proj \u00b7 $4,300 \u00b7 6% opto \u00b7 6% own"
-     },
-     {
-      "depth": 3,
-      "name": "Jerry Jeudy"
-     },
-     {
-      "depth": 4,
-      "name": "Tylan Wallace"
-     },
-     {
-      "depth": 5,
-      "name": "Isaiah Bond"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Harold Fannin",
-      "note": "9.3 proj \u00b7 $4,000 \u00b7 5% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Blake Whiteheart"
-     },
-     {
-      "depth": 3,
-      "name": "Carsen Ryan"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Cleveland Browns",
-      "note": "6.3 proj \u00b7 $2,500 \u00b7 6% opto \u00b7 5% own"
-     }
-    ]
-   }
-  },
   "BUF": {
-   "opponent": "LAC",
+   "opponent": "NEP",
    "spread": 7.0,
-   "total": 50.5,
+   "total": 49.5,
    "favourite": "BUF",
    "positions": {
     "QB": [
      {
       "depth": 1,
       "name": "Josh Allen",
-      "note": "25.1 proj \u00b7 $8,000 \u00b7 6% opto \u00b7 7% own"
+      "note": "25.5 proj \u00b7 $7,700 \u00b7 10% opto \u00b7 12% own \u00b7 experts: Notorious"
      }
     ],
     "RB": [
      {
       "depth": 1,
       "name": "James Cook",
-      "note": "16.4 proj \u00b7 $6,900 \u00b7 11% opto \u00b7 8% own"
+      "note": "15.9 proj \u00b7 $7,400 \u00b7 7% opto \u00b7 8% own \u00b7 experts: EBeimfohr"
      },
      {
       "depth": 2,
@@ -3555,12 +2423,12 @@
     "WR": [
      {
       "depth": 1,
-      "name": "D.J. Moore"
+      "name": "D.J. Moore",
+      "note": "11.9 proj \u00b7 $5,700 \u00b7 7% opto \u00b7 9% own"
      },
      {
       "depth": 2,
-      "name": "Khalil Shakir",
-      "note": "10.1 proj \u00b7 $4,800 \u00b7 5% opto \u00b7 3% own"
+      "name": "Khalil Shakir"
      },
      {
       "depth": 3,
@@ -3579,7 +2447,7 @@
      {
       "depth": 1,
       "name": "Dalton Kincaid",
-      "note": "12.0 proj \u00b7 $5,500 \u00b7 4% opto \u00b7 5% own \u00b7 experts: EBeimfohr, ncorfield8k, Davis Mattek"
+      "note": "11.6 proj \u00b7 $5,300 \u00b7 4% opto \u00b7 7% own"
      },
      {
       "depth": 2,
@@ -3588,6 +2456,10 @@
      {
       "depth": 3,
       "name": "Jackson Hawes"
+     },
+     {
+      "depth": 4,
+      "name": "Keleki Latu"
      }
     ],
     "DST": [
@@ -3598,11 +2470,1609 @@
     ]
    }
   },
-  "LAC": {
+  "NEP": {
    "opponent": "BUF",
    "spread": 7.0,
-   "total": 50.5,
+   "total": 49.5,
    "favourite": "BUF",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Drake Maye"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Rhamondre Stevenson",
+      "note": "10.7 proj \u00b7 $5,100 \u00b7 2% opto \u00b7 3% own"
+     },
+     {
+      "depth": 2,
+      "name": "TreVeyon Henderson"
+     },
+     {
+      "depth": 3,
+      "name": "Corey Kiner"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Mack Hollins",
+      "note": "10.5 proj \u00b7 $4,000 \u00b7 10% opto \u00b7 8% own"
+     },
+     {
+      "depth": 2,
+      "name": "Romeo Doubs",
+      "note": "9.0 proj \u00b7 $4,700 \u00b7 2% opto \u00b7 2% own"
+     },
+     {
+      "depth": 3,
+      "name": "DeMario Douglas"
+     },
+     {
+      "depth": 4,
+      "name": "Kyle Williams"
+     },
+     {
+      "depth": 5,
+      "name": "Efton Chism III"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Hunter Henry",
+      "note": "9.1 proj \u00b7 $3,500 \u00b7 6% opto \u00b7 5% own"
+     },
+     {
+      "depth": 2,
+      "name": "Eli Raridon"
+     },
+     {
+      "depth": 3,
+      "name": "Cameron Latu"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "New England Patriots"
+     }
+    ]
+   }
+  },
+  "CHI": {
+   "opponent": "NYJ",
+   "spread": 3.5,
+   "total": 43.5,
+   "favourite": "CHI",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Tyson Bagent"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "D'Andre Swift",
+      "note": "16.1 proj \u00b7 $6,400 \u00b7 14% opto \u00b7 3% own"
+     },
+     {
+      "depth": 2,
+      "name": "Kyle Monangai"
+     },
+     {
+      "depth": 3,
+      "name": "Roschon Johnson"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Luther Burden",
+      "note": "12.3 proj \u00b7 $5,200 \u00b7 8% opto \u00b7 8% own \u00b7 experts: Davis Mattek"
+     },
+     {
+      "depth": 2,
+      "name": "Kalif Raymond",
+      "note": "9.6 proj \u00b7 $3,600 \u00b7 8% opto \u00b7 4% own"
+     },
+     {
+      "depth": 3,
+      "name": "Rome Odunze"
+     },
+     {
+      "depth": 4,
+      "name": "Jahdae Walker"
+     },
+     {
+      "depth": 5,
+      "name": "Zavion Thomas"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Colston Loveland"
+     },
+     {
+      "depth": 2,
+      "name": "Cole Kmet"
+     },
+     {
+      "depth": 3,
+      "name": "Sam Roush"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Chicago Bears",
+      "note": "7.6 proj \u00b7 $3,000 \u00b7 7% opto \u00b7 8% own"
+     }
+    ]
+   }
+  },
+  "NYJ": {
+   "opponent": "CHI",
+   "spread": 3.5,
+   "total": 43.5,
+   "favourite": "CHI",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Geno Smith"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Braelon Allen",
+      "note": "12.7 proj \u00b7 $5,200 \u00b7 9% opto \u00b7 10% own \u00b7 experts: EBeimfohr, Jordan Vanek"
+     },
+     {
+      "depth": 2,
+      "name": "Isaiah Davis"
+     },
+     {
+      "depth": 3,
+      "name": "Kene Nwangwu"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Garrett Wilson",
+      "note": "17.0 proj \u00b7 $6,800 \u00b7 17% opto \u00b7 19% own \u00b7 experts: Notorious, Headchopper, Davis Mattek"
+     },
+     {
+      "depth": 2,
+      "name": "Isaiah Williams",
+      "note": "6.7 proj \u00b7 $3,500 \u00b7 2% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Sterling Shepard"
+     },
+     {
+      "depth": 4,
+      "name": "Malik McClain"
+     },
+     {
+      "depth": 5,
+      "name": "Jamaal Pritchett"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Kenyon Sadiq",
+      "note": "10.5 proj \u00b7 $4,000 \u00b7 8% opto \u00b7 4% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jeremy Ruckert"
+     },
+     {
+      "depth": 3,
+      "name": "Jelani Woods"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "New York Jets"
+     }
+    ]
+   }
+  },
+  "ARI": {
+   "opponent": "NYG",
+   "spread": 2.5,
+   "total": 44.5,
+   "favourite": "ARI",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jacoby Brissett",
+      "note": "16.8 proj \u00b7 $5,000 \u00b7 3% opto \u00b7 8% own \u00b7 experts: Notorious"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Jeremiyah Love",
+      "note": "15.1 proj \u00b7 $5,800 \u00b7 11% opto \u00b7 21% own \u00b7 experts: ncorfield8k, Davis Mattek"
+     },
+     {
+      "depth": 2,
+      "name": "Tyler Allgeier"
+     },
+     {
+      "depth": 3,
+      "name": "Zonovan Knight"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Michael Wilson",
+      "note": "13.0 proj \u00b7 $5,500 \u00b7 7% opto \u00b7 11% own"
+     },
+     {
+      "depth": 2,
+      "name": "Marvin Harrison"
+     },
+     {
+      "depth": 3,
+      "name": "Kendrick Bourne"
+     },
+     {
+      "depth": 4,
+      "name": "Simi Fehoko"
+     },
+     {
+      "depth": 5,
+      "name": "Jalen Brooks"
+     },
+     {
+      "depth": 6,
+      "name": "Devin Duvernay"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Trey McBride",
+      "note": "16.4 proj \u00b7 $6,500 \u00b7 7% opto \u00b7 11% own \u00b7 experts: Notorious"
+     },
+     {
+      "depth": 2,
+      "name": "Elijah Higgins"
+     },
+     {
+      "depth": 3,
+      "name": "Hunter Long"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Arizona Cardinals"
+     }
+    ]
+   }
+  },
+  "NYG": {
+   "opponent": "ARI",
+   "spread": 2.5,
+   "total": 44.5,
+   "favourite": "ARI",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jameis Winston"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Cam Skattebo",
+      "note": "15.2 proj \u00b7 $6,100 \u00b7 14% opto \u00b7 18% own \u00b7 experts: Notorious"
+     },
+     {
+      "depth": 2,
+      "name": "Najee Harris"
+     },
+     {
+      "depth": 3,
+      "name": "Tyrone Tracy"
+     },
+     {
+      "depth": 4,
+      "name": "Patrick Ricard"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Malik Nabers",
+      "note": "11.7 proj \u00b7 $6,000 \u00b7 2% opto \u00b7 6% own \u00b7 experts: ncorfield8k"
+     },
+     {
+      "depth": 2,
+      "name": "Malachi Fields",
+      "note": "5.4 proj \u00b7 $4,000 \u00b7 0% opto \u00b7 0% own"
+     },
+     {
+      "depth": 3,
+      "name": "Darnell Mooney"
+     },
+     {
+      "depth": 4,
+      "name": "Braxton Berrios"
+     },
+     {
+      "depth": 5,
+      "name": "Charlie Jones"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Isaiah Likely",
+      "note": "11.0 proj \u00b7 $4,500 \u00b7 5% opto \u00b7 3% own"
+     },
+     {
+      "depth": 2,
+      "name": "Theo Johnson"
+     },
+     {
+      "depth": 3,
+      "name": "Chris Manhertz"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "New York Giants"
+     }
+    ]
+   }
+  },
+  "DAL": {
+   "opponent": "HOU",
+   "spread": 3.0,
+   "total": 48.5,
+   "favourite": "HOU",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Dak Prescott"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Javonte Williams",
+      "note": "14.2 proj \u00b7 $6,600 \u00b7 3% opto \u00b7 9% own"
+     },
+     {
+      "depth": 2,
+      "name": "Tyler Goodson"
+     },
+     {
+      "depth": 3,
+      "name": "Hunter Luepke"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "CeeDee Lamb",
+      "note": "17.8 proj \u00b7 $7,800 \u00b7 8% opto \u00b7 9% own"
+     },
+     {
+      "depth": 2,
+      "name": "George Pickens",
+      "note": "15.2 proj \u00b7 $6,300 \u00b7 12% opto \u00b7 13% own"
+     },
+     {
+      "depth": 3,
+      "name": "Ryan Flournoy",
+      "note": "8.5 proj \u00b7 $3,800 \u00b7 4% opto \u00b7 6% own"
+     },
+     {
+      "depth": 4,
+      "name": "KaVontae Turpin"
+     },
+     {
+      "depth": 5,
+      "name": "Jonathan Mingo"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Jake Ferguson"
+     },
+     {
+      "depth": 2,
+      "name": "Brevyn Spann-Ford"
+     },
+     {
+      "depth": 3,
+      "name": "Luke Schoonmaker"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Dallas Cowboys"
+     }
+    ]
+   }
+  },
+  "HOU": {
+   "opponent": "DAL",
+   "spread": 3.0,
+   "total": 48.5,
+   "favourite": "HOU",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "C.J. Stroud"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "David Montgomery",
+      "note": "13.5 proj \u00b7 $5,700 \u00b7 8% opto \u00b7 3% own"
+     },
+     {
+      "depth": 2,
+      "name": "Woody Marks"
+     },
+     {
+      "depth": 3,
+      "name": "Dare Ogunbowale"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Nico Collins",
+      "note": "15.6 proj \u00b7 $7,200 \u00b7 6% opto \u00b7 11% own \u00b7 experts: ncorfield8k"
+     },
+     {
+      "depth": 2,
+      "name": "Xavier Hutchinson"
+     },
+     {
+      "depth": 3,
+      "name": "Kayshon Boutte"
+     },
+     {
+      "depth": 4,
+      "name": "Jaylin Noel"
+     },
+     {
+      "depth": 5,
+      "name": "Jared Wayne"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Dalton Schultz",
+      "note": "10.3 proj \u00b7 $4,800 \u00b7 2% opto \u00b7 7% own"
+     },
+     {
+      "depth": 2,
+      "name": "Foster Moreau"
+     },
+     {
+      "depth": 3,
+      "name": "Cade Stover"
+     },
+     {
+      "depth": 4,
+      "name": "Marlin Klein"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Houston Texans",
+      "note": "6.9 proj \u00b7 $2,900 \u00b7 6% opto \u00b7 2% own"
+     }
+    ]
+   }
+  },
+  "CIN": {
+   "opponent": "JAC",
+   "spread": 2.5,
+   "total": 51.5,
+   "favourite": "CIN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Joe Burrow"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Chase Brown",
+      "note": "16.7 proj \u00b7 $6,100 \u00b7 24% opto \u00b7 26% own"
+     },
+     {
+      "depth": 2,
+      "name": "Samaje Perine"
+     },
+     {
+      "depth": 3,
+      "name": "Tahj Brooks"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Ja'Marr Chase",
+      "note": "19.5 proj \u00b7 $8,100 \u00b7 10% opto \u00b7 15% own \u00b7 experts: Jordan Vanek"
+     },
+     {
+      "depth": 2,
+      "name": "Tee Higgins",
+      "note": "13.8 proj \u00b7 $6,100 \u00b7 6% opto \u00b7 14% own"
+     },
+     {
+      "depth": 3,
+      "name": "Dohnte Meyers"
+     },
+     {
+      "depth": 4,
+      "name": "Mitchell Tinsley"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Mike Gesicki",
+      "note": "7.4 proj \u00b7 $3,300 \u00b7 2% opto \u00b7 2% own"
+     },
+     {
+      "depth": 2,
+      "name": "Drew Sample"
+     },
+     {
+      "depth": 3,
+      "name": "Tanner Hudson"
+     },
+     {
+      "depth": 4,
+      "name": "Erick All"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Cincinnati Bengals"
+     }
+    ]
+   }
+  },
+  "JAC": {
+   "opponent": "CIN",
+   "spread": 2.5,
+   "total": 51.5,
+   "favourite": "CIN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Trevor Lawrence",
+      "note": "20.5 proj \u00b7 $5,900 \u00b7 11% opto \u00b7 15% own \u00b7 experts: Headchopper, Bobby Gomes"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Bhayshul Tuten"
+     },
+     {
+      "depth": 2,
+      "name": "Chris Rodriguez"
+     },
+     {
+      "depth": 3,
+      "name": "Ameer Abdullah"
+     },
+     {
+      "depth": 4,
+      "name": "LeQuint Allen"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Parker Washington",
+      "note": "16.8 proj \u00b7 $6,500 \u00b7 18% opto \u00b7 23% own \u00b7 experts: Notorious, Bobby Gomes, Davis Mattek"
+     },
+     {
+      "depth": 2,
+      "name": "Jakobi Meyers",
+      "note": "10.9 proj \u00b7 $5,000 \u00b7 6% opto \u00b7 6% own"
+     },
+     {
+      "depth": 3,
+      "name": "Brian Thomas"
+     },
+     {
+      "depth": 4,
+      "name": "Josh Cameron"
+     },
+     {
+      "depth": 5,
+      "name": "Travis Hunter"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Brenton Strange",
+      "note": "9.3 proj \u00b7 $3,200 \u00b7 8% opto \u00b7 10% own"
+     },
+     {
+      "depth": 2,
+      "name": "Nate Boerkircher"
+     },
+     {
+      "depth": 3,
+      "name": "Quintin Morris"
+     },
+     {
+      "depth": 4,
+      "name": "Tanner Koziol"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Jacksonville Jaguars"
+     }
+    ]
+   }
+  },
+  "GBP": {
+   "opponent": "TBB",
+   "spread": 3.0,
+   "total": 38.5,
+   "favourite": "GBP",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jordan Love"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "MarShawn Lloyd"
+     },
+     {
+      "depth": 2,
+      "name": "Kaleb Johnson"
+     },
+     {
+      "depth": 3,
+      "name": "Chris Brooks"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Christian Watson",
+      "note": "15.6 proj \u00b7 $6,700 \u00b7 11% opto \u00b7 9% own \u00b7 experts: Headchopper, Krayton, EBeimfohr"
+     },
+     {
+      "depth": 2,
+      "name": "Matthew Golden",
+      "note": "12.5 proj \u00b7 $5,400 \u00b7 9% opto \u00b7 13% own"
+     },
+     {
+      "depth": 3,
+      "name": "Skyy Moore"
+     },
+     {
+      "depth": 4,
+      "name": "J. Michael Sturdivant"
+     },
+     {
+      "depth": 5,
+      "name": "Bo Melton"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Tucker Kraft",
+      "note": "10.2 proj \u00b7 $4,400 \u00b7 5% opto \u00b7 3% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jonnu Smith"
+     },
+     {
+      "depth": 3,
+      "name": "Josh Whyle"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Green Bay Packers",
+      "note": "7.5 proj \u00b7 $3,200 \u00b7 8% opto \u00b7 11% own"
+     }
+    ]
+   }
+  },
+  "TBB": {
+   "opponent": "GBP",
+   "spread": 3.0,
+   "total": 38.5,
+   "favourite": "GBP",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jalon Daniels"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Bucky Irving",
+      "note": "11.9 proj \u00b7 $6,000 \u00b7 2% opto \u00b7 5% own"
+     },
+     {
+      "depth": 2,
+      "name": "Kenneth Gainwell"
+     },
+     {
+      "depth": 3,
+      "name": "Sean Tucker"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Emeka Egbuka",
+      "note": "10.2 proj \u00b7 $5,900 \u00b7 1% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Chris Godwin"
+     },
+     {
+      "depth": 3,
+      "name": "Ted Hurst",
+      "note": "5.7 proj \u00b7 $3,100 \u00b7 1% opto \u00b7 1% own"
+     },
+     {
+      "depth": 4,
+      "name": "Tez Johnson"
+     },
+     {
+      "depth": 5,
+      "name": "Kameron Johnson"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Cade Otton",
+      "note": "6.8 proj \u00b7 $3,400 \u00b7 1% opto \u00b7 1% own"
+     },
+     {
+      "depth": 2,
+      "name": "Payne Durham"
+     },
+     {
+      "depth": 3,
+      "name": "Bauer Sharp"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Tampa Bay Buccaneers"
+     }
+    ]
+   }
+  },
+  "LAR": {
+   "opponent": "PHI",
+   "spread": 3.5,
+   "total": 42.5,
+   "favourite": "LAR",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Matthew Stafford"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Kyren Williams",
+      "note": "14.8 proj \u00b7 $5,900 \u00b7 12% opto \u00b7 7% own"
+     },
+     {
+      "depth": 2,
+      "name": "Blake Corum"
+     },
+     {
+      "depth": 3,
+      "name": "Dean Connors"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Puka Nacua",
+      "note": "18.3 proj \u00b7 $7,500 \u00b7 13% opto \u00b7 15% own"
+     },
+     {
+      "depth": 2,
+      "name": "Davante Adams",
+      "note": "14.7 proj \u00b7 $7,000 \u00b7 3% opto \u00b7 4% own"
+     },
+     {
+      "depth": 3,
+      "name": "Konata Mumpfield"
+     },
+     {
+      "depth": 4,
+      "name": "Jordan Whittington"
+     },
+     {
+      "depth": 5,
+      "name": "Alex Bachman"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Tyler Higbee"
+     },
+     {
+      "depth": 2,
+      "name": "Colby Parkinson"
+     },
+     {
+      "depth": 3,
+      "name": "Davis Allen"
+     },
+     {
+      "depth": 4,
+      "name": "Max Klare"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Los Angeles Rams",
+      "note": "6.4 proj \u00b7 $2,600 \u00b7 6% opto \u00b7 14% own \u00b7 experts: Davis Mattek"
+     }
+    ]
+   }
+  },
+  "PHI": {
+   "opponent": "LAR",
+   "spread": 3.5,
+   "total": 42.5,
+   "favourite": "LAR",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Jalen Hurts"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Saquon Barkley",
+      "note": "14.8 proj \u00b7 $6,800 \u00b7 6% opto \u00b7 4% own"
+     },
+     {
+      "depth": 2,
+      "name": "Tank Bigsby"
+     },
+     {
+      "depth": 3,
+      "name": "Will Shipley"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Dontayvion Wicks",
+      "note": "12.1 proj \u00b7 $4,300 \u00b7 17% opto \u00b7 15% own"
+     },
+     {
+      "depth": 2,
+      "name": "Makai Lemon",
+      "note": "9.2 proj \u00b7 $4,100 \u00b7 5% opto \u00b7 5% own"
+     },
+     {
+      "depth": 3,
+      "name": "Darius Cooper"
+     },
+     {
+      "depth": 4,
+      "name": "Britain Covey"
+     },
+     {
+      "depth": 5,
+      "name": "Elijah Moore"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Zach Ertz",
+      "note": "5.6 proj \u00b7 $3,100 \u00b7 1% opto \u00b7 0% own"
+     },
+     {
+      "depth": 2,
+      "name": "Johnny Mundt"
+     },
+     {
+      "depth": 3,
+      "name": "E.J. Jenkins"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Philadelphia Eagles"
+     }
+    ]
+   }
+  },
+  "BAL": {
+   "opponent": "TEN",
+   "spread": 11.5,
+   "total": 42.5,
+   "favourite": "BAL",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Lamar Jackson"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Derrick Henry",
+      "note": "19.8 proj \u00b7 $8,400 \u00b7 17% opto \u00b7 13% own \u00b7 experts: Headchopper, Krayton"
+     },
+     {
+      "depth": 2,
+      "name": "Justice Hill"
+     },
+     {
+      "depth": 3,
+      "name": "Rasheen Ali"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Zay Flowers"
+     },
+     {
+      "depth": 2,
+      "name": "Rashod Bateman",
+      "note": "8.3 proj \u00b7 $4,200 \u00b7 2% opto \u00b7 1% own"
+     },
+     {
+      "depth": 3,
+      "name": "Chris Moore"
+     },
+     {
+      "depth": 4,
+      "name": "Devontez Walker"
+     },
+     {
+      "depth": 5,
+      "name": "LaJohntay Wester"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Mark Andrews",
+      "note": "10.4 proj \u00b7 $4,200 \u00b7 5% opto \u00b7 9% own"
+     },
+     {
+      "depth": 2,
+      "name": "Matthew Hibner"
+     },
+     {
+      "depth": 3,
+      "name": "Durham Smythe"
+     },
+     {
+      "depth": 4,
+      "name": "Josh Cuevas"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Baltimore Ravens",
+      "note": "6.8 proj \u00b7 $3,800 \u00b7 5% opto \u00b7 4% own"
+     }
+    ]
+   }
+  },
+  "TEN": {
+   "opponent": "BAL",
+   "spread": 11.5,
+   "total": 42.5,
+   "favourite": "BAL",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Cam Ward"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Tony Pollard",
+      "note": "10.7 proj \u00b7 $5,400 \u00b7 3% opto \u00b7 1% own"
+     },
+     {
+      "depth": 2,
+      "name": "Tyjae Spears"
+     },
+     {
+      "depth": 3,
+      "name": "Nicholas Singleton"
+     },
+     {
+      "depth": 4,
+      "name": "Julius Chestnut"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Carnell Tate",
+      "note": "10.1 proj \u00b7 $4,800 \u00b7 5% opto \u00b7 4% own"
+     },
+     {
+      "depth": 2,
+      "name": "Wan'Dale Robinson",
+      "note": "8.8 proj \u00b7 $4,600 \u00b7 2% opto \u00b7 2% own"
+     },
+     {
+      "depth": 3,
+      "name": "Elic Ayomanor"
+     },
+     {
+      "depth": 4,
+      "name": "Calvin Ridley"
+     },
+     {
+      "depth": 5,
+      "name": "Chimere Dike"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Gunnar Helm",
+      "note": "5.6 proj \u00b7 $2,800 \u00b7 1% opto \u00b7 1% own"
+     },
+     {
+      "depth": 2,
+      "name": "Daniel Bellinger"
+     },
+     {
+      "depth": 3,
+      "name": "David Martin-Robinson"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Tennessee Titans"
+     }
+    ]
+   }
+  },
+  "MIA": {
+   "opponent": "MIN",
+   "spread": 10.0,
+   "total": 38.5,
+   "favourite": "MIN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Malik Willis"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Ollie Gordon"
+     },
+     {
+      "depth": 2,
+      "name": "Jaylen Wright",
+      "note": "6.7 proj \u00b7 $5,000 \u00b7 0% opto \u00b7 0% own"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Malik Washington",
+      "note": "10.4 proj \u00b7 $4,400 \u00b7 6% opto \u00b7 6% own"
+     },
+     {
+      "depth": 2,
+      "name": "Chris Bell",
+      "note": "6.9 proj \u00b7 $3,700 \u00b7 2% opto \u00b7 1% own"
+     },
+     {
+      "depth": 3,
+      "name": "Kevin Coleman"
+     },
+     {
+      "depth": 4,
+      "name": "Ryan Miller"
+     },
+     {
+      "depth": 5,
+      "name": "Jalen Tolbert"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Greg Dulcich",
+      "note": "7.6 proj \u00b7 $3,200 \u00b7 3% opto \u00b7 2% own"
+     },
+     {
+      "depth": 2,
+      "name": "Will Kacmarek"
+     },
+     {
+      "depth": 3,
+      "name": "Seydou Traore"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Miami Dolphins"
+     }
+    ]
+   }
+  },
+  "MIN": {
+   "opponent": "MIA",
+   "spread": 10.0,
+   "total": 38.5,
+   "favourite": "MIN",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Kyler Murray"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Aaron Jones",
+      "note": "15.4 proj \u00b7 $6,000 \u00b7 12% opto \u00b7 28% own \u00b7 experts: Headchopper, Krayton, Bobby Gomes"
+     },
+     {
+      "depth": 2,
+      "name": "Demond Claiborne"
+     },
+     {
+      "depth": 3,
+      "name": "DeeJay Dallas"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Jordan Addison",
+      "note": "14.0 proj \u00b7 $5,300 \u00b7 17% opto \u00b7 19% own"
+     },
+     {
+      "depth": 2,
+      "name": "Jauan Jennings"
+     },
+     {
+      "depth": 3,
+      "name": "Tai Felton"
+     },
+     {
+      "depth": 4,
+      "name": "Myles Price"
+     },
+     {
+      "depth": 5,
+      "name": "Jeshaun Jones"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "T.J. Hockenson",
+      "note": "11.9 proj \u00b7 $3,300 \u00b7 23% opto \u00b7 20% own \u00b7 experts: Headchopper, Krayton, Bobby Gomes, ncorfield8k"
+     },
+     {
+      "depth": 2,
+      "name": "Gavin Bartholomew"
+     },
+     {
+      "depth": 3,
+      "name": "Cam Grandy"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Minnesota Vikings",
+      "note": "7.3 proj \u00b7 $4,000 \u00b7 6% opto \u00b7 11% own \u00b7 experts: Notorious"
+     }
+    ]
+   }
+  },
+  "DEN": {
+   "opponent": "SFO",
+   "spread": 3.0,
+   "total": 48.5,
+   "favourite": "SFO",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Bo Nix",
+      "note": "18.1 proj \u00b7 $5,600 \u00b7 5% opto \u00b7 2% own"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "J.K. Dobbins"
+     },
+     {
+      "depth": 2,
+      "name": "RJ Harvey"
+     },
+     {
+      "depth": 3,
+      "name": "Tyler Badie"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Jaylen Waddle",
+      "note": "12.8 proj \u00b7 $6,200 \u00b7 6% opto \u00b7 7% own"
+     },
+     {
+      "depth": 2,
+      "name": "Courtland Sutton",
+      "note": "9.3 proj \u00b7 $4,900 \u00b7 3% opto \u00b7 1% own"
+     },
+     {
+      "depth": 3,
+      "name": "Pat Bryant"
+     },
+     {
+      "depth": 4,
+      "name": "Troy Franklin"
+     },
+     {
+      "depth": 5,
+      "name": "Marvin Mims"
+     },
+     {
+      "depth": 6,
+      "name": "Kolbe Katsis"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Evan Engram"
+     },
+     {
+      "depth": 2,
+      "name": "Nate Adkins"
+     },
+     {
+      "depth": 3,
+      "name": "Adam Trautman"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Denver Broncos",
+      "note": "6.3 proj \u00b7 $2,500 \u00b7 4% opto \u00b7 2% own"
+     }
+    ]
+   }
+  },
+  "SFO": {
+   "opponent": "DEN",
+   "spread": 3.0,
+   "total": 48.5,
+   "favourite": "SFO",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Brock Purdy",
+      "note": "19.9 proj \u00b7 $6,700 \u00b7 2% opto \u00b7 6% own"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Christian McCaffrey",
+      "note": "21.5 proj \u00b7 $7,700 \u00b7 36% opto \u00b7 29% own \u00b7 experts: Notorious, Bobby Gomes"
+     },
+     {
+      "depth": 2,
+      "name": "Kaelon Black"
+     },
+     {
+      "depth": 3,
+      "name": "Kyle Juszczyk"
+     },
+     {
+      "depth": 4,
+      "name": "Jordan James"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Deebo Samuel",
+      "note": "11.1 proj \u00b7 $5,600 \u00b7 2% opto \u00b7 2% own"
+     },
+     {
+      "depth": 2,
+      "name": "Mike Evans"
+     },
+     {
+      "depth": 3,
+      "name": "Brandin Cooks"
+     },
+     {
+      "depth": 4,
+      "name": "Jordan Watkins"
+     },
+     {
+      "depth": 5,
+      "name": "Jacob Cowing"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "George Kittle",
+      "note": "13.8 proj \u00b7 $5,100 \u00b7 10% opto \u00b7 17% own \u00b7 experts: Jordan Vanek"
+     },
+     {
+      "depth": 2,
+      "name": "Luke Farrell"
+     },
+     {
+      "depth": 3,
+      "name": "Brayden Willis"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "San Francisco 49ers"
+     }
+    ]
+   }
+  },
+  "KCC": {
+   "opponent": "LVR",
+   "spread": 4.5,
+   "total": 47.5,
+   "favourite": "KCC",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Patrick Mahomes"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Kenneth Walker III",
+      "note": "20.4 proj \u00b7 $8,200 \u00b7 24% opto \u00b7 17% own \u00b7 experts: Krayton, Davis Mattek"
+     },
+     {
+      "depth": 2,
+      "name": "Emmett Johnson"
+     },
+     {
+      "depth": 3,
+      "name": "Brashard Smith"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Rashee Rice",
+      "note": "14.5 proj \u00b7 $6,400 \u00b7 9% opto \u00b7 9% own"
+     },
+     {
+      "depth": 2,
+      "name": "Xavier Worthy"
+     },
+     {
+      "depth": 3,
+      "name": "Tyquan Thornton"
+     },
+     {
+      "depth": 4,
+      "name": "Jalen Royals"
+     },
+     {
+      "depth": 5,
+      "name": "Cyrus Allen"
+     },
+     {
+      "depth": 6,
+      "name": "Nikko Remigio"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Travis Kelce",
+      "note": "12.6 proj \u00b7 $5,000 \u00b7 8% opto \u00b7 6% own \u00b7 experts: Bobby Gomes"
+     },
+     {
+      "depth": 2,
+      "name": "Noah Gray"
+     },
+     {
+      "depth": 3,
+      "name": "Jake Briningstool"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Kansas City Chiefs",
+      "note": "7.3 proj \u00b7 $3,400 \u00b7 6% opto \u00b7 1% own"
+     }
+    ]
+   }
+  },
+  "LVR": {
+   "opponent": "KCC",
+   "spread": 4.5,
+   "total": 47.5,
+   "favourite": "KCC",
+   "positions": {
+    "QB": [
+     {
+      "depth": 1,
+      "name": "Kirk Cousins"
+     }
+    ],
+    "RB": [
+     {
+      "depth": 1,
+      "name": "Ashton Jeanty",
+      "note": "16.9 proj \u00b7 $7,100 \u00b7 15% opto \u00b7 8% own"
+     },
+     {
+      "depth": 2,
+      "name": "Mike Washington"
+     },
+     {
+      "depth": 3,
+      "name": "Dylan Laube"
+     }
+    ],
+    "WR": [
+     {
+      "depth": 1,
+      "name": "Tre Tucker"
+     },
+     {
+      "depth": 2,
+      "name": "Jalen Nailor"
+     },
+     {
+      "depth": 3,
+      "name": "Cody White"
+     },
+     {
+      "depth": 4,
+      "name": "Malik Benson"
+     },
+     {
+      "depth": 5,
+      "name": "Dareke Young"
+     }
+    ],
+    "TE": [
+     {
+      "depth": 1,
+      "name": "Brock Bowers",
+      "note": "17.6 proj \u00b7 $6,900 \u00b7 15% opto \u00b7 20% own \u00b7 experts: Notorious"
+     },
+     {
+      "depth": 2,
+      "name": "Michael Mayer",
+      "note": "6.6 proj \u00b7 $3,400 \u00b7 1% opto \u00b7 2% own"
+     },
+     {
+      "depth": 3,
+      "name": "Ian Thomas"
+     },
+     {
+      "depth": 4,
+      "name": "Connor Heyward"
+     }
+    ],
+    "DST": [
+     {
+      "depth": 1,
+      "name": "Las Vegas Raiders",
+      "note": "6.3 proj \u00b7 $2,400 \u00b7 5% opto \u00b7 0% own"
+     }
+    ]
+   }
+  },
+  "LAC": {
+   "opponent": "SEA",
+   "spread": 7.0,
+   "total": 42.5,
+   "favourite": "SEA",
    "positions": {
     "QB": [
      {
@@ -3627,18 +4097,17 @@
     "WR": [
      {
       "depth": 1,
-      "name": "Ladd McConkey",
-      "note": "14.7 proj \u00b7 $5,900 \u00b7 15% opto \u00b7 7% own"
+      "name": "Ladd McConkey"
      },
      {
       "depth": 2,
       "name": "Quentin Johnston",
-      "note": "9.9 proj \u00b7 $4,900 \u00b7 4% opto \u00b7 3% own"
+      "note": "8.9 proj \u00b7 $4,800 \u00b7 2% opto \u00b7 1% own"
      },
      {
       "depth": 3,
       "name": "Tre' Harris",
-      "note": "8.4 proj \u00b7 $3,900 \u00b7 4% opto \u00b7 2% own"
+      "note": "8.6 proj \u00b7 $4,100 \u00b7 4% opto \u00b7 2% own"
      },
      {
       "depth": 4,
@@ -3653,625 +4122,96 @@
      {
       "depth": 1,
       "name": "Oronde Gadsden",
-      "note": "10.0 proj \u00b7 $3,500 \u00b7 10% opto \u00b7 4% own \u00b7 experts: ncorfield8k, Davis Mattek"
+      "note": "7.7 proj \u00b7 $3,600 \u00b7 3% opto \u00b7 1% own"
      },
      {
       "depth": 2,
-      "name": "Patrick Herbert"
-     },
-     {
-      "depth": 3,
       "name": "Hayden Rucci"
+     },
+     {
+      "depth": 3,
+      "name": "Patrick Herbert"
      }
     ],
     "DST": [
      {
       "depth": 1,
-      "name": "Los Angeles Chargers"
+      "name": "Los Angeles Chargers",
+      "note": "6.1 proj \u00b7 $2,200 \u00b7 6% opto \u00b7 3% own"
      }
     ]
    }
   },
-  "MIN": {
-   "opponent": "TBB",
-   "spread": 1.5,
+  "SEA": {
+   "opponent": "LAC",
+   "spread": 7.0,
    "total": 42.5,
-   "favourite": "MIN",
+   "favourite": "SEA",
    "positions": {
     "QB": [
      {
       "depth": 1,
-      "name": "Kyler Murray"
+      "name": "Sam Darnold",
+      "note": "17.5 proj \u00b7 $5,500 \u00b7 12% opto \u00b7 2% own"
      }
     ],
     "RB": [
      {
       "depth": 1,
-      "name": "Aaron Jones",
-      "note": "14.1 proj \u00b7 $5,900 \u00b7 7% opto \u00b7 8% own"
+      "name": "Emanuel Wilson",
+      "note": "9.8 proj \u00b7 $4,700 \u00b7 3% opto \u00b7 4% own"
      },
      {
       "depth": 2,
-      "name": "Demond Claiborne"
+      "name": "George Holani"
      },
      {
       "depth": 3,
-      "name": "DeeJay Dallas"
+      "name": "Velus Jones"
      }
     ],
     "WR": [
      {
       "depth": 1,
-      "name": "Justin Jefferson",
-      "note": "16.9 proj \u00b7 $7,500 \u00b7 9% opto \u00b7 11% own"
+      "name": "Jaxon Smith-Njigba",
+      "note": "22.7 proj \u00b7 $9,100 \u00b7 29% opto \u00b7 13% own \u00b7 experts: Krayton"
      },
      {
       "depth": 2,
-      "name": "Jordan Addison"
+      "name": "Cooper Kupp"
      },
      {
       "depth": 3,
-      "name": "Jauan Jennings"
+      "name": "Rashid Shaheed"
      },
      {
       "depth": 4,
-      "name": "Myles Price"
-     },
-     {
-      "depth": 5,
-      "name": "Tai Felton"
+      "name": "Tory Horton"
      }
     ],
     "TE": [
      {
       "depth": 1,
-      "name": "T.J. Hockenson",
-      "note": "8.5 proj \u00b7 $3,200 \u00b7 5% opto \u00b7 4% own"
+      "name": "AJ Barner",
+      "note": "8.8 proj \u00b7 $3,000 \u00b7 9% opto \u00b7 3% own"
      },
      {
       "depth": 2,
-      "name": "Josh Oliver"
+      "name": "Elijah Arroyo"
      },
      {
       "depth": 3,
-      "name": "Gavin Bartholomew"
+      "name": "Eric Saubert"
+     },
+     {
+      "depth": 4,
+      "name": "Nick Kallerup"
      }
     ],
     "DST": [
      {
       "depth": 1,
-      "name": "Minnesota Vikings",
-      "note": "7.5 proj \u00b7 $3,100 \u00b7 6% opto \u00b7 3% own \u00b7 experts: EBeimfohr"
-     }
-    ]
-   }
-  },
-  "TBB": {
-   "opponent": "MIN",
-   "spread": 1.5,
-   "total": 42.5,
-   "favourite": "MIN",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Baker Mayfield"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Bucky Irving",
-      "note": "14.3 proj \u00b7 $6,300 \u00b7 4% opto \u00b7 7% own"
-     },
-     {
-      "depth": 2,
-      "name": "Kenneth Gainwell"
-     },
-     {
-      "depth": 3,
-      "name": "Sean Tucker"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Emeka Egbuka",
-      "note": "12.3 proj \u00b7 $6,200 \u00b7 3% opto \u00b7 4% own"
-     },
-     {
-      "depth": 2,
-      "name": "Chris Godwin"
-     },
-     {
-      "depth": 3,
-      "name": "Ted Hurst",
-      "note": "6.2 proj \u00b7 $3,000 \u00b7 2% opto \u00b7 1% own"
-     },
-     {
-      "depth": 4,
-      "name": "Jalen McMillan"
-     },
-     {
-      "depth": 5,
-      "name": "Tez Johnson"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Cade Otton",
-      "note": "8.4 proj \u00b7 $3,100 \u00b7 5% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Payne Durham"
-     },
-     {
-      "depth": 3,
-      "name": "Bauer Sharp"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Tampa Bay Buccaneers"
-     }
-    ]
-   }
-  },
-  "ARI": {
-   "opponent": "SFO",
-   "spread": 7.5,
-   "total": 48.5,
-   "favourite": "SFO",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Jacoby Brissett"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Jeremiyah Love",
-      "note": "11.6 proj \u00b7 $5,500 \u00b7 1% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Tyler Allgeier"
-     },
-     {
-      "depth": 3,
-      "name": "Zonovan Knight"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Michael Wilson",
-      "note": "10.5 proj \u00b7 $5,200 \u00b7 3% opto \u00b7 4% own"
-     },
-     {
-      "depth": 2,
-      "name": "Marvin Harrison"
-     },
-     {
-      "depth": 3,
-      "name": "Kendrick Bourne",
-      "note": "6.8 proj \u00b7 $3,700 \u00b7 1% opto \u00b7 2% own"
-     },
-     {
-      "depth": 4,
-      "name": "Simi Fehoko"
-     },
-     {
-      "depth": 5,
-      "name": "Jalen Brooks"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Trey McBride",
-      "note": "16.6 proj \u00b7 $6,700 \u00b7 8% opto \u00b7 8% own"
-     },
-     {
-      "depth": 2,
-      "name": "Hunter Long"
-     },
-     {
-      "depth": 3,
-      "name": "Elijah Higgins"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Arizona Cardinals"
-     }
-    ]
-   }
-  },
-  "SFO": {
-   "opponent": "ARI",
-   "spread": 7.5,
-   "total": 48.5,
-   "favourite": "SFO",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Brock Purdy"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Christian McCaffrey",
-      "note": "20.9 proj \u00b7 $8,300 \u00b7 11% opto \u00b7 15% own"
-     },
-     {
-      "depth": 2,
-      "name": "Kaelon Black"
-     },
-     {
-      "depth": 3,
-      "name": "Kyle Juszczyk"
-     },
-     {
-      "depth": 4,
-      "name": "Jordan James"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Mike Evans",
-      "note": "12.8 proj \u00b7 $6,800 \u00b7 2% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Deebo Samuel",
-      "note": "11.5 proj \u00b7 $5,300 \u00b7 4% opto \u00b7 6% own"
-     },
-     {
-      "depth": 3,
-      "name": "Jacob Cowing"
-     },
-     {
-      "depth": 4,
-      "name": "Khadarel Hodge"
-     },
-     {
-      "depth": 5,
-      "name": "Jordan Watkins"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "George Kittle",
-      "note": "11.2 proj \u00b7 $4,800 \u00b7 4% opto \u00b7 5% own"
-     },
-     {
-      "depth": 2,
-      "name": "Luke Farrell"
-     },
-     {
-      "depth": 3,
-      "name": "Brayden Willis"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "San Francisco 49ers"
-     }
-    ]
-   }
-  },
-  "LVR": {
-   "opponent": "NOS",
-   "spread": 3.5,
-   "total": 43.5,
-   "favourite": "NOS",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Kirk Cousins"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Ashton Jeanty",
-      "note": "18.6 proj \u00b7 $7,100 \u00b7 22% opto \u00b7 14% own \u00b7 experts: EBeimfohr, Jordan Vanek"
-     },
-     {
-      "depth": 2,
-      "name": "Mike Washington"
-     },
-     {
-      "depth": 3,
-      "name": "Dylan Laube"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Tre Tucker",
-      "note": "9.8 proj \u00b7 $5,000 \u00b7 4% opto \u00b7 4% own"
-     },
-     {
-      "depth": 2,
-      "name": "Jalen Nailor"
-     },
-     {
-      "depth": 3,
-      "name": "Jack Bech"
-     },
-     {
-      "depth": 4,
-      "name": "Malik Benson"
-     },
-     {
-      "depth": 5,
-      "name": "Dareke Young"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Brock Bowers",
-      "note": "11.7 proj \u00b7 $6,600 \u00b7 1% opto \u00b7 4% own"
-     },
-     {
-      "depth": 2,
-      "name": "Michael Mayer"
-     },
-     {
-      "depth": 3,
-      "name": "Ian Thomas"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Las Vegas Raiders",
-      "note": "6.0 proj \u00b7 $2,600 \u00b7 4% opto \u00b7 5% own"
-     }
-    ]
-   }
-  },
-  "NOS": {
-   "opponent": "LVR",
-   "spread": 3.5,
-   "total": 43.5,
-   "favourite": "NOS",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Tyler Shough",
-      "note": "19.5 proj \u00b7 $5,400 \u00b7 15% opto \u00b7 8% own \u00b7 experts: Notorious, Headchopper, Bobby Gomes"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Travis Etienne"
-     },
-     {
-      "depth": 2,
-      "name": "Alvin Kamara"
-     },
-     {
-      "depth": 3,
-      "name": "CJ Donaldson"
-     },
-     {
-      "depth": 4,
-      "name": "Kendre Miller"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Chris Olave",
-      "note": "18.0 proj \u00b7 $7,200 \u00b7 18% opto \u00b7 13% own"
-     },
-     {
-      "depth": 2,
-      "name": "Devaughn Vele",
-      "note": "12.0 proj \u00b7 $4,400 \u00b7 15% opto \u00b7 7% own"
-     },
-     {
-      "depth": 3,
-      "name": "Bryce Lance"
-     },
-     {
-      "depth": 4,
-      "name": "Kevin Austin"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Juwan Johnson",
-      "note": "9.5 proj \u00b7 $3,700 \u00b7 6% opto \u00b7 5% own"
-     },
-     {
-      "depth": 2,
-      "name": "Noah Fant"
-     },
-     {
-      "depth": 3,
-      "name": "Oscar Delp"
-     },
-     {
-      "depth": 4,
-      "name": "Treyton Welch"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "New Orleans Saints"
-     }
-    ]
-   }
-  },
-  "BAL": {
-   "opponent": "DAL",
-   "spread": 3.5,
-   "total": 53.5,
-   "favourite": "BAL",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Lamar Jackson"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Derrick Henry",
-      "note": "19.1 proj \u00b7 $7,700 \u00b7 13% opto \u00b7 13% own"
-     },
-     {
-      "depth": 2,
-      "name": "Justice Hill"
-     },
-     {
-      "depth": 3,
-      "name": "Rasheen Ali"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "Zay Flowers"
-     },
-     {
-      "depth": 2,
-      "name": "Rashod Bateman",
-      "note": "9.9 proj \u00b7 $4,700 \u00b7 3% opto \u00b7 14% own"
-     },
-     {
-      "depth": 3,
-      "name": "LaJohntay Wester"
-     },
-     {
-      "depth": 4,
-      "name": "Chris Moore"
-     },
-     {
-      "depth": 5,
-      "name": "Devontez Walker"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Mark Andrews",
-      "note": "11.1 proj \u00b7 $4,400 \u00b7 4% opto \u00b7 18% own \u00b7 experts: Notorious"
-     },
-     {
-      "depth": 2,
-      "name": "Durham Smythe"
-     },
-     {
-      "depth": 3,
-      "name": "Matthew Hibner"
-     },
-     {
-      "depth": 4,
-      "name": "Josh Cuevas"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Baltimore Ravens",
-      "note": "6.8 proj \u00b7 $2,800 \u00b7 5% opto \u00b7 2% own"
-     }
-    ]
-   }
-  },
-  "DAL": {
-   "opponent": "BAL",
-   "spread": 3.5,
-   "total": 53.5,
-   "favourite": "BAL",
-   "positions": {
-    "QB": [
-     {
-      "depth": 1,
-      "name": "Dak Prescott"
-     }
-    ],
-    "RB": [
-     {
-      "depth": 1,
-      "name": "Javonte Williams"
-     },
-     {
-      "depth": 2,
-      "name": "Emari Demercado"
-     },
-     {
-      "depth": 3,
-      "name": "Hunter Luepke"
-     }
-    ],
-    "WR": [
-     {
-      "depth": 1,
-      "name": "CeeDee Lamb",
-      "note": "19.0 proj \u00b7 $7,800 \u00b7 11% opto \u00b7 18% own"
-     },
-     {
-      "depth": 2,
-      "name": "George Pickens",
-      "note": "14.8 proj \u00b7 $6,600 \u00b7 6% opto \u00b7 10% own \u00b7 experts: Headchopper"
-     },
-     {
-      "depth": 3,
-      "name": "Ryan Flournoy",
-      "note": "8.5 proj \u00b7 $3,800 \u00b7 4% opto \u00b7 3% own"
-     },
-     {
-      "depth": 4,
-      "name": "KaVontae Turpin"
-     },
-     {
-      "depth": 5,
-      "name": "Jonathan Mingo"
-     }
-    ],
-    "TE": [
-     {
-      "depth": 1,
-      "name": "Jake Ferguson",
-      "note": "9.1 proj \u00b7 $4,100 \u00b7 2% opto \u00b7 3% own"
-     },
-     {
-      "depth": 2,
-      "name": "Brevyn Spann-Ford"
-     },
-     {
-      "depth": 3,
-      "name": "Luke Schoonmaker"
-     }
-    ],
-    "DST": [
-     {
-      "depth": 1,
-      "name": "Dallas Cowboys"
+      "name": "Seattle Seahawks"
      }
     ]
    }
