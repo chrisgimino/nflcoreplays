@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-10-10T14:19",
+ "updated": "2026-10-10T14:35",
  "slate_ids": {
   "draftkings": "154468",
   "fanduel": "135023"
@@ -10,7 +10,7 @@
   "FD"
  ],
  "core_counts": {
-  "DK": 2,
+  "DK": 3,
   "FD": 3
  },
  "sections": [
@@ -25,10 +25,11 @@
      "team": "DET",
      "opp": "ARI",
      "schedule_id": "206513",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -79,7 +80,6 @@
       }
      ],
      "num_experts": 4,
-     "rank": 1,
      "notes": "Highest team total on the slate against the worst secondary in EPA."
     },
     {
@@ -90,10 +90,11 @@
      "team": "ARI",
      "opp": "DET",
      "schedule_id": "206513",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -140,7 +141,6 @@
       }
      ],
      "num_experts": 4,
-     "rank": 2,
      "notes": "Massive 54.5 total with high pass volume and elite weapons."
     },
     {
@@ -151,10 +151,11 @@
      "team": "GBP",
      "opp": "CHI",
      "schedule_id": "206514",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -187,7 +188,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "Solid 46.5 game total with Strong implied team options."
     },
     {
@@ -198,10 +198,11 @@
      "team": "DEN",
      "opp": "LAC",
      "schedule_id": "206511",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 7,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -241,8 +242,7 @@
       }
      ],
      "num_experts": 1,
-     "rank": 4,
-     "notes": "New play-caller boosts downfield passing and designed rushing floor."
+     "notes": "New play caller boosts downfield passing and designed rushing floor."
     },
     {
      "player_id": "328423",
@@ -252,15 +252,16 @@
      "team": "SEA",
      "opp": "SFO",
      "schedule_id": "206512",
+     "rank": 5,
      "dk_rank": null,
      "fd_rank": 5,
      "dk_slot": null,
-     "fd_slot": "CASH",
+     "fd_slot": null,
      "slot": "CASH",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -288,7 +289,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
      "notes": "Competes in a 45.5 total matchup with solid passing volume."
     },
     {
@@ -299,10 +299,11 @@
      "team": "NEP",
      "opp": "LVR",
      "schedule_id": "206508",
+     "rank": 6,
      "dk_rank": 5,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -340,7 +341,6 @@
       }
      ],
      "num_experts": 0,
-     "rank": 6,
      "notes": "Avoids tough prior defenses in a favorable 45.5 total game."
     },
     {
@@ -351,10 +351,11 @@
      "team": "CIN",
      "opp": "MIA",
      "schedule_id": "206507",
+     "rank": 7,
      "dk_rank": 6,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -387,7 +388,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "High ceiling option in a divisional 43.5 total matchup."
     },
     {
@@ -398,15 +398,16 @@
      "team": "HOU",
      "opp": "TEN",
      "schedule_id": "206510",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -434,7 +435,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Favored at home with a solid implied team total."
     },
     {
@@ -445,16 +445,17 @@
      "team": "PIT",
      "opp": "IND",
      "schedule_id": "206504",
+     "rank": 9,
      "dk_rank": 7,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 5300,
@@ -481,7 +482,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
      "notes": "Veteran quarterback facing a weak secondary in a 43.5 total game."
     },
     {
@@ -492,12 +492,13 @@
      "team": "WAS",
      "opp": "NYG",
      "schedule_id": "206509",
+     "rank": 10,
      "dk_rank": 8,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
@@ -528,8 +529,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 10,
-     "notes": "Dual threat quarterback in a 41.5 total divisional matchup."
+     "notes": "Dual-threat quarterback in a 41.5 total divisional matchup."
     }
    ]
   },
@@ -544,10 +544,11 @@
      "team": "DET",
      "opp": "ARI",
      "schedule_id": "206513",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": true,
@@ -600,7 +601,6 @@
       }
      ],
      "num_experts": 6,
-     "rank": 1,
      "notes": "Feature back leading the NFL in touches and goal-line work."
     },
     {
@@ -611,10 +611,11 @@
      "team": "CHI",
      "opp": "GBP",
      "schedule_id": "206514",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": true,
@@ -660,7 +661,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 2,
      "notes": "Clear backfield workhorse with no backfield competition."
     },
     {
@@ -671,10 +671,11 @@
      "team": "IND",
      "opp": "PIT",
      "schedule_id": "206504",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -709,7 +710,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 3,
      "notes": "Strong volume in a 43.5 total game against a tough front."
     },
     {
@@ -720,10 +720,11 @@
      "team": "LVR",
      "opp": "NEP",
      "schedule_id": "206508",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -756,7 +757,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "Value touches in a 45.5 total matchup against New England."
     },
     {
@@ -767,10 +767,11 @@
      "team": "MIN",
      "opp": "NOS",
      "schedule_id": "206505",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -810,7 +811,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 5,
      "notes": "Dominates backfield touches against a poor run defense."
     },
     {
@@ -821,15 +821,16 @@
      "team": "SEA",
      "opp": "SFO",
      "schedule_id": "206512",
+     "rank": 6,
      "dk_rank": null,
      "fd_rank": 6,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -857,7 +858,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 6,
      "notes": "Backup running back with rotational carries in a 45.5 total."
     },
     {
@@ -868,15 +868,16 @@
      "team": "NYG",
      "opp": "WAS",
      "schedule_id": "206509",
+     "rank": 7,
      "dk_rank": null,
      "fd_rank": 7,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -904,7 +905,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Goal-line role and rushing carries in a 41.5 total game."
     },
     {
@@ -915,12 +915,13 @@
      "team": "SFO",
      "opp": "SEA",
      "schedule_id": "206512",
+     "rank": 8,
      "dk_rank": 6,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -951,7 +952,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Elite pass-catching back in a 45.5 total divisional game."
     },
     {
@@ -962,16 +962,17 @@
      "team": "PIT",
      "opp": "IND",
      "schedule_id": "206504",
+     "rank": 9,
      "dk_rank": 7,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 6700,
@@ -1010,8 +1011,7 @@
       }
      ],
      "num_experts": 2,
-     "rank": 9,
-     "notes": "Bell cow role with 20 touches against a weak run defense."
+     "notes": "Bell-cow role with 20 touches against a weak run defense."
     },
     {
      "player_id": "12274374",
@@ -1021,10 +1021,11 @@
      "team": "ARI",
      "opp": "DET",
      "schedule_id": "206513",
+     "rank": 10,
      "dk_rank": 8,
      "fd_rank": 8,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1057,7 +1058,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 10,
      "notes": "Rotational touches in a high-total 54.5 game script."
     }
    ]
@@ -1073,13 +1073,14 @@
      "team": "ARI",
      "opp": "DET",
      "schedule_id": "206513",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
-     "core_dk": false,
+     "core_dk": true,
      "core_fd": true,
      "saver_dk": false,
      "saver_fd": true,
@@ -1131,7 +1132,6 @@
       }
      ],
      "num_experts": 4,
-     "rank": 1,
      "notes": "Clear WR1 with a 27% target share against a weak secondary."
     },
     {
@@ -1142,10 +1142,11 @@
      "team": "DET",
      "opp": "ARI",
      "schedule_id": "206513",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1191,7 +1192,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 2,
      "notes": "Runs nearly every route with a 27% target share from the slot."
     },
     {
@@ -1202,10 +1202,11 @@
      "team": "CHI",
      "opp": "GBP",
      "schedule_id": "206514",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 8,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1255,7 +1256,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 3,
      "notes": "Disrespected 24% target share on a Strong offense."
     },
     {
@@ -1266,16 +1266,17 @@
      "team": "MIA",
      "opp": "CIN",
      "schedule_id": "206507",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": null,
-     "dk_slot": "CASH",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 4600,
@@ -1302,7 +1303,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "Slot receiver role in a 43.5 total matchup."
     },
     {
@@ -1313,10 +1313,11 @@
      "team": "SEA",
      "opp": "SFO",
      "schedule_id": "206512",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1356,7 +1357,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 5,
      "notes": "Elite target volume in a 45.5 total divisional matchup."
     },
     {
@@ -1367,12 +1367,13 @@
      "team": "DEN",
      "opp": "LAC",
      "schedule_id": "206511",
+     "rank": 6,
      "dk_rank": null,
      "fd_rank": 6,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1410,7 +1411,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 6,
      "notes": "Expanded target share against vulnerable coverage."
     },
     {
@@ -1421,12 +1421,13 @@
      "team": "CIN",
      "opp": "MIA",
      "schedule_id": "206507",
+     "rank": 7,
      "dk_rank": null,
      "fd_rank": 7,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1457,7 +1458,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Deep threat role in a 43.5 total game script."
     },
     {
@@ -1468,10 +1468,11 @@
      "team": "HOU",
      "opp": "TEN",
      "schedule_id": "206510",
+     "rank": 8,
      "dk_rank": 6,
      "fd_rank": 5,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1506,7 +1507,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 8,
      "notes": "Primary perimeter target in a 38.5 total matchup."
     },
     {
@@ -1517,12 +1517,13 @@
      "team": "MIN",
      "opp": "NOS",
      "schedule_id": "206505",
+     "rank": 9,
      "dk_rank": 7,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1553,7 +1554,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
      "notes": "Alpha receiver with Strong air yards in a 41.5 total game."
     },
     {
@@ -1564,10 +1564,11 @@
      "team": "GBP",
      "opp": "CHI",
      "schedule_id": "206514",
+     "rank": 10,
      "dk_rank": 8,
      "fd_rank": 4,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1600,7 +1601,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 10,
      "notes": "Explosive deep threat in a 46.5 total divisional matchup."
     }
    ]
@@ -1616,10 +1616,11 @@
      "team": "ARI",
      "opp": "DET",
      "schedule_id": "206513",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1664,7 +1665,6 @@
       }
      ],
      "num_experts": 2,
-     "rank": 1,
      "notes": "Averaging 11.25 targets against a defense allowing most points to TEs."
     },
     {
@@ -1675,10 +1675,11 @@
      "team": "SFO",
      "opp": "SEA",
      "schedule_id": "206512",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1711,7 +1712,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 2,
      "notes": "Every-down route rate in a 45.5 total game script."
     },
     {
@@ -1722,10 +1722,11 @@
      "team": "LVR",
      "opp": "NEP",
      "schedule_id": "206508",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1760,7 +1761,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 3,
      "notes": "Elite target volume and seam usage in a 45.5 total."
     },
     {
@@ -1771,12 +1771,13 @@
      "team": "NEP",
      "opp": "LVR",
      "schedule_id": "206508",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": null,
-     "dk_slot": "CASH",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
@@ -1807,7 +1808,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "Red-zone targets and route participation in a 45.5 total."
     },
     {
@@ -1818,10 +1818,11 @@
      "team": "NYG",
      "opp": "WAS",
      "schedule_id": "206509",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1866,7 +1867,6 @@
       }
      ],
      "num_experts": 2,
-     "rank": 5,
      "notes": "Leads team in route rate and targets against a zone-heavy defense."
     },
     {
@@ -1877,10 +1877,11 @@
      "team": "GBP",
      "opp": "CHI",
      "schedule_id": "206514",
+     "rank": 6,
      "dk_rank": 6,
      "fd_rank": 5,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1913,7 +1914,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 6,
      "notes": "Red-zone role and seam targets in a 46.5 total matchup."
     },
     {
@@ -1924,12 +1924,13 @@
      "team": "DET",
      "opp": "ARI",
      "schedule_id": "206513",
+     "rank": 7,
      "dk_rank": null,
      "fd_rank": 7,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1960,7 +1961,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Route participation and red-zone looks in a 54.5 total."
     },
     {
@@ -1971,10 +1971,11 @@
      "team": "IND",
      "opp": "PIT",
      "schedule_id": "206504",
+     "rank": 8,
      "dk_rank": 7,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -2007,7 +2008,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Seam usage and red-zone targets in a 43.5 total game."
     },
     {
@@ -2018,10 +2018,11 @@
      "team": "NOS",
      "opp": "MIN",
      "schedule_id": "206505",
+     "rank": 9,
      "dk_rank": 8,
      "fd_rank": 8,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -2054,7 +2055,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
      "notes": "Red-zone target share in a 41.5 total matchup."
     }
    ]
@@ -2070,10 +2070,11 @@
      "team": "PIT",
      "opp": "IND",
      "schedule_id": "206504",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2106,7 +2107,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 1,
      "notes": "DST Ranked by Projections"
     },
     {
@@ -2117,10 +2117,11 @@
      "team": "MIN",
      "opp": "NOS",
      "schedule_id": "206505",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2153,7 +2154,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 2,
      "notes": "DST Ranked by Projections"
     },
     {
@@ -2164,10 +2164,11 @@
      "team": "SEA",
      "opp": "SFO",
      "schedule_id": "206512",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2200,7 +2201,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "DST Ranked by Projections"
     },
     {
@@ -2211,10 +2211,11 @@
      "team": "WAS",
      "opp": "NYG",
      "schedule_id": "206509",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2247,7 +2248,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "DST Ranked by Projections"
     },
     {
@@ -2258,10 +2258,11 @@
      "team": "DET",
      "opp": "ARI",
      "schedule_id": "206513",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2294,7 +2295,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
      "notes": "DST Ranked by Projections"
     }
    ]
