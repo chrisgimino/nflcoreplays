@@ -4,13 +4,13 @@ Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
 1,Jared Goff,1,1,BOTH,CASH,,,Highest team total on the slate against the worst secondary in EPA.
 2,Jacoby Brissett,2,2,BOTH,CASH,,,Massive 54.5 total with high pass volume and elite weapons.
 3,Jordan Love,3,3,BOTH,CASH,,,Solid 46.5 game total with Strong implied team options.
-4,Bo Nix,4,7,BOTH,CASH,,,New play-caller boosts downfield passing and designed rushing floor.
-5,Sam Darnold,,5,FD,CASH,,,Competes in a 45.5 total matchup with solid passing volume.
+4,Bo Nix,4,7,BOTH,CASH,,,New play caller boosts downfield passing and designed rushing floor.
+5,Sam Darnold,,5,BOTH,CASH,,,Competes in a 45.5 total matchup with solid passing volume.
 6,Drake Maye,5,4,BOTH,CASH,,,Avoids tough prior defenses in a favorable 45.5 total game.
 7,Joe Burrow,6,6,BOTH,GPP,,,High ceiling option in a divisional 43.5 total matchup.
-8,C.J. Stroud,,8,FD,GPP,,,Favored at home with a solid implied team total.
-9,Aaron Rodgers,7,,DK,GPP,,,Veteran quarterback facing a weak secondary in a 43.5 total game.
-10,Jayden Daniels,8,,DK,GPP,,,Dual threat quarterback in a 41.5 total divisional matchup.
+8,C.J. Stroud,,8,BOTH,GPP,,,Favored at home with a solid implied team total.
+9,Aaron Rodgers,7,,BOTH,GPP,,,Veteran quarterback facing a weak secondary in a 43.5 total game.
+10,Jayden Daniels,8,,BOTH,GPP,,,Dual-threat quarterback in a 41.5 total divisional matchup.
 ,,,,,,,,
 RB,,,,,,,,
 Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
@@ -19,23 +19,23 @@ Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
 3,Jonathan Taylor,3,4,BOTH,CASH,,,Strong volume in a 43.5 total game against a tough front.
 4,Mike Washington,4,5,BOTH,CASH,,,Value touches in a 45.5 total matchup against New England.
 5,Aaron Jones,5,3,BOTH,CASH,,,Dominates backfield touches against a poor run defense.
-6,Emanuel Wilson,,6,FD,GPP,,,Backup running back with rotational carries in a 45.5 total.
-7,Cam Skattebo,,7,FD,GPP,,,Goal-line role and rushing carries in a 41.5 total game.
-8,Christian McCaffrey,6,,DK,GPP,,,Elite pass-catching back in a 45.5 total divisional game.
-9,Jaylen Warren,7,,DK,GPP,,,Bell cow role with 20 touches against a weak run defense.
+6,Emanuel Wilson,,6,BOTH,GPP,,,Backup running back with rotational carries in a 45.5 total.
+7,Cam Skattebo,,7,BOTH,GPP,,,Goal-line role and rushing carries in a 41.5 total game.
+8,Christian McCaffrey,6,,BOTH,GPP,,,Elite pass-catching back in a 45.5 total divisional game.
+9,Jaylen Warren,7,,BOTH,GPP,,,Bell-cow role with 20 touches against a weak run defense.
 10,Jeremiyah Love,8,8,BOTH,GPP,,,Rotational touches in a high-total 54.5 game script.
 ,,,,,,,,
 WR,,,,,,,,
 Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
-1,Michael Wilson,1,1,BOTH,CASH,,Y,Clear WR1 with a 27% target share against a weak secondary.
+1,Michael Wilson,1,1,BOTH,CASH,Y,Y,Clear WR1 with a 27% target share against a weak secondary.
 2,Amon-Ra St. Brown,2,2,BOTH,CASH,,,Runs nearly every route with a 27% target share from the slot.
 3,Luther Burden,3,8,BOTH,CASH,,,Disrespected 24% target share on a Strong offense.
-4,Malik Washington,4,,DK,CASH,,,Slot receiver role in a 43.5 total matchup.
+4,Malik Washington,4,,BOTH,CASH,,,Slot receiver role in a 43.5 total matchup.
 5,Jaxon Smith-Njigba,5,3,BOTH,CASH,,,Elite target volume in a 45.5 total divisional matchup.
-6,Jaylen Waddle,,6,FD,GPP,,,Expanded target share against vulnerable coverage.
-7,Tee Higgins,,7,FD,GPP,,,Deep threat role in a 43.5 total game script.
+6,Jaylen Waddle,,6,BOTH,GPP,,,Expanded target share against vulnerable coverage.
+7,Tee Higgins,,7,BOTH,GPP,,,Deep threat role in a 43.5 total game script.
 8,Nico Collins,6,5,BOTH,GPP,,,Primary perimeter target in a 38.5 total matchup.
-9,Justin Jefferson,7,,DK,GPP,,,Alpha receiver with Strong air yards in a 41.5 total game.
+9,Justin Jefferson,7,,BOTH,GPP,,,Alpha receiver with Strong air yards in a 41.5 total game.
 10,Christian Watson,8,4,BOTH,GPP,,,Explosive deep threat in a 46.5 total divisional matchup.
 ,,,,,,,,
 TE,,,,,,,,
@@ -43,10 +43,10 @@ Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
 1,Trey McBride,1,1,BOTH,CASH,,,Averaging 11.25 targets against a defense allowing most points to TEs.
 2,George Kittle,2,3,BOTH,CASH,,,Every-down route rate in a 45.5 total game script.
 3,Brock Bowers,3,2,BOTH,CASH,,,Elite target volume and seam usage in a 45.5 total.
-4,Hunter Henry,4,,DK,CASH,,,Red-zone targets and route participation in a 45.5 total.
+4,Hunter Henry,4,,BOTH,CASH,,,Red-zone targets and route participation in a 45.5 total.
 5,Isaiah Likely,5,4,BOTH,CASH,,,Leads team in route rate and targets against a zone-heavy defense.
 6,Tucker Kraft,6,5,BOTH,GPP,,,Red-zone role and seam targets in a 46.5 total matchup.
-7,Sam LaPorta,,7,FD,GPP,,,Route participation and red-zone looks in a 54.5 total.
+7,Sam LaPorta,,7,BOTH,GPP,,,Route participation and red-zone looks in a 54.5 total.
 8,Tyler Warren,7,6,BOTH,GPP,,,Seam usage and red-zone targets in a 43.5 total game.
 9,Juwan Johnson,8,8,BOTH,GPP,,,Red-zone target share in a 41.5 total matchup.
 ,,,,,,,,
