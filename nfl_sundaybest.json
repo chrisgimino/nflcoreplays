@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-10-30T20:53",
+ "updated": "2026-10-31T10:27",
  "slate_ids": {
   "draftkings": "153728",
   "fanduel": "135859"
@@ -62,7 +62,12 @@
      "experts": [
       "Krayton"
      ],
-     "expert_blurbs": [],
+     "expert_blurbs": [
+      {
+       "author": "Krayton",
+       "text": "Dak Prescott is in an elite spot as the Cardinals have allowed the most TD passes per game this season.  CeeDee Lamb is now leading the NFL with 81 total targets making him my favorite pairing by far.  They both will be popular, but there are enough lower-owned players to pair this combo with."
+      }
+     ],
      "num_experts": 1,
      "notes": "Strong pass volume in a 54.5 implied game total."
     },
@@ -367,7 +372,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Low ownership GPP play with a close spread."
+     "notes": "Low-ownership tournament play with a close spread."
     },
     {
      "player_id": "11613",
@@ -414,7 +419,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "GPP quarterback with solid tournament upside."
+     "notes": "Tournament quarterback with solid upside."
     },
     {
      "player_id": "6228327",
@@ -570,7 +575,12 @@
      "experts": [
       "Krayton"
      ],
-     "expert_blurbs": [],
+     "expert_blurbs": [
+      {
+       "author": "Krayton",
+       "text": "Gibbs is expensive, but he is worth it as he is now leading the NFL in touches at 166.  This Lions/Vikings game is another game I want exposure to and even though he\u2019s $9,500 on DK, I will be looking for cheaper receiving and TE options to make it work."
+      }
+     ],
      "num_experts": 1,
      "notes": "Explosive pass-catching back with high projection."
     },
@@ -619,7 +629,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Top ten in expected fantasy points facing Tennessee."
+     "notes": "Top 10 in expected fantasy points facing Tennessee."
     },
     {
      "player_id": "2862245",
@@ -673,7 +683,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Fresh off 25 carries against a bottom five EPA defense."
+     "notes": "Fresh off 25 carries against a bottom-5 EPA defense."
     },
     {
      "player_id": "4687512",
@@ -870,7 +880,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "GPP running back with strong receiving floor."
+     "notes": "Tournament running back with strong receiving floor."
     },
     {
      "player_id": "3492251",
@@ -917,7 +927,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "High salary workhorse with elite ceiling."
+     "notes": "High-salary workhorse with elite ceiling."
     },
     {
      "player_id": "35530",
@@ -964,7 +974,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Physical runner in a high total game."
+     "notes": "Physical runner in a high-total game."
     },
     {
      "player_id": "3492191",
@@ -1076,7 +1086,7 @@
       }
      ],
      "num_experts": 3,
-     "notes": "Elite target per route run rate against zone coverage."
+     "notes": "Elite target-per-route-run rate against zone coverage."
     },
     {
      "player_id": "1844128",
@@ -1123,7 +1133,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Deep threat role in a large favorite spot."
+     "notes": "Deep threat and a large favorite."
     },
     {
      "player_id": "1844578",
@@ -1266,7 +1276,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Cheap GPP wide receiver with solid route rate."
+     "notes": "Cheap tournament wide receiver with solid route rate."
     },
     {
      "player_id": "3491429",
@@ -1313,7 +1323,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Deep role and red zone targets in a high total."
+     "notes": "Deep role and red-zone targets in a game with a high total."
     },
     {
      "player_id": "2861551",
@@ -1416,7 +1426,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Wins matchups weekly against leaky secondary."
+     "notes": "Wins matchups weekly against leaky secondaries."
     },
     {
      "player_id": "3491660",
@@ -1637,7 +1647,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Red zone weapon in a high total game."
+     "notes": "Red-zone weapon in a high-total game."
     },
     {
      "player_id": "4687831",
@@ -1736,7 +1746,7 @@
       }
      ],
      "num_experts": 0,
-     "notes": "Good salary relief option on FanDuel."
+     "notes": "Good salary-relief option on FanDuel."
     },
     {
      "player_id": "18314",
@@ -1830,7 +1840,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Elite route rate with strong seam usage and heavy target volume in a high total."
+     "notes": "Elite route rate with strong seam usage and heavy target volume in a game with."
     },
     {
      "player_id": "4687560",
@@ -1842,7 +1852,7 @@
      "schedule_id": "206567",
      "rank": 7,
      "dk_rank": null,
-     "fd_rank": 7,
+     "fd_rank": 8,
      "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
@@ -1877,7 +1887,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Seam and red zone upside in a high total."
+     "notes": "Seam and red-zone upside in a game with a high total."
     },
     {
      "player_id": "6228166",
@@ -1935,8 +1945,8 @@
      "opp": "MIN",
      "schedule_id": "206566",
      "rank": 9,
-     "dk_rank": 7,
-     "fd_rank": 6,
+     "dk_rank": 8,
+     "fd_rank": 7,
      "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
@@ -1982,8 +1992,8 @@
      "opp": "DET",
      "schedule_id": "206566",
      "rank": 10,
-     "dk_rank": 8,
-     "fd_rank": 8,
+     "dk_rank": 7,
+     "fd_rank": 6,
      "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
@@ -2000,8 +2010,8 @@
       "ceil": 18.6,
       "opto": 4.5,
       "pown": 4.5,
-      "grade": 1.1,
-      "gpp_grade": 0.829,
+      "grade": 1.173,
+      "gpp_grade": 0.952,
       "injury": null
      },
      "fd": {
@@ -2011,20 +2021,25 @@
       "ceil": 14.8,
       "opto": 5.4,
       "pown": 6.3,
-      "grade": 1.254,
-      "gpp_grade": 0.86,
+      "grade": 1.327,
+      "gpp_grade": 0.983,
       "injury": null
      },
      "experts": [
+      "Krayton",
       "Jordan Vanek"
      ],
      "expert_blurbs": [
       {
        "author": "vanekjordan",
        "text": "Hockenson has the most receptions of any player with Kyler Murray on the field and is going up against a Lions team that's allowed the most yards and 10 total TDs to TEs this year."
+      },
+      {
+       "author": "Krayton",
+       "text": "Detroit has allowed ten total TD\u2019s to TE\u2019s this year, which is the most in the NFL.  Hockenson has been very efficient catching 27 of his 32 targets and I love pairing Hockenson with Gibbs to get exposure to this game."
       }
      ],
-     "num_experts": 1,
+     "num_experts": 2,
      "notes": "High reception volume against a defense struggling against tight ends."
     }
    ]
@@ -2274,7 +2289,7 @@
   "CLE": {
    "opponent": "PIT",
    "spread": 3.5,
-   "total": 39.5,
+   "total": 38.5,
    "favourite": "PIT",
    "positions": {
     "QB": [
@@ -2352,7 +2367,7 @@
   "PIT": {
    "opponent": "CLE",
    "spread": 3.5,
-   "total": 39.5,
+   "total": 38.5,
    "favourite": "PIT",
    "positions": {
     "QB": [
@@ -2677,7 +2692,7 @@
      {
       "depth": 1,
       "name": "Tony Pollard",
-      "note": "14.3 proj \u00b7 $5,800 \u00b7 13% opto \u00b7 12% own"
+      "note": "14.3 proj \u00b7 $5,800 \u00b7 13% opto \u00b7 12% own \u00b7 experts: Krayton"
      },
      {
       "depth": 2,
@@ -3042,7 +3057,7 @@
   "ATL": {
    "opponent": "TBB",
    "spread": 2.5,
-   "total": 44.5,
+   "total": 43.5,
    "favourite": "TBB",
    "positions": {
     "QB": [
@@ -3112,7 +3127,7 @@
   "TBB": {
    "opponent": "ATL",
    "spread": 2.5,
-   "total": 44.5,
+   "total": 43.5,
    "favourite": "TBB",
    "positions": {
     "QB": [
@@ -3312,7 +3327,7 @@
      {
       "depth": 1,
       "name": "T.J. Hockenson",
-      "note": "9.8 proj \u00b7 $4,600 \u00b7 4% opto \u00b7 4% own \u00b7 experts: Jordan Vanek"
+      "note": "9.8 proj \u00b7 $4,600 \u00b7 4% opto \u00b7 4% own \u00b7 experts: Krayton, Jordan Vanek"
      },
      {
       "depth": 2,
