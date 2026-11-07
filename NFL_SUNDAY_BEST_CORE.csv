@@ -2,13 +2,13 @@
 QB,,,,,,,,
 Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
 1,Dak Prescott,1,1,BOTH,CASH,,,Elite matchup with high passing volume in the slate's second highest total.
-2,Jared Goff,2,2,BOTH,CASH,,,Clean pocket expected against a struggling secondary to maximize pass volume.
+2,Malik Willis,,5,BOTH,CASH,,,Rushing floor and pass-heavy script against a weak opposing secondary.
 3,Patrick Mahomes,3,4,BOTH,CASH,,,High implied team total and Strong passing volume as a heavy home favorite.
 4,Brock Purdy,4,3,BOTH,CASH,,,Leads the slate in implied team total with tremendous passing efficiency.
-5,Malik Willis,,5,FD,CASH,,,Rushing floor and pass-heavy script against a weak opposing secondary.
-6,Jayden Daniels,5,,DK,CASH,,,Strong passing volume and rushing upside in a competitive game total.
-7,Matthew Stafford,,7,FD,GPP,,,Attractive pass volume and Strong weapons in a solid game environment.
-8,Drew Lock,6,,DK,GPP,,,Value salary option with high implied team total as a heavy home favorite.
+5,Jared Goff,2,2,BOTH,CASH,,,Clean pocket expected against a struggling secondary to maximize pass volume.
+6,Jayden Daniels,5,,BOTH,CASH,,,Strong passing volume and rushing upside in a competitive game total.
+7,Matthew Stafford,,7,BOTH,GPP,,,Attractive pass volume and Strong weapons in a solid game environment.
+8,Drew Lock,6,,BOTH,GPP,,,Value salary option with high implied team total as a heavy home favorite.
 9,Tyler Shough,7,6,BOTH,GPP,,,Solid passing volume expected in a narrow spread home matchup.
 10,C.J. Stroud,8,8,BOTH,GPP,,,Favorable home favorite spot with solid passing volume and high ceiling.
 ,,,,,,,,
@@ -16,43 +16,36 @@ RB,,,,,,,,
 Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
 1,Christian McCaffrey,1,1,BOTH,CASH,Y,Y,Elite running back workload as a massive home favorite in a high total.
 2,Jahmyr Gibbs,2,2,BOTH,CASH,,,Heavy touch volume as a workhorse against a porous run defense.
-3,Kenneth Walker III,,3,FD,CASH,,,Elite workhorse role as a heavy home favorite with high touchdown upside.
+3,Kenneth Walker III,,3,BOTH,CASH,,,Elite workhorse role as a heavy home favorite with high touchdown upside.
 4,Woody Marks,3,4,BOTH,CASH,,,Strong touch projection and favorable game script as a home favorite.
 5,Chuba Hubbard,4,5,BOTH,CASH,,,Solid carry share and goal-line work in a competitive matchup.
-6,Jonah Coleman,5,,DK,CASH,,,Steady rushing volume and red-zone opportunities as a home favorite.
+6,Jonah Coleman,5,,BOTH,CASH,,,Steady rushing volume and red-zone opportunities as a home favorite.
 7,Alvin Kamara,6,8,BOTH,GPP,,,Exceptional pass-catching role and heavy touch volume in a close game.
-8,Jonathan Taylor,7,6,BOTH,GPP,,,Bell-cow rushing volume and short-yardage work against a soft front.
+8,Devin Singletary,,,BOTH,GPP,,,Alone atop a decimated NYG RB room depth chart.
 9,Kyren Williams,8,7,BOTH,GPP,,,Workhorse role with heavy carry share and high red-zone conversion rate.
-,,,,,,,,
-WR,,,,,,,,
-Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
-1,Puka Nacua,1,1,BOTH,CASH,Y,Y,Dominant target share and elite air yards against a soft secondary.
-2,Jameson Williams,,2,FD,CASH,,,Explosive deep threat finding soft spots in zone coverage with high TD rate.
-3,CeeDee Lamb,2,5,BOTH,CASH,,,Elite target share and pristine route participation in a top game total.
-4,Matthew Golden,,4,FD,CASH,,,Strong route participation and deep role in a close road matchup.
-5,Antonio Williams,3,,DK,CASH,,,High target volume expected from a pass-heavy trailing game script.
-6,Stefon Diggs,4,,DK,CASH,,,Steady target share and slot alignment in a pass-heavy game script.
-7,Jaxon Smith-Njigba,5,3,BOTH,CASH,,,Elite target share and route participation as a heavy home favorite.
-8,Nico Collins,6,6,BOTH,GPP,,,Deep threat role and Strong target share as a home favorite.
-9,Chris Olave,7,7,BOTH,GPP,,,Elite separation against man coverage with extra time from returning linemen.
-10,Tetairoa McMillan,8,8,BOTH,GPP,,,Strong red-zone role and deep target volume in a close game.
-,,,,,,,,
-TE,,,,,,,,
-Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
-1,George Kittle,1,1,BOTH,CASH,,,Every-down route participation and elite matchup in the slate's top total.
-2,Brock Bowers,2,2,BOTH,CASH,,,Target king for an underdog expected to throw constantly in a high total.
-3,Greg Dulcich,3,7,BOTH,CASH,,,Consistent target volume against a defense struggling against tight ends.
-4,Chigoziem Okonkwo,,4,FD,CASH,,,Reliable route rate and red-zone looks in a pass-heavy script.
-5,Travis Kelce,4,3,BOTH,CASH,,,Elite seam usage and consistent target share as a heavy home favorite.
-6,Tyler Warren,5,5,BOTH,CASH,,,Strong route participation and red-zone role in a high total.
-7,Trey McBride,6,6,BOTH,GPP,,,Massive target share and elite route rate for a trailing offense.
-8,Harold Fannin,7,,DK,GPP,,,Strong yards per route run and proven connection with the quarterback.
-9,Tucker Kraft,8,8,BOTH,GPP,,,Solid route participation and red-zone role in a competitive matchup.
+10,Puka Nacua,,,BOTH,CASH,Y,Y,Dominant target share and elite air yards against a soft secondary.
+11,CeeDee Lamb,,,BOTH,CASH,,,Elite target share and pristine route participation in a top game total.
+12,Antonio Williams,,,BOTH,CASH,,,High target volume expected from a pass-heavy trailing game script.
+13,Matthew Golden,,,BOTH,CASH,,,Strong route participation and deep role in a close road matchup.
+14,Jameson Williams,,,BOTH,CASH,,,Explosive deep threat finding soft spots in zone coverage with high TD rate.
+15,Stefon Diggs,,,BOTH,CASH,,,Steady target share and slot alignment in a pass-heavy game script.
+16,Jaxon Smith-Njigba,,,BOTH,CASH,,,Elite target share and route participation as a heavy home favorite.
+17,Nico Collins,,,BOTH,GPP,,,Deep threat role and Strong target share as a home favorite.
+18,Chris Olave,,,BOTH,GPP,,,Elite separation against man coverage with extra time from returning linemen.
+19,George Kittle,,,BOTH,CASH,Y,Y,Every-down route participation and elite matchup in the slate's top total.
+20,Brock Bowers,,,BOTH,CASH,,,Target king for an underdog expected to throw constantly in a high total.
+21,Greg Dulcich,,,BOTH,CASH,,,Consistent target volume against a defense struggling against tight ends.
+22,Tyler Warren,,,BOTH,CASH,,,Strong route participation and red-zone role in a high total.
+23,Travis Kelce,,,BOTH,CASH,,,Elite seam usage and consistent target share as a heavy home favorite.
+24,Chigoziem Okonkwo,,,BOTH,CASH,,,Reliable route rate and red-zone looks in a pass-heavy script.
+25,Trey McBride,,,BOTH,GPP,,,Massive target share and elite route rate for a trailing offense.
+26,Harold Fannin,,,BOTH,GPP,,,Strong yards per route run and proven connection with the quarterback.
+27,Tucker Kraft,,,BOTH,GPP,,,Solid route participation and red-zone role in a competitive matchup.
 ,,,,,,,,
 DST,,,,,,,,
 Rank,Players,DK Rank,FD Rank,Site,Slot,Core DK,Core FD,Notes
-1,Philadelphia Eagles,1,,DK,CASH,,,Defense Ranked by Projections and Ownership
-2,Seattle Seahawks,,2,FD,CASH,,,Defense Ranked by Projections and Ownership
-3,Kansas City Chiefs,,3,FD,CASH,,,Defense Ranked by Projections and Ownership
+1,Philadelphia Eagles,1,,BOTH,CASH,,,Defense Ranked by Projections and Ownership
+2,Seattle Seahawks,,2,BOTH,CASH,,,Defense Ranked by Projections and Ownership
+3,Kansas City Chiefs,,3,BOTH,CASH,,,Defense Ranked by Projections and Ownership
 4,New Orleans Saints,2,1,BOTH,CASH,,,Defense Ranked by Projections and Ownership
-5,New York Giants,3,,DK,CASH,,,Defense Ranked by Projections and Ownership
+5,New York Giants,3,,BOTH,CASH,,,Defense Ranked by Projections and Ownership
