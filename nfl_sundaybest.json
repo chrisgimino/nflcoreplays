@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-11-07T17:57",
+ "updated": "2026-11-07T18:06",
  "slate_ids": {
   "draftkings": "155994",
   "fanduel": "136184"
@@ -79,7 +79,7 @@
       }
      ],
      "num_experts": 3,
-     "notes": "Elite matchup with high passing volume in the slate's second highest total."
+     "notes": "Elite matchup with high passing volume in the slate's second-highest total."
     },
     {
      "player_id": "3491780",
@@ -489,7 +489,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Solid passing volume expected in a narrow spread home matchup."
+     "notes": "Solid passing volume expected in a home matchup with a narrow spread."
     },
     {
      "player_id": "4687775",
@@ -1126,7 +1126,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Elite target share and pristine route participation in a top game total."
+     "notes": "Elite target share and route participation in a game with a high total."
     },
     {
      "player_id": "12275099",
@@ -1606,7 +1606,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Target king for an underdog expected to throw constantly in a high total."
+     "notes": "Target king for an underdog expected to throw constantly in a game with a high."
     },
     {
      "player_id": "3492045",
