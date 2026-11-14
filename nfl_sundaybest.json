@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-11-14T10:01",
+ "updated": "2026-11-14T10:03",
  "slate_ids": {
   "draftkings": "156416",
   "fanduel": "136490"
@@ -11,7 +11,7 @@
  ],
  "core_counts": {
   "DK": 3,
-  "FD": 2
+  "FD": 3
  },
  "sections": [
   {
@@ -25,10 +25,11 @@
      "team": "NOS",
      "opp": "CAR",
      "schedule_id": "206640",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": true,
@@ -76,7 +77,6 @@
       }
      ],
      "num_experts": 5,
-     "rank": 1,
      "notes": "Healthy 24.5 implied total. Sneaky rushing floor against weak pass defense."
     },
     {
@@ -87,10 +87,11 @@
      "team": "SFO",
      "opp": "DAL",
      "schedule_id": "206644",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -136,7 +137,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 2,
      "notes": "Elite rushing upside against Dallas, facing a weak secondary in a dome."
     },
     {
@@ -147,10 +147,11 @@
      "team": "BUF",
      "opp": "NYJ",
      "schedule_id": "206641",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -183,7 +184,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "High implied team total and Strong rushing floor in a home matchup."
     },
     {
@@ -194,10 +194,11 @@
      "team": "DAL",
      "opp": "SFO",
      "schedule_id": "206644",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -232,7 +233,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 4,
      "notes": "High game total and pass volume upside in a favorable dome matchup."
     },
     {
@@ -243,10 +243,11 @@
      "team": "JAC",
      "opp": "TEN",
      "schedule_id": "206639",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -286,7 +287,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 5,
      "notes": "Strong passing volume upside as a heavy home favorite against Tennessee."
     },
     {
@@ -297,10 +297,11 @@
      "team": "KCC",
      "opp": "ATL",
      "schedule_id": "206636",
+     "rank": 6,
      "dk_rank": 6,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -340,7 +341,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 6,
      "notes": "Low salary with a 25-point implied team total in a dome game."
     },
     {
@@ -351,10 +351,11 @@
      "team": "HOU",
      "opp": "CLE",
      "schedule_id": "206637",
+     "rank": 7,
      "dk_rank": 7,
      "fd_rank": 7,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -387,7 +388,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Strong home implied team total and solid passing volume expectations."
     },
     {
@@ -398,15 +398,16 @@
      "team": "GBP",
      "opp": "MIN",
      "schedule_id": "206635",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": false,
      "injury": null,
      "dk": {
@@ -434,7 +435,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Solid passing volume projection in a tight divisional game environment."
     },
     {
@@ -445,16 +445,17 @@
      "team": "CAR",
      "opp": "NOS",
      "schedule_id": "206640",
+     "rank": 9,
      "dk_rank": 8,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 5800,
@@ -483,7 +484,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 9,
      "notes": "High game total environment with expected pass volume as an underdog."
     }
    ]
@@ -499,10 +499,11 @@
      "team": "CAR",
      "opp": "NOS",
      "schedule_id": "206640",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -548,7 +549,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 1,
      "notes": "True Bell cow with heavy snap share and goal-line work vs weak rush defense."
     },
     {
@@ -559,10 +559,11 @@
      "team": "ATL",
      "opp": "KCC",
      "schedule_id": "206636",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -602,7 +603,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 2,
      "notes": "Elite touch volume and high projection in a Strong game total matchup."
     },
     {
@@ -613,10 +613,11 @@
      "team": "SFO",
      "opp": "DAL",
      "schedule_id": "206644",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -656,7 +657,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 3,
      "notes": "High-value touch volume and explosive ceiling in a game with a 55.5 total."
     },
     {
@@ -667,10 +667,11 @@
      "team": "HOU",
      "opp": "CLE",
      "schedule_id": "206637",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 8,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -703,7 +704,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "Solid touch projection and favorable team total as a home favorite."
     },
     {
@@ -714,12 +714,13 @@
      "team": "LAR",
      "opp": "ARI",
      "schedule_id": "206642",
+     "rank": 5,
      "dk_rank": null,
      "fd_rank": 5,
      "dk_slot": null,
-     "fd_slot": "CASH",
+     "fd_slot": null,
      "slot": "CASH",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -752,7 +753,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 5,
      "notes": "Strong game script as a heavy home favorite with heavy touch volume."
     },
     {
@@ -763,10 +763,11 @@
      "team": "KCC",
      "opp": "ATL",
      "schedule_id": "206636",
+     "rank": 6,
      "dk_rank": 5,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -812,8 +813,7 @@
       }
      ],
      "num_experts": 3,
-     "rank": 6,
-     "notes": "High touch expectation and Strong red-zone role in an indoor game."
+     "notes": "Watch for News: Walker Q - Johnson huge value if no Walker."
     },
     {
      "player_id": "2862245",
@@ -823,10 +823,11 @@
      "team": "DAL",
      "opp": "SFO",
      "schedule_id": "206644",
+     "rank": 7,
      "dk_rank": 6,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -859,7 +860,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Strong snap share and explosive scoring ceiling in a 55.5 game total."
     },
     {
@@ -870,10 +870,11 @@
      "team": "MIA",
      "opp": "IND",
      "schedule_id": "206638",
+     "rank": 8,
      "dk_rank": 7,
      "fd_rank": 7,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -913,7 +914,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 8,
      "notes": "Solid touch floor and rushing role in a close divisional matchup."
     },
     {
@@ -924,12 +924,13 @@
      "team": "IND",
      "opp": "MIA",
      "schedule_id": "206638",
+     "rank": 9,
      "dk_rank": 8,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -960,7 +961,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
      "notes": "Heavy touch volume expected as a home favorite against Miami."
     }
    ]
@@ -976,10 +976,11 @@
      "team": "MIN",
      "opp": "GBP",
      "schedule_id": "206635",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": true,
@@ -1027,7 +1028,6 @@
       }
      ],
      "num_experts": 5,
-     "rank": 1,
      "notes": "Averaging 9 targets per game with an expanded target share against Green Bay."
     },
     {
@@ -1038,15 +1038,16 @@
      "team": "CAR",
      "opp": "NOS",
      "schedule_id": "206640",
+     "rank": 2,
      "dk_rank": null,
      "fd_rank": 2,
      "dk_slot": null,
-     "fd_slot": "CASH",
+     "fd_slot": null,
      "slot": "CASH",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -1072,8 +1073,6 @@
       "injury": null
      },
      "experts": [
-      "Headchopper",
-      "Krayton",
       "EBeimfohr",
       "ncorfield8k"
      ],
@@ -1091,8 +1090,7 @@
        "text": "Coker could be $1,000 more expensive and he'd still be a great play. These are the two fastest offenses in the league in terms of seconds per play. The Saints defense has allowed the 5th-most schedule-adjusted fantasy points per game to wide receivers over the last 5 weeks. And it's a particularly juicy matchup for Coker. The Saints have played Single High coverage at the 2nd-highest rate in the league this year (64.4%). Coker averages 2.22 yards per route run against Single High, compared to 1.38 against Two High."
       }
      ],
-     "num_experts": 4,
-     "rank": 2,
+     "num_experts": 2,
      "notes": "Fast-paced game environment with elite production against Single High coverage."
     },
     {
@@ -1103,10 +1101,11 @@
      "team": "NOS",
      "opp": "CAR",
      "schedule_id": "206640",
+     "rank": 3,
      "dk_rank": 2,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1148,7 +1147,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 3,
      "notes": "Massive air yards volume and deep target upside against Carolina."
     },
     {
@@ -1159,12 +1157,13 @@
      "team": "CAR",
      "opp": "NOS",
      "schedule_id": "206640",
+     "rank": 4,
      "dk_rank": null,
      "fd_rank": 4,
      "dk_slot": null,
-     "fd_slot": "CASH",
+     "fd_slot": null,
      "slot": "CASH",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1195,7 +1194,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
      "notes": "Strong target projection in a high-paced divisional matchup."
     },
     {
@@ -1206,16 +1204,17 @@
      "team": "TEN",
      "opp": "JAC",
      "schedule_id": "206639",
+     "rank": 5,
      "dk_rank": 3,
      "fd_rank": null,
-     "dk_slot": "CASH",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 4500,
@@ -1242,7 +1241,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
      "notes": "Solid slot target projection and Price value in a dome contest."
     },
     {
@@ -1253,16 +1251,17 @@
      "team": "JAC",
      "opp": "TEN",
      "schedule_id": "206639",
+     "rank": 6,
      "dk_rank": 4,
      "fd_rank": null,
-     "dk_slot": "CASH",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 4200,
@@ -1289,7 +1288,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 6,
      "notes": "Consistent target volume and Strong salary relief on the slate."
     },
     {
@@ -1300,12 +1298,13 @@
      "team": "NYJ",
      "opp": "BUF",
      "schedule_id": "206641",
+     "rank": 7,
      "dk_rank": null,
      "fd_rank": 7,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1336,7 +1335,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Strong target share and deep route participation in a high total game."
     },
     {
@@ -1347,15 +1345,16 @@
      "team": "MIN",
      "opp": "GBP",
      "schedule_id": "206635",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": "Q",
      "dk": {
@@ -1383,7 +1382,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Solid route participation and red-zone target upside in a divisional game."
     },
     {
@@ -1394,10 +1392,11 @@
      "team": "DAL",
      "opp": "SFO",
      "schedule_id": "206644",
+     "rank": 9,
      "dk_rank": 5,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1432,7 +1431,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 9,
      "notes": "Elite target volume and ceiling in a game with a massive 55.5 total."
     },
     {
@@ -1443,12 +1441,13 @@
      "team": "GBP",
      "opp": "MIN",
      "schedule_id": "206635",
+     "rank": 10,
      "dk_rank": 6,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1479,7 +1478,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 10,
      "notes": "Explosive deep route participation and high-value red-zone targets."
     },
     {
@@ -1490,10 +1488,11 @@
      "team": "HOU",
      "opp": "CLE",
      "schedule_id": "206637",
+     "rank": 11,
      "dk_rank": 7,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1526,7 +1525,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 11,
      "notes": "Clear alpha target share and Strong air yards projection."
     },
     {
@@ -1537,16 +1535,17 @@
      "team": "DAL",
      "opp": "SFO",
      "schedule_id": "206644",
+     "rank": 12,
      "dk_rank": 8,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 6300,
@@ -1573,7 +1572,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 12,
      "notes": "Strong perimeter route participation in a high-scoring game environment."
     }
    ]
@@ -1589,14 +1587,15 @@
      "team": "IND",
      "opp": "MIA",
      "schedule_id": "206638",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": true,
-     "core_fd": false,
+     "core_fd": true,
      "saver_dk": false,
      "saver_fd": false,
      "injury": null,
@@ -1647,7 +1646,6 @@
       }
      ],
      "num_experts": 4,
-     "rank": 1,
      "notes": "Averaging 8.5 targets per game with an expanded pass-catching role."
     },
     {
@@ -1658,10 +1656,11 @@
      "team": "SFO",
      "opp": "DAL",
      "schedule_id": "206644",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1701,7 +1700,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 2,
      "notes": "Averaging 8.5 targets over his last four in a game with a 55.5 total."
     },
     {
@@ -1712,12 +1710,13 @@
      "team": "LAR",
      "opp": "ARI",
      "schedule_id": "206642",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": null,
-     "dk_slot": "CASH",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
@@ -1755,7 +1754,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 3,
      "notes": "Dirt cheap salary relief with steady route participation on the slate."
     },
     {
@@ -1766,12 +1764,13 @@
      "team": "LAR",
      "opp": "ARI",
      "schedule_id": "206642",
+     "rank": 4,
      "dk_rank": null,
      "fd_rank": 4,
      "dk_slot": null,
-     "fd_slot": "CASH",
+     "fd_slot": null,
      "slot": "CASH",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1809,7 +1808,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 4,
      "notes": "Significant target share boost and Strong metrics against Two High coverage."
     },
     {
@@ -1820,10 +1818,11 @@
      "team": "KCC",
      "opp": "ATL",
      "schedule_id": "206636",
+     "rank": 5,
      "dk_rank": 4,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1856,7 +1855,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
      "notes": "Consistent target floor and red-zone role in an indoor matchup."
     },
     {
@@ -1867,10 +1865,11 @@
      "team": "ARI",
      "opp": "LAR",
      "schedule_id": "206642",
+     "rank": 6,
      "dk_rank": 5,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1903,7 +1902,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 6,
      "notes": "Elite target volume and route participation at the tight end position."
     },
     {
@@ -1914,12 +1912,13 @@
      "team": "JAC",
      "opp": "TEN",
      "schedule_id": "206639",
+     "rank": 7,
      "dk_rank": null,
      "fd_rank": 7,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1957,7 +1956,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 7,
      "notes": "Low ownership option with big-play receiving upside on a weak slate."
     },
     {
@@ -1968,10 +1966,11 @@
      "team": "LVR",
      "opp": "SEA",
      "schedule_id": "206643",
+     "rank": 8,
      "dk_rank": 6,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -2004,7 +2003,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Elite target share and explosive receiving ceiling in a dome game."
     },
     {
@@ -2015,10 +2013,11 @@
      "team": "GBP",
      "opp": "MIN",
      "schedule_id": "206635",
+     "rank": 9,
      "dk_rank": 7,
      "fd_rank": 8,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -2051,7 +2050,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
      "notes": "Strong route rate and red-zone receiving role in a divisional matchup."
     },
     {
@@ -2062,12 +2060,13 @@
      "team": "BUF",
      "opp": "NYJ",
      "schedule_id": "206641",
+     "rank": 10,
      "dk_rank": 8,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -2098,7 +2097,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 10,
      "notes": "Solid seam usage and target upside in a high total game environment."
     }
    ]
@@ -2114,10 +2112,11 @@
      "team": "HOU",
      "opp": "CLE",
      "schedule_id": "206637",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2150,7 +2149,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 1,
      "notes": "Defense Ranked by Projections and Ownership"
     },
     {
@@ -2161,10 +2159,11 @@
      "team": "IND",
      "opp": "MIA",
      "schedule_id": "206638",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2197,7 +2196,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 2,
      "notes": "Defense Ranked by Projections and Ownership"
     },
     {
@@ -2208,10 +2206,11 @@
      "team": "LAR",
      "opp": "ARI",
      "schedule_id": "206642",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2244,7 +2243,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "Defense Ranked by Projections and Ownership"
     }
    ]
