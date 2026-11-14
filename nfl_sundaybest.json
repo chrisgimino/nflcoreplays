@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-11-14T10:03",
+ "updated": "2026-11-14T10:59",
  "slate_ids": {
   "draftkings": "156416",
   "fanduel": "136490"
@@ -549,7 +549,7 @@
       }
      ],
      "num_experts": 3,
-     "notes": "True Bell cow with heavy snap share and goal-line work vs weak rush defense."
+     "notes": "True Bell cow with heavy snap share and goal-line work vs. A weak rush defense."
     },
     {
      "player_id": "4687512",
@@ -1091,7 +1091,7 @@
       }
      ],
      "num_experts": 2,
-     "notes": "Fast-paced game environment with elite production against Single High coverage."
+     "notes": "Fast-paced game environment with elite production against single-high coverage."
     },
     {
      "player_id": "3491988",
@@ -1288,7 +1288,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Consistent target volume and Strong salary relief on the slate."
+     "notes": "Consistent target volume and Strong salary relief."
     },
     {
      "player_id": "3491660",
@@ -1335,7 +1335,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Strong target share and deep route participation in a high total game."
+     "notes": "Strong target share and deep route participation in a high-total game."
     },
     {
      "player_id": "4687982",
@@ -1700,7 +1700,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Averaging 8.5 targets over his last four in a game with a 55.5 total."
+     "notes": "Averaging 8.5 targets over his last 4 contests and is in a game with a 55.5."
     },
     {
      "player_id": "1849846",
@@ -1754,7 +1754,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Dirt cheap salary relief with steady route participation on the slate."
+     "notes": "Cheap salary with a steady route participation."
     },
     {
      "player_id": "35670",
@@ -1808,7 +1808,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Significant target share boost and Strong metrics against Two High coverage."
+     "notes": "Significant target share boost and Strong metrics against two-high coverage."
     },
     {
      "player_id": "18314",
@@ -2097,7 +2097,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Solid seam usage and target upside in a high total game environment."
+     "notes": "Solid seam usage and target upside in a high-total game environment."
     }
    ]
   },
