@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-11-14T16:40",
+ "updated": "2026-11-14T16:48",
  "slate_ids": {
   "draftkings": "156416",
   "fanduel": "136490"
@@ -287,7 +287,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Favourable spot against a weak Titans secondary with a 46.5 game total."
+     "notes": "Favorable spot against a weak Titans secondary with a 46.5 game total."
     },
     {
      "player_id": "4687775",
@@ -668,7 +668,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Workhorse role with Strong pass-catching usage in a 55.5 total."
+     "notes": "Workhorse role with Strong pass-catching usage in a game with a 55.5 total."
     },
     {
      "player_id": "3492191",
@@ -717,7 +717,7 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "notes": "Heavy rushing volume and goal-line work as huge home favourites."
+     "notes": "Heavy rushing volume and goal-line work as huge home favorites."
     },
     {
      "player_id": "2862245",
@@ -1042,7 +1042,7 @@
       }
      ],
      "num_experts": 2,
-     "notes": "Elite yards per route run against Single High coverage looks."
+     "notes": "Elite yards per route run against single-high coverage looks."
     },
     {
      "player_id": "3491988",
@@ -1729,7 +1729,7 @@
       }
      ],
      "num_experts": 1,
-     "notes": "Spike in target share with Two High coverage matchups."
+     "notes": "Spike in target share with two-high coverage matchups."
     },
     {
      "player_id": "3492164",
@@ -2018,7 +2018,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "notes": "Red-zone role and route rate against Minnesota."
+     "notes": "Red-zone role and solid route rate against Minnesota."
     },
     {
      "player_id": "2862126",
