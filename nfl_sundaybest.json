@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-11-21T15:36",
+ "updated": "2026-11-21T15:58",
  "slate_ids": {
   "draftkings": "156561",
   "fanduel": "136799"
@@ -25,10 +25,11 @@
      "team": "CHI",
      "opp": "NOS",
      "schedule_id": "206650",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": true,
@@ -75,8 +76,7 @@
       }
      ],
      "num_experts": 4,
-     "rank": 1,
-     "notes": "Highest pass volume in a 30-point implied total against a weak secondary."
+     "notes": "Highest pass volume with a 30-point implied total against a weak secondary."
     },
     {
      "player_id": "35539",
@@ -86,10 +86,11 @@
      "team": "DAL",
      "opp": "TEN",
      "schedule_id": "206649",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -134,7 +135,6 @@
       }
      ],
      "num_experts": 2,
-     "rank": 2,
      "notes": "Elite pass volume in the highest game total on the slate at 54.5 points."
     },
     {
@@ -145,10 +145,11 @@
      "team": "KCC",
      "opp": "ARI",
      "schedule_id": "206653",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -181,7 +182,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "Strong passing floor with a massive 15.5-point home favorite spread."
     },
     {
@@ -192,10 +192,11 @@
      "team": "TEN",
      "opp": "DAL",
      "schedule_id": "206649",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -235,7 +236,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 4,
      "notes": "Multiple touchdown passes in back-to-back games facing the Dallas defense."
     },
     {
@@ -246,10 +246,11 @@
      "team": "LAC",
      "opp": "NYJ",
      "schedule_id": "206655",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 7,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -282,7 +283,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 5,
      "notes": "Solid passing metrics in a tight divisional matchup with a 42.5 total."
     },
     {
@@ -293,16 +293,17 @@
      "team": "NYG",
      "opp": "JAC",
      "schedule_id": "206652",
+     "rank": 6,
      "dk_rank": 6,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 4800,
@@ -336,7 +337,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 6,
      "notes": "High efficiency against zone coverage while trailing in a 46.5 game total."
     },
     {
@@ -347,10 +347,11 @@
      "team": "NOS",
      "opp": "CHI",
      "schedule_id": "206650",
+     "rank": 7,
      "dk_rank": 7,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -383,7 +384,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Strong passing volume expected while trailing in a high 48.5 game total."
     },
     {
@@ -394,15 +394,16 @@
      "team": "DET",
      "opp": "TBB",
      "schedule_id": "206651",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -438,8 +439,7 @@
       }
      ],
      "num_experts": 2,
-     "rank": 8,
-     "notes": "Multiple passing touchdowns in six of nine games as a home favorite."
+     "notes": "Multiple passing touchdowns in 6 of 9 games as a home favorite."
     },
     {
      "player_id": "2861939",
@@ -449,10 +449,11 @@
      "team": "JAC",
      "opp": "NYG",
      "schedule_id": "206652",
+     "rank": 9,
      "dk_rank": 8,
      "fd_rank": 5,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -485,7 +486,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
      "notes": "Strong passing floor as a home favorite in a 46.5-point game total."
     }
    ]
@@ -501,10 +501,11 @@
      "team": "KCC",
      "opp": "ARI",
      "schedule_id": "206653",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": true,
@@ -551,7 +552,6 @@
       }
      ],
      "num_experts": 4,
-     "rank": 1,
      "notes": "Elite rushing volume and goal-line work for a heavy home favorite."
     },
     {
@@ -562,10 +562,11 @@
      "team": "TEN",
      "opp": "DAL",
      "schedule_id": "206649",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -611,7 +612,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 2,
      "notes": "Top-tier rushing workload facing the worst run defense in the league."
     },
     {
@@ -622,10 +622,11 @@
      "team": "DEN",
      "opp": "LVR",
      "schedule_id": "206657",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -665,8 +666,7 @@
       }
      ],
      "num_experts": 1,
-     "rank": 3,
-     "notes": "Workhorse backfield role with over 65 percent snap share and 15 touches."
+     "notes": "Workhorse backfield role with over 65% snap share and 15 touches."
     },
     {
      "player_id": "4687730",
@@ -676,10 +676,11 @@
      "team": "DET",
      "opp": "TBB",
      "schedule_id": "206651",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -712,8 +713,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
-     "notes": "Elite explosive run and catch role as a home favorite against Tampa."
+     "notes": "Elite explosive run-and-catch role as a home favorite against Tampa."
     },
     {
      "player_id": "2862245",
@@ -723,10 +723,11 @@
      "team": "DAL",
      "opp": "TEN",
      "schedule_id": "206649",
+     "rank": 5,
      "dk_rank": 5,
      "fd_rank": 5,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -766,7 +767,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 5,
      "notes": "Heavy rushing volume and goal-line work with a highly favorable game script."
     },
     {
@@ -777,10 +777,11 @@
      "team": "TBB",
      "opp": "DET",
      "schedule_id": "206651",
+     "rank": 6,
      "dk_rank": 6,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -820,7 +821,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 6,
      "notes": "Solid rushing share and pass-catching involvement in a 46.5 game total."
     },
     {
@@ -831,15 +831,16 @@
      "team": "LAC",
      "opp": "NYJ",
      "schedule_id": "206655",
+     "rank": 7,
      "dk_rank": null,
      "fd_rank": 7,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -867,7 +868,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Valuable rushing touches and goal-line potential in a tight divisional game."
     },
     {
@@ -878,12 +878,13 @@
      "team": "BAL",
      "opp": "CAR",
      "schedule_id": "206654",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -916,7 +917,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 8,
      "notes": "Primary rushing workhorse with elite goal-line upside as a road underdog."
     },
     {
@@ -927,12 +927,13 @@
      "team": "CAR",
      "opp": "BAL",
      "schedule_id": "206654",
+     "rank": 9,
      "dk_rank": 7,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -963,7 +964,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
      "notes": "Strong rushing volume and snap share as a home favorite against Baltimore."
     },
     {
@@ -974,16 +974,17 @@
      "team": "CHI",
      "opp": "NOS",
      "schedule_id": "206650",
+     "rank": 10,
      "dk_rank": 8,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 6900,
@@ -1021,7 +1022,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 10,
      "notes": "Explosive multi-touchdown upside as a primary weapon in a high team total."
     }
    ]
@@ -1037,10 +1037,11 @@
      "team": "CHI",
      "opp": "NOS",
      "schedule_id": "206650",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1086,7 +1087,6 @@
       }
      ],
      "num_experts": 3,
-     "rank": 1,
      "notes": "Top target share in a high-scoring offense facing a weak secondary."
     },
     {
@@ -1097,10 +1097,11 @@
      "team": "DAL",
      "opp": "TEN",
      "schedule_id": "206649",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1135,7 +1136,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 2,
      "notes": "Elite target volume and route participation in the highest game total."
     },
     {
@@ -1146,10 +1146,11 @@
      "team": "TEN",
      "opp": "DAL",
      "schedule_id": "206649",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 4,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1184,7 +1185,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 3,
      "notes": "Strong route participation and deep threat role in a 54.5 game total."
     },
     {
@@ -1195,16 +1195,17 @@
      "team": "NOS",
      "opp": "CHI",
      "schedule_id": "206650",
+     "rank": 4,
      "dk_rank": 4,
      "fd_rank": null,
-     "dk_slot": "CASH",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "CASH",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": true,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 5200,
@@ -1238,7 +1239,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 4,
      "notes": "Frequent short-area targets in the slot for full-point PPR formats."
     },
     {
@@ -1249,12 +1249,13 @@
      "team": "DAL",
      "opp": "TEN",
      "schedule_id": "206649",
+     "rank": 5,
      "dk_rank": null,
      "fd_rank": 5,
      "dk_slot": null,
-     "fd_slot": "CASH",
+     "fd_slot": null,
      "slot": "CASH",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1297,7 +1298,6 @@
       }
      ],
      "num_experts": 2,
-     "rank": 5,
      "notes": "Led the team with 19 targets and 145 yards against the league's worst secondary."
     },
     {
@@ -1308,10 +1308,11 @@
      "team": "DET",
      "opp": "TBB",
      "schedule_id": "206651",
+     "rank": 6,
      "dk_rank": 5,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1351,8 +1352,7 @@
       }
      ],
      "num_experts": 1,
-     "rank": 6,
-     "notes": "Elite target floor with a 28 percent target share and high catch volume."
+     "notes": "Elite target floor with a 28% target share and high catch volume."
     },
     {
      "player_id": "8216948",
@@ -1362,12 +1362,13 @@
      "team": "CAR",
      "opp": "BAL",
      "schedule_id": "206654",
+     "rank": 7,
      "dk_rank": null,
      "fd_rank": 7,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1398,7 +1399,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Primary perimeter target expected to see high route participation."
     },
     {
@@ -1409,15 +1409,16 @@
      "team": "TBB",
      "opp": "DET",
      "schedule_id": "206651",
+     "rank": 8,
      "dk_rank": null,
      "fd_rank": 8,
      "dk_slot": null,
-     "fd_slot": "GPP",
+     "fd_slot": null,
      "slot": "GPP",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -1445,7 +1446,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Strong slot route rate and target volume in a trailing game script."
     },
     {
@@ -1456,10 +1456,11 @@
      "team": "NOS",
      "opp": "CHI",
      "schedule_id": "206650",
+     "rank": 9,
      "dk_rank": 6,
      "fd_rank": 6,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1492,8 +1493,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
-     "notes": "Deep threat role with high air yards share in a high-scoring matchup."
+     "notes": "Deep-threat role with high air-yards share in a high-scoring matchup."
     },
     {
      "player_id": "6228390",
@@ -1503,12 +1503,13 @@
      "team": "NYG",
      "opp": "JAC",
      "schedule_id": "206652",
+     "rank": 10,
      "dk_rank": 7,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1546,8 +1547,7 @@
       }
      ],
      "num_experts": 1,
-     "rank": 10,
-     "notes": "A 30 percent target share and 35 percent air yards share in a pass funnel."
+     "notes": "A 30% target share and 35% air yards share in a pass funnel."
     },
     {
      "player_id": "4687855",
@@ -1557,16 +1557,17 @@
      "team": "KCC",
      "opp": "ARI",
      "schedule_id": "206653",
+     "rank": 11,
      "dk_rank": 8,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
-     "saver_fd": false,
+     "saver_fd": true,
      "injury": null,
      "dk": {
       "salary": 6100,
@@ -1593,8 +1594,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 11,
-     "notes": "Strong route participation and explosive yards after catch potential."
+     "notes": "Strong route participation and explosive yards-after-catch potential."
     }
    ]
   },
@@ -1609,10 +1609,11 @@
      "team": "CHI",
      "opp": "NOS",
      "schedule_id": "206650",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1652,8 +1653,7 @@
       }
      ],
      "num_experts": 1,
-     "rank": 1,
-     "notes": "A surge to nine targets per game over his last three outings."
+     "notes": "A surge to 9 targets per game over his last 3 outings."
     },
     {
      "player_id": "3491355",
@@ -1663,10 +1663,11 @@
      "team": "NYG",
      "opp": "JAC",
      "schedule_id": "206652",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1701,7 +1702,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 2,
      "notes": "Primary tight end target against zone coverage in a pass-leaning script."
     },
     {
@@ -1712,10 +1712,11 @@
      "team": "BAL",
      "opp": "CAR",
      "schedule_id": "206654",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 6,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1750,7 +1751,6 @@
      ],
      "expert_blurbs": [],
      "num_experts": 1,
-     "rank": 3,
      "notes": "Reliable seam and red-zone targets in a close divisional game."
     },
     {
@@ -1761,15 +1761,16 @@
      "team": "TEN",
      "opp": "DAL",
      "schedule_id": "206649",
+     "rank": 4,
      "dk_rank": null,
      "fd_rank": 4,
      "dk_slot": null,
-     "fd_slot": "CASH",
+     "fd_slot": null,
      "slot": "CASH",
-     "site_only": "FD",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
-     "saver_dk": false,
+     "saver_dk": true,
      "saver_fd": true,
      "injury": null,
      "dk": {
@@ -1797,8 +1798,7 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 4,
-     "notes": "Solid route rate and red-zone involvement in a high total matchup."
+     "notes": "Solid route rate and red-zone involvement in a high-total matchup."
     },
     {
      "player_id": "3492018",
@@ -1808,10 +1808,11 @@
      "team": "TBB",
      "opp": "DET",
      "schedule_id": "206651",
+     "rank": 5,
      "dk_rank": 4,
      "fd_rank": 7,
-     "dk_slot": "CASH",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1851,7 +1852,6 @@
       }
      ],
      "num_experts": 1,
-     "rank": 5,
      "notes": "Facing a defense allowing the most points and touchdowns to tight ends."
     },
     {
@@ -1862,10 +1862,11 @@
      "team": "ARI",
      "opp": "KCC",
      "schedule_id": "206653",
+     "rank": 6,
      "dk_rank": 5,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -1898,7 +1899,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 6,
      "notes": "Elite target share and route participation as a primary offensive weapon."
     },
     {
@@ -1909,10 +1909,11 @@
      "team": "KCC",
      "opp": "ARI",
      "schedule_id": "206653",
+     "rank": 7,
      "dk_rank": 6,
      "fd_rank": 5,
-     "dk_slot": "GPP",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -1945,7 +1946,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 7,
      "notes": "Consistent route participation and red-zone role as a massive favorite."
     },
     {
@@ -1956,12 +1956,13 @@
      "team": "LVR",
      "opp": "DEN",
      "schedule_id": "206657",
+     "rank": 8,
      "dk_rank": 7,
      "fd_rank": null,
-     "dk_slot": "GPP",
+     "dk_slot": null,
      "fd_slot": null,
      "slot": "GPP",
-     "site_only": "DK",
+     "site_only": null,
      "core_dk": false,
      "core_fd": false,
      "saver_dk": false,
@@ -1992,7 +1993,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 8,
      "notes": "Elite target earner with unmatched route participation at the position."
     },
     {
@@ -2003,10 +2003,11 @@
      "team": "DET",
      "opp": "TBB",
      "schedule_id": "206651",
+     "rank": 9,
      "dk_rank": 8,
      "fd_rank": 8,
-     "dk_slot": "GPP",
-     "fd_slot": "GPP",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "GPP",
      "site_only": null,
      "core_dk": false,
@@ -2039,7 +2040,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 9,
      "notes": "Strong route rate and red-zone role in a high-paced game environment."
     }
    ]
@@ -2055,10 +2055,11 @@
      "team": "PIT",
      "opp": "PHI",
      "schedule_id": "206656",
+     "rank": 1,
      "dk_rank": 1,
      "fd_rank": 3,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2091,7 +2092,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 1,
      "notes": "Defense Ranked by Projections and Ownership"
     },
     {
@@ -2102,10 +2102,11 @@
      "team": "KCC",
      "opp": "ARI",
      "schedule_id": "206653",
+     "rank": 2,
      "dk_rank": 2,
      "fd_rank": 1,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2138,7 +2139,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 2,
      "notes": "Defense Ranked by Projections and Ownership"
     },
     {
@@ -2149,10 +2149,11 @@
      "team": "DEN",
      "opp": "LVR",
      "schedule_id": "206657",
+     "rank": 3,
      "dk_rank": 3,
      "fd_rank": 2,
-     "dk_slot": "CASH",
-     "fd_slot": "CASH",
+     "dk_slot": null,
+     "fd_slot": null,
      "slot": "CASH",
      "site_only": null,
      "core_dk": false,
@@ -2185,7 +2186,6 @@
      "experts": [],
      "expert_blurbs": [],
      "num_experts": 0,
-     "rank": 3,
      "notes": "Defense Ranked by Projections and Ownership"
     }
    ]
