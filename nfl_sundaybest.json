@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-11-25T20:08",
+ "updated": "2026-11-25T21:21",
  "slate_ids": {
   "draftkings": "156932",
   "fanduel": "137123"
@@ -79,7 +79,7 @@
      ],
      "num_experts": 3,
      "rank": 1,
-     "notes": "Highest total on slate with 55.5 points. Strong rushing floor for Caleb."
+     "notes": "Highest total on the slate at 55.5 with a strong rushing floor for Caleb."
     },
     {
      "player_id": "35673",
@@ -133,7 +133,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Jared Goff benefits from indoor dome conditions and favorable passing matchup."
+     "notes": "Great dome matchup for Jared Goff to lead the passing game against the Bears."
     },
     {
      "player_id": "35539",
@@ -183,7 +183,7 @@
      "expert_blurbs": [],
      "num_experts": 2,
      "rank": 3,
-     "notes": "Dak Prescott leads the favored Cowboys offense with a 47.5 game total."
+     "notes": "Dak Prescott leads the Dallas offense as an 8.5-point home favourite."
     },
     {
      "player_id": "328331",
@@ -230,7 +230,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Josh Allen commands Buffalo's offense in a key matchup against Kansas City."
+     "notes": "Josh Allen anchors the Buffalo passing attack in a 46.5-point total game."
     },
     {
      "player_id": "6228325",
@@ -289,7 +289,7 @@
      ],
      "num_experts": 2,
      "rank": 5,
-     "notes": "Joe Milton brings rushing floor upside and should throw often from behind."
+     "notes": "Joe Milton offers a cheap starting price and rushing floor in a high-total."
     },
     {
      "player_id": "37022",
@@ -343,7 +343,7 @@
      ],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Patrick Mahomes faces Buffalo's 23rd-ranked schedule-adjusted defense."
+     "notes": "Patrick Mahomes Will rely on heavy pass volume against a weak Buffalo secondary."
     }
    ]
   },
@@ -403,7 +403,7 @@
      ],
      "num_experts": 2,
      "rank": 1,
-     "notes": "Elite bell cow workload with 85% carry share and heavy red-zone usage."
+     "notes": "Elite workload with heavy carries and target volume in a 55.5-point game total."
     },
     {
      "player_id": "12283516",
@@ -462,7 +462,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "Three-down workhorse role if Kenneth Walker sits out with a groin injury."
+     "notes": "Three-down workhorse role if Walker sits, offering immense value at mid-range."
     },
     {
      "player_id": "2862245",
@@ -511,7 +511,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Javonte Williams anchors Dallas ground game as an 8.5-point favorite."
+     "notes": "Javonte Williams leads the Dallas backfield as an 8.5-point home favourite."
     },
     {
      "player_id": "1844244",
@@ -560,7 +560,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 4,
-     "notes": "D'Andre Swift operates in Chicago's high-paced offense as a road underdog."
+     "notes": "D'Andre Swift handles Chicago backfield touches in the highest total on the."
     },
     {
      "player_id": "328607",
@@ -615,7 +615,7 @@
      ],
      "num_experts": 2,
      "rank": 5,
-     "notes": "Saquon Barkley serves as a tournament flyer in a favorable game script."
+     "notes": "GPP flyer with strong game script potential against Dallas run defense."
     },
     {
      "player_id": "3491576",
@@ -662,7 +662,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "James Cook handles lead back duties for Buffalo in a hostile road game."
+     "notes": "James Cook leads the Buffalo backfield in a tightly contested divisional."
     },
     {
      "player_id": "8228422",
@@ -716,7 +716,7 @@
      ],
      "num_experts": 1,
      "rank": 7,
-     "notes": "Kyle Monangai brings physical running style against lighter defensive fronts."
+     "notes": "Physical runner with high explosive rate facing a depleted Detroit front."
     },
     {
      "player_id": "982111",
@@ -763,7 +763,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Ty Johnson provides depth touches in Buffalo's backfield rotation."
+     "notes": "Ty Johnson mixes in for change-of-pace work in the Buffalo backfield."
     },
     {
      "player_id": "6228458",
@@ -810,7 +810,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Will Shipley operates in a supporting backfield role for Philadelphia."
+     "notes": "Will Shipley operates in a backup role for Philadelphia against Dallas."
     }
    ]
   },
@@ -862,7 +862,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "CeeDee Lamb anchors the Dallas passing attack with elite target volume."
+     "notes": "CeeDee Lamb anchors the Dallas receiving corps as an 8.5-point home favourite."
     },
     {
      "player_id": "3491429",
@@ -917,7 +917,7 @@
      ],
      "num_experts": 2,
      "rank": 2,
-     "notes": "George Pickens commands downfield targets despite a tough boundary matchup."
+     "notes": "Dak is willing to throw jump balls to Pickens despite tough boundary matchups."
     },
     {
      "player_id": "2862069",
@@ -976,7 +976,7 @@
      ],
      "num_experts": 2,
      "rank": 3,
-     "notes": "DeVonta Smith commands a massive 36% target share in trailing game scripts."
+     "notes": "Dominant target share of 36% in a pass-heavy game script as an underdog."
     },
     {
      "player_id": "8222949",
@@ -1031,7 +1031,7 @@
      ],
      "num_experts": 2,
      "rank": 4,
-     "notes": "Luther Burden leads Chicago with 69 targets and exploits interior coverage."
+     "notes": "Leads Chicago with a 22% target share operating inside against weak defense."
     },
     {
      "player_id": "2861659",
@@ -1080,7 +1080,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Amon-Ra St. Brown anchors Detroit passing game in a 55.5 game total."
+     "notes": "Amon-Ra St. Brown leads the Detroit passing attack in a 55.5-point total game."
     },
     {
      "player_id": "4687801",
@@ -1135,7 +1135,7 @@
      ],
      "num_experts": 2,
      "rank": 6,
-     "notes": "Josh Downs sees high target efficiency on limited routes for Kansas City."
+     "notes": "Targeted heavily on limited routes and poised for aggressive usage."
     },
     {
      "player_id": "35608",
@@ -1182,7 +1182,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Kalif Raymond provides deep threat speed in Chicago's high total game."
+     "notes": "Kalif Raymond operates as a deep threat in the highest total game."
     },
     {
      "player_id": "8281184",
@@ -1229,7 +1229,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Darius Cooper offers tournament upside in Philadelphia's wide receiver corps."
+     "notes": "Darius Cooper offers deep tournament exposure in the Philadelphia passing game."
     },
     {
      "player_id": "6228136",
@@ -1283,7 +1283,7 @@
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Xavier Worthy maintains an 80% route participation rate for Kansas City."
+     "notes": "Cheapest 80% snap share receiver on the Thursday slate."
     },
     {
      "player_id": "6227754",
@@ -1330,7 +1330,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 10,
-     "notes": "Keon Coleman operates as an outside target for Buffalo's passing attack."
+     "notes": "Keon Coleman handles perimeter routes for Buffalo in a 46.5-point total."
     }
    ]
   },
@@ -1396,7 +1396,7 @@
      ],
      "num_experts": 4,
      "rank": 1,
-     "notes": "Colston Loveland leads team red-zone targets against a weak tight end defense."
+     "notes": "Leads the team with 12 red-zone targets against a weak Detroit tight end."
     },
     {
      "player_id": "4687728",
@@ -1450,7 +1450,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Sam LaPorta runs every-day routes in a high-paced indoor environment."
+     "notes": "Sam LaPorta anchors the Detroit tight end position in a high-total environment."
     },
     {
      "player_id": "18314",
@@ -1504,7 +1504,7 @@
      ],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Travis Kelce comes off a massive game with elite explosive receiving upside."
+     "notes": "Elite tight end option coming off a massive explosive game against Arizona."
     },
     {
      "player_id": "6227896",
@@ -1551,7 +1551,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Brevyn Spann-Ford handles blocking and secondary seam routes for Dallas."
+     "notes": "Brevyn Spann-Ford serves as a secondary tight end option for Dallas."
     },
     {
      "player_id": "328643",
@@ -1598,7 +1598,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Dallas Goedert occupies a reliable target role in Philadelphia's offense."
+     "notes": "Dallas Goedert runs routes for Philadelphia in an 8.5-point underdog spot."
     },
     {
      "player_id": "2862275",
@@ -1645,7 +1645,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Noah Gray serves as a secondary tight end option in Kansas City sets."
+     "notes": "Noah Gray acts as a secondary pass catcher for Kansas City."
     },
     {
      "player_id": "982202",
@@ -1699,7 +1699,7 @@
      ],
      "num_experts": 1,
      "rank": 7,
-     "notes": "Dawson Knox fills in as lead tight end against a weak secondary."
+     "notes": "Steps into lead tight end targets at near minimum price with Kincaid banged up."
     },
     {
      "player_id": "2861662",
@@ -1746,7 +1746,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Brock Wright acts primarily as a blocking tight end for Detroit."
+     "notes": "Brock Wright provides blocking and occasional targets for Detroit."
     }
    ]
   },
