@@ -1,6 +1,6 @@
 {
  "title": "NFL Sunday Best",
- "updated": "2026-11-28T06:55",
+ "updated": "2026-11-28T07:06",
  "slate_ids": {
   "draftkings": "157066",
   "fanduel": "137125"
@@ -41,6 +41,7 @@
       "fpts": 21.79,
       "ppd": 3.25,
       "ceil": 32.3,
+      "floor": 13.4,
       "opto": 30.9,
       "pown": 22.7,
       "grade": 1.82,
@@ -52,6 +53,7 @@
       "fpts": 21.57,
       "ppd": 2.73,
       "ceil": 32.0,
+      "floor": 13.3,
       "opto": 29.1,
       "pown": 23.6,
       "grade": 1.673,
@@ -62,7 +64,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Leads a Jacksonville passing attack carrying a 31.2 implied team total."
+     "notes": "Faces a Tennessee secondary that has allowed the most WR yards over the last four weeks."
     },
     {
      "player_id": "1844126",
@@ -88,6 +90,7 @@
       "fpts": 23.66,
       "ppd": 3.07,
       "ceil": 33.7,
+      "floor": 15.1,
       "opto": 9.7,
       "pown": 11.4,
       "grade": 1.391,
@@ -99,6 +102,7 @@
       "fpts": 23.45,
       "ppd": 2.76,
       "ceil": 33.4,
+      "floor": 15.0,
       "opto": 26.9,
       "pown": 15.3,
       "grade": 1.956,
@@ -116,7 +120,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Plays at home with a 29-point team total in a bounce-back spot."
+     "notes": "Home rebound spot after a sluggish Monday game for an offense carrying a 29-point team total."
     },
     {
      "player_id": "6228653",
@@ -142,6 +146,7 @@
       "fpts": 20.15,
       "ppd": 3.36,
       "ceil": 29.7,
+      "floor": 12.7,
       "opto": 10.5,
       "pown": 8.1,
       "grade": 1.197,
@@ -153,6 +158,7 @@
       "fpts": 20.06,
       "ppd": 2.42,
       "ceil": 29.6,
+      "floor": 12.6,
       "opto": 5.9,
       "pown": 7.1,
       "grade": 0.853,
@@ -171,7 +177,7 @@
      ],
      "num_experts": 2,
      "rank": 3,
-     "notes": "Faces minimal pass rush from Arizona, boosting his clean-pocket passing efficiency."
+     "notes": "Faces a low-pressure Arizona front, boosting his yards per attempt from 4.81 pressured to 8.04 clean."
     },
     {
      "player_id": "4687775",
@@ -197,6 +203,7 @@
       "fpts": 20.26,
       "ppd": 3.12,
       "ceil": 30.0,
+      "floor": 12.5,
       "opto": 11.2,
       "pown": 8.5,
       "grade": 0.964,
@@ -208,6 +215,7 @@
       "fpts": 19.93,
       "ppd": 2.69,
       "ceil": 29.5,
+      "floor": 12.3,
       "opto": 12.9,
       "pown": 10.7,
       "grade": 1.085,
@@ -225,7 +233,7 @@
      ],
      "num_experts": 1,
      "rank": 4,
-     "notes": "Houston's run struggles push heavy pass volume against a faltering Baltimore defense."
+     "notes": "Houston's stagnant run game forces heavy pass volume against a collapsing Baltimore defense."
     },
     {
      "player_id": "6228291",
@@ -251,6 +259,7 @@
       "fpts": 17.59,
       "ppd": 3.26,
       "ceil": 27.0,
+      "floor": 10.2,
       "opto": 5.1,
       "pown": 5.7,
       "grade": 0.432,
@@ -262,6 +271,7 @@
       "fpts": 17.43,
       "ppd": 2.45,
       "ceil": 26.7,
+      "floor": 10.1,
       "opto": 4.6,
       "pown": 5.5,
       "grade": 0.356,
@@ -279,7 +289,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Offers a rushing floor and aggressive downfield passing against a weak Colts defense."
+     "notes": "Pass attempts jumped to 30.2 per game recently, pairing rushing upside with a soft Indianapolis defense."
     },
     {
      "player_id": "2861809",
@@ -305,6 +315,7 @@
       "fpts": 14.45,
       "ppd": 3.61,
       "ceil": 22.6,
+      "floor": 7.9,
       "opto": 3.7,
       "pown": 3.3,
       "grade": 0.015,
@@ -316,6 +327,7 @@
       "fpts": 14.16,
       "ppd": 2.21,
       "ceil": 22.1,
+      "floor": 7.8,
       "opto": 1.3,
       "pown": 2.7,
       "grade": -0.35,
@@ -326,7 +338,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Priced as the QB18 while projecting higher in an underdog pass-volume script."
+     "notes": "Projects seven spots above his salary rank despite a Seattle defense limiting wideout yardage."
     },
     {
      "player_id": "8223333",
@@ -352,6 +364,7 @@
       "fpts": 17.65,
       "ppd": 3.1,
       "ceil": 26.4,
+      "floor": 10.7,
       "opto": 6.9,
       "pown": 3.3,
       "grade": 0.352,
@@ -363,6 +376,7 @@
       "fpts": 17.37,
       "ppd": 2.38,
       "ceil": 26.0,
+      "floor": 10.5,
       "opto": 4.9,
       "pown": 3.5,
       "grade": 0.276,
@@ -373,7 +387,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Underdog game script in a high-total environment should force steady pass volume."
+     "notes": "Projects as a 9.5-point underdog in a 48.5-total game, forcing elevated pass volume."
     },
     {
      "player_id": "328423",
@@ -399,6 +413,7 @@
       "fpts": 15.18,
       "ppd": 2.76,
       "ceil": 23.7,
+      "floor": 8.7,
       "opto": 2.8,
       "pown": 4.6,
       "grade": -0.388,
@@ -410,6 +425,7 @@
       "fpts": 14.91,
       "ppd": 2.13,
       "ceil": 23.3,
+      "floor": 8.5,
       "opto": 2.4,
       "pown": 3.6,
       "grade": -0.277,
@@ -420,7 +436,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Leads a 22-point implied offense in a tight divisional matchup with San Francisco."
+     "notes": "Pass volume has climbed to 35.5 attempts per game over the last month, up from a 30.1 season rate."
     },
     {
      "player_id": "35493",
@@ -446,6 +462,7 @@
       "fpts": 15.46,
       "ppd": 3.03,
       "ceil": 24.5,
+      "floor": 8.9,
       "opto": 4.1,
       "pown": 5.7,
       "grade": -0.114,
@@ -457,6 +474,7 @@
       "fpts": 15.22,
       "ppd": 2.27,
       "ceil": 24.1,
+      "floor": 8.7,
       "opto": 2.6,
       "pown": 5.1,
       "grade": -0.142,
@@ -467,7 +485,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Priced outside the top tier of QBs while an underdog script should drive pass volume."
+     "notes": "Recent usage has been worth 19.0 points per game while box scores lagged at 11.4."
     }
    ]
   },
@@ -498,6 +516,7 @@
       "fpts": 16.83,
       "ppd": 2.76,
       "ceil": 29.3,
+      "floor": 8.1,
       "opto": 30.8,
       "pown": 20.7,
       "grade": 5.265,
@@ -509,6 +528,7 @@
       "fpts": 15.53,
       "ppd": 2.28,
       "ceil": 27.0,
+      "floor": 7.5,
       "opto": 31.8,
       "pown": 28.3,
       "grade": 5.246,
@@ -533,7 +553,7 @@
      ],
      "num_experts": 4,
      "rank": 1,
-     "notes": "Handles heavy backfield touches with regained coaching trust against Indianapolis."
+     "notes": "Retained closing carries after last week's fumble and faces an Indy defense allowing the 3rd-most RB rushing yards."
     },
     {
      "player_id": "3491661",
@@ -559,6 +579,7 @@
       "fpts": 15.39,
       "ppd": 2.57,
       "ceil": 26.6,
+      "floor": 7.7,
       "opto": 15.9,
       "pown": 17.6,
       "grade": 3.373,
@@ -570,6 +591,7 @@
       "fpts": 13.89,
       "ppd": 1.93,
       "ceil": 24.0,
+      "floor": 7.0,
       "opto": 12.3,
       "pown": 17.2,
       "grade": 3.162,
@@ -593,7 +615,7 @@
      ],
      "num_experts": 3,
      "rank": 2,
-     "notes": "Expected to see heavy carries against a depleted Miami defensive front."
+     "notes": "Handles 83% of Jets carries inside the 10 and projects for heavy volume against Miami's depleted defensive line."
     },
     {
      "player_id": "4688250",
@@ -619,6 +641,7 @@
       "fpts": 16.19,
       "ppd": 3.05,
       "ceil": 28.0,
+      "floor": 7.5,
       "opto": 36.9,
       "pown": 23.7,
       "grade": 2.092,
@@ -630,6 +653,7 @@
       "fpts": 15.54,
       "ppd": 2.51,
       "ceil": 26.9,
+      "floor": 7.2,
       "opto": 43.8,
       "pown": 25.8,
       "grade": 2.228,
@@ -642,7 +666,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 3,
-     "notes": "Priced as the RB17 despite projecting near the top in a heavily favored script."
+     "notes": "Priced well below a top-five projection in a Likely run-heavy script as heavy home favorites."
     },
     {
      "player_id": "4687512",
@@ -668,6 +692,7 @@
       "fpts": 18.46,
       "ppd": 2.4,
       "ceil": 31.3,
+      "floor": 9.3,
       "opto": 20.5,
       "pown": 24.3,
       "grade": 1.556,
@@ -679,6 +704,7 @@
       "fpts": 16.81,
       "ppd": 1.93,
       "ceil": 28.5,
+      "floor": 8.5,
       "opto": 22.1,
       "pown": 27.5,
       "grade": 1.553,
@@ -691,7 +717,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 4,
-     "notes": "Projects as the top RB at the position, slightly underpriced relative to his role."
+     "notes": "Controls 67% of Atlanta's carries inside the 10, anchoring a top-end goal-line role."
     },
     {
      "player_id": "8228772",
@@ -717,6 +743,7 @@
       "fpts": 15.03,
       "ppd": 2.59,
       "ceil": 27.2,
+      "floor": 7.4,
       "opto": 18.7,
       "pown": 11.1,
       "grade": 1.35,
@@ -728,6 +755,7 @@
       "fpts": 13.8,
       "ppd": 2.42,
       "ceil": 25.0,
+      "floor": 6.8,
       "opto": 25.7,
       "pown": 7.2,
       "grade": 1.596,
@@ -738,7 +766,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Projects ahead of his salary rank and shows up in optimal lineups above field ownership."
+     "notes": "Carry share climbed to 73% recently against a Jets front yielding the 2nd-most rushing yards to RBs."
     },
     {
      "player_id": "8217247",
@@ -764,6 +792,7 @@
       "fpts": 12.58,
       "ppd": 2.25,
       "ceil": 24.4,
+      "floor": 6.2,
       "opto": 8.1,
       "pown": 8.5,
       "grade": 0.763,
@@ -775,6 +804,7 @@
       "fpts": 11.57,
       "ppd": 2.07,
       "ceil": 22.4,
+      "floor": 5.7,
       "opto": 11.9,
       "pown": 5.0,
       "grade": 0.947,
@@ -785,7 +815,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 6,
-     "notes": "Tight spread keeps his rushing script viable against New England."
+     "notes": "Owns 62% of the Chargers' carries inside the 10 over the last month."
     },
     {
      "player_id": "2861937",
@@ -811,6 +841,7 @@
       "fpts": 11.96,
       "ppd": 2.26,
       "ceil": 22.4,
+      "floor": 5.7,
       "opto": 8.0,
       "pown": 9.3,
       "grade": 0.726,
@@ -822,6 +853,7 @@
       "fpts": 10.71,
       "ppd": 1.85,
       "ceil": 20.1,
+      "floor": 5.1,
       "opto": 9.4,
       "pown": 4.1,
       "grade": 0.727,
@@ -832,7 +864,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Projects ahead of his RB16 salary in a high-total game against Cincinnati."
+     "notes": "Projects slightly ahead of his salary rank with trailing-script target upside in a 48.5-total game."
     },
     {
      "player_id": "4688186",
@@ -858,6 +890,7 @@
       "fpts": 12.99,
       "ppd": 2.36,
       "ceil": 23.4,
+      "floor": 6.2,
       "opto": 6.7,
       "pown": 10.8,
       "grade": 0.805,
@@ -869,6 +902,7 @@
       "fpts": 12.02,
       "ppd": 1.85,
       "ceil": 21.6,
+      "floor": 5.8,
       "opto": 5.9,
       "pown": 9.4,
       "grade": 0.747,
@@ -879,7 +913,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Projects ahead of his RB13 salary in a favored script against San Francisco."
+     "notes": "Handles 67% of Seattle's carries inside the 10, giving him clear goal-line equity."
     },
     {
      "player_id": "3492222",
@@ -905,6 +939,7 @@
       "fpts": 10.83,
       "ppd": 2.17,
       "ceil": 21.9,
+      "floor": 4.8,
       "opto": 4.2,
       "pown": 2.8,
       "grade": 0.521,
@@ -916,6 +951,7 @@
       "fpts": 10.24,
       "ppd": 1.68,
       "ceil": 20.7,
+      "floor": 4.5,
       "opto": 4.8,
       "pown": 6.0,
       "grade": 0.504,
@@ -926,7 +962,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Priced as the RB22 while a favored game script supports steady carries."
+     "notes": "Projects six spots above his salary rank against an Atlanta run defense allowing the most RB rushing yards."
     },
     {
      "player_id": "6228431",
@@ -952,6 +988,7 @@
       "fpts": 9.76,
       "ppd": 1.95,
       "ceil": 20.4,
+      "floor": 4.0,
       "opto": 3.5,
       "pown": 1.3,
       "grade": 0.351,
@@ -963,6 +1000,7 @@
       "fpts": 8.99,
       "ppd": 1.52,
       "ceil": 18.8,
+      "floor": 3.7,
       "opto": 3.3,
       "pown": 1.2,
       "grade": 0.305,
@@ -973,7 +1011,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 10,
-     "notes": "Priced as the RB23 with a favored game script and slight optimal leverage."
+     "notes": "Projects five spots above his salary rank at RB and gets positive carry script as a 5.5-point division favourite."
     }
    ]
   },
@@ -1004,6 +1042,7 @@
       "fpts": 22.5,
       "ppd": 2.47,
       "ceil": 37.3,
+      "floor": 10.3,
       "opto": 31.7,
       "pown": 24.6,
       "grade": 2.558,
@@ -1015,6 +1054,7 @@
       "fpts": 18.88,
       "ppd": 2.03,
       "ceil": 31.3,
+      "floor": 8.6,
       "opto": 39.5,
       "pown": 28.5,
       "grade": 2.874,
@@ -1025,7 +1065,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 1,
-     "notes": "Projects as the top WR and appears in optimal lineups well above field ownership."
+     "notes": "Air-yards share jumped to 62% recently against a San Francisco defense allowing the most WR targets."
     },
     {
      "player_id": "982261",
@@ -1051,6 +1091,7 @@
       "fpts": 14.66,
       "ppd": 3.26,
       "ceil": 30.9,
+      "floor": 5.0,
       "opto": 35.3,
       "pown": 28.1,
       "grade": 2.383,
@@ -1062,6 +1103,7 @@
       "fpts": 12.57,
       "ppd": 2.17,
       "ceil": 26.5,
+      "floor": 4.3,
       "opto": 27.7,
       "pown": 22.6,
       "grade": 2.001,
@@ -1072,7 +1114,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 2,
-     "notes": "Priced as the WR21 despite projecting as a top-tier WR in a high-scoring offense."
+     "notes": "Draws 32% of Jacksonville's red-zone targets and faces a Tennessee secondary allowing the most WR yards."
     },
     {
      "player_id": "1844306",
@@ -1098,6 +1140,7 @@
       "fpts": 19.57,
       "ppd": 2.51,
       "ceil": 35.1,
+      "floor": 8.9,
       "opto": 25.0,
       "pown": 30.3,
       "grade": 2.289,
@@ -1109,6 +1152,7 @@
       "fpts": 16.28,
       "ppd": 1.94,
       "ceil": 29.2,
+      "floor": 7.4,
       "opto": 26.1,
       "pown": 31.2,
       "grade": 2.327,
@@ -1122,7 +1166,7 @@
      "expert_blurbs": [],
      "num_experts": 2,
      "rank": 3,
-     "notes": "Anchors a Minnesota passing attack carrying a 24.2 implied team total."
+     "notes": "Usage has been worth 18.6 points per game with a 29% red-zone target share, well ahead of his box scores."
     },
     {
      "player_id": "3491928",
@@ -1148,6 +1192,7 @@
       "fpts": 15.09,
       "ppd": 2.4,
       "ceil": 29.8,
+      "floor": 6.5,
       "opto": 13.0,
       "pown": 16.6,
       "grade": 1.364,
@@ -1159,6 +1204,7 @@
       "fpts": 12.27,
       "ppd": 1.73,
       "ceil": 24.2,
+      "floor": 5.2,
       "opto": 10.6,
       "pown": 14.1,
       "grade": 1.256,
@@ -1169,7 +1215,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Projects ahead of his WR10 salary as an underdog Likely needing pass volume."
+     "notes": "Projects ahead of his salary rank with trailing-script pass volume Likely as a 7-point underdog."
     },
     {
      "player_id": "12283491",
@@ -1195,6 +1241,7 @@
       "fpts": 9.59,
       "ppd": 2.82,
       "ceil": 22.6,
+      "floor": 2.3,
       "opto": 14.6,
       "pown": 4.3,
       "grade": 1.202,
@@ -1206,6 +1253,7 @@
       "fpts": 8.24,
       "ppd": 1.68,
       "ceil": 19.4,
+      "floor": 2.0,
       "opto": 10.2,
       "pown": 6.7,
       "grade": 0.946,
@@ -1223,7 +1271,7 @@
      ],
      "num_experts": 1,
      "rank": 5,
-     "notes": "Steps into more targets with Parker Washington hurt against a weak Titans secondary."
+     "notes": "Steps into a larger perimeter role with Parker Washington hurt against a Titans unit allowing the most WR yards."
     },
     {
      "player_id": "2861551",
@@ -1249,6 +1297,7 @@
       "fpts": 20.58,
       "ppd": 2.31,
       "ceil": 37.2,
+      "floor": 9.2,
       "opto": 23.4,
       "pown": 22.6,
       "grade": 2.167,
@@ -1260,6 +1309,7 @@
       "fpts": 17.15,
       "ppd": 1.91,
       "ceil": 31.0,
+      "floor": 7.6,
       "opto": 38.4,
       "pown": 28.5,
       "grade": 2.713,
@@ -1273,7 +1323,7 @@
      "expert_blurbs": [],
      "num_experts": 2,
      "rank": 6,
-     "notes": "Projects near the top of the position in Cincinnati's 29-point implied offense."
+     "notes": "Target share climbed to 32% and air-yards share hit 49% over the last month on near-every-down routes."
     },
     {
      "player_id": "1844128",
@@ -1299,6 +1349,7 @@
       "fpts": 14.82,
       "ppd": 1.95,
       "ceil": 30.6,
+      "floor": 5.6,
       "opto": 7.2,
       "pown": 8.2,
       "grade": -0.185,
@@ -1310,6 +1361,7 @@
       "fpts": 12.55,
       "ppd": 1.67,
       "ceil": 25.9,
+      "floor": 4.7,
       "opto": 18.6,
       "pown": 15.2,
       "grade": 0.441,
@@ -1320,7 +1372,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Benefits from Cincinnati's 29-point implied team total against New Orleans."
+     "notes": "Scored 20.4 PPR points per game recently despite a 23% air-yards share, backed by high passing volume."
     },
     {
      "player_id": "6228100",
@@ -1346,6 +1398,7 @@
       "fpts": 8.36,
       "ppd": 2.26,
       "ceil": 21.6,
+      "floor": 1.6,
       "opto": 8.2,
       "pown": 7.3,
       "grade": 0.641,
@@ -1357,6 +1410,7 @@
       "fpts": 7.19,
       "ppd": 1.44,
       "ceil": 18.6,
+      "floor": 1.4,
       "opto": 6.6,
       "pown": 3.8,
       "grade": 0.558,
@@ -1367,7 +1421,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Significantly underpriced as the WR38 in Jacksonville's high-scoring offense."
+     "notes": "Projects 16 spots above his salary rank against a Tennessee defense allowing the most WR receiving yards."
     },
     {
      "player_id": "12275099",
@@ -1393,6 +1447,7 @@
       "fpts": 10.73,
       "ppd": 2.5,
       "ceil": 23.0,
+      "floor": 3.5,
       "opto": 11.3,
       "pown": 8.9,
       "grade": 1.08,
@@ -1404,6 +1459,7 @@
       "fpts": 8.88,
       "ppd": 1.61,
       "ceil": 19.0,
+      "floor": 2.9,
       "opto": 6.5,
       "pown": 5.9,
       "grade": 0.855,
@@ -1421,7 +1477,7 @@
      ],
      "num_experts": 1,
      "rank": 9,
-     "notes": "Priced as the WR24 while projecting much higher in Washington's passing attack."
+     "notes": "Route participation jumped to 81% and snap share reached 84% over the last month."
     },
     {
      "player_id": "18287",
@@ -1447,6 +1503,7 @@
       "fpts": 12.19,
       "ppd": 2.03,
       "ceil": 25.0,
+      "floor": 4.3,
       "opto": 8.1,
       "pown": 6.8,
       "grade": -0.241,
@@ -1458,6 +1515,7 @@
       "fpts": 10.1,
       "ppd": 1.44,
       "ceil": 20.7,
+      "floor": 3.6,
       "opto": 5.9,
       "pown": 7.9,
       "grade": -0.269,
@@ -1468,7 +1526,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 10,
-     "notes": "Narrow underdog script against Seattle keeps pass volume and targets steady."
+     "notes": "Air-yards share rose to 55% with 25% of red-zone targets, offsetting a tough Seattle perimeter matchup."
     }
    ]
   },
@@ -1499,6 +1557,7 @@
       "fpts": 12.11,
       "ppd": 2.82,
       "ceil": 23.8,
+      "floor": 4.5,
       "opto": 17.0,
       "pown": 14.9,
       "grade": 2.598,
@@ -1510,6 +1569,7 @@
       "fpts": 9.73,
       "ppd": 1.84,
       "ceil": 19.1,
+      "floor": 3.6,
       "opto": 13.5,
       "pown": 13.3,
       "grade": 2.381,
@@ -1522,7 +1582,7 @@
      "expert_blurbs": [],
      "num_experts": 1,
      "rank": 1,
-     "notes": "Projects as a top-tier TE while priced below that tier in a solid team total."
+     "notes": "Commands 25% of Minnesota's red-zone targets over the last month, outpacing his salary rank."
     },
     {
      "player_id": "3492164",
@@ -1548,6 +1608,7 @@
       "fpts": 14.7,
       "ppd": 2.23,
       "ceil": 27.0,
+      "floor": 6.5,
       "opto": 14.9,
       "pown": 17.3,
       "grade": 2.346,
@@ -1559,6 +1620,7 @@
       "fpts": 11.39,
       "ppd": 1.65,
       "ceil": 20.9,
+      "floor": 5.1,
       "opto": 16.9,
       "pown": 17.1,
       "grade": 2.611,
@@ -1576,7 +1638,7 @@
      ],
      "num_experts": 1,
      "rank": 2,
-     "notes": "Draws a soft Washington TE coverage matchup with strong target volume."
+     "notes": "Faces a Washington defense allowing both the most targets and receiving yards to tight ends over the last month."
     },
     {
      "player_id": "4687831",
@@ -1602,6 +1664,7 @@
       "fpts": 9.96,
       "ppd": 2.43,
       "ceil": 22.8,
+      "floor": 2.7,
       "opto": 9.4,
       "pown": 11.3,
       "grade": 1.787,
@@ -1613,6 +1676,7 @@
       "fpts": 8.3,
       "ppd": 1.63,
       "ceil": 19.0,
+      "floor": 2.2,
       "opto": 9.2,
       "pown": 11.1,
       "grade": 1.889,
@@ -1631,7 +1695,7 @@
      ],
      "num_experts": 2,
      "rank": 3,
-     "notes": "Could see a target spike with Parker Washington out against Tennessee's weak defense."
+     "notes": "With Parker Washington out, Jacksonville's 25% two-tight-end rate opens up targets against Tennessee."
     },
     {
      "player_id": "3492045",
@@ -1657,6 +1721,7 @@
       "fpts": 7.04,
       "ppd": 2.43,
       "ceil": 16.1,
+      "floor": 2.1,
       "opto": 4.9,
       "pown": 3.3,
       "grade": 1.053,
@@ -1668,6 +1733,7 @@
       "fpts": 5.59,
       "ppd": 1.19,
       "ceil": 12.8,
+      "floor": 1.6,
       "opto": 2.2,
       "pown": 2.5,
       "grade": 0.709,
@@ -1678,7 +1744,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 4,
-     "notes": "Priced as the TE19 while an underdog script could boost passing targets."
+     "notes": "Usage worth 7.7 points per game has outpaced box scores against a Jets defense allowing the 2nd-most TE yards."
     },
     {
      "player_id": "3491778",
@@ -1704,6 +1770,7 @@
       "fpts": 9.74,
       "ppd": 2.5,
       "ceil": 21.5,
+      "floor": 2.8,
       "opto": 11.4,
       "pown": 7.6,
       "grade": 1.76,
@@ -1715,6 +1782,7 @@
       "fpts": 8.0,
       "ppd": 1.63,
       "ceil": 17.6,
+      "floor": 2.3,
       "opto": 9.7,
       "pown": 6.6,
       "grade": 1.732,
@@ -1725,7 +1793,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 5,
-     "notes": "Projects ahead of his TE9 salary in an offense carrying a solid implied total."
+     "notes": "Projects three spots ahead of his salary rank for a Washington offense carrying a 24-point team total."
     },
     {
      "player_id": "3491355",
@@ -1751,6 +1819,7 @@
       "fpts": 12.29,
       "ppd": 2.08,
       "ceil": 25.3,
+      "floor": 4.5,
       "opto": 8.1,
       "pown": 9.4,
       "grade": 1.576,
@@ -1762,6 +1831,7 @@
       "fpts": 10.08,
       "ppd": 1.63,
       "ceil": 20.8,
+      "floor": 3.7,
       "opto": 12.3,
       "pown": 12.3,
       "grade": 2.148,
@@ -1779,7 +1849,7 @@
      ],
      "num_experts": 1,
      "rank": 6,
-     "notes": "Faces a Colts defense that has struggled to cover tight ends recently."
+     "notes": "Draws a 30% red-zone target share against a Colts defense allowing the 9th-most adjusted points to tight ends."
     },
     {
      "player_id": "37069",
@@ -1805,6 +1875,7 @@
       "fpts": 11.44,
       "ppd": 1.76,
       "ceil": 23.4,
+      "floor": 4.1,
       "opto": 3.8,
       "pown": 5.3,
       "grade": 0.891,
@@ -1816,6 +1887,7 @@
       "fpts": 9.23,
       "ppd": 1.38,
       "ceil": 18.9,
+      "floor": 3.3,
       "opto": 7.4,
       "pown": 9.3,
       "grade": 1.488,
@@ -1826,7 +1898,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 7,
-     "notes": "Projects among the top tier of TEs in a tight divisional game as a slight underdog."
+     "notes": "Owns 33% of San Francisco's red-zone targets against a Seattle defense allowing the 2nd-most TE targets."
     },
     {
      "player_id": "328364",
@@ -1852,6 +1924,7 @@
       "fpts": 7.1,
       "ppd": 1.97,
       "ceil": 19.5,
+      "floor": 0.3,
       "opto": 4.3,
       "pown": 4.2,
       "grade": 0.8,
@@ -1863,6 +1936,7 @@
       "fpts": 5.96,
       "ppd": 1.1,
       "ceil": 16.4,
+      "floor": 0.3,
       "opto": 3.5,
       "pown": 2.3,
       "grade": 0.706,
@@ -1873,7 +1947,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 8,
-     "notes": "Tied to Cincinnati's 29-point implied team total against New Orleans."
+     "notes": "Tied to Cincinnati's 29-point implied team total in a high-scoring game environment."
     },
     {
      "player_id": "2862126",
@@ -1899,6 +1973,7 @@
       "fpts": 8.33,
       "ppd": 2.19,
       "ceil": 18.0,
+      "floor": 2.4,
       "opto": 4.4,
       "pown": 4.5,
       "grade": 1.049,
@@ -1910,6 +1985,7 @@
       "fpts": 6.58,
       "ppd": 1.29,
       "ceil": 14.2,
+      "floor": 1.9,
       "opto": 3.5,
       "pown": 3.3,
       "grade": 0.947,
@@ -1920,7 +1996,7 @@
      "expert_blurbs": [],
      "num_experts": 0,
      "rank": 9,
-     "notes": "Projects ahead of his TE10 salary in an underdog script requiring pass volume."
+     "notes": "Projects two spots ahead of his salary rank with trailing-script pass volume Likely as a 7-point underdog."
     }
    ]
   },
@@ -1951,6 +2027,7 @@
       "fpts": 8.31,
       "ppd": 3.08,
       "ceil": 15.2,
+      "floor": 3.2,
       "opto": 16.5,
       "pown": 16.3,
       "grade": 1.595,
@@ -1962,6 +2039,7 @@
       "fpts": 8.31,
       "ppd": 1.7,
       "ceil": 15.2,
+      "floor": 3.2,
       "opto": 8.6,
       "pown": 11.5,
       "grade": 0.563,
@@ -1998,6 +2076,7 @@
       "fpts": 7.85,
       "ppd": 2.45,
       "ceil": 14.7,
+      "floor": 3.4,
       "opto": 6.9,
       "pown": 7.5,
       "grade": 0.566,
@@ -2009,6 +2088,7 @@
       "fpts": 7.85,
       "ppd": 2.31,
       "ceil": 14.7,
+      "floor": 3.4,
       "opto": 10.3,
       "pown": 10.7,
       "grade": 1.112,
@@ -2045,6 +2125,7 @@
       "fpts": 6.85,
       "ppd": 2.21,
       "ceil": 13.6,
+      "floor": 2.3,
       "opto": 3.2,
       "pown": 9.4,
       "grade": -0.071,
@@ -2056,6 +2137,7 @@
       "fpts": 6.85,
       "ppd": 1.52,
       "ceil": 13.6,
+      "floor": 2.3,
       "opto": 2.5,
       "pown": 8.0,
       "grade": -0.273,
@@ -2092,6 +2174,7 @@
       "fpts": 8.04,
       "ppd": 2.77,
       "ceil": 15.7,
+      "floor": 3.3,
       "opto": 13.4,
       "pown": 8.1,
       "grade": 1.17,
@@ -2103,6 +2186,7 @@
       "fpts": 8.04,
       "ppd": 2.17,
       "ceil": 15.7,
+      "floor": 3.3,
       "opto": 14.7,
       "pown": 9.6,
       "grade": 1.277,
