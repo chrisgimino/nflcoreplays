@@ -193,7 +193,7 @@ table.t { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 
 .t tr.prow:hover .inside { text-decoration: underline }
 .dpill { display: inline-block; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent); font: 800 11px/1.3 var(--text); letter-spacing: .04em; white-space: nowrap }
 .t tr.prow:hover .dpill, .t tr.prow[aria-expanded="true"] .dpill { background: var(--accent); color: #fff }
-.t .tog { width: 86px } .t tr.prow[aria-expanded="true"] .tog { transform: none }
+.t .tog { width: 12px } .t tr.prow[aria-expanded="true"] .tog { transform: none }
 .t tr.prow[aria-expanded="true"] td { background-color: var(--accent-soft) }
 .t tr.drawer td { border-left: 4px solid var(--accent) }
 .hint { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; padding: 10px 14px; border-radius: 10px; background: var(--accent-soft); border: 1px solid var(--accent); font-size: 14px; color: var(--ink) }
@@ -203,6 +203,7 @@ table.t { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 
 :root:not(.seen) .t tr.prow:not([aria-expanded="true"]) .dpill { animation: pill 1.4s ease-in-out infinite }
 @keyframes pill { 50% { background: var(--accent); color: #fff } }
 .t .nm { min-width: 240px; max-width: 300px }
+.t td.nm .ln1 { overflow: hidden } .t td.nm .ln1 a { min-width: 0 } .t td.nm .ln1 .chip { flex: 0 0 auto }
 
 /* NFL additions */
 :root { --ez: #05153f }
@@ -228,6 +229,11 @@ table.t { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 
 .drow .dn { color: var(--faint); font-weight: 800 } .drow .dnm { font-weight: 700; color: var(--title) }
 .drow .dnote { grid-column: 2; font-size: 12px; color: var(--muted) }
 .simkey { line-height: 1.5 }
+.t td.nm .ln1 { overflow: hidden } .t td.nm .ln1 .pn { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0 } .t td.nm .ln1 .chip { flex: 0 0 auto }
+.rgrow { display: grid; grid-template-columns: 26px minmax(0, 1fr); column-gap: 8px; align-items: start; margin-bottom: 6px }
+.rgrow .rb { min-width: 0 } .rgrow .rbcap { grid-column: 2 }
+.rgl { font: 800 11px/22px var(--text); letter-spacing: .06em } .rgl.dk { color: var(--dk) } .rgl.fd { color: var(--fd) }
+.t .tog { width: 12px }
 .tlg { width: 16px; height: 16px; object-fit: contain; display: inline-block; vertical-align: -3px; margin-right: 3px }
 .gl .tlg { width: 22px; height: 22px; vertical-align: -6px }
 .nmw { display: flex; align-items: center; gap: 9px; min-width: 0 } .nmt { min-width: 0; flex: 1 }
@@ -290,6 +296,7 @@ table.t { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 
 
   <nav class="tabs" role="tablist" id="tabs">
     <button role="tab" data-v="plays" aria-selected="true">Sunday Best</button>
+    <button role="tab" data-v="range" aria-selected="false">Sim range</button>
     <button role="tab" data-v="inj" aria-selected="false">Injury report</button>
     <button role="tab" data-v="lineups" aria-selected="false">Lineups</button>
   </nav>
@@ -353,7 +360,7 @@ function renderBoard() {
 
 function render() {
   document.querySelectorAll("#tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.v === S.view)));
-  ({ plays: renderPlays, inj: renderInj, lineups: renderLineups })[S.view]();
+  ({ plays: renderPlays, range: renderRange, inj: renderInj, lineups: renderLineups })[S.view]();
 }
 
 // ---- Sunday Best: DK and FD side by side, tap a row for the note, expert picks and analyst notes
@@ -368,12 +375,18 @@ function drawer(r, ncol) {
   const ex = (r.experts || []).length ? `<div><h4>Expert picks${r.experts.length >= 4 ? ` · <span class="good">${r.experts.length} experts</span>` : ""}</h4><div class="pills">${r.experts.map(n => `<span class="ex t${tierOf(n)}">${esc(n)}</span>`).join("")}</div></div>` : "";
   const bl = (r.expert_blurbs || []).map(n => typeof n === "string" ? { text: n } : n).filter(n => n.text);
   const an = bl.length ? `<div><h4>Analyst notes</h4><div class="anl">${bl.map(n => `<div class="blurb">${n.author ? `<span class="by">${esc(n.author)}</span>` : ""}${esc(n.text)}</div>`).join("")}</div></div>` : "";
+  const rng = ["dk", "fd"].filter(s => r[s] && r[s].ceil != null && r[s].fpts != null).map(s => {
+    const b = r[s], lo = b.floor != null ? b.floor : 0, mx = Math.max(b.ceil, b.fpts) * 1.08, X = v => (100 * v / mx).toFixed(2) + "%";
+    return `<div class="rgrow"><span class="rgl ${s}">${s.toUpperCase()}</span><div class="rb"><span class="ax"></span>
+      <span class="box" style="left:${X(lo)};width:calc(${X(b.ceil)} - ${X(lo)})"></span><span class="pj" style="left:${X(b.fpts)}"></span><span class="p99" style="left:${X(b.ceil)}"></span></div>
+      <div class="rbcap"><span>${b.floor != null ? "floor " + fm(b.floor) : ""}</span><span>proj ${fm(b.fpts)}</span><span>ceiling ${fm(b.ceil)}</span></div></div>`; }).join("");
+  const sim = rng ? `<div><h4>Sim range</h4>${rng}</div>` : "";
   const kv = `<div><h4>By site</h4><div class="kv"><span></span><span class="h dk">DK</span><span class="h fd">FD</span>
-    ${[["Salary", b => money(b.salary)], ["Projection", b => fm(b.fpts)], ["Ceiling", b => fm(b.ceil)], ["Pts per $1K", b => fm(b.ppd, 2)],
+    ${[["Salary", b => money(b.salary)], ["Projection", b => fm(b.fpts)], ["Ceiling", b => fm(b.ceil)], ["Floor", b => fm(b.floor)], ["Pts per $1K", b => fm(b.ppd, 2)],
        ["Opto", b => b.opto == null ? "–" : fm(b.opto) + "%"], ["Ownership", b => b.pown == null ? "–" : fm(b.pown) + "%"]]
       .map(([k, f]) => `<span class="k">${k}</span><span class="v">${r.dk ? f(r.dk) : "–"}</span><span class="v">${r.fd ? f(r.fd) : "–"}</span>`).join("")}</div></div>`;
   return `<tr class="drawer"><td colspan="${ncol}"><div class="dr"><div style="display:flex;flex-direction:column;gap:12px">${note}${ex}${an}${!note && !ex && !an ? `<div class="dim" style="font-size:13px">No note or expert tags on him this week.</div>` : ""}</div>
-    <div>${kv}</div></div></td></tr>`;
+    <div style="display:flex;flex-direction:column;gap:12px">${sim}${kv}</div></div></td></tr>`;
 }
 function inside(r) {
   const bits = [];
@@ -393,13 +406,14 @@ function renderPlays() {
     body += `<tr class="pos"><td class="nm">${pb(p)}</td><td colspan="${ncol - 1}"></td></tr>`;
     for (const r of R) {
       const k = key(r), open = S.open.has(k), core = sites.some(s => r["core_" + s]);
-      const chips = [r.core_dk && sites.includes("dk") ? `<span class="chip core">Core DK</span>` : "", r.core_fd && sites.includes("fd") ? `<span class="chip core">Core FD</span>` : "",
-        (r.dk_slot === "GPP" || r.fd_slot === "GPP") ? `<span class="chip gpp">GPP</span>` : "", (r.saver_dk || r.saver_fd) ? `<span class="chip val">Value</span>` : "",
-        r.injury ? `<span class="chip q">${esc(r.injury)}</span>` : ""].join("");
+      // one tag at most: Core (which site only when it's just one), plus the injury letter
+      const cd = r.core_dk && sites.includes("dk"), cf = r.core_fd && sites.includes("fd");
+      const chips = ((cd || cf) ? `<span class="chip core">${cd && cf ? "Core" : both ? (cd ? "Core DK" : "Core FD") : "Core"}</span>` : "")
+        + (r.injury ? `<span class="chip q">${esc(r.injury)}</span>` : "");
       body += `<tr class="prow${core ? " core" : ""}" data-k="${esc(k)}" aria-expanded="${open}" tabindex="0">
         <td class="nm"><div class="nmw"><span class="xbtn" aria-hidden="true">${open ? "−" : "+"}</span><div class="nmt"><span class="ln1"><b class="pn">${esc(r.players)}</b>${chips}</span>
-          <span class="mt">${tm(r.team, r.opp)} · <span class="inside">${open ? "Close" : inside(r)}</span></span></div></div></td>
-        ${sites.map(s => siteCells(r, s)).join("")}<td class="tog"><span class="dpill">${open ? "Close ▴" : "Details ▾"}</span></td></tr>`;
+          <span class="mt">${tm(r.team, r.opp)}</span></div></div></td>
+        ${sites.map(s => siteCells(r, s)).join("")}<td class="tog"></td></tr>`;
       if (open) body += drawer(r, ncol);
     }
   }
@@ -408,9 +422,31 @@ function renderPlays() {
   const posList = ["ALL", ...(S.D.sections || []).map(s => s.position)];
   $("main").innerHTML = `<div class="ctl"><div class="seg">${posList.map(p => `<button data-p="${p}" aria-pressed="${p === S.pos}">${p === "ALL" ? "All" : p}</button>`).join("")}</div>
     <div class="seg">${[["both", "DK + FD"], ["dk", "DK"], ["fd", "FD"]].map(([v, l]) => `<button data-s="${v}" aria-pressed="${v === S.site}">${l}</button>`).join("")}</div>
-    <div class="legend"><span><span class="chip core">Core</span> top conviction</span><span><span class="chip gpp">GPP</span> ceiling / leverage</span><span><span class="chip val">Value</span> salary saver</span></div></div>
+    <div class="legend"><span><span class="chip core">Core</span> our top plays</span></div></div>
     <div class="hint"><span class="xbtn">+</span><span><b>Every player opens.</b> Tap any row for why he's here, the expert picks and the analysts' own notes.</span></div>
     <div class="tw"><table class="t"><thead>${band}${head}</thead><tbody>${body || `<tr><td class="nm">No plays.</td><td colspan="${ncol - 1}"></td></tr>`}</tbody></table></div>`;
+}
+
+// ---- sim range: floor to ceiling for every listed player, by position, one site at a time
+function renderRange() {
+  const site = S.site === "fd" ? "fd" : "dk", SN = site === "dk" ? "DK" : "FD";
+  const R = rows().filter(r => (S.pos === "ALL" || r._pos === S.pos) && r[site] && r[site].ceil != null)
+    .sort((a, b) => b[site].ceil - a[site].ceil);
+  const posList = ["ALL", ...(S.D.sections || []).map(s => s.position)];
+  const ctl = `<div class="ctl"><div class="seg">${posList.map(p => `<button data-p="${p}" aria-pressed="${p === S.pos}">${p === "ALL" ? "All" : p}</button>`).join("")}</div>
+    <div class="seg">${[["dk", "DK"], ["fd", "FD"]].map(([v, l]) => `<button data-s="${v}" aria-pressed="${v === site}">${l}</button>`).join("")}</div></div>`;
+  if (!R.length) { $("main").innerHTML = ctl + `<div class="empty">No ranges for this filter.</div>`; return; }
+  const mx = Math.max(10, ...R.map(r => r[site].ceil)) * 1.04, X = v => (100 * v / mx).toFixed(2) + "%";
+  const body = R.map(r => { const b = r[site], lo = b.floor != null ? b.floor : 0;
+    return `<tr><td class="nm"><span class="ln1"><b class="pn">${esc(r.players)}</b>${r.injury ? `<span class="chip q">${esc(r.injury)}</span>` : ""}</span><span class="mt">${tm(r.team, r.opp)} · ${esc(r._pos)}</span></td>
+      <td>${money(b.salary)}</td><td>${fm(b.fpts)}</td>
+      <td style="width:40%;min-width:240px"><div class="rb"><span class="ax"></span><span class="box" style="left:${X(lo)};width:calc(${X(b.ceil)} - ${X(lo)})"></span>
+        <span class="pj" style="left:${X(b.fpts)}"></span><span class="p99" style="left:${X(b.ceil)}"></span></div></td>
+      <td>${fm(b.floor)}</td><td><b>${fm(b.ceil)}</b></td><td>${b.salary ? fm(b.ceil / b.salary * 1000, 2) : "–"}</td></tr>`; }).join("");
+  $("main").innerHTML = `<div class="simkey"><span><i style="width:18px;height:10px;border:1px solid var(--accent);background:color-mix(in srgb,var(--accent) 30%,transparent);border-radius:2px;display:inline-block"></i>floor to ceiling</span>
+    <span><i style="width:0;height:12px;border-left:2px dashed var(--ink);display:inline-block"></i>projection</span><span><i style="width:9px;height:9px;border-radius:50%;background:var(--surface);border:2px solid var(--accent);display:inline-block"></i>ceiling</span>
+    <span>${SN} fantasy points · sorted by ceiling</span></div>${ctl}
+    <div class="tw"><table class="t"><thead><tr><th class="nm">Player</th><th>${SN} Sal</th><th>Proj</th><th style="text-align:left">Range</th><th>Floor</th><th>Ceiling</th><th title="Ceiling per $1,000 of salary">Ceil/$1K</th></tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
 // ---- injury report: questionable / doubtful / out on the main slate (from the projections feed)
